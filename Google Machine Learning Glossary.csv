@@ -16,16 +16,16 @@ accuracy (Google Machine Learning Glossary)|"
 is defined as follows:</p>
 
 <div>
-$$\text{Accuracy} =
-\frac{\text{Correct Predictions}} {\text{Total Number Of Examples}}$$
+[$$]\text{Accuracy} =
+\frac{\text{Correct Predictions}} {\text{Total Number Of Examples}}[/$$]
 </div>
 
 <p>In <a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>binary classification</strong></a>, accuracy has
 the following definition:</p>
 
 <div>
-$$\text{Accuracy} = \frac{\text{True Positives} + \text{True Negatives}}
-                         {\text{Total Number Of Examples}}$$
+[$$]\text{Accuracy} = \frac{\text{True Positives} + \text{True Negatives}}
+                         {\text{Total Number Of Examples}}[/$$]
 </div>
 
 <p>See <a href=""https://developers.google.com/machine-learning/glossary/#TP""><strong>true positive</strong></a> and
@@ -322,7 +322,7 @@ machine learning models.  For example, bias is the <em>b</em> in the
 following formula:</p>
 
 <div>
-$$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
+[$$]y' = b + w_1x_1 + w_2x_2 + … w_nx_n[/$$]
 </div>
 
 <p>Not to be confused with <a href=""https://developers.google.com/machine-learning/glossary/#bias_ethics""><strong>bias in ethics and fairness</strong></a>
@@ -1659,8 +1659,8 @@ false positive rate (FPR) (Google Machine Learning Glossary)|"
 as follows:</p>
 
 <div>
-$$\text{False Positive Rate} =
-\frac{\text{False Positives}}{\text{False Positives} + \text{True Negatives}}$$
+[$$]\text{False Positive Rate} =
+\frac{\text{False Positives}}{\text{False Positives} + \text{True Negatives}}[/$$]
 </div>
 
 "
@@ -2085,14 +2085,14 @@ squared hinge loss). For binary classification, the hinge loss function
 is defined as follows:</p>
 
 <div>
-$$\text{loss} = \text{max}(0, 1 - (y * y'))$$
+[$$]\text{loss} = \text{max}(0, 1 - (y * y'))[/$$]
 </div>
 
 <p>where <em>y</em> is the true label, either -1 or +1, and <em>y&#39;</em> is the raw output
 of the classifier model:</p>
 
 <div>
-$$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
+[$$]y' = b + w_1x_1 + w_2x_2 + … w_nx_n[/$$]
 </div>
 
 <p>Consequently, a plot of hinge loss vs. (y * y&#39;) looks as follows:</p>
@@ -2471,9 +2471,9 @@ and (5,-2) would be:</li>
 </ul>
 
 <div>
-$$
+[$$]
 {\text{Euclidean distance}} = {\sqrt {(2-5)^2 + (2--2)^2}} = 5
-$$
+[/$$]
 </div>
 
 <ul>
@@ -2485,9 +2485,9 @@ distance between (2,2) and (5,-2) would be:</li>
 </ul>
 
 <div>
-$$
+[$$]
 {\text{Manhattan distance}} = \lvert 2-5 \rvert + \lvert 2--2 \rvert = 7
-$$
+[/$$]
 </div>
 
 
@@ -2618,7 +2618,7 @@ is not one-to-one.</p>
 <p>A linear model uses the following formula:</p>
 
 <div>
-$$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
+[$$]y' = b + w_1x_1 + w_2x_2 + … w_nx_n[/$$]
 </div>
 
 <p>where:
@@ -2647,7 +2647,7 @@ bias and weights:
 the linear model uses the following equation to generate each prediction:</p>
 
 <div>
-$$y' = 7 + (-2.5)(x_1) + (-1.2)(x_2) + (1.4)(x_3)$$
+[$$]y' = 7 + (-2.5)(x_1) + (-1.2)(x_2) + (1.4)(x_3)[/$$]
 </div>
 
 <p>Suppose a particular example contains the following values:
@@ -2660,8 +2660,8 @@ $$y' = 7 + (-2.5)(x_1) + (-1.2)(x_2) + (1.4)(x_3)$$
 <p>Plugging those values into the formula yields a prediction for this example:</p>
 
 <div>
-$$y' = 7 + (-2.5)(4) + (-1.2)(-10) + (1.4)(5)$$
-$$y' = 16$$
+[$$]y' = 7 + (-2.5)(4) + (-1.2)(-10) + (1.4)(5)[/$$]
+[$$]y' = 16[/$$]
 </div>
 
 <p>Linear models tend to be easier to analyze and train than deep models. However,
@@ -2757,12 +2757,12 @@ probability of success and a 10% probability of failure. In this case,
 odds is calculated as follows:</p>
 
 <div>
-$$
+[$$]
 {\text{odds}} =
 \frac{\text{p}} {\text{(1-p)}} =
 \frac{.9} {.1} =
 {\text{9}}
-$$
+[/$$]
 </div>
 
 <p>The log-odds is simply the logarithm of the odds. By convention,
@@ -2771,10 +2771,10 @@ be any base greater than 1.  Sticking to convention, the log-odds of
 our example is therefore:</p>
 
 <div>
-$$
+[$$]
 {\text{log-odds}} =
 ln(9) ~= 2.2
-$$
+[/$$]
 </div>
 
 <p>The log-odds are the inverse of the <a href=""https://developers.google.com/machine-learning/glossary/#sigmoid_function""><strong>sigmoid function</strong></a>.</p>
@@ -3520,7 +3520,7 @@ For example, the following perceptron relies on the sigmoid function to process
 three input values:</p>
 
 <div>
-$$f(x_1, x_2, x_3) = \text{sigmoid}(w_1 x_1 + w_2 x_2 + w_3 x_3)$$
+[$$]f(x_1, x_2, x_3) = \text{sigmoid}(w_1 x_1 + w_2 x_2 + w_3 x_3)[/$$]
 </div>
 
 <p>In the following illustration, the perceptron takes three inputs, each of which
@@ -3563,7 +3563,7 @@ word the user is trying to type.</p>
 <p>Perplexity is related to <a href=""https://developers.google.com/machine-learning/glossary/#cross-entropy""><strong>cross-entropy</strong></a> as follows:</p>
 
 <div>
-$$P= 2^{-\text{cross entropy}}$$
+[$$]P= 2^{-\text{cross entropy}}[/$$]
 </div>
 
 "
@@ -3656,8 +3656,8 @@ identifies the frequency with which a model was correct when predicting the
 <a href=""https://developers.google.com/machine-learning/glossary/#positive_class""><strong>positive class</strong></a>. That is:</p>
 
 <div>
-$$\text{Precision} =
-\frac{\text{True Positives}} {\text{True Positives} + \text{False Positives}}$$
+[$$]\text{Precision} =
+\frac{\text{True Positives}} {\text{True Positives} + \text{False Positives}}[/$$]
 </div>
 
 "
@@ -3941,7 +3941,7 @@ of the regularization function. The following simplified <a href=""https://devel
 equation shows the regularization rate&#39;s influence:</p>
 
 <div>
-$$\text{minimize(loss function + }\lambda\text{(regularization function))}$$
+[$$]\text{minimize(loss function + }\lambda\text{(regularization function))}[/$$]
 </div>
 
 <p>Raising the regularization rate reduces <a href=""https://developers.google.com/machine-learning/glossary/#overfitting""><strong>overfitting</strong></a>
@@ -4012,7 +4012,7 @@ denote the rewards until the end of the episode, then the return calculation
 is as follows:</p>
 
 <div>
-$$\text{Return} = r_0 + \gamma r_1 + \gamma^2 r_2 + \ldots + \gamma^{N-1} r_{N-1}$$
+[$$]\text{Return} = r_0 + \gamma r_1 + \gamma^2 r_2 + \ldots + \gamma^{N-1} r_{N-1}[/$$]
 </div>
 
 "
@@ -4248,14 +4248,14 @@ probabilities, returning a value between 0 and 1.  The sigmoid function has
 the following formula:</p>
 
 <div>
-$$y = \frac{1}{1 + e^{-\sigma}}$$
+[$$]y = \frac{1}{1 + e^{-\sigma}}[/$$]
 </div>
 
 <p>where \(\sigma\) in <a href=""https://developers.google.com/machine-learning/glossary/#logistic_regression""><strong>logistic regression</strong></a> problems
 is simply:</p>
 
 <div>
-$$\sigma = b + w_1x_1 + w_2x_2 + … w_nx_n$$
+[$$]\sigma = b + w_1x_1 + w_2x_2 + … w_nx_n[/$$]
 </div>
 
 <p>In other words, the sigmoid function converts \(\sigma\) into a probability
@@ -4451,11 +4451,11 @@ consider a 10x10 matrix in which 98 cells contain zero. The calculation of
 sparsity is as follows:</p>
 
 <div>
-$$
+[$$]
 {\text{sparsity}} =
 \frac{\text{98}} {\text{100}} =
 {\text{0.98}}
-$$
+[/$$]
 </div>
 
 <p><strong>Feature sparsity</strong> refers to the sparsity of a feature vector;
@@ -4910,7 +4910,7 @@ true positive rate (TPR) (Google Machine Learning Glossary)|"
 <p>Synonym for <a href=""https://developers.google.com/machine-learning/glossary/#recall""><strong>recall</strong></a>. That is:</p>
 
 <div>
-$$\text{True Positive Rate} = \frac{\text{True Positives}} {\text{True Positives} + \text{False Negatives}}$$
+[$$]\text{True Positive Rate} = \frac{\text{True Positives}} {\text{True Positives} + \text{False Negatives}}[/$$]
 </div>
 
 <p>True positive rate is the y-axis in an <a href=""https://developers.google.com/machine-learning/glossary/#ROC""><strong>ROC curve</strong></a>.</p>
