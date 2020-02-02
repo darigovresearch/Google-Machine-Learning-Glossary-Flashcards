@@ -35,10 +35,7 @@ $$\text{Accuracy} = \frac{\text{True Positives} + \text{True Negatives}}
 <a href="#TN"><strong>true negative</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="action"></a>
-<h2 class="hide-from-toc">action</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc">action</h2></p>
 
 <p>In reinforcement learning, the mechanism by which the <a href="#agent"><strong>agent</strong></a>
 transitions between <a href="#state"><strong>states</strong></a> of the
@@ -73,10 +70,7 @@ an independent <a href="#learning_rate"><strong>learning rate</strong></a>. For 
 target="T">this paper</a>.</p>
 
 <p><a class="glossary-anchor" name="agent"></a>
-<h2 class="hide-from-toc"> agent</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> agent</h2></p>
 
 <p>In reinforcement learning, the entity that uses a <a href="#policy"><strong>policy</strong></a>
 to maximize expected <a href="#return"><strong>return</strong></a> gained from transitioning
@@ -122,10 +116,7 @@ intelligence. However, in recent years, some organizations have begun using the
 terms <em>artificial intelligence</em> and <em>machine learning</em> interchangeably.</p>
 
 <p><a class="glossary-anchor" name="attribute"></a>
-<h2 class="hide-from-toc"> attribute</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div></p>
+<h2 class="hide-from-toc"> attribute</h2></p>
 
 <p>Synonym for <a href="#feature"><strong>feature</strong></a>. In fairness, attributes often refer to
 characteristics pertaining to individuals.</p>
@@ -147,10 +138,7 @@ positive than that a randomly chosen negative example is positive.</p>
 the real world, thus providing a composite view.</p>
 
 <p><a class="glossary-anchor" name="automation_bias"></a>
-<h2 class="hide-from-toc"> automation bias </h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div></p>
+<h2 class="hide-from-toc"> automation bias </h2></p>
 
 <p>When a human decision maker favors recommendations made by an automated
 decision-making system over information made without automation, even
@@ -270,10 +258,7 @@ models related to pharmaceuticals. Bayesian neural networks can also help
 prevent <a href="#overfitting"><strong>overfitting</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="bellman_equation"></a>
-<h2 class="hide-from-toc"> Bellman equation</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> Bellman equation</h2></p>
 
 <p>In reinforcement learning, the following identity satisfied by the optimal
 <a href="#q-function"><strong>Q-function</strong></a>:</p>
@@ -295,10 +280,7 @@ dynamic programming. See the
 Wikipedia entry for Bellman Equation</a>.</p>
 
 <p><a class="glossary-anchor" name="bias_ethics"></a>
-<h2 class="hide-from-toc"> bias (ethics/fairness)</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div></p>
+<h2 class="hide-from-toc"> bias (ethics/fairness)</h2></p>
 
 <p>
 1. Stereotyping, prejudice or favoritism towards some things, people,
@@ -579,11 +561,7 @@ can also used to force <em>gradient values</em> within a designated range during
 training.</p>
 
 <p><a class="glossary-anchor" name="Cloud_TPU"></a>
-<h2 class="hide-from-toc"> Cloud TPU </h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-  <div class="glossary-icon" title="Google Cloud">#GoogleCloud</div>
-</div></p>
+<h2 class="hide-from-toc"> Cloud TPU </h2></p>
 
 <p>A specialized hardware accelerator designed to speed up machine
 learning workloads on Google Cloud Platform.</p>
@@ -631,10 +609,7 @@ based on the interests of many other users.  Collaborative filtering
 is often used in <a href="#recommendation_system"><strong>recommendation systems</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="confirmation_bias"></a>
-<h2 class="hide-from-toc"> confirmation bias </h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div></p>
+<h2 class="hide-from-toc"> confirmation bias </h2></p>
 
 <p>The tendency to search for, interpret, favor, and recall information in a
 way that confirms one&#39;s preexisting beliefs or hypotheses.
@@ -932,9 +907,6 @@ of the input matrix.</p>
 
 <p><a class="glossary-anchor" name="counterfactual_fairness"></a>
 <h2 class="hide-from-toc"> counterfactual fairness </h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div>
 A <a href="#fairness_metric"><strong>fairness metric</strong></a> that checks whether a classifier
 produces the same result for one individual as it does for another individual
 who is identical to the first, except with respect to one or more
@@ -963,10 +935,7 @@ crash blossom because an NLU model could interpret the headline literally or
 figuratively.</p>
 
 <p><a class="glossary-anchor" name="critic"></a>
-<h2 class="hide-from-toc"> critic</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> critic</h2></p>
 
 <p>Synonym for <a href="#deep_q-network"><strong>Deep Q-Network</strong></a>.</p>
 
@@ -986,10 +955,7 @@ testing the model against one or more non-overlapping data subsets withheld
 from the <a href="#training_set"><strong>training set</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="custom_estimator"></a>
-<h2 class="hide-from-toc"> custom Estimator</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> custom Estimator</h2></p>
 
 <p>An <a href="#Estimators"><strong>Estimator</strong></a> that you write yourself by following
 <a href="https://www.tensorflow.org/guide/custom_estimators"
@@ -1032,10 +998,7 @@ header), and each row is identified by a number.</p>
 <p>A collection of <a href="#example"><strong>examples</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="dataset_API"></a>
-<h2 class="hide-from-toc"> Dataset API (tf.data)</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> Dataset API (tf.data)</h2></p>
 
 <p>A high-level <a href="#TensorFlow"><strong>TensorFlow</strong></a> API for reading data and
 transforming it into a form that a machine learning algorithm requires.
@@ -1100,10 +1063,7 @@ tree three-levels deep whose branches predict house prices."></img>
 
 
 <p><a class="glossary-anchor" name="deep_q-network"></a>
-<h2 class="hide-from-toc"> Deep Q-Network (DQN)</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> Deep Q-Network (DQN)</h2></p>
 
 <p>In <a href="#q-learning"><strong>Q-learning</strong></a>, a deep <a href="#neural_network"><strong>neural network</strong></a>
 that predicts <a href="#q-function"><strong>Q-functions</strong></a>.</p>
@@ -1111,10 +1071,7 @@ that predicts <a href="#q-function"><strong>Q-functions</strong></a>.</p>
 <p><strong>Critic</strong> is a synonym for Deep Q-Network.</p>
 
 <p><a class="glossary-anchor" name="demographic_parity"></a>
-<h2 class="hide-from-toc"> demographic parity</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div></p>
+<h2 class="hide-from-toc"> demographic parity</h2></p>
 
 <p>A <a href="#fairness_metric"><strong>fairness metric</strong></a> that is satisfied if
 the results of a model&#39;s classification are not dependent on a
@@ -1174,10 +1131,7 @@ with length and width of 1 (1 ✕ 1 ✕ n).</p>
 Convolutions</a>.</p>
 
 <p><a class="glossary-anchor" name="device"></a>
-<h2 class="hide-from-toc"> device</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> device</h2></p>
 
 <p>A category of hardware that can run a TensorFlow session, including
 CPUs, GPUs, and <a href="#TPU"><strong>TPUs</strong></a>.</p>
@@ -1248,10 +1202,7 @@ network</strong></a> that determines whether
 the examples created by the <a href="#generator"><strong>generator</strong></a> are real or fake.</p>
 
 <p><a class="glossary-anchor" name="disparate_impact"></a>
-<h2 class="hide-from-toc"> disparate impact</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div></p>
+<h2 class="hide-from-toc"> disparate impact</h2></p>
 
 <p>Making decisions about people that impact different population
 subgroups disproportionately. This usually refers to situations
@@ -1270,10 +1221,7 @@ which focuses on disparities that result when subgroup characteristics
 are explicit inputs to an algorithmic decision-making process.</p>
 
 <p><a class="glossary-anchor" name="disparate_treatment"></a>
-<h2 class="hide-from-toc"> disparate treatment</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div></p>
+<h2 class="hide-from-toc"> disparate treatment</h2></p>
 
 <p>Factoring subjects&#39; <a href="#sensitive_attribute"><strong>sensitive attributes</strong></a>
 into an algorithmic decision-making process such that different subgroups
@@ -1322,10 +1270,7 @@ balance the amount of training on the majority and minority classes.</li>
 </ul>
 
 <p><a class="glossary-anchor" name="DQN"></a>
-<h2 class="hide-from-toc"> DQN</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> DQN</h2></p>
 
 <p>Abbreviation for <a href="#deep_q-network"><strong>Deep Q-Network</strong></a>.</p>
 
@@ -1350,10 +1295,7 @@ updating fashion.  That is, data is continuously entering the model.</p>
 
 
 <p><a class="glossary-anchor" name="eager_execution"></a>
-<h2 class="hide-from-toc"> eager execution</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> eager execution</h2></p>
 
 <p>A TensorFlow programming environment in which <a href="#Operation"><strong>operations</strong></a>
 run immediately. By contrast, operations called in
@@ -1434,10 +1376,7 @@ wide models</a>
 are a kind of ensemble.
 
 <p><a class="glossary-anchor" name="environment"></a>
-<h2 class="hide-from-toc"> environment</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> environment</h2></p>
 
 <p>In reinforcement learning, the world that contains the <a href="#agent"><strong>agent</strong></a>
 and allows the agent to observe that world&#39;s <a href="#state"><strong>state</strong></a>. For example,
@@ -1446,10 +1385,7 @@ maze. When the agent applies an <a href="#action"><strong>action</strong></a> to
 then the environment transitions between states.</p>
 
 <p><a class="glossary-anchor" name="episode"></a>
-<h2 class="hide-from-toc"> episode</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> episode</h2></p>
 
 <p>In reinforcement learning, each of the repeated attempts by the
 <a href="#agent"><strong>agent</strong></a> to learn an <a href="#environment"><strong>environment</strong></a>.</p>
@@ -1462,10 +1398,7 @@ seen once.  Thus, an epoch represents <code translate="no" dir="ltr">N</code>/<a
 <a href="#iteration"><strong>iterations</strong></a>, where <code translate="no" dir="ltr">N</code> is the total number of examples.</p>
 
 <p><a class="glossary-anchor" name="epsilon_greedy_policy"></a>
-<h2 class="hide-from-toc"> epsilon greedy policy</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> epsilon greedy policy</h2></p>
 
 <p>In reinforcement learning, a <a href="#policy"><strong>policy</strong></a> that either follows a
 <a href="#random_policy"><strong>random policy</strong></a> with epsilon probability or a
@@ -1480,9 +1413,6 @@ then greedily exploits the results of random exploration.</p>
 
 <p><a class="glossary-anchor" name="equality_of_opportunity"></a>
 <h2 class="hide-from-toc"> equality of opportunity </h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div>
 A <a href="#fairness_metric"><strong>fairness metric</strong></a> that checks whether, for
 a preferred <a href="#label"><strong>label</strong></a> (one that confers an advantage or
 benefit to a person) and a given <a href="#attribute"><strong>attribute</strong></a>, a classifier
@@ -1566,9 +1496,6 @@ exploring the tradeoffs when optimizing for equality of opportunity.</p>
 
 <p><a class="glossary-anchor" name="equalized_odds"></a>
 <h2 class="hide-from-toc"> equalized odds</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div>
 A <a href="#fairness_metric"><strong>fairness metric</strong></a> that checks if, for any particular
 label and attribute, a classifier predicts that label equally well for all
 values of that attribute.</p>
@@ -1637,10 +1564,7 @@ conditional on Y.&quot;</p>
 <aside class="note"><strong>Note:</strong><span> Contrast equalized odds with the more relaxed
 <a href="#equality_of_opportunity"><strong>equality of opportunity</strong></a> metric.</span></aside>
 <p><a class="glossary-anchor" name="Estimators"></a>
-<h2 class="hide-from-toc"> Estimator</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> Estimator</h2></p>
 
 <p>An instance of the <code translate="no" dir="ltr">tf.Estimator</code> class, which encapsulates logic that builds
 a TensorFlow graph and runs a TensorFlow session. You may create your own
@@ -1658,10 +1582,7 @@ and possibly a <a href="#label"><strong>label</strong></a>. See also
 <a href="#unlabeled_example"><strong>unlabeled example</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="experience_replay"></a>
-<h2 class="hide-from-toc"> experience replay</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> experience replay</h2></p>
 
 <p>In reinforcement learning, a <a href="#deep_q-network"><strong>DQN</strong></a> technique used to
 reduce temporal correlations in training data. The <a href="#agent"><strong>agent</strong></a>
@@ -1669,10 +1590,7 @@ stores state transitions in a <a href="#replay_buffer"><strong>replay buffer</st
 samples transitions from the replay buffer to create training data.</p>
 
 <p><a class="glossary-anchor" name="experimenters_bias"></a>
-<h2 class="hide-from-toc"> experimenter&#39;s bias </h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div></p>
+<h2 class="hide-from-toc"> experimenter&#39;s bias </h2></p>
 
 <p>See <a href="#confirmation_bias"><strong>confirmation bias</strong></a>.</p>
 
@@ -1694,9 +1612,6 @@ can mitigate this problem.</p>
 
 <p><a class="glossary-anchor" name="fairness_constraint"></a>
 <h2 class="hide-from-toc"> fairness constraint</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div>
 Applying a constraint to an algorithm to ensure one or more definitions
 of fairness are satisfied. Examples of fairness constraints include:</p>
 
@@ -1708,10 +1623,7 @@ of fairness are satisfied. Examples of fairness constraints include:</p>
 </ul>
 
 <p><a class="glossary-anchor" name="fairness_metric"></a>
-<h2 class="hide-from-toc"> fairness metric</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div></p>
+<h2 class="hide-from-toc"> fairness metric</h2></p>
 
 <p>A mathematical definition of “fairness” that is measurable.
 Some commonly used fairness metrics include:</p>
@@ -1760,10 +1672,7 @@ $$\text{False Positive Rate} =
 <p>An input variable used in making <a href="#prediction"><strong>predictions</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="feature_columns"></a>
-<h2 class="hide-from-toc"> Feature column (tf.feature_column)</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> Feature column (tf.feature_column)</h2></p>
 
 <p>A function that specifies how a model should interpret a particular feature. A
 list that collects the output returned by calls to such functions is a required
@@ -1824,10 +1733,7 @@ For example, postal code, property size, and property condition might
 comprise a simple feature set for a model that predicts housing prices.</p>
 
 <p><a class="glossary-anchor" name="feature_spec"></a>
-<h2 class="hide-from-toc"> feature spec</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> feature spec</h2></p>
 
 <p>Describes the information required to extract <a href="#feature"><strong>features</strong></a> data
 from the <a href="#tf.Example"><strong>tf.Example</strong></a> protocol buffer. Because the
@@ -2065,10 +1971,7 @@ finding the best combination of <a href="#weight"><strong>weights</strong></a> a
 minimize loss.</p>
 
 <p><a class="glossary-anchor" name="graph"></a>
-<h2 class="hide-from-toc"> graph</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> graph</h2></p>
 
 <p>In TensorFlow, a computation specification. Nodes in the graph
 represent operations. Edges are directed and represent passing the result
@@ -2077,10 +1980,7 @@ operand to another operation. Use
 <a href="#TensorBoard"><strong>TensorBoard</strong></a> to visualize a graph.</p>
 
 <p><a class="glossary-anchor" name="graph_execution"></a>
-<h2 class="hide-from-toc"> graph execution</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> graph execution</h2></p>
 
 <p>A TensorFlow programming environment in which the program first constructs
 a <a href="#graph"><strong>graph</strong></a> and then executes all or part of that graph. Graph
@@ -2089,10 +1989,7 @@ execution is the default execution mode in TensorFlow 1.x.</p>
 <p>Contrast with <a href="#eager_execution"><strong>eager execution</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="greedy_policy"></a>
-<h2 class="hide-from-toc"> greedy policy</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> greedy policy</h2></p>
 
 <p>In reinforcement learning, a <a href="#policy"><strong>policy</strong></a> that always chooses the
 action with the highest expected <a href="#return"><strong>return</strong></a>.</p>
@@ -2104,10 +2001,7 @@ action with the highest expected <a href="#return"><strong>return</strong></a>.<
 expert <a href="#rater"><strong>raters</strong></a> typically are the proxy for ground truth.</p>
 
 <p><a class="glossary-anchor" name="group_attribution_bias"></a>
-<h2 class="hide-from-toc"> group attribution bias </h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div></p>
+<h2 class="hide-from-toc"> group attribution bias </h2></p>
 
 <p>Assuming that what is true for an individual is also true for everyone
 in that group. The effects of group attribution bias can be exacerbated
@@ -2266,10 +2160,7 @@ Image recognition is also known as <strong>image classification</strong>.</p>
 <p>Synonym for <a href="#class_imbalanced_data_set"><strong>class-imbalanced dataset</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="implicit_bias"></a>
-<h2 class="hide-from-toc"> implicit bias </h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div></p>
+<h2 class="hide-from-toc"> implicit bias </h2></p>
 
 <p>Automatically making an association or assumption based on one’s mental
 models and memories. Implicit bias can affect the following:</p>
@@ -2288,10 +2179,7 @@ in certain cultures.</p>
 
 <p><a class="glossary-anchor" name="incompatibility_of_fairness_metrics"></a>
 <a class="glossary-anchor" name="incompatibility"></a>
-<h2 class="hide-from-toc"> incompatibility of fairness metrics</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div></p>
+<h2 class="hide-from-toc"> incompatibility of fairness metrics</h2></p>
 
 <p>The idea that some notions of fairness are mutually incompatible and
 cannot be satisfied simultaneously. As a result, there is no single
@@ -2321,10 +2209,7 @@ independent of another&#39;s visit. However, if you expand that window of time,
 seasonal differences in the web page&#39;s visitors may appear.</p>
 
 <p><a class="glossary-anchor" name="individual_fairness"></a>
-<h2 class="hide-from-toc"> individual fairness</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div></p>
+<h2 class="hide-from-toc"> individual fairness</h2></p>
 
 <p>A fairness metric that checks whether similar individuals are classified
 similarly. For example, Brobdingnagian Academy might want to satisfy
@@ -2350,10 +2235,7 @@ of a distribution conditioned on some observed data. (See the
 Wikipedia article on statistical inference</a>.)</p>
 
 <p><a class="glossary-anchor" name="in-group_bias"></a>
-<h2 class="hide-from-toc"> in-group bias </h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div></p>
+<h2 class="hide-from-toc"> in-group bias </h2></p>
 
 <p>Showing partiality to one&#39;s own group or own characteristics.
 If testers or raters consist of the machine learning developer&#39;s friends,
@@ -2365,10 +2247,7 @@ or the dataset.</p>
 See also <a href="#out-group_homogeneity_bias"><strong>out-group homogeneity bias</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="input_function"></a>
-<h2 class="hide-from-toc"> input function</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> input function</h2></p>
 
 <p>In TensorFlow, a function that returns input data to the training, evaluation,
 or prediction method of an <a href="#Estimators"><strong>Estimator</strong></a>.  For example,
@@ -2694,10 +2573,7 @@ have been composed, the user can convert the result into an
 <a href="#Estimators"><strong>Estimator</strong></a> via a <a href="#model_function"><strong>model function</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="layers_API"></a>
-<h2 class="hide-from-toc"> Layers API (tf.layers)</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> Layers API (tf.layers)</h2></p>
 
 <p>A TensorFlow API for constructing a <a href="#deep_model"><strong>deep</strong></a> neural network
 as a composition of layers. The Layers API enables you to build different
@@ -2974,10 +2850,7 @@ given a dataset containing 99% non-spam labels and 1% spam labels, the
 non-spam labels are the majority class.</p>
 
 <p><a class="glossary-anchor" name="markov_decision_process"></a>
-<h2 class="hide-from-toc"> Markov decision process (MDP)</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> Markov decision process (MDP)</h2></p>
 
 <p>A graph representing the decision-making model where decisions
 (or <a href="#action"><strong>actions</strong></a>) are taken to navigate a sequence of
@@ -2986,10 +2859,7 @@ non-spam labels are the majority class.</p>
 these transitions between states return a numerical <a href="#reward"><strong>reward</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="Markov_property"></a>
-<h2 class="hide-from-toc"> Markov property</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> Markov property</h2></p>
 
 <p>A property of certain <a href="#environment"><strong>environments</strong></a>, where state
 transitions are entirely determined by information implicit in the
@@ -3117,10 +2987,7 @@ $y$ and its prediction $\hat{y}$, MAE is defined as follows:</p>
 &quot;Training loss&quot; and &quot;Test loss&quot; are MSE.</p>
 
 <p><a class="glossary-anchor" name="metric"></a>
-<h2 class="hide-from-toc"> metric</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> metric</h2></p>
 
 <p>A number that you care about. May or may not be directly optimized in a
 machine-learning system. A metric that your system tries to optimize is
@@ -3215,10 +3082,7 @@ formal definition of classifier capacity, see
 target="T">VC dimension</a>.</p>
 
 <p><a class="glossary-anchor" name="model_function"></a>
-<h2 class="hide-from-toc"> model function</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> model function</h2></p>
 
 <p>The function within an <a href="#Estimators"><strong>Estimator</strong></a> that implements
 machine learning training, evaluation, and inference. For example, the
@@ -3363,10 +3227,7 @@ understanding</strong></a>.</p>
 <p>A <a href="#neuron"><strong>neuron</strong></a> in a <a href="#hidden_layer"><strong>hidden layer</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="node_graph"></a>
-<h2 class="hide-from-toc"> node (TensorFlow graph)</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> node (TensorFlow graph)</h2></p>
 
 <p>An operation in a TensorFlow <a href="#graph"><strong>graph</strong></a>.</p>
 
@@ -3382,10 +3243,7 @@ can be introduced into data in a variety of ways. For example:</p>
 </ul>
 
 <p><a class="glossary-anchor" name="non-response_bias"></a>
-<h2 class="hide-from-toc"> non-response bias </h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div></p>
+<h2 class="hide-from-toc"> non-response bias </h2></p>
 
 <p>See <a href="#selection_bias"><strong>selection bias</strong></a>.</p>
 
@@ -3509,10 +3367,7 @@ following three separate binary classifiers:</p>
 <a href="#offline_inference"><strong>offline inference</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="Operation"></a>
-<h2 class="hide-from-toc"> Operation (op)</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> Operation (op)</h2></p>
 
 <p>A node in the TensorFlow graph. In TensorFlow, any procedure that creates,
 manipulates, or destroys a <a href="#tensor"><strong>Tensor</strong></a> is an operation. For
@@ -3555,10 +3410,7 @@ and others)</li>
 <a href="https://arxiv.org/abs/1606.04474" target="T">NN-driven optimizer</a>.</p>
 
 <p><a class="glossary-anchor" name="out-group_homogeneity_bias"></a>
-<h2 class="hide-from-toc"> out-group homogeneity bias </h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div></p>
+<h2 class="hide-from-toc"> out-group homogeneity bias </h2></p>
 
 <p>The tendency to see out-group members as more alike than in-group members
 when comparing attitudes, values, personality traits, and other
@@ -3623,10 +3475,7 @@ machine learning system gradually learns through successive training
 iterations. Contrast with <a href="#hyperparameter"><strong>hyperparameter</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="Parameter_Server"></a>
-<h2 class="hide-from-toc"> Parameter Server (PS)</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> Parameter Server (PS)</h2></p>
 
 <p>A job that keeps track of a model&#39;s <a href="#parameter"><strong>parameters</strong></a> in a
 distributed setting.</p>
@@ -3652,10 +3501,7 @@ constant). The partial derivative of <em>f</em> with respect to <em>x</em> focus
 how <em>x</em> is changing and ignores all other variables in the equation.</p>
 
 <p><a class="glossary-anchor" name="participation_bias"></a>
-<h2 class="hide-from-toc"> participation bias</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div></p>
+<h2 class="hide-from-toc"> participation bias</h2></p>
 
 <p>Synonym for non-response bias.  See <a href="#selection_bias"><strong>selection bias</strong></a>.</p>
 
@@ -3731,10 +3577,7 @@ includes gathering the data, putting the data into training data files,
 training one or more models, and exporting the models to production.</p>
 
 <p><a class="glossary-anchor" name="policy"></a>
-<h2 class="hide-from-toc"> policy</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> policy</h2></p>
 
 <p>In reinforcement learning, an <a href="#agent"><strong>agent&#39;s</strong></a> probabilistic mapping
 from <a href="#state"><strong>states</strong></a> to <a href="#action"><strong>actions</strong></a>.</p>
@@ -3786,9 +3629,6 @@ might be &quot;spam.&quot;</p>
 <p><a class="glossary-anchor" name="postprocessing"></a>
 <a class="glossary-anchor" name="post-processing"></a>
 <h2 class="hide-from-toc"> post-processing</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div>
 Processing the output of a model <em>after</em> the model has been run.
 Post-processing can be used to enforce fairness constraints without
 modifying models themselves.</p>
@@ -3845,10 +3685,7 @@ in the dataset.</p>
 or with <a href="#bias_ethics"><strong>bias in ethics and fairness</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="predictive_parity"></a>
-<h2 class="hide-from-toc"> predictive parity</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div></p>
+<h2 class="hide-from-toc"> predictive parity</h2></p>
 
 <p>A <a href="#fairness_metric"><strong>fairness metric</strong></a> that checks whether,
 for a given classifier, the <a href="#precision"><strong>precision</strong></a> rates
@@ -3865,18 +3702,12 @@ Explained&quot;</a> (section 3.2.1)
 for a more detailed discussion of predictive parity.</p>
 
 <p><a class="glossary-anchor" name="predictive_rate_parity"></a>
-<h2 class="hide-from-toc"> predictive rate parity</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div></p>
+<h2 class="hide-from-toc"> predictive rate parity</h2></p>
 
 <p>Another name for <a href="#predictive_parity"><strong>predictive parity</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="premade_Estimator"></a>
-<h2 class="hide-from-toc"> premade Estimator</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> premade Estimator</h2></p>
 
 <p>An <a href="#Estimators"><strong>Estimator</strong></a> that someone has already built.
 TensorFlow provides several premade Estimators, including <code translate="no" dir="ltr">DNNClassifier</code>,
@@ -3889,9 +3720,6 @@ target="T">Premade Estimators chapter</a> in the TensorFlow Programmers Guide.</
 
 <p><a class="glossary-anchor" name="preprocessing"></a>
 <h2 class="hide-from-toc"> preprocessing</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div>
 Processing data before it&#39;s used to train a model. Preprocessing could
 be as simple as removing words from an English text corpus that don&#39;t
 occur in the English dictionary, or could be as complex as re-expressing
@@ -3917,9 +3745,6 @@ distributed around zero.</p>
 
 <p><a class="glossary-anchor" name="proxy_sensitive_attributes"></a>
 <h2 class="hide-from-toc"> proxy (sensitive attributes)</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div>
 An attribute used as a stand-in for a
 <a href="#sensitive_attribute"><strong>sensitive attribute</strong></a>. For example, an
 individual&#39;s postal code might be used as a proxy for their income,
@@ -3940,10 +3765,7 @@ the rain.</p>
 
 
 <p><a class="glossary-anchor" name="q-function"></a>
-<h2 class="hide-from-toc"> Q-function</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> Q-function</h2></p>
 
 <p>In reinforcement learning, the function that predicts the expected
 <a href="#return"><strong>return</strong></a> from taking an <a href="#action"><strong>action</strong></a> in a
@@ -3952,10 +3774,7 @@ the rain.</p>
 <p>Q-function is also known as <strong>state-action value function</strong>.</p>
 
 <p><a class="glossary-anchor" name="q-learning"></a>
-<h2 class="hide-from-toc"> Q-learning</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> Q-learning</h2></p>
 
 <p>In reinforcement learning, an algorithm that allows an <a href="#agent"><strong>agent</strong></a>
 to learn the optimal <a href="#q-function"><strong>Q-function</strong></a> of a
@@ -3990,10 +3809,7 @@ a wider range of feature values than others."></img>
 a particular <a href="#feature"><strong>feature</strong></a> in a <a href="#data_set"><strong>dataset</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="queue"></a>
-<h2 class="hide-from-toc"> queue</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> queue</h2></p>
 
 <p>A TensorFlow <a href="#Operation"><strong>Operation</strong></a> that implements a queue data
 structure. Typically
@@ -4010,10 +3826,7 @@ building each of the decision trees from a random selection of features;
 the &quot;forest&quot; refers to the set of decision trees.</p>
 
 <p><a class="glossary-anchor" name="random_policy"></a>
-<h2 class="hide-from-toc"> random policy</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> random policy</h2></p>
 
 <p>In reinforcement learning, a <a href="#policy"><strong>policy</strong></a> that chooses an
 <a href="#action"><strong>action</strong></a> at random.</p>
@@ -4028,10 +3841,7 @@ lowest (wilted kale).</p>
 
 <p><a class="glossary-anchor" name="rank"></a>
 <a class="glossary-anchor" name="rank_Tensor"></a>
-<h2 class="hide-from-toc"> rank (Tensor)</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> rank (Tensor)</h2></p>
 
 <p>The number of dimensions in a <a href="#tensor"><strong>Tensor</strong></a>. For instance,
 a scalar has rank 0, a vector has rank 1, and a matrix has rank 2.</p>
@@ -4142,10 +3952,7 @@ $$\text{minimize(loss function + }\lambda\text{(regularization function))}$$
 but may make the model less <a href="#accuracy"><strong>accurate</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="reinforcement_learning"></a>
-<h2 class="hide-from-toc"> reinforcement learning (RL)</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> reinforcement learning (RL)</h2></p>
 
 <p>A family of algorithms that learn an optimal <a href="#policy"><strong>policy</strong></a>, whose goal
 is to maximize <a href="#return"><strong>return</strong></a> when interacting with
@@ -4156,20 +3963,14 @@ games by evaluating sequences of previous game moves that ultimately
 led to wins and sequences that ultimately led to losses.</p>
 
 <p><a class="glossary-anchor" name="replay_buffer"></a>
-<h2 class="hide-from-toc"> replay buffer</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> replay buffer</h2></p>
 
 <p>In <a href="#deep_q-network"><strong>DQN</strong></a>-like algorithms, the memory used by the agent
 to store state transitions for use in
 <a href="#experience_replay"><strong>experience replay</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="reporting_bias"></a>
-<h2 class="hide-from-toc"> reporting bias </h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div></p>
+<h2 class="hide-from-toc"> reporting bias </h2></p>
 
 <p>The fact that the frequency with which people write about actions,
 outcomes, or properties is not a reflection of their real-world
@@ -4201,10 +4002,7 @@ generated by the <a href="#scoring"><strong>scoring</strong></a> phase, taking a
 </ul>
 
 <p><a class="glossary-anchor" name="return"></a>
-<h2 class="hide-from-toc"> return</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> return</h2></p>
 
 <p>In reinforcement learning, given a certain policy and a certain state, the
 return is the sum of all <a href="#reward"><strong>rewards</strong></a> that the <a href="#agent"><strong>agent</strong></a>
@@ -4222,10 +4020,7 @@ $$\text{Return} = r_0 + \gamma r_1 + \gamma^2 r_2 + \ldots + \gamma^{N-1} r_{N-1
 </div>
 
 <p><a class="glossary-anchor" name="reward"></a>
-<h2 class="hide-from-toc"> reward</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> reward</h2></p>
 
 <p>In reinforcement learning, the numerical result of taking an
 <a href="#action"><strong>action</strong></a> in a <a href="#state"><strong>state</strong></a>, as defined by
@@ -4253,10 +4048,7 @@ in machine learning.</p>
 <a href="#AUC"><strong>AUC</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="root_directory"></a>
-<h2 class="hide-from-toc"> root directory</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> root directory</h2></p>
 
 <p>The directory you specify for hosting subdirectories of the TensorFlow
 checkpoint and events files of multiple models.</p>
@@ -4280,18 +4072,12 @@ for example, an upside-down 9 should not be classified as a 9.</p>
 
 
 <p><a class="glossary-anchor" name="sampling_bias"></a>
-<h2 class="hide-from-toc"> sampling bias </h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div></p>
+<h2 class="hide-from-toc"> sampling bias </h2></p>
 
 <p>See <a href="#selection_bias"><strong>selection bias</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="SavedModel"></a>
-<h2 class="hide-from-toc"> SavedModel</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> SavedModel</h2></p>
 
 <p>The recommended format for saving and recovering TensorFlow models. SavedModel
 is a language-neutral, recoverable serialization format, which enables
@@ -4303,10 +4089,7 @@ target="T">Saving and Restoring chapter</a>
 in the TensorFlow Programmer&#39;s Guide for complete details.</p>
 
 <p><a class="glossary-anchor" name="Saver"></a>
-<h2 class="hide-from-toc"> Saver</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> Saver</h2></p>
 
 <p>A <a href="https://www.tensorflow.org/api_docs/python/tf/train/Saver"
 target="T">TensorFlow object</a>
@@ -4352,10 +4135,7 @@ provides a value or ranking for each item produced by the
 <a href="#candidate_generation"><strong>candidate generation</strong></a> phase.</p>
 
 <p><a class="glossary-anchor" name="selection_bias"></a>
-<h2 class="hide-from-toc"> selection bias </h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div></p>
+<h2 class="hide-from-toc"> selection bias </h2></p>
 
 <p>Errors in conclusions drawn from sampled data due to a selection process
 that generates systematic differences between samples observed in the data
@@ -4407,9 +4187,6 @@ but unlabeled examples are plentiful.</p>
 
 <p><a class="glossary-anchor" name="sensitive_attribute"></a>
 <h2 class="hide-from-toc"> sensitive attribute</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div>
 A human attribute that may be given special consideration for legal,
 ethical, social, or personal reasons.</p>
 
@@ -4438,10 +4215,7 @@ the next video watched from a sequence of previously watched videos.</p>
 
 
 <p><a class="glossary-anchor" name="session"></a>
-<h2 class="hide-from-toc"> session (tf.session)</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> session (tf.session)</h2></p>
 
 <p>An object that encapsulates the state of the TensorFlow runtime
 and runs all or part of a <a href="#graph"><strong>graph</strong></a>. When using the
@@ -4715,20 +4489,14 @@ That is, squared loss reacts more strongly to outliers
 than <a href="#L1_loss"><strong>L<sub>1</sub> loss</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="state"></a>
-<h2 class="hide-from-toc"> state</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> state</h2></p>
 
 <p>In reinforcement learning, the parameter values that describe the current
 configuration of the environment, which the <a href="#agent"><strong>agent</strong></a> uses to
 choose an <a href="#action"><strong>action</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="state-action_value_function"></a>
-<h2 class="hide-from-toc"> state-action value function</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> state-action value function</h2></p>
 
 <p>Synonym for <a href="#q-function"><strong>Q-function</strong></a>.</p>
 
@@ -4804,10 +4572,7 @@ training set is a structural risk minimization algorithm.</p>
 <p>See <a href="#pooling"><strong>pooling</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="summary"></a>
-<h2 class="hide-from-toc"> summary</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> summary</h2></p>
 
 <p>In TensorFlow, a value or set of values calculated at a particular
 <a href="#step"><strong>step</strong></a>, usually used for tracking model metrics during training.</p>
@@ -4841,10 +4606,7 @@ alone are not considered synthetic features.</p>
 
 
 <p><a class="glossary-anchor" name="tabular_q-learning"></a>
-<h2 class="hide-from-toc"> tabular Q-learning</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> tabular Q-learning</h2></p>
 
 <p>In reinforcement learning, implementing <a href="#q-learning"><strong>Q-learning</strong></a>
 by using a table to store the <a href="#q-function"><strong>Q-functions</strong></a> for every
@@ -4856,10 +4618,7 @@ combination of <a href="#state"><strong>state</strong></a> and <a href="#action"
 <p>Synonym for <a href="#label"><strong>label</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="target_network"></a>
-<h2 class="hide-from-toc"> target network</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> target network</h2></p>
 
 <p>In <a href="#q-learning"><strong>Deep Q-learning</strong></a>, a neural network that is a stable
 approximation of the main neural network, where the main neural network
@@ -4876,10 +4635,7 @@ training stability increases.</p>
 recorded for each day of the year would be temporal data.</p>
 
 <p><a class="glossary-anchor" name="tensor"></a>
-<h2 class="hide-from-toc"> Tensor</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> Tensor</h2></p>
 
 <p>The primary data structure in TensorFlow programs. Tensors are N-dimensional
 (where N could be very large) data structures, most commonly scalars, vectors,
@@ -4887,19 +4643,13 @@ or matrices. The elements of a Tensor can hold integer, floating-point,
 or string values.</p>
 
 <p><a class="glossary-anchor" name="TensorBoard"></a>
-<h2 class="hide-from-toc"> TensorBoard</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> TensorBoard</h2></p>
 
 <p>The dashboard that displays the summaries saved during the execution of one or
 more TensorFlow programs.</p>
 
 <p><a class="glossary-anchor" name="TensorFlow"></a>
-<h2 class="hide-from-toc"> TensorFlow</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> TensorFlow</h2></p>
 
 <p>A large-scale, distributed, machine learning platform. The term also refers to
 the base API layer in the TensorFlow stack, which supports general computation
@@ -4910,10 +4660,7 @@ TensorFlow for non-ML tasks that require numerical computation using
 dataflow graphs.</p>
 
 <p><a class="glossary-anchor" name="TensorFlow_Playground"></a>
-<h2 class="hide-from-toc"> TensorFlow Playground</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> TensorFlow Playground</h2></p>
 
 <p>A program that visualizes how different
 <a href="#hyperparameter"><strong>hyperparameters</strong></a> influence model
@@ -4924,56 +4671,37 @@ http://playground.tensorflow.org</a>
 to experiment with TensorFlow Playground.</p>
 
 <p><a class="glossary-anchor" name="TensorFlow_Serving"></a>
-<h2 class="hide-from-toc"> TensorFlow Serving</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> TensorFlow Serving</h2></p>
 
 <p>A platform to deploy trained models in production.</p>
 
 <p><a class="glossary-anchor" name="TPU"></a>
-<h2 class="hide-from-toc"> Tensor Processing Unit (TPU)</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-  <div class="glossary-icon" title="Google Cloud">#GoogleCloud</div>
-</div></p>
+<h2 class="hide-from-toc"> Tensor Processing Unit (TPU)</h2></p>
 
 <p>An application-specific integrated circuit (ASIC) that optimizes the
 performance of machine learning workloads. These ASICs are deployed as
 multiple <a href="#TPU_chip"><strong>TPU chips</strong></a> on a <a href="#TPU_device"><strong>TPU device</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="tensor_rank"></a>
-<h2 class="hide-from-toc"> Tensor rank</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> Tensor rank</h2></p>
 
 <p>See <a href="#rank_Tensor"><strong>rank (Tensor)</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="tensor_shape"></a>
-<h2 class="hide-from-toc"> Tensor shape</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> Tensor shape</h2></p>
 
 <p>The number of elements a <a href="#tensor"><strong>Tensor</strong></a> contains in various dimensions.
 For example, a [5, 10] Tensor has a shape of 5 in one dimension and 10
 in another.</p>
 
 <p><a class="glossary-anchor" name="tensor_size"></a>
-<h2 class="hide-from-toc"> Tensor size</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> Tensor size</h2></p>
 
 <p>The total number of scalars a <a href="#tensor"><strong>Tensor</strong></a> contains. For example, a
 [5, 10] Tensor has a size of 50.</p>
 
 <p><a class="glossary-anchor" name="termination_condition"></a>
-<h2 class="hide-from-toc"> termination condition</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> termination condition</h2></p>
 
 <p>In reinforcement learning, the conditions that determine when an
 <a href="#episode"><strong>episode</strong></a> ends, such as when the agent reaches a certain state
@@ -4992,10 +4720,7 @@ after the model has gone through initial vetting by the validation set.
 <a href="#validation_set"><strong>validation set</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="tf.Example"></a>
-<h2 class="hide-from-toc"> tf.Example</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> tf.Example</h2></p>
 
 <p>A standard
 <a href="https://developers.google.com/protocol-buffers/" target="T">
@@ -5003,10 +4728,7 @@ protocol buffer</a>
 for describing input data for machine learning model training or inference.</p>
 
 <p><a class="glossary-anchor" name="tf.keras"></a>
-<h2 class="hide-from-toc"> tf.keras</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-</div></p>
+<h2 class="hide-from-toc"> tf.keras</h2></p>
 
 <p>An implementation of <a href="#Keras"><strong>Keras</strong></a> integrated into
 <a href="#TensorFlow"><strong>TensorFlow</strong></a>.</p>
@@ -5043,41 +4765,25 @@ each tower reads from an independent data source. Towers are independent
 until their output is combined in a final layer.</p>
 
 <p><a class="glossary-anchor" name="TPUabbrev"></a>
-<h2 class="hide-from-toc"> TPU </h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-  <div class="glossary-icon" title="Google Cloud">#GoogleCloud</div>
-</div></p>
+<h2 class="hide-from-toc"> TPU </h2></p>
 
 <p>Abbreviation for <a href="#TPU"><strong>Tensor Processing Unit</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="TPU_chip"></a>
-<h2 class="hide-from-toc"> TPU chip </h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-  <div class="glossary-icon" title="Google Cloud">#GoogleCloud</div>
-</div></p>
+<h2 class="hide-from-toc"> TPU chip </h2></p>
 
 <p>A programmable linear algebra accelerator with on-chip high bandwidth memory
 that is optimized for machine learning workloads.
 Multiple TPU chips are deployed on a <a href="#TPU_device"><strong>TPU device</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="TPU_device"></a>
-<h2 class="hide-from-toc"> TPU device </h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-  <div class="glossary-icon" title="Google Cloud">#GoogleCloud</div>
-</div></p>
+<h2 class="hide-from-toc"> TPU device </h2></p>
 
 <p>A printed circuit board (PCB) with multiple <a href="#TPU_chip"><strong>TPU chips</strong></a>,
 high bandwidth network interfaces, and system cooling hardware.</p>
 
 <p><a class="glossary-anchor" name="TPU_master"></a>
-<h2 class="hide-from-toc"> TPU master</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-  <div class="glossary-icon" title="Google Cloud">#GoogleCloud</div>
-</div></p>
+<h2 class="hide-from-toc"> TPU master</h2></p>
 
 <p>The central coordination process running on a host machine that sends and
 receives data, results, programs, performance, and system health information
@@ -5085,11 +4791,7 @@ to the <a href="#TPU_worker"><strong>TPU workers</strong></a>. The TPU master al
 and shutdown of <a href="#TPU_device"><strong>TPU devices</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="TPU_node"></a>
-<h2 class="hide-from-toc"> TPU node </h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-  <div class="glossary-icon" title="Google Cloud">#GoogleCloud</div>
-</div></p>
+<h2 class="hide-from-toc"> TPU node </h2></p>
 
 <p>A TPU resource on Google Cloud Platform with a specific
 <a href="#TPU_type"><strong>TPU type</strong></a>. The TPU node connects to your
@@ -5099,11 +4801,7 @@ TPU nodes are a resource defined in the
 <a href="https://cloud.google.com/tpu/docs/reference/rest/v1/projects.locations.nodes">Cloud TPU API</a>.</p>
 
 <p><a class="glossary-anchor" name="TPU_Pod"></a>
-<h2 class="hide-from-toc"> TPU Pod </h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-  <div class="glossary-icon" title="Google Cloud">#GoogleCloud</div>
-</div></p>
+<h2 class="hide-from-toc"> TPU Pod </h2></p>
 
 <p>A specific configuration of <a href="#TPU_device"><strong>TPU devices</strong></a> in a Google
 data center. All of the devices in a TPU pod are connected to one another
@@ -5111,33 +4809,21 @@ over a dedicated high-speed network. A TPU Pod is the largest configuration of
 <a href="#TPU_device"><strong>TPU devices</strong></a> available for a specific TPU version.</p>
 
 <p><a class="glossary-anchor" name="TPU_resource"></a>
-<h2 class="hide-from-toc"> TPU resource</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-  <div class="glossary-icon" title="Google Cloud">#GoogleCloud</div>
-</div></p>
+<h2 class="hide-from-toc"> TPU resource</h2></p>
 
 <p>A TPU entity on Google Cloud Platform that you create, manage, or consume. For
 example, <a href="#TPU_node"><strong>TPU nodes</strong></a> and <a href="#TPU_type"><strong>TPU types</strong></a> are
 TPU resources.</p>
 
 <p><a class="glossary-anchor" name="TPU_slice"></a>
-<h2 class="hide-from-toc"> TPU slice</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-  <div class="glossary-icon" title="Google Cloud">#GoogleCloud</div>
-</div></p>
+<h2 class="hide-from-toc"> TPU slice</h2></p>
 
 <p>A TPU slice is a fractional portion of the <a href="#TPU_device"><strong>TPU devices</strong></a> in
 a <a href="#TPU_Pod"><strong>TPU Pod</strong></a>. All of the devices in a TPU slice are connected
 to one another over a dedicated high-speed network.</p>
 
 <p><a class="glossary-anchor" name="TPU_type"></a>
-<h2 class="hide-from-toc"> TPU type </h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-  <div class="glossary-icon" title="Google Cloud">#GoogleCloud</div>
-</div></p>
+<h2 class="hide-from-toc"> TPU type </h2></p>
 
 <p>A configuration of one or more <a href="#TPU_device"><strong>TPU devices</strong></a> with a specific
 TPU hardware version. You select a TPU type when you create
@@ -5148,11 +4834,7 @@ defined in the
 <a href="https://cloud.google.com/tpu/docs/reference/rest/v1/projects.locations.acceleratorTypes">Cloud TPU API</a>.</p>
 
 <p><a class="glossary-anchor" name="TPU_worker"></a>
-<h2 class="hide-from-toc"> TPU worker</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="TensorFlow">#TensorFlow</div>
-  <div class="glossary-icon" title="Google Cloud">#GoogleCloud</div>
-</div></p>
+<h2 class="hide-from-toc"> TPU worker</h2></p>
 
 <p>A process that runs on a host machine and executes machine learning programs
 on <a href="#TPU_device"><strong>TPU devices</strong></a>.</p>
@@ -5172,10 +4854,7 @@ a model.</p>
 <a href="#test_set"><strong>test set</strong></a>.</p>
 
 <p><a class="glossary-anchor" name="trajectory"></a>
-<h2 class="hide-from-toc"> trajectory</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Reinforcement Learning">#rl</div>
-</div></p>
+<h2 class="hide-from-toc"> trajectory</h2></p>
 
 <p>In reinforcement learning, a sequence of
 <a href="https://wikipedia.org/wiki/Tuple" target="T">tuples</a> that represent
@@ -5242,10 +4921,7 @@ $$\text{True Positive Rate} = \frac{\text{True Positives}} {\text{True Positives
 
 
 <p><a class="glossary-anchor" name="unawareness"></a>
-<h2 class="hide-from-toc"> unawareness (to a sensitive attribute)</h2>
-<div class="glossary-icon-container">
-  <div class="glossary-icon" title="Fairness">#fairness</div>
-</div></p>
+<h2 class="hide-from-toc"> unawareness (to a sensitive attribute)</h2></p>
 
 <p>A situation in which <a href="#sensitive_attribute"><strong>sensitive attributes</strong></a> are
 present, but not included in the training data. Because sensitive attributes
