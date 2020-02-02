@@ -1,4 +1,4 @@
-<h2 class="glossary">A</h2></p>
+
 
 <p><a class="glossary-anchor" name="AB_testing"></a>
 <h2 class="hide-from-toc"> A/B testing</h2></p>
@@ -166,8 +166,6 @@ the ranked list where the recall increases relative to the previous result).</p>
 
 <p>See also <a href="#area_under_the_pr_curve"><strong>Area under the PR Curve</strong></a>.</p>
 
-<p><a class="glossary-anchor" name="b"></a>
-<h2 class="glossary">B</h2></p>
 
 <p><a class="glossary-anchor" name="backpropagation"></a>
 <h2 class="hide-from-toc"> backpropagation</h2></p>
@@ -433,8 +431,6 @@ all temperatures between 0.0 and 15.0 degrees could be put into one bin,
 15.1 to 30.0 degrees could be a second bin, and 30.1 to 50.0 degrees could
 be a third bin.</p>
 
-<p><a class="glossary-anchor" name="c"></a>
-<h2 class="glossary">C</h2></p>
 
 <p><a class="glossary-anchor" name="calibration_layer"></a>
 <h2 class="hide-from-toc"> calibration layer</h2></p>
@@ -1001,8 +997,6 @@ target="T">these directions</a>.</p>
 
 <p>Contrast with <a href="#premade_Estimator"><strong>premade Estimators</strong></a>.</p>
 
-<p><a class="glossary-anchor" name="d"></a>
-<h2 class="glossary">D</h2></p>
 
 <p><a class="glossary-anchor" name="data_analysis"></a>
 <h2 class="hide-from-toc"> data analysis</h2></p>
@@ -1354,8 +1348,6 @@ Overfitting</a>.</p>
 <p>A <a href="#model"><strong>model</strong></a> that is trained online in a continuously
 updating fashion.  That is, data is continuously entering the model.</p>
 
-<p><a class="glossary-anchor" name="e"></a>
-<h2 class="glossary">E</h2></p>
 
 <p><a class="glossary-anchor" name="eager_execution"></a>
 <h2 class="hide-from-toc"> eager execution</h2>
@@ -1699,8 +1691,6 @@ can mitigate this problem.</p>
 
 <p>Compare to <a href="#vanishing_gradient_problem"><strong>vanishing gradient problem</strong></a>.</p>
 
-<p><a class="glossary-anchor" name="f"></a>
-<h2 class="glossary">F</h2></p>
 
 <p><a class="glossary-anchor" name="fairness_constraint"></a>
 <h2 class="hide-from-toc"> fairness constraint</h2>
@@ -1936,8 +1926,6 @@ connected to <em>every</em> node in the subsequent hidden layer.</p>
 
 <p>A fully connected layer is also known as a <a href="#dense_layer"><strong>dense layer</strong></a>.</p>
 
-<p><a class="glossary-anchor" name="g"></a>
-<h2 class="glossary">G</h2></p>
 
 
 <p><a class="glossary-anchor" name="GAN"></a>
@@ -2130,8 +2118,6 @@ may be made that do not reflect reality.</p>
 <p>See also <a href="#out-group_homogeneity_bias"><strong>out-group homogeneity bias</strong></a>
 and <a href="#in-group_bias"><strong>in-group bias</strong></a>.</p>
 
-<p><a class="glossary-anchor" name="h"></a>
-<h2 class="glossary">H</h2></p>
 
 <p><a class="glossary-anchor" name="hashing"></a>
 <h2 class="hide-from-toc"> hashing</h2></p>
@@ -2254,8 +2240,6 @@ high-dimensional space.  <a href="#KSVMs"><strong>Kernel Support Vector Machines
 hyperplanes to separate positive classes from negative classes, often in a very
 high-dimensional space.</p>
 
-<p><a class="glossary-anchor" name="i"></a>
-<h2 class="glossary">I</h2></p>
 
 <p><a class="glossary-anchor" name="iid_abbreviation"></a>
 <h2 class="hide-from-toc"> i.i.d.</h2></p>
@@ -2512,8 +2496,6 @@ recommends, while books are the items that a bookstore recommends.</p>
 consists of computing the gradients of the parameters with respect to the
 loss on a single <a href="#batch"><strong>batch</strong></a> of data.</p>
 
-<p><a class="glossary-anchor" name="k"></a>
-<h2 class="glossary">K</h2></p>
 
 <p><a class="glossary-anchor" name="Keras"></a>
 <h2 class="hide-from-toc"> Keras</h2></p>
@@ -2632,8 +2614,6 @@ $$
 $$
 </div>
 
-<p><a class="glossary-anchor" name="l"></a>
-<h2 class="glossary">L</h2></p>
 
 <p><a class="glossary-anchor" name="L1_loss"></a>
 <h2 class="hide-from-toc"> L<sub>1</sub> loss</h2></p>
@@ -2975,8 +2955,6 @@ to find the weight(s) for which the loss surface is at a local minimum.</p>
 
 <p>Abbreviation for <a href="#Long_Short-Term_Memory"><strong>Long Short-Term Memory</strong></a>.</p>
 
-<p><a class="glossary-anchor" name="m"></a>
-<h2 class="glossary">M</h2></p>
 
 <p><a class="glossary-anchor" name="machine_learning"></a>
 <h2 class="hide-from-toc"> machine learning</h2></p>
@@ -3291,8 +3269,6 @@ would be a <a href="#binary_classification"><strong>binary classification model<
 
 <p>Synonym for <a href="#multi-class"><strong>multi-class classification</strong></a>.</p>
 
-<p><a class="glossary-anchor" name="n"></a>
-<h2 class="glossary">N</h2></p>
 
 <p><a class="glossary-anchor" name="NaN_trap"></a>
 <h2 class="hide-from-toc"> NaN trap</h2></p>
@@ -3457,8 +3433,6 @@ open-source math library</a>
 that provides efficient array operations in Python.
 <a href="#pandas"><strong>pandas</strong></a> is built on NumPy.</p>
 
-<p><a class="glossary-anchor" name="o"></a>
-<h2 class="glossary">O</h2></p>
 
 <p><a class="glossary-anchor" name="objective"></a>
 <h2 class="hide-from-toc"> objective</h2></p>
@@ -3631,8 +3605,6 @@ is one way of managing outliers.</p>
 <p>Creating a model that matches the <a href="#training_set"><strong>training data</strong></a> so
 closely that the model fails to make correct predictions on new data.</p>
 
-<p><a class="glossary-anchor" name="p"></a>
-<h2 class="glossary">P</h2></p>
 
 <p><a class="glossary-anchor" name="pandas"></a>
 <h2 class="hide-from-toc"> pandas</h2></p>
@@ -3966,8 +3938,6 @@ proxy labels may distort results. For example, in some places, it
 may be more common to carry umbrellas to protect against sun than
 the rain.</p>
 
-<p><a class="glossary-anchor" name="q"></a>
-<h2 class="glossary">Q</h2></p>
 
 <p><a class="glossary-anchor" name="q-function"></a>
 <h2 class="hide-from-toc"> Q-function</h2>
@@ -4029,8 +3999,6 @@ a particular <a href="#feature"><strong>feature</strong></a> in a <a href="#data
 structure. Typically
 used in I/O.</p>
 
-<p><a class="glossary-anchor" name="r"></a>
-<h2 class="glossary">R</h2></p>
 
 <p><a class="glossary-anchor" name="random_forest"></a>
 <h2 class="hide-from-toc"> random forest</h2></p>
@@ -4310,8 +4278,6 @@ for example, an upside-down 9 should not be classified as a 9.</p>
 <p>See also <a href="#translational_invariance"><strong>translational invariance</strong></a> and
 <a href="#size_invariance"><strong>size invariance</strong></a>.</p>
 
-<p><a class="glossary-anchor" name="s"></a>
-<h2 class="glossary">S</h2></p>
 
 <p><a class="glossary-anchor" name="sampling_bias"></a>
 <h2 class="hide-from-toc"> sampling bias </h2>
@@ -4873,8 +4839,6 @@ or by itself.</li>
 <p>Features created by <a href="#normalization"><strong>normalizing</strong></a> or <a href="#scaling"><strong>scaling</strong></a>
 alone are not considered synthetic features.</p>
 
-<p><a class="glossary-anchor" name="t"></a>
-<h2 class="glossary">T</h2></p>
 
 <p><a class="glossary-anchor" name="tabular_q-learning"></a>
 <h2 class="hide-from-toc"> tabular Q-learning</h2>
@@ -5276,8 +5240,6 @@ $$\text{True Positive Rate} = \frac{\text{True Positives}} {\text{True Positives
 
 <p>True positive rate is the y-axis in an <a href="#ROC"><strong>ROC curve</strong></a>.</p>
 
-<p><a class="glossary-anchor" name="u"></a>
-<h2 class="glossary">U</h2></p>
 
 <p><a class="glossary-anchor" name="unawareness"></a>
 <h2 class="hide-from-toc"> unawareness (to a sensitive attribute)</h2>
@@ -5365,8 +5327,6 @@ matrix that is being factorized. For example, given a movie
 recommendation system for 1,000,000 users, the
 user matrix will have 1,000,000 rows.</p>
 
-<p><a class="glossary-anchor" name="v"></a>
-<h2 class="glossary">V</h2></p>
 
 <p><a class="glossary-anchor" name="validation"></a>
 <h2 class="hide-from-toc"> validation</h2></p>
@@ -5402,8 +5362,6 @@ become difficult or impossible to train.
 <p>Compare to <a href="#exploding_gradient_problem"><strong>exploding gradient problem</strong></a>.</p>
 
 
-<p><a class="glossary-anchor" name="w"></a>
-<h2 class="glossary">W</h2></p>
 
 <p><a class="glossary-anchor" name="Wasserstein_loss"></a>
 <h2 class="hide-from-toc">Wasserstein loss</h2></p>
