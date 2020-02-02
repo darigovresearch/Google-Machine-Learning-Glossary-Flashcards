@@ -170,7 +170,7 @@ bag of words (Google Machine Learning Glossary)|"
 irrespective of order. For example, bag of words represents the
 following three phrases identically:</p>
 
-<ul>
+<ul align=""left"">
 <li>the dog jumps</li>
 <li>jumps the dog</li>
 <li>dog jumps the</li>
@@ -182,7 +182,7 @@ the phrase <em>the dog jumps</em> is mapped into a feature vector with non-zero
 values at the three indices corresponding to the words <em>the</em>, <em>dog</em>, and
 <em>jumps</em>. The non-zero value can be any of the following:</p>
 
-<ul>
+<ul align=""left"">
 <li>A 1 to indicate the presence of a word.</li>
 <li>A count of the number of times a word appears in the bag. For example,
 if the phrase were <em>the maroon dog is a dog with maroon fur</em>, then both
@@ -221,7 +221,7 @@ batch normalization (Google Machine Learning Glossary)|"
 <a href=""https://developers.google.com/machine-learning/glossary/#hidden_layer""><strong>hidden layer</strong></a>. Batch normalization can
 provide the following benefits:</p>
 
-<ul>
+<ul align=""left"">
 <li>Make <a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>neural networks</strong></a> more stable by protecting
 against <a href=""https://developers.google.com/machine-learning/glossary/#outliers""><strong>outlier</strong></a> weights.</li>
 <li>Enable higher <a href=""https://developers.google.com/machine-learning/glossary/#learning_rate""><strong>learning rates</strong></a>.</li>
@@ -286,7 +286,7 @@ interpretation of data, the design of a system, and how users interact
 with a system.  Forms of this type of bias include:
 </p>
 
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#automation_bias""><strong>automation bias</strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#confirmation_bias""><strong>confirmation bias</strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#confirmation_bias""><strong>experimenter’s bias</strong></a></li>
@@ -301,7 +301,7 @@ with a system.  Forms of this type of bias include:
 Forms of this type of bias include:
 </p>
 
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#selection_bias""><strong>coverage bias</strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#selection_bias""><strong>non-response bias</strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#participation_bias""><strong>participation bias</strong></a></li>
@@ -548,7 +548,7 @@ value up to that minimum value.</p>
 <p>For example, suppose that only a few feature values fall outside the
 range 40–60. In this case, you could do the following:</p>
 
-<ul>
+<ul align=""left"">
 <li>Clip all values over 60 to be exactly 60.</li>
 <li>Clip all values under 40 to be exactly 40.</li>
 </ul>
@@ -729,7 +729,7 @@ strictly convex functions.  However, some convex functions
 <p>A lot of the common <a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>loss functions</strong></a>, including the
 following, are convex functions:</p>
 
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#L2_loss""><strong>L<sub>2</sub> loss</strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#Log_Loss""><strong>Log Loss</strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#L1_regularization""><strong>L<sub>1</sub> regularization</strong></a></li>
@@ -850,7 +850,7 @@ convolutional operations:</p>
 <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_layer""><strong>convolutional layer</strong></a>. A typical convolutional
 neural network consists of some combination of the following layers:</p>
 
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#convolutional_layer""><strong>convolutional layers</strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#pooling""><strong>pooling layers</strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#dense_layer""><strong>dense layers</strong></a></li>
@@ -1144,11 +1144,11 @@ dimensions  (Google Machine Learning Glossary)|"
 
 <p>Overloaded term having any of the following definitions:</p>
 
-<ul>
+<ul align=""left"">
 <li><p>The number of levels of coordinates in a <a href=""https://developers.google.com/machine-learning/glossary/#tensor""><strong>Tensor</strong></a>. For
 example:</p>
 
-<ul>
+<ul align=""left"">
 <li>A scalar has zero dimensions; for example, <code translate=""no"" dir=""ltr"">[&quot;Hello&quot;]</code>.</li>
 <li>A vector  has one dimension; for example, <code translate=""no"" dir=""ltr"">[3, 5, 7, 11]</code>.</li>
 <li>A matrix has two dimensions; for example, <code translate=""no"" dir=""ltr"">[[2, 4, 18], [5, 7, 14]]</code>.</li>
@@ -1252,7 +1252,7 @@ downsampling (Google Machine Learning Glossary)|"
 
 <p>Overloaded term that can mean either of the following:</p>
 
-<ul>
+<ul align=""left"">
 <li>Reducing the amount of information in a feature in order to train
 a model more efficiently. For example, before training an image
 recognition model, downsampling high-resolution images to a
@@ -1320,7 +1320,7 @@ Typically, an embedding is a translation of a high-dimensional vector
 into a low-dimensional space. For example, you can represent the words
 in an English sentence in either of the following two ways:</p>
 
-<ul>
+<ul align=""left"">
 <li>As a million-element (high-dimensional)
 <a href=""https://developers.google.com/machine-learning/glossary/#sparse_features""><strong>sparse vector</strong></a> in which all elements are integers.
 Each cell in the vector represents a separate English word; the value in
@@ -1362,7 +1362,7 @@ ensemble (Google Machine Learning Glossary)|"
 <p>A merger of the predictions of multiple <a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>models</strong></a>. You can create an
 ensemble via one or more of the following:</p>
 
-<ul>
+<ul align=""left"">
 <li>different initializations</li>
 <li>different <a href=""https://developers.google.com/machine-learning/glossary/#hyperparameter""><strong>hyperparameters</strong></a></li>
 <li>different overall structure</li>
@@ -1471,7 +1471,7 @@ of qualified students because qualified Lilliputians and Brobdingnagians
 both have a 50% chance of being admitted.</p>
 <aside class=""note""><strong>Note:</strong><span> While equality of opportunity is satisfied, the following two
 fairness metrics are not satisfied:
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#demographic_parity""><strong>demographic parity</strong></a>: Lilliputians and
      Brobdingnagians are admitted to the university at different rates;
      48% of Lilliputians students are admitted, but only 14% of
@@ -1612,7 +1612,7 @@ can mitigate this problem.</p>
 Applying a constraint to an algorithm to ensure one or more definitions
 of fairness are satisfied. Examples of fairness constraints include:</p>
 
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#post-processing""><strong>Post-processing</strong></a> your model&#39;s output.</li>
 <li>Altering the <a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>loss function</strong></a> to incorporate a penalty
  for violating a <a href=""https://developers.google.com/machine-learning/glossary/#fairness_metric""><strong>fairness metric</strong></a>.</li>
@@ -1625,7 +1625,7 @@ fairness metric (Google Machine Learning Glossary)|"
 <p>A mathematical definition of “fairness” that is measurable.
 Some commonly used fairness metrics include:</p>
 
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#equalized_odds""><strong>equalized odds</strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#predictive_parity""><strong>predictive parity</strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#counterfactual_fairness""><strong>counterfactual fairness</strong></a></li>
@@ -1714,7 +1714,7 @@ feature extraction (Google Machine Learning Glossary)|"
 
 <p>Overloaded term having either of the following definitions:</p>
 
-<ul>
+<ul align=""left"">
 <li>Retrieving intermediate feature representations calculated by an
 <a href=""https://developers.google.com/machine-learning/glossary/#unsupervised_machine_learning""><strong>unsupervised</strong></a> or pretrained model
 (for example, <a href=""https://developers.google.com/machine-learning/glossary/#hidden_layer""><strong>hidden layer</strong></a> values in a
@@ -1737,7 +1737,7 @@ from the <a href=""https://developers.google.com/machine-learning/glossary/#tf.E
 tf.Example protocol buffer is just a container for data, you must specify
 the following:</p>
 
-<ul>
+<ul align=""left"">
 <li>the data to extract (that is, the keys for the features)</li>
 <li>the data type (for example, float or int)</li>
 <li>The length (fixed or variable)</li>
@@ -1876,7 +1876,7 @@ types of models based on other types of noise, such as
 or
 categorical noise. Examples of generalized linear models include:</p>
 
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#logistic_regression""><strong>logistic regression</strong></a></li>
 <li>multi-class regression</li>
 <li>least squares regression</li>
@@ -1887,7 +1887,7 @@ categorical noise. Examples of generalized linear models include:</p>
 
 <p>Generalized linear models exhibit the following properties:</p>
 
-<ul>
+<ul align=""left"">
 <li>The average prediction of the optimal least squares regression model is
 equal to the average label on the training data.</li>
 <li>The average probability predicted by the optimal logistic regression
@@ -1909,7 +1909,7 @@ generative model (Google Machine Learning Glossary)|"
 
 <p>Practically speaking, a model that does either of the following:</p>
 
-<ul>
+<ul align=""left"">
 <li>Creates (generates) new examples from the training dataset.
 For example, a generative model could create poetry after training
 on a dataset of poems. The <a href=""https://developers.google.com/machine-learning/glossary/#generator""><strong>generator</strong></a> part of a
@@ -2062,7 +2062,7 @@ of clusters. Hierarchical clustering is well-suited to hierarchical data,
 such as botanical taxonomies. There are two types of hierarchical
 clustering algorithms:</p>
 
-<ul>
+<ul align=""left"">
 <li><strong>Agglomerative clustering</strong> first assigns every example to its own cluster,
 and iteratively merges the closest clusters to create a hierarchical
 tree.</li>
@@ -2162,7 +2162,7 @@ implicit bias  (Google Machine Learning Glossary)|"
 <p>Automatically making an association or assumption based on one’s mental
 models and memories. Implicit bias can affect the following:</p>
 
-<ul>
+<ul align=""left"">
 <li>How data is collected and classified.</li>
 <li>How machine learning systems are designed and developed.</li>
 </ul>
@@ -2295,7 +2295,7 @@ the exact same coordinates).</p>
 
 <p>For example, in the image below:</p>
 
-<ul>
+<ul align=""left"">
 <li>The predicted bounding box (the coordinates delimiting where the model
 predicts the night table in the painting is located) is outlined in purple.</li>
 <li>The ground-truth bounding box (the coordinates delimiting where the night
@@ -2411,7 +2411,7 @@ k-means (Google Machine Learning Glossary)|"
 <p>A popular <a href=""https://developers.google.com/machine-learning/glossary/#clustering""><strong>clustering</strong></a> algorithm that groups examples
 in unsupervised learning. The k-means algorithm basically does the following:</p>
 
-<ul>
+<ul align=""left"">
 <li>Iteratively determines the best k center points (known
 as <a href=""https://developers.google.com/machine-learning/glossary/#centroid""><strong>centroids</strong></a>).</li>
 <li>Assigns each example to the closest centroid.  Those examples nearest
@@ -2450,7 +2450,7 @@ k-median (Google Machine Learning Glossary)|"
 <p>A clustering algorithm closely related to <a href=""https://developers.google.com/machine-learning/glossary/#k-means""><strong>k-means</strong></a>. The
 practical difference between the two is as follows:</p>
 
-<ul>
+<ul align=""left"">
 <li>In k-means, centroids are determined by minimizing the sum of the
 <em>squares</em> of the distance between a centroid candidate and each of
 its examples.</li>
@@ -2460,7 +2460,7 @@ distance between a centroid candidate and each of its examples.</li>
 
 <p>Note that the definitions of distance are also different:</p>
 
-<ul>
+<ul align=""left"">
 <li>k-means relies on the
 <a href=""https://wikipedia.org/wiki/Euclidean_distance""
 target=""T"">Euclidean distance</a> from
@@ -2476,7 +2476,7 @@ and (5,-2) would be:</li>
 [/$$]
 </div>
 
-<ul>
+<ul align=""left"">
 <li>k-median relies on the <a href=""https://wikipedia.org/wiki/Taxicab_geometry""
 target=""T""> Manhattan distance</a>
 from the centroid to an example.  This distance is the sum of the
@@ -2576,7 +2576,7 @@ Layers API (tf.layers) (Google Machine Learning Glossary)|"
 as a composition of layers. The Layers API enables you to build different
 types of <a href=""https://developers.google.com/machine-learning/glossary/#layer""><strong>layers</strong></a>, such as:</p>
 
-<ul>
+<ul align=""left"">
 <li><code translate=""no"" dir=""ltr"">tf.layers.Dense</code> for a <a href=""https://developers.google.com/machine-learning/glossary/#fully_connected_layer""><strong>fully-connected layer</strong></a>.</li>
 <li><code translate=""no"" dir=""ltr"">tf.layers.Conv2D</code> for a convolutional layer.</li>
 </ul>
@@ -2622,7 +2622,7 @@ is not one-to-one.</p>
 </div>
 
 <p>where:
-<ul>
+<ul align=""left"">
 <li>\(y&#39;\) is the raw prediction. (In certain kinds of linear models, this
 raw prediction will be further modified.  For example, see
 <a href=""https://developers.google.com/machine-learning/glossary/#logistic_regression"">logistic regression</a>.)</li>
@@ -2636,7 +2636,7 @@ first feature, \(x_2\) is the value of the second feature, and so on.</li>
 
 <p>For example, suppose a linear model for three features learns the following
 bias and weights:
-<ul>
+<ul align=""left"">
 <li>\(b\) = 7</li>
 <li>\(w_1\) = -2.5</li>
 <li>\(w_2\) = -1.2</li>
@@ -2651,7 +2651,7 @@ the linear model uses the following equation to generate each prediction:</p>
 </div>
 
 <p>Suppose a particular example contains the following values:
-<ul>
+<ul align=""left"">
 <li>\(x_1\) = 4</li>
 <li>\(x_2\) = -10</li>
 <li>\(x_3\) = 5</li>
@@ -2695,7 +2695,7 @@ a <a href=""https://developers.google.com/machine-learning/glossary/#linear_mode
 value between 0 and 1. You can interpret the value between 0 and 1 in either
 of the following two ways:</p>
 
-<ul>
+<ul align=""left"">
 <li>As a probability that the example belongs to the
 <a href=""https://developers.google.com/machine-learning/glossary/#positive_class""><strong>positive class</strong></a> in a binary classification problem.</li>
 <li>As a value to be compared against a
@@ -2705,7 +2705,7 @@ example as the positive class. Conversely, if the value is below the given
 threshold, the system classifies the example as the
 <a href=""https://developers.google.com/machine-learning/glossary/#negative_class""><strong>negative class</strong></a>.  For example, suppose the
 classification threshold is 0.82:
-<ul>
+<ul align=""left"">
 <li>Imagine an example that produces a raw prediction (\(y&#39;\)) of 2.6.
  The sigmoid of 2.6 is 0.93. Since 0.93 is greater than 0.82, the
  system classifies this example as the positive class.</li>
@@ -2923,7 +2923,7 @@ unrated movies.  For example, will User 1 like <em>Black Panther</em>?</p>
 <p>One approach for recommendation systems is to use matrix
 factorization to generate the following two matrices:</p>
 
-<ul>
+<ul align=""left"">
 <li>A <a href=""https://developers.google.com/machine-learning/glossary/#user_matrix""><strong>user matrix</strong></a>, shaped as the number of users X the
 number of embedding dimensions.</li>
 <li>An <a href=""https://developers.google.com/machine-learning/glossary/#item_matrix""><strong>item matrix</strong></a>, shaped as the number of embedding
@@ -3061,7 +3061,7 @@ model (Google Machine Learning Glossary)|"
 the training data. Within TensorFlow, model is an overloaded term, which
 can have either of the following two related meanings:</p>
 
-<ul>
+<ul align=""left"">
 <li>The <a href=""https://developers.google.com/machine-learning/glossary/#TensorFlow""><strong>TensorFlow</strong></a> graph that expresses the structure of
 how a prediction will be computed.</li>
 <li>The particular weights and biases of that TensorFlow graph, which are
@@ -3234,7 +3234,7 @@ noise (Google Machine Learning Glossary)|"
 <p>Broadly speaking, anything that obscures the signal in a dataset. Noise
 can be introduced into data in a variety of ways. For example:</p>
 
-<ul>
+<ul align=""left"">
 <li>Human raters make mistakes in labeling.</li>
 <li>Humans and instruments mis-record or omit feature values.</li>
 </ul>
@@ -3321,7 +3321,7 @@ one-hot encoding (Google Machine Learning Glossary)|"
 
 <p>A sparse vector in which:</p>
 
-<ul>
+<ul align=""left"">
 <li>One element is set to 1.</li>
 <li>All other elements are set to 0.</li>
 </ul>
@@ -3351,7 +3351,7 @@ each possible outcome. For example, given a model that classifies examples
 as animal, vegetable, or mineral, a one-vs.-all solution would provide the
 following three separate binary classifiers:</p>
 
-<ul>
+<ul align=""left"">
 <li>animal vs. not animal</li>
 <li>vegetable vs. not vegetable</li>
 <li>mineral vs. not mineral</li>
@@ -3379,7 +3379,7 @@ algorithm. TensorFlow&#39;s base class for optimizers is
 <a href=""https://www.tensorflow.org/api_docs/python/tf/train/Optimizer""
 target=""T"">tf.train.Optimizer</a>. Popular optimizers include:</p>
 
-<ul>
+<ul align=""left"">
 <li><a href=""https://www.tensorflow.org/api_docs/python/tf/train/AdagradOptimizer"" target=""T"">AdaGrad</a>,
     which stands for ADAptive GRADient descent.</li>
 <li><a href=""https://www.tensorflow.org/api_docs/python/tf/train/AdamOptimizer"" target=""T"">Adam</a>,
@@ -3390,7 +3390,7 @@ target=""T"">tf.train.Optimizer</a>. Popular optimizers include:</p>
 to enhance the effectiveness of gradient descent on a
 given <a href=""https://developers.google.com/machine-learning/glossary/#training_set""><strong>training set</strong></a>:</p>
 
-<ul>
+<ul align=""left"">
 <li><a href=""https://www.tensorflow.org/api_docs/python/tf/train/MomentumOptimizer""
 target=""T"">momentum</a> (Momentum)</li>
 <li>update frequency</li>
@@ -3433,7 +3433,7 @@ outliers (Google Machine Learning Glossary)|"
 <p>Values distant from most other values. In machine learning, any of the
 following are outliers:</p>
 
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#weight""><strong>Weights</strong></a> with high absolute values.</li>
 <li>Predicted values relatively far away from the actual values.</li>
 <li>Input data whose values are more than roughly 3 standard deviations
@@ -3542,7 +3542,7 @@ performance (Google Machine Learning Glossary)|"
 
 <p>Overloaded term with the following meanings:</p>
 
-<ul>
+<ul align=""left"">
 <li>The traditional meaning within software engineering. Namely: How fast
 (or efficiently) does this piece of software run?</li>
 <li>The meaning within machine learning. Here, performance answers the
@@ -3872,7 +3872,7 @@ from a corpus of 100,000 videos, selecting <em>Casablanca</em> and
 <em>Black Panther</em> for another. A video recommendation system might
 base its recommendations on factors such as:</p>
 
-<ul>
+<ul align=""left"">
 <li>Movies that similar users have rated or watched.</li>
 <li>Genre, directors, actors, target demographic...</li>
 </ul>
@@ -3882,7 +3882,7 @@ Rectified Linear Unit (ReLU) (Google Machine Learning Glossary)|"
 
 <p>An <a href=""https://developers.google.com/machine-learning/glossary/#activation_function""><strong>activation function</strong></a> with the following rules:</p>
 
-<ul>
+<ul align=""left"">
 <li>If input is negative or zero, output is 0.</li>
 <li>If input is positive, output is equal to input.</li>
 </ul>
@@ -3925,7 +3925,7 @@ regularization (Google Machine Learning Glossary)|"
 <p>The penalty on a model&#39;s complexity. Regularization helps prevent
 <a href=""https://developers.google.com/machine-learning/glossary/#overfitting""><strong>overfitting</strong></a>. Different kinds of regularization include:</p>
 
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#L1_regularization""><strong>L<sub>1</sub> regularization</strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#L2_regularization""><strong>L<sub>2</sub> regularization</strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#dropout_regularization""><strong>dropout regularization</strong></a></li>
@@ -3992,7 +3992,7 @@ during which scored items may be re-graded according to some other
 (typically, non-ML) algorithm. Re-ranking evaluates the list of items
 generated by the <a href=""https://developers.google.com/machine-learning/glossary/#scoring""><strong>scoring</strong></a> phase, taking actions such as:</p>
 
-<ul>
+<ul align=""left"">
 <li>Eliminating items that the user has already purchased.</li>
 <li>Boosting the score of fresher items.</li>
 </ul>
@@ -4137,7 +4137,7 @@ selection bias  (Google Machine Learning Glossary)|"
 that generates systematic differences between samples observed in the data
 and those not observed.  The following forms of selection bias exist:</p>
 
-<ul>
+<ul align=""left"">
 <li><strong>coverage bias</strong>: The population represented in the dataset does not
 match the population that the machine learning model is making
 predictions about.</li>
@@ -4154,7 +4154,7 @@ showing the movie.  Offhand, this may sound like a reasonable way
 to gather a dataset; however, this form of data collection may
 introduce the following forms of selection bias:</p>
 
-<ul>
+<ul align=""left"">
 <li>coverage bias: By sampling from a population who chose to see
 the movie, your model&#39;s predictions may not generalize to people
 who did not already express that level of interest in the movie.</li>
@@ -4332,7 +4332,7 @@ nonzero elements.</p>
 Consider two ways to represent a count of the words used in one English
 sentence:</p>
 
-<ul>
+<ul align=""left"">
 <li>A <strong>dense representation</strong> of this sentence
 must set an integer for all one million cells, placing a 0 in most
 of them, and a low integer into a few of them.</li>
@@ -4548,7 +4548,7 @@ structural risk minimization (SRM) (Google Machine Learning Glossary)|"
 
 <p>An algorithm that balances two goals:</p>
 
-<ul>
+<ul align=""left"">
 <li>The desire to build the most predictive model (for example, lowest loss).</li>
 <li>The desire to keep the model as simple as possible (for example, strong
 regularization).</li>
@@ -4590,7 +4590,7 @@ synthetic feature (Google Machine Learning Glossary)|"
 <p>A <a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>feature</strong></a> not present among the input features, but
 created from one or more of them. Kinds of synthetic features include:</p>
 
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#bucketing""><strong>Bucketing</strong></a> a continuous feature into range bins.</li>
 <li>Multiplying (or dividing) one feature value by other feature value(s)
 or by itself.</li>
@@ -4933,7 +4933,7 @@ underfitting (Google Machine Learning Glossary)|"
 hasn&#39;t captured the complexity of the training data. Many problems
 can cause underfitting, including:</p>
 
-<ul>
+<ul align=""left"">
 <li>Training on the wrong set of features.</li>
 <li>Training for too few epochs or at too low a learning rate.</li>
 <li>Training with too high a regularization rate.</li>
