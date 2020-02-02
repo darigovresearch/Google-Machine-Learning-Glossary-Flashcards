@@ -362,7 +362,7 @@ bounding box (Google Machine Learning Glossary)|"
 interest, such as the dog in the image below.</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/bounding_box.jpg""
+<img src=""https://developers.google.com/machine-learning/glossary/images/bounding_box.jpg""
      alt=""Photograph of a dog sitting on a sofa. A green bounding box
           with top-left coordinates of (275, 1271) and bottom-right
           coordinates of (2954, 2761) circumscribes the dog's body"">
@@ -575,7 +575,7 @@ algorithm clusters examples based on their proximity to a
 <a href=""https://developers.google.com/machine-learning/glossary/#centroid""><strong>centroid</strong></a>, as in the following diagram:</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/Cluster.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/Cluster.svg"">
 </p>
 
 <p>A human researcher could then review the clusters and, for example,
@@ -585,7 +585,7 @@ label cluster 1 as &quot;dwarf trees&quot; and cluster 2 as &quot;full-size tree
 example&#39;s distance from a center point, illustrated as follows:</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/RingCluster.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/RingCluster.svg"">
 </p>
 
 "
@@ -710,7 +710,7 @@ shaped something like the letter <strong>U</strong>.  For example, the following
 are all convex functions:</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/convex_functions.png"" height=""300""
+<img src=""https://developers.google.com/machine-learning/glossary/images/convex_functions.png"" height=""300""
 alt=""A typical convex function is shaped like the letter 'U'.""></img>
 </p>
 
@@ -718,7 +718,7 @@ alt=""A typical convex function is shaped like the letter 'U'.""></img>
 region above the graph is not a convex set:</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/nonconvex_function.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/nonconvex_function.svg"">
 </p>
 
 <p>A <strong>strictly convex function</strong> has exactly one local minimum point, which
@@ -774,14 +774,14 @@ subset remains completely within the subset.  For instance, the following two
 shapes are convex sets:</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/convex_set.png"" alt=""A rectangle
+<img src=""https://developers.google.com/machine-learning/glossary/images/convex_set.png"" alt=""A rectangle
 and a semi-ellipse are both convex sets.""></img>
 </p>
 
 <p>By contrast, the following two shapes are not convex sets:</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/nonconvex_set.png"" alt=""A pie-chart
+<img src=""https://developers.google.com/machine-learning/glossary/images/nonconvex_set.png"" alt=""A pie-chart
 with a missing slice and a firework are both nonconvex sets.""></img>
 </p>
 
@@ -830,7 +830,7 @@ matrix.  For example, consider the following 3x3
 <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_filter""><strong>convolutional filter</strong></a>:</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/ConvolutionalFilter33.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/ConvolutionalFilter33.svg"">
 </p>
 
 <p>The following animation shows a convolutional layer consisting of 9
@@ -840,7 +840,7 @@ The resulting 3x3 matrix (on the right) consists of the results of the 9
 convolutional operations:</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/AnimatedConvolution.gif"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/AnimatedConvolution.gif"">
 </p>
 
 "
@@ -875,13 +875,13 @@ size as the convolutional filter.)</li>
 <p>For example, consider the following 5x5 input matrix:</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/ConvolutionalLayerInputMatrix.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/ConvolutionalLayerInputMatrix.svg"">
 </p>
 
 <p>Now imagine the following 2x2 convolutional filter:</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/ConvolutionalLayerFilter.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/ConvolutionalLayerFilter.svg"">
 </p>
 
 <p>Each convolutional operation involves a single 2x2 slice of the
@@ -890,7 +890,7 @@ top-left of the input matrix.  So, the convolution operation on
 this slice looks as follows:</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/ConvolutionalLayerOperation.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/ConvolutionalLayerOperation.svg"">
 </p>
 
 <p>A <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_layer""><strong>convolutional layer</strong></a> consists of a
@@ -1019,7 +1019,7 @@ the decision boundary is the frontier between the orange class and
 the blue class:</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/decision_boundary.png"" alt=""A
+<img src=""https://developers.google.com/machine-learning/glossary/images/decision_boundary.png"" alt=""A
 well-defined boundary between one class and another.""></img>
 </p>
 
@@ -1039,7 +1039,7 @@ bedrooms, and built less than 10 years ago would have a predicted price of
 510 thousand USD.</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/DecisionTree.svg"" alt=""A
+<img src=""https://developers.google.com/machine-learning/glossary/images/DecisionTree.svg"" alt=""A
 tree three-levels deep whose branches predict house prices.""></img>
 </p>
 
@@ -1855,7 +1855,7 @@ the validation set ultimately becomes significantly higher
 than for the training set.</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/GeneralizationCurve.svg"" height=""500""
+<img src=""https://developers.google.com/machine-learning/glossary/images/GeneralizationCurve.svg"" height=""500""
 alt=""A Cartesian plot in which the y-axis is labeled 'loss' and the x-axis
 is labeled 'iterations'. Two graphs appear. One graph shows a loss curve
 for a training set and the other graph shows a loss curve for a validation
@@ -2097,7 +2097,7 @@ of the classifier model:</p>
 <p>Consequently, a plot of hinge loss vs. (y * y&#39;) looks as follows:</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/hinge-loss.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/hinge-loss.svg"">
 </p>
 
 "
@@ -2300,7 +2300,7 @@ predicts the night table in the painting is located) is outlined in purple.</li>
 table in the painting is actually located) is outlined in green.</li>
 </ul>
 
-<p><img src=""/machine-learning/glossary/images/iou_van_gogh_bounding_boxes.jpg""
+<p><img src=""https://developers.google.com/machine-learning/glossary/images/iou_van_gogh_bounding_boxes.jpg""
      alt=""The Van Gogh painting 'Vincent's Bedroom in Arles', with two different
           bounding boxes around the night table beside the bed. The ground-truth
           bounding box (in green) perfectly circumscribes the night table. The
@@ -2313,7 +2313,7 @@ table in the painting is actually located) is outlined in green.</li>
 ground truth (below right) is 7, so the IoU is \(\frac{1}{7}\).</p>
 
 <div id=""intersection-union-side-by-side"">
-<img src=""/machine-learning/glossary/images/iou_van_gogh_intersection.jpg""
+<img src=""https://developers.google.com/machine-learning/glossary/images/iou_van_gogh_intersection.jpg""
      alt=""Same image as above, but with each bounding box divided into four
           quadrants. There are seven quadrants total, as the bottom-right
           quadrant of the ground-truth bounding box and the top-left
@@ -2321,7 +2321,7 @@ ground truth (below right) is 7, so the IoU is \(\frac{1}{7}\).</p>
           overlapping section (highlighted in green) represents the
           intersection, and has an area of 1."">
 
-<img src=""/machine-learning/glossary/images/iou_van_gogh_union.jpg""
+<img src=""https://developers.google.com/machine-learning/glossary/images/iou_van_gogh_union.jpg""
      alt=""Same image as above, but with each bounding box divided into four
           quadrants. There are seven quadrants total, as the bottom-right
           quadrant of the ground-truth bounding box and the top-left
@@ -2422,14 +2422,14 @@ the same centroid belong to the same group.</li>
 <p>For example, consider the following plot of dog height to dog width:</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/DogDimensions.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/DogDimensions.svg"">
 </p>
 
 <p>If k=3, the k-means algorithm will determine three centroids.  Each example
 is assigned to its closest centroid, yielding three groups:</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/DogDimensionsKMeans.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/DogDimensionsKMeans.svg"">
 </p>
 
 <p>Imagine that a manufacturer wants to determine the ideal sizes for small,
@@ -2806,7 +2806,7 @@ loss curve (Google Machine Learning Glossary)|"
 <a href=""https://developers.google.com/machine-learning/glossary/#iteration""><strong>iterations</strong></a>. For example:</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/LossCurve.svg"" height=""300"" alt=""A
+<img src=""https://developers.google.com/machine-learning/glossary/images/LossCurve.svg"" height=""300"" alt=""A
 graph of loss versus training iterations, showing a steady drop as iterations
 increase, but then a slight rise in loss at a high number of iterations.""></img>
 </p>
@@ -3525,7 +3525,7 @@ three input values:</p>
 is itself modified by a weight before entering the perceptron:</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/Perceptron.svg"" height=""300""
+<img src=""https://developers.google.com/machine-learning/glossary/images/Perceptron.svg"" height=""300""
 alt=""A perceptron that takes in 3 inputs, each multiplied by separate
 weights. The perceptron outputs a single value.""></img>
 </p>
@@ -3587,7 +3587,7 @@ across the pooled area. For example, suppose we have the
 following 3x3 matrix:</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/PoolingStart.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/PoolingStart.svg"">
 </p>
 
 <p>A pooling operation, just like a convolutional operation, divides that
@@ -3599,7 +3599,7 @@ Imagine that each pooling operation picks the maximum value of the
 four in that slice:</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/PoolingConvolution.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/PoolingConvolution.svg"">
 </p>
 
 <p>Pooling helps enforce
@@ -3789,7 +3789,7 @@ contains 11 points.  In order for each bucket in the figure to contain the
 same number of points, some buckets span a different width of x-values.</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/QuantileBucketing.svg"" alt=""40 data
+<img src=""https://developers.google.com/machine-learning/glossary/images/QuantileBucketing.svg"" alt=""40 data
 points divided into 4 buckets of 11 points each. Some of the buckets contain
 a wider range of feature values than others.""></img>
 </p>
@@ -3903,7 +3903,7 @@ predicts the meaning of the entire sequence rather than just the meaning
 of individual words.</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/RNN.svg"" height=""500""
+<img src=""https://developers.google.com/machine-learning/glossary/images/RNN.svg"" height=""500""
 alt=""An RNN that runs four times to process four input words.""></img>
 </p>
 
@@ -4532,7 +4532,7 @@ slice. When the operation reaches the right edge, the next slice is all
 the way over to the left but one position down.</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/AnimatedConvolution.gif"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/AnimatedConvolution.gif"">
 </p>
 
 <p>The preceding example demonstrates a two-dimensional stride.  If the input
@@ -4744,7 +4744,7 @@ For example, the following figure shows three timesteps (labeled with
 the subscripts t-1, t, and t+1):</p>
 
 <p>
-<img src=""/machine-learning/glossary/images/Simple_RNN.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/Simple_RNN.svg"">
 </p>
 
 "
