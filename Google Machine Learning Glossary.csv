@@ -31,24 +31,24 @@ the following definition:</p>
 <p>See <a href=""https://developers.google.com/machine-learning/glossary/#TP""><strong>true positive</strong></a> and
 <a href=""https://developers.google.com/machine-learning/glossary/#TN""><strong>true negative</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""action""></a>
-<h2 class=""hide-from-toc"">action</h2></p>
+"
+action (Google Machine Learning Glossary)|"
 
 <p>In reinforcement learning, the mechanism by which the <a href=""https://developers.google.com/machine-learning/glossary/#agent""><strong>agent</strong></a>
 transitions between <a href=""https://developers.google.com/machine-learning/glossary/#state""><strong>states</strong></a> of the
 <a href=""https://developers.google.com/machine-learning/glossary/#environment""><strong>environment</strong></a>. The agent chooses the action by using a
 <a href=""https://developers.google.com/machine-learning/glossary/#policy""><strong>policy</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""activation_function""></a>
-<h2 class=""hide-from-toc"">activation function</h2></p>
+"
+activation function (Google Machine Learning Glossary)|"
 
 <p>A function (for example, <a href=""https://developers.google.com/machine-learning/glossary/#ReLU""><strong>ReLU</strong></a> or <a href=""https://developers.google.com/machine-learning/glossary/#sigmoid_function""><strong>sigmoid</strong></a>)
 that takes in the weighted sum of all of the inputs from the previous layer
 and then generates and passes an output value (typically nonlinear) to the next
 layer.</p>
 
-<p><a class=""glossary-anchor"" name=""active_learning""></a>
-<h2 class=""hide-from-toc"">active learning</h2></p>
+"
+active learning (Google Machine Learning Glossary)|"
 
 <p>A <a href=""https://developers.google.com/machine-learning/glossary/#training""><strong>training</strong></a> approach in which the
 algorithm <em>chooses</em> some of the data it learns from. Active learning
@@ -135,14 +135,14 @@ augmented reality (Google Machine Learning Glossary)|"
 the real world, thus providing a composite view.</p>
 
 "
-automation bias  (Google Machine Learning Glossary)|"
+automation bias (Google Machine Learning Glossary)|"
 
 <p>When a human decision maker favors recommendations made by an automated
 decision-making system over information made without automation, even
 when the automated decision-making system makes errors.</p>
 
 "
-average precision  (Google Machine Learning Glossary)|"
+average precision (Google Machine Learning Glossary)|"
 
 <p>A metric for summarizing the performance of a ranked sequence of results.
 Average precision is calculated by taking the average of the
@@ -469,8 +469,8 @@ values (for example, <code translate=""no"" dir=""ltr"">red</code> and <code tra
 
 <p>Contrast with <a href=""https://developers.google.com/machine-learning/glossary/#numerical_data""><strong>numerical data</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""centroid""></a>
-<h2 class=""hide-from-toc"">centroid</h2></p>
+"
+centroid (Google Machine Learning Glossary)|"
 
 <p>The center of a cluster as determined by a <a href=""https://developers.google.com/machine-learning/glossary/#k-means""><strong>k-means</strong></a> or
 <a href=""https://developers.google.com/machine-learning/glossary/#k-median""><strong>k-median</strong></a> algorithm. For instance, if k is 3,
@@ -558,13 +558,13 @@ can also used to force <em>gradient values</em> within a designated range during
 training.</p>
 
 "
-Cloud TPU  (Google Machine Learning Glossary)|"
+Cloud TPU (Google Machine Learning Glossary)|"
 
 <p>A specialized hardware accelerator designed to speed up machine
 learning workloads on Google Cloud Platform.</p>
 
-<p><a class=""glossary-anchor"" name=""clustering""></a>
-<h2 class=""hide-from-toc"">clustering</h2></p>
+"
+clustering (Google Machine Learning Glossary)|"
 
 <p>Grouping related <a href=""https://developers.google.com/machine-learning/glossary/#example""><strong>examples</strong></a>, particularly during
 <a href=""https://developers.google.com/machine-learning/glossary/#unsupervised_machine_learning""><strong>unsupervised learning</strong></a>. Once all the
@@ -606,7 +606,7 @@ based on the interests of many other users.  Collaborative filtering
 is often used in <a href=""https://developers.google.com/machine-learning/glossary/#recommendation_system""><strong>recommendation systems</strong></a>.</p>
 
 "
-confirmation bias  (Google Machine Learning Glossary)|"
+confirmation bias (Google Machine Learning Glossary)|"
 
 <p>The tendency to search for, interpret, favor, and recall information in a
 way that confirms one&#39;s preexisting beliefs or hypotheses.
@@ -752,8 +752,8 @@ Remarkably, algorithms designed for
 reasonably good solutions on deep networks anyway, even though
 those solutions are not guaranteed to be a global minimum.</p>
 
-<p><a class=""glossary-anchor"" name=""convex_optimization""></a>
-<h2 class=""hide-from-toc"">convex optimization</h2></p>
+"
+convex optimization (Google Machine Learning Glossary)|"
 
 <p>The process of using mathematical techniques such as
 <a href=""https://developers.google.com/machine-learning/glossary/#gradient_descent""><strong>gradient descent</strong></a> to find
@@ -766,8 +766,8 @@ efficiently.</p>
 <a href=""https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf"" target=""T"">Convex
 Optimization</a>.</p>
 
-<p><a class=""glossary-anchor"" name=""convex_set""></a>
-<h2 class=""hide-from-toc"">convex set</h2></p>
+"
+convex set (Google Machine Learning Glossary)|"
 
 <p>A subset of Euclidean space such that a line drawn between any two points in the
 subset remains completely within the subset.  For instance, the following two
@@ -785,8 +785,8 @@ and a semi-ellipse are both convex sets.""></img>
 with a missing slice and a firework are both nonconvex sets.""></img>
 </p>
 
-<p><a class=""glossary-anchor"" name=""convolution""></a>
-<h2 class=""hide-from-toc"">convolution</h2></p>
+"
+convolution (Google Machine Learning Glossary)|"
 
 <p>In mathematics, casually speaking, a mixture of two functions. In machine
 learning, a convolution mixes the convolutional filter and the input matrix
@@ -806,8 +806,8 @@ the memory needed to train the model.  When the convolutional filter is
 applied, it is simply replicated across cells such that each is multiplied
 by the filter.</p>
 
-<p><a class=""glossary-anchor"" name=""convolutional_filter""></a>
-<h2 class=""hide-from-toc"">convolutional filter</h2></p>
+"
+convolutional filter (Google Machine Learning Glossary)|"
 
 <p>One of the two actors in a
 <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_operation""><strong>convolutional operation</strong></a>. (The other actor
@@ -821,8 +821,8 @@ typically set to a constant pattern of ones and zeroes. In machine learning,
 convolutional filters are typically seeded with random numbers and then the
 network <a href=""https://developers.google.com/machine-learning/glossary/#training""><strong>trains</strong></a> the ideal values.</p>
 
-<p><a class=""glossary-anchor"" name=""convolutional_layer""></a>
-<h2 class=""hide-from-toc"">convolutional layer</h2></p>
+"
+convolutional layer (Google Machine Learning Glossary)|"
 
 <p>A layer of a <a href=""https://developers.google.com/machine-learning/glossary/#deep_model""><strong>deep neural network</strong></a> in which a
 <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_filter""><strong>convolutional filter</strong></a> passes along an input
@@ -843,8 +843,8 @@ convolutional operations:</p>
 <img src=""/machine-learning/glossary/images/AnimatedConvolution.gif"">
 </p>
 
-<p><a class=""glossary-anchor"" name=""convolutional_neural_network""></a>
-<h2 class=""hide-from-toc"">convolutional neural network</h2></p>
+"
+convolutional neural network (Google Machine Learning Glossary)|"
 
 <p>A <a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>neural network</strong></a> in which at least one layer is a
 <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_layer""><strong>convolutional layer</strong></a>. A typical convolutional
@@ -859,12 +859,12 @@ neural network consists of some combination of the following layers:</p>
 <p>Convolutional neural networks have had great success in certain kinds
 of problems, such as image recognition.</p>
 
-<p><a class=""glossary-anchor"" name=""convolutional_operation""></a>
-<h2 class=""hide-from-toc"">convolutional operation</h2></p>
+"
+convolutional operation (Google Machine Learning Glossary)|"
 
 <p>The following two-step mathematical operation:</p>
 
-<ol>
+<ol align=""left"">
 <li>Element-wise multiplication of the
 <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_filter""><strong>convolutional filter</strong></a> and a slice of an
 input matrix. (The slice of the input matrix has the same rank and
@@ -903,7 +903,7 @@ cost (Google Machine Learning Glossary)|"
 <p>Synonym for <a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>loss</strong></a>.</p>
 
 "
- (Google Machine Learning Glossary)|"
+counterfactual fairness (Google Machine Learning Glossary)|"
 A <a href=""https://developers.google.com/machine-learning/glossary/#fairness_metric""><strong>fairness metric</strong></a> that checks whether a classifier
 produces the same result for one individual as it does for another individual
 who is identical to the first, except with respect to one or more
@@ -917,7 +917,7 @@ Collide: Integrating Different Counterfactual Assumptions in Fairness&quot;</a>
 for a more detailed discussion of counterfactual fairness.</p>
 
 "
-coverage bias  (Google Machine Learning Glossary)|"
+coverage bias (Google Machine Learning Glossary)|"
 
 <p>See <a href=""https://developers.google.com/machine-learning/glossary/#selection_bias""><strong>selection bias</strong></a>.</p>
 
@@ -1109,8 +1109,8 @@ depth (Google Machine Learning Glossary)|"
 that learn weights. For example, a neural network with 5
 <a href=""https://developers.google.com/machine-learning/glossary/#hidden_layer""><strong>hidden layers</strong></a> and 1 output layer has a depth of 6.</p>
 
-<p><a class=""glossary-anchor"" name=""depthwise_separable_cnn""></a>
-<h2 class=""hide-from-toc"">depthwise separable convolutional neural network (sepCNN)</h2></p>
+"
+depthwise separable convolutional neural network (sepCNN) (Google Machine Learning Glossary)|"
 
 <p>A <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_neural_network""><strong>convolutional neural network</strong></a>
 architecture based on
@@ -1140,7 +1140,7 @@ dimension reduction (Google Machine Learning Glossary)|"
 a feature vector, typically by converting to an <a href=""https://developers.google.com/machine-learning/glossary/#embeddings""><strong>embedding</strong></a>.</p>
 
 "
-dimensions  (Google Machine Learning Glossary)|"
+dimensions (Google Machine Learning Glossary)|"
 
 <p>Overloaded term having any of the following definitions:</p>
 
@@ -1409,7 +1409,7 @@ shifting the policy, the agent first randomly explores the environment and
 then greedily exploits the results of random exploration.</p>
 
 "
-equality  (Google Machine Learning Glossary)|"
+equality (Google Machine Learning Glossary)|"
 A <a href=""https://developers.google.com/machine-learning/glossary/#fairness_metric""><strong>fairness metric</strong></a> that checks whether, for
 a preferred <a href=""https://developers.google.com/machine-learning/glossary/#label""><strong>label</strong></a> (one that confers an advantage or
 benefit to a person) and a given <a href=""https://developers.google.com/machine-learning/glossary/#attribute""><strong>attribute</strong></a>, a classifier
@@ -1492,7 +1492,7 @@ discrimination with smarter machine learning&quot;</a> for a visualization
 exploring the tradeoffs when optimizing for equality of opportunity.</p>
 
 "
- (Google Machine Learning Glossary)|"
+equalized odds (Google Machine Learning Glossary)|"
 A <a href=""https://developers.google.com/machine-learning/glossary/#fairness_metric""><strong>fairness metric</strong></a> that checks if, for any particular
 label and attribute, a classifier predicts that label equally well for all
 values of that attribute.</p>
@@ -1587,7 +1587,7 @@ stores state transitions in a <a href=""https://developers.google.com/machine-le
 samples transitions from the replay buffer to create training data.</p>
 
 "
-experimenter&#39;s bias  (Google Machine Learning Glossary)|"
+experimenter&#39;s bias (Google Machine Learning Glossary)|"
 
 <p>See <a href=""https://developers.google.com/machine-learning/glossary/#confirmation_bias""><strong>confirmation bias</strong></a>.</p>
 
@@ -1608,7 +1608,7 @@ can mitigate this problem.</p>
 
 
 "
- (Google Machine Learning Glossary)|"
+fairness constraint (Google Machine Learning Glossary)|"
 Applying a constraint to an algorithm to ensure one or more definitions
 of fairness are satisfied. Examples of fairness constraints include:</p>
 
@@ -1643,7 +1643,6 @@ false negative (FN) (Google Machine Learning Glossary)|"
 inferred that a particular email message was not spam
 (the negative class), but that email message actually was spam.</p>
 
-<p><a class=""glossary-anchor"" name=""FP""></a>
 "
 false positive (FP) (Google Machine Learning Glossary)|"
 
@@ -1798,8 +1797,8 @@ training examples.</p>
 
 <p>See also <a href=""https://developers.google.com/machine-learning/glossary/#one-shot_learning""><strong>one-shot learning</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""fine_tuning""></a>
-<h2 class=""hide-from-toc"">fine tuning</h2></p>
+"
+fine tuning (Google Machine Learning Glossary)|"
 
 <p>Perform a secondary optimization to adjust the parameters of an already
 trained <a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>model</strong></a> to fit a new problem. Fine tuning often
@@ -1807,8 +1806,8 @@ refers to refitting the weights of a trained
 <a href=""https://developers.google.com/machine-learning/glossary/#unsupervised_machine_learning""><strong>unsupervised</strong></a> model to a
 <a href=""https://developers.google.com/machine-learning/glossary/#supervised_machine_learning""><strong>supervised</strong></a> model.</p>
 
-<p><a class=""glossary-anchor"" name=""forget_gate""></a>
-<h2 class=""hide-from-toc"">forget gate</h2></p>
+"
+forget gate (Google Machine Learning Glossary)|"
 
 <p>The portion of a <a href=""https://developers.google.com/machine-learning/glossary/#Long_Short-Term_Memory""><strong>Long Short-Term Memory</strong></a>
 cell that regulates the flow of information through the cell.
@@ -1998,7 +1997,7 @@ ground truth (Google Machine Learning Glossary)|"
 expert <a href=""https://developers.google.com/machine-learning/glossary/#rater""><strong>raters</strong></a> typically are the proxy for ground truth.</p>
 
 "
-group attribution bias  (Google Machine Learning Glossary)|"
+group attribution bias (Google Machine Learning Glossary)|"
 
 <p>Assuming that what is true for an individual is also true for everyone
 in that group. The effects of group attribution bias can be exacerbated
@@ -2157,7 +2156,7 @@ imbalanced dataset (Google Machine Learning Glossary)|"
 <p>Synonym for <a href=""https://developers.google.com/machine-learning/glossary/#class_imbalanced_data_set""><strong>class-imbalanced dataset</strong></a>.</p>
 
 "
-implicit bias  (Google Machine Learning Glossary)|"
+implicit bias (Google Machine Learning Glossary)|"
 
 <p>Automatically making an association or assumption based on one’s mental
 models and memories. Implicit bias can affect the following:</p>
@@ -2174,7 +2173,6 @@ in certain cultures.</p>
 
 <p>See also <a href=""https://developers.google.com/machine-learning/glossary/#confirmation_bias""><strong>confirmation bias</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""incompatibility_of_fairness_metrics""></a>
 "
 incompatibility of fairness metrics (Google Machine Learning Glossary)|"
 
@@ -2191,8 +2189,8 @@ the goal of preventing harms specific to its use cases.</p>
 <p>See <a href=""https://arxiv.org/pdf/1609.07236.pdf"" target=""T"">&quot;On the
 (im)possibility of fairness&quot;</a> for a more detailed discussion of this topic.</p>
 
-<p><a class=""glossary-anchor"" name=""iid""></a>
-<h2 class=""hide-from-toc"">independently and identically distributed (i.i.d)</h2></p>
+"
+independently and identically distributed (i.i.d) (Google Machine Learning Glossary)|"
 
 <p>Data drawn from a distribution that doesn&#39;t change, and where each value
 drawn doesn&#39;t depend on values that have been drawn previously. An i.i.d.
@@ -2232,7 +2230,7 @@ of a distribution conditioned on some observed data. (See the
 Wikipedia article on statistical inference</a>.)</p>
 
 "
-in-group bias  (Google Machine Learning Glossary)|"
+in-group bias (Google Machine Learning Glossary)|"
 
 <p>Showing partiality to one&#39;s own group or own characteristics.
 If testers or raters consist of the machine learning developer&#39;s friends,
@@ -2333,8 +2331,8 @@ ground truth (below right) is 7, so the IoU is \(\frac{1}{7}\).</p>
           an area of 7."">
 </div>
 
-<p><a class=""glossary-anchor"" name=""ioou""></a>
-<h2 class=""hide-from-toc"">IoU</h2></p>
+"
+IoU (Google Machine Learning Glossary)|"
 
 <p>Abbreviation for <a href=""https://developers.google.com/machine-learning/glossary/#intersection_over_union""><strong>intersection over union</strong></a>.</p>
 
@@ -2392,8 +2390,8 @@ keypoints (Google Machine Learning Glossary)|"
 flower species, keypoints might be the center of each petal, the stem,
 the stamen, and so on.</p>
 
-<p><a class=""glossary-anchor"" name=""KSVMs""></a>
-<h2 class=""hide-from-toc"">Kernel Support Vector Machines (KSVMs)</h2></p>
+"
+Kernel Support Vector Machines (KSVMs) (Google Machine Learning Glossary)|"
 
 <p>A classification algorithm that seeks to maximize the margin between
 <a href=""https://developers.google.com/machine-learning/glossary/#positive_class""><strong>positive</strong></a> and
@@ -3240,7 +3238,7 @@ can be introduced into data in a variety of ways. For example:</p>
 </ul>
 
 "
-non-response bias  (Google Machine Learning Glossary)|"
+non-response bias (Google Machine Learning Glossary)|"
 
 <p>See <a href=""https://developers.google.com/machine-learning/glossary/#selection_bias""><strong>selection bias</strong></a>.</p>
 
@@ -3407,7 +3405,7 @@ and others)</li>
 <a href=""https://arxiv.org/abs/1606.04474"" target=""T"">NN-driven optimizer</a>.</p>
 
 "
-out-group homogeneity bias  (Google Machine Learning Glossary)|"
+out-group homogeneity bias (Google Machine Learning Glossary)|"
 
 <p>The tendency to see out-group members as more alike than in-group members
 when comparing attitudes, values, personality traits, and other
@@ -3623,9 +3621,8 @@ might be &quot;spam.&quot;</p>
 
 <p>Contrast with <a href=""https://developers.google.com/machine-learning/glossary/#negative_class""><strong>negative class</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""postprocessing""></a>
 "
- (Google Machine Learning Glossary)|"
+post-processing (Google Machine Learning Glossary)|"
 Processing the output of a model <em>after</em> the model has been run.
 Post-processing can be used to enforce fairness constraints without
 modifying models themselves.</p>
@@ -3636,8 +3633,6 @@ by setting a classification threshold such that
 for some attribute by checking that the <a href=""https://developers.google.com/machine-learning/glossary/#TP_rate""><strong>true positive rate</strong></a>
 is the same for all values of that attribute.</p>
 
-<p><a class=""glossary-anchor"" name=""PRAUC""></a>
-<a class=""glossary-anchor"" name=""PR_AUC""></a>
 "
 PR AUC (area under the PR curve) (Google Machine Learning Glossary)|"
 
@@ -3715,7 +3710,8 @@ target=""T"">Premade Estimators chapter</a> in the TensorFlow Programmers Guide.
 
 <p>Contrast with <a href=""https://developers.google.com/machine-learning/glossary/#custom_estimator""><strong>custom estimators</strong></a>.</p>
 
-" (Google Machine Learning Glossary)|"
+" 
+preprocessing (Google Machine Learning Glossary)|"
 Processing data before it&#39;s used to train a model. Preprocessing could
 be as simple as removing words from an English text corpus that don&#39;t
 occur in the English dictionary, or could be as complex as re-expressing
@@ -3835,7 +3831,6 @@ classes from highest to lowest. For example, a behavior ranking
 system could rank a dog&#39;s rewards from highest (a steak) to
 lowest (wilted kale).</p>
 
-<p><a class=""glossary-anchor"" name=""rank""></a>
 "
 rank (Tensor) (Google Machine Learning Glossary)|"
 
@@ -3888,7 +3883,7 @@ Rectified Linear Unit (ReLU) (Google Machine Learning Glossary)|"
 </ul>
 
 "
-recurrent neural network  (Google Machine Learning Glossary)|"
+recurrent neural network (Google Machine Learning Glossary)|"
 
 <p>A <a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>neural network</strong></a> that is intentionally run multiple
 times, where parts of each run feed into the next run. Specifically,
@@ -3966,7 +3961,7 @@ to store state transitions for use in
 <a href=""https://developers.google.com/machine-learning/glossary/#experience_replay""><strong>experience replay</strong></a>.</p>
 
 "
-reporting bias  (Google Machine Learning Glossary)|"
+reporting bias (Google Machine Learning Glossary)|"
 
 <p>The fact that the frequency with which people write about actions,
 outcomes, or properties is not a reflection of their real-world
@@ -4068,7 +4063,7 @@ for example, an upside-down 9 should not be classified as a 9.</p>
 
 
 "
-sampling bias  (Google Machine Learning Glossary)|"
+sampling bias (Google Machine Learning Glossary)|"
 
 <p>See <a href=""https://developers.google.com/machine-learning/glossary/#selection_bias""><strong>selection bias</strong></a>.</p>
 
@@ -4131,7 +4126,7 @@ provides a value or ranking for each item produced by the
 <a href=""https://developers.google.com/machine-learning/glossary/#candidate_generation""><strong>candidate generation</strong></a> phase.</p>
 
 "
-selection bias  (Google Machine Learning Glossary)|"
+selection bias (Google Machine Learning Glossary)|"
 
 <p>Errors in conclusions drawn from sampled data due to a selection process
 that generates systematic differences between samples observed in the data
@@ -4182,7 +4177,7 @@ model. Semi-supervised learning can be useful if labels are expensive to obtain
 but unlabeled examples are plentiful.</p>
 
 "
- (Google Machine Learning Glossary)|"
+sensitive attribute (Google Machine Learning Glossary)|"
 A human attribute that may be given special consideration for legal,
 ethical, social, or personal reasons.</p>
 
@@ -4740,8 +4735,8 @@ forecasting, and anomaly detection. For example, you could use
 time series analysis to forecast the future sales of winter coats by month
 based on historical sales data.</p>
 
-<p><a class=""glossary-anchor"" name=""timestep""></a>
-<h2 class=""hide-from-toc"">timestep</h2></p>
+"
+timestep (Google Machine Learning Glossary)|"
 
 <p>One &quot;unrolled&quot; cell within a
 <a href=""https://developers.google.com/machine-learning/glossary/#recurrent_neural_network""><strong>recurrent neural network</strong></a>.
@@ -4752,8 +4747,8 @@ the subscripts t-1, t, and t+1):</p>
 <img src=""/machine-learning/glossary/images/Simple_RNN.svg"">
 </p>
 
-<p><a class=""glossary-anchor"" name=""tower""></a>
-<h2 class=""hide-from-toc"">tower</h2></p>
+"
+tower (Google Machine Learning Glossary)|"
 
 <p>A component of a <a href=""https://developers.google.com/machine-learning/glossary/#deep_neural_network""><strong>deep neural network</strong></a> that
 is itself a deep neural network without an output layer. Typically,
@@ -4761,19 +4756,19 @@ each tower reads from an independent data source. Towers are independent
 until their output is combined in a final layer.</p>
 
 "
-TPU  (Google Machine Learning Glossary)|"
+TPU (Google Machine Learning Glossary)|"
 
 <p>Abbreviation for <a href=""https://developers.google.com/machine-learning/glossary/#TPU""><strong>Tensor Processing Unit</strong></a>.</p>
 
 "
-TPU chip  (Google Machine Learning Glossary)|"
+TPU chip (Google Machine Learning Glossary)|"
 
 <p>A programmable linear algebra accelerator with on-chip high bandwidth memory
 that is optimized for machine learning workloads.
 Multiple TPU chips are deployed on a <a href=""https://developers.google.com/machine-learning/glossary/#TPU_device""><strong>TPU device</strong></a>.</p>
 
 "
-TPU device  (Google Machine Learning Glossary)|"
+TPU device (Google Machine Learning Glossary)|"
 
 <p>A printed circuit board (PCB) with multiple <a href=""https://developers.google.com/machine-learning/glossary/#TPU_chip""><strong>TPU chips</strong></a>,
 high bandwidth network interfaces, and system cooling hardware.</p>
@@ -4787,7 +4782,7 @@ to the <a href=""https://developers.google.com/machine-learning/glossary/#TPU_wo
 and shutdown of <a href=""https://developers.google.com/machine-learning/glossary/#TPU_device""><strong>TPU devices</strong></a>.</p>
 
 "
-TPU node  (Google Machine Learning Glossary)|"
+TPU node (Google Machine Learning Glossary)|"
 
 <p>A TPU resource on Google Cloud Platform with a specific
 <a href=""https://developers.google.com/machine-learning/glossary/#TPU_type""><strong>TPU type</strong></a>. The TPU node connects to your
@@ -4797,7 +4792,7 @@ TPU nodes are a resource defined in the
 <a href=""https://cloud.google.com/tpu/docs/reference/rest/v1/projects.locations.nodes"">Cloud TPU API</a>.</p>
 
 "
-TPU Pod  (Google Machine Learning Glossary)|"
+TPU Pod (Google Machine Learning Glossary)|"
 
 <p>A specific configuration of <a href=""https://developers.google.com/machine-learning/glossary/#TPU_device""><strong>TPU devices</strong></a> in a Google
 data center. All of the devices in a TPU pod are connected to one another
@@ -4819,7 +4814,7 @@ a <a href=""https://developers.google.com/machine-learning/glossary/#TPU_Pod""><
 to one another over a dedicated high-speed network.</p>
 
 "
-TPU type  (Google Machine Learning Glossary)|"
+TPU type (Google Machine Learning Glossary)|"
 
 <p>A configuration of one or more <a href=""https://developers.google.com/machine-learning/glossary/#TPU_device""><strong>TPU devices</strong></a> with a specific
 TPU hardware version. You select a TPU type when you create
@@ -5020,8 +5015,8 @@ in <a href=""https://developers.google.com/machine-learning/glossary/#validation
 <p>Contrast with <a href=""https://developers.google.com/machine-learning/glossary/#training_set""><strong>training set</strong></a>
 and <a href=""https://developers.google.com/machine-learning/glossary/#test_set""><strong>test set</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""vanishing_gradient_problem""></a>
-<h2 class=""hide-from-toc"">vanishing gradient problem</h2></p>
+"
+vanishing gradient problem (Google Machine Learning Glossary)|"
 
 <p>The tendency for the gradients of early <a href=""https://developers.google.com/machine-learning/glossary/#hidden_layer""><strong>hidden layers</strong></a>
 of some <a href=""https://developers.google.com/machine-learning/glossary/#deep_neural_network""><strong>deep neural networks</strong></a> to become
@@ -5035,8 +5030,8 @@ become difficult or impossible to train.
 
 
 
-<p><a class=""glossary-anchor"" name=""Wasserstein_loss""></a>
-<h2 class=""hide-from-toc"">Wasserstein loss</h2></p>
+"
+Wasserstein loss (Google Machine Learning Glossary)|"
 
 <p>One of the loss functions commonly used in
 <a href=""https://developers.google.com/machine-learning/glossary/#generative_adversarial_network""><strong>generative adversarial networks</strong></a>,
@@ -5056,8 +5051,8 @@ in a deep network. The goal of training a linear model is to determine
 the ideal weight for each feature. If a weight is 0, then its corresponding
 feature does not contribute to the model.</p>
 
-<p><a class=""glossary-anchor"" name=""WALS""></a>
-<h2 class=""hide-from-toc"">Weighted Alternating Least Squares (WALS)</h2></p>
+"
+Weighted Alternating Least Squares (WALS) (Google Machine Learning Glossary)|"
 
 <p>An algorithm for minimizing the objective function during
 <a href=""https://developers.google.com/machine-learning/glossary/#matrix_factorization""><strong>matrix factorization</strong></a> in
