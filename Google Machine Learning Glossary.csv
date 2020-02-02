@@ -1,7 +1,4 @@
-
-
-<p><a class=""glossary-anchor"" name=""AB_testing""></a>
-<h2 class=""hide-from-toc""> A/B testing</h2></p>
+A/B testing|"
 
 <p>A statistical way of comparing two (or more) techniques, typically an incumbent
 against a new rival. A/B testing aims to determine not only which technique
@@ -10,8 +7,8 @@ statistically significant. A/B testing usually considers only two techniques
 using one measurement, but it can be applied to any finite number of techniques
 and measures.</p>
 
-<p><a class=""glossary-anchor"" name=""accuracy""></a>
-<h2 class=""hide-from-toc""> accuracy</h2></p>
+"
+accuracy|"
 
 <p>The fraction of <a href=""#prediction""><strong>predictions</strong></a> that a
 <a href=""#classification_model""><strong>classification model</strong></a> got right. In
@@ -60,8 +57,8 @@ are scarce or expensive to obtain. Instead of blindly seeking a diverse
 range of labeled examples, an active learning algorithm selectively seeks
 the particular range of examples it needs for learning.</p>
 
-<p><a class=""glossary-anchor"" name=""AdaGrad""></a>
-<h2 class=""hide-from-toc""> AdaGrad</h2></p>
+"
+AdaGrad|"
 
 <p>A sophisticated gradient descent algorithm that rescales the
 gradients of each parameter, effectively giving each parameter
@@ -69,43 +66,43 @@ an independent <a href=""#learning_rate""><strong>learning rate</strong></a>. Fo
 <a href=""http://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf""
 target=""T"">this paper</a>.</p>
 
-<p><a class=""glossary-anchor"" name=""agent""></a>
-<h2 class=""hide-from-toc""> agent</h2></p>
+"
+agent|"
 
 <p>In reinforcement learning, the entity that uses a <a href=""#policy""><strong>policy</strong></a>
 to maximize expected <a href=""#return""><strong>return</strong></a> gained from transitioning
 between <a href=""#state""><strong>states</strong></a> of the  <a href=""#environment""><strong>environment</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""agglomerative_clustering""></a>
-<h2 class=""hide-from-toc""> agglomerative clustering</h2></p>
+"
+agglomerative clustering|"
 
 <p>See <a href=""#hierarchical_clustering""><strong>hierarchical clustering</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""AR""></a>
-<h2 class=""hide-from-toc""> AR</h2></p>
+"
+AR|"
 
 <p>Abbreviation for <a href=""#augmented_reality""><strong>augmented reality</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""area_under_the_pr_curve""></a>
-<h2 class=""hide-from-toc""> area under the PR curve</h2></p>
+"
+area under the PR curve|"
 
 <p>See <a href=""#PR_AUC""><strong>PR AUC (Area under the PR Curve)</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""area_under_the_ROC_curve""></a>
-<h2 class=""hide-from-toc""> area under the ROC curve</h2></p>
+"
+area under the ROC curve|"
 
 <p>See <a href=""#AUC""><strong>AUC (Area under the ROC curve)</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""artificial_general_intelligence""></a>
-<h2 class=""hide-from-toc""> artificial general intelligence</h2></p>
+"
+artificial general intelligence|"
 
 <p>A non-human mechanism that demonstrates a <em>broad range</em> of problem solving,
 creativity, and adaptability. For example, a program demonstrating artificial
 general intelligence could translate text, compose symphonies, <em>and</em> excel at
 games that have not yet been invented.</p>
 
-<p><a class=""glossary-anchor"" name=""artificial_intelligence""></a>
-<h2 class=""hide-from-toc""> artificial intelligence</h2></p>
+"
+artificial intelligence|"
 
 <p>A non-human program or model that can solve sophisticated tasks. For example,
 a program or model that translates text or a program or model that identifies
@@ -115,14 +112,14 @@ diseases from radiologic images both exhibit artificial intelligence.</p>
 intelligence. However, in recent years, some organizations have begun using the
 terms <em>artificial intelligence</em> and <em>machine learning</em> interchangeably.</p>
 
-<p><a class=""glossary-anchor"" name=""attribute""></a>
-<h2 class=""hide-from-toc""> attribute</h2></p>
+"
+attribute|"
 
 <p>Synonym for <a href=""#feature""><strong>feature</strong></a>. In fairness, attributes often refer to
 characteristics pertaining to individuals.</p>
 
-<p><a class=""glossary-anchor"" name=""AUC""></a>
-<h2 class=""hide-from-toc""> AUC (Area under the ROC Curve)</h2></p>
+"
+AUC (Area under the ROC Curve)|"
 
 <p>An evaluation metric that considers all possible
 <a href=""#classification_threshold""><strong>classification thresholds</strong></a>.</p>
@@ -131,21 +128,21 @@ characteristics pertaining to individuals.</p>
 will be more confident that a randomly chosen positive example is actually
 positive than that a randomly chosen negative example is positive.</p>
 
-<p><a class=""glossary-anchor"" name=""augmented_reality""></a>
-<h2 class=""hide-from-toc""> augmented reality</h2></p>
+"
+augmented reality|"
 
 <p>A technology that superimposes a computer-generated image on a user&#39;s view of
 the real world, thus providing a composite view.</p>
 
-<p><a class=""glossary-anchor"" name=""automation_bias""></a>
-<h2 class=""hide-from-toc""> automation bias </h2></p>
+"
+automation bias |"
 
 <p>When a human decision maker favors recommendations made by an automated
 decision-making system over information made without automation, even
 when the automated decision-making system makes errors.</p>
 
-<p><a class=""glossary-anchor"" name=""average_precision""></a>
-<h2 class=""hide-from-toc""> average precision </h2></p>
+"
+average precision |"
 
 <p>A metric for summarizing the performance of a ranked sequence of results.
 Average precision is calculated by taking the average of the
@@ -155,8 +152,8 @@ the ranked list where the recall increases relative to the previous result).</p>
 <p>See also <a href=""#area_under_the_pr_curve""><strong>Area under the PR Curve</strong></a>.</p>
 
 
-<p><a class=""glossary-anchor"" name=""backpropagation""></a>
-<h2 class=""hide-from-toc""> backpropagation</h2></p>
+"
+backpropagation|"
 
 <p>The primary algorithm for performing
 <a href=""#gradient_descent""><strong>gradient descent</strong></a> on
@@ -166,8 +163,8 @@ Then, the <a href=""#partial_derivative""><strong>partial derivative</strong></a
 of the error with respect to each parameter is calculated in a backward
 pass through the graph.</p>
 
-<p><a class=""glossary-anchor"" name=""bag_of_words""></a>
-<h2 class=""hide-from-toc""> bag of words</h2></p>
+"
+bag of words|"
 
 <p>A representation of the words in a phrase or passage,
 irrespective of order. For example, bag of words represents the
@@ -195,8 +192,8 @@ be represented as 1.</li>
 times a word appears in the bag.</li>
 </ul>
 
-<p><a class=""glossary-anchor"" name=""baseline""></a>
-<h2 class=""hide-from-toc""> baseline</h2></p>
+"
+baseline|"
 
 <p>A <a href=""#model""><strong>model</strong></a> used as a reference point for comparing how well another
 model (typically, a more complex one) is performing. For example, a
@@ -207,8 +204,8 @@ good baseline for a <a href=""#deep_model""><strong>deep model</strong></a>.</p>
 the minimal expected performance that a new model must achieve for the new
 model to be useful.</p>
 
-<p><a class=""glossary-anchor"" name=""batch""></a>
-<h2 class=""hide-from-toc""> batch</h2></p>
+"
+batch|"
 
 <p>The set of examples used in one <a href=""#iteration""><strong>iteration</strong></a> (that is, one
 <a href=""#gradient""><strong>gradient</strong></a> update) of
@@ -216,8 +213,8 @@ model to be useful.</p>
 
 <p>See also <a href=""#batch_size""><strong>batch size</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""batch_normalization""></a>
-<h2 class=""hide-from-toc""> batch normalization</h2></p>
+"
+batch normalization|"
 
 <p><a href=""#normalization""><strong>Normalizing</strong></a> the input or output of the
 <a href=""#activation_function""><strong>activation functions</strong></a> in a
@@ -231,8 +228,8 @@ against <a href=""#outliers""><strong>outlier</strong></a> weights.</li>
 <li>Reduce <a href=""#overfitting""><strong>overfitting</strong></a>.</li>
 </ul>
 
-<p><a class=""glossary-anchor"" name=""batch_size""></a>
-<h2 class=""hide-from-toc""> batch size</h2></p>
+"
+batch size|"
 
 <p>The number of examples in a <a href=""#batch""><strong>batch</strong></a>. For example, the batch size
 of <a href=""#SGD""><strong>SGD</strong></a> is 1, while the batch size of
@@ -240,8 +237,8 @@ a <a href=""#mini-batch""><strong>mini-batch</strong></a> is usually between 10 
 usually fixed during <a href=""#training""><strong>training</strong></a> and <a href=""#inference""><strong>inference</strong></a>;
 however, <a href=""#TensorFlow""><strong>TensorFlow</strong></a> does permit dynamic batch sizes.</p>
 
-<p><a class=""glossary-anchor"" name=""Bayesian_neural_network""></a>
-<h2 class=""hide-from-toc""> Bayesian neural network</h2></p>
+"
+Bayesian neural network|"
 
 <p>A probabilistic <a href=""#neural_network""><strong>neural network</strong></a> that accounts for
 uncertainty in <a href=""#weight""><strong>weights</strong></a> and outputs. A standard neural network
@@ -257,8 +254,8 @@ network can be useful when it is important to quantify uncertainty, such as in
 models related to pharmaceuticals. Bayesian neural networks can also help
 prevent <a href=""#overfitting""><strong>overfitting</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""bellman_equation""></a>
-<h2 class=""hide-from-toc""> Bellman equation</h2></p>
+"
+Bellman equation|"
 
 <p>In reinforcement learning, the following identity satisfied by the optimal
 <a href=""#q-function""><strong>Q-function</strong></a>:</p>
@@ -279,8 +276,8 @@ dynamic programming. See the
 <a href=""https://wikipedia.org/wiki/Bellman_equation"" target=""T"">
 Wikipedia entry for Bellman Equation</a>.</p>
 
-<p><a class=""glossary-anchor"" name=""bias_ethics""></a>
-<h2 class=""hide-from-toc""> bias (ethics/fairness)</h2></p>
+"
+bias (ethics/fairness)|"
 
 <p>
 1. Stereotyping, prejudice or favoritism towards some things, people,
@@ -316,8 +313,8 @@ Forms of this type of bias include:
 <p>Not to be confused with the <a href=""#bias"">bias term</a> in machine learning models
 or <a href=""#prediction_bias""><strong>prediction bias</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""bias""></a>
-<h2 class=""hide-from-toc""> bias (math)</h2></p>
+"
+bias (math)|"
 
 <p>An intercept or offset from an origin. Bias (also known as the
 <strong>bias term</strong>) is referred to as <em>b</em> or <i>w<sub>0</sub></i> in
@@ -331,26 +328,26 @@ $$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 <p>Not to be confused with <a href=""#bias_ethics""><strong>bias in ethics and fairness</strong></a>
 or <a href=""#prediction_bias""><strong>prediction bias</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""bigram""></a>
-<h2 class=""hide-from-toc""> bigram</h2></p>
+"
+bigram|"
 
 <p>An <a href=""#N-gram""><strong>N-gram</strong></a> in which N=2.</p>
 
-<p><a class=""glossary-anchor"" name=""binary_classification""></a>
-<h2 class=""hide-from-toc""> binary classification</h2></p>
+"
+binary classification|"
 
 <p>A type of <a href=""#classification_model""><strong>classification</strong></a> task that outputs one
 of two mutually exclusive <a href=""#class""><strong>classes</strong></a>. For example, a machine
 learning model that evaluates email messages and outputs either &quot;spam&quot; or
 &quot;not spam&quot; is a <a href=""#binary_classification""><strong>binary classifier</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""binning""></a>
-<h2 class=""hide-from-toc""> binning</h2></p>
+"
+binning|"
 
 <p>See <a href=""#bucketing""><strong>bucketing</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""boosting""></a>
-<h2 class=""hide-from-toc""> boosting</h2></p>
+"
+boosting|"
 
 <p>A machine learning technique that iteratively combines a set of simple and
 not very accurate classifiers (referred to as &quot;weak&quot; classifiers) into a
@@ -358,8 +355,8 @@ classifier with high accuracy (a &quot;strong&quot; classifier) by
 <a href=""#upweighting""><strong>upweighting</strong></a> the examples that the model is currently
 misclassfying.</p>
 
-<p><a class=""glossary-anchor"" name=""bounding_box""></a>
-<h2 class=""hide-from-toc""> bounding box</h2></p>
+"
+bounding box|"
 
 <p>In an image, the (<em>x</em>, <em>y</em>) coordinates of a rectangle around an area of
 interest, such as the dog in the image below.</p>
@@ -372,8 +369,8 @@ interest, such as the dog in the image below.</p>
 </p>
 
 
-<p><a class=""glossary-anchor"" name=""broadcasting""></a>
-<h2 class=""hide-from-toc""> broadcasting</h2></p>
+"
+broadcasting|"
 
 <p>Expanding the shape of an operand in a matrix math operation to
 <a href=""#dimensions""><strong>dimensions</strong></a> compatible for that operation. For instance,
@@ -401,8 +398,8 @@ B = [2]
 <a href=""https://docs.scipy.org/doc/numpy-1.15.0/user/basics.broadcasting.html""
 target=""T"">broadcasting in NumPy</a> for more details.</p>
 
-<p><a class=""glossary-anchor"" name=""bucketing""></a>
-<h2 class=""hide-from-toc""> bucketing</h2></p>
+"
+bucketing|"
 
 <p>Converting a (usually <a href=""#continuous_feature""><strong>continuous</strong></a>) feature into
 multiple binary features called buckets or bins, typically based on value
@@ -414,15 +411,15 @@ all temperatures between 0.0 and 15.0 degrees could be put into one bin,
 be a third bin.</p>
 
 
-<p><a class=""glossary-anchor"" name=""calibration_layer""></a>
-<h2 class=""hide-from-toc""> calibration layer</h2></p>
+"
+calibration layer|"
 
 <p>A post-prediction adjustment, typically to account for
 <a href=""#prediction_bias""><strong>prediction bias</strong></a>. The adjusted predictions and
 probabilities should match the distribution of an observed set of labels.</p>
 
-<p><a class=""glossary-anchor"" name=""candidate_generation""></a>
-<h2 class=""hide-from-toc""> candidate generation</h2></p>
+"
+candidate generation|"
 
 <p>The initial set of recommendations chosen by a recommendation system. For
 example, consider a bookstore that offers 100,000 titles. The candidate
@@ -432,8 +429,8 @@ to a user. Subsequent, more expensive, phases of a recommendation system
 (such as <a href=""#scoring""><strong>scoring</strong></a> and <a href=""#re-ranking""><strong>re-ranking</strong></a>) whittle
 down those 500 to a much smaller, more useful set of recommendations.</p>
 
-<p><a class=""glossary-anchor"" name=""candidate_sampling""></a>
-<h2 class=""hide-from-toc""> candidate sampling</h2></p>
+"
+candidate sampling|"
 
 <p>A training-time optimization in which a probability is calculated for all the
 positive labels, using, for example, <a href=""#softmax""><strong>softmax</strong></a>,
@@ -450,8 +447,8 @@ reinforcement, and this is indeed observed empirically. The motivation for
 candidate sampling is a computational efficiency win from not computing
 predictions for all negatives.</p>
 
-<p><a class=""glossary-anchor"" name=""categorical_data""></a>
-<h2 class=""hide-from-toc""> categorical data</h2></p>
+"
+categorical data|"
 
 <p><a href=""#feature""><strong>Features</strong></a> having a discrete set of possible values. For example,
 consider a categorical feature named <code translate=""no"" dir=""ltr"">house style</code>, which has a discrete set of
@@ -479,8 +476,8 @@ values (for example, <code translate=""no"" dir=""ltr"">red</code> and <code tra
 <a href=""#k-median""><strong>k-median</strong></a> algorithm. For instance, if k is 3,
 then the k-means or k-median algorithm finds 3 centroids.</p>
 
-<p><a class=""glossary-anchor"" name=""centroid_based_clustering""></a>
-<h2 class=""hide-from-toc""> centroid-based clustering</h2></p>
+"
+centroid-based clustering|"
 
 <p>A category of <a href=""#clustering""><strong>clustering</strong></a> algorithms that organizes data
 into nonhierarchical clusters. <a href=""#k-means""><strong>k-means</strong></a> is the most widely
@@ -489,8 +486,8 @@ used centroid-based clustering algorithm.</p>
 <p>Contrast with <a href=""#hierarchical_clustering""><strong>hierarchical clustering</strong></a>
 algorithms.</p>
 
-<p><a class=""glossary-anchor"" name=""checkpoint""></a>
-<h2 class=""hide-from-toc""> checkpoint</h2></p>
+"
+checkpoint|"
 
 <p>Data that captures the state of the variables of a model at a particular
 time. Checkpoints enable exporting model <a href=""#weight""><strong>weights</strong></a>, as well
@@ -498,8 +495,8 @@ as performing training across multiple sessions. Checkpoints also enable
 training to continue past errors (for example, job preemption). Note that
 the <a href=""#graph""><strong>graph</strong></a> itself is not included in a checkpoint.</p>
 
-<p><a class=""glossary-anchor"" name=""class""></a>
-<h2 class=""hide-from-toc""> class</h2></p>
+"
+class|"
 
 <p>One of a set of enumerated target values for a label. For example, in a
 <a href=""#binary_classification""><strong>binary classification</strong></a> model that detects
@@ -508,16 +505,16 @@ spam, the two classes are <em>spam</em> and <em>not spam</em>.  In a
 identifies dog breeds, the classes would be <em>poodle</em>, <em>beagle</em>, <em>pug</em>, and so
 on.</p>
 
-<p><a class=""glossary-anchor"" name=""classification_model""></a>
-<h2 class=""hide-from-toc""> classification model</h2></p>
+"
+classification model|"
 
 <p>A type of machine learning model for distinguishing among two or more
 discrete classes. For example, a natural language processing classification
 model could determine whether an input sentence was in French, Spanish,
 or Italian. Compare with <a href=""#regression_model""><strong>regression model</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""classification_threshold""></a>
-<h2 class=""hide-from-toc""> classification threshold</h2></p>
+"
+classification threshold|"
 
 <p>A scalar-value criterion that is applied to a model&#39;s predicted score in order
 to separate the <a href=""#positive_class""><strong>positive class</strong></a> from the <a href=""#negative_class""><strong>negative
@@ -529,8 +526,8 @@ message being spam. If the classification threshold is 0.9, then logistic
 regression values above 0.9 are classified as <em>spam</em> and those below
 0.9 are classified as <em>not spam</em>.</p>
 
-<p><a class=""glossary-anchor"" name=""class_imbalanced_data_set""></a>
-<h2 class=""hide-from-toc""> class-imbalanced dataset</h2></p>
+"
+class-imbalanced dataset|"
 
 <p>A <a href=""#binary_classification""><strong>binary classification</strong></a> problem in which the
 <a href=""#label""><strong>labels</strong></a> for the two classes have significantly different
@@ -540,8 +537,8 @@ problem, but a football game predictor in which 0.51 of examples label one
 team winning and 0.49 label the other team winning is <em>not</em> a
 class-imbalanced problem.</p>
 
-<p><a class=""glossary-anchor"" name=""clipping""></a>
-<h2 class=""hide-from-toc""> clipping</h2></p>
+"
+clipping|"
 
 <p>A technique for handling <a href=""#outliers""><strong>outliers</strong></a>. Specifically, reducing
 feature values that are greater than a set maximum value down to that maximum
@@ -560,8 +557,8 @@ range 40–60. In this case, you could do the following:</p>
 can also used to force <em>gradient values</em> within a designated range during
 training.</p>
 
-<p><a class=""glossary-anchor"" name=""Cloud_TPU""></a>
-<h2 class=""hide-from-toc""> Cloud TPU </h2></p>
+"
+Cloud TPU |"
 
 <p>A specialized hardware accelerator designed to speed up machine
 learning workloads on Google Cloud Platform.</p>
@@ -591,8 +588,8 @@ example&#39;s distance from a center point, illustrated as follows:</p>
 <img src=""/machine-learning/glossary/images/RingCluster.svg"">
 </p>
 
-<p><a class=""glossary-anchor"" name=""co-adaptation""></a>
-<h2 class=""hide-from-toc""> co-adaptation</h2></p>
+"
+co-adaptation|"
 
 <p>When <a href=""#neuron""><strong>neurons</strong></a> predict patterns in training data by relying
 almost exclusively on outputs of specific other neurons instead of relying on
@@ -601,15 +598,15 @@ are not present in validation data, then co-adaptation causes overfitting.
 <a href=""#dropout_regularization""><strong>Dropout regularization</strong></a> reduces co-adaptation
 because dropout ensures neurons cannot rely solely on specific other neurons.</p>
 
-<p><a class=""glossary-anchor"" name=""collaborative_filtering""></a>
-<h2 class=""hide-from-toc""> collaborative filtering</h2></p>
+"
+collaborative filtering|"
 
 <p>Making <a href=""#prediction""><strong>predictions</strong></a> about the interests of one user
 based on the interests of many other users.  Collaborative filtering
 is often used in <a href=""#recommendation_system""><strong>recommendation systems</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""confirmation_bias""></a>
-<h2 class=""hide-from-toc""> confirmation bias </h2></p>
+"
+confirmation bias |"
 
 <p>The tendency to search for, interpret, favor, and recall information in a
 way that confirms one&#39;s preexisting beliefs or hypotheses.
@@ -621,8 +618,8 @@ beliefs.  Confirmation bias is a form of <a href=""#implicit_bias""><strong>impl
 an experimenter continues training models until a preexisting
 hypothesis is confirmed.</p>
 
-<p><a class=""glossary-anchor"" name=""confusion_matrix""></a>
-<h2 class=""hide-from-toc""> confusion matrix</h2></p>
+"
+confusion matrix|"
 
 <p>An NxN table that summarizes how successful a
 <a href=""#classification_model""><strong>classification model&#39;s</strong></a> predictions were; that is,
@@ -673,21 +670,21 @@ digits tends to mistakenly predict 9 instead of 4, or 1 instead of 7.</p>
 variety of performance metrics, including <a href=""#precision""><strong>precision</strong></a>
 and <a href=""#recall""><strong>recall</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""continuous_feature""></a>
-<h2 class=""hide-from-toc""> continuous feature</h2></p>
+"
+continuous feature|"
 
 <p>A floating-point feature with an infinite range of possible values.
 Contrast with <a href=""#discrete_feature""><strong>discrete feature</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""convenience_sampling""></a>
-<h2 class=""hide-from-toc""> convenience sampling</h2></p>
+"
+convenience sampling|"
 
 <p>Using a dataset not gathered scientifically in order to run quick
 experiments. Later on, it&#39;s essential to switch to a scientifically gathered
 dataset.</p>
 
-<p><a class=""glossary-anchor"" name=""convergence""></a>
-<h2 class=""hide-from-toc""> convergence</h2></p>
+"
+convergence|"
 
 <p>Informally, often refers to a state reached during <a href=""#training""><strong>training</strong></a>
 in which training <a href=""#loss""><strong>loss</strong></a> and <a href=""#validation""><strong>validation</strong></a> loss
@@ -704,8 +701,8 @@ descending, temporarily producing a false sense of convergence.</p>
 <a href=""https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf""
 target=""T"">Convex Optimization</a>.</p>
 
-<p><a class=""glossary-anchor"" name=""convex_function""></a>
-<h2 class=""hide-from-toc""> convex function</h2></p>
+"
+convex function|"
 
 <p>A function in which the region above the graph of the function is a
 <a href=""#convex_set""><strong>convex set</strong></a>.  The prototypical convex function is
@@ -900,13 +897,13 @@ this slice looks as follows:</p>
 series of convolutional operations, each acting on a different slice
 of the input matrix.</p>
 
-<p><a class=""glossary-anchor"" name=""cost""></a>
-<h2 class=""hide-from-toc""> cost</h2></p>
+"
+cost|"
 
 <p>Synonym for <a href=""#loss""><strong>loss</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""counterfactual_fairness""></a>
-<h2 class=""hide-from-toc""> counterfactual fairness </h2>
+"
+|"
 A <a href=""#fairness_metric""><strong>fairness metric</strong></a> that checks whether a classifier
 produces the same result for one individual as it does for another individual
 who is identical to the first, except with respect to one or more
@@ -919,13 +916,13 @@ bias in a model.</p>
 Collide: Integrating Different Counterfactual Assumptions in Fairness&quot;</a>
 for a more detailed discussion of counterfactual fairness.</p>
 
-<p><a class=""glossary-anchor"" name=""coverage_bias""></a>
-<h2 class=""hide-from-toc""> coverage bias </h2></p>
+"
+coverage bias |"
 
 <p>See <a href=""#selection_bias""><strong>selection bias</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""crash_blossom""></a>
-<h2 class=""hide-from-toc""> crash blossom</h2></p>
+"
+crash blossom|"
 
 <p>A sentence or phrase with an ambiguous meaning.
 Crash blossoms present a significant problem in <a href=""#natural_language_understanding""><strong>natural
@@ -934,28 +931,28 @@ For example, the headline <em>Red Tape Holds Up Skyscraper</em> is a
 crash blossom because an NLU model could interpret the headline literally or
 figuratively.</p>
 
-<p><a class=""glossary-anchor"" name=""critic""></a>
-<h2 class=""hide-from-toc""> critic</h2></p>
+"
+critic|"
 
 <p>Synonym for <a href=""#deep_q-network""><strong>Deep Q-Network</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""cross-entropy""></a>
-<h2 class=""hide-from-toc""> cross-entropy</h2></p>
+"
+cross-entropy|"
 
 <p>A generalization of <a href=""#Log_Loss""><strong>Log Loss</strong></a> to
 <a href=""#multi-class""><strong>multi-class classification problems</strong></a>. Cross-entropy
 quantifies the difference between two probability distributions.  See also
 <a href=""#perplexity""><strong>perplexity</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""cross-validation""></a>
-<h2 class=""hide-from-toc""> cross-validation</h2></p>
+"
+cross-validation|"
 
 <p>A mechanism for estimating how well a model will generalize to new data by
 testing the model against one or more non-overlapping data subsets withheld
 from the <a href=""#training_set""><strong>training set</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""custom_estimator""></a>
-<h2 class=""hide-from-toc""> custom Estimator</h2></p>
+"
+custom Estimator|"
 
 <p>An <a href=""#Estimators""><strong>Estimator</strong></a> that you write yourself by following
 <a href=""https://www.tensorflow.org/guide/custom_estimators""
@@ -964,8 +961,8 @@ target=""T"">these directions</a>.</p>
 <p>Contrast with <a href=""#premade_Estimator""><strong>premade Estimators</strong></a>.</p>
 
 
-<p><a class=""glossary-anchor"" name=""data_analysis""></a>
-<h2 class=""hide-from-toc""> data analysis</h2></p>
+"
+data analysis|"
 
 <p>Obtaining an understanding of data by considering samples, measurement,
 and visualization. Data analysis can be particularly useful when a
@@ -973,8 +970,8 @@ dataset is first received, before one builds the first model. It is
 also crucial in understanding experiments and debugging problems with
 the system.</p>
 
-<p><a class=""glossary-anchor"" name=""data_augmentation""></a>
-<h2 class=""hide-from-toc""> data augmentation</h2></p>
+"
+data augmentation|"
 
 <p>Artificially boosting the range and number of <a href=""#training""><strong>training</strong></a> examples
 by transforming existing examples to create additional examples. For example,
@@ -985,20 +982,20 @@ model to train properly. If that&#39;s not possible, data augmentation can rotat
 stretch, and reflect each image to produce many variants of the original
 picture, possibly yielding enough labeled data to enable excellent training.</p>
 
-<p><a class=""glossary-anchor"" name=""DataFrame""></a>
-<h2 class=""hide-from-toc""> DataFrame</h2></p>
+"
+DataFrame|"
 
 <p>A popular datatype for representing datasets in <a href=""#pandas""><strong>pandas</strong></a>. A
 DataFrame is analogous to a table. Each column of the DataFrame has a name (a
 header), and each row is identified by a number.</p>
 
-<p><a class=""glossary-anchor"" name=""data_set""></a>
-<h2 class=""hide-from-toc""> data set or dataset</h2></p>
+"
+data set or dataset|"
 
 <p>A collection of <a href=""#example""><strong>examples</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""dataset_API""></a>
-<h2 class=""hide-from-toc""> Dataset API (tf.data)</h2></p>
+"
+Dataset API (tf.data)|"
 
 <p>A high-level <a href=""#TensorFlow""><strong>TensorFlow</strong></a> API for reading data and
 transforming it into a form that a machine learning algorithm requires.
@@ -1011,8 +1008,8 @@ object provides access to the elements of a <code translate=""no"" dir=""ltr"">D
 target=""T"">Importing Data</a>
 in the TensorFlow Programmer&#39;s Guide.</p>
 
-<p><a class=""glossary-anchor"" name=""decision_boundary""></a>
-<h2 class=""hide-from-toc""> decision boundary</h2></p>
+"
+decision boundary|"
 
 <p>The separator between classes learned by a model in a
 <a href=""#binary_classification""><strong>binary class</strong></a> or
@@ -1026,13 +1023,13 @@ the blue class:</p>
 well-defined boundary between one class and another.""></img>
 </p>
 
-<p><a class=""glossary-anchor"" name=""decision_threshold""></a>
-<h2 class=""hide-from-toc""> decision threshold</h2></p>
+"
+decision threshold|"
 
 <p>Synonym for <a href=""#classification_threshold""><strong>classification threshold</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""decision_tree""></a>
-<h2 class=""hide-from-toc""> decision tree</h2></p>
+"
+decision tree|"
 
 <p>A model represented as a sequence of branching statements. For example, the
 following over-simplified decision tree branches a few times to
@@ -1048,30 +1045,30 @@ tree three-levels deep whose branches predict house prices.""></img>
 
 <p>Machine learning can generate deep decision trees.</p>
 
-<p><a class=""glossary-anchor"" name=""deep_model""></a>
-<h2 class=""hide-from-toc""> deep model</h2></p>
+"
+deep model|"
 
 <p>A type of <a href=""#neural_network""><strong>neural network</strong></a> containing multiple
 <a href=""#hidden_layer""><strong>hidden layers</strong></a>.</p>
 
 <p>Contrast with <a href=""#wide_model""><strong>wide model</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""deep_neural_network""></a>
-<h2 class=""hide-from-toc""> deep neural network</h2></p>
+"
+deep neural network|"
 
 <p>Synonym for <a href=""#deep_model""><strong>deep model</strong></a>.</p>
 
 
-<p><a class=""glossary-anchor"" name=""deep_q-network""></a>
-<h2 class=""hide-from-toc""> Deep Q-Network (DQN)</h2></p>
+"
+Deep Q-Network (DQN)|"
 
 <p>In <a href=""#q-learning""><strong>Q-learning</strong></a>, a deep <a href=""#neural_network""><strong>neural network</strong></a>
 that predicts <a href=""#q-function""><strong>Q-functions</strong></a>.</p>
 
 <p><strong>Critic</strong> is a synonym for Deep Q-Network.</p>
 
-<p><a class=""glossary-anchor"" name=""demographic_parity""></a>
-<h2 class=""hide-from-toc""> demographic parity</h2></p>
+"
+demographic parity|"
 
 <p>A <a href=""#fairness_metric""><strong>fairness metric</strong></a> that is satisfied if
 the results of a model&#39;s classification are not dependent on a
@@ -1092,20 +1089,20 @@ labels to depend on sensitive attributes.  See
 discrimination with smarter machine learning&quot;</a> for a visualization
 exploring the tradeoffs when optimizing for demographic parity.</p>
 
-<p><a class=""glossary-anchor"" name=""dense_feature""></a>
-<h2 class=""hide-from-toc""> dense feature</h2></p>
+"
+dense feature|"
 
 <p>A <a href=""#feature""><strong>feature</strong></a> in which most values are non-zero, typically
 a <a href=""#tensor""><strong>Tensor</strong></a> of floating-point values. Contrast with
 <a href=""#sparse_features""><strong>sparse feature</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""dense_layer""></a>
-<h2 class=""hide-from-toc""> dense layer</h2></p>
+"
+dense layer|"
 
 <p>Synonym for <a href=""#fully_connected_layer""><strong>fully connected layer</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""depth""></a>
-<h2 class=""hide-from-toc""> depth</h2></p>
+"
+depth|"
 
 <p>The number of <a href=""#layer""><strong>layers</strong></a> (including any
 <a href=""#embeddings""><strong>embedding</strong></a> layers) in a <a href=""#neural_network""><strong>neural network</strong></a>
@@ -1130,20 +1127,20 @@ with length and width of 1 (1 ✕ 1 ✕ n).</p>
 <p>To learn more, see <a href=""https://arxiv.org/pdf/1610.02357.pdf"">Xception: Deep Learning with Depthwise Separable
 Convolutions</a>.</p>
 
-<p><a class=""glossary-anchor"" name=""device""></a>
-<h2 class=""hide-from-toc""> device</h2></p>
+"
+device|"
 
 <p>A category of hardware that can run a TensorFlow session, including
 CPUs, GPUs, and <a href=""#TPU""><strong>TPUs</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""dimension_reduction""></a>
-<h2 class=""hide-from-toc""> dimension reduction</h2></p>
+"
+dimension reduction|"
 
 <p>Decreasing the number of dimensions used to represent a particular feature in
 a feature vector, typically by converting to an <a href=""#embeddings""><strong>embedding</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""dimensions""></a>
-<h2 class=""hide-from-toc""> dimensions </h2></p>
+"
+dimensions |"
 
 <p>Overloaded term having any of the following definitions:</p>
 
@@ -1165,16 +1162,16 @@ particular cell in a two-dimensional matrix.</p></li>
 </ul></p></li>
 </ul>
 
-<p><a class=""glossary-anchor"" name=""discrete_feature""></a>
-<h2 class=""hide-from-toc""> discrete feature</h2></p>
+"
+discrete feature|"
 
 <p>A <a href=""#feature""><strong>feature</strong></a> with a finite set of possible values. For example,
 a feature whose values may only be <em>animal</em>, <em>vegetable</em>, or <em>mineral</em> is a
 discrete (or categorical) feature. Contrast with
 <a href=""#continuous_feature""><strong>continuous feature</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""discriminative_model""></a>
-<h2 class=""hide-from-toc""> discriminative model</h2></p>
+"
+discriminative model|"
 
 <p>A <a href=""#model""><strong>model</strong></a> that predicts labels from a set of one or more
 features. More formally, discriminative models define the conditional
@@ -1192,8 +1189,8 @@ and regression models, are discriminative models.</p>
 
 <p>Contrast with <a href=""#generative_model""><strong>generative model</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""discriminator""></a>
-<h2 class=""hide-from-toc""> discriminator</h2></p>
+"
+discriminator|"
 
 <p>A system that determines whether examples are real or fake.</p>
 
@@ -1201,8 +1198,8 @@ and regression models, are discriminative models.</p>
 network</strong></a> that determines whether
 the examples created by the <a href=""#generator""><strong>generator</strong></a> are real or fake.</p>
 
-<p><a class=""glossary-anchor"" name=""disparate_impact""></a>
-<h2 class=""hide-from-toc""> disparate impact</h2></p>
+"
+disparate impact|"
 
 <p>Making decisions about people that impact different population
 subgroups disproportionately. This usually refers to situations
@@ -1220,8 +1217,8 @@ then this algorithm may result in disparate impact.</p>
 which focuses on disparities that result when subgroup characteristics
 are explicit inputs to an algorithmic decision-making process.</p>
 
-<p><a class=""glossary-anchor"" name=""disparate_treatment""></a>
-<h2 class=""hide-from-toc""> disparate treatment</h2></p>
+"
+disparate treatment|"
 
 <p>Factoring subjects&#39; <a href=""#sensitive_attribute""><strong>sensitive attributes</strong></a>
 into an algorithmic decision-making process such that different subgroups
@@ -1245,13 +1242,13 @@ treatment of subgroups, but there still might be
 disparate impact upon these groups because
 postal code might serve as a <a href=""#proxy_sensitive_attributes""><strong>proxy</strong></a> for other
 demographic information.</span></aside>
-<p><a class=""glossary-anchor"" name=""divisive_clustering""></a>
-<h2 class=""hide-from-toc""> divisive clustering</h2></p>
+"
+divisive clustering|"
 
 <p>See <a href=""#hierarchical_clustering""><strong>hierarchical clustering</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""downsampling""></a>
-<h2 class=""hide-from-toc""> downsampling</h2></p>
+"
+downsampling|"
 
 <p>Overloaded term that can mean either of the following:</p>
 
@@ -1269,13 +1266,13 @@ dataset</strong></a>, models tend to learn a lot about the
 balance the amount of training on the majority and minority classes.</li>
 </ul>
 
-<p><a class=""glossary-anchor"" name=""DQN""></a>
-<h2 class=""hide-from-toc""> DQN</h2></p>
+"
+DQN|"
 
 <p>Abbreviation for <a href=""#deep_q-network""><strong>Deep Q-Network</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""dropout_regularization""></a>
-<h2 class=""hide-from-toc""> dropout regularization</h2></p>
+"
+dropout regularization|"
 
 <p>A form of <a href=""#regularization""><strong>regularization</strong></a> useful in training
 <a href=""#neural_network""><strong>neural networks</strong></a>. Dropout regularization works by
@@ -1287,15 +1284,15 @@ an exponentially large ensemble of smaller networks. For full details, see
 target=""T"">Dropout: A Simple Way to Prevent Neural Networks from
 Overfitting</a>.</p>
 
-<p><a class=""glossary-anchor"" name=""dynamic_model""></a>
-<h2 class=""hide-from-toc""> dynamic model</h2></p>
+"
+dynamic model|"
 
 <p>A <a href=""#model""><strong>model</strong></a> that is trained online in a continuously
 updating fashion.  That is, data is continuously entering the model.</p>
 
 
-<p><a class=""glossary-anchor"" name=""eager_execution""></a>
-<h2 class=""hide-from-toc""> eager execution</h2></p>
+"
+eager execution|"
 
 <p>A TensorFlow programming environment in which <a href=""#Operation""><strong>operations</strong></a>
 run immediately. By contrast, operations called in
@@ -1306,8 +1303,8 @@ target=""T"">imperative interface</a>, much
 like the code in most programming languages. Eager execution programs are
 generally far easier to debug than graph execution programs.</p>
 
-<p><a class=""glossary-anchor"" name=""early_stopping""></a>
-<h2 class=""hide-from-toc""> early stopping</h2></p>
+"
+early stopping|"
 
 <p>A method for <a href=""#regularization""><strong>regularization</strong></a> that involves ending
 model training <em>before</em> training loss finishes decreasing. In early
@@ -1315,8 +1312,8 @@ stopping, you end model training when the loss on a
 <a href=""#validation_set""><strong>validation dataset</strong></a> starts to increase, that is, when
 <a href=""#generalization""><strong>generalization</strong></a> performance worsens.</p>
 
-<p><a class=""glossary-anchor"" name=""embeddings""></a>
-<h2 class=""hide-from-toc""> embeddings</h2></p>
+"
+embeddings|"
 
 <p>A categorical feature represented as a continuous-valued feature.
 Typically, an embedding is a translation of a high-dimensional vector
@@ -1341,8 +1338,8 @@ floating-point value between 0 and 1.  This is an embedding.</li>
 <a href=""#loss""><strong>loss</strong></a> just like any other parameter in a
 <a href=""#neural_network""><strong>neural network</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""embedding_space""></a>
-<h2 class=""hide-from-toc""> embedding space</h2></p>
+"
+embedding space|"
 
 <p>The d-dimensional vector space that features from a higher-dimensional
 vector space are mapped to. Ideally, the embedding space contains a
@@ -1353,14 +1350,14 @@ can solve word analogy tasks.</p>
 <p>The <a href=""https://wikipedia.org/wiki/Dot_product"" target=""T"">dot product</a>
 of two embeddings is a measure of their similarity.</p>
 
-<p><a class=""glossary-anchor"" name=""ERM""></a>
-<h2 class=""hide-from-toc""> empirical risk minimization (ERM)</h2></p>
+"
+empirical risk minimization (ERM)|"
 
 <p>Choosing the function that minimizes loss on the training set. Contrast
 with <a href=""#SRM""><strong>structural risk minimization</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""ensemble""></a>
-<h2 class=""hide-from-toc""> ensemble</h2></p>
+"
+ensemble|"
 
 <p>A merger of the predictions of multiple <a href=""#model""><strong>models</strong></a>. You can create an
 ensemble via one or more of the following:</p>
@@ -1375,8 +1372,8 @@ ensemble via one or more of the following:</p>
 wide models</a>
 are a kind of ensemble.
 
-<p><a class=""glossary-anchor"" name=""environment""></a>
-<h2 class=""hide-from-toc""> environment</h2></p>
+"
+environment|"
 
 <p>In reinforcement learning, the world that contains the <a href=""#agent""><strong>agent</strong></a>
 and allows the agent to observe that world&#39;s <a href=""#state""><strong>state</strong></a>. For example,
@@ -1384,21 +1381,21 @@ the represented world can be a game like chess, or a physical world like a
 maze. When the agent applies an <a href=""#action""><strong>action</strong></a> to the environment,
 then the environment transitions between states.</p>
 
-<p><a class=""glossary-anchor"" name=""episode""></a>
-<h2 class=""hide-from-toc""> episode</h2></p>
+"
+episode|"
 
 <p>In reinforcement learning, each of the repeated attempts by the
 <a href=""#agent""><strong>agent</strong></a> to learn an <a href=""#environment""><strong>environment</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""epoch""></a>
-<h2 class=""hide-from-toc""> epoch</h2></p>
+"
+epoch|"
 
 <p>A full training pass over the entire dataset such that each example has been
 seen once.  Thus, an epoch represents <code translate=""no"" dir=""ltr"">N</code>/<a href=""#batch_size""><strong>batch size</strong></a> training
 <a href=""#iteration""><strong>iterations</strong></a>, where <code translate=""no"" dir=""ltr"">N</code> is the total number of examples.</p>
 
-<p><a class=""glossary-anchor"" name=""epsilon_greedy_policy""></a>
-<h2 class=""hide-from-toc""> epsilon greedy policy</h2></p>
+"
+epsilon greedy policy|"
 
 <p>In reinforcement learning, a <a href=""#policy""><strong>policy</strong></a> that either follows a
 <a href=""#random_policy""><strong>random policy</strong></a> with epsilon probability or a
@@ -1411,8 +1408,8 @@ to shift from following a random policy to following a greedy policy. By
 shifting the policy, the agent first randomly explores the environment and
 then greedily exploits the results of random exploration.</p>
 
-<p><a class=""glossary-anchor"" name=""equality_of_opportunity""></a>
-<h2 class=""hide-from-toc""> equality of opportunity </h2>
+"
+equality |"
 A <a href=""#fairness_metric""><strong>fairness metric</strong></a> that checks whether, for
 a preferred <a href=""#label""><strong>label</strong></a> (one that confers an advantage or
 benefit to a person) and a given <a href=""#attribute""><strong>attribute</strong></a>, a classifier
@@ -1494,8 +1491,8 @@ of equality of opportunity. Also see
 discrimination with smarter machine learning&quot;</a> for a visualization
 exploring the tradeoffs when optimizing for equality of opportunity.</p>
 
-<p><a class=""glossary-anchor"" name=""equalized_odds""></a>
-<h2 class=""hide-from-toc""> equalized odds</h2>
+"
+|"
 A <a href=""#fairness_metric""><strong>fairness metric</strong></a> that checks if, for any particular
 label and attribute, a classifier predicts that label equally well for all
 values of that attribute.</p>
@@ -1563,8 +1560,8 @@ to protected attribute A and outcome Y if Ŷ and A are independent,
 conditional on Y.&quot;</p>
 <aside class=""note""><strong>Note:</strong><span> Contrast equalized odds with the more relaxed
 <a href=""#equality_of_opportunity""><strong>equality of opportunity</strong></a> metric.</span></aside>
-<p><a class=""glossary-anchor"" name=""Estimators""></a>
-<h2 class=""hide-from-toc""> Estimator</h2></p>
+"
+Estimator|"
 
 <p>An instance of the <code translate=""no"" dir=""ltr"">tf.Estimator</code> class, which encapsulates logic that builds
 a TensorFlow graph and runs a TensorFlow session. You may create your own
@@ -1573,29 +1570,29 @@ a TensorFlow graph and runs a TensorFlow session. You may create your own
 or instantiate <a href=""#premade_Estimator""><strong>premade Estimators</strong></a> created by
 others.</p>
 
-<p><a class=""glossary-anchor"" name=""example""></a>
-<h2 class=""hide-from-toc""> example</h2></p>
+"
+example|"
 
 <p>One row of a dataset. An example contains one or more <a href=""#feature""><strong>features</strong></a>
 and possibly a <a href=""#label""><strong>label</strong></a>. See also
 <a href=""#labeled_example""><strong>labeled example</strong></a> and
 <a href=""#unlabeled_example""><strong>unlabeled example</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""experience_replay""></a>
-<h2 class=""hide-from-toc""> experience replay</h2></p>
+"
+experience replay|"
 
 <p>In reinforcement learning, a <a href=""#deep_q-network""><strong>DQN</strong></a> technique used to
 reduce temporal correlations in training data. The <a href=""#agent""><strong>agent</strong></a>
 stores state transitions in a <a href=""#replay_buffer""><strong>replay buffer</strong></a>, and then
 samples transitions from the replay buffer to create training data.</p>
 
-<p><a class=""glossary-anchor"" name=""experimenters_bias""></a>
-<h2 class=""hide-from-toc""> experimenter&#39;s bias </h2></p>
+"
+experimenter&#39;s bias |"
 
 <p>See <a href=""#confirmation_bias""><strong>confirmation bias</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""exploding_gradient_problem""></a>
-<h2 class=""hide-from-toc""> exploding gradient problem</h2></p>
+"
+exploding gradient problem|"
 
 <p>The tendency for <a href=""#gradient""><strong>gradients</strong></a> in a
 <a href=""#deep_neural_network""><strong>deep neural networks</strong></a> (especially
@@ -1610,8 +1607,8 @@ can mitigate this problem.</p>
 <p>Compare to <a href=""#vanishing_gradient_problem""><strong>vanishing gradient problem</strong></a>.</p>
 
 
-<p><a class=""glossary-anchor"" name=""fairness_constraint""></a>
-<h2 class=""hide-from-toc""> fairness constraint</h2>
+"
+|"
 Applying a constraint to an algorithm to ensure one or more definitions
 of fairness are satisfied. Examples of fairness constraints include:</p>
 
@@ -1622,8 +1619,8 @@ of fairness are satisfied. Examples of fairness constraints include:</p>
 <li>Directly adding a mathematical constraint to an optimization problem.</li>
 </ul>
 
-<p><a class=""glossary-anchor"" name=""fairness_metric""></a>
-<h2 class=""hide-from-toc""> fairness metric</h2></p>
+"
+fairness metric|"
 
 <p>A mathematical definition of “fairness” that is measurable.
 Some commonly used fairness metrics include:</p>
@@ -1638,8 +1635,8 @@ Some commonly used fairness metrics include:</p>
 <p>Many fairness metrics are mutually exclusive; see
 <a href=""#incompatibility_of_fairness_metrics""><strong>incompatibility of fairness metrics</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""FN""></a>
-<h2 class=""hide-from-toc""> false negative (FN)</h2></p>
+"
+false negative (FN)|"
 
 <p>An example in which the model mistakenly predicted the
 <a href=""#negative_class""><strong>negative class</strong></a>. For example, the model
@@ -1647,16 +1644,16 @@ inferred that a particular email message was not spam
 (the negative class), but that email message actually was spam.</p>
 
 <p><a class=""glossary-anchor"" name=""FP""></a>
-<a class=""glossary-anchor"" name=""false_positive""></a>
-<h2 class=""hide-from-toc""> false positive (FP)</h2></p>
+"
+false positive (FP)|"
 
 <p>An example in which the model mistakenly predicted the
 <a href=""#positive_class""><strong>positive class</strong></a>. For example, the model inferred
 that a particular email message was spam (the positive class), but that
 email message was actually not spam.</p>
 
-<p><a class=""glossary-anchor"" name=""FP_rate""></a>
-<h2 class=""hide-from-toc""> false positive rate (FPR)</h2></p>
+"
+false positive rate (FPR)|"
 
 <p>The x-axis in an <a href=""#ROC""><strong>ROC curve</strong></a>. The false positive rate is defined
 as follows:</p>
@@ -1666,13 +1663,13 @@ $$\text{False Positive Rate} =
 \frac{\text{False Positives}}{\text{False Positives} + \text{True Negatives}}$$
 </div>
 
-<p><a class=""glossary-anchor"" name=""feature""></a>
-<h2 class=""hide-from-toc""> feature</h2></p>
+"
+feature|"
 
 <p>An input variable used in making <a href=""#prediction""><strong>predictions</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""feature_columns""></a>
-<h2 class=""hide-from-toc""> Feature column (tf.feature_column)</h2></p>
+"
+Feature column (tf.feature_column)|"
 
 <p>A function that specifies how a model should interpret a particular feature. A
 list that collects the output returned by calls to such functions is a required
@@ -1690,8 +1687,8 @@ A feature column is referred to as a &quot;namespace&quot; in the
 system (at Yahoo/Microsoft), or a
 <a href=""https://www.csie.ntu.edu.tw/~cjlin/libffm/"" target=""T"">field</a>.</p>
 
-<p><a class=""glossary-anchor"" name=""feature_cross""></a>
-<h2 class=""hide-from-toc""> feature cross</h2></p>
+"
+feature cross|"
 
 <p>A <a href=""#synthetic_feature""><strong>synthetic feature</strong></a> formed by crossing (taking a
 <a href=""https://wikipedia.org/wiki/Cartesian_product"" target=""T"">Cartesian
@@ -1700,8 +1697,8 @@ product</a> of) individual binary features obtained from
 <a href=""#continuous_feature""><strong>continuous features</strong></a> via <a href=""#bucketing""><strong>bucketing</strong></a>.
 Feature crosses help represent nonlinear relationships.</p>
 
-<p><a class=""glossary-anchor"" name=""feature_engineering""></a>
-<h2 class=""hide-from-toc""> feature engineering</h2></p>
+"
+feature engineering|"
 
 <p>The process of determining which <a href=""#feature""><strong>features</strong></a> might be useful
 in training a model, and then converting raw data from log files and other
@@ -1712,8 +1709,8 @@ protocol buffers.  See also
 
 <p>Feature engineering is sometimes called <strong>feature extraction</strong>.</p>
 
-<p><a class=""glossary-anchor"" name=""feature_extraction""></a>
-<h2 class=""hide-from-toc""> feature extraction</h2></p>
+"
+feature extraction|"
 
 <p>Overloaded term having either of the following definitions:</p>
 
@@ -1725,15 +1722,15 @@ protocol buffers.  See also
 <li>Synonym for <a href=""#feature_engineering""><strong>feature engineering</strong></a>.</li>
 </ul>
 
-<p><a class=""glossary-anchor"" name=""feature_set""></a>
-<h2 class=""hide-from-toc""> feature set</h2></p>
+"
+feature set|"
 
 <p>The group of <a href=""#feature""><strong>features</strong></a> your machine learning model trains on.
 For example, postal code, property size, and property condition might
 comprise a simple feature set for a model that predicts housing prices.</p>
 
-<p><a class=""glossary-anchor"" name=""feature_spec""></a>
-<h2 class=""hide-from-toc""> feature spec</h2></p>
+"
+feature spec|"
 
 <p>Describes the information required to extract <a href=""#feature""><strong>features</strong></a> data
 from the <a href=""#tf.Example""><strong>tf.Example</strong></a> protocol buffer. Because the
@@ -1750,14 +1747,14 @@ the following:</p>
 feature spec from a list of
 <a href=""#feature_columns""><strong>FeatureColumns</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""feature_vector""></a>
-<h2 class=""hide-from-toc""> feature vector</h2></p>
+"
+feature vector|"
 
 <p>The list of feature values representing an <a href=""#example""><strong>example</strong></a>
 passed into a model.</p>
 
-<p><a class=""glossary-anchor"" name=""federated_learning""></a>
-<h2 class=""hide-from-toc""> federated learning</h2></p>
+"
+federated learning|"
 
 <p>A distributed machine learning approach that <a href=""#training""><strong>trains</strong></a>
 machine learning <a href=""#model""><strong>models</strong></a> using decentralized
@@ -1776,24 +1773,24 @@ privacy principles of focused data collection and data minimization.</p>
 <p>For more information about federated learning,
 see <a href=""https://federated.withgoogle.com"" target=""T"">this tutorial</a>.</p>
 
-<p><a class=""glossary-anchor"" name=""feedback_loop""></a>
-<h2 class=""hide-from-toc""> feedback loop</h2></p>
+"
+feedback loop|"
 
 <p>In machine learning, a situation in which a model&#39;s predictions influence the
 training data for the same model or another model. For example, a model that
 recommends movies will influence the movies that people see, which will then
 influence subsequent movie recommendation models.</p>
 
-<p><a class=""glossary-anchor"" name=""feedforward_neural_network""></a>
-<h2 class=""hide-from-toc""> feedforward neural network (FFN)</h2></p>
+"
+feedforward neural network (FFN)|"
 
 <p>A neural network without cyclic or recursive connections. For example,
 traditional <a href=""#deep_neural_network""><strong>deep neural networks</strong></a> are
 feedforward neural networks. Contrast with <a href=""#recurrent_neural_network""><strong>recurrent neural
 networks</strong></a>, which are cyclic.</p>
 
-<p><a class=""glossary-anchor"" name=""few-shot_learning""></a>
-<h2 class=""hide-from-toc""> few-shot learning</h2></p>
+"
+few-shot learning|"
 
 <p>A machine learning approach, often used for object classification,
 designed to learn effective classifiers from only a small number of
@@ -1818,14 +1815,14 @@ cell that regulates the flow of information through the cell.
 Forget gates maintain context by deciding which information to discard
 from the cell state.</p>
 
-<p><a class=""glossary-anchor"" name=""full_softmax""></a>
-<h2 class=""hide-from-toc""> full softmax</h2></p>
+"
+full softmax|"
 
 <p>See <a href=""#softmax""><strong>softmax</strong></a>. Contrast with
 <a href=""#candidate_sampling""><strong>candidate sampling</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""fully_connected_layer""></a>
-<h2 class=""hide-from-toc""> fully connected layer</h2></p>
+"
+fully connected layer|"
 
 <p>A <a href=""#hidden_layer""><strong>hidden layer</strong></a> in which each <a href=""#node""><strong>node</strong></a> is
 connected to <em>every</em> node in the subsequent hidden layer.</p>
@@ -1834,20 +1831,20 @@ connected to <em>every</em> node in the subsequent hidden layer.</p>
 
 
 
-<p><a class=""glossary-anchor"" name=""GAN""></a>
-<h2 class=""hide-from-toc""> GAN</h2></p>
+"
+GAN|"
 
 <p>Abbreviation for <a href=""#generative_adversarial_network""><strong>generative adversarial
 network</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""generalization""></a>
-<h2 class=""hide-from-toc""> generalization</h2></p>
+"
+generalization|"
 
 <p>Refers to your model&#39;s ability to make correct predictions on new,
 previously unseen data as opposed to the data used to train the model.</p>
 
-<p><a class=""glossary-anchor"" name=""generalization_curve""></a>
-<h2 class=""hide-from-toc""> generalization curve</h2></p>
+"
+generalization curve|"
 
 <p>A <a href=""#loss_curve""><strong>loss curve</strong></a> showing both the
 <a href=""#training_set""><strong>training set</strong></a> and the
@@ -1867,8 +1864,8 @@ set. The two curves start off similarly, but the curve for the training set
 eventually dips far lower than the curve for the validation set.""></img>
 </p>
 
-<p><a class=""glossary-anchor"" name=""generalized_linear_model""></a>
-<h2 class=""hide-from-toc""> generalized linear model</h2></p>
+"
+generalized linear model|"
 
 <p>A generalization of <a href=""#least_squares_regression""><strong>least squares regression</strong></a>
 models, which are based on
@@ -1900,15 +1897,15 @@ model is equal to the average label on the training data.</li>
 <p>The power of a generalized linear model is limited by its features. Unlike
 a deep model, a generalized linear model cannot &quot;learn new features.&quot;</p>
 
-<p><a class=""glossary-anchor"" name=""generative_adversarial_network""></a>
-<h2 class=""hide-from-toc""> generative adversarial network (GAN)</h2></p>
+"
+generative adversarial network (GAN)|"
 
 <p>A system to create new data in which a <a href=""#generator""><strong>generator</strong></a> creates
 data and a <a href=""#discriminator""><strong>discriminator</strong></a> determines whether that
 created data is valid or invalid.</p>
 
-<p><a class=""glossary-anchor"" name=""generative_model""></a>
-<h2 class=""hide-from-toc""> generative model</h2></p>
+"
+generative model|"
 
 <p>Practically speaking, a model that does either of the following:</p>
 
@@ -1936,8 +1933,8 @@ p(examples)
 
 <p>Contrast with <a href=""#discriminative_model""><strong>discriminative models</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""generator""></a>
-<h2 class=""hide-from-toc""> generator</h2></p>
+"
+generator|"
 
 <p>The subsystem within a <a href=""#generative_adversarial_network""><strong>generative adversarial
 network</strong></a>
@@ -1945,24 +1942,24 @@ that creates new <a href=""#example""><strong>examples</strong></a>.</p>
 
 <p>Contrast with <a href=""#discriminative_model""><strong>discriminative model</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""gradient""></a>
-<h2 class=""hide-from-toc""> gradient</h2></p>
+"
+gradient|"
 
 <p>The vector of <a href=""#partial_derivative""><strong>partial derivatives</strong></a> with respect to
 all of the independent variables.  In machine learning, the gradient is
 the vector of partial derivatives of the model function.  The gradient points
 in the direction of steepest ascent.</p>
 
-<p><a class=""glossary-anchor"" name=""gradient_clipping""></a>
-<h2 class=""hide-from-toc""> gradient clipping</h2></p>
+"
+gradient clipping|"
 
 <p>A commonly used mechanism to mitigate the
 <a href=""#exploding_gradient_problem""><strong>exploding gradient problem</strong></a> by artificially
 limiting (clipping) the maximum value of gradients when using
 <a href=""#gradient_descent""><strong>gradient descent</strong></a> to train a model.</p>
 
-<p><a class=""glossary-anchor"" name=""gradient_descent""></a>
-<h2 class=""hide-from-toc""> gradient descent</h2></p>
+"
+gradient descent|"
 
 <p>A technique to minimize <a href=""#loss""><strong>loss</strong></a> by computing the gradients of
 loss with respect to the model&#39;s parameters, conditioned on training data.
@@ -1970,8 +1967,8 @@ Informally, gradient descent iteratively adjusts parameters, gradually
 finding the best combination of <a href=""#weight""><strong>weights</strong></a> and bias to
 minimize loss.</p>
 
-<p><a class=""glossary-anchor"" name=""graph""></a>
-<h2 class=""hide-from-toc""> graph</h2></p>
+"
+graph|"
 
 <p>In TensorFlow, a computation specification. Nodes in the graph
 represent operations. Edges are directed and represent passing the result
@@ -1979,8 +1976,8 @@ of an operation (a <a href=""#tensor""><strong>Tensor</strong></a>) as an
 operand to another operation. Use
 <a href=""#TensorBoard""><strong>TensorBoard</strong></a> to visualize a graph.</p>
 
-<p><a class=""glossary-anchor"" name=""graph_execution""></a>
-<h2 class=""hide-from-toc""> graph execution</h2></p>
+"
+graph execution|"
 
 <p>A TensorFlow programming environment in which the program first constructs
 a <a href=""#graph""><strong>graph</strong></a> and then executes all or part of that graph. Graph
@@ -1988,20 +1985,20 @@ execution is the default execution mode in TensorFlow 1.x.</p>
 
 <p>Contrast with <a href=""#eager_execution""><strong>eager execution</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""greedy_policy""></a>
-<h2 class=""hide-from-toc""> greedy policy</h2></p>
+"
+greedy policy|"
 
 <p>In reinforcement learning, a <a href=""#policy""><strong>policy</strong></a> that always chooses the
 action with the highest expected <a href=""#return""><strong>return</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""ground_truth""></a>
-<h2 class=""hide-from-toc""> ground truth</h2></p>
+"
+ground truth|"
 
 <p>The correct answer. Reality. Since reality is often subjective,
 expert <a href=""#rater""><strong>raters</strong></a> typically are the proxy for ground truth.</p>
 
-<p><a class=""glossary-anchor"" name=""group_attribution_bias""></a>
-<h2 class=""hide-from-toc""> group attribution bias </h2></p>
+"
+group attribution bias |"
 
 <p>Assuming that what is true for an individual is also true for everyone
 in that group. The effects of group attribution bias can be exacerbated
@@ -2013,8 +2010,8 @@ may be made that do not reflect reality.</p>
 and <a href=""#in-group_bias""><strong>in-group bias</strong></a>.</p>
 
 
-<p><a class=""glossary-anchor"" name=""hashing""></a>
-<h2 class=""hide-from-toc""> hashing</h2></p>
+"
+hashing|"
 
 <p>In machine learning, a mechanism for bucketing
 <a href=""#categorical_data""><strong>categorical data</strong></a>, particularly when the number
@@ -2039,15 +2036,15 @@ deterministic way.</p>
 <a href=""https://www.tensorflow.org/guide/feature_columns"" target=""T"">Feature
 Columns chapter</a> in the TensorFlow Programmers Guide.</p>
 
-<p><a class=""glossary-anchor"" name=""heuristic""></a>
-<h2 class=""hide-from-toc""> heuristic</h2></p>
+"
+heuristic|"
 
 <p>A quick solution to a problem, which may or may not be the best solution.
 For example, &quot;With a heuristic, we achieved 86% accuracy. When we switched
 to a deep neural network, accuracy went up to 98%.&quot;</p>
 
-<p><a class=""glossary-anchor"" name=""hidden_layer""></a>
-<h2 class=""hide-from-toc""> hidden layer</h2></p>
+"
+hidden layer|"
 
 <p>A synthetic layer in a <a href=""#neural_network""><strong>neural network</strong></a> between the
 <a href=""#input_layer""><strong>input layer</strong></a> (that is, the features) and the
@@ -2057,8 +2054,8 @@ contain an <a href=""#activation_function""><strong>activation function</strong>
 network</strong></a> contains more than one
 hidden layer.</p>
 
-<p><a class=""glossary-anchor"" name=""hierarchical_clustering""></a>
-<h2 class=""hide-from-toc""> hierarchical clustering</h2></p>
+"
+hierarchical clustering|"
 
 <p>A category of <a href=""#clustering""><strong>clustering</strong></a> algorithms that create a tree
 of clusters. Hierarchical clustering is well-suited to hierarchical data,
@@ -2075,8 +2072,8 @@ iteratively divides the cluster into a hierarchical tree.</li>
 
 <p>Contrast with <a href=""#centroid_based_clustering""><strong>centroid-based clustering</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""hinge-loss""></a>
-<h2 class=""hide-from-toc""> hinge loss</h2></p>
+"
+hinge loss|"
 
 <p>A family of <a href=""#loss""><strong>loss</strong></a> functions for
 <a href=""#classification_model""><strong>classification</strong></a> designed to find the
@@ -2104,8 +2101,8 @@ $$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 <img src=""/machine-learning/glossary/images/hinge-loss.svg"">
 </p>
 
-<p><a class=""glossary-anchor"" name=""holdout_data""></a>
-<h2 class=""hide-from-toc""> holdout data</h2></p>
+"
+holdout data|"
 
 <p><a href=""#example""><strong>Examples</strong></a> intentionally not used (&quot;held out&quot;) during training.
 The <a href=""#validation_set""><strong>validation dataset</strong></a> and
@@ -2115,8 +2112,8 @@ data it was trained on. The loss on the holdout set provides a better
 estimate of the loss on an unseen dataset than does the loss on the
 training set.</p>
 
-<p><a class=""glossary-anchor"" name=""hyperparameter""></a>
-<h2 class=""hide-from-toc""> hyperparameter</h2></p>
+"
+hyperparameter|"
 
 <p>The &quot;knobs&quot; that you
 tweak during successive runs of training a model. For example,
@@ -2124,8 +2121,8 @@ tweak during successive runs of training a model. For example,
 
 <p>Contrast with <a href=""#parameter""><strong>parameter</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""hyperplane""></a>
-<h2 class=""hide-from-toc""> hyperplane</h2></p>
+"
+hyperplane|"
 
 <p>A boundary that separates a space into two subspaces.  For example, a line is a
 hyperplane in two dimensions and a plane is a hyperplane in three dimensions.
@@ -2135,13 +2132,13 @@ hyperplanes to separate positive classes from negative classes, often in a very
 high-dimensional space.</p>
 
 
-<p><a class=""glossary-anchor"" name=""iid_abbreviation""></a>
-<h2 class=""hide-from-toc""> i.i.d.</h2></p>
+"
+i.i.d.|"
 
 <p>Abbreviation for <a href=""#iid""><strong>independently and identically distributed</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""image_recognition""></a>
-<h2 class=""hide-from-toc""> image recognition</h2></p>
+"
+image recognition|"
 
 <p>A process that classifies object(s), pattern(s), or concept(s) in an image.
 Image recognition is also known as <strong>image classification</strong>.</p>
@@ -2154,13 +2151,13 @@ Image recognition is also known as <strong>image classification</strong>.</p>
    data-label=""ml-glossary""
    data-action=""click"">ML Practicum: Image Classification</a>.</p>
 
-<p><a class=""glossary-anchor"" name=""imbalanced_data_set""></a>
-<h2 class=""hide-from-toc""> imbalanced dataset</h2></p>
+"
+imbalanced dataset|"
 
 <p>Synonym for <a href=""#class_imbalanced_data_set""><strong>class-imbalanced dataset</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""implicit_bias""></a>
-<h2 class=""hide-from-toc""> implicit bias </h2></p>
+"
+implicit bias |"
 
 <p>Automatically making an association or assumption based on one’s mental
 models and memories. Implicit bias can affect the following:</p>
@@ -2178,8 +2175,8 @@ in certain cultures.</p>
 <p>See also <a href=""#confirmation_bias""><strong>confirmation bias</strong></a>.</p>
 
 <p><a class=""glossary-anchor"" name=""incompatibility_of_fairness_metrics""></a>
-<a class=""glossary-anchor"" name=""incompatibility""></a>
-<h2 class=""hide-from-toc""> incompatibility of fairness metrics</h2></p>
+"
+incompatibility of fairness metrics|"
 
 <p>The idea that some notions of fairness are mutually incompatible and
 cannot be satisfied simultaneously. As a result, there is no single
@@ -2208,8 +2205,8 @@ change during that brief window and one person&#39;s visit is generally
 independent of another&#39;s visit. However, if you expand that window of time,
 seasonal differences in the web page&#39;s visitors may appear.</p>
 
-<p><a class=""glossary-anchor"" name=""individual_fairness""></a>
-<h2 class=""hide-from-toc""> individual fairness</h2></p>
+"
+individual fairness|"
 
 <p>A fairness metric that checks whether similar individuals are classified
 similarly. For example, Brobdingnagian Academy might want to satisfy
@@ -2224,8 +2221,8 @@ information (such as the rigor of a student’s curriculum).</p>
 <p>See <a href=""https://arxiv.org/pdf/1104.3913.pdf"" target=""T"">&quot;Fairness Through
 Awareness&quot;</a> for a more detailed discussion of individual fairness.</p>
 
-<p><a class=""glossary-anchor"" name=""inference""></a>
-<h2 class=""hide-from-toc""> inference</h2></p>
+"
+inference|"
 
 <p>In machine learning, often refers to the process of making predictions by
 applying the trained model to <a href=""#unlabeled_example""><strong>unlabeled examples</strong></a>.
@@ -2234,8 +2231,8 @@ of a distribution conditioned on some observed data. (See the
 <a href=""https://wikipedia.org/wiki/Statistical_inference"" target=""T"">
 Wikipedia article on statistical inference</a>.)</p>
 
-<p><a class=""glossary-anchor"" name=""in-group_bias""></a>
-<h2 class=""hide-from-toc""> in-group bias </h2></p>
+"
+in-group bias |"
 
 <p>Showing partiality to one&#39;s own group or own characteristics.
 If testers or raters consist of the machine learning developer&#39;s friends,
@@ -2246,35 +2243,35 @@ or the dataset.</p>
 <a href=""#group_attribution_bias""><strong>group attribution bias</strong></a>.
 See also <a href=""#out-group_homogeneity_bias""><strong>out-group homogeneity bias</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""input_function""></a>
-<h2 class=""hide-from-toc""> input function</h2></p>
+"
+input function|"
 
 <p>In TensorFlow, a function that returns input data to the training, evaluation,
 or prediction method of an <a href=""#Estimators""><strong>Estimator</strong></a>.  For example,
 the training input function returns a <a href=""#batch""><strong>batch</strong></a> of features
 and labels from the <a href=""#training_set""><strong>training set</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""input_layer""></a>
-<h2 class=""hide-from-toc""> input layer</h2></p>
+"
+input layer|"
 
 <p>The first layer (the one that receives the input data) in
 a <a href=""#neural_network""><strong>neural network</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""instance""></a>
-<h2 class=""hide-from-toc""> instance</h2></p>
+"
+instance|"
 
 <p>Synonym for <a href=""#example""><strong>example</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""interpretability""></a>
-<h2 class=""hide-from-toc""> interpretability</h2></p>
+"
+interpretability|"
 
 <p>The degree to which a model&#39;s predictions can be readily explained. Deep models
 are often non-interpretable; that is, a deep model&#39;s different layers can be
 hard to decipher. By contrast, linear regression models and <a href=""#wide_model""><strong>wide
 models</strong></a> are typically far more interpretable.</p>
 
-<p><a class=""glossary-anchor"" name=""inter-rater_agreement""></a>
-<h2 class=""hide-from-toc""> inter-rater agreement</h2></p>
+"
+inter-rater agreement|"
 
 <p>A measurement of how often human raters agree when doing a task.
 If raters disagree, the task instructions may need to be improved.
@@ -2284,8 +2281,8 @@ Also sometimes called <strong>inter-annotator agreement</strong> or
 kappa</a>,
 which is one of the most popular inter-rater agreement measurements.</p>
 
-<p><a class=""glossary-anchor"" name=""intersection_over_union""></a>
-<h2 class=""hide-from-toc""> intersection over union (IoU)</h2></p>
+"
+intersection over union (IoU)|"
 
 <p>The intersection of two sets divided by their union. In machine-learning
 image-detection tasks, IoU is used to measure the accuracy of the model’s
@@ -2341,8 +2338,8 @@ ground truth (below right) is 7, so the IoU is \(\frac{1}{7}\).</p>
 
 <p>Abbreviation for <a href=""#intersection_over_union""><strong>intersection over union</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""item_matrix""></a>
-<h2 class=""hide-from-toc""> item matrix</h2></p>
+"
+item matrix|"
 
 <p>In <a href=""#recommendation_system""><strong>recommendation systems</strong></a>, a
 matrix of <a href=""#embeddings""><strong>embeddings</strong></a> generated by
@@ -2361,23 +2358,23 @@ matrix that is being factorized. For example, given a movie
 recommendation system that evaluates 10,000 movie titles, the
 item matrix will have 10,000 columns.</p>
 
-<p><a class=""glossary-anchor"" name=""items""></a>
-<h2 class=""hide-from-toc""> items</h2></p>
+"
+items|"
 
 <p>In a <a href=""#recommendation_system""><strong>recommendation system</strong></a>, the entities that
 a system recommends. For example, videos are the items that a video store
 recommends, while books are the items that a bookstore recommends.</p>
 
-<p><a class=""glossary-anchor"" name=""iteration""></a>
-<h2 class=""hide-from-toc""> iteration</h2></p>
+"
+iteration|"
 
 <p>A single update of a model&#39;s weights during training.  An iteration
 consists of computing the gradients of the parameters with respect to the
 loss on a single <a href=""#batch""><strong>batch</strong></a> of data.</p>
 
 
-<p><a class=""glossary-anchor"" name=""Keras""></a>
-<h2 class=""hide-from-toc""> Keras</h2></p>
+"
+Keras|"
 
 <p>A popular Python machine learning API.
 <a href=""https://keras.io"" target=""T"">Keras</a>
@@ -2387,8 +2384,8 @@ available as
 <a href=""https://www.tensorflow.org/api_docs/python/tf/keras""
 target=""T"">tf.keras</a>.</p>
 
-<p><a class=""glossary-anchor"" name=""keypoints""></a>
-<h2 class=""hide-from-toc""> keypoints</h2></p>
+"
+keypoints|"
 
 <p>The coordinates of particular features in an image. For example, for an
 <a href=""#image_recognition""><strong>image recognition</strong></a> model that distinguishes
@@ -2408,8 +2405,8 @@ positive and negative classes, a KSVM could internally map those features into
 a million-dimension space.  KSVMs uses a loss function called
 <a href=""#hinge-loss""><strong>hinge loss</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""k-means""></a>
-<h2 class=""hide-from-toc""> k-means</h2></p>
+"
+k-means|"
 
 <p>A popular <a href=""#clustering""><strong>clustering</strong></a> algorithm that groups examples
 in unsupervised learning. The k-means algorithm basically does the following:</p>
@@ -2447,8 +2444,8 @@ the centroid of a cluster is typically <em>not</em> an example in the cluster.</
 two features (height and width). Note that k-means can group examples
 across many features.</p>
 
-<p><a class=""glossary-anchor"" name=""k-median""></a>
-<h2 class=""hide-from-toc""> k-median</h2></p>
+"
+k-median|"
 
 <p>A clustering algorithm closely related to <a href=""#k-means""><strong>k-means</strong></a>. The
 practical difference between the two is as follows:</p>
@@ -2494,16 +2491,16 @@ $$
 </div>
 
 
-<p><a class=""glossary-anchor"" name=""L1_loss""></a>
-<h2 class=""hide-from-toc""> L<sub>1</sub> loss</h2></p>
+"
+L<sub>1</sub> loss|"
 
 <p><a href=""#loss""><strong>Loss</strong></a> function based on the absolute value of the difference
 between the values that a model is predicting and the actual values of
 the <a href=""#label""><strong>labels</strong></a>. L<sub>1</sub> loss is less sensitive to outliers
 than <a href=""#squared_loss""><strong>L<sub>2</sub> loss</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""L1_regularization""></a>
-<h2 class=""hide-from-toc""> L<sub>1</sub> regularization</h2></p>
+"
+L<sub>1</sub> regularization|"
 
 <p>A type of <a href=""#regularization""><strong>regularization</strong></a> that penalizes weights
 in proportion to the sum of the absolute values of the weights. In models
@@ -2512,13 +2509,13 @@ regularization helps drive the weights of irrelevant or barely relevant
 features to exactly 0, which removes those features from the model.
 Contrast with <a href=""#L2_regularization""><strong>L<sub>2</sub> regularization</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""L2_loss""></a>
-<h2 class=""hide-from-toc""> L<sub>2</sub> loss</h2></p>
+"
+L<sub>2</sub> loss|"
 
 <p>See <a href=""#squared_loss""><strong>squared loss</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""L2_regularization""></a>
-<h2 class=""hide-from-toc""> L<sub>2</sub> regularization</h2></p>
+"
+L<sub>2</sub> regularization|"
 
 <p>A type of <a href=""#regularization""><strong>regularization</strong></a> that penalizes weights
 in proportion to the sum of the <em>squares</em> of the weights.
@@ -2527,8 +2524,8 @@ high positive or low negative values) closer to 0 but not quite to 0.
 (Contrast with <a href=""#L1_regularization""><strong>L1 regularization</strong></a>.)
 L<sub>2</sub> regularization always improves generalization in linear models.</p>
 
-<p><a class=""glossary-anchor"" name=""label""></a>
-<h2 class=""hide-from-toc""> label</h2></p>
+"
+label|"
 
 <p>In supervised learning, the &quot;answer&quot; or &quot;result&quot; portion of an
 <a href=""#example""><strong>example</strong></a>. Each example in a labeled dataset consists of one or
@@ -2539,28 +2536,28 @@ In a spam detection dataset, the features might include the subject line, the
 sender, and the email message itself, while the label would probably be either
 &quot;spam&quot; or &quot;not spam.&quot;</p>
 
-<p><a class=""glossary-anchor"" name=""labeled_example""></a>
-<h2 class=""hide-from-toc""> labeled example</h2></p>
+"
+labeled example|"
 
 <p>An example that contains <a href=""#feature""><strong>features</strong></a> and a
 <a href=""#label""><strong>label</strong></a>. In supervised training, models learn from labeled
 examples.</p>
 
-<p><a class=""glossary-anchor"" name=""lambda""></a>
-<h2 class=""hide-from-toc""> lambda</h2></p>
+"
+lambda|"
 
 <p>Synonym for <a href=""#regularization_rate""><strong>regularization rate</strong></a>.</p>
 
 <p>(This is an overloaded term. Here we&#39;re focusing on the term&#39;s
 definition within <a href=""#regularization""><strong>regularization</strong></a>.)</p>
 
-<p><a class=""glossary-anchor"" name=""landmarks""></a>
-<h2 class=""hide-from-toc""> landmarks</h2></p>
+"
+landmarks|"
 
 <p>Synonym for <a href=""#keypoints""><strong>keypoints</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""layer""></a>
-<h2 class=""hide-from-toc""> layer</h2></p>
+"
+layer|"
 
 <p>A set of <a href=""#neuron""><strong>neurons</strong></a> in a
 <a href=""#neural_network""><strong>neural network</strong></a> that process a set of input
@@ -2572,8 +2569,8 @@ as input and produce other tensors as output. Once the necessary Tensors
 have been composed, the user can convert the result into an
 <a href=""#Estimators""><strong>Estimator</strong></a> via a <a href=""#model_function""><strong>model function</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""layers_API""></a>
-<h2 class=""hide-from-toc""> Layers API (tf.layers)</h2></p>
+"
+Layers API (tf.layers)|"
 
 <p>A TensorFlow API for constructing a <a href=""#deep_model""><strong>deep</strong></a> neural network
 as a composition of layers. The Layers API enables you to build different
@@ -2593,8 +2590,8 @@ That is, aside from a different prefix, all functions in the Layers API
 have the same names and signatures as their counterparts in the Keras
 layers API.</p>
 
-<p><a class=""glossary-anchor"" name=""learning_rate""></a>
-<h2 class=""hide-from-toc""> learning rate</h2></p>
+"
+learning rate|"
 
 <p>A scalar used to train a model via gradient descent. During each iteration,
 the <a href=""#gradient_descent""><strong>gradient descent</strong></a> algorithm multiplies the
@@ -2603,14 +2600,14 @@ learning rate by the gradient.  The resulting product is called the
 
 <p>Learning rate is a key <a href=""#hyperparameter""><strong>hyperparameter</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""least_squares_regression""></a>
-<h2 class=""hide-from-toc""> least squares regression</h2></p>
+"
+least squares regression|"
 
 <p>A linear regression model trained by minimizing
 <a href=""#L2_loss""><strong>L<sub>2</sub> Loss</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""linear_model""></a>
-<h2 class=""hide-from-toc""> linear model</h2></p>
+"
+linear model|"
 
 <p>A <a href=""#model""><strong>model</strong></a> that assigns one <a href=""#weight""><strong>weight</strong></a> per
 <a href=""#feature""><strong>feature</strong></a> to make <a href=""#prediction""><strong>predictions</strong></a>.
@@ -2677,8 +2674,8 @@ broader set of models that use the linear equation as part of the formula.
 For example, logistic regression post-processes the raw
 prediction (\(y&#39;\)) to calculate the prediction.</p>
 
-<p><a class=""glossary-anchor"" name=""linear_regression""></a>
-<h2 class=""hide-from-toc""> linear regression</h2></p>
+"
+linear regression|"
 
 <p>Using the raw output (\(y&#39;\)) of a <a href=""#linear_model""><strong>linear model</strong></a> as the
 actual prediction in a <a href=""#regression_model""><strong>regression model</strong></a>. The goal of
@@ -2689,8 +2686,8 @@ the raw output (\(y&#39;\)) of a linear model is 8.37, then the prediction is
 <p>Contrast linear regression with <a href=""#logistic_regression""><strong>logistic regression</strong></a>.
 Also, contrast regression with <a href=""#classification_model""><strong>classification</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""logistic_regression""></a>
-<h2 class=""hide-from-toc""> logistic regression</h2></p>
+"
+logistic regression|"
 
 <p>A <a href=""#classification_model""><strong>classification model</strong></a> that uses a
 <a href=""#sigmoid_function""><strong>sigmoid function</strong></a> to convert
@@ -2725,8 +2722,8 @@ regression can also be used in
 (where it becomes called <strong>multi-class logistic regression</strong> or
 <strong>multinomial regression</strong>).</p>
 
-<p><a class=""glossary-anchor"" name=""logits""></a>
-<h2 class=""hide-from-toc""> logits</h2></p>
+"
+logits|"
 
 <p>The vector of raw (non-normalized) predictions that a classification
 model generates, which is ordinarily then passed to a normalization function.
@@ -2742,14 +2739,14 @@ probabilities with one value for each possible class.</p>
 <a href=""https://www.tensorflow.org/api_docs/python/tf/nn/sigmoid_cross_entropy_with_logits""
 target=""T"">tf.nn.sigmoid_cross_entropy_with_logits</a>.</p>
 
-<p><a class=""glossary-anchor"" name=""Log_Loss""></a>
-<h2 class=""hide-from-toc""> Log Loss</h2></p>
+"
+Log Loss|"
 
 <p>The <a href=""#loss""><strong>loss</strong></a> function used in binary
 <a href=""#logistic_regression""><strong>logistic regression</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""log-odds""></a>
-<h2 class=""hide-from-toc""> log-odds</h2></p>
+"
+log-odds|"
 
 <p>The logarithm of the odds of some event.</p>
 
@@ -2782,8 +2779,8 @@ $$
 
 <p>The log-odds are the inverse of the <a href=""#sigmoid_function""><strong>sigmoid function</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""Long_Short-Term_Memory""></a>
-<h2 class=""hide-from-toc""> Long Short-Term Memory (LSTM)</h2></p>
+"
+Long Short-Term Memory (LSTM)|"
 
 <p>A type of cell in a
 <a href=""#recurrent_neural_network""><strong>recurrent neural network</strong></a> used to process
@@ -2794,8 +2791,8 @@ training RNNs due to long data sequences by maintaining history in an
 internal memory state based on new input and context from previous cells
 in the RNN.</p>
 
-<p><a class=""glossary-anchor"" name=""loss""></a>
-<h2 class=""hide-from-toc""> loss</h2></p>
+"
+loss|"
 
 <p>A measure of how far a model&#39;s <a href=""#prediction""><strong>predictions</strong></a> are from its
 <a href=""#label""><strong>label</strong></a>. Or, to phrase it more pessimistically, a measure of
@@ -2804,8 +2801,8 @@ function. For example, linear regression models typically use
 <a href=""#MSE""><strong>mean squared error</strong></a> for a loss function,
 while logistic regression models use <a href=""#Log_Loss""><strong>Log Loss</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""loss_curve""></a>
-<h2 class=""hide-from-toc""> loss curve</h2></p>
+"
+loss curve|"
 
 <p>A graph of <a href=""#loss""><strong>loss</strong></a> as a function of training
 <a href=""#iteration""><strong>iterations</strong></a>. For example:</p>
@@ -2820,20 +2817,20 @@ increase, but then a slight rise in loss at a high number of iterations.""></img
 <a href=""#convergence""><strong>converging</strong></a>, <a href=""#overfitting""><strong>overfitting</strong></a>,
 or <a href=""#underfitting""><strong>underfitting</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""loss_surface""></a>
-<h2 class=""hide-from-toc""> loss surface</h2></p>
+"
+loss surface|"
 
 <p>A graph of weight(s) vs. loss. <a href=""#gradient_descent""><strong>Gradient descent</strong></a> aims
 to find the weight(s) for which the loss surface is at a local minimum.</p>
 
-<p><a class=""glossary-anchor"" name=""LSTM""></a>
-<h2 class=""hide-from-toc""> LSTM</h2></p>
+"
+LSTM|"
 
 <p>Abbreviation for <a href=""#Long_Short-Term_Memory""><strong>Long Short-Term Memory</strong></a>.</p>
 
 
-<p><a class=""glossary-anchor"" name=""machine_learning""></a>
-<h2 class=""hide-from-toc""> machine learning</h2></p>
+"
+machine learning|"
 
 <p>A program or system that builds (trains) a predictive model from input data.
 The system uses the learned model to make useful predictions from new
@@ -2841,16 +2838,16 @@ The system uses the learned model to make useful predictions from new
 train the model. Machine learning also refers to the field of study concerned
 with these programs or systems.</p>
 
-<p><a class=""glossary-anchor"" name=""majority_class""></a>
-<h2 class=""hide-from-toc""> majority class</h2></p>
+"
+majority class|"
 
 <p>The more common label in a
 <a href=""#class_imbalanced_data_set""><strong>class-imbalanced dataset</strong></a>. For example,
 given a dataset containing 99% non-spam labels and 1% spam labels, the
 non-spam labels are the majority class.</p>
 
-<p><a class=""glossary-anchor"" name=""markov_decision_process""></a>
-<h2 class=""hide-from-toc""> Markov decision process (MDP)</h2></p>
+"
+Markov decision process (MDP)|"
 
 <p>A graph representing the decision-making model where decisions
 (or <a href=""#action""><strong>actions</strong></a>) are taken to navigate a sequence of
@@ -2858,22 +2855,22 @@ non-spam labels are the majority class.</p>
 <a href=""#Markov_property""><strong>Markov property</strong></a> holds. In reinforcement learning,
 these transitions between states return a numerical <a href=""#reward""><strong>reward</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""Markov_property""></a>
-<h2 class=""hide-from-toc""> Markov property</h2></p>
+"
+Markov property|"
 
 <p>A property of certain <a href=""#environment""><strong>environments</strong></a>, where state
 transitions are entirely determined by information implicit in the
 current <a href=""#state""><strong>state</strong></a> and the agent’s <a href=""#action""><strong>action</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""matplotlib""></a>
-<h2 class=""hide-from-toc""> matplotlib</h2></p>
+"
+matplotlib|"
 
 <p>An open-source Python 2D plotting library.
 <a href=""https://matplotlib.org/"" target=""T"">matplotlib</a> helps you visualize
 different aspects of machine learning.</p>
 
-<p><a class=""glossary-anchor"" name=""matrix_factorization""></a>
-<h2 class=""hide-from-toc""> matrix factorization</h2></p>
+"
+matrix factorization|"
 
 <p>In math, a mechanism for finding the matrices whose dot product approximates a
 target matrix.</p>
@@ -2966,8 +2963,8 @@ rating of 4.3:</p>
 <p>Matrix factorization typically yields a user matrix and item matrix that,
 together, are significantly more compact than the target matrix.</p>
 
-<p><a class=""glossary-anchor"" name=""MAE""></a>
-<h2 class=""hide-from-toc""> Mean Absolute Error (MAE)</h2></p>
+"
+Mean Absolute Error (MAE)|"
 
 <p>An error metric calculated by taking an average of absolute errors.
 In the context of evaluating a model’s accuracy, MAE is the average
@@ -2977,8 +2974,8 @@ $y$ and its prediction $\hat{y}$, MAE is defined as follows:</p>
 
 <p>\[\text{MAE} = \frac{1}{n}\sum_{i=0}^n | y_i - \hat{y}_i |\]</p>
 
-<p><a class=""glossary-anchor"" name=""MSE""></a>
-<h2 class=""hide-from-toc""> Mean Squared Error (MSE)</h2></p>
+"
+Mean Squared Error (MSE)|"
 
 <p>The average squared loss per example. MSE is calculated by dividing the
 <a href=""#squared_loss""><strong>squared loss</strong></a> by the number of
@@ -2986,23 +2983,23 @@ $y$ and its prediction $\hat{y}$, MAE is defined as follows:</p>
 <a href=""#TensorFlow_Playground""><strong>TensorFlow Playground</strong></a> displays for
 &quot;Training loss&quot; and &quot;Test loss&quot; are MSE.</p>
 
-<p><a class=""glossary-anchor"" name=""metric""></a>
-<h2 class=""hide-from-toc""> metric</h2></p>
+"
+metric|"
 
 <p>A number that you care about. May or may not be directly optimized in a
 machine-learning system. A metric that your system tries to optimize is
 called an <a href=""#objective""><strong>objective</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""metrics_API""></a>
-<h2 class=""hide-from-toc""> Metrics API (tf.metrics)</h2></p>
+"
+Metrics API (tf.metrics)|"
 
 <p>A TensorFlow API for evaluating models. For example, <code translate=""no"" dir=""ltr"">tf.metrics.accuracy</code>
 determines how often a model&#39;s predictions match labels. When writing a
 <a href=""#custom_estimator""><strong>custom Estimator</strong></a>, you invoke Metrics API functions to
 specify how your model should be evaluated.</p>
 
-<p><a class=""glossary-anchor"" name=""mini-batch""></a>
-<h2 class=""hide-from-toc""> mini-batch</h2></p>
+"
+mini-batch|"
 
 <p>A small, randomly selected subset of the entire batch of
 <a href=""#example""><strong>examples</strong></a> run together in a single iteration of training
@@ -3010,16 +3007,16 @@ or inference. The <a href=""#batch_size""><strong>batch size</strong></a> of a m
 between 10 and 1,000. It is much more efficient to calculate the loss on a
 mini-batch than on the full training data.</p>
 
-<p><a class=""glossary-anchor"" name=""mini-batch_SGD""></a>
-<h2 class=""hide-from-toc""> mini-batch stochastic gradient descent (SGD)</h2></p>
+"
+mini-batch stochastic gradient descent (SGD)|"
 
 <p>A <a href=""#gradient_descent""><strong>gradient descent</strong></a> algorithm that uses
 <a href=""#mini-batch""><strong>mini-batches</strong></a>. In other words, mini-batch SGD estimates the
 gradient based on a small subset of the training data. <a href=""#SGD""><strong>Vanilla SGD</strong></a>
 uses a mini-batch of size 1.</p>
 
-<p><a class=""glossary-anchor"" name=""minimax_loss""></a>
-<h2 class=""hide-from-toc""> minimax loss</h2></p>
+"
+minimax loss|"
 
 <p>A loss function for
 <a href=""#generative_adversarial_network""><strong>generative adversarial networks</strong></a>,
@@ -3031,21 +3028,21 @@ of generated data and real data.</p>
 generative adversarial networks.</p>
 
 
-<p><a class=""glossary-anchor"" name=""minority_class""></a>
-<h2 class=""hide-from-toc""> minority class</h2></p>
+"
+minority class|"
 
 <p>The less common label in a
 <a href=""#class_imbalanced_data_set""><strong>class-imbalanced dataset</strong></a>. For example,
 given a dataset containing 99% non-spam labels and 1% spam labels, the
 spam labels are the minority class.</p>
 
-<p><a class=""glossary-anchor"" name=""ML""></a>
-<h2 class=""hide-from-toc""> ML</h2></p>
+"
+ML|"
 
 <p>Abbreviation for <a href=""#machine_learning""><strong>machine learning</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""MNIST""></a>
-<h2 class=""hide-from-toc""> MNIST</h2></p>
+"
+MNIST|"
 
 <p>A public-domain dataset compiled by LeCun, Cortes, and Burges containing
 60,000 images, each image showing how a human manually wrote a particular
@@ -3057,8 +3054,8 @@ machine learning approaches. For details, see
 <a href=""http://yann.lecun.com/exdb/mnist/"" target=""T"">
 The MNIST Database of Handwritten Digits</a>.</p>
 
-<p><a class=""glossary-anchor"" name=""model""></a>
-<h2 class=""hide-from-toc""> model</h2></p>
+"
+model|"
 
 <p>The representation of what a machine learning system has learned from
 the training data. Within TensorFlow, model is an overloaded term, which
@@ -3071,8 +3068,8 @@ how a prediction will be computed.</li>
 determined by <a href=""#model_training""><strong>training</strong></a>.</li>
 </ul>
 
-<p><a class=""glossary-anchor"" name=""model_capacity""></a>
-<h2 class=""hide-from-toc""> model capacity</h2></p>
+"
+model capacity|"
 
 <p>The complexity of problems that a model can learn. The more complex the
 problems that a model can learn, the higher the model’s capacity. A model’s
@@ -3081,8 +3078,8 @@ formal definition of classifier capacity, see
 <a href=""https://wikipedia.org/wiki/VC_dimension""
 target=""T"">VC dimension</a>.</p>
 
-<p><a class=""glossary-anchor"" name=""model_function""></a>
-<h2 class=""hide-from-toc""> model function</h2></p>
+"
+model function|"
 
 <p>The function within an <a href=""#Estimators""><strong>Estimator</strong></a> that implements
 machine learning training, evaluation, and inference. For example, the
@@ -3098,13 +3095,13 @@ function yourself.</p>
 <a href=""https://www.tensorflow.org/guide/custom_estimators"" target=""T"">
 Creating Custom Estimators chapter</a> in the TensorFlow Programmers Guide.</p>
 
-<p><a class=""glossary-anchor"" name=""model_training""></a>
-<h2 class=""hide-from-toc""> model training</h2></p>
+"
+model training|"
 
 <p>The process of determining the best <a href=""#model""><strong>model</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""Momentum""></a>
-<h2 class=""hide-from-toc""> Momentum</h2></p>
+"
+Momentum|"
 
 <p>A sophisticated gradient descent algorithm in which a learning step depends
 not only on the derivative in the current step, but also on the derivatives
@@ -3113,8 +3110,8 @@ exponentially weighted moving average of the gradients over time, analogous
 to momentum in physics.  Momentum sometimes prevents learning from getting
 stuck in local minima.</p>
 
-<p><a class=""glossary-anchor"" name=""multi-class""></a>
-<h2 class=""hide-from-toc""> multi-class classification</h2></p>
+"
+multi-class classification|"
 
 <p>Classification problems that distinguish among more than two classes. For
 example, there are approximately 128 species of maple trees, so a model
@@ -3122,20 +3119,20 @@ that categorized maple tree species would be multi-class. Conversely, a
 model that divided emails into only two categories (<em>spam</em> and <em>not spam</em>)
 would be a <a href=""#binary_classification""><strong>binary classification model</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""multi-class_logistic_regression""></a>
-<h2 class=""hide-from-toc""> multi-class logistic regression</h2></p>
+"
+multi-class logistic regression|"
 
 <p>Using <a href=""#logistic_regression""><strong>logistic regression</strong></a> in
 <a href=""#multi-class""><strong>multi-class classification</strong></a> problems.</p>
 
-<p><a class=""glossary-anchor"" name=""multinomial_classification""></a>
-<h2 class=""hide-from-toc""> multinomial classification</h2></p>
+"
+multinomial classification|"
 
 <p>Synonym for <a href=""#multi-class""><strong>multi-class classification</strong></a>.</p>
 
 
-<p><a class=""glossary-anchor"" name=""NaN_trap""></a>
-<h2 class=""hide-from-toc""> NaN trap</h2></p>
+"
+NaN trap|"
 
 <p>When one number in your model becomes a
 <a href=""https://wikipedia.org/wiki/NaN"" target=""T"">NaN</a>
@@ -3144,15 +3141,15 @@ many or all other numbers in your model to eventually become a NaN.</p>
 
 <p>NaN is an abbreviation for &quot;Not a Number.&quot;</p>
 
-<p><a class=""glossary-anchor"" name=""natural_language_understanding""></a>
-<h2 class=""hide-from-toc""> natural language understanding</h2></p>
+"
+natural language understanding|"
 
 <p>Determining a user&#39;s intentions based on what the user typed or said.
 For example, a search engine uses natural language understanding to
 determine what the user is searching for based on what the user typed or said.</p>
 
-<p><a class=""glossary-anchor"" name=""negative_class""></a>
-<h2 class=""hide-from-toc""> negative class</h2></p>
+"
+negative class|"
 
 <p>In <a href=""#binary_classification""><strong>binary classification</strong></a>, one class is
 termed positive and the other is termed negative. The positive class is
@@ -3161,15 +3158,15 @@ For example, the negative class in a medical test might be &quot;not tumor.&quot
 The negative class in an email classifier might be &quot;not spam.&quot;
 See also <a href=""#positive_class""><strong>positive class</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""neural_network""></a>
-<h2 class=""hide-from-toc""> neural network</h2></p>
+"
+neural network|"
 
 <p>A model that, taking inspiration from the brain, is composed of layers
 (at least one of which is <a href=""#hidden_layer""><strong>hidden</strong></a>) consisting of
 simple connected units or <a href=""#neuron""><strong>neurons</strong></a> followed by nonlinearities.</p>
 
-<p><a class=""glossary-anchor"" name=""neuron""></a>
-<h2 class=""hide-from-toc""> neuron</h2></p>
+"
+neuron|"
 
 <p>A node in a <a href=""#neural_network""><strong>neural network</strong></a>, typically taking in
 multiple input values and generating one output value. The neuron calculates
@@ -3177,8 +3174,8 @@ the output value by applying an
 <a href=""#activation_function""><strong>activation function</strong></a> (nonlinear transformation)
 to a weighted sum of input values.</p>
 
-<p><a class=""glossary-anchor"" name=""N-gram""></a>
-<h2 class=""hide-from-toc""> N-gram</h2></p>
+"
+N-gram|"
 
 <p>An ordered sequence of N words.  For example, <em>truly madly</em> is a 2-gram. Because
 order is relevant, <em>madly truly</em> is a different 2-gram than <em>truly madly</em>.</p>
@@ -3215,24 +3212,24 @@ user will next type <em>mice</em>.</p>
 <p>Contrast N-grams with <a href=""#bag_of_words""><strong>bag of words</strong></a>, which are
 unordered sets of words.</p>
 
-<p><a class=""glossary-anchor"" name=""NLU""></a>
-<h2 class=""hide-from-toc""> NLU</h2></p>
+"
+NLU|"
 
 <p>Abbreviation for <a href=""#natural_language_understanding""><strong>natural language
 understanding</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""node""></a>
-<h2 class=""hide-from-toc""> node (neural network)</h2></p>
+"
+node (neural network)|"
 
 <p>A <a href=""#neuron""><strong>neuron</strong></a> in a <a href=""#hidden_layer""><strong>hidden layer</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""node_graph""></a>
-<h2 class=""hide-from-toc""> node (TensorFlow graph)</h2></p>
+"
+node (TensorFlow graph)|"
 
 <p>An operation in a TensorFlow <a href=""#graph""><strong>graph</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""noise""></a>
-<h2 class=""hide-from-toc""> noise</h2></p>
+"
+noise|"
 
 <p>Broadly speaking, anything that obscures the signal in a dataset. Noise
 can be introduced into data in a variety of ways. For example:</p>
@@ -3242,13 +3239,13 @@ can be introduced into data in a variety of ways. For example:</p>
 <li>Humans and instruments mis-record or omit feature values.</li>
 </ul>
 
-<p><a class=""glossary-anchor"" name=""non-response_bias""></a>
-<h2 class=""hide-from-toc""> non-response bias </h2></p>
+"
+non-response bias |"
 
 <p>See <a href=""#selection_bias""><strong>selection bias</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""normalization""></a>
-<h2 class=""hide-from-toc""> normalization</h2></p>
+"
+normalization|"
 
 <p>The process of converting an actual range of values into a standard range
 of values, typically -1 to +1 or 0 to 1. For example, suppose the natural
@@ -3257,8 +3254,8 @@ you can normalize those values into the range -1 to +1.</p>
 
 <p>See also <a href=""#scaling""><strong>scaling</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""numerical_data""></a>
-<h2 class=""hide-from-toc""> numerical data</h2></p>
+"
+numerical data|"
 
 <p><a href=""#feature""><strong>Features</strong></a> represented as integers or real-valued numbers.
 For example, in a real estate model, you would probably represent the size
@@ -3283,8 +3280,8 @@ instead.</p>
 <p>Numerical features are sometimes called
 <a href=""#continuous_feature""><strong>continuous features</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""numpy""></a>
-<h2 class=""hide-from-toc""> NumPy</h2></p>
+"
+NumPy|"
 
 <p>An <a href=""http://www.numpy.org/"" target=""T"">
 open-source math library</a>
@@ -3292,13 +3289,13 @@ that provides efficient array operations in Python.
 <a href=""#pandas""><strong>pandas</strong></a> is built on NumPy.</p>
 
 
-<p><a class=""glossary-anchor"" name=""objective""></a>
-<h2 class=""hide-from-toc""> objective</h2></p>
+"
+objective|"
 
 <p>A metric that your algorithm is trying to optimize.</p>
 
-<p><a class=""glossary-anchor"" name=""objective_function""></a>
-<h2 class=""hide-from-toc""> objective function</h2></p>
+"
+objective function|"
 
 <p>The mathematical formula or metric that a model aims to optimize.
 For example, the objective function for
@@ -3312,15 +3309,15 @@ to maximize accuracy.</p>
 
 <p>See also <a href=""#loss""><strong>loss</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""offline_inference""></a>
-<h2 class=""hide-from-toc""> offline inference</h2></p>
+"
+offline inference|"
 
 <p>Generating a group of <a href=""#prediction""><strong>predictions</strong></a>, storing those
 predictions, and then retrieving those predictions on demand. Contrast
 with <a href=""#online_inference""><strong>online inference</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""one-hot_encoding""></a>
-<h2 class=""hide-from-toc""> one-hot encoding</h2></p>
+"
+one-hot encoding|"
 
 <p>A sparse vector in which:</p>
 
@@ -3336,16 +3333,16 @@ string identifier. As part of feature engineering, you&#39;ll probably encode
 those string identifiers as one-hot vectors in which the vector has a size
 of 15,000.</p>
 
-<p><a class=""glossary-anchor"" name=""one-shot_learning""></a>
-<h2 class=""hide-from-toc""> one-shot learning</h2></p>
+"
+one-shot learning|"
 
 <p>A machine learning approach, often used for object classification,
 designed to learn effective classifiers from a single training example.</p>
 
 <p>See also <a href=""#few-shot_learning""><strong>few-shot learning</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""one-vs.-all""></a>
-<h2 class=""hide-from-toc""> one-vs.-all</h2></p>
+"
+one-vs.-all|"
 
 <p>Given a classification problem with N possible solutions, a one-vs.-all
 solution consists of N separate
@@ -3360,22 +3357,22 @@ following three separate binary classifiers:</p>
 <li>mineral vs. not mineral</li>
 </ul>
 
-<p><a class=""glossary-anchor"" name=""online_inference""></a>
-<h2 class=""hide-from-toc""> online inference</h2></p>
+"
+online inference|"
 
 <p>Generating <a href=""#prediction""><strong>predictions</strong></a> on demand. Contrast with
 <a href=""#offline_inference""><strong>offline inference</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""Operation""></a>
-<h2 class=""hide-from-toc""> Operation (op)</h2></p>
+"
+Operation (op)|"
 
 <p>A node in the TensorFlow graph. In TensorFlow, any procedure that creates,
 manipulates, or destroys a <a href=""#tensor""><strong>Tensor</strong></a> is an operation. For
 example, a matrix multiply is an operation that takes two Tensors as
 input and generates one Tensor as output.</p>
 
-<p><a class=""glossary-anchor"" name=""optimizer""></a>
-<h2 class=""hide-from-toc""> optimizer</h2></p>
+"
+optimizer|"
 
 <p>A specific implementation of the <a href=""#gradient_descent""><strong>gradient descent</strong></a>
 algorithm. TensorFlow&#39;s base class for optimizers is
@@ -3409,8 +3406,8 @@ and others)</li>
 <p>You might even imagine an
 <a href=""https://arxiv.org/abs/1606.04474"" target=""T"">NN-driven optimizer</a>.</p>
 
-<p><a class=""glossary-anchor"" name=""out-group_homogeneity_bias""></a>
-<h2 class=""hide-from-toc""> out-group homogeneity bias </h2></p>
+"
+out-group homogeneity bias |"
 
 <p>The tendency to see out-group members as more alike than in-group members
 when comparing attitudes, values, personality traits, and other
@@ -3430,8 +3427,8 @@ Brobdingnagians all live in identical houses.</p>
 
 <p>See also <a href=""#in-group_bias""><strong>in-group bias</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""outliers""></a>
-<h2 class=""hide-from-toc""> outliers</h2></p>
+"
+outliers|"
 
 <p>Values distant from most other values. In machine learning, any of the
 following are outliers:</p>
@@ -3446,36 +3443,36 @@ from the mean.</li>
 <p>Outliers often cause problems in model training. <a href=""#clipping""><strong>Clipping</strong></a>
 is one way of managing outliers.</p>
 
-<p><a class=""glossary-anchor"" name=""output_layer""></a>
-<h2 class=""hide-from-toc""> output layer</h2></p>
+"
+output layer|"
 
 <p>The &quot;final&quot; layer of a neural network. The layer containing the answer(s).</p>
 
-<p><a class=""glossary-anchor"" name=""overfitting""></a>
-<h2 class=""hide-from-toc""> overfitting</h2></p>
+"
+overfitting|"
 
 <p>Creating a model that matches the <a href=""#training_set""><strong>training data</strong></a> so
 closely that the model fails to make correct predictions on new data.</p>
 
 
-<p><a class=""glossary-anchor"" name=""pandas""></a>
-<h2 class=""hide-from-toc""> pandas</h2></p>
+"
+pandas|"
 
 <p>A column-oriented data analysis API. Many machine learning frameworks,
 including TensorFlow, support pandas data structures as input. See the
 <a href=""http://pandas.pydata.org/"" target=""T"">pandas documentation</a>
 for details.</p>
 
-<p><a class=""glossary-anchor"" name=""parameter""></a>
-<h2 class=""hide-from-toc""> parameter</h2></p>
+"
+parameter|"
 
 <p>A variable of a model that the machine learning system trains on its own.
 For example, <a href=""#weight""><strong>weights</strong></a> are parameters whose values the
 machine learning system gradually learns through successive training
 iterations. Contrast with <a href=""#hyperparameter""><strong>hyperparameter</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""Parameter_Server""></a>
-<h2 class=""hide-from-toc""> Parameter Server (PS)</h2></p>
+"
+Parameter Server (PS)|"
 
 <p>A job that keeps track of a model&#39;s <a href=""#parameter""><strong>parameters</strong></a> in a
 distributed setting.</p>
@@ -3484,15 +3481,15 @@ distributed setting.</p>
 target=""T"">TensorFlow Architecture chapter</a> in the TensorFlow Programmers
 Guide for details.</p>
 
-<p><a class=""glossary-anchor"" name=""parameter_update""></a>
-<h2 class=""hide-from-toc""> parameter update</h2></p>
+"
+parameter update|"
 
 <p>The operation of adjusting a model&#39;s <a href=""#parameter""><strong>parameters</strong></a> during
 training, typically within a single iteration of
 <a href=""#gradient_descent""><strong>gradient descent</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""partial_derivative""></a>
-<h2 class=""hide-from-toc""> partial derivative</h2></p>
+"
+partial derivative|"
 
 <p>A derivative in which all but one of the variables is considered a constant.
 For example, the partial derivative of <em>f(x, y)</em> with respect to <em>x</em> is the
@@ -3500,20 +3497,20 @@ derivative of <em>f</em> considered as a function of <em>x</em> alone (that is, 
 constant). The partial derivative of <em>f</em> with respect to <em>x</em> focuses only on
 how <em>x</em> is changing and ignores all other variables in the equation.</p>
 
-<p><a class=""glossary-anchor"" name=""participation_bias""></a>
-<h2 class=""hide-from-toc""> participation bias</h2></p>
+"
+participation bias|"
 
 <p>Synonym for non-response bias.  See <a href=""#selection_bias""><strong>selection bias</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""partitioning_strategy""></a>
-<h2 class=""hide-from-toc""> partitioning strategy</h2></p>
+"
+partitioning strategy|"
 
 <p>The algorithm by which variables are divided across
 <a href=""#Parameter_Server""><strong>parameter servers</strong></a>.</p>
 
 
-<p><a class=""glossary-anchor"" name=""perceptron""></a>
-<h2 class=""hide-from-toc""> perceptron</h2></p>
+"
+perceptron|"
 
 <p>A system (either hardware or software) that takes in one or more input values,
 runs a function on the weighted sum of the inputs, and computes a single
@@ -3540,8 +3537,8 @@ networks</strong></a>. That is, a deep neural network consists of
 multiple connected perceptrons, plus a
 <a href=""#backpropagation""><strong>backpropagation</strong></a> algorithm to introduce feedback.</p>
 
-<p><a class=""glossary-anchor"" name=""performance""></a>
-<h2 class=""hide-from-toc""> performance</h2></p>
+"
+performance|"
 
 <p>Overloaded term with the following meanings:</p>
 
@@ -3553,8 +3550,8 @@ following question: How correct is this <a href=""#model""><strong>model</strong
 how good are the model&#39;s predictions?</li>
 </ul>
 
-<p><a class=""glossary-anchor"" name=""perplexity""></a>
-<h2 class=""hide-from-toc""> perplexity</h2></p>
+"
+perplexity|"
 
 <p>One measure of how well a <a href=""#model""><strong>model</strong></a> is accomplishing its task.
 For example, suppose your task is to read the first few letters of a word
@@ -3569,21 +3566,21 @@ word the user is trying to type.</p>
 $$P= 2^{-\text{cross entropy}}$$
 </div>
 
-<p><a class=""glossary-anchor"" name=""pipeline""></a>
-<h2 class=""hide-from-toc""> pipeline</h2></p>
+"
+pipeline|"
 
 <p>The infrastructure surrounding a machine learning algorithm. A pipeline
 includes gathering the data, putting the data into training data files,
 training one or more models, and exporting the models to production.</p>
 
-<p><a class=""glossary-anchor"" name=""policy""></a>
-<h2 class=""hide-from-toc""> policy</h2></p>
+"
+policy|"
 
 <p>In reinforcement learning, an <a href=""#agent""><strong>agent&#39;s</strong></a> probabilistic mapping
 from <a href=""#state""><strong>states</strong></a> to <a href=""#action""><strong>actions</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""pooling""></a>
-<h2 class=""hide-from-toc""> pooling</h2></p>
+"
+pooling|"
 
 <p>Reducing a matrix (or matrices) created by an earlier
 <a href=""#convolutional_layer""><strong>convolutional layer</strong></a> to a smaller matrix.
@@ -3614,8 +3611,8 @@ four in that slice:</p>
 Time-series applications usually refer to pooling as <strong>temporal pooling</strong>.
 Less formally, pooling is often called <strong>subsampling</strong> or <strong>downsampling</strong>.</p>
 
-<p><a class=""glossary-anchor"" name=""positive_class""></a>
-<h2 class=""hide-from-toc""> positive class</h2></p>
+"
+positive class|"
 
 <p>In <a href=""#binary_classification""><strong>binary classification</strong></a>, the two possible
 classes are labeled as positive and negative. The positive outcome is the
@@ -3627,8 +3624,8 @@ might be &quot;spam.&quot;</p>
 <p>Contrast with <a href=""#negative_class""><strong>negative class</strong></a>.</p>
 
 <p><a class=""glossary-anchor"" name=""postprocessing""></a>
-<a class=""glossary-anchor"" name=""post-processing""></a>
-<h2 class=""hide-from-toc""> post-processing</h2>
+"
+|"
 Processing the output of a model <em>after</em> the model has been run.
 Post-processing can be used to enforce fairness constraints without
 modifying models themselves.</p>
@@ -3641,8 +3638,8 @@ is the same for all values of that attribute.</p>
 
 <p><a class=""glossary-anchor"" name=""PRAUC""></a>
 <a class=""glossary-anchor"" name=""PR_AUC""></a>
-<a class=""glossary-anchor"" name=""area_under_the_pr_curve""></a>
-<h2 class=""hide-from-toc""> PR AUC (area under the PR curve)</h2></p>
+"
+PR AUC (area under the PR curve)|"
 
 <p>Area under the interpolated
 <a href=""#precision-recall_curve""><strong>precision-recall curve</strong></a>, obtained by plotting
@@ -3651,8 +3648,8 @@ is the same for all values of that attribute.</p>
 it&#39;s calculated, PR AUC may be equivalent to the
 <a href=""#average_precision""><strong>average precision</strong></a> of the model.</p>
 
-<p><a class=""glossary-anchor"" name=""precision""></a>
-<h2 class=""hide-from-toc""> precision</h2></p>
+"
+precision|"
 
 <p>A metric for <a href=""#classification_model""><strong>classification models</strong></a>. Precision
 identifies the frequency with which a model was correct when predicting the
@@ -3663,19 +3660,19 @@ $$\text{Precision} =
 \frac{\text{True Positives}} {\text{True Positives} + \text{False Positives}}$$
 </div>
 
-<p><a class=""glossary-anchor"" name=""precision-recall_curve""></a>
-<h2 class=""hide-from-toc""> precision-recall curve</h2></p>
+"
+precision-recall curve|"
 
 <p>A curve of <a href=""#precision""><strong>precision</strong></a> vs. <a href=""#recall""><strong>recall</strong></a> at different
 <a href=""#classification_threshold""><strong>classification thresholds</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""prediction""></a>
-<h2 class=""hide-from-toc""> prediction</h2></p>
+"
+prediction|"
 
 <p>A model&#39;s output when provided with an input <a href=""#example""><strong>example</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""prediction_bias""></a>
-<h2 class=""hide-from-toc""> prediction bias</h2></p>
+"
+prediction bias|"
 
 <p>A value indicating how far apart the average of
 <a href=""#prediction""><strong>predictions</strong></a> is from the average of <a href=""#label""><strong>labels</strong></a>
@@ -3684,8 +3681,8 @@ in the dataset.</p>
 <p>Not to be confused with the <a href=""#bias""><strong>bias term</strong></a> in machine learning models
 or with <a href=""#bias_ethics""><strong>bias in ethics and fairness</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""predictive_parity""></a>
-<h2 class=""hide-from-toc""> predictive parity</h2></p>
+"
+predictive parity|"
 
 <p>A <a href=""#fairness_metric""><strong>fairness metric</strong></a> that checks whether,
 for a given classifier, the <a href=""#precision""><strong>precision</strong></a> rates
@@ -3701,13 +3698,13 @@ for Lilliputians and Brobdingnagians.</p>
 Explained&quot;</a> (section 3.2.1)
 for a more detailed discussion of predictive parity.</p>
 
-<p><a class=""glossary-anchor"" name=""predictive_rate_parity""></a>
-<h2 class=""hide-from-toc""> predictive rate parity</h2></p>
+"
+predictive rate parity|"
 
 <p>Another name for <a href=""#predictive_parity""><strong>predictive parity</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""premade_Estimator""></a>
-<h2 class=""hide-from-toc""> premade Estimator</h2></p>
+"
+premade Estimator|"
 
 <p>An <a href=""#Estimators""><strong>Estimator</strong></a> that someone has already built.
 TensorFlow provides several premade Estimators, including <code translate=""no"" dir=""ltr"">DNNClassifier</code>,
@@ -3718,8 +3715,7 @@ target=""T"">Premade Estimators chapter</a> in the TensorFlow Programmers Guide.
 
 <p>Contrast with <a href=""#custom_estimator""><strong>custom estimators</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""preprocessing""></a>
-<h2 class=""hide-from-toc""> preprocessing</h2>
+"|"
 Processing data before it&#39;s used to train a model. Preprocessing could
 be as simple as removing words from an English text corpus that don&#39;t
 occur in the English dictionary, or could be as complex as re-expressing
@@ -3727,31 +3723,31 @@ data points in a way that eliminates as many attributes that are correlated
 with  <a href=""#sensitive_attribute""><strong>sensitive attributes</strong></a> as possible.
 Preprocessing can help satisfy <a href=""#fairness_constraint""><strong>fairness constraints</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""pre-trained_model""></a>
-<h2 class=""hide-from-toc""> pre-trained model</h2></p>
+"
+pre-trained model|"
 
 <p>Models or model components (such as <a href=""#embeddings""><strong>embeddings</strong></a>) that have
 been already been trained. Sometimes, you&#39;ll feed pre-trained embeddings
 into a <a href=""#neural_network""><strong>neural network</strong></a>. Other times, your model will
 train the embeddings itself rather than rely on the pre-trained embeddings.</p>
 
-<p><a class=""glossary-anchor"" name=""prior_belief""></a>
-<h2 class=""hide-from-toc""> prior belief</h2></p>
+"
+prior belief|"
 
 <p>What you believe about the data before you begin training on it. For
 example, <a href=""#L2_regularization""><strong>L<sub>2</sub> regularization</strong></a> relies on
 a prior belief that <a href=""#weight""><strong>weights</strong></a> should be small and normally
 distributed around zero.</p>
 
-<p><a class=""glossary-anchor"" name=""proxy_sensitive_attributes""></a>
-<h2 class=""hide-from-toc""> proxy (sensitive attributes)</h2>
+"
+proxy (|"
 An attribute used as a stand-in for a
 <a href=""#sensitive_attribute""><strong>sensitive attribute</strong></a>. For example, an
 individual&#39;s postal code might be used as a proxy for their income,
 race, or ethnicity.</p>
 
-<p><a class=""glossary-anchor"" name=""proxy_labels""></a>
-<h2 class=""hide-from-toc""> proxy labels</h2></p>
+"
+proxy labels|"
 
 <p>Data used to approximate labels not directly available in a dataset.</p>
 
@@ -3764,8 +3760,8 @@ may be more common to carry umbrellas to protect against sun than
 the rain.</p>
 
 
-<p><a class=""glossary-anchor"" name=""q-function""></a>
-<h2 class=""hide-from-toc""> Q-function</h2></p>
+"
+Q-function|"
 
 <p>In reinforcement learning, the function that predicts the expected
 <a href=""#return""><strong>return</strong></a> from taking an <a href=""#action""><strong>action</strong></a> in a
@@ -3773,8 +3769,8 @@ the rain.</p>
 
 <p>Q-function is also known as <strong>state-action value function</strong>.</p>
 
-<p><a class=""glossary-anchor"" name=""q-learning""></a>
-<h2 class=""hide-from-toc""> Q-learning</h2></p>
+"
+Q-learning|"
 
 <p>In reinforcement learning, an algorithm that allows an <a href=""#agent""><strong>agent</strong></a>
 to learn the optimal <a href=""#q-function""><strong>Q-function</strong></a> of a
@@ -3782,13 +3778,13 @@ to learn the optimal <a href=""#q-function""><strong>Q-function</strong></a> of 
 <a href=""#bellman_equation""><strong>Bellman equation</strong></a>. The Markov decision process models
 an <a href=""#environment""><strong>environment</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""quantile""></a>
-<h2 class=""hide-from-toc""> quantile</h2></p>
+"
+quantile|"
 
 <p>Each bucket in <a href=""#quantile_bucketing""><strong>quantile bucketing</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""quantile_bucketing""></a>
-<h2 class=""hide-from-toc""> quantile bucketing</h2></p>
+"
+quantile bucketing|"
 
 <p>Distributing a feature&#39;s values into <a href=""#bucketing""><strong>buckets</strong></a> so that each
 bucket contains the same (or almost the same) number of examples.  For example,
@@ -3802,22 +3798,22 @@ points divided into 4 buckets of 11 points each. Some of the buckets contain
 a wider range of feature values than others.""></img>
 </p>
 
-<p><a class=""glossary-anchor"" name=""quantization""></a>
-<h2 class=""hide-from-toc""> quantization</h2></p>
+"
+quantization|"
 
 <p>An algorithm that implements <a href=""#quantile_bucketing""><strong>quantile bucketing</strong></a> on
 a particular <a href=""#feature""><strong>feature</strong></a> in a <a href=""#data_set""><strong>dataset</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""queue""></a>
-<h2 class=""hide-from-toc""> queue</h2></p>
+"
+queue|"
 
 <p>A TensorFlow <a href=""#Operation""><strong>Operation</strong></a> that implements a queue data
 structure. Typically
 used in I/O.</p>
 
 
-<p><a class=""glossary-anchor"" name=""random_forest""></a>
-<h2 class=""hide-from-toc""> random forest</h2></p>
+"
+random forest|"
 
 <p>An ensemble approach to finding the <a href=""#decision_tree""><strong>decision tree</strong></a> that
 best fits the training data by creating many decision trees and then
@@ -3825,14 +3821,14 @@ determining the &quot;average&quot; one. The &quot;random&quot; part of the term
 building each of the decision trees from a random selection of features;
 the &quot;forest&quot; refers to the set of decision trees.</p>
 
-<p><a class=""glossary-anchor"" name=""random_policy""></a>
-<h2 class=""hide-from-toc""> random policy</h2></p>
+"
+random policy|"
 
 <p>In reinforcement learning, a <a href=""#policy""><strong>policy</strong></a> that chooses an
 <a href=""#action""><strong>action</strong></a> at random.</p>
 
-<p><a class=""glossary-anchor"" name=""rank_ordinality""></a>
-<h2 class=""hide-from-toc""> rank (ordinality)</h2></p>
+"
+rank (ordinality)|"
 
 <p>The ordinal position of a class in a machine learning problem that categorizes
 classes from highest to lowest. For example, a behavior ranking
@@ -3840,22 +3836,22 @@ system could rank a dog&#39;s rewards from highest (a steak) to
 lowest (wilted kale).</p>
 
 <p><a class=""glossary-anchor"" name=""rank""></a>
-<a class=""glossary-anchor"" name=""rank_Tensor""></a>
-<h2 class=""hide-from-toc""> rank (Tensor)</h2></p>
+"
+rank (Tensor)|"
 
 <p>The number of dimensions in a <a href=""#tensor""><strong>Tensor</strong></a>. For instance,
 a scalar has rank 0, a vector has rank 1, and a matrix has rank 2.</p>
 
 <p>Not to be confused with <a href=""#rank_ordinality""><strong>rank (ordinality)</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""rater""></a>
-<h2 class=""hide-from-toc""> rater</h2></p>
+"
+rater|"
 
 <p>A human who provides <a href=""#label""><strong>labels</strong></a> in <a href=""#example""><strong>examples</strong></a>.
 Sometimes called an &quot;annotator.&quot;</p>
 
-<p><a class=""glossary-anchor"" name=""recall""></a>
-<h2 class=""hide-from-toc""> recall</h2></p>
+"
+recall|"
 
 <p>A metric for <a href=""#classification_model""><strong>classification models</strong></a> that answers
 the following question: Out of all the possible positive labels, how many
@@ -3865,8 +3861,8 @@ did the model correctly identify? That is:</p>
 \frac{\text{True Positives}} {\text{True Positives} + \text{False Negatives}}
 \]</p>
 
-<p><a class=""glossary-anchor"" name=""recommendation_system""></a>
-<h2 class=""hide-from-toc""> recommendation system</h2></p>
+"
+recommendation system|"
 
 <p>A system that selects for each user a relatively small set of desirable
 <a href=""#items""><strong>items</strong></a> from a large corpus.
@@ -3881,8 +3877,8 @@ base its recommendations on factors such as:</p>
 <li>Genre, directors, actors, target demographic...</li>
 </ul>
 
-<p><a class=""glossary-anchor"" name=""ReLU""></a>
-<h2 class=""hide-from-toc""> Rectified Linear Unit (ReLU)</h2></p>
+"
+Rectified Linear Unit (ReLU)|"
 
 <p>An <a href=""#activation_function""><strong>activation function</strong></a> with the following rules:</p>
 
@@ -3891,8 +3887,8 @@ base its recommendations on factors such as:</p>
 <li>If input is positive, output is equal to input.</li>
 </ul>
 
-<p><a class=""glossary-anchor"" name=""recurrent_neural_network""></a>
-<h2 class=""hide-from-toc""> recurrent neural network </h2></p>
+"
+recurrent neural network |"
 
 <p>A <a href=""#neural_network""><strong>neural network</strong></a> that is intentionally run multiple
 times, where parts of each run feed into the next run. Specifically,
@@ -3916,15 +3912,15 @@ of individual words.</p>
 alt=""An RNN that runs four times to process four input words.""></img>
 </p>
 
-<p><a class=""glossary-anchor"" name=""regression_model""></a>
-<h2 class=""hide-from-toc""> regression model</h2></p>
+"
+regression model|"
 
 <p>A type of model that outputs continuous (typically, floating-point) values.
 Compare with <a href=""#classification_model""><strong>classification models</strong></a>, which
 output discrete values, such as &quot;day lily&quot; or &quot;tiger lily.&quot;</p>
 
-<p><a class=""glossary-anchor"" name=""regularization""></a>
-<h2 class=""hide-from-toc""> regularization</h2></p>
+"
+regularization|"
 
 <p>The penalty on a model&#39;s complexity. Regularization helps prevent
 <a href=""#overfitting""><strong>overfitting</strong></a>. Different kinds of regularization include:</p>
@@ -3937,8 +3933,8 @@ output discrete values, such as &quot;day lily&quot; or &quot;tiger lily.&quot;<
 regularization method, but can effectively limit overfitting)</li>
 </ul>
 
-<p><a class=""glossary-anchor"" name=""regularization_rate""></a>
-<h2 class=""hide-from-toc""> regularization rate</h2></p>
+"
+regularization rate|"
 
 <p>A scalar value, represented as lambda, specifying the relative importance
 of the regularization function. The following simplified <a href=""#loss""><strong>loss</strong></a>
@@ -3951,8 +3947,8 @@ $$\text{minimize(loss function + }\lambda\text{(regularization function))}$$
 <p>Raising the regularization rate reduces <a href=""#overfitting""><strong>overfitting</strong></a>
 but may make the model less <a href=""#accuracy""><strong>accurate</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""reinforcement_learning""></a>
-<h2 class=""hide-from-toc""> reinforcement learning (RL)</h2></p>
+"
+reinforcement learning (RL)|"
 
 <p>A family of algorithms that learn an optimal <a href=""#policy""><strong>policy</strong></a>, whose goal
 is to maximize <a href=""#return""><strong>return</strong></a> when interacting with
@@ -3962,15 +3958,15 @@ Reinforcement learning systems can become expert at playing complex
 games by evaluating sequences of previous game moves that ultimately
 led to wins and sequences that ultimately led to losses.</p>
 
-<p><a class=""glossary-anchor"" name=""replay_buffer""></a>
-<h2 class=""hide-from-toc""> replay buffer</h2></p>
+"
+replay buffer|"
 
 <p>In <a href=""#deep_q-network""><strong>DQN</strong></a>-like algorithms, the memory used by the agent
 to store state transitions for use in
 <a href=""#experience_replay""><strong>experience replay</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""reporting_bias""></a>
-<h2 class=""hide-from-toc""> reporting bias </h2></p>
+"
+reporting bias |"
 
 <p>The fact that the frequency with which people write about actions,
 outcomes, or properties is not a reflection of their real-world
@@ -3983,13 +3979,13 @@ of data that machine learning systems learn from.</p>
 laughing and breathing from a book corpus would probably determine
 that laughing is more common than breathing.</p>
 
-<p><a class=""glossary-anchor"" name=""representation""></a>
-<h2 class=""hide-from-toc""> representation</h2></p>
+"
+representation|"
 
 <p>The process of mapping data to useful <a href=""#feature""><strong>features</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""re-ranking""></a>
-<h2 class=""hide-from-toc""> re-ranking</h2></p>
+"
+re-ranking|"
 
 <p>The final stage of a <a href=""#recommendation_system""><strong>recommendation system</strong></a>,
 during which scored items may be re-graded according to some other
@@ -4001,8 +3997,8 @@ generated by the <a href=""#scoring""><strong>scoring</strong></a> phase, taking
 <li>Boosting the score of fresher items.</li>
 </ul>
 
-<p><a class=""glossary-anchor"" name=""return""></a>
-<h2 class=""hide-from-toc""> return</h2></p>
+"
+return|"
 
 <p>In reinforcement learning, given a certain policy and a certain state, the
 return is the sum of all <a href=""#reward""><strong>rewards</strong></a> that the <a href=""#agent""><strong>agent</strong></a>
@@ -4019,47 +4015,47 @@ is as follows:</p>
 $$\text{Return} = r_0 + \gamma r_1 + \gamma^2 r_2 + \ldots + \gamma^{N-1} r_{N-1}$$
 </div>
 
-<p><a class=""glossary-anchor"" name=""reward""></a>
-<h2 class=""hide-from-toc""> reward</h2></p>
+"
+reward|"
 
 <p>In reinforcement learning, the numerical result of taking an
 <a href=""#action""><strong>action</strong></a> in a <a href=""#state""><strong>state</strong></a>, as defined by
 the <a href=""#environment""><strong>environment</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""ridge_regularization""></a>
-<h2 class=""hide-from-toc""> ridge regularization</h2></p>
+"
+ridge regularization|"
 
 <p>Synonym for <a href=""#L2_regularization""><strong>L<sub>2</sub> regularization</strong></a>. The term
 <strong>ridge regularization</strong> is more frequently used in pure statistics
 contexts, whereas <strong>L<sub>2</sub> regularization</strong> is used more often
 in machine learning.</p>
 
-<p><a class=""glossary-anchor"" name=""RNN""></a>
-<h2 class=""hide-from-toc""> RNN</h2></p>
+"
+RNN|"
 
 <p>Abbreviation for <a href=""#recurrent_neural_network""><strong>recurrent neural networks</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""ROC""></a>
-<h2 class=""hide-from-toc""> ROC (receiver operating characteristic) Curve</h2></p>
+"
+ROC (receiver operating characteristic) Curve|"
 
 <p>A curve of <a href=""#TP_rate""><strong>true positive rate</strong></a> vs.
 <a href=""#FP_rate""><strong>false positive rate</strong></a> at different
 <a href=""#classification_threshold""><strong>classification thresholds</strong></a>. See also
 <a href=""#AUC""><strong>AUC</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""root_directory""></a>
-<h2 class=""hide-from-toc""> root directory</h2></p>
+"
+root directory|"
 
 <p>The directory you specify for hosting subdirectories of the TensorFlow
 checkpoint and events files of multiple models.</p>
 
-<p><a class=""glossary-anchor"" name=""RMSE""></a>
-<h2 class=""hide-from-toc""> Root Mean Squared Error (RMSE)</h2></p>
+"
+Root Mean Squared Error (RMSE)|"
 
 <p>The square root of the <a href=""#MSE""><strong>Mean Squared Error</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""rotational_invariance""></a>
-<h2 class=""hide-from-toc""> rotational invariance</h2></p>
+"
+rotational invariance|"
 
 <p>In an image classification problem, an algorithm&#39;s ability to successfully
 classify images even when the orientation of the image changes. For example,
@@ -4071,13 +4067,13 @@ for example, an upside-down 9 should not be classified as a 9.</p>
 <a href=""#size_invariance""><strong>size invariance</strong></a>.</p>
 
 
-<p><a class=""glossary-anchor"" name=""sampling_bias""></a>
-<h2 class=""hide-from-toc""> sampling bias </h2></p>
+"
+sampling bias |"
 
 <p>See <a href=""#selection_bias""><strong>selection bias</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""SavedModel""></a>
-<h2 class=""hide-from-toc""> SavedModel</h2></p>
+"
+SavedModel|"
 
 <p>The recommended format for saving and recovering TensorFlow models. SavedModel
 is a language-neutral, recoverable serialization format, which enables
@@ -4088,15 +4084,15 @@ models.</p>
 target=""T"">Saving and Restoring chapter</a>
 in the TensorFlow Programmer&#39;s Guide for complete details.</p>
 
-<p><a class=""glossary-anchor"" name=""Saver""></a>
-<h2 class=""hide-from-toc""> Saver</h2></p>
+"
+Saver|"
 
 <p>A <a href=""https://www.tensorflow.org/api_docs/python/tf/train/Saver""
 target=""T"">TensorFlow object</a>
 responsible for saving model checkpoints.</p>
 
-<p><a class=""glossary-anchor"" name=""scalar""></a>
-<h2 class=""hide-from-toc""> scalar</h2></p>
+"
+scalar|"
 
 <p>A single number or a single string that can be represented as a
 <a href=""#tensor""><strong>tensor</strong></a> of <a href=""#rank""><strong>rank</strong></a> 0. For example, the following
@@ -4108,8 +4104,8 @@ temperature = tf.Variable(27, tf.int16)
 precision = tf.Variable(0.982375101275, tf.float64)
 </pre>
 
-<p><a class=""glossary-anchor"" name=""scaling""></a>
-<h2 class=""hide-from-toc""> scaling</h2></p>
+"
+scaling|"
 
 <p>A commonly used practice in <a href=""#feature_engineering""><strong>feature engineering</strong></a>
 to tame a feature&#39;s range of values to match the range of other features in
@@ -4120,22 +4116,22 @@ by 500.</p>
 
 <p>See also <a href=""#normalization""><strong>normalization</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""scikit-learn""></a>
-<h2 class=""hide-from-toc""> scikit-learn</h2></p>
+"
+scikit-learn|"
 
 <p>A popular open-source machine learning platform. See
 <a href=""http://www.scikit-learn.org/""
 target=""T"">www.scikit-learn.org</a>.</p>
 
-<p><a class=""glossary-anchor"" name=""scoring""></a>
-<h2 class=""hide-from-toc""> scoring</h2></p>
+"
+scoring|"
 
 <p>The part of a <a href=""#recommendation_system""><strong>recommendation system</strong></a> that
 provides a value or ranking for each item produced by the
 <a href=""#candidate_generation""><strong>candidate generation</strong></a> phase.</p>
 
-<p><a class=""glossary-anchor"" name=""selection_bias""></a>
-<h2 class=""hide-from-toc""> selection bias </h2></p>
+"
+selection bias |"
 
 <p>Errors in conclusions drawn from sampled data due to a selection process
 that generates systematic differences between samples observed in the data
@@ -4176,8 +4172,8 @@ target=""T"">bimodal distribution</a>
 than a normal (bell-shaped) distribution.</li>
 </ul>
 
-<p><a class=""glossary-anchor"" name=""semi-supervised_learning""></a>
-<h2 class=""hide-from-toc""> semi-supervised learning</h2></p>
+"
+semi-supervised learning|"
 
 <p>Training a model on data where some of the training examples have labels but
 others don’t. One technique for semi-supervised learning is to infer labels for
@@ -4185,13 +4181,13 @@ the unlabeled examples, and then to train on the inferred labels to create a new
 model. Semi-supervised learning can be useful if labels are expensive to obtain
 but unlabeled examples are plentiful.</p>
 
-<p><a class=""glossary-anchor"" name=""sensitive_attribute""></a>
-<h2 class=""hide-from-toc""> sensitive attribute</h2>
+"
+|"
 A human attribute that may be given special consideration for legal,
 ethical, social, or personal reasons.</p>
 
-<p><a class=""glossary-anchor"" name=""sentiment_analysis""></a>
-<h2 class=""hide-from-toc""> sentiment analysis</h2></p>
+"
+sentiment analysis|"
 
 <p>Using statistical or machine learning algorithms to determine a group&#39;s
 overall attitude—positive or negative—toward a service, product,
@@ -4201,21 +4197,21 @@ an algorithm could perform sentiment analysis on the textual feedback
 from a university course to determine the degree to which students
 generally liked or disliked the course.</p>
 
-<p><a class=""glossary-anchor"" name=""sequence_model""></a>
-<h2 class=""hide-from-toc""> sequence model</h2></p>
+"
+sequence model|"
 
 <p>A model whose inputs have a sequential dependence. For example, predicting
 the next video watched from a sequence of previously watched videos.</p>
 
-<p><a class=""glossary-anchor"" name=""serving""></a>
-<h2 class=""hide-from-toc""> serving</h2></p>
+"
+serving|"
 
 <p>A synonym for <a href=""#inference""><strong>inferring</strong></a>.</p>
 
 
 
-<p><a class=""glossary-anchor"" name=""session""></a>
-<h2 class=""hide-from-toc""> session (tf.session)</h2></p>
+"
+session (tf.session)|"
 
 <p>An object that encapsulates the state of the TensorFlow runtime
 and runs all or part of a <a href=""#graph""><strong>graph</strong></a>. When using the
@@ -4223,8 +4219,8 @@ low-level TensorFlow APIs, you instantiate and manage one or more
 <code translate=""no"" dir=""ltr"">tf.session</code> objects directly. When using the Estimators API,
 Estimators instantiate session objects for you.</p>
 
-<p><a class=""glossary-anchor"" name=""shape""></a>
-<h2 class=""hide-from-toc""> shape (Tensor)</h2></p>
+"
+shape (Tensor)|"
 
 <p>
 The number of elements in each <b><a href=""#dimensions"">dimension</a></b> of a
@@ -4244,8 +4240,8 @@ dimensions, which is why the shape in TensorFlow is [3,4] rather than
 is [<em>number of rows</em>, <em>number of columns</em>].</p>
 
 
-<p><a class=""glossary-anchor"" name=""sigmoid_function""></a>
-<h2 class=""hide-from-toc""> sigmoid function</h2></p>
+"
+sigmoid function|"
 
 <p>A function that maps logistic or multinomial regression output (log odds) to
 probabilities, returning a value between 0 and 1.  The sigmoid function has
@@ -4268,14 +4264,14 @@ between 0 and 1.</p>
 <p>In some <a href=""#neural_network""><strong>neural networks</strong></a>, the sigmoid function acts as
 the <a href=""#activation_function""><strong>activation function</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""similarity_measure""></a>
-<h2 class=""hide-from-toc""> similarity measure</h2></p>
+"
+similarity measure|"
 
 <p>In <a href=""#clustering""><strong>clustering</strong></a> algorithms, the metric used to determine
 how alike (how similar) any two examples are.</p>
 
-<p><a class=""glossary-anchor"" name=""size_invariance""></a>
-<h2 class=""hide-from-toc""> size invariance</h2></p>
+"
+size invariance|"
 
 <p>In an image classification problem, an algorithm&#39;s ability to successfully
 classify images even when the size of the image changes. For example,
@@ -4288,8 +4284,8 @@ cat image consuming only 20 pixels.</p>
 <p>See also <a href=""#translational_invariance""><strong>translational invariance</strong></a> and
 <a href=""#rotational_invariance""><strong>rotational invariance</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""sketching""></a>
-<h2 class=""hide-from-toc""> sketching</h2></p>
+"
+sketching|"
 
 <p>In <a href=""#unsupervised_machine_learning""><strong>unsupervised machine learning</strong></a>,
 a category of algorithms that perform a preliminary similarity analysis
@@ -4304,8 +4300,8 @@ on large datasets. Instead of calculating similarity for every single
 pair of examples in the dataset, we calculate similarity only for each
 pair of points within each bucket.</p>
 
-<p><a class=""glossary-anchor"" name=""softmax""></a>
-<h2 class=""hide-from-toc""> softmax</h2></p>
+"
+softmax|"
 
 <p>A function that provides probabilities for each possible class in a
 <a href=""#multi-class""><strong>multi-class classification model</strong></a>. The probabilities add up
@@ -4315,8 +4311,8 @@ particular image being a dog at 0.9, a cat at 0.08, and a horse at 0.02.
 
 <p>Contrast with <a href=""#candidate_sampling""><strong>candidate sampling</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""sparse_features""></a>
-<h2 class=""hide-from-toc""> sparse feature</h2></p>
+"
+sparse feature|"
 
 <p><a href=""#feature""><strong>Feature</strong></a> vector whose values are predominately zero or empty.
 For example, a vector containing a single 1 value and a million 0 values is
@@ -4326,8 +4322,8 @@ few of them occur in a given query.</p>
 
 <p>Contrast with <a href=""#dense_feature""><strong>dense feature</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""sparse_representation""></a>
-<h2 class=""hide-from-toc""> sparse representation</h2></p>
+"
+sparse representation|"
 
 <p>A <a href=""#representation""><strong>representation</strong></a> of a tensor that only stores
 nonzero elements.</p>
@@ -4440,14 +4436,14 @@ about a million cells; the sparse representation consumes only 3 cells:</p>
 </table>
 </div>
 
-<p><a class=""glossary-anchor"" name=""sparse_vector""></a>
-<h2 class=""hide-from-toc""> sparse vector</h2></p>
+"
+sparse vector|"
 
 <p>A vector whose values are mostly zeroes. See also <a href=""#sparse_features""><strong>sparse
 feature</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""sparsity""></a>
-<h2 class=""hide-from-toc""> sparsity</h2></p>
+"
+sparsity|"
 
 <p>The number of elements set to zero (or null) in a vector or matrix divided
 by the total number of entries in that vector or matrix. For example,
@@ -4465,19 +4461,19 @@ $$
 <p><strong>Feature sparsity</strong> refers to the sparsity of a feature vector;
 <strong>model sparsity</strong> refers to the sparsity of the model weights.</p>
 
-<p><a class=""glossary-anchor"" name=""spatial_pooling""></a>
-<h2 class=""hide-from-toc""> spatial pooling</h2></p>
+"
+spatial pooling|"
 
 <p>See <a href=""#pooling""><strong>pooling</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""squared_hinge_loss""></a>
-<h2 class=""hide-from-toc""> squared hinge loss</h2></p>
+"
+squared hinge loss|"
 
 <p>The square of the <a href=""#hinge-loss""><strong>hinge loss</strong></a>.  Squared hinge loss penalizes
 outliers more harshly than regular hinge loss.</p>
 
-<p><a class=""glossary-anchor"" name=""squared_loss""></a>
-<h2 class=""hide-from-toc""> squared loss</h2></p>
+"
+squared loss|"
 
 <p>The <a href=""#loss""><strong>loss</strong></a> function used in
 <a href=""#linear_regression""><strong>linear regression</strong></a>.  (Also known as
@@ -4488,50 +4484,50 @@ Due to squaring, this loss function amplifies the influence of bad predictions.
 That is, squared loss reacts more strongly to outliers
 than <a href=""#L1_loss""><strong>L<sub>1</sub> loss</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""state""></a>
-<h2 class=""hide-from-toc""> state</h2></p>
+"
+state|"
 
 <p>In reinforcement learning, the parameter values that describe the current
 configuration of the environment, which the <a href=""#agent""><strong>agent</strong></a> uses to
 choose an <a href=""#action""><strong>action</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""state-action_value_function""></a>
-<h2 class=""hide-from-toc""> state-action value function</h2></p>
+"
+state-action value function|"
 
 <p>Synonym for <a href=""#q-function""><strong>Q-function</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""static_model""></a>
-<h2 class=""hide-from-toc""> static model</h2></p>
+"
+static model|"
 
 <p>A model that is trained offline.</p>
 
-<p><a class=""glossary-anchor"" name=""stationarity""></a>
-<h2 class=""hide-from-toc""> stationarity</h2></p>
+"
+stationarity|"
 
 <p>A property of data in a dataset, in which the data distribution stays constant
 across one or more dimensions. Most commonly, that dimension is time, meaning
 that data exhibiting stationarity doesn&#39;t change over time. For example, data
 that exhibits stationarity doesn&#39;t change from September to December.</p>
 
-<p><a class=""glossary-anchor"" name=""step""></a>
-<h2 class=""hide-from-toc""> step</h2></p>
+"
+step|"
 
 <p>A forward and backward evaluation of one <a href=""#batch""><strong>batch</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""step_size""></a>
-<h2 class=""hide-from-toc""> step size</h2></p>
+"
+step size|"
 
 <p>Synonym for <a href=""#learning_rate""><strong>learning rate</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""SGD""></a>
-<h2 class=""hide-from-toc""> stochastic gradient descent (SGD)</h2></p>
+"
+stochastic gradient descent (SGD)|"
 
 <p>A <a href=""#gradient_descent""><strong>gradient descent</strong></a> algorithm in which the batch size
 is one. In other words, SGD relies on a single example chosen uniformly at
 random from a dataset to calculate an estimate of the gradient at each step.</p>
 
-<p><a class=""glossary-anchor"" name=""stride""></a>
-<h2 class=""hide-from-toc""> stride</h2></p>
+"
+stride|"
 
 <p>In a convolutional operation or pooling, the delta in each dimension of the
 next series of input slices. For example, the following animation
@@ -4547,8 +4543,8 @@ the way over to the left but one position down.</p>
 <p>The preceding example demonstrates a two-dimensional stride.  If the input
 matrix is three-dimensional, the stride would also be three-dimensional.</p>
 
-<p><a class=""glossary-anchor"" name=""SRM""></a>
-<h2 class=""hide-from-toc""> structural risk minimization (SRM)</h2></p>
+"
+structural risk minimization (SRM)|"
 
 <p>An algorithm that balances two goals:</p>
 
@@ -4566,19 +4562,19 @@ training set is a structural risk minimization algorithm.</p>
 
 <p>Contrast with <a href=""#ERM""><strong>empirical risk minimization</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""subsampling""></a>
-<h2 class=""hide-from-toc""> subsampling</h2></p>
+"
+subsampling|"
 
 <p>See <a href=""#pooling""><strong>pooling</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""summary""></a>
-<h2 class=""hide-from-toc""> summary</h2></p>
+"
+summary|"
 
 <p>In TensorFlow, a value or set of values calculated at a particular
 <a href=""#step""><strong>step</strong></a>, usually used for tracking model metrics during training.</p>
 
-<p><a class=""glossary-anchor"" name=""supervised_machine_learning""></a>
-<h2 class=""hide-from-toc""> supervised machine learning</h2></p>
+"
+supervised machine learning|"
 
 <p>Training a <a href=""#model""><strong>model</strong></a> from input data and its corresponding
 <a href=""#label""><strong>labels</strong></a>. Supervised machine learning is analogous to a student
@@ -4588,8 +4584,8 @@ student can then provide answers to new (never-before-seen) questions on
 the same topic.  Compare with
 <a href=""#unsupervised_machine_learning""><strong>unsupervised machine learning</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""synthetic_feature""></a>
-<h2 class=""hide-from-toc""> synthetic feature</h2></p>
+"
+synthetic feature|"
 
 <p>A <a href=""#feature""><strong>feature</strong></a> not present among the input features, but
 created from one or more of them. Kinds of synthetic features include:</p>
@@ -4605,20 +4601,20 @@ or by itself.</li>
 alone are not considered synthetic features.</p>
 
 
-<p><a class=""glossary-anchor"" name=""tabular_q-learning""></a>
-<h2 class=""hide-from-toc""> tabular Q-learning</h2></p>
+"
+tabular Q-learning|"
 
 <p>In reinforcement learning, implementing <a href=""#q-learning""><strong>Q-learning</strong></a>
 by using a table to store the <a href=""#q-function""><strong>Q-functions</strong></a> for every
 combination of <a href=""#state""><strong>state</strong></a> and <a href=""#action""><strong>action</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""target""></a>
-<h2 class=""hide-from-toc""> target</h2></p>
+"
+target|"
 
 <p>Synonym for <a href=""#label""><strong>label</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""target_network""></a>
-<h2 class=""hide-from-toc""> target network</h2></p>
+"
+target network|"
 
 <p>In <a href=""#q-learning""><strong>Deep Q-learning</strong></a>, a neural network that is a stable
 approximation of the main neural network, where the main neural network
@@ -4628,28 +4624,28 @@ network. Therefore, you prevent the feedback loop that occurs when the main
 network trains on Q-values predicted by itself. By avoiding this feedback,
 training stability increases.</p>
 
-<p><a class=""glossary-anchor"" name=""temporal_data""></a>
-<h2 class=""hide-from-toc""> temporal data</h2></p>
+"
+temporal data|"
 
 <p>Data recorded at different points in time. For example, winter coat sales
 recorded for each day of the year would be temporal data.</p>
 
-<p><a class=""glossary-anchor"" name=""tensor""></a>
-<h2 class=""hide-from-toc""> Tensor</h2></p>
+"
+Tensor|"
 
 <p>The primary data structure in TensorFlow programs. Tensors are N-dimensional
 (where N could be very large) data structures, most commonly scalars, vectors,
 or matrices. The elements of a Tensor can hold integer, floating-point,
 or string values.</p>
 
-<p><a class=""glossary-anchor"" name=""TensorBoard""></a>
-<h2 class=""hide-from-toc""> TensorBoard</h2></p>
+"
+TensorBoard|"
 
 <p>The dashboard that displays the summaries saved during the execution of one or
 more TensorFlow programs.</p>
 
-<p><a class=""glossary-anchor"" name=""TensorFlow""></a>
-<h2 class=""hide-from-toc""> TensorFlow</h2></p>
+"
+TensorFlow|"
 
 <p>A large-scale, distributed, machine learning platform. The term also refers to
 the base API layer in the TensorFlow stack, which supports general computation
@@ -4659,8 +4655,8 @@ on dataflow graphs.</p>
 TensorFlow for non-ML tasks that require numerical computation using
 dataflow graphs.</p>
 
-<p><a class=""glossary-anchor"" name=""TensorFlow_Playground""></a>
-<h2 class=""hide-from-toc""> TensorFlow Playground</h2></p>
+"
+TensorFlow Playground|"
 
 <p>A program that visualizes how different
 <a href=""#hyperparameter""><strong>hyperparameters</strong></a> influence model
@@ -4670,38 +4666,38 @@ Go to
 http://playground.tensorflow.org</a>
 to experiment with TensorFlow Playground.</p>
 
-<p><a class=""glossary-anchor"" name=""TensorFlow_Serving""></a>
-<h2 class=""hide-from-toc""> TensorFlow Serving</h2></p>
+"
+TensorFlow Serving|"
 
 <p>A platform to deploy trained models in production.</p>
 
-<p><a class=""glossary-anchor"" name=""TPU""></a>
-<h2 class=""hide-from-toc""> Tensor Processing Unit (TPU)</h2></p>
+"
+Tensor Processing Unit (TPU)|"
 
 <p>An application-specific integrated circuit (ASIC) that optimizes the
 performance of machine learning workloads. These ASICs are deployed as
 multiple <a href=""#TPU_chip""><strong>TPU chips</strong></a> on a <a href=""#TPU_device""><strong>TPU device</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""tensor_rank""></a>
-<h2 class=""hide-from-toc""> Tensor rank</h2></p>
+"
+Tensor rank|"
 
 <p>See <a href=""#rank_Tensor""><strong>rank (Tensor)</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""tensor_shape""></a>
-<h2 class=""hide-from-toc""> Tensor shape</h2></p>
+"
+Tensor shape|"
 
 <p>The number of elements a <a href=""#tensor""><strong>Tensor</strong></a> contains in various dimensions.
 For example, a [5, 10] Tensor has a shape of 5 in one dimension and 10
 in another.</p>
 
-<p><a class=""glossary-anchor"" name=""tensor_size""></a>
-<h2 class=""hide-from-toc""> Tensor size</h2></p>
+"
+Tensor size|"
 
 <p>The total number of scalars a <a href=""#tensor""><strong>Tensor</strong></a> contains. For example, a
 [5, 10] Tensor has a size of 50.</p>
 
-<p><a class=""glossary-anchor"" name=""termination_condition""></a>
-<h2 class=""hide-from-toc""> termination condition</h2></p>
+"
+termination condition|"
 
 <p>In reinforcement learning, the conditions that determine when an
 <a href=""#episode""><strong>episode</strong></a> ends, such as when the agent reaches a certain state
@@ -4710,8 +4706,8 @@ For example, in <a href=""https://wikipedia.org/wiki/Tic-tac-toe"">tic-tac-toe</
 known as noughts and crosses), an episode terminates either when a player marks
 three consecutive spaces or when all spaces are marked.</p>
 
-<p><a class=""glossary-anchor"" name=""test_set""></a>
-<h2 class=""hide-from-toc""> test set</h2></p>
+"
+test set|"
 
 <p>The subset of the dataset that you use to test your <a href=""#model""><strong>model</strong></a>
 after the model has gone through initial vetting by the validation set.
@@ -4719,23 +4715,23 @@ after the model has gone through initial vetting by the validation set.
 <p>Contrast with <a href=""#training_set""><strong>training set</strong></a> and
 <a href=""#validation_set""><strong>validation set</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""tf.Example""></a>
-<h2 class=""hide-from-toc""> tf.Example</h2></p>
+"
+tf.Example|"
 
 <p>A standard
 <a href=""https://developers.google.com/protocol-buffers/"" target=""T"">
 protocol buffer</a>
 for describing input data for machine learning model training or inference.</p>
 
-<p><a class=""glossary-anchor"" name=""tf.keras""></a>
-<h2 class=""hide-from-toc""> tf.keras</h2></p>
+"
+tf.keras|"
 
 <p>An implementation of <a href=""#Keras""><strong>Keras</strong></a> integrated into
 <a href=""#TensorFlow""><strong>TensorFlow</strong></a>.</p>
 
 
-<p><a class=""glossary-anchor"" name=""time_series_analysis""></a>
-<h2 class=""hide-from-toc""> time series analysis</h2></p>
+"
+time series analysis|"
 
 <p>A subfield of machine learning and statistics that analyzes
 <a href=""#temporal_data""><strong>temporal data</strong></a>.  Many types of machine learning
@@ -4764,34 +4760,34 @@ is itself a deep neural network without an output layer. Typically,
 each tower reads from an independent data source. Towers are independent
 until their output is combined in a final layer.</p>
 
-<p><a class=""glossary-anchor"" name=""TPUabbrev""></a>
-<h2 class=""hide-from-toc""> TPU </h2></p>
+"
+TPU |"
 
 <p>Abbreviation for <a href=""#TPU""><strong>Tensor Processing Unit</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""TPU_chip""></a>
-<h2 class=""hide-from-toc""> TPU chip </h2></p>
+"
+TPU chip |"
 
 <p>A programmable linear algebra accelerator with on-chip high bandwidth memory
 that is optimized for machine learning workloads.
 Multiple TPU chips are deployed on a <a href=""#TPU_device""><strong>TPU device</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""TPU_device""></a>
-<h2 class=""hide-from-toc""> TPU device </h2></p>
+"
+TPU device |"
 
 <p>A printed circuit board (PCB) with multiple <a href=""#TPU_chip""><strong>TPU chips</strong></a>,
 high bandwidth network interfaces, and system cooling hardware.</p>
 
-<p><a class=""glossary-anchor"" name=""TPU_master""></a>
-<h2 class=""hide-from-toc""> TPU master</h2></p>
+"
+TPU master|"
 
 <p>The central coordination process running on a host machine that sends and
 receives data, results, programs, performance, and system health information
 to the <a href=""#TPU_worker""><strong>TPU workers</strong></a>. The TPU master also manages the setup
 and shutdown of <a href=""#TPU_device""><strong>TPU devices</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""TPU_node""></a>
-<h2 class=""hide-from-toc""> TPU node </h2></p>
+"
+TPU node |"
 
 <p>A TPU resource on Google Cloud Platform with a specific
 <a href=""#TPU_type""><strong>TPU type</strong></a>. The TPU node connects to your
@@ -4800,30 +4796,30 @@ and shutdown of <a href=""#TPU_device""><strong>TPU devices</strong></a>.</p>
 TPU nodes are a resource defined in the
 <a href=""https://cloud.google.com/tpu/docs/reference/rest/v1/projects.locations.nodes"">Cloud TPU API</a>.</p>
 
-<p><a class=""glossary-anchor"" name=""TPU_Pod""></a>
-<h2 class=""hide-from-toc""> TPU Pod </h2></p>
+"
+TPU Pod |"
 
 <p>A specific configuration of <a href=""#TPU_device""><strong>TPU devices</strong></a> in a Google
 data center. All of the devices in a TPU pod are connected to one another
 over a dedicated high-speed network. A TPU Pod is the largest configuration of
 <a href=""#TPU_device""><strong>TPU devices</strong></a> available for a specific TPU version.</p>
 
-<p><a class=""glossary-anchor"" name=""TPU_resource""></a>
-<h2 class=""hide-from-toc""> TPU resource</h2></p>
+"
+TPU resource|"
 
 <p>A TPU entity on Google Cloud Platform that you create, manage, or consume. For
 example, <a href=""#TPU_node""><strong>TPU nodes</strong></a> and <a href=""#TPU_type""><strong>TPU types</strong></a> are
 TPU resources.</p>
 
-<p><a class=""glossary-anchor"" name=""TPU_slice""></a>
-<h2 class=""hide-from-toc""> TPU slice</h2></p>
+"
+TPU slice|"
 
 <p>A TPU slice is a fractional portion of the <a href=""#TPU_device""><strong>TPU devices</strong></a> in
 a <a href=""#TPU_Pod""><strong>TPU Pod</strong></a>. All of the devices in a TPU slice are connected
 to one another over a dedicated high-speed network.</p>
 
-<p><a class=""glossary-anchor"" name=""TPU_type""></a>
-<h2 class=""hide-from-toc""> TPU type </h2></p>
+"
+TPU type |"
 
 <p>A configuration of one or more <a href=""#TPU_device""><strong>TPU devices</strong></a> with a specific
 TPU hardware version. You select a TPU type when you create
@@ -4833,28 +4829,28 @@ networked TPU v3 devices and a total of 2048 cores. TPU types are a resource
 defined in the
 <a href=""https://cloud.google.com/tpu/docs/reference/rest/v1/projects.locations.acceleratorTypes"">Cloud TPU API</a>.</p>
 
-<p><a class=""glossary-anchor"" name=""TPU_worker""></a>
-<h2 class=""hide-from-toc""> TPU worker</h2></p>
+"
+TPU worker|"
 
 <p>A process that runs on a host machine and executes machine learning programs
 on <a href=""#TPU_device""><strong>TPU devices</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""training""></a>
-<h2 class=""hide-from-toc""> training</h2></p>
+"
+training|"
 
 <p>The process of determining the ideal <a href=""#parameter""><strong>parameters</strong></a> comprising
 a model.</p>
 
-<p><a class=""glossary-anchor"" name=""training_set""></a>
-<h2 class=""hide-from-toc""> training set</h2></p>
+"
+training set|"
 
 <p>The subset of the dataset used to train a model.</p>
 
 <p>Contrast with <a href=""#validation_set""><strong>validation set</strong></a> and
 <a href=""#test_set""><strong>test set</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""trajectory""></a>
-<h2 class=""hide-from-toc""> trajectory</h2></p>
+"
+trajectory|"
 
 <p>In reinforcement learning, a sequence of
 <a href=""https://wikipedia.org/wiki/Tuple"" target=""T"">tuples</a> that represent
@@ -4862,8 +4858,8 @@ a sequence of <a href=""#state""><strong>state</strong></a> transitions of the <
 where each tuple corresponds to the state, <a href=""#action""><strong>action</strong></a>,
 <a href=""#reward""><strong>reward</strong></a>, and next state for a given state transition.</p>
 
-<p><a class=""glossary-anchor"" name=""transfer_learning""></a>
-<h2 class=""hide-from-toc""> transfer learning</h2></p>
+"
+transfer learning|"
 
 <p>Transferring information from one machine learning task to another.
 For example, in multi-task learning, a single model solves multiple tasks,
@@ -4877,8 +4873,8 @@ there is less data.</p>
 baby step towards artificial intelligence in which a single program can solve
 <em>multiple</em> tasks.</p>
 
-<p><a class=""glossary-anchor"" name=""translational_invariance""></a>
-<h2 class=""hide-from-toc""> translational invariance</h2></p>
+"
+translational invariance|"
 
 <p>In an image classification problem, an algorithm&#39;s ability to successfully
 classify images even when the position of objects within the image changes.
@@ -4888,28 +4884,28 @@ center of the frame or at the left end of the frame.</p>
 <p>See also <a href=""#size_invariance""><strong>size invariance</strong></a> and
 <a href=""#rotational_invariance""><strong>rotational invariance</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""trigram""></a>
-<h2 class=""hide-from-toc""> trigram</h2></p>
+"
+trigram|"
 
 <p>An <a href=""#N-gram""><strong>N-gram</strong></a> in which N=3.</p>
 
-<p><a class=""glossary-anchor"" name=""TN""></a>
-<h2 class=""hide-from-toc""> true negative (TN)</h2></p>
+"
+true negative (TN)|"
 
 <p>An example in which the model <em>correctly</em> predicted the
 <a href=""#negative_class""><strong>negative class</strong></a>. For example, the model inferred that
 a particular email message was not spam, and that email message really was
 not spam.</p>
 
-<p><a class=""glossary-anchor"" name=""TP""></a>
-<h2 class=""hide-from-toc""> true positive (TP)</h2></p>
+"
+true positive (TP)|"
 
 <p>An example in which the model <em>correctly</em> predicted the
 <a href=""#positive_class""><strong>positive class</strong></a>. For example, the model inferred that
 a particular email message was spam, and that email message really was spam.</p>
 
-<p><a class=""glossary-anchor"" name=""TP_rate""></a>
-<h2 class=""hide-from-toc""> true positive rate (TPR)</h2></p>
+"
+true positive rate (TPR)|"
 
 <p>Synonym for <a href=""#recall""><strong>recall</strong></a>. That is:</p>
 
@@ -4920,8 +4916,8 @@ $$\text{True Positive Rate} = \frac{\text{True Positives}} {\text{True Positives
 <p>True positive rate is the y-axis in an <a href=""#ROC""><strong>ROC curve</strong></a>.</p>
 
 
-<p><a class=""glossary-anchor"" name=""unawareness""></a>
-<h2 class=""hide-from-toc""> unawareness (to a sensitive attribute)</h2></p>
+"
+unawareness (to a sensitive attribute)|"
 
 <p>A situation in which <a href=""#sensitive_attribute""><strong>sensitive attributes</strong></a> are
 present, but not included in the training data. Because sensitive attributes
@@ -4930,8 +4926,8 @@ with unawareness about a sensitive attribute could still have
 <a href=""#disparate_impact""><strong>disparate impact</strong></a> with respect to that attribute,
 or violate other <a href=""#fairness_constraint""><strong>fairness constraints</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""underfitting""></a>
-<h2 class=""hide-from-toc""> underfitting</h2></p>
+"
+underfitting|"
 
 <p>Producing a model with poor predictive ability because the model
 hasn&#39;t captured the complexity of the training data. Many problems
@@ -4944,8 +4940,8 @@ can cause underfitting, including:</p>
 <li>Providing too few hidden layers in a deep neural network.</li>
 </ul>
 
-<p><a class=""glossary-anchor"" name=""unlabeled_example""></a>
-<h2 class=""hide-from-toc""> unlabeled example</h2></p>
+"
+unlabeled example|"
 
 <p>An example that contains <a href=""#feature""><strong>features</strong></a> but no <a href=""#label""><strong>label</strong></a>.
 Unlabeled examples are the input to <a href=""#inference""><strong>inference</strong></a>. In
@@ -4953,8 +4949,8 @@ Unlabeled examples are the input to <a href=""#inference""><strong>inference</st
 <a href=""#unsupervised_machine_learning""><strong>unsupervised</strong></a> learning,
 unlabeled examples are used during training.</p>
 
-<p><a class=""glossary-anchor"" name=""unsupervised_machine_learning""></a>
-<h2 class=""hide-from-toc""> unsupervised machine learning</h2></p>
+"
+unsupervised machine learning|"
 
 <p>Training a <a href=""#model""><strong>model</strong></a> to find patterns in a dataset, typically an
 unlabeled dataset.</p>
@@ -4977,14 +4973,14 @@ that shopping carts containing lemons frequently also contain antacids.</p>
 
 <p>Compare with <a href=""#supervised_machine_learning""><strong>supervised machine learning</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""upweighting""></a>
-<h2 class=""hide-from-toc""> upweighting</h2></p>
+"
+upweighting|"
 
 <p>Applying a weight to the <a href=""#downsampling""><strong>downsampled</strong></a> class equal
 to the factor by which you downsampled.</p>
 
-<p><a class=""glossary-anchor"" name=""user_matrix""></a>
-<h2 class=""hide-from-toc""> user matrix</h2></p>
+"
+user matrix|"
 
 <p>In <a href=""#recommendation_system""><strong>recommendation systems</strong></a>, an
 <a href=""#embeddings""><strong>embedding</strong></a> generated by
@@ -5004,8 +5000,8 @@ recommendation system for 1,000,000 users, the
 user matrix will have 1,000,000 rows.</p>
 
 
-<p><a class=""glossary-anchor"" name=""validation""></a>
-<h2 class=""hide-from-toc""> validation</h2></p>
+"
+validation|"
 
 <p>A process used, as part of <a href=""#training""><strong>training</strong></a>, to evaluate
 the quality of a <a href=""#machine_learning""><strong>machine learning</strong></a> model
@@ -5015,8 +5011,8 @@ model’s performance generalizes beyond the training set.</p>
 
 <p>Contrast with <a href=""#test_set""><strong>test set</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""validation_set""></a>
-<h2 class=""hide-from-toc""> validation set</h2></p>
+"
+validation set|"
 
 <p>A subset of the dataset—disjoint from the training set—used
 in <a href=""#validation""><strong>validation</strong></a>.</p>
@@ -5052,8 +5048,8 @@ the distribution of generated data and real data.</p>
 <a href=""https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/gan"">TF-GAN</a>.</p>
 
 
-<p><a class=""glossary-anchor"" name=""weight""></a>
-<h2 class=""hide-from-toc""> weight</h2></p>
+"
+weight|"
 
 <p>A coefficient for a <a href=""#feature""><strong>feature</strong></a> in a linear model, or an edge
 in a deep network. The goal of training a linear model is to determine
@@ -5078,8 +5074,8 @@ Each of these optimizations can be solved by least squares
    data-label=""ml-glossary""
    data-action=""click"">Recommendation Systems course</a></p>
 
-<p><a class=""glossary-anchor"" name=""wide_model""></a>
-<h2 class=""hide-from-toc""> wide model</h2></p>
+"
+wide model|"
 
 <p>A linear model that typically has many
 <a href=""#sparse_features""><strong>sparse input features</strong></a>. We refer to it as &quot;wide&quot; since
@@ -5093,8 +5089,8 @@ they can use transformations such as
 
 <p>Contrast with <a href=""#deep_model""><strong>deep model</strong></a>.</p>
 
-<p><a class=""glossary-anchor"" name=""width""></a>
-<h2 class=""hide-from-toc""> width</h2></p>
+"
+width|"
 
 <p>The number of <a href=""#neuron""><strong>neurons</strong></a> in a particular <a href=""#layer""><strong>layer</strong></a>
 of a <a href=""#neural_network""><strong>neural network</strong></a>.</p>
