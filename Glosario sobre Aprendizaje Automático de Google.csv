@@ -155,7 +155,7 @@ atributo convexo (convex function) (Glosario sobre Aprendizaje Automático de Go
 
 <p>Un <strong>atributo estrictamente convexo</strong> tiene exactamente un punto mínimo local, que también es el punto mínimo global. Los atributos clásicos con forma de U son atributos estrictamente convexos.  Sin embargo, algunos atributos convexos (por ejemplo, las líneas rectas) no lo son.</p>
 <p>Muchos de los <a href=""https://developers.google.com/machine-learning/glossary/#loss_functions""><strong>atributos de pérdida</strong></a> comunes, incluidos los siguientes, son atributos convexos:</p>
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#L2_loss""><strong>Pérdida L<sub>2</sub></strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#Log_Loss""><strong>pérdida logística (log loss)</strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#L1_regularization""><strong>Regularización L<sub>1</sub></strong></a></li>
@@ -208,7 +208,7 @@ La matriz 3 x 3 resultante (a la derecha) contiene los resultados de las 9 opera
 "
 red neuronal convolucional (convolutional neural network) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Una red neuronal en la que al menos una capa es una <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_layer""><strong>capa convolucional</strong></a>. Una red neuronal convolucional típica consiste en una combinación de las siguientes capas:</p>
-<ul>
+<ul align=""left"">
 <li>capas convolucionales</li>
 <li>capas de reducción</li>
 <li>capas densas</li>
@@ -217,7 +217,7 @@ red neuronal convolucional (convolutional neural network) (Glosario sobre Aprend
 "
 operación convolucional (convolutional operation) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>La siguiente operación matemática de dos pasos:</p>
-<ol>
+<ol align=""left"">
 <li>Multiplicación por elementos del <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_filter""><strong>filtro convolucional</strong></a> y una porción de una matriz de entrada (la porción de la matriz de entrada tiene el mismo rango y tamaño que el filtro convolucional).</li>
 <li>Suma de todos los valores en la matriz de producto resultante.</li>
 </ol>
@@ -298,7 +298,7 @@ interrupción anticipada (early stopping) (Glosario sobre Aprendizaje Automátic
 incorporaciones (embeddings) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Atributo categórico representado como un atributo de valor continuo.
 Por lo general, las incorporaciones son una traslación de un vector de dimensiones altas a un espacio de dimensiones bajas. Por ejemplo, puedes representar las palabras de una oración en inglés de cualquiera de las dos formas siguientes:</p>
-<ul>
+<ul align=""left"">
 <li>Como un <a href=""https://developers.google.com/machine-learning/glossary/#sparse_features""><strong>vector disperso</strong></a> con un millón de elementos (dimensiones altas) en el que todos los elementos son números enteros.
     Cada celda del vector representa una palabra distinta en inglés; el valor de la celda representa la cantidad de veces que esa palabra aparece en una oración.
     Dado que es poco probable que una sola oración en inglés contenga más de 50 palabras, casi todas las celdas del vector contendrán un 0. Algunas celdas que no sean 0 contendrán un número entero bajo (generalmente 1), que representa la cantidad de veces que la palabra apareció en la oración.</li>
@@ -311,7 +311,7 @@ minimización del riesgo empírico (ERM, empirical risk minimization) (Glosario 
 "
 ensamble (ensemble) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Ensamble de las predicciones de varios <a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>modelos</strong></a>. Puedes crear un ensamble a través de una o más de las siguientes opciones:</p>
-<ul>
+<ul align=""left"">
 <li>diferentes inicializaciones</li>
 <li>diferentes <a href=""https://developers.google.com/machine-learning/glossary/#hyperparameter""><strong>hiperparámetros</strong></a></li>
 <li>diferentes estructuras generales</li>
@@ -364,7 +364,7 @@ Por ejemplo, código postal, tamaño de la propiedad y estado de la propiedad pu
 "
 especificación de atributos (feature spec) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Describe la información necesaria para extraer datos de <a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>atributos</strong></a> del búfer del protocolo <a href=""https://developers.google.com/machine-learning/glossary/#tf.Example""><strong>tf.Example</strong></a>. Dado que el búfer del protocolo tf.Example es simplemente un contenedor de datos, debes especificar lo siguiente:</p>
-<ul>
+<ul align=""left"">
 <li>los datos que se van a extraer (es decir, las claves de los atributos)</li>
 <li>el tipo de datos (por ejemplo, flotante o número entero)</li>
 <li>la longitud (fija o variable)</li>
@@ -388,14 +388,14 @@ generalización (generalization) (Glosario sobre Aprendizaje Automático de Goog
 "
 modelo lineal generalizado (generalized linear model) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Generalización de modelos de <a href=""https://developers.google.com/machine-learning/glossary/#least_squares_regression""><strong>regresión de mínimos cuadrados</strong></a> que se basan en el <a href=""https://en.wikipedia.org/wiki/Gaussian_noise"">ruido gaussiano</a>, con respecto a otros tipos de modelos basados en otros tipos de ruidos, como el <a href=""https://en.wikipedia.org/wiki/Shot_noise"">ruido de Poisson</a> o el ruido categórico. Entre los ejemplos de modelos lineales generalizados se incluyen los siguientes:</p>
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#logistic_regression""><strong>regresión logística</strong></a></li>
 <li>regresión de clases múltiples</li>
 <li>regresión de mínimos cuadrados (least squares regression)</li>
 </ul>
 <p>Los parámetros de un modelo lineal generalizado pueden encontrarse a través de <a href=""https://en.wikipedia.org/wiki/Convex_optimization"">optimización convexa</a>.</p>
 <p>Los modelos lineales generalizados tienen las siguientes propiedades:</p>
-<ul>
+<ul align=""left"">
 <li>La predicción promedio del modelo óptimo de regresión de mínimos cuadrados es igual a la etiqueta promedio de los datos de entrenamiento.</li>
 <li>La probabilidad promedio predicha por el modelo óptimo de regresión de mínimos cuadrados es igual a la etiqueta promedio de los datos de entrenamiento.</li>
 </ul>
@@ -485,7 +485,7 @@ iteración (iteration) (Glosario sobre Aprendizaje Automático de Google)|"
 "
 k-medios (k-means) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Algoritmo de <a href=""https://developers.google.com/machine-learning/glossary/#clustering""><strong>agrupamiento</strong></a> popular que agrupa ejemplos en el aprendizaje no supervisado. El algoritmo k-medios básicamente hace lo siguiente:</p>
-<ul>
+<ul align=""left"">
 <li>Determina de forma iterativa los mejores puntos centrales k (conocidos como <a href=""https://developers.google.com/machine-learning/glossary/#centroid""><strong>centroides</strong></a>).</li>
 <li>Asigna cada ejemplo al centroide más cercano.  Los ejemplos más cercanos al mismo centroide pertenecen al mismo grupo.</li>
 </ul>
@@ -505,12 +505,12 @@ k-medios (k-means) (Glosario sobre Aprendizaje Automático de Google)|"
 "
 k-mediana (k-median) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Algoritmo de agrupamiento estrechamente relacionado con <a href=""https://developers.google.com/machine-learning/glossary/#k-means""><strong>k-medios</strong></a>. La diferencia práctica entre los dos es la siguiente:</p>
-<ul>
+<ul align=""left"">
 <li>En k-medios, los centroides se determinan minimizando la suma de los <em>cuadrados</em> de la distancia entre un centroide candidato y cada uno de sus ejemplos.</li>
 <li>En k-mediana, los centroides se determinan minimizando la suma de la distancia entre un centroide candidato y cada uno de sus ejemplos.</li>
 </ul>
 <p>Ten en cuenta que las definiciones de distancia también son diferentes:</p>
-<ul>
+<ul align=""left"">
 <li>k-medios se basa en la <a href=""https://en.wikipedia.org/wiki/Euclidean_distance"">distancia euclidiana</a> del centroide a un ejemplo.  (En dos dimensiones, la distancia euclidiana significa usar el teorema de Pitágoras para calcular la hipotenusa).  Por ejemplo, la distancia de k-medios entre (2,2) y (5,-2) sería:</li>
 </ul>
 <div>
@@ -519,7 +519,7 @@ k-mediana (k-median) (Glosario sobre Aprendizaje Automático de Google)|"
 [/$$]
 </div>
 
-<ul>
+<ul align=""left"">
 <li>k-mediana se basa en la <a href=""https://en.wikipedia.org/wiki/Taxicab_geometry"">distancia Manhattan</a> del centroide a un ejemplo.  Esta distancia es la suma de los deltas absolutos en cada dimensión.  Por ejemplo, la distancia k-mediana entre (2,2) y (5, -2) sería:</li>
 </ul>
 <div>
@@ -569,7 +569,7 @@ capa (layer) (Glosario sobre Aprendizaje Automático de Google)|"
 "
 API de capas (tf.layers) (Layers API) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>API de TensorFlow para construir una red neuronal <a href=""https://developers.google.com/machine-learning/glossary/#deep_model""><strong>profunda</strong></a> como una composición de capas. Permite desarrollar diferentes tipos de <a href=""https://developers.google.com/machine-learning/glossary/#layer""><strong>capas</strong></a>, como las siguientes:</p>
-<ul>
+<ul align=""left"">
 <li><code>tf.layers.Dense</code> para obtener una <a href=""https://developers.google.com/machine-learning/glossary/#fully_connected_layer""><strong>capa completamente conectada</strong></a></li>
 <li><code>tf.layers.Conv2D</code> para obtener una capa convolucional</li>
 </ul>
@@ -650,7 +650,7 @@ AA (ML) (Glosario sobre Aprendizaje Automático de Google)|"
 modelo (model) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Representación de lo que un sistema de AA aprendió de los datos de entrenamiento.
 Este es un término sobrecargado que puede tener cualquiera de los siguientes dos significados relacionados:</p>
-<ul>
+<ul align=""left"">
 <li>El gráfico de <a href=""https://developers.google.com/machine-learning/glossary/#TensorFlow""><strong>TensorFlow</strong></a> que expresa la estructura de cómo se calculará una predicción</li>
 <li>Los sesgos y los pesos particulares de ese gráfico de TensorFlow, que se determinan mediante <a href=""https://developers.google.com/machine-learning/glossary/#model_training""><strong>entrenamiento</strong></a>.</li>
 </ul>
@@ -691,7 +691,7 @@ neurona (neuron) (Glosario sobre Aprendizaje Automático de Google)|"
 "
 nodo (node) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Término sobrecargado que significa una de las siguientes opciones:</p>
-<ul>
+<ul align=""left"">
 <li>Una neurona en una <a href=""https://developers.google.com/machine-learning/glossary/#hidden_layer""><strong>capa oculta</strong></a></li>
 <li>Una operación en un <a href=""https://developers.google.com/machine-learning/glossary/#graph""><strong>gráfico</strong></a> de TensorFlow</li>
 </ul>
@@ -721,7 +721,7 @@ inferencia sin conexión (offline inference) (Glosario sobre Aprendizaje Automá
 "
 codificación de un solo 1 (one-hot encoding) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Vector disperso con las siguientes características:</p>
-<ul>
+<ul align=""left"">
 <li>Un elemento se establece a 1.</li>
 <li>El resto de los elementos se establecen como 0.</li>
 </ul>
@@ -733,7 +733,7 @@ aprendizaje en un intento (one-shot learning) (Glosario sobre Aprendizaje Autom�
 "
 uno frente a todos (one-vs.-all) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>En un problema de clasificación dado con N soluciones posibles, una solución de uno frente a todos consiste en N <a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>clasificadores binarios</strong></a> independientes, es decir, un clasificador binario para cada resultado posible. Por ejemplo, dado un modelo que clasifica ejemplos como animal, vegetal o mineral, una solución de uno frente a todos sería proporcionar los siguientes tres clasificadores binarios independientes:</p>
-<ul>
+<ul align=""left"">
 <li>animal frente a no animal</li>
 <li>vegetal frente a no vegetal</li>
 <li>mineral frente a no mineral</li>
@@ -748,7 +748,7 @@ operación (op, Operation) (Glosario sobre Aprendizaje Automático de Google)|"
 optimizador (optimizer) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Implementación específica del algoritmo de <a href=""https://developers.google.com/machine-learning/glossary/#gradient_descent""><strong>descenso de gradiente</strong></a>. La clase de base de TensorFlow para los optimizadores es <a href=""https://www.tensorflow.org/api_docs/python/tf/train/Optimizer"">tf.train.Optimizer</a>.
 Es posible que diferentes optimizadores aprovechen uno o más de los siguientes conceptos para mejorar la efectividad del descenso de gradientes en un <a href=""https://developers.google.com/machine-learning/glossary/#training_set""><strong>conjunto de entrenamiento</strong></a> dado:</p>
-<ul>
+<ul align=""left"">
 <li><a href=""https://www.tensorflow.org/api_docs/python/tf/train/MomentumOptimizer"">momento</a> (Momento)</li>
 <li>frecuencia de actualización (<a href=""https://www.tensorflow.org/api_docs/python/tf/train/AdagradOptimizer"">AdaGrad</a> = Descenso de GRADientes ADAptable; <a href=""https://www.tensorflow.org/api_docs/python/tf/train/AdamOptimizer"">Adam</a> = ADAptable con Momento; RMSProp)</li>
 <li>dispersión/regularización (<a href=""https://www.tensorflow.org/api_docs/python/tf/train/FtrlOptimizer"">Ftrl</a>)</li>
@@ -758,7 +758,7 @@ Es posible que diferentes optimizadores aprovechen uno o más de los siguientes 
 "
 valores atípicos (outliers) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Valores distantes de la mayoría de los demás valores. En el aprendizaje automático, cualquiera de los siguientes son valores atípicos:</p>
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#weight""><strong>Pesos</strong></a> con valores absolutos altos.</li>
 <li>valores predichos relativamente alejados de los valores reales</li>
 <li>datos de entrada cuyos valores son aproximadamente 3 desviaciones estándar de la media</li>
@@ -793,7 +793,7 @@ estrategia de partición (partitioning strategy) (Glosario sobre Aprendizaje Aut
 "
 rendimiento (performance) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Término sobrecargado con los siguientes significados:</p>
-<ul>
+<ul align=""left"">
 <li>El significado tradicional dentro de la ingeniería de software. A saber: ¿Qué tan rápidamente (o eficazmente) se ejecuta este software?</li>
 <li>El significado dentro del AA. Aquí, el rendimiento responde a la siguiente pregunta: ¿qué tan correcto es este <a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>modelo</strong></a>? Esto significa, ¿qué tan buenas son las predicciones del modelo?</li>
 </ul>
@@ -865,7 +865,7 @@ cola (queue) (Glosario sobre Aprendizaje Automático de Google)|"
 "
 rango (rank) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Término sobrecargado en AA que puede significar cualquiera de las siguientes opciones:</p>
-<ul>
+<ul align=""left"">
 <li>El número de dimensiones en un <a href=""https://developers.google.com/machine-learning/glossary/#tensor""><strong>tensor</strong></a>. Por ejemplo, un escalar tiene rango 0, un vector tiene rango 1 y una matriz tiene rango 2.</li>
 <li>La posición ordinal de una clase en un problema de AA que categoriza clases de la más alta a la más baja. Por ejemplo, un sistema de clasificación de conducta podría ordenar las recompensas para un perro de la más alta (un filete) a la más baja (un repollo marchitado).</li>
 </ul>
@@ -882,7 +882,7 @@ recuperación (recall) (Glosario sobre Aprendizaje Automático de Google)|"
 "
 unidad lineal rectificada (ReLU, Rectified Linear Unit) (Glosario sobre Aprendizaje Automático de Google)|"
 <p><a href=""https://developers.google.com/machine-learning/glossary/#activation_function""><strong>Atributo de activación</strong></a> con las siguientes reglas:</p>
-<ul>
+<ul align=""left"">
 <li>Si la entrada es negativa o cero, el resultado es 0.</li>
 <li>Si la entrada es positiva, el resultado es igual a la entrada.</li>
 </ul>
@@ -893,7 +893,7 @@ Compara esto con los <a href=""https://developers.google.com/machine-learning/gl
 "
 regularización (regularization) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Penalización sobre la complejidad de un modelo. La regularización ayuda a prevenir el <a href=""https://developers.google.com/machine-learning/glossary/#overfitting""><strong>sobreajuste</strong></a>. Entre los diferentes tipos de regularización se incluyen los siguientes:</p>
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#L1_regularization""><strong>regularización L<sub>1</sub></strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#L2_regularization""><strong>regularización L<sub>2</sub></strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#dropout_regularization""><strong>regularización de retirados (dropout regularization)</strong></a></li>
@@ -981,7 +981,7 @@ representación dispersa (sparse representation) (Glosario sobre Aprendizaje Aut
 <p><a href=""https://developers.google.com/machine-learning/glossary/#representation""><strong>Representación</strong></a> de un tensor que solo almacena elementos distintos de cero.</p>
 <p>Por ejemplo, el idioma inglés tiene aproximadamente un millón de palabras.
 Podemos considerar dos formas de representar un recuento de las palabras usadas en una oración en inglés:</p>
-<ul>
+<ul align=""left"">
 <li>Una <strong>representación densa</strong> de esta oración debe establecer un número entero para el millón de celdas, colocando un 0 en la mayoría de ellas y un entero bajo en algunas de ellas.</li>
 <li>Una representación dispersa de esta oración almacena solo las celdas que realmente simbolizan una palabra de la oración. Por lo tanto, si la oración solo contenía 20 palabras únicas, la representación dispersa para la oración almacenaría un entero en solo 20 celdas.</li>
 </ul>
@@ -1118,7 +1118,7 @@ descenso de gradientes estocástico (SGD, stochastic gradient descent) (Glosario
 "
 minimización del riesgo estructural (SRM, structural risk minimization) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Algoritmo que equilibra dos objetivos:</p>
-<ul>
+<ul align=""left"">
 <li>el deseo de desarrollar el modelo más predictivo (por ejemplo, la pérdida más baja)</li>
 <li>El deseo de mantener el modelo lo más simple posible (por ejemplo, una regularización estricta)</li>
 </ul>
@@ -1145,7 +1145,7 @@ aprendizaje automático supervisado (supervised machine learning) (Glosario sobr
 "
 atributo sintético (synthetic feature) (Glosario sobre Aprendizaje Automático de Google)|"
 <p><a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>Atributo</strong></a> que no está presente entre los atributos de entrada, pero que se deriva de uno o más de ellos. Entre los tipos de atributos sintéticos, se incluyen los siguientes:</p>
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#bucketing""><strong>Agrupamiento</strong></a> de un atributo continuo en discretizaciones de rango</li>
 <li>Multiplicación (o división) de un atributo por otros atributos o por sí mismo </li>
 <li>Creación de una <a href=""https://developers.google.com/machine-learning/glossary/#feature_cross""><strong>combinación de funciones</strong></a></li>
