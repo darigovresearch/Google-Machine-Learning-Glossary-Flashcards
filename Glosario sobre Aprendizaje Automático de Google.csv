@@ -1,7 +1,7 @@
-prueba A/B (A/B testing)|"
+prueba A/B (A/B testing) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Forma estadística de comparar dos (o más) técnicas, generalmente con una variante nueva contra una de control. La prueba A/B tiene como objetivo determinar no solo qué técnica se desempeña mejor, sino también comprender si la diferencia tiene importancia estadística. Por lo general, la prueba A/B considera solo dos técnicas con una medición, pero se puede aplicar a un número finito de técnicas y mediciones.</p>
 "
-exactitud (accuracy)|"
+exactitud (accuracy) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Fracción de predicciones que se realizaron correctamente en un <a href=""#classification_model""><strong>modelo de clasificación</strong></a>. En la <a href=""#multi-class""><strong>clasificación de clases múltiples</strong></a>, la exactitud se define de la siguiente manera:</p>
 <div>
 $$\text{Exactitud} =
@@ -16,32 +16,32 @@ $$\text{Exactitud} = \frac{\text{Verdaderos positivos} + \text{Verdaderos negati
 
 <p>Consulta <a href=""#TP""><strong>verdadero positivo</strong></a> y <a href=""#TN""><strong>verdadero negativo</strong></a>.</p>
 "
-función de activación (activation function)|"
+función de activación (activation function) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Función (como <a href=""#ReLU""><strong>ReLU</strong></a> o <a href=""#sigmoid_function""><strong>sigmoide</strong></a>) que incorpora la suma ponderada de todas las entradas de la capa anterior y genera un valor de resultado (generalmente no lineal) que pasa a la siguiente capa.</p>
 "
-AdaGrad|"
+AdaGrad (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Algoritmo de descenso de gradientes que reajusta los gradientes de cada parámetro y le asigna una <a href=""#learning_rate""><strong>tasa de aprendizaje</strong></a> independiente a cada parámetro. Para obtener una explicación completa, consulta <a href=""http://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf"">este artículo</a>.</p>
 "
-AUC (área bajo la curva ROC)|"
+AUC (área bajo la curva ROC) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Métrica de evaluación que considera todos los <a href=""#classification_threshold""><strong>umbrales de clasificación</strong></a> posibles.</p>
 <p>El área bajo la <a href=""#ROC"">curva ROC</a> es la probabilidad de que un clasificador tenga más seguridad de que un ejemplo positivo elegido al azar sea realmente positivo con respecto a que un ejemplo negativo elegido al azar sea positivo.</p>
 
 "
-propagación inversa (backpropagation)|"
+propagación inversa (backpropagation) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Algoritmo principal para realizar <a href=""#gradient_descent""><strong>descenso de gradientes</strong></a> en <a href=""#neural_network""><strong>redes neuronales</strong></a>. Primero, los valores de resultado de cada nodo se calculan (se almacenan en caché) y se propagan hacia adelante.
 Después, el <a href=""https://en.wikipedia.org/wiki/Partial_derivative"">derivado parcial</a> del error con respecto a cada parámetro se calcula y se propaga hacia atrás a través del gráfico.</p>
 "
-modelo de referencia (baseline)|"
+modelo de referencia (baseline) (Glosario sobre Aprendizaje Automático de Google)|"
 <p><a href=""#model""><strong>Modelo</strong></a> simple o heurístico que se usa como punto de partida para comparar la eficacia del desempeño de un modelo. Un modelo de referencia ayuda a los programadores de modelos a cuantificar el rendimiento mínimo esperado en un problema en particular.</p>
 "
-lote (batch)|"
+lote (batch) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Conjunto de ejemplos que se usa en una <a href=""#iteration""><strong>iteración</strong></a> (es decir, una actualización del <a href=""#gradient""><strong>gradiente</strong></a>) del <a href=""#model_training""><strong>entrenamiento de modelos</strong></a>.</p>
 <p>Consulta también <a href=""#batch_size""><strong>tamaño del lote</strong></a>.</p>
 "
-tamaño del lote (batch size)|"
+tamaño del lote (batch size) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Número de ejemplos que hay en un <a href=""#batch""><strong>lote</strong></a>. Por ejemplo, el tamaño del lote de <a href=""#SGD""><strong>SGD</strong></a> es 1, mientras que el de un <a href=""#mini-batch""><strong>minilote</strong></a> suele ser entre 10 y 1,000. Por lo general, se fija el tamaño del lote durante el entrenamiento y la inferencia; sin embargo, TensorFlow permite tamaños de lotes dinámicos.</p>
 "
-ordenada al origen (bias)|"
+ordenada al origen (bias) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Una intersección o un desplazamiento del origen. En los modelos de aprendizaje automático, se hace referencia a la ordenada al origen (también conocida como el <strong>término de la ordenada al origen</strong>) como <em>b</em> o <i>w<sub>0</sub></i>.  Por ejemplo, la ordenada al origen es la <em>b</em> en la siguiente fórmula:</p>
 <div>
 $$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
@@ -49,47 +49,47 @@ $$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 
 <p>No se debe confundir con el <a href=""#prediction_bias""><strong>sesgo de predicción</strong></a>.</p>
 "
-clasificación binaria (binary classification)|"
+clasificación binaria (binary classification) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Tipo de tarea de predicción que da como resultado una de dos clases mutuamente exclusivas. Por ejemplo, un modelo de aprendizaje automático que evalúa mensajes de correo electrónico y da como resultado ""es spam"" o ""no es spam"" es un clasificador binario.</p>
 "
-discretización (binning)|"
+discretización (binning) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Consulta <a href=""#bucketing""><strong>agrupamiento</strong></a>.</p>
 "
-agrupamiento (bucketing)|"
+agrupamiento (bucketing) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Conversión de un atributo (generalmente <a href=""#continuous_feature""><strong>continuo</strong></a>) en varios atributos binarios denominados agrupamientos o discretizaciones, que en general se basan en un rango de valores. Por ejemplo, en lugar de representar la temperatura como una función continua de punto flotante, podrías dividir los rangos de temperatura en discretizaciones. Para datos de temperatura con una variación de un décimo de un grado, todas las temperaturas entre 0.0 y 15.0 grados podrían colocarse en un primer grupo, las de 15.1 a 30.0 grados podrían constituir un segundo grupo y las de 30.1 a 50.0 grados podrían ser un tercer grupo.</p>
 
 "
-capa de calibración (calibration layer)|"
+capa de calibración (calibration layer) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Ajuste posterior a la predicción, generalmente para dar cuenta del <a href=""#prediction_bias""><strong>margen de predicción</strong></a>. Las predicciones ajustadas y las probabilidades deben coincidir con la distribución del conjunto de etiquetas observado.</p>
 "
-muestreo de candidatos (candidate sampling)|"
+muestreo de candidatos (candidate sampling) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Optimización en el entrenamiento en la que una probabilidad se calcula para todas las etiquetas positivas (por ejemplo, a través de softmax), pero solo para una muestra aleatoria de etiquetas negativas. Por ejemplo, si tenemos un ejemplo etiquetado como <em>beagle</em> y <em>perro</em>, el muestreo de candidatos computa las probabilidades predichas y los términos de pérdida correspondientes para los resultados de la clase de <em>beagle</em> y <em>perro</em>, además de un subconjunto aleatorio de las clases restantes (<em>gato</em>, <em>paleta</em>, <em>cerca</em>). La idea es que las <a href=""#negative_class""><strong>clases negativas</strong></a> puedan aprender del refuerzo negativo de forma menos frecuente, siempre y cuando las <a href=""#positive_class""><strong>positivas</strong></a> obtengan el refuerzo positivo adecuado y este se observe empíricamente. La motivación para el muestreo de candidatos es una mejora en la eficiencia de cálculo al no calcular las predicciones para todos los negativos.</p>
 "
-datos categóricos (categorical data)|"
+datos categóricos (categorical data) (Glosario sobre Aprendizaje Automático de Google)|"
 <p><a href=""#feature""><strong>Atributos</strong></a> que tienen un conjunto discreto de valores posibles. Por ejemplo, considera un atributo categórico denominado <code>house style</code>, que tenga un conjunto discreto de tres valores posibles: <code>Tudor, ranch, colonial</code>. Al representar <code>house style</code> como datos categóricos, el modelo puede aprender los impactos de <code>Tudor</code>, <code>ranch</code> y <code>colonial</code> por separado en el precio de las casas.</p>
 <p>En algunas ocasiones, los valores del conjunto discreto son mutuamente exclusivos y solo se puede aplicar un valor a un ejemplo determinado. Por ejemplo, un atributo categórico de <code>car maker</code> probablemente permitiría un solo valor (por ejemplo, <code>Toyota</code>).  Otras veces, es posible que se pueda aplicar más de un valor. Un solo auto podría estar pintado de más de un color diferente, de manera que el atributo categórico de <code>car color</code> probablemente permitiría que un solo ejemplo tuviera varios valores (por ejemplo, <code>red</code> y <code>white</code>).</p>
 <p>En ocasiones, los atributos categóricos se denominan <a href=""#discrete_feature""><strong>atributos discretos</strong></a>.</p>
 <p>Compara esto con los <a href=""#numerical_data""><strong>datos numéricos</strong></a>.</p>
 "
-centroide (centroid)|"
+centroide (centroid) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>El centro de un clúster se determina mediante un algoritmo <a href=""#k-means""><strong>k-medios</strong></a> o <a href=""#k-median""><strong>k-mediana</strong></a>. Por ejemplo, si k es 3, entonces el algoritmo k-medios o k-mediana encuentra 3 centroides.</p>
 "
-punto de control (checkpoint)|"
+punto de control (checkpoint) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Datos que capturan el estado de las variables de un modelo en un momento en particular. Los puntos de control permiten exportar <a href=""#weight""><strong>pesos</strong></a> del modelo, así como llevar a cabo el entrenamiento en varias sesiones. Los puntos de control también permiten que el entrenamiento continúe después de los errores (por ejemplo, la interrupción temporal de tareas). Ten en cuenta que el <a href=""#graph""><strong>gráfico</strong></a> en sí no se incluye en un punto de control.</p>
 "
-clase (class)|"
+clase (class) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Valor de un conjunto de valores de segmentación enumerados para una etiqueta. Por ejemplo, en un modelo de <a href=""#binary_classification""><strong>clasificación binaria</strong></a> que detecta spam, las dos clases son <em>es spam</em> y <em>no es spam</em>.  En un modelo de <a href=""#multi_class_classification""><strong>clasificación de clases múltiples</strong></a> que identifica razas de perros, las clases serían <em>poodle</em>, <em>beagle</em>, <em>pug</em>, etc.</p>
 "
-conjunto de datos de clase desequilibrada (class-imbalanced data set)|"
+conjunto de datos de clase desequilibrada (class-imbalanced data set) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Problema de <a href=""#binary_classification""><strong>clasificación binaria</strong></a> en el que las <a href=""#label""><strong>etiquetas</strong></a> de las dos clases tienen frecuencias significativamente diferentes.  Por ejemplo, un conjunto de datos de enfermedades en el que 0.0001 de los ejemplos tienen etiquetas positivas y 0.9999 tienen etiquetas negativas es un problema de clase desequilibrada, pero un predictor de partidos de fútbol en el que 0.51 de los ejemplos etiquetan a un equipo como ganador y 0.49 etiquetan al otro equipo como ganador <em>no</em> es un problema de este tipo.</p>
 "
-modelo de clasificación (classification model)|"
+modelo de clasificación (classification model) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Tipo de modelo de aprendizaje automático para distinguir entre dos o más clases discretas. Por ejemplo, un modelo de clasificación de procesamiento de lenguaje natural podría determinar si una oración de entrada está en francés, español o italiano. Compara esto con el <a href=""#regression_model""><strong>modelo de regresión</strong></a>.</p>
 "
-umbral de clasificación (classification threshold)|"
+umbral de clasificación (classification threshold) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Criterio de valor escalar que se aplica a la predicción de un modelo para separar la <a href=""#positive_class""><strong>clase positiva</strong></a> de la <a href=""#negative_class""><strong>negativa</strong></a>.  Se usa al asignar resultados de <a href=""#logistic_regression""><strong>regresión logística</strong></a> a la <a href=""#binary_classification""><strong>clasificación binaria</strong></a>. Por ejemplo, considera un modelo de regresión logística que determina la probabilidad de que un mensaje de correo electrónico determinado sea spam. Si el umbral de clasificación es 0.9, los valores de regresión logística por encima de 0.9 se clasifican como <em>spam</em> y aquellos por debajo de esa cifra se clasifican como <em>no es spam</em>.</p>
 "
-agrupamiento en clústeres (clustering)|"
+agrupamiento en clústeres (clustering) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Agrupar <a href=""#example""><strong>Ejemplos</strong></a> relacionados, particularmente durante el <a href=""#unsupervised_machine_learning""><strong>aprendizaje no supervisado</strong></a>. Una vez que todos los ejemplos están agrupados, una persona puede, de forma opcional, asignar un significado a cada clúster.</p>
 <p>Existen muchos algoritmos de agrupamiento en clústeres.  Por ejemplo, el algoritmo <a href=""#k-means""><strong>k-medios</strong></a> agrupa ejemplos sobre la base de su proximidad a un <a href=""#centroid""><strong>centroide</strong></a>, como en el siguiente diagrama:</p>
 <p>
@@ -103,10 +103,10 @@ agrupamiento en clústeres (clustering)|"
 </p>
 
 "
-filtrado colaborativo (collaborative filtering)|"
+filtrado colaborativo (collaborative filtering) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Tarea de realizar predicciones acerca de los intereses de un usuario en función de los intereses de muchos otros usuarios.  El filtrado colaborativo se usa con frecuencia en los sistemas de recomendaciones.</p>
 "
-matriz de confusión (confusion matrix)|"
+matriz de confusión (confusion matrix) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Tabla de N×N que resume el nivel de éxito de las predicciones de un <a href=""#classification_model""><strong>modelo de clasificación</strong></a>; es decir, la correlación entre la etiqueta y la clasificación del modelo. Un eje de una matriz de confusión es la etiqueta que el modelo predijo; el otro es la etiqueta real. N representa el número de clases. En un problema de <a href=""#binary_classification""><strong>clasificación binaria</strong></a>, N=2. Por ejemplo, aquí se muestra un ejemplo de una matriz de confusión para un problema de clasificación binaria:</p>
 <table>
 <thead>
@@ -133,16 +133,16 @@ matriz de confusión (confusion matrix)|"
 <p>La matriz de confusión de un problema de clasificación de clases múltiples puede ayudarte a determinar patrones de error. Por ejemplo, una matriz de confusión podría revelar que un modelo entrenado para reconocer dígitos escritos a mano tiende a predecir de manera incorrecta 9 en lugar de 4, o 1 en lugar de 7.</p>
 <p>Las matrices de confusión contienen información suficiente para calcular una variedad de métricas de rendimiento, incluidas la <a href=""#precision""><strong>precisión</strong></a> y la <a href=""#recall""><strong>recuperación</strong></a>.</p>
 "
-atributo continuo (continuous feature)|"
+atributo continuo (continuous feature) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Atributo de punto flotante con un rango infinito de valores posibles.
 Compara esto con el <a href=""#discrete_feature""><strong>atributo discreto</strong></a>.</p>
 "
-convergencia (convergence)|"
+convergencia (convergence) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Suele referirse informalmente a un estado que se alcanza durante el entrenamiento, en el que la <a href=""#loss""><strong>pérdida</strong></a> y la pérdida de validación cambian muy poco o nada con cada iteración después de un determinado número de iteraciones. En otras palabras, un modelo alcanza la convergencia cuando el entrenamiento adicional de los datos con los que se cuenta no mejora el modelo. En el aprendizaje profundo, los valores de pérdida a veces permanecen constantes o casi constantes durante muchas iteraciones antes de descender finalmente, lo cual produce una falsa sensación de convergencia temporal.</p>
 <p>Consulta también <a href=""#early_stopping""><strong>interrupción anticipada</strong></a>.</p>
 <p>Consulta también <a href=""https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf"">Convex Optimization</a> de Boyd y Vandenberghe.</p>
 "
-atributo convexo (convex function)|"
+atributo convexo (convex function) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Atributo en el que la región por encima del gráfico del atributo es un <a href=""#convex_set""><strong>conjunto convexo</strong></a>.  El atributo convexo prototípico tiene una forma similar a la letra <strong>U</strong>.  Por ejemplo, los siguientes son todos atributos convexos:a</p>
 <p>
 <img src=""/machine-learning/glossary/images/convex_functions.png"" height=""300"" alt=""Un atributo convexo típico tiene una forma similar a la letra &quot;U&quot;.""/>
@@ -166,12 +166,12 @@ atributo convexo (convex function)|"
 <p>Los <a href=""#deep_model""><strong>modelos profundos</strong></a> nunca son atributos convexos.
 Notablemente, los algoritmos diseñados para la <a href=""#convex_optimization""><strong>optimización convexa</strong></a> tienden a encontrar soluciones razonablemente buenas en las redes profundas, de todos modos, aunque no está garantizado que esas soluciones sean un mínimo global.</p>
 "
-optimización convexa (convex optimization)|"
+optimización convexa (convex optimization) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Proceso en el que se usan técnicas matemáticas, como el <a href=""#gradient_descent""><strong>descenso de gradientes</strong></a>, para encontrar el mínimo de un <a href=""#convex_function""><strong>atributo convexo</strong></a>.
 Gran parte de la investigación sobre el aprendizaje automático se ha centrado en formular distintos problemas como problemas de optimización convexa y en solucionar esas cuestiones de manera más eficaz.</p>
 <p>Para obtener información completa, consulta <a href=""https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf"">Convex Optimization</a> de Boyd y Vandenberghe.</p>
 "
-conjunto convexo (convex set)|"
+conjunto convexo (convex set) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Subconjunto del espacio euclídeo en el que una línea dibujada entre dos puntos cualesquiera en el subconjunto permanece completamente dentro del subconjunto.  Por ejemplo, las dos formas que se muestran a continuación son conjuntos convexos:</p>
 <p>
 <img src=""/machine-learning/glossary/images/convex_set.png"" alt=""Un rectángulo y una semielipse son conjuntos convexos.""/>
@@ -183,17 +183,17 @@ conjunto convexo (convex set)|"
 </p>
 
 "
-convolución (convolution)|"
+convolución (convolution) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>En matematicas, la convolución es (informalmente) una manera de mezclar dos funciones que mide cuanta superposición hay entre las dos funciones En aprendizaje automático, una convolución mezcla el filtro convolucional y la matriz de entrada para entrenar pesos.</p>
 <p>El término ""convolución"" suele usarse en aprendizaje automático para referirse de forma abreviada a una <a href=""#convolutional_operation""><strong>operación convolucional</strong></a> o a una <a href=""#convolutional_layer""><strong>capa convolucional</strong></a>.</p>
 <p>Sin convoluciones, un algoritmo de aprendizaje automático tendría que aprender un peso separado para cada celda en un tensor grande.  Por ejemplo, un entrenamiento de algoritmo de aprendizaje automático en imágenes de 2K x 2K se vería obligado a encontrar 4 millones de pesos distintos. Gracias a las convoluciones, un algoritmo de aprendizaje automático solo tiene que encontrar pesos para cada celda en el <a href=""#convolutional_filter""><strong>filtro convolucional</strong></a>, lo que reduce drásticamente la memoria necesaria para entrenar el modelo.  Cuando se aplica el filtro convolucional, solo se replica a través de las celdas, por lo que cada una se multiplica por el filtro.</p>
 "
-filtro convolucional (convolutional filter)|"
+filtro convolucional (convolutional filter) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Uno de los dos protagonistas de una <a href=""#convolutional_operation""><strong>operación convolucional</strong></a> (el otro es una porción de una matriz de entrada). Un filtro convolucional es una matriz que tiene el mismo <a href=""#rank""><strong>rango</strong></a> que la de entrada, pero una forma más pequeña.
 Por ejemplo, en una matriz de entrada 28 x 28, el filtro podría ser cualquier matriz 2D más pequeña que 28 x 28.</p>
 <p>En la manipulación fotográfica, todas las celdas de un filtro convolucional suelen fijarse a un patrón constante de unos y ceros. En el aprendizaje automático, los filtros convolucionales generalmente se inician con números aleatorios y luego la red entrena los valores ideales.</p>
 "
-capa convolucional (convolutional layer)|"
+capa convolucional (convolutional layer) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Una capa de una red neuronal profunda en la que un <a href=""#convolutional_filter""><strong>filtro convolucional</strong></a> pasa a lo largo de una matriz de entrada.  Por ejemplo, considera el siguiente <a href=""#convolutional_filter""><strong>filtro convolucional</strong></a> de 3 x 3:</p>
 <p>
 <img src=""/machine-learning/glossary/images/ConvolutionalFilter33.svg"">
@@ -206,7 +206,7 @@ La matriz 3 x 3 resultante (a la derecha) contiene los resultados de las 9 opera
 </p>
 
 "
-red neuronal convolucional (convolutional neural network)|"
+red neuronal convolucional (convolutional neural network) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Una red neuronal en la que al menos una capa es una <a href=""#convolutional_layer""><strong>capa convolucional</strong></a>. Una red neuronal convolucional típica consiste en una combinación de las siguientes capas:</p>
 <ul>
 <li>capas convolucionales</li>
@@ -215,7 +215,7 @@ red neuronal convolucional (convolutional neural network)|"
 </ul>
 <p>Las redes neuronales convolucionales han tenido un gran éxito en ciertos tipos de problemas, como el reconocimiento de imágenes.</p>
 "
-operación convolucional (convolutional operation)|"
+operación convolucional (convolutional operation) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>La siguiente operación matemática de dos pasos:</p>
 <ol>
 <li>Multiplicación por elementos del <a href=""#convolutional_filter""><strong>filtro convolucional</strong></a> y una porción de una matriz de entrada (la porción de la matriz de entrada tiene el mismo rango y tamaño que el filtro convolucional).</li>
@@ -238,64 +238,64 @@ operación convolucional (convolutional operation)|"
 
 <p>Una <a href=""#convolutional_layer""><strong>capa convolucional</strong></a> consiste en una serie de operaciones convolucionales que actúan en porciones diferentes de la matriz de entrada.</p>
 "
-costo (cost)|"
+costo (cost) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Sinónimo de <a href=""#loss""><strong>pérdida</strong></a>.</p>
 "
-entropía cruzada (cross-entropy)|"
+entropía cruzada (cross-entropy) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Una generalización de <a href=""#Log_Loss""><strong>pérdida logística</strong></a> en <a href=""#multi-class""><strong>problemas de clasificación de clases múltiples</strong></a>. La entropía cruzada cuantifica la diferencia entre dos distribuciones de probabilidad.  Consulta también <a href=""#perplexity""><strong>perplejidad</strong></a>.</p>
 "
-Estimador personalizado (custom Estimator)|"
+Estimador personalizado (custom Estimator) (Glosario sobre Aprendizaje Automático de Google)|"
 <p><a href=""#Estimators""><strong>Estimador</strong></a> que escribes tú mismo siguiendo <a href=""https://www.tensorflow.org/extend/estimators"">estas instrucciones</a>.</p>
 <p>Compara esto con <a href=""#pre-made_Estimator""><strong>estimadores prediseñados</strong></a>.</p>
 
 "
-análisis de datos (data analysis)|"
+análisis de datos (data analysis) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>El proceso de obtener una comprensión de los datos mediante la consideración de muestras, mediciones y visualizaciones. El análisis de datos puede ser particularmente útil cuando se recibe por primera vez un conjunto de datos, antes de crear el primer modelo. También es crucial para comprender los experimentos y problemas de depuración del sistema.</p>
 "
-DataFrame|"
+DataFrame (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Tipo de datos Python popular que se usa para representar conjuntos de datos de ejemplo en Pandas. Un DataFrame es análogo a una tabla. Cada columna del DataFrame tiene un nombre (un encabezado) y cada fila se identifica con un número.</p>
 "
-conjunto de datos (data set)|"
+conjunto de datos (data set) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Colección de <a href=""#example""><strong>ejemplos</strong></a>.</p>
 "
-API del conjunto de datos (tf.data) (Dataset API)|"
+API del conjunto de datos (tf.data) (Dataset API) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>API de TensorFlow de alto nivel para leer datos y transformarlos en un formato que requiere un algoritmo de aprendizaje automático. Un objeto <code>tf.data.Dataset</code> representa una secuencia de elementos en la que cada uno de ellos contiene uno o más <a href=""#tensor""><strong>Tensors</strong></a>. Un objeto <code>tf.data.Iterator</code> proporciona acceso a los elementos de un <code>Dataset</code>.</p>
 <p>Para obtener detalles sobre la API del conjunto de datos, consulta la sección sobre <a href=""https://www.tensorflow.org/programmers_guide/datasets"">cómo importar datos</a> de la Guía para programadores de TensorFlow.</p>
 "
-límite de decisión (decision boundary)|"
+límite de decisión (decision boundary) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Separador entre clases aprendido por un modelo en <a href=""#binary_classification""><strong>problemas de clasificación de clases múltiples</strong></a> o de <a href=""#multi-class""><strong>clase binaria</strong></a>. Por ejemplo, en la siguiente imagen, que representa un problema de clasificación binaria, el límite de decisión es la frontera entre la clase anaranjada y la azul:</p>
 <p>
 <img src=""/machine-learning/glossary/images/decision_boundary.png"" alt=""Un límite bien definido entre una clase y otra.""/>
 </p>
 
 "
-capa densa (dense layer)|"
+capa densa (dense layer) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Sinónimo de <a href=""#fully_connected_layer""><strong>capa completamente conectada</strong></a>.</p>
 "
-modelo profundo (deep model)|"
+modelo profundo (deep model) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Tipo de <a href=""#neural_network""><strong>red neuronal</strong></a> que contiene varias <a href=""#hidden_layer""><strong>capas ocultas</strong></a>. Los modelos profundos se basan en la capacidad de entrenar no linealidades.</p>
 <p>Compara esto con el <a href=""#wide_model""><strong>modelo amplio</strong></a>.</p>
 "
-atributo denso (dense feature)|"
+atributo denso (dense feature) (Glosario sobre Aprendizaje Automático de Google)|"
 <p><a href=""#feature""><strong>Atributo</strong></a> en el que la mayoría de los valores son distintos a cero, por lo general un <a href=""#tensor""><strong>tensor</strong></a> de valores de punto flotante. Compara esto con el <a href=""#sparse_features""><strong>atributo disperso</strong></a>.</p>
 "
-dispositivo (device)|"
+dispositivo (device) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Categoría de hardware que puede ejecutar una sesión de TensorFlow y que incluye CPU, GPU y TPU.</p>
 "
-atributo discreto (discrete feature)|"
+atributo discreto (discrete feature) (Glosario sobre Aprendizaje Automático de Google)|"
 <p><a href=""#feature""><strong>Atributo</strong></a> con un conjunto finito de valores posibles. Por ejemplo, un atributo cuyos valores solo pueden ser <em>animal</em>, <em>vegetal</em> o <em>mineral</em> es un atributo discreto (o categórico). Compara esto con el <a href=""#continuous_feature""><strong>atributo continuo</strong></a>.</p>
 "
-regularización de retirados (dropout regularization)|"
+regularización de retirados (dropout regularization) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Forma de <a href=""#regularization""><strong>regularización</strong></a> que resulta útil en el entrenamiento de <a href=""#neural_network""><strong>redes neuronales</strong></a>. La regularización de retirados funciona al quitar una selección aleatoria de un número fijo de unidades de una capa de la red para un solo paso de gradiente. Mientras más unidades se extraigan, mejor será la regularización. Esto es análogo a entrenar la red para emular un conjunto exponencialmente grande de redes más pequeñas. Para obtener información completa, consulta <a href=""http://jmlr.org/papers/volume15/srivastava14a.old/srivastava14a.pdf"">Dropout: A Simple Way to Prevent Neural Networks from Overfitting</a>.</p>
 "
-modelo dinámico (dynamic model)|"
+modelo dinámico (dynamic model) (Glosario sobre Aprendizaje Automático de Google)|"
 <p><a href=""#model""><strong>Modelo</strong></a> que se entrena en línea con actualizaciones continuas.  Esto significa que constantemente ingresan datos al modelo.</p>
 
 "
-interrupción anticipada (early stopping)|"
+interrupción anticipada (early stopping) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Método de <a href=""#regularization""><strong>regularización</strong></a> que implica finalizar el entrenamiento del modelo <em>antes</em> de que la pérdida de entrenamiento deje de disminuir. En la interrupción anticipada, el entrenamiento del modelo finaliza cuando la pérdida en un <a href=""#validation_set""><strong>conjunto de datos de validación</strong></a> comienza a aumentar, es decir, cuando empeora el rendimiento de la <a href=""#generalization""><strong>generalización</strong></a>.</p>
 "
-incorporaciones (embeddings)|"
+incorporaciones (embeddings) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Atributo categórico representado como un atributo de valor continuo.
 Por lo general, las incorporaciones son una traslación de un vector de dimensiones altas a un espacio de dimensiones bajas. Por ejemplo, puedes representar las palabras de una oración en inglés de cualquiera de las dos formas siguientes:</p>
 <ul>
@@ -306,10 +306,10 @@ Por lo general, las incorporaciones son una traslación de un vector de dimensio
 </ul>
 <p>En TensorFlow, las incorporaciones se entrenan mediante <a href=""#backpropagation""><strong>propagación inversa</strong></a> de la <a href=""#loss""><strong>pérdida</strong></a>, al igual que cualquier otro parámetro en una <a href=""#neural_network""><strong>red neuronal</strong></a>.</p>
 "
-minimización del riesgo empírico (ERM, empirical risk minimization)|"
+minimización del riesgo empírico (ERM, empirical risk minimization) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Elección de la función del modelo que minimiza la pérdida en el conjunto de entrenamiento. Compara esto con la <a href=""#SRM""><strong>minimización del riesgo estructural</strong></a>.</p>
 "
-ensamble (ensemble)|"
+ensamble (ensemble) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Ensamble de las predicciones de varios <a href=""#model""><strong>modelos</strong></a>. Puedes crear un ensamble a través de una o más de las siguientes opciones:</p>
 <ul>
 <li>diferentes inicializaciones</li>
@@ -318,23 +318,23 @@ ensamble (ensemble)|"
 </ul>
 <p>Los <a href=""https://www.tensorflow.org/tutorials/wide_and_deep"">modelos amplios y profundos</a> son un tipo de ensamble.
 "
-repeticiones (epoch)|"
+repeticiones (epoch) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Recorrido de entrenamiento completo por todo el conjunto de datos, de manera que cada ejemplo se observe una vez.  Por lo tanto, las repeticiones representan <code>N</code>/<a href=""#batch_size""><strong>iteraciones</strong></a> de entrenamiento del <a href=""#iteration""><strong>tamaño del lote</strong></a>, donde <code>N</code> es el número total de ejemplos.</p>
 "
-Estimador (Estimator)|"
+Estimador (Estimator) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Instancia de la clase <code>tf.Estimator</code> que sintetiza la lógica que desarrolla un gráfico de TensorFlow y ejecuta una sesión de TensorFlow. Puedes crear tus propios <a href=""#custom_estimator""><strong>estimadores personalizados</strong></a> (como se describe <a href=""https://www.tensorflow.org/extend/estimators"">aquí</a>) o instanciar <a href=""#pre-made_Estimator""><strong>estimadores prediseñados</strong></a> creados por otras personas.</p>
 "
-ejemplo (example)|"
+ejemplo (example) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Fila de un conjunto de datos. Un ejemplo contiene uno o más <a href=""#feature""><strong>atributos</strong></a> y, posiblemente, una <a href=""#label""><strong>etiqueta</strong></a>. Consulta también <a href=""#labeled_example""><strong>ejemplo etiquetado</strong></a> y <a href=""#unlabeled_example""><strong>ejemplo sin etiqueta</strong></a>.</p>
 
 "
-falso negativo (FN, false negative)|"
+falso negativo (FN, false negative) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Ejemplo en el que el modelo predijo de manera incorrecta la <a href=""#negative_class""><strong>clase negativa</strong></a>. Por ejemplo, el modelo infirió que un mensaje de correo electrónico en particular no era spam (la clase negativa), pero ese mensaje de correo electrónico en realidad era spam.</p>
 "
-falso positivo (FP, false positive)|"
+falso positivo (FP, false positive) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Ejemplo en el que el modelo predijo de manera incorrecta la <a href=""#positive_class""><strong>clase positiva</strong></a>. Por ejemplo, el modelo infirió que un mensaje de correo electrónico en particular era spam (la clase positiva), pero ese mensaje de correo electrónico en realidad no era spam.</p>
 "
-tasa de falsos positivos (tasa de FP) (false positive rate (FP rate))|"
+tasa de falsos positivos (tasa de FP) (false positive rate (FP rate)) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Eje x en una <a href=""#ROC""><strong>curva ROC</strong></a>. La tasa de FP se define de la siguiente manera:</p>
 <div>
 $$\text{Tasa de falsos positivos} =
@@ -342,27 +342,27 @@ $$\text{Tasa de falsos positivos} =
 </div>
 
 "
-atributo (feature)|"
+atributo (feature) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Variable de entrada que se usa para realizar <a href=""#prediction""><strong>predicciones</strong></a>.</p>
 "
-Columna de atributos (Feature column - tf.feature_column)|"
+Columna de atributos (Feature column - tf.feature_column) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Función que especifica cómo un modelo debería interpretar un atributo específico. Una lista que recopile los resultados arrojados por llamadas a tales funciones es un parámetro obligatorio para todos los constructores de <a href=""#Estimators""><strong>estimadores</strong></a>.</p>
 <p>Las funciones <code>tf.feature_column</code> permiten que los modelos experimenten fácilmente con diferentes representaciones de los atributos de entrada. Para obtener más información, consulta el <a href=""https://www.tensorflow.org/get_started/feature_columns"">capítulo Columnas de atributos</a> de la Guía para desarrolladores de TensorFlow.</p>
 <p>""Columna de atributos"" es terminología específica de Google.
 Una columna de atributos se conoce como un ""espacio de nombres"" en el sistema de <a href=""https://en.wikipedia.org/wiki/Vowpal_Wabbit"">VW</a> (en Yahoo/Microsoft) o como un <a href=""https://www.csie.ntu.edu.tw/~cjlin/libffm/"">campo</a>.</p>
 "
-combinación de atributos (feature cross)|"
+combinación de atributos (feature cross) (Glosario sobre Aprendizaje Automático de Google)|"
 <p><a href=""#synthetic_feature""><strong>Atributo sintético</strong></a> que se forma al combinar (tomar el producto cartesiano de) atributos binarios individuales obtenidos directamente de datos categóricos o mediante discretización de atributos continuos. Los atributos combinados ayudan a representar relaciones no lineales.</p>
 "
-ingeniería de atributos (feature engineering)|"
+ingeniería de atributos (feature engineering) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Proceso en el que se determina qué <a href=""#feature""><strong>atributos</strong></a> podrían ser útiles para entrenar un modelo y luego convertir los datos sin procesar de los archivos de registro y otras fuentes en dichos atributos. En TensorFlow, la ingeniería de atributos suele implicar la conversión de entradas del archivo de registro sin procesar en búferes del protocolo <a href=""#tf.Example""><strong>tf.Example</strong></a>.  Consulta también <a href=""https://github.com/tensorflow/transform"">tf.Transform</a>.</p>
 <p>En algunas ocasiones, la ingeniería de atributos se denomina <strong>extracción de atributos</strong>.</p>
 "
-conjunto de atributos (feature set)|"
+conjunto de atributos (feature set) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Grupo de <a href=""#feature""><strong>atributos</strong></a> con el que se entrena el modelo de aprendizaje automático.
 Por ejemplo, código postal, tamaño de la propiedad y estado de la propiedad pueden conformar un conjunto de atributos simples para un modelo que predice los precios de la vivienda.</p>
 "
-especificación de atributos (feature spec)|"
+especificación de atributos (feature spec) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Describe la información necesaria para extraer datos de <a href=""#feature""><strong>atributos</strong></a> del búfer del protocolo <a href=""#tf.Example""><strong>tf.Example</strong></a>. Dado que el búfer del protocolo tf.Example es simplemente un contenedor de datos, debes especificar lo siguiente:</p>
 <ul>
 <li>los datos que se van a extraer (es decir, las claves de los atributos)</li>
@@ -371,22 +371,22 @@ especificación de atributos (feature spec)|"
 </ul>
 <p>La <a href=""#Estimators""><strong>API de Estimator</strong></a> proporciona opciones para producir una especificación de atributos a partir de una lista de <a href=""#feature_columns""><strong>Columnas de atributos</strong></a>.</p>
 "
-aprendizaje en pocos intentos (few-shot learning)|"
+aprendizaje en pocos intentos (few-shot learning) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Enfoque de aprendizaje automático que suele usarse para la clasificación de objetos, diseñado para aprender clasificadores efectivos a partir de solo un pequeño número de ejemplos de entrenamiento.</p>
 <p>Consulta también <a href=""#one-shot_learning""><strong>aprendizaje en un solo intento</strong></a>.</p>
 "
-softmax completo (full softmax)|"
+softmax completo (full softmax) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Consulta <a href=""#softmax""><strong>softmax</strong></a>. Compara esto con el <a href=""#candidate_sampling""><strong>muestreo de candidatos</strong></a>.</p>
 "
-capa completamente conectada (fully connected layer)|"
+capa completamente conectada (fully connected layer) (Glosario sobre Aprendizaje Automático de Google)|"
 <p><a href=""#hidden_layer""><strong>Capa oculta</strong></a> en la que cada <a href=""#node""><strong>nodo</strong></a> está conectado a <em>cada uno</em> de los nodos de la capa oculta subsiguiente.</p>
 <p>Una capa completamente conectada también se conoce como una <a href=""#dense_layer""><strong>capa densa</strong></a>.</p>
 
 "
-generalización (generalization)|"
+generalización (generalization) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Se refiere a la capacidad del modelo de realizar predicciones correctas sobre datos nuevos nunca antes vistos, en oposición a los datos que se usan para entrenar el modelo.</p>
 "
-modelo lineal generalizado (generalized linear model)|"
+modelo lineal generalizado (generalized linear model) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Generalización de modelos de <a href=""#least_squares_regression""><strong>regresión de mínimos cuadrados</strong></a> que se basan en el <a href=""https://en.wikipedia.org/wiki/Gaussian_noise"">ruido gaussiano</a>, con respecto a otros tipos de modelos basados en otros tipos de ruidos, como el <a href=""https://en.wikipedia.org/wiki/Shot_noise"">ruido de Poisson</a> o el ruido categórico. Entre los ejemplos de modelos lineales generalizados se incluyen los siguientes:</p>
 <ul>
 <li><a href=""#logistic_regression""><strong>regresión logística</strong></a></li>
@@ -401,27 +401,27 @@ modelo lineal generalizado (generalized linear model)|"
 </ul>
 <p>La potencia de un modelo lineal generalizado está limitada por sus atributos. A diferencia de un modelo profundo, un modelo lineal generalizado no puede ""aprender atributos nuevos"".</p>
 "
-gradiente (gradient)|"
+gradiente (gradient) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Vector de los <a href=""#partial_derivative""><strong>derivados parciales</strong></a> con respecto a todas las variables independientes.  En el aprendizaje automático, el gradiente es el vector de los derivados parciales del atributo del modelo.  El gradiente apunta en la dirección del aumento más inclinado.</p>
 "
-recorte de gradiente (gradient clipping)|"
+recorte de gradiente (gradient clipping) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Limitación de los valores del <a href=""#gradient""><strong>gradiente</strong></a> antes de aplicarlos. El recorte de gradiente ayuda a garantizar la estabilidad numérica y previene el <a href=""http://www.cs.toronto.edu/~rgrosse/courses/csc321_2017/readings/L15%20Exploding%20and%20Vanishing%20Gradients.pdf"">crecimiento excesivo de gradientes</a>.</p>
 "
-descenso de gradientes (gradient descent)|"
+descenso de gradientes (gradient descent) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Técnica para minimizar la <a href=""#loss""><strong>pérdida</strong></a> mediante el cálculo de los gradientes de pérdida con respecto a los parámetros del modelo, condicionados con los datos de entrenamiento.
 Informalmente, el descenso de gradientes ajusta los parámetros de manera iterativa, lo que permite encontrar de forma gradual la mejor combinación de <a href=""#weight""><strong>pesos</strong></a> y sesgos para minimizar la pérdida.</p>
 "
-gráfico (graph)|"
+gráfico (graph) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>En TensorFlow, especificación de cálculo. Los nodos del gráfico representan operaciones. Las conexiones están orientadas y representan el paso del resultado de una operación (un <a href=""https://www.tensorflow.org/api_docs/python/tf/Tensor"">Tensor</a>) como un operando para otra operación. Para visualizar un gráfico, usa <a href=""#TensorBoard""><strong>TensorBoard</strong></a>.</p>
 
 "
-heurística (heuristic)|"
+heurística (heuristic) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Solución práctica y no óptima para un problema, que es suficiente para progresar o para aprender de ella.</p>
 "
-capa oculta (hidden layer)|"
+capa oculta (hidden layer) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Capa sintética en una <a href=""#neural_network""><strong>red neuronal</strong></a> entre la <a href=""#input_layer""><strong>capa de entrada</strong></a> (es decir, los atributos) y la <a href=""#output_layer""><strong>capa de salida</strong></a> (la predicción). Una red neuronal contiene una o más capas ocultas.</p>
 "
-pérdida de bisagra (hinge loss)|"
+pérdida de bisagra (hinge loss) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Una familia de funciones de <a href=""#loss""><strong>pérdida</strong></a> para la <a href=""#classification_model""><strong>clasificación</strong></a> diseñadas a fin de encontrar el <a href=""#decision_boundary""><strong>límite de decisión</strong></a> lo más distante posible de cada ejemplo de entrenamiento, para así maximizar el margen entre los ejemplos y el límite.
 Las <a href=""#KSVMs""><strong>máquinas de vectores soporte de Kernel</strong></a> (KSVM) usan la pérdida de bisagra (o un atributo relacionado, como la pérdida de bisagra al cuadrado). Para la clasificación binaria, el atributo de pérdida de bisagra se define de la siguiente manera:</p>
 <div>
@@ -440,50 +440,50 @@ $$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 </p>
 
 "
-datos de exclusión (holdout data)|"
+datos de exclusión (holdout data) (Glosario sobre Aprendizaje Automático de Google)|"
 <p><a href=""#example""><strong>Ejemplos</strong></a> que de manera intencional no se usan (se ""excluyen"") durante el entrenamiento.
 El <a href=""#validation_set""><strong>conjunto de datos de validación</strong></a> y el <a href=""#test_set""><strong>conjunto de datos de prueba</strong></a> son ejemplos de datos de exclusión. Los datos de exclusión ayudan a evaluar la capacidad del modelo para realizar generalizaciones con respecto a datos que no sean los datos con los que se entrenó. La pérdida en el conjunto de exclusión proporciona una mejor estimación de la pérdida en un conjunto de dados nunca antes vistos que la pérdida en el conjunto de entrenamiento.</p>
 "
-hiperparámetro (hyperparameter)|"
+hiperparámetro (hyperparameter) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Las ""perillas"" que los usuarios
 ajustan durante ejecuciones sucesivas de entrenamiento de un modelo. Por ejemplo, una <a href=""#learning_rate""><strong>tasa de aprendizaje</strong></a> es un hiperparámetro.</p>
 <p>Compara esto con el <a href=""#parameter""><strong>parámetro</strong></a>.</p>
 "
-hiperplano (hyperplane)|"
+hiperplano (hyperplane) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Límite que separa un espacio en dos subespacios.  Por ejemplo, una línea es un hiperplano en dos dimensiones y un plano es un hiperplano en tres dimensiones.
 En el aprendizaje automático, un hiperplano generalmente es el límite que separa un espacio de dimensiones altas.  Las <a href=""#KSVMs""><strong>máquinas de vectores soporte de Kernel</strong></a> usan hiperplanos para separar las clases positivas de las negativas, frecuentemente en un espacio de dimensiones muy altas.</p>
 
 "
-independiente e idénticamente distribuido (i.i.d, independently and identically distributed)|"
+independiente e idénticamente distribuido (i.i.d, independently and identically distributed) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Datos que se obtienen de una distribución que no cambia y en los que cada valor obtenido no depende de valores que se obtuvieron anteriormente. Los datos i.i.d.
 son el <a href=""https://en.wikipedia.org/wiki/Ideal_gas"">gas ideal</a> del aprendizaje automático; son una construcción matemática útil pero casi nunca se encuentran exactamente en el mundo real. Por ejemplo, la distribución de los visitantes de una página web pueden ser datos i.i.d. en una ventana de tiempo breve, es decir, la distribución no cambia durante esa ventana breve y la visita de una persona por lo general es independiente de la visita de otra. Sin embargo, si amplías esa ventana de tiempo, pueden aparecer las diferencias por temporadas en los visitantes de la página web.</p>
 "
-inferencia (inference)|"
+inferencia (inference) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>En aprendizaje automático, suele hacer referencia al proceso de realizar predicciones mediante la aplicación del modelo entrenado a <a href=""#unlabeled_example""><strong>ejemplos sin etiqueta</strong></a>.
 En estadística, la inferencia se refiere al proceso de ajustar los parámetros de una distribución condicionada a algunos datos observados. (Consulta el <a href=""https://en.wikipedia.org/wiki/Statistical_inference"">artículo de Wikipedia sobre inferencia estadística</a>).</p>
 "
-atributo de entrada (input function)|"
+atributo de entrada (input function) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>En TensorFlow, atributo que devuelve datos de entrada al método de entrenamiento, evaluación o predicción de un <a href=""#Estimators""><strong>estimador</strong></a>.  Por ejemplo, el atributo de entrada de entrenamiento devuelve un <a href=""#batch""><strong>lote</strong></a> de atributos y etiquetas del <a href=""#training_set""><strong>conjunto de entrenamiento</strong></a>.</p>
 "
-capa de entrada (input layer)|"
+capa de entrada (input layer) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>La primera capa (aquella que recibe los datos de entrada) de una <a href=""#neural_network""><strong>red neuronal</strong></a>.</p>
 "
-instancia (instance)|"
+instancia (instance) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Sinónimo de <a href=""#example""><strong>ejemplo</strong></a>.</p>
 "
-interpretabilidad (interpretability)|"
+interpretabilidad (interpretability) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Capacidad de explicar fácilmente las predicciones de un modelo. Los modelos profundos suelen ser no interpretables, es decir, las diferentes capas de un modelo profundo pueden ser difíciles de descifrar. Por el contrario, los modelos de regresión lineal y los <a href=""#wide_model""><strong>modelos amplios</strong></a> generalmente son mucho más interpretables.</p>
 "
-acuerdo entre evaluadores (inter-rater agreement)|"
+acuerdo entre evaluadores (inter-rater agreement) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Medida de la frecuencia con la que los evaluadores humanos están de acuerdo al realizar una tarea.
 Si los evaluadores no están de acuerdo, es posible que las instrucciones de la tarea se deban mejorar.
 En algunas ocasiones, también se denomina <strong>acuerdo entre anotadores</strong> o <strong>fiabilidad entre evaluadores</strong>.  Consulta también el <a href=""https://en.wikipedia.org/wiki/Cohen%27s_kappa"">coeficiente kappa de Cohen</a>, que es una de las mediciones del acuerdo entre evaluadores más populares.</p>
 "
-iteración (iteration)|"
+iteración (iteration) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Una sola actualización de los pesos de un modelo durante el entrenamiento.  Una iteración consiste en el cómputo de los gradientes de los parámetros con respecto a la pérdida en un solo <a href=""#batch""><strong>lote</strong></a> de datos.</p>
 
 "
-k-medios (k-means)|"
+k-medios (k-means) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Algoritmo de <a href=""#clustering""><strong>agrupamiento</strong></a> popular que agrupa ejemplos en el aprendizaje no supervisado. El algoritmo k-medios básicamente hace lo siguiente:</p>
 <ul>
 <li>Determina de forma iterativa los mejores puntos centrales k (conocidos como <a href=""#centroid""><strong>centroides</strong></a>).</li>
@@ -503,7 +503,7 @@ k-medios (k-means)|"
 <p>Supongamos que un fabricante quiere determinar los tamaños ideales de suéteres pequeños, medianos y grandes para perros. Los tres centroides identifican la altura media y el ancho medio de cada perro en ese grupo. Por lo tanto, el fabricante debería basar los tamaños de suéter en esos tres centroides.  Ten en cuenta que el centroide de un clúster <em>no</em> suele ser un ejemplo del clúster.</p>
 <p>En las ilustraciones anteriores se muestra el algoritmo k-medios para ejemplos con solo dos atributos (alto y ancho). Ten en cuenta que k-medios puede agrupar ejemplos en muchos atributos.</p>
 "
-k-mediana (k-median)|"
+k-mediana (k-median) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Algoritmo de agrupamiento estrechamente relacionado con <a href=""#k-means""><strong>k-medios</strong></a>. La diferencia práctica entre los dos es la siguiente:</p>
 <ul>
 <li>En k-medios, los centroides se determinan minimizando la suma de los <em>cuadrados</em> de la distancia entre un centroide candidato y cada uno de sus ejemplos.</li>
@@ -529,45 +529,45 @@ $$
 </div>
 
 "
-Keras|"
+Keras (Glosario sobre Aprendizaje Automático de Google)|"
 <p>API de aprendizaje automático muy utilizada de Python. <a href=""https://keras.io"">Keras</a> se ejecuta en diversos entornos de aprendizaje profundo, incluido TensorFlow, donde está disponible como <a href=""https://www.tensorflow.org/api_docs/python/tf/keras""><strong>tf.keras</strong></a>.</p>
 "
-máquinas de vectores soporte de Kernel (KSVM, Kernel Support Vector Machines)|"
+máquinas de vectores soporte de Kernel (KSVM, Kernel Support Vector Machines) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Algoritmo de clasificación que busca maximizar el margen entre las clases <a href=""#positive_class""><strong>positiva</strong></a> y <a href=""#negative_class""><strong>negativa</strong></a> mediante la proyección de vectores de datos de entrada a un espacio de dimensiones más altas.  Por ejemplo, considera un problema de clasificación en el que el conjunto de datos de entrada consta de cien atributos. Para maximizar el margen entre las clases positiva y negativa, las KSVM pueden asignar internamente esos atributos a un espacio de un millón de dimensiones.  Las KSVM usan un atributo de pérdida denominado <a href=""#hinge-loss"">pérdida de bisagra</a>.</p>
 
 "
-Pérdida L<sub>1</sub> (L1 loss)|"
+Pérdida L<sub>1</sub> (L1 loss) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Atributo de <a href=""#loss""><strong>pérdida</strong></a> que se basa en el valor absoluto de la diferencia entre los valores que está prediciendo un modelo y los valores reales de las <a href=""#label""><strong>etiquetas</strong></a>. La pérdida L<sub>1</sub> es menos sensible a los valores atípicos que la <a href=""#squared_loss""><strong>pérdida L<sub>2</sub></strong></a>.</p>
 "
-regularización L<sub>1</sub> (L1 regularization)|"
+regularización L<sub>1</sub> (L1 regularization) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Tipo de <a href=""#regularization""><strong>regularización</strong></a> que penaliza los pesos en proporción a la suma de los valores absolutos de los pesos. En los modelos que se basan en <a href=""#sparse_features""><strong>atributos dispersos</strong></a>, la regularización L<sub>1</sub> ayuda a acercar los pesos de los atributos irrelevantes o poco relevantes a 0, con lo cual esos atributos se quitan del modelo.
 Compara esto con la <a href=""#L2_regularization""><strong>regularización L<sub>2</sub></strong></a>.</p>
 "
-Pérdida L<sub>2</sub> (L2 loss)|"
+Pérdida L<sub>2</sub> (L2 loss) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Consulta la <a href=""#squared_loss""><strong>pérdida al cuadrado</strong></a>.</p>
 "
-regularización L<sub>2</sub> (L2 regularization)|"
+regularización L<sub>2</sub> (L2 regularization) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Tipo de <a href=""#regularization""><strong>regularización</strong></a> que penaliza los pesos en proporción a la suma de los <em>cuadrados</em> de los pesos.
 La regularización L<sub>2</sub> ayuda a llevar los pesos de valores atípicos (aquellos con valores negativos bajos o positivos altos) más cerca del 0, pero no exactamente a ese número.
 (Compara esto con la <a href=""#L1_regularization""><strong>regularización L1</strong></a>).
 La regularización L<sub>2</sub> siempre mejora la regularización en los modelos lineales.</p>
 "
-etiqueta (label)|"
+etiqueta (label) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>En el aprendizaje supervisado, parte de ""respuesta"" o ""resultado"" de un <a href=""#example""><strong>ejemplo</strong></a>. Cada ejemplo de un conjunto de datos etiquetado consiste en uno o más atributos y una etiqueta. Por ejemplo, en un conjunto de datos de casas, los atributos pueden incluir el número de habitaciones, el número de baños y la antigüedad de la propiedad, mientras que la etiqueta puede ser el precio del inmueble.
 En un conjunto de datos de detección de spam, los atributos pueden incluir el asunto, el remitente y el mensaje de correo electrónico en sí, mientras que la etiqueta probablemente sería ""es spam"" o ""no es spam"".</p>
 "
-ejemplo etiquetado (labeled example)|"
+ejemplo etiquetado (labeled example) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Ejemplo que contiene <a href=""#feature""><strong>atributos</strong></a> y una <a href=""#label""><strong>etiqueta</strong></a>. En el entrenamiento supervisado, los modelos aprenden de los ejemplos etiquetados.</p>
 "
-lambda|"
+lambda (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Sinónimo de <a href=""#regularization_rate""><strong>tasa de regularización</strong></a>.</p>
 <p>(Este es un término sobrecargado. Aquí nos centramos en la definición del término dentro de la <a href=""#regularization""><strong>regularización</strong></a>).</p>
 "
-capa (layer)|"
+capa (layer) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Conjunto de <a href=""#neuron""><strong>neuronas</strong></a> en una <a href=""#neural_network""><strong>red neuronal</strong></a> que procesan atributos de entrada, o el resultado de esas neuronas.</p>
 <p>Además, es una abstracción en TensorFlow. Las capas son atributos de Python que toman <a href=""#tensor""><strong>tensores</strong></a> y opciones de configuración como entrada y producen otros tensores como resultado. Una vez que se componen los tensores necesarios, el usuario puede convertir el resultado en un <a href=""#Estimators""><strong>estimador</strong></a> a través de un <a href=""#model_function""><strong>atributo del modelo</strong></a>.</p>
 "
-API de capas (tf.layers) (Layers API)|"
+API de capas (tf.layers) (Layers API) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>API de TensorFlow para construir una red neuronal <a href=""#deep_model""><strong>profunda</strong></a> como una composición de capas. Permite desarrollar diferentes tipos de <a href=""#layer""><strong>capas</strong></a>, como las siguientes:</p>
 <ul>
 <li><code>tf.layers.Dense</code> para obtener una <a href=""#fully_connected_layer""><strong>capa completamente conectada</strong></a></li>
@@ -577,29 +577,29 @@ API de capas (tf.layers) (Layers API)|"
 <p>La API de capas sigue las convenciones de la API de capas de <a href=""#Keras""><strong>Keras</strong></a>.
 Esto significa que, aparte de un prefijo diferente, todos los atributos de la API de capas tienen los mismos nombres y firmas que sus contrapartes en la API de capas de Keras.</p>
 "
-tasa de aprendizaje (learning rate)|"
+tasa de aprendizaje (learning rate) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Escalar que se usa para entrenar un modelo a través del descenso de gradientes. Durante cada iteración, el algoritmo de <a href=""#gradient_descent""><strong>descenso de gradientes</strong></a> multiplica la tasa de aprendizaje por el gradiente.  El producto resultante se denomina <strong>paso de gradiente</strong>.</p>
 <p>La tasa de aprendizaje es un <a href=""#hyperparameter""><strong>hiperparámetro</strong></a> fundamental.</p>
 "
-regresión de mínimos cuadrados (least squares regression)|"
+regresión de mínimos cuadrados (least squares regression) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Modelo de regresión lineal entrenado mediante la minimización de la <a href=""#L2_loss""><strong>pérdida L<sub>2</sub></strong></a>.</p>
 "
-regresión lineal (linear regression)|"
+regresión lineal (linear regression) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Tipo de <a href=""#regression_model""><strong>modelo de regresión</strong></a> que da como resultado un valor continuo a partir de una combinación lineal de atributos de entrada.</p>
 "
-regresión logística (logistic regression)|"
+regresión logística (logistic regression) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Modelo que genera una probabilidad para cada valor de etiqueta discreto posible en problemas de clasificación al aplicar una <a href=""#sigmoid_function""><strong>función sigmoide</strong></a> a una predicción lineal. Si bien la regresión logística suele usarse en problemas de <a href=""#binary_classification""><strong>clasificación binaria</strong></a>, también se puede utilizar en problemas de clasificación de <a href=""#multi-class""><strong>clases múltiples</strong></a> (en los que se denomina <strong>regresión logística de clases múltiples</strong> o <strong>regresión multinomial</strong>).</p>
 "
-logit|"
+logit (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Vector de predicciones sin procesar (no normalizadas) que genera un modelo de clasificación, que comúnmente se pasa a una función de normalización.
 Si el modelo está resolviendo un problema de clasificación de clases múltiples, los logits generalmente se convierten en una entrada para el <a href=""https://www.tensorflow.org/api_docs/python/tf/nn/softmax_cross_entropy_with_logits_v2"">atributo de softmax</a>,
 que luego genera un vector de probabilidades (normalizadas) con un valor para cada clase posible.</p>
 <p>Además, en ocasiones los logits se refieren al elemento inverso de la <a href=""#sigmoid_function""><strong>función sigmoide</strong></a>. Para obtener más información, consulta <a href=""https://www.tensorflow.org/api_docs/python/tf/nn/sigmoid_cross_entropy_with_logits"">tf.nn.sigmoid_cross_entropy_with_logits</a>.</p>
 "
-pérdida logística (log loss)|"
+pérdida logística (log loss) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Atributo de <a href=""#loss""><strong>pérdida</strong></a> que se usa en la <a href=""#logistic_regression""><strong>regresión logística</strong></a> binaria.</p>
 "
-logaritmo de probabilidad (log-odds)|"
+logaritmo de probabilidad (log-odds) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Logaritmo de las probabilidades de que ocurra algún evento.</p>
 <p>Si el evento se refiere a una probabilidad binaria, entonces las <strong>probabilidades</strong> se refieren a la relación entre la probabilidad de éxito (p) y la de fracaso (1-p).  Por ejemplo, supongamos que un evento dado tiene un 90% de probabilidad de éxito y un 10% de fracaso. En este caso, las probabilidades se calculan de la siguiente manera:</p>
 <div>
@@ -621,33 +621,33 @@ $$
 
 <p>Los logaritmos de probabilidad son el inverso de la <a href=""#sigmoid_function""><strong>función sigmoide</strong></a>.</p>
 "
-pérdida (loss)|"
+pérdida (loss) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Medición de la distancia entre las <a href=""#prediction""><strong>predicciones</strong></a> de un modelo y su <a href=""#label""><strong>etiqueta</strong></a>. Para describirla de manera más pesimista, se trata de una medición de qué tan malo es el modelo. Para determinar este valor, un modelo debe definir un atributo de pérdida. Por ejemplo, los modelos de regresión lineal generalmente usan el <a href=""#MSE""><strong>error cuadrático medio</strong></a> para un atributo de pérdida, mientras que los de regresión logística usan la <a href=""#Log_Loss""><strong>pérdida logística</strong></a>.</p>
 
 "
-aprendizaje automático (machine learning)|"
+aprendizaje automático (machine learning) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Programa o sistema que desarrolla (entrena) un modelo predictivo a partir de datos de entrada.
 El sistema usa el modelo aprendido para realizar predicciones útiles a partir de datos nuevos (nunca antes vistos) obtenidos de la misma distribución que la que se usó para entrenar el modelo. El aprendizaje automático también se conoce como el campo de estudio relacionado con estos programas o sistemas.</p>
 "
-error cuadrático medio (MSE, mean squared error)|"
+error cuadrático medio (MSE, mean squared error) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Promedio de la pérdida al cuadrado de cada ejemplo. El error cuadrático medio se calcula dividiendo la <a href=""#squared_loss""><strong>pérdida al cuadrado</strong></a> por el número de <a href=""#example""><strong>ejemplos</strong></a>. Los valores que muestra <a href=""#TensorFlow_Playground""><strong>TensorFlow Playground</strong></a> para la ""pérdida de entrenamiento"" y la ""pérdida de prueba"" son errores cuadráticos medios.</p>
 "
-métrica (metric)|"
+métrica (metric) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Número de gran interés. Puede optimizarse directamente o no en un sistema de aprendizaje automático. Una métrica que el sistema intenta optimizar se denomina un <a href=""#objective""><strong>objetivo</strong></a>.</p>
 "
-API de métricas (tf.metrics) (Metrics API)|"
+API de métricas (tf.metrics) (Metrics API) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>API de TensorFlow para evaluar modelos. Por ejemplo, <code>tf.metrics.accuracy</code> determina con qué frecuencia coinciden las predicciones de un modelo con las etiquetas. Al escribir un <a href=""#custom_estimator""><strong>Estimador personalizado</strong></a>, invocas los atributos de la API de Metrics para especificar cómo se debe evaluar el modelo.</p>
 "
-minilote (mini-batch)|"
+minilote (mini-batch) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Subconjunto pequeño seleccionado al azar de entre todo el lote de <a href=""#example""><strong>ejemplos</strong></a> que se ejecuta junto en una sola iteración de entrenamiento o inferencia. El <a href=""#batch_size""><strong>tamaño del lote</strong></a> de un minilote generalmente es entre 10 y 1,000. Es mucho más eficaz calcular la pérdida en un minilote que en todos los datos de entrenamiento.</p>
 "
-descenso de gradientes estocástico (SGD) de minilote (mini-batch stochastic gradient descent, SGD)|"
+descenso de gradientes estocástico (SGD) de minilote (mini-batch stochastic gradient descent, SGD) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Algoritmo de <a href=""#gradient_descent""><strong>descenso de gradientes</strong></a> que usa <a href=""#mini-batch""><strong>minilotes</strong></a>. En otras palabras, el SGD de minilote estima el gradiente en función de un subconjunto pequeño de los datos de entrenamiento. El <a href=""#SGD""><strong>SGD convencional</strong></a> usa un minilote de tamaño 1.</p>
 "
-AA (ML)|"
+AA (ML) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Abreviatura de <a href=""#machine_learning""><strong>aprendizaje automático</strong></a>.</p>
 "
-modelo (model)|"
+modelo (model) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Representación de lo que un sistema de AA aprendió de los datos de entrenamiento.
 Este es un término sobrecargado que puede tener cualquiera de los siguientes dos significados relacionados:</p>
 <ul>
@@ -655,52 +655,52 @@ Este es un término sobrecargado que puede tener cualquiera de los siguientes do
 <li>Los sesgos y los pesos particulares de ese gráfico de TensorFlow, que se determinan mediante <a href=""#model_training""><strong>entrenamiento</strong></a>.</li>
 </ul>
 "
-atributo de modelo (model function)|"
+atributo de modelo (model function) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Función dentro de un <a href=""#Estimators""><strong>estimador</strong></a> que implementa entrenamiento, inferencias y evaluación de AA. Por ejemplo, la parte de entrenamiento de un atributo de modelo podría manejar tareas como definir la topología de una red neuronal profunda o identificar su función <a href=""#optimizer""><strong>optimizadora</strong></a>.
 Cuando se utilizan <a href=""#pre-made_Estimator""><strong>Estimadores prediseñados</strong></a>, alguien ya escribió el atributo del modelo.  Cuando se utilizan <a href=""#custom_estimator""><strong>Estimadores personalizados</strong></a>, es necesario escribir el atributo del modelo.</p>
 <p>Para obtener detalles sobre cómo escribir un atributo de modelo, consulta el artículo <a href=""https://www.tensorflow.org/get_started/custom_estimators"">Cómo crear Estimadores personalizados</a>.</p>
 "
-entrenamiento de modelos (model training)|"
+entrenamiento de modelos (model training) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Proceso mediante el que se determina el mejor <a href=""#model""><strong>modelo</strong></a>.</p>
 "
-momento (Momentum)|"
+momento (Momentum) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Algoritmo de descenso de gradientes sofisticado en el que un paso de aprendizaje depende no solo de la derivada en el paso actual, sino también de las derivadas de los pasos que lo anteceden inmediatamente. El momento implica calcular un promedio de movimiento ponderado exponencialmente de los gradientes en el tiempo, análogo al momento en física.  En algunas ocasiones, el momento previene que el aprendizaje se atasque en mínimos locales.</p>
 "
-clasificación de clases múltiples (multi-class classification)|"
+clasificación de clases múltiples (multi-class classification) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Problemas de clasificación que distinguen entre más de dos clases. Por ejemplo, hay aproximadamente 128 especies de arces, de modo que un modelo que categorizara especies de arces sería de clases múltiples. A la inversa, un modelo que divida los correos electrónicos en solo dos categorías (<em>es spam</em> y <em>no es spam</em>) sería un <a href=""#binary_classification""><strong>modelo de clasificación binaria</strong></a>.</p>
 "
-clasificación multinomial (multinomial classification)|"
+clasificación multinomial (multinomial classification) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Sinónimo de <a href=""#multi-class""><strong>clasificación de clases múltiples</strong></a>.</p>
 
 "
-trampa de N/A (NaN trap)|"
+trampa de N/A (NaN trap) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Cuando un número del modelo se vuelve <a href=""https://en.wikipedia.org/wiki/NaN"">N/A</a> durante el entrenamiento, lo que causa que muchos otros números del modelo eventualmente se vuelvan un N/A.</p>
 <p>N/A significa ""No es un número"".</p>
 "
-clase negativa (negative class)|"
+clase negativa (negative class) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>En la <a href=""#binary_classification""><strong>clasificación binaria</strong></a>, una clase se expresa como positiva y la otra como negativa. La clase positiva es lo que estamos buscando y la clase negativa es la otra posibilidad.
 Por ejemplo, la clase negativa en un examen médico puede ser ""no es tumor"".
 La clase negativa en un clasificador de correo electrónico puede ser ""no es spam"".
 Consulta también la <a href=""#positive_class""><strong>clase positiva</strong></a>.</p>
 "
-red neuronal (neural network)|"
+red neuronal (neural network) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Modelo que, inspirado en el cerebro, está compuesto de capas (al menos una de las cuales está <a href=""#hidden_layer""><strong>oculta</strong></a>) que consisten en unidades conectadas simples o <a href=""#neuron""><strong>neuronas</strong></a> seguidas de no linealidades.</p>
 "
-neurona (neuron)|"
+neurona (neuron) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Nodo en una <a href=""#neural_network""><strong>red neuronal</strong></a> que generalmente toma varios valores de entrada y genera un valor de salida. La neurona calcula el valor de salida mediante la aplicación una <a href=""#activation_function""><strong>función de activación</strong></a> (transformación no lineal) a una suma ponderada de valores de entrada.</p>
 "
-nodo (node)|"
+nodo (node) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Término sobrecargado que significa una de las siguientes opciones:</p>
 <ul>
 <li>Una neurona en una <a href=""#hidden_layer""><strong>capa oculta</strong></a></li>
 <li>Una operación en un <a href=""#graph""><strong>gráfico</strong></a> de TensorFlow</li>
 </ul>
 "
-normalización (normalization)|"
+normalización (normalization) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Proceso de convertir un rango real de valores en un rango estándar de valores, generalmente -1 a +1 o 0 a 1. Por ejemplo, imagina que el rango natural de un atributo específico es 800 a 6,000. A través de resta y división, puedes normalizar esos valores en el rango -1 a +1.</p>
 <p>Consulta también <a href=""#scaling""><strong>ajuste</strong></a>.</p>
 "
-datos numéricos (numerical data)|"
+datos numéricos (numerical data) (Glosario sobre Aprendizaje Automático de Google)|"
 <p><a href=""#feature""><strong>Atributos</strong></a> representados como números enteros o de valores reales.
 Por ejemplo, en un modelo de bienes raíces, probablemente representarías el tamaño de una casa (en pies cuadrados o metros cuadrados) como datos numéricos.  La representación de un atributo como datos numéricos indica que los valores del atributo tienen una relación <em>matemática</em> entre sí y posiblemente con la etiqueta.
 Por ejemplo, la representación del tamaño de una casa como datos numéricos indica que una casa de 200 metros cuadrados es dos veces más grande que una casa de 100 metros cuadrados.
@@ -709,17 +709,17 @@ Además, es probable que el número de metros cuadrados de una casa tenga una re
 Por lo tanto, los códigos postales deben representarse como <a href=""#categorical_data""><strong>datos categóricos</strong></a>.</p>
 <p>En algunas ocasiones, las funciones numéricas se denominan <a href=""#continuous_feature""><strong>atributos continuos</strong></a>.</p>
 "
-Numpy|"
+Numpy (Glosario sobre Aprendizaje Automático de Google)|"
 <p><a href=""http://www.numpy.org/"">Biblioteca matemática de código abierto</a> que proporciona operaciones entre matrices eficaces en Python. <a href=""#pandas""><strong>Pandas</strong></a> se basa en Numpy.</p>
 
 "
-objetivo (objective)|"
+objetivo (objective) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Métrica que tu algoritmo intenta optimizar.</p>
 "
-inferencia sin conexión (offline inference)|"
+inferencia sin conexión (offline inference) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Generación de un grupo de <a href=""#prediction""><strong>predicciones</strong></a>, su almacenamiento y la posterior recuperación de esas predicciones a demanda. Compara esto con la <a href=""#online_inference""><strong>inferencia en línea</strong></a>.</p>
 "
-codificación de un solo 1 (one-hot encoding)|"
+codificación de un solo 1 (one-hot encoding) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Vector disperso con las siguientes características:</p>
 <ul>
 <li>Un elemento se establece a 1.</li>
@@ -727,11 +727,11 @@ codificación de un solo 1 (one-hot encoding)|"
 </ul>
 <p>La codificación de un solo 1 se usa comúnmente para representar cadenas de caracteres o identificadores que tienen un conjunto finito de valores posibles. Por ejemplo, imagina que un determinado conjunto de datos sobre botánica registra 15,000 especies diferentes, cada una señalada con un identificador de cadenas de caracteres único. Como parte de la ingeniería de atributos, es probable que codifiques esos identificadores de cadenas de caracteres como vectores de un solo 1, en los que el vector tiene un tamaño de 15,000.</p>
 "
-aprendizaje en un intento (one-shot learning)|"
+aprendizaje en un intento (one-shot learning) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Enfoque de aprendizaje automático que suele usarse para la clasificación de objetos y que está diseñado para aprender clasificadores efectivos a partir de un solo ejemplo de entrenamiento.</p>
 <p>Consulta también <a href=""#few-shot_learning""><strong>aprendizaje en pocos intentos</strong></a>.</p>
 "
-uno frente a todos (one-vs.-all)|"
+uno frente a todos (one-vs.-all) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>En un problema de clasificación dado con N soluciones posibles, una solución de uno frente a todos consiste en N <a href=""#binary_classification""><strong>clasificadores binarios</strong></a> independientes, es decir, un clasificador binario para cada resultado posible. Por ejemplo, dado un modelo que clasifica ejemplos como animal, vegetal o mineral, una solución de uno frente a todos sería proporcionar los siguientes tres clasificadores binarios independientes:</p>
 <ul>
 <li>animal frente a no animal</li>
@@ -739,13 +739,13 @@ uno frente a todos (one-vs.-all)|"
 <li>mineral frente a no mineral</li>
 </ul>
 "
-inferencia en línea (online inference)|"
+inferencia en línea (online inference) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Generación de <a href=""#prediction""><strong>predicciones</strong></a> a demanda. Compara esto con la <a href=""#offline_inference""><strong>inferencia sin conexión</strong></a>.</p>
 "
-operación (op, Operation)|"
+operación (op, Operation) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Nodo en el gráfico de TensorFlow. En TensorFlow, cualquier procedimiento que crea, manipula o destruye un <a href=""#tensor""><strong>tensor</strong></a> es una operación. Por ejemplo, una multiplicación de matrices es una operación que toma dos Tensors como entrada y genera un Tensor como resultado.</p>
 "
-optimizador (optimizer)|"
+optimizador (optimizer) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Implementación específica del algoritmo de <a href=""#gradient_descent""><strong>descenso de gradiente</strong></a>. La clase de base de TensorFlow para los optimizadores es <a href=""https://www.tensorflow.org/api_docs/python/tf/train/Optimizer"">tf.train.Optimizer</a>.
 Es posible que diferentes optimizadores aprovechen uno o más de los siguientes conceptos para mejorar la efectividad del descenso de gradientes en un <a href=""#training_set""><strong>conjunto de entrenamiento</strong></a> dado:</p>
 <ul>
@@ -756,7 +756,7 @@ Es posible que diferentes optimizadores aprovechen uno o más de los siguientes 
 </ul>
 <p>Incluso puedes imaginar un <a href=""https://arxiv.org/abs/1606.04474"">optimizador impulsado por NN</a>.</p>
 "
-valores atípicos (outliers)|"
+valores atípicos (outliers) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Valores distantes de la mayoría de los demás valores. En el aprendizaje automático, cualquiera de los siguientes son valores atípicos:</p>
 <ul>
 <li><a href=""#weight""><strong>Pesos</strong></a> con valores absolutos altos.</li>
@@ -765,40 +765,40 @@ valores atípicos (outliers)|"
 </ul>
 <p>Los valores atípicos suelen causar problemas en el entrenamiento del modelo.</p>
 "
-capa de salida (output layer)|"
+capa de salida (output layer) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Capa ""final"" de una red neuronal. La capa que contiene las respuestas.</p>
 "
-sobreajuste (overfitting)|"
+sobreajuste (overfitting) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Creación de un modelo que coincide de tal manera con los <a href=""#training_set""><strong>datos de entrenamiento</strong></a> que no puede realizar predicciones correctas con datos nuevos.</p>
 
 "
-Pandas|"
+Pandas (Glosario sobre Aprendizaje Automático de Google)|"
 <p>API de análisis de datos orientada hacia las columnas. Muchos marcos de trabajo de AA, incluido TensorFlow, admiten las estructuras de datos de Pandas como entrada. Consulta la <a href=""http://pandas.pydata.org/"">documentación de Pandas</a>.</p>
 "
-parámetro (parameter)|"
+parámetro (parameter) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Variable de un modelo que el sistema de AA entrena por su cuenta. Por ejemplo, los <a href=""#weight""><strong>pesos</strong></a> son parámetros que el sistema de AA aprende de forma gradual a través de sucesivas iteraciones de entrenamiento. Compara esto con el <a href=""#hyperparameter""><strong>hiperparámetro</strong></a>.</p>
 "
-Servidor de parámetros (PS, Parameter Server)|"
+Servidor de parámetros (PS, Parameter Server) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Tarea que mantiene un registro de los <a href=""#parameter""><strong>parámetros</strong></a> de un modelo en una configuración distribuida.</p>
 "
-actualización de parámetros (parameter update)|"
+actualización de parámetros (parameter update) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Operación de ajustar los <a href=""#parameter""><strong>parámetros</strong></a> de un modelo durante el entrenamiento, generalmente dentro de una sola iteración de <a href=""#gradient_descent""><strong>descenso de gradientes</strong></a>.</p>
 "
-derivada parcial (partial derivative)|"
+derivada parcial (partial derivative) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Derivada en la que todas menos una de las variables se consideran una constante.
 Por ejemplo, la derivada parcial de <em>f(x, y)</em> con respecto a <em>x</em> es la derivada de <em>f</em>, considerada como una función de <em>x</em> sola (es decir, <em>y</em> se mantiene constante). La derivada parcial de <em>f</em> con respecto a <em>x</em> se centra solamente en cómo cambia <em>x</em> e ignora todas las otras variables de la ecuación.</p>
 "
-estrategia de partición (partitioning strategy)|"
+estrategia de partición (partitioning strategy) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Algoritmo por el que las variables se dividen en <a href=""#Parameter_Server""><strong>servidores de parámetros</strong></a>.</p>
 "
-rendimiento (performance)|"
+rendimiento (performance) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Término sobrecargado con los siguientes significados:</p>
 <ul>
 <li>El significado tradicional dentro de la ingeniería de software. A saber: ¿Qué tan rápidamente (o eficazmente) se ejecuta este software?</li>
 <li>El significado dentro del AA. Aquí, el rendimiento responde a la siguiente pregunta: ¿qué tan correcto es este <a href=""#model""><strong>modelo</strong></a>? Esto significa, ¿qué tan buenas son las predicciones del modelo?</li>
 </ul>
 "
-perplejidad (perplexity)|"
+perplejidad (perplexity) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Medición de qué tan bien está logrando su tarea el <a href=""#model""><strong>modelo</strong></a>.
 Por ejemplo, imagina que tu tarea es leer las primeras letras que un usuario está escribiendo en el teclado de un smartphone y ofrecer una lista de posibles palabras para completarlas. La perplejidad, P, para esta tarea es aproximadamente el número de hipótesis que debes ofrecer para que tu lista contenga la palabra real que el usuario intenta escribir.</p>
 <p>La perplejidad está relacionada con la <a href=""#cross-entropy""><strong>entropía cruzada</strong></a> de la siguiente manera:</p>
@@ -807,10 +807,10 @@ $$P= 2^{-\text{entropía cruzada}}$$
 </div>
 
 "
-canalización (pipeline)|"
+canalización (pipeline) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Infraestructura que rodea un algoritmo de aprendizaje automático. Una canalización incluye la recopilación de los datos, la colocación de los datos en archivos de datos de entrenamiento, el entrenamiento de uno o más modelos y la exportación de los modelos para la producción.</p>
 "
-reducción (pooling)|"
+reducción (pooling) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Reducir una matriz (o matrices) creada por una <a href=""#convolutional_layer""><strong>capa convolucional</strong></a> anterior a una matriz más pequeña.
 Por lo general, la reducción implica tomar el valor máximo o promedio en el área a ser reducida. Por ejemplo, supongamos que tenemos la siguiente matriz de 3 x 3:</p>
 <p>
@@ -829,11 +829,11 @@ Supongamos que cada operación de reducción elige el valor máximo de las cuatr
 Por lo general, las aplicaciones de series de tiempo se refieren a la reducción como <strong>reducción temporal</strong>.
 De manera menos formal, la reducción a menudo se denomina <strong>submuestreo</strong> o <strong>reducción de muestreo</strong>.</p>
 "
-clase positiva (positive class)|"
+clase positiva (positive class) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>En la <a href=""#binary_classification""><strong>clasificación binaria</strong></a>, las dos clases posibles se etiquetan como positiva y negativa. El resultado positivo es aquello que estamos probando. (Es cierto que simultáneamente estamos probando ambos resultados, pero sigamos el juego). Por ejemplo, la clase positiva en un examen médico puede ser ""es tumor"". La clase positiva en un clasificador de correo electrónico puede ser ""es spam"".</p>
 <p>Compara esto con la <a href=""#negative_class""><strong>clase negativa</strong></a>.</p>
 "
-precisión (precision)|"
+precisión (precision) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Métrica para los <a href=""#classification_model""><strong>modelos de clasificación</strong></a>. La precisión identifica la frecuencia con la que un modelo predijo correctamente la <a href=""#positive_class""><strong>clase positiva</strong></a>. Esto significa lo siguiente:</p>
 <div>
 $$\text{Precisión} =
@@ -841,57 +841,57 @@ $$\text{Precisión} =
 </div>
 
 "
-predicción (prediction)|"
+predicción (prediction) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Resultado de un modelo cuando se le proporciona un <a href=""#example""><strong>ejemplo</strong></a> de entrada.</p>
 "
-sesgo de predicción (prediction bias)|"
+sesgo de predicción (prediction bias) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Valor que indica qué tan alejado está el promedio de <a href=""#prediction""><strong>predicciones</strong></a> del promedio de <a href=""#label""><strong>etiquetas</strong></a> en el conjunto de datos.</p>
 "
-Estimador prediseñado (pre-made Estimator)|"
+Estimador prediseñado (pre-made Estimator) (Glosario sobre Aprendizaje Automático de Google)|"
 <p><a href=""#Estimator""><strong>Estimador</strong></a> que alguien desarrolló.
 TensorFlow proporciona varios Estimadores prediseñados, incluidos <code>DNNClassifier</code>,
 <code>DNNRegressor</code> y <code>LinearClassifier</code>.  Puedes crear tus propios Estimadores prediseñados a través de <a href=""https://www.tensorflow.org/extend/estimators"">estas instrucciones</a>.</p>
 "
-modelo previamente entrenado (pre-trained model)|"
+modelo previamente entrenado (pre-trained model) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Modelos o componentes del modelo (como las <a href=""#embeddings""><strong>incorporaciones</strong></a>) que ya se entrenaron. En algunas ocasiones, proporcionarás incorporaciones previamente entrenadas en una <a href=""#neural_network""><strong>red neuronal</strong></a>. En otras, el modelo entrenará las incorporaciones por su cuenta en lugar de basarse en las incorporaciones previamente entrenadas.</p>
 "
-conocimiento previo (prior belief)|"
+conocimiento previo (prior belief) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Tu conocimiento acerca de los datos antes de que empieces a entrenarlos. Por ejemplo, la <a href=""#L2_regularization""><strong>regularización L<sub>2</sub></strong></a> se basa en una idea anterior de que los <a href=""#weight""><strong>pesos</strong></a> deben ser pequeños y, normalmente, estar distribuidos alrededor de cero.</p>
 
 "
-cola (queue)|"
+cola (queue) (Glosario sobre Aprendizaje Automático de Google)|"
 <p><a href=""#Operation""><strong>Operación</strong></a> de TensorFlow que implementa una estructura de datos en cola. Por lo general se usa en Entrada/Salida.</p>
 
 "
-rango (rank)|"
+rango (rank) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Término sobrecargado en AA que puede significar cualquiera de las siguientes opciones:</p>
 <ul>
 <li>El número de dimensiones en un <a href=""#tensor""><strong>tensor</strong></a>. Por ejemplo, un escalar tiene rango 0, un vector tiene rango 1 y una matriz tiene rango 2.</li>
 <li>La posición ordinal de una clase en un problema de AA que categoriza clases de la más alta a la más baja. Por ejemplo, un sistema de clasificación de conducta podría ordenar las recompensas para un perro de la más alta (un filete) a la más baja (un repollo marchitado).</li>
 </ul>
 "
-evaluador (rater)|"
+evaluador (rater) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Persona que proporciona <a href=""#label""><strong>etiquetas</strong></a> para los <a href=""#example""><strong>ejemplos</strong></a>.
 También se lo denomina ""anotador"".</p>
 "
-recuperación (recall)|"
+recuperación (recall) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Métrica para los <a href=""#classification_model""><strong>modelos de clasificación</strong></a> que responde a la siguiente pregunta: de todas las etiquetas positivas posibles, ¿cuántas identificó correctamente el modelo? Esto significa lo siguiente:</p>
 <p>$$\text{Recuperación} =
 \frac{\text{Verdaderos positivos}} {\text{Verdaderos positivos} + \text{Falsos negativos}}
 $$</p>
 "
-unidad lineal rectificada (ReLU, Rectified Linear Unit)|"
+unidad lineal rectificada (ReLU, Rectified Linear Unit) (Glosario sobre Aprendizaje Automático de Google)|"
 <p><a href=""#activation_function""><strong>Atributo de activación</strong></a> con las siguientes reglas:</p>
 <ul>
 <li>Si la entrada es negativa o cero, el resultado es 0.</li>
 <li>Si la entrada es positiva, el resultado es igual a la entrada.</li>
 </ul>
 "
-modelo de regresión (regression model)|"
+modelo de regresión (regression model) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Tipo de modelo que da como resultado valores continuos (generalmente de punto flotante).
 Compara esto con los <a href=""#classification_model""><strong>modelos de clasificación</strong></a>, que generalmente arrojan valores discretos, como ""lirio de día"" o ""lirio atigrado"".</p>
 "
-regularización (regularization)|"
+regularización (regularization) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Penalización sobre la complejidad de un modelo. La regularización ayuda a prevenir el <a href=""#overfitting""><strong>sobreajuste</strong></a>. Entre los diferentes tipos de regularización se incluyen los siguientes:</p>
 <ul>
 <li><a href=""#L1_regularization""><strong>regularización L<sub>1</sub></strong></a></li>
@@ -900,7 +900,7 @@ regularización (regularization)|"
 <li><a href=""#early_stopping""><strong>interrupción anticipada</strong></a> (este no es un método de regularización formal, pero puede limitar el sobreajuste de manera eficaz)</li>
 </ul>
 "
-tasa de regularización (regularization rate)|"
+tasa de regularización (regularization rate) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Valor escalar, representado por lambda, que especifica la importancia relativa del atributo de regularización. La siguiente ecuación de <a href=""#loss""><strong>pérdida</strong></a> simplificada muestra la influencia de la tasa de regularización:</p>
 <div>
 $$\text{minimizar(atributo de pérdida + }\lambda\text{(atributo de regularización))}$$
@@ -908,47 +908,47 @@ $$\text{minimizar(atributo de pérdida + }\lambda\text{(atributo de regularizaci
 
 <p>Al aumentar la tasa de regularización, se reduce el <a href=""#overfitting""><strong>sobreajuste</strong></a>, pero es posible que el modelo sea menos <a href=""#accuracy""><strong>exacto</strong></a>.</p>
 "
-representación (representation)|"
+representación (representation) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Proceso de asignar datos a <a href=""#feature""><strong>atributos</strong></a> útiles.</p>
 "
-curva de rendimiento diagnóstico (ROC, receiver operating characteristic)|"
+curva de rendimiento diagnóstico (ROC, receiver operating characteristic) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Curva de la <a href=""#TP_rate""><strong>tasa de verdaderos positivos</strong></a> frente a la <a href=""#FP_rate""><strong>tasa de falsos positivos</strong></a> en diferentes <a href=""#classification_threshold""><strong>umbrales de clasificación</strong></a>. Consulta también el <a href=""#AUC""><strong>AUC</strong></a>.</p>
 "
-directorio raíz (root directory)|"
+directorio raíz (root directory) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Directorio que especificas para alojar subdirectorios del control de TensorFlow y archivos de eventos de varios modelos.</p>
 "
-error de la raíz cuadrada de la media (RMSE, Root Mean Squared Error)|"
+error de la raíz cuadrada de la media (RMSE, Root Mean Squared Error) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Raíz cuadrada del <a href=""#MSE""><strong>error cuadrático medio</strong></a>.</p>
 "
-invariancia rotacional (rotational invariance)|"
+invariancia rotacional (rotational invariance) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>En un problema de clasificación de imágenes, es la capacidad de un algoritmo para clasificar correctamente imágenes, incluso cuando cambia la orientación de la imagen. Por ejemplo, el algoritmo puede identificar una raqueta de tenis aun si apunta hacia arriba, hacia los lados o hacia abajo. Tenga en cuenta que la invariancia rotacional no siempre es deseable; por ejemplo, un 9 al revés no debe clasificarse como un 9.</p>
 <p>Consulta también <a href=""#translational_invariance""><strong>invariancia traslacional</strong></a> o <a href=""#size_invariance""><strong>invariancia de tamaño</strong></a>.</p>
 
 "
-SavedModel|"
+SavedModel (Glosario sobre Aprendizaje Automático de Google)|"
 <p>El formato recomendado para guardar y recuperar modelos de TensorFlow. SavedModel es un formato de serialización recuperable y neutral con respecto al lenguaje que permite que las herramientas y los sistemas de nivel superior produzcan, consuman y transformen modelos de TensorFlow.</p>
 <p>Para obtener información completa, consulta la sección sobre <a href=""https://www.tensorflow.org/programmers_guide/saved_model"">cómo guardar y restaurar</a> en la Guía para programadores de TensorFlow.</p>
 "
-Saver|"
+Saver (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Un <a href=""https://www.tensorflow.org/api_docs/python/tf/train/Saver"">objeto de TensorFlow</a> responsable de guardar controles del modelo.</p>
 "
-ajuste (scaling)|"
+ajuste (scaling) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Práctica que se usa comúnmente en la <a href=""#feature_engineering""><strong>ingeniería de atributos</strong></a> para acotar el rango de valores de un atributo a fin de que coincida con el rango de los otros atributos en el conjunto de datos. Por ejemplo, imagina que quieres que todos los atributos de punto flotante en el conjunto de datos tengan un rango de 0 a 1. Dado el rango de un atributo en particular de 0 a 500, podrías ajustar ese atributo al dividir cada valor por 500.</p>
 <p>Consulta también la <a href=""#normalization""><strong>normalización</strong></a>.</p>
 "
-scikit-learn|"
+scikit-learn (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Plataforma popular de AA de código abierto. Consulta <a href=""http://www.scikit-learn.org/"">www.scikit-learn.org</a>.</p>
 "
-aprendizaje semisupervisado (semi-supervised learning)|"
+aprendizaje semisupervisado (semi-supervised learning) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Entrenamiento de un modelo sobre datos en el que algunos de los ejemplos de entrenamiento tienen etiquetas, pero otros no. Una técnica del aprendizaje semisupervisado es inferir etiquetas para los ejemplos no etiquetados y entrenar sobre las etiquetas inferidas para crear un modelo nuevo. El aprendizaje semisupervisado puede ser útil si es costoso obtener las etiquetas, aun cuando los ejemplos no etiquetados son abundantes.</p>
 "
-modelo de secuencia (sequence model)|"
+modelo de secuencia (sequence model) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Modelo cuyas entradas tienen una dependencia secuencial. Por ejemplo, la predicción del siguiente video mirado de una secuencia de videos mirados anteriormente.</p>
 "
-sesión (session-tf.session)|"
+sesión (session-tf.session) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Objeto que encapsula el estado del tiempo de ejecución de TensorFlow y ejecuta todo o parte de un <a href=""#graph""><strong>gráfico</strong></a>. Al usar la API de TensorFlow de bajo nivel, uno crea y administra uno o mas objetos <code>tf.session</code> de forma directa. Al usar la API de Estimators, son los Estimadores los que crean instancias de objetos de sesión.</p>
 "
-atributo sigmoide (sigmoid function)|"
+atributo sigmoide (sigmoid function) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Atributo que asigna resultados de regresión multinomial o logística (probabilidades logísticas) a probabilidades, y devuelve un valor entre 0 y 1.  El atributo sigmoide tiene la siguiente fórmula:</p>
 <div>
 $$y = \frac{1}{1 + e^{-\sigma}}$$
@@ -962,22 +962,22 @@ $$\sigma = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 <p>En otras palabras, el atributo sigmoide convierte \(\sigma\) en una probabilidad entre 0 y 1.</p>
 <p>En algunas <a href=""#neural_network""><strong>redes neuronales</strong></a>, el atributo sigmoide actúa como <a href=""#activation_function""><strong>atributo de activación</strong></a>.</p>
 "
-invariancia de tamaño (size invariance)|"
+invariancia de tamaño (size invariance) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>En un problema de clasificación de imágenes, la capacidad de un algoritmo para clasificar correctamente imágenes, incluso cuando cambia el tamaño de la imagen. Por ejemplo, el algoritmo aún puede identificar a un gato si consume 2M píxeles o 200K píxeles. Tengamos en cuenta que incluso los mejores algoritmos de clasificación de imágenes tienen límites prácticos sobre la invariancia de tamaño.
 Por ejemplo, es poco probable que un algoritmo (o persona) clasifique correctamente una imagen de gato que consuma solo 20 píxeles.</p>
 <p>Consulta también <a href=""#translational_invariance""><strong>invariancia traslacional</strong></a> o <a href=""#rotational_invariance""><strong>invariancia rotacional</strong></a>.</p>
 "
-softmax|"
+softmax (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Función que proporciona probabilidades para cada clase posible en un <a href=""#multi-class""><strong>modelo de clasificación de clases múltiples</strong></a>. Las probabilidades suman exactamente 1.0. Por ejemplo, softmax puede determinar la probabilidad de que una imagen en particular sea un perro en 0.9, un gato en 0.08 y un caballo en 0.02.
 (Esto también se denomina <strong>softmax completo</strong>).</p>
 <p>Compara esto con el <a href=""#candidate_sampling""><strong>muestreo de candidatos</strong></a>.</p>
 "
-atributo disperso (sparse feature)|"
+atributo disperso (sparse feature) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Vector de <a href=""#feature""><strong>atributos</strong></a> cuyos valores son predominantemente cero o están vacíos.
 Por ejemplo, un vector que contiene un solo valor de 1 y un millón de valores de 0 es disperso. Otro ejemplo, las palabras de una búsqueda también podrían ser un atributo disperso; existen muchas palabras posibles en un idioma determinado, pero solo algunas de ellas aparecen en una búsqueda específica.</p>
 <p>Compara esto con el <a href=""#dense_feature""><strong>atributo denso</strong></a>.</p>
 "
-representación dispersa (sparse representation)|"
+representación dispersa (sparse representation) (Glosario sobre Aprendizaje Automático de Google)|"
 <p><a href=""#representation""><strong>Representación</strong></a> de un tensor que solo almacena elementos distintos de cero.</p>
 <p>Por ejemplo, el idioma inglés tiene aproximadamente un millón de palabras.
 Podemos considerar dos formas de representar un recuento de las palabras usadas en una oración en inglés:</p>
@@ -1078,7 +1078,7 @@ Como muestran las siguientes tablas, la representación densa consume alrededor 
 </div>
 
 "
-dispersión (sparsity)|"
+dispersión (sparsity) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Cantidad de elementos establecidos en cero (o nulo) en un vector o matriz dividido por el número total de entradas en ese elemento. Por ejemplo, considera una matriz de 10 x 10 en la que 98 celdas contienen cero. El cálculo de dispersión es el siguiente:</p>
 <div>
 $$
@@ -1090,33 +1090,33 @@ $$
 
 <p>La <strong>dispersión de atributos</strong> hace referencia a la dispersión de un vector de atributos, mientras que la <strong>dispersión de modelos</strong> se refiere a la dispersión de los pesos del modelo.</p>
 "
-reducción espacial (spatial pooling)|"
+reducción espacial (spatial pooling) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Consulta <a href=""#pooling""><strong>reducción</strong></a>.</p>
 "
-pérdida de bisagra al cuadrado (squared hinge loss)|"
+pérdida de bisagra al cuadrado (squared hinge loss) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Cuadrado de la <a href=""#hinge-loss""><strong>pérdida de bisagra</strong></a>.  La pérdida de bisagra al cuadrado penaliza los valores atípicos de manera más severa que la pérdida de bisagra normal.</p>
 "
-pérdida al cuadrado (squared loss)|"
+pérdida al cuadrado (squared loss) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Atributo de <a href=""#loss""><strong>pérdida</strong></a> que se usa en <a href=""#linear_regression""><strong>regresión lineal</strong></a>.  (También se conoce como <strong>pérdida L<sub>2</sub></strong>). Este atributo calcula los cuadrados de la diferencia entre el valor predicho por un modelo para un <a href=""#example""><strong>ejemplo</strong></a> etiquetado y el valor real de la <a href=""#label""><strong>etiqueta</strong></a>.
 Debido al componente cuadrático, este atributo de pérdida amplifica la influencia de las predicciones erróneas.
 Es decir, la pérdida al cuadrado reacciona de manera más severa a los valores atípicos que la <a href=""#L1_loss""><strong>pérdida L<sub>1</sub></strong></a>.</p>
 "
-modelo estático (static model)|"
+modelo estático (static model) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Modelo que se entrena sin conexión.</p>
 "
-estacionariedad (stationarity)|"
+estacionariedad (stationarity) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Propiedad de los datos en un conjunto en la que la distribución de los datos se mantiene constante en una o más dimensiones. Lo más común es que esa dimensión sea el tiempo, lo que significa que los datos que muestran estacionariedad no cambian en el tiempo. Por ejemplo, los datos que muestran estacionariedad no cambian de septiembre a diciembre.</p>
 "
-paso (step)|"
+paso (step) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Evaluación hacia adelante y hacia atrás de un <a href=""#batch""><strong>lote</strong></a>.</p>
 "
-tamaño del paso (step size)|"
+tamaño del paso (step size) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Sinónimo de <a href=""#learning_rate""><strong>tasa de aprendizaje</strong></a>.</p>
 "
-descenso de gradientes estocástico (SGD, stochastic gradient descent)|"
+descenso de gradientes estocástico (SGD, stochastic gradient descent) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Algoritmo de <a href=""#gradient_descent""><strong>descenso de gradientes</strong></a> en el que el tamaño del lote es uno. En otras palabras, el SGD se basa en un solo ejemplo elegido al azar de un conjunto de datos de maera uniforme para calcular una estimación del gradiente en cada paso.</p>
 "
-minimización del riesgo estructural (SRM, structural risk minimization)|"
+minimización del riesgo estructural (SRM, structural risk minimization) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Algoritmo que equilibra dos objetivos:</p>
 <ul>
 <li>el deseo de desarrollar el modelo más predictivo (por ejemplo, la pérdida más baja)</li>
@@ -1126,7 +1126,7 @@ minimización del riesgo estructural (SRM, structural risk minimization)|"
 <p>Para obtener más información, consulta <a href=""http://www.svms.org/srm/"">http://www.svms.org/srm/</a>.</p>
 <p>Compara esto con la <a href=""#ERM""><strong>minimización del riesgo empírico</strong></a>.</p>
 "
-segmento (stride)|"
+segmento (stride) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>En una operación convolucional o de reducción, el delta en cada dimensión de la siguiente serie de porciones de entrada. Por ejemplo, la siguiente animación muestra un segmento (1,1) durante una operación convolucional. Por lo tanto, la siguiente porción de entrada comienza una posición a la derecha de la porción de entrada anterior. Cuando la operación alcanza el borde derecho, la siguiente porción se posiciona completamente a la izquierda, pero una posición hacia abajo.</p>
 <p>
 <img src=""/machine-learning/glossary/images/AnimatedConvolution.gif""/>
@@ -1134,16 +1134,16 @@ segmento (stride)|"
 
 <p>El ejemplo anterior muestra un segmento bidimensional.  Si la matriz de entrada es tridimensional, el segmento también tendría ese formato.</p>
 "
-submuestreo (subsampling)|"
+submuestreo (subsampling) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Consulta <a href=""#pooling""><strong>reducción</strong></a>.</p>
 "
-resumen (summary)|"
+resumen (summary) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>En TensorFlow, valor o conjunto de valores que se calcula en cada <a href=""#step""><strong>paso</strong></a>, generalmente se usa para realizar un seguimiento de las métricas del modelo durante el entrenamiento.</p>
 "
-aprendizaje automático supervisado (supervised machine learning)|"
+aprendizaje automático supervisado (supervised machine learning) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Entrenamiento de un <a href=""#model""><strong>modelo</strong></a> a partir de datos de entrada y sus <a href=""#label""><strong>etiquetas</strong></a> correspondientes. El aprendizaje automático supervisado es análogo a un estudiante que aprende una materia al estudiar un conjunto de preguntas y sus respuestas correspondientes.  Después de dominar la asignación entre preguntas y respuestas, el estudiante puede proporcionar respuestas a preguntas nuevas (nunca antes vistas) sobre el mismo tema.  Compara esto con el <a href=""#unsupervised_machine_learning""><strong>aprendizaje automático no supervisado</strong></a>.</p>
 "
-atributo sintético (synthetic feature)|"
+atributo sintético (synthetic feature) (Glosario sobre Aprendizaje Automático de Google)|"
 <p><a href=""#feature""><strong>Atributo</strong></a> que no está presente entre los atributos de entrada, pero que se deriva de uno o más de ellos. Entre los tipos de atributos sintéticos, se incluyen los siguientes:</p>
 <ul>
 <li><a href=""#bucketing""><strong>Agrupamiento</strong></a> de un atributo continuo en discretizaciones de rango</li>
@@ -1153,76 +1153,76 @@ atributo sintético (synthetic feature)|"
 <p>Los atributos que se crean mediante la <a href=""#normalization""><strong>normalización</strong></a> o el <a href=""#scaling""><strong>ajuste</strong></a> solos no se consideran atributos sintéticos.</p>
 
 "
-target|"
+target (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Sinónimo de <a href=""#label""><strong>etiqueta</strong></a>.</p>
 "
-datos temporales (temporal data)|"
+datos temporales (temporal data) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Datos registrados en diferentes puntos en el tiempo. Por ejemplo, las ventas de abrigos de invierno registradas para cada día del año serían datos temporales.</p>
 "
-Tensor|"
+Tensor (Glosario sobre Aprendizaje Automático de Google)|"
 <p>La principal estructura de datos en los programas de TensorFlow. Los tensores tienen estructuras de datos de N dimensiones (donde N podría ser muy grande), comúnmente escalares, vectores o matrices. Los elementos de un tensor pueden tener valores enteros, de punto flotante o de una cadena de caracteres.</p>
 "
-Unidad de procesamiento de tensor (TPU, Tensor Processing Unit)|"
+Unidad de procesamiento de tensor (TPU, Tensor Processing Unit) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>ASIC (circuito integrado específico de la aplicación) que optimiza el rendimiento de los programas de TensorFlow.</p>
 "
-Rango de tensor (Tensor rank)|"
+Rango de tensor (Tensor rank) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Consulta <a href=""#rank""><strong>rango</strong></a>.</p>
 "
-Forma de tensor (Tensor shape)|"
+Forma de tensor (Tensor shape) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Número de elementos que contiene un <a href=""#tensor""><strong>tensor</strong></a> en distintas dimensiones.
 Por ejemplo, un Tensor de [5, 10] tiene una forma de 5 en una dimensión y de 10 en la otra.</p>
 "
-Tamaño de tensor (Tensor size)|"
+Tamaño de tensor (Tensor size) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Número total de escalares que contiene un <a href=""#tensor""><strong>tensor</strong></a>. Por ejemplo, un Tensor de [5, 10] tiene un tamaño de 50.</p>
 "
-TensorBoard|"
+TensorBoard (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Panel que muestra los resúmenes generados durante la ejecución de uno o más programas de TensorFlow.</p>
 "
-TensorFlow|"
+TensorFlow (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Plataforma de aprendizaje automático distribuida a gran escala. El término también se refiere a la capa base de la API en la pila de TensorFlow, que admite cálculos generales en gráficos de flujo de datos.</p>
 <p>Aunque TensorFlow se usa principalmente para el aprendizaje automático, también puedes usarlo para tareas que no sean de AA que requieran cómputo numérico a través de gráficos de flujo de datos.</p>
 "
-TensorFlow Playground|"
+TensorFlow Playground (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Programa que visualiza cómo los diferentes <a href=""#hyperparameters""><strong>hiperparámetros</strong></a> influyen en el entrenamiento del modelo (principalmente en las redes neuronales).
 Para probar TensorFlow Playground, visita <a href=""http://playground.tensorflow.org"">http://playground.tensorflow.org</a>.</p>
 "
-TensorFlow Serving|"
+TensorFlow Serving (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Plataforma para implementar modelos entrenados en producción.</p>
 "
-conjunto de prueba (test set)|"
+conjunto de prueba (test set) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Subconjunto dentro del conjunto de datos que se usa para probar un <a href=""#model""><strong>modelo</strong></a> después de que este pasó por la evaluación inicial a través del conjunto de validación.
 </p><p>Compara esto con el <a href=""#training_set""><strong>conjunto de entrenamiento</strong></a> y el <a href=""#validation_set""><strong>conjunto de validación</strong></a>.</p>
 "
-tf.Example|"
+tf.Example (Glosario sobre Aprendizaje Automático de Google)|"
 <p><a href=""https://developers.google.com/protocol-buffers/"">Búfer de protocolo</a> estándar que se usa para describir datos de entrada para el entrenamiento o la inferencia de modelos de aprendizaje automático.</p>
 "
-análisis de series temporales (time series analysis)|"
+análisis de series temporales (time series analysis) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Subcampo del aprendizaje automático y la estadística que analiza <a href=""#temporal_data""><strong>datos temporales</strong></a>.  Muchos tipos de problemas de aprendizaje automático requieren un análisis de series temporales, que incluye clasificación, agrupación en clústeres, previsión y detección de anomalías. Por ejemplo, puedes usar el análisis de series temporales para predecir las ventas futuras de abrigos de invierno por mes en función de los datos de ventas históricos.</p>
 "
-entrenamiento (training)|"
+entrenamiento (training) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Proceso de determinar los <a href=""#parameter""><strong>parámetros</strong></a> ideales que conforman un modelo.</p>
 "
-conjunto de entrenamiento (training set)|"
+conjunto de entrenamiento (training set) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Subconjunto del conjunto de datos que se usa para entrenar un modelo.</p>
 <p>Compara esto con el <a href=""#validation_set""><strong>conjunto de validación</strong></a> y el <a href=""#test_set""><strong>conjunto de prueba</strong></a>.</p>
 "
-aprendizaje por transferencia (transfer learning)|"
+aprendizaje por transferencia (transfer learning) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Transferencia de información de una tarea de aprendizaje automático a otra.
 Por ejemplo, en el aprendizaje de tareas múltiples, un solo modelo resuelve varias tareas, como en el caso de un <a href=""#deep_model""><strong>modelo profundo</strong></a> que tiene diferentes nodos de resultados para las distintas tareas.  El aprendizaje por transferencia puede implicar la transferencia de conocimientos desde la solución de una tarea más simple hasta otra más compleja, o la transferencia de conocimientos de una tarea en la que hay más datos a otra en la que hay menos.</p>
 <p>La mayoría de los sistemas de aprendizaje automático resuelven una <em>única</em> tarea. El aprendizaje por transferencia es un paso inicial hacia la inteligencia artificial, en la que un solo programa puede resolver <em>múltiples</em> tareas.</p>
 "
-invariancia traslacional (traslational invariance)|"
+invariancia traslacional (traslational invariance) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>En un problema de clasificación de imágenes, es la capacidad de un algoritmo para clasificar correctamente imágenes, incluso cuando cambia la posición de los objetos dentro de la imagen.
 Por ejemplo, el algoritmo aún puede identificar un perro, ya sea en el centro del marco o en el extremo izquierdo de este.</p>
 <p>Consulta también <a href=""#size_invariance""><strong>invariancia de tamaño</strong></a> o <a href=""#rotational_invariance""><strong>invariancia rotacional</strong></a>.</p>
 "
-verdadero negativo (VN) (TN, true negative)|"
+verdadero negativo (VN) (TN, true negative) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Un ejemplo en el que el modelo predijo <em>correctamente</em> la <a href=""#negative_class""><strong>clase negativa</strong></a>. Por ejemplo, el modelo infirió que un mensaje de correo electrónico en particular no era spam y realmente no lo era.</p>
 "
-verdadero positivo (VP) (TP, true positive)|"
+verdadero positivo (VP) (TP, true positive) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Ejemplo en el que el modelo predijo <em>correctamente</em> la <a href=""#positive_class""><strong>clase positiva</strong></a>. Por ejemplo, el modelo infirió que un mensaje de correo electrónico en particular era spam y realmente lo era.</p>
 "
-tasa de verdaderos positivos (tasa de VP) (true positive rate, TP rate)|"
+tasa de verdaderos positivos (tasa de VP) (true positive rate, TP rate) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Sinónimo de <a href=""#recall""><strong>recuperación</strong></a>. Esto significa lo siguiente:</p>
 <div>
 $$\text{Tasa de verdaderos positivos} = \frac{\text{Verdaderos positivos}} {\text{Verdaderos positivos} + \text{Falsos negativos}}$$
@@ -1231,11 +1231,11 @@ $$\text{Tasa de verdaderos positivos} = \frac{\text{Verdaderos positivos}} {\tex
 <p>La tasa de verdaderos positivos es el eje y en una <a href=""#ROC""><strong>curva ROC</strong></a>.</p>
 
 "
-ejemplo sin etiqueta (unlabeled example)|"
+ejemplo sin etiqueta (unlabeled example) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Ejemplo que contiene <a href=""#feature""><strong>atributos</strong></a>, pero no <a href=""#label""><strong>etiqueta</strong></a>.
 Los ejemplos sin etiqueta son la entrada para la <a href=""#inference""><strong>inferencia</strong></a>. En el aprendizaje <a href=""#semi-supervised_learning""><strong>semisupervisado</strong></a> y <a href=""#unsupervised_machine_learning""><strong>no supervisado</strong></a>, los ejemplos sin etiqueta se usan durante el entrenamiento.</p>
 "
-aprendizaje automático no supervisado (unsupervised machine learning)|"
+aprendizaje automático no supervisado (unsupervised machine learning) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Entrenamiento de un <a href=""#model""><strong>modelo</strong></a> para encontrar patrones en un conjunto de datos, generalmente sin etiqueta.</p>
 <p>El uso más común del aprendizaje automático no supervisado es la agrupación de los datos en clústeres de ejemplos similares. Por ejemplo, un algoritmo de aprendizaje automático no supervisado puede agrupar canciones en función de distintas propiedades de la música. Los clústeres resultantes pueden usarse como entrada para otros algoritmos de aprendizaje automático (por ejemplo, para un servicio de recomendaciones de música).
 La agrupación en clústeres puede ser útil en dominios donde las etiquetas verdaderas son difíciles de obtener.
@@ -1245,16 +1245,16 @@ Por ejemplo, la aplicación de ACP en un conjunto de datos acerca del contenido 
 <p>Compara esto con el <a href=""#supervised_machine_learning""><strong>aprendizaje automático supervisado</strong></a>.</p>
 
 "
-conjunto de validación (validation set)|"
+conjunto de validación (validation set) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Subconjunto del conjunto de datos, separado del conjunto de entrenamiento, que se usa para ajustar <a href=""#hyperparameter""><strong>hiperparámetros</strong></a>.</p>
 <p>Compara esto con el <a href=""#training_set""><strong>conjunto de entrenamiento</strong></a> y el <a href=""#test_set""><strong>conjunto de prueba</strong></a>.</p>
 </p>
 
 "
-Peso (weight)|"
+Peso (weight) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Coeficiente para un <a href=""#feature""><strong>atributo</strong></a> en un modelo lineal o una conexión en una red profunda. El objetivo de entrenar un modelo lineal es determinar el peso ideal para cada atributo. Si un peso es 0, su atributo correspondiente no contribuye al modelo.</p>
 "
-modelo amplio (wide model)|"
+modelo amplio (wide model) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Modelo lineal que generalmente tiene muchos <a href=""#sparse_features""><strong>atributos de entrada dispersos</strong></a>. Se hace referencia a este modelo como ""amplio"" porque se trata de un tipo especial de <a href=""#neural_network""><strong>red neuronal</strong></a> con un alto número de entradas que se conectan directamente con el nodo de resultado. Con frecuencia, los modelos amplios son más fáciles de inspeccionar y depurar que los modelos profundos. Si bien los modelos amplios no pueden expresar no linealidades a través de <a href=""#hidden_layer""><strong>capas ocultas</strong></a>, pueden usar transformaciones, como la <a href=""#feature_cross""><strong>combinación de atributos</strong></a> y <a href=""#bucketing""><strong>agrupamiento</strong></a> para modelar no linealidades de diferentes maneras.</p>
 <p>Compara esto con el <a href=""#deep_model""><strong>modelo profundo</strong></a>.</p>
 "
