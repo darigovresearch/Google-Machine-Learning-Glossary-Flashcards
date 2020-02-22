@@ -155,7 +155,7 @@ fonction convexe (convex function) (Glossaire du Machine Learning de Google)|"
 
 <p>Une <strong>fonction strictement convexe</strong> possède exactement un minimum local, qui est également le minimum global. Les fonctions classiques en U sont des fonctions strictement convexes.  Ce n'est pas le cas de certaines fonctions convexes, comme les droites.</p>
 <p>De nombreuses <a href=""https://developers.google.com/machine-learning/glossary/#loss_functions""><strong>fonctions de perte</strong></a> courantes, telles que les fonctions suivantes, sont convexes :</p>
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#L2_loss""><strong>Perte L<sub>2</sub></strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#Log_Loss""><strong>Perte logistique</strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#L1_regularization""><strong>Régularisation L<sub>1</sub></strong></a></li>
@@ -208,7 +208,7 @@ La matrice 3 x 3 résultante (à droite) est constituée des résultats des 9 op
 "
 réseau de neurones convolutif (convolutional neural network) (Glossaire du Machine Learning de Google)|"
 <p>Réseau de neurones dans lequel au moins une couche est une <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_layer""><strong>couche convolutive</strong></a>. Un réseau de neurones convolutif typique consiste en une combinaison des couches suivantes :</p>
-<ul>
+<ul align=""left"">
 <li>Couches convolutives</li>
 <li>Couches de pooling</li>
 <li>Couches denses</li>
@@ -217,7 +217,7 @@ réseau de neurones convolutif (convolutional neural network) (Glossaire du Mach
 "
 opération convolutive (convolutional operation) (Glossaire du Machine Learning de Google)|"
 <p>L'opération mathématique en deux étapes suivante :</p>
-<ol>
+<ol align=""left"">
 <li>Multiplication élément par élément du <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_filter""><strong>filtre convolutif</strong></a> et d'une tranche d'une matrice d'entrée. La tranche de la matrice d'entrée est de même rang et de même taille que le filtre convolutif.</li>
 <li>Somme de toutes les valeurs de la matrice de produits résultante.</li>
 </ol>
@@ -298,7 +298,7 @@ arrêt prématuré (early stopping) (Glossaire du Machine Learning de Google)|"
 représentations vectorielles continues (embeddings) (Glossaire du Machine Learning de Google)|"
 <p>Caractéristique catégorique représentée sous la forme d'une caractéristique à valeur continue.
 Généralement, une représentation vectorielle continue est la traduction d'un vecteur de grande dimension dans un espace de faible dimension. Vous pouvez par exemple représenter les mots d'une phrase en français de l'une des deux façons suivantes :</p>
-<ul>
+<ul align=""left"">
 <li>Sous forme de <a href=""https://developers.google.com/machine-learning/glossary/#sparse_features""><strong>vecteur creux</strong></a> à un million d'éléments (grande dimension) dont tous les éléments sont des entiers.
     Chaque cellule du vecteur représente un mot français donné. La valeur d'une cellule représente le nombre de fois où ce mot apparaît dans une phrase.
     Étant donné qu'il est peu probable qu'une phrase française contienne plus de 50 mots, pratiquement toutes les cellules du vecteur contiennent la valeur 0. Les quelques cellules dont la valeur est différente de 0 contiennent un entier petit (généralement 1) qui représente le nombre d'occurrences de ce mot dans la phrase.</li>
@@ -311,7 +311,7 @@ minimisation du risque empirique (ERM) (empirical risk minimization (ERM)) (Glos
 "
 groupe (ensemble) (Glossaire du Machine Learning de Google)|"
 <p>Fusion des prédictions de plusieurs <a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>modèles</strong></a>. Vous pouvez créer un groupe de l'une des manières suivantes :</p>
-<ul>
+<ul align=""left"">
 <li>À l'aide de différentes initialisations</li>
 <li>À l'aide de différents <a href=""https://developers.google.com/machine-learning/glossary/#hyperparameter""><strong>hyperparamètres</strong></a></li>
 <li>À l'aide de différentes structures globales</li>
@@ -364,7 +364,7 @@ Par exemple, un ensemble de caractéristiques simple pour un modèle de prédict
 "
 spécifications des caractéristiques (feature spec) (Glossaire du Machine Learning de Google)|"
 <p>Description des informations requises pour extraire les données des <a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>caractéristiques</strong></a> contenues dans le Protocol Buffer <a href=""https://developers.google.com/machine-learning/glossary/#tf.Example""><strong>tf.Example</strong></a>. Celui-ci étant un simple conteneur de données, vous devez spécifier les éléments suivants :</p>
-<ul>
+<ul align=""left"">
 <li>Données à extraire (c'est-à-dire, les clés des caractéristiques)</li>
 <li>Type de données (par exemple, flottant ou entier)</li>
 <li>Longueur (fixe ou variable)</li>
@@ -388,14 +388,14 @@ généralisation (generalization) (Glossaire du Machine Learning de Google)|"
 "
 modèle linéaire généralisé (generalized linear model) (Glossaire du Machine Learning de Google)|"
 <p>Généralisation des modèles de <a href=""https://developers.google.com/machine-learning/glossary/#least_squares_regression""><strong>régression des moindres carrés</strong></a>, qui sont basés sur le <a href=""https://en.wikipedia.org/wiki/Gaussian_noise"">bruit gaussien</a>, à d'autres types de modèles basés sur d'autres types de bruit, par exemple le <a href=""https://en.wikipedia.org/wiki/Shot_noise"">bruit de grenaille</a> ou le bruit catégorique. Exemples de modèles linéaires généralisés :</p>
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#logistic_regression""><strong>Régression logistique</strong></a></li>
 <li>Régression à classes multiples</li>
 <li>Régression des moindres carrés</li>
 </ul>
 <p>Les paramètres d'un modèle linéaire généralisé peuvent être déterminés via une <a href=""https://en.wikipedia.org/wiki/Convex_optimization"">optimisation convexe</a>.</p>
 <p>Les modèles linéaires généralisés présentent les propriétés suivantes :</p>
-<ul>
+<ul align=""left"">
 <li>La prédiction moyenne du modèle de régression des moindres carrés optimal est égale à l'étiquette moyenne des données d'apprentissage.</li>
 <li>La probabilité moyenne prédite par le modèle de régression logistique optimal est égale à l'étiquette moyenne des données d'apprentissage.</li>
 </ul>
@@ -485,7 +485,7 @@ itération (iteration) (Glossaire du Machine Learning de Google)|"
 "
 k-moyennes (k-means) (Glossaire du Machine Learning de Google)|"
 <p>Un algorithme de <a href=""https://developers.google.com/machine-learning/glossary/#clustering""><strong>clustering</strong></a> populaire qui regroupe des exemples dans l'apprentissage non supervisé. L'algorithme k-moyennes effectue les opérations suivantes :</p>
-<ul>
+<ul align=""left"">
 <li>Détermination de manière itérative des meilleurs k points centraux (appelés <a href=""https://developers.google.com/machine-learning/glossary/#centroid""><strong>centroïdes</strong></a>).</li>
 <li>Assignation de chaque exemple au centroïde le plus proche.  Les exemples les plus proches du même centroïde font partie du même groupe.</li>
 </ul>
@@ -505,12 +505,12 @@ k-moyennes (k-means) (Glossaire du Machine Learning de Google)|"
 "
 k-médiane (k-median) (Glossaire du Machine Learning de Google)|"
 <p>Algorithme de clustering étroitement lié à <a href=""https://developers.google.com/machine-learning/glossary/#k-means""><strong>k-moyennes</strong></a>. La différence pratique entre les deux est la suivante :</p>
-<ul>
+<ul align=""left"">
 <li>Dans l'algorithme k-moyennes, les centroïdes sont déterminés en minimisant la somme des <em>carrés</em> de la distance entre un centroïde potentiel et chacun de ses exemples.</li>
 <li>Dans l'algorithme k-médiane, les centroïdes sont déterminés en minimisant la somme de la distance entre un centroïde potentiel et chacun de ses exemples.</li>
 </ul>
 <p>Notez que la définition du terme ""distance"" est également différente :</p>
-<ul>
+<ul align=""left"">
 <li>Dans l'algorithme k-moyenne, la notion de distance utilisée est la <a href=""https://en.wikipedia.org/wiki/Euclidean_distance"">distance euclidienne</a> entre un centroïde et un exemple.  Dans un espace à deux dimensions, la distance euclidienne revient à utiliser le théorème de Pythagore pour calculer l'hypoténuse.  Par exemple, la distance k-moyennes entre (2,2) et (5,-2) est :</li>
 </ul>
 <div>
@@ -519,7 +519,7 @@ k-médiane (k-median) (Glossaire du Machine Learning de Google)|"
 [/$$]
 </div>
 
-<ul>
+<ul align=""left"">
 <li>Dans l'algorithme k-médiane, la notion de distance utilisée est la <a href=""https://en.wikipedia.org/wiki/Taxicab_geometry"">distance de Manhattan</a> entre le centroïde et un exemple.  Cette distance est la somme des deltas absolus dans chaque dimension.  Par exemple, la distance k-médiane entre (2,2) et (5,-2) est :</li>
 </ul>
 <div>
@@ -569,7 +569,7 @@ couche (layer) (Glossaire du Machine Learning de Google)|"
 "
 API Layers (tf.layers) (Layers API (tf.layers)) (Glossaire du Machine Learning de Google)|"
 <p>API TensorFlow pour la construction d'un réseau de neurones <a href=""https://developers.google.com/machine-learning/glossary/#deep_model""><strong>profond</strong></a> à partir de plusieurs couches. L'API Layers permet notamment de créer les types de <a href=""https://developers.google.com/machine-learning/glossary/#layer""><strong>couches</strong></a> suivants :</p>
-<ul>
+<ul align=""left"">
 <li><code>tf.layers.Dense</code> pour une <a href=""https://developers.google.com/machine-learning/glossary/#fully_connected_layer""><strong>couche entièrement connectée</strong></a></li>
 <li><code>tf.layers.Conv2D</code> pour une couche convolutive</li>
 </ul>
@@ -650,7 +650,7 @@ ML (Glossaire du Machine Learning de Google)|"
 modèle (model) (Glossaire du Machine Learning de Google)|"
 <p>Représentation de ce qu'un système ML a appris à partir des données d'apprentissage.
 Ce terme complexe peut avoir l'un des deux sens associés suivants :</p>
-<ul>
+<ul align=""left"">
 <li>Graphe <a href=""https://developers.google.com/machine-learning/glossary/#TensorFlow""><strong>TensorFlow</strong></a> qui exprime la structure du calcul d'une prédiction</li>
 <li>Pondérations et biais particuliers de ce graphe TensorFlow déterminés par <a href=""https://developers.google.com/machine-learning/glossary/#model_training""><strong>apprentissage</strong></a></li>
 </ul>
@@ -691,7 +691,7 @@ neurone (neuron) (Glossaire du Machine Learning de Google)|"
 "
 nœud (node) (Glossaire du Machine Learning de Google)|"
 <p>Ce terme complexe désigne l'un des deux concepts suivants, selon les cas :</p>
-<ul>
+<ul align=""left"">
 <li>Un neurone dans une <a href=""https://developers.google.com/machine-learning/glossary/#hidden_layer""><strong>couche cachée</strong></a></li>
 <li>Une opération dans un <a href=""https://developers.google.com/machine-learning/glossary/#graph""><strong>graphe</strong></a> TensorFlow</li>
 </ul>
@@ -721,7 +721,7 @@ inférence hors ligne (offline inference) (Glossaire du Machine Learning de Goog
 "
 encodage one-hot (one-hot encoding) (Glossaire du Machine Learning de Google)|"
 <p>Vecteur creux caractérisé ainsi :</p>
-<ul>
+<ul align=""left"">
 <li>Un élément a la valeur 1.</li>
 <li>Tous les autres éléments ont la valeur 0.</li>
 </ul>
@@ -733,7 +733,7 @@ apprentissage one-shot (one-shot learning) (Glossaire du Machine Learning de Goo
 "
 un contre tous (one-vs.-all) (Glossaire du Machine Learning de Google)|"
 <p>Face à un problème de classification avec N solutions possibles, une solution un contre tous consiste en N <a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>classificateurs binaires</strong></a> distincts : un classificateur binaire pour chaque résultat possible. Soit, par exemple, un modèle qui classe les exemples en animal, végétal ou minéral. Une solution un contre tous fournirait les trois classificateurs binaires distincts suivants :</p>
-<ul>
+<ul align=""left"">
 <li>Animal contre non animal</li>
 <li>Végétal contre non végétal</li>
 <li>Minéral contre non minéral</li>
@@ -748,7 +748,7 @@ opération (Operation (op)) (Glossaire du Machine Learning de Google)|"
 optimiseur (optimizer) (Glossaire du Machine Learning de Google)|"
 <p>Implémentation particulière de l'algorithme de <a href=""https://developers.google.com/machine-learning/glossary/#gradient_descent""><strong>descente de gradient</strong></a>. La classe de base de TensorFlow pour les optimiseurs est <a href=""https://www.tensorflow.org/api_docs/python/tf/train/Optimizer"">tf.train.Optimizer</a>.
 Différents optimiseurs peuvent utiliser un ou plusieurs des concepts suivants pour améliorer l'efficacité de la descente de gradient sur un <a href=""https://developers.google.com/machine-learning/glossary/#training_set""><strong>ensemble d'apprentissage</strong></a> donné :</p>
-<ul>
+<ul align=""left"">
 <li>le <a href=""https://www.tensorflow.org/api_docs/python/tf/train/MomentumOptimizer"">moment</a>
     (Momentum) ;</li>
 <li>la fréquence de mise à jour
@@ -766,7 +766,7 @@ Différents optimiseurs peuvent utiliser un ou plusieurs des concepts suivants p
 "
 anomalies (outliers) (Glossaire du Machine Learning de Google)|"
 <p>Valeurs éloignées de la plupart des autres valeurs. Dans le machine learning, toutes les valeurs suivantes sont des anomalies :</p>
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#weight""><strong>Pondérations</strong></a> dont la valeur absolue est élevée</li>
 <li>Valeurs prédites relativement éloignées des valeurs réelles</li>
 <li>Données d'entrée dont les valeurs sont éloignées de plus de trois écarts types environ de la moyenne</li>
@@ -801,7 +801,7 @@ stratégie de partitionnement (partitioning strategy) (Glossaire du Machine Lear
 "
 performances (performance) (Glossaire du Machine Learning de Google)|"
 <p>Terme complexe ayant plusieurs significations :</p>
-<ul>
+<ul align=""left"">
 <li>Sens traditionnel dans le génie logiciel, à savoir : à quelle vitesse, ou avec quelle efficacité, ce logiciel s'exécute-t-il ?</li>
 <li>Sens dans le domaine du machine learning, à savoir : quel est le degré d'exactitude de ce <a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>modèle</strong></a> ? Autrement dit, les prédictions du modèle sont-elles bonnes ?</li>
 </ul>
@@ -872,7 +872,7 @@ file d'attente (queue) (Glossaire du Machine Learning de Google)|"
 "
 rang (rank) (Glossaire du Machine Learning de Google)|"
 <p>Terme aux significations multiples dans le machine learning :</p>
-<ul>
+<ul align=""left"">
 <li>Nombre de dimensions d'un <a href=""https://developers.google.com/machine-learning/glossary/#tensor""><strong>Tensor</strong></a>. Par exemple, une grandeur scalaire a un rang de 0, un vecteur un rang de 1 et une matrice un rang de 2.</li>
 <li>Position ordinale d'une classe dans un problème de machine learning qui hiérarchise des classes par ordre décroissant. Par exemple, un système de classement de comportement pourrait classer les récompenses pour un chien de la récompense la plus élevée (un steak) à la récompense la plus faible (du chou frisé flétri).</li>
 </ul>
@@ -889,7 +889,7 @@ rappel (recall) (Glossaire du Machine Learning de Google)|"
 "
 unité de rectification linéaire (ReLU) (Rectified Linear Unit (ReLU)) (Glossaire du Machine Learning de Google)|"
 <p><a href=""https://developers.google.com/machine-learning/glossary/#activation_function""><strong>Fonction d'activation</strong></a> dont les règles sont les suivantes :</p>
-<ul>
+<ul align=""left"">
 <li>Si l'entrée est négative ou égale à zéro, la sortie est zéro.</li>
 <li>Si l'entrée est positive, la sortie est égale à l'entrée.</li>
 </ul>
@@ -900,7 +900,7 @@ modèle de régression (regression model) (Glossaire du Machine Learning de Goog
 "
 régularisation (regularization) (Glossaire du Machine Learning de Google)|"
 <p>Pénalité pour la complexité d'un modèle. La régularisation aide à éviter le <a href=""https://developers.google.com/machine-learning/glossary/#overfitting""><strong>surapprentissage</strong></a>. Les différents types de régularisation sont notamment :</p>
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#L1_regularization""><strong>Régularisation L<sub>1</sub></strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#L2_regularization""><strong>Régularisation L<sub>2</sub></strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#dropout_regularization""><strong>Régularisation par abandon</strong></a></li>
@@ -988,7 +988,7 @@ représentation creuse (sparse representation) (Glossaire du Machine Learning de
 <p><a href=""https://developers.google.com/machine-learning/glossary/#representation""><strong>Représentation</strong></a> d'un Tensor qui ne stocke que des éléments différents de zéro.</p>
 <p>Par exemple, la langue anglaise comprend environ un million de mots.
 Considérons deux façons de représenter un nombre de mots utilisés dans une phrase en anglais :</p>
-<ul>
+<ul align=""left"">
 <li>Une <strong>représentation dense</strong> de cette phrase doit définir un entier pour un million de cellules, en plaçant un 0 dans la plupart d'entre eux et un entier faible dans quelques-unes d'entre elles.</li>
 <li>Une représentation creuse de cette phrase ne stocke que les cellules qui symbolisent un mot effectivement utilisé dans la phrase. Ainsi, si la phrase ne contenait que 20 mots uniques, la représentation creuse de la phrase stockerait un entier dans 20 cellules seulement.</li>
 </ul>
@@ -1133,7 +1133,7 @@ pas (stride) (Glossaire du Machine Learning de Google)|"
 "
 minimisation du risque structurel (SRM) (structural risk minimization (SRM)) (Glossaire du Machine Learning de Google)|"
 <p>Algorithme qui concilie les deux objectifs suivants :</p>
-<ul>
+<ul align=""left"">
 <li>Créer le modèle prédictif le plus efficace (par exemple, perte la plus faible)</li>
 <li>Créer un modèle aussi simple que possible (par exemple, forte régularisation)</li>
 </ul>
@@ -1152,7 +1152,7 @@ machine learning supervisé (supervised machine learning) (Glossaire du Machine 
 "
 caractéristique synthétique (synthetic feature) (Glossaire du Machine Learning de Google)|"
 <p><a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>Caractéristique</strong></a> absente des caractéristiques d'entrée, mais créée à partir d'une ou plusieurs d'entre elles. Exemples de types de caractéristiques synthétiques :</p>
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#bucketing""><strong>Binning</strong></a> d'une caractéristique continue dans des paquets de plage</li>
 <li>Multiplication (ou division) d'une caractéristique par d'autres caractéristiques ou par elle-même </li>
 <li>Création d'une <a href=""https://developers.google.com/machine-learning/glossary/#feature_cross""><strong>croisement de caractéristiques</strong></a></li>
