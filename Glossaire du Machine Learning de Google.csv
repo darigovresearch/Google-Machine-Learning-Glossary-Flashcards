@@ -4,14 +4,14 @@ test A/B (A/B testing) (Glossaire du Machine Learning de Google)|"
 justesse (accuracy) (Glossaire du Machine Learning de Google)|"
 <p>Proportion de prédictions correctes d'un <a href=""https://developers.google.com/machine-learning/glossary/#classification_model""><strong>modèle de classification</strong></a>. Dans la <a href=""https://developers.google.com/machine-learning/glossary/#multi-class""><strong>classification à classes multiples</strong></a>, la justesse est définie comme suit :</p>
 <div>
-$$\text{Justesse} =
-\frac{\text{Prédictions correctes}} {\text{Nombre total d'exemples}}$$
+[$$]\text{Justesse} =
+\frac{\text{Prédictions correctes}} {\text{Nombre total d'exemples}}[/$$]
 </div>
 
 <p>Dans la <a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>classification binaire</strong></a>, la justesse est définie ainsi :</p>
 <div>
-$$\text{Justesse} = \frac{\text{Vrais positifs} + \text{Vrais négatifs}}
-                         {\text{Nombre total d'exemples}}$$
+[$$]\text{Justesse} = \frac{\text{Vrais positifs} + \text{Vrais négatifs}}
+                         {\text{Nombre total d'exemples}}[/$$]
 </div>
 
 <p>Voir <a href=""https://developers.google.com/machine-learning/glossary/#TP""><strong>vrai positif</strong></a> et <a href=""https://developers.google.com/machine-learning/glossary/#TN""><strong>vrai négatif</strong></a>.</p>
@@ -44,7 +44,7 @@ taille de lot (batch size) (Glossaire du Machine Learning de Google)|"
 biais (bias) (Glossaire du Machine Learning de Google)|"
 <p>Ordonnée à l'origine ou décalage par rapport à une origine. Le <strong>biais</strong> est noté <em>b</em> ou <i>w<sub>0</sub></i> dans les modèles de machine learning.  Par exemple, <em>b</em> représente le biais dans la formule suivante :</p>
 <div>
-$$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
+[$$]y' = b + w_1x_1 + w_2x_2 + … w_nx_n[/$$]
 </div>
 
 <p>À ne pas confondre avec le <a href=""https://developers.google.com/machine-learning/glossary/#prediction_bias""><strong>biais de prédiction</strong></a>.</p>
@@ -337,8 +337,8 @@ faux positif (FP) (false positive (FP)) (Glossaire du Machine Learning de Google
 taux de faux positifs (taux de FP) (false positive rate (FP rate)) (Glossaire du Machine Learning de Google)|"
 <p>L'abscisse d'une <a href=""https://developers.google.com/machine-learning/glossary/#ROC""><strong>courbe ROC</strong></a>. Le taux de FP est défini ainsi :</p>
 <div>
-$$\text{Taux de faux positifs} =
-\frac{\text{Faux positifs}}{\text{Faux positifs} + \text{Vrais négatifs}}$$
+[$$]\text{Taux de faux positifs} =
+\frac{\text{Faux positifs}}{\text{Faux positifs} + \text{Vrais négatifs}}[/$$]
 </div>
 
 "
@@ -425,12 +425,12 @@ marge maximale (hinge loss) (Glossaire du Machine Learning de Google)|"
 <p>Famille de fonctions de <a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>perte</strong></a> pour la <a href=""https://developers.google.com/machine-learning/glossary/#classification_model""><strong>classification</strong></a>, conçue pour déterminer la <a href=""https://developers.google.com/machine-learning/glossary/#decision_boundary""><strong>frontière de décision</strong></a> la plus éloignée possible de chaque exemple d'apprentissage, afin de maximiser la marge entre les exemples et la frontière.
 Les <a href=""https://developers.google.com/machine-learning/glossary/#KSVMs""><strong>KSVM</strong></a> utilisent la marge maximale (ou une fonction associée, par exemple le carré de la marge maximale). Dans le cas de la classification binaire, la fonction de marge maximale est définie ainsi :</p>
 <div>
-$$\text{perte} = \text{max.}(0, 1 - (y' * y))$$
+[$$]\text{perte} = \text{max.}(0, 1 - (y' * y))[/$$]
 </div>
 
 <p>Où <em>y'</em> est la sortie brute du modèle du classificateur :</p>
 <div>
-$$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
+[$$]y' = b + w_1x_1 + w_2x_2 + … w_nx_n[/$$]
 </div>
 
 <p>et <em>y</em> est l'étiquette réelle, soit -1, soit +1.</p>
@@ -514,18 +514,18 @@ k-médiane (k-median) (Glossaire du Machine Learning de Google)|"
 <li>Dans l'algorithme k-moyenne, la notion de distance utilisée est la <a href=""https://en.wikipedia.org/wiki/Euclidean_distance"">distance euclidienne</a> entre un centroïde et un exemple.  Dans un espace à deux dimensions, la distance euclidienne revient à utiliser le théorème de Pythagore pour calculer l'hypoténuse.  Par exemple, la distance k-moyennes entre (2,2) et (5,-2) est :</li>
 </ul>
 <div>
-$$
+[$$]
 {\text{distance euclidienne}} = {\sqrt {(2-5)^2 + (2--2)^2}} = 5
-$$
+[/$$]
 </div>
 
 <ul>
 <li>Dans l'algorithme k-médiane, la notion de distance utilisée est la <a href=""https://en.wikipedia.org/wiki/Taxicab_geometry"">distance de Manhattan</a> entre le centroïde et un exemple.  Cette distance est la somme des deltas absolus dans chaque dimension.  Par exemple, la distance k-médiane entre (2,2) et (5,-2) est :</li>
 </ul>
 <div>
-$$
+[$$]
 {\text{distance de Manhattan}} = \lvert 2-5 \rvert + \lvert 2--2 \rvert = 7
-$$
+[/$$]
 </div>
 
 "
@@ -603,20 +603,20 @@ logarithme de cote (log-odds) (Glossaire du Machine Learning de Google)|"
 <p>Logarithme des cotes d'un événement donné.</p>
 <p>Si l'événement renvoie à une cote binaire, alors la <strong>cote</strong> renvoie au rapport entre la cote de réussite (p) et la cote d'échec (1-p).  Supposons qu'un événement donné ait une cote de réussite de 90 % et une cote d'échec de 10 %. Dans ce cas, les cotes sont calculées de la manière suivante :</p>
 <div>
-$$
+[$$]
 {\text{cotes}} =
 \frac{\text{p}} {\text{(1-p)}} =
 \frac{.9} {.1} =
 {\text{9}}
-$$
+[/$$]
 </div>
 
 <p>Le logarithme des cotes n'est rien d'autre, comme son nom l'indique, que le logarithme des cotes. Par convention, ""logarithme"" fait référence au logarithme naturel, mais il pourrait en fait être n'importe quelle base supérieure à 1.  Si l'on s'en tient à la convention, le logarithme des cotes de notre exemple est donc :</p>
 <div>
-$$
+[$$]
 {\text{logarithme des cotes}} =
 ln(9) ~= 2.2
-$$
+[/$$]
 </div>
 
 <p>Le logarithme des cotes est l'inverse de la <a href=""https://developers.google.com/machine-learning/glossary/#sigmoid_function""><strong>fonction sigmoïde</strong></a>.</p>
@@ -811,7 +811,7 @@ perplexité (perplexity) (Glossaire du Machine Learning de Google)|"
 Supposons que vous deviez lire les premières lettres qu'un utilisateur saisit avec le clavier de son smartphone pour lui proposer une liste de mots possibles. Pour cette tâche, la perplexité, notée P, est environ égale au nombre de mots que vous devez proposer pour que votre liste contienne le mot que l'utilisateur souhaite effectivement saisir.</p>
 <p>La perplexité est liée à l'<a href=""https://developers.google.com/machine-learning/glossary/#cross-entropy""><strong>entropie croisée</strong></a> par la formule suivante :</p>
 <div>
-$$P= 2^{-\text{entropie croisée}}$$
+[$$]P= 2^{-\text{entropie croisée}}[/$$]
 </div>
 
 "
@@ -844,8 +844,8 @@ classe positive (positive class) (Glossaire du Machine Learning de Google)|"
 précision (precision) (Glossaire du Machine Learning de Google)|"
 <p>Statistique des <a href=""https://developers.google.com/machine-learning/glossary/#classification_model""><strong>modèles de classification</strong></a>. La précision correspond à la fréquence à laquelle le modèle prédit correctement la <a href=""https://developers.google.com/machine-learning/glossary/#positive_class""><strong>classe positive</strong></a>. Par exemple :</p>
 <div>
-$$\text{Précision} =
-\frac{\text{Vrais positifs}} {\text{Vrais positifs} + \text{Faux positifs}}$$
+[$$]\text{Précision} =
+\frac{\text{Vrais positifs}} {\text{Vrais positifs} + \text{Faux positifs}}[/$$]
 </div>
 
 "
@@ -883,9 +883,9 @@ Parfois appelé ""annotateur"".</p>
 "
 rappel (recall) (Glossaire du Machine Learning de Google)|"
 <p>Statistique des <a href=""https://developers.google.com/machine-learning/glossary/#classification_model""><strong>modèles de classification</strong></a> qui répond à la question suivante : parmi toutes les étiquettes positives possibles, combien d'entre elles le modèle a-t-il correctement identifiées ? En d'autres termes :</p>
-<p>$$\text{Rappel} =
+<p>[$$]\text{Rappel} =
 \frac{\text{Vrais positifs}} {\text{Vrais positifs} + \text{Faux négatifs}}
-$$</p>
+[/$$]</p>
 "
 unité de rectification linéaire (ReLU) (Rectified Linear Unit (ReLU)) (Glossaire du Machine Learning de Google)|"
 <p><a href=""https://developers.google.com/machine-learning/glossary/#activation_function""><strong>Fonction d'activation</strong></a> dont les règles sont les suivantes :</p>
@@ -910,7 +910,7 @@ régularisation (regularization) (Glossaire du Machine Learning de Google)|"
 taux de régularisation (regularization rate) (Glossaire du Machine Learning de Google)|"
 <p>Grandeur scalaire, notée lambda, qui indique l'importance relative de la fonction de régularisation. L'équation de <a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>perte</strong></a> simplifiée suivante montre l'influence du taux de régularisation :</p>
 <div>
-$$\text{minimiser(fonction de perte + }\lambda\text{(fonction de régularisation))}$$
+[$$]\text{minimiser(fonction de perte + }\lambda\text{(fonction de régularisation))}[/$$]
 </div>
 
 <p>L'augmentation du taux de régularisation réduit non seulement le <a href=""https://developers.google.com/machine-learning/glossary/#overfitting""><strong>surapprentissage</strong></a>, mais aussi la <a href=""https://developers.google.com/machine-learning/glossary/#accuracy""><strong>justesse</strong></a> du modèle.</p>
@@ -958,12 +958,12 @@ session (tf.session) (Glossaire du Machine Learning de Google)|"
 fonction sigmoïde (sigmoid function) (Glossaire du Machine Learning de Google)|"
 <p>Fonction qui met en correspondance le résultat d'une régression logistique ou multinomiale (logarithme de probabilité) avec des probabilités, et renvoie une valeur comprise entre 0 et 1.  L'équation de la fonction sigmoïde est la suivante :</p>
 <div>
-$$y = \frac{1}{1 + e^{-\sigma}}$$
+[$$]y = \frac{1}{1 + e^{-\sigma}}[/$$]
 </div>
 
 <p>où \(\sigma\), dans les problèmes de <a href=""https://developers.google.com/machine-learning/glossary/#logistic_regression""><strong>régression logistique</strong></a>, est simplement :</p>
 <div>
-$$\sigma = b + w_1x_1 + w_2x_2 + … w_nx_n$$
+[$$]\sigma = b + w_1x_1 + w_2x_2 + … w_nx_n[/$$]
 </div>
 
 <p>En d'autres termes, la fonction sigmoïde convertit \(\sigma\) en une probabilité comprise entre 0 et 1.</p>
@@ -1088,11 +1088,11 @@ Comme le montrent les tableaux suivants, la représentation dense consomme envir
 parcimonie (sparsity) (Glossaire du Machine Learning de Google)|"
 <p>Nombre d'éléments égaux à zéro (ou null) dans un vecteur ou une matrice divisé par le nombre total d'entrées dans ce vecteur ou cette matrice. Considérons par exemple une matrice 10 x 10 dans laquelle 98 cellules contiennent zéro. La formule permettant de calculer la parcimonie est la suivante :</p>
 <div>
-$$
+[$$]
 {\text{parcimonie}} =
 \frac{\text{98}} {\text{100}} =
 {\text{0.98}}
-$$
+[/$$]
 </div>
 
 <p>La <strong>parcimonie des caractéristiques</strong> désigne la parcimonie d'un vecteur de caractéristiques. La <strong>parcimonie du modèle</strong> désigne la parcimonie des pondérations du modèle.</p>
@@ -1232,7 +1232,7 @@ vrai positif (VP) (true positive (TP)) (Glossaire du Machine Learning de Google)
 taux de vrais positifs (taux de VP) (true positive rate (TP rate)) (Glossaire du Machine Learning de Google)|"
 <p>Synonyme de <a href=""https://developers.google.com/machine-learning/glossary/#recall""><strong>rappel</strong></a>. C'est-à-dire :</p>
 <div>
-$$\text{Taux de vrais positifs} = \frac{\text{Vrais positifs}} {\text{Vrais positifs} + \text{Faux négatifs}}$$
+[$$]\text{Taux de vrais positifs} = \frac{\text{Vrais positifs}} {\text{Vrais positifs} + \text{Faux négatifs}}[/$$]
 </div>
 
 <p>Le taux de vrais positifs correspond à l'axe des ordonnées d'une <a href=""https://developers.google.com/machine-learning/glossary/#ROC""><strong>courbe ROC</strong></a>.</p>
