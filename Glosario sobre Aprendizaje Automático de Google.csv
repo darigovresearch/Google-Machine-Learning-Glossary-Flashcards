@@ -93,13 +93,13 @@ agrupamiento en clústeres (clustering) (Glosario sobre Aprendizaje Automático 
 <p>Agrupar <a href=""https://developers.google.com/machine-learning/glossary/#example""><strong>Ejemplos</strong></a> relacionados, particularmente durante el <a href=""https://developers.google.com/machine-learning/glossary/#unsupervised_machine_learning""><strong>aprendizaje no supervisado</strong></a>. Una vez que todos los ejemplos están agrupados, una persona puede, de forma opcional, asignar un significado a cada clúster.</p>
 <p>Existen muchos algoritmos de agrupamiento en clústeres.  Por ejemplo, el algoritmo <a href=""https://developers.google.com/machine-learning/glossary/#k-means""><strong>k-medios</strong></a> agrupa ejemplos sobre la base de su proximidad a un <a href=""https://developers.google.com/machine-learning/glossary/#centroid""><strong>centroide</strong></a>, como en el siguiente diagrama:</p>
 <p>
-<img src=""/machine-learning/glossary/images/Cluster.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/Cluster.svg"">
 </p>
 
 <p>Un investigador humano podría luego revisar los clústeres y, por ejemplo, etiquetar el grupo 1 como ""árboles enanos"" y el grupo 2 como ""árboles grandes"".</p>
 <p>Otro ejemplo podría ser un algoritmo de agrupamiento basado en la distancia de ejemplo desde un punto central, como se ilustra a continuación:</p>
 <p>
-<img src=""/machine-learning/glossary/images/RingCluster.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/RingCluster.svg"">
 </p>
 
 "
@@ -145,12 +145,12 @@ convergencia (convergence) (Glosario sobre Aprendizaje Automático de Google)|"
 atributo convexo (convex function) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Atributo en el que la región por encima del gráfico del atributo es un <a href=""https://developers.google.com/machine-learning/glossary/#convex_set""><strong>conjunto convexo</strong></a>.  El atributo convexo prototípico tiene una forma similar a la letra <strong>U</strong>.  Por ejemplo, los siguientes son todos atributos convexos:a</p>
 <p>
-<img src=""/machine-learning/glossary/images/convex_functions.png"" height=""300"" alt=""Un atributo convexo típico tiene una forma similar a la letra &quot;U&quot;.""/>
+<img src=""https://developers.google.com/machine-learning/glossary/images/convex_functions.png"" height=""300"" alt=""Un atributo convexo típico tiene una forma similar a la letra &quot;U&quot;.""/>
 </p>
 
 <p>Por el contrario, el siguiente atributo no es convexo.  Observa cómo la región por encima del gráfico no es un conjunto convexo:</p>
 <p>
-<img src=""/machine-learning/glossary/images/nonconvex_function.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/nonconvex_function.svg"">
 </p>
 
 <p>Un <strong>atributo estrictamente convexo</strong> tiene exactamente un punto mínimo local, que también es el punto mínimo global. Los atributos clásicos con forma de U son atributos estrictamente convexos.  Sin embargo, algunos atributos convexos (por ejemplo, las líneas rectas) no lo son.</p>
@@ -174,12 +174,12 @@ Gran parte de la investigación sobre el aprendizaje automático se ha centrado 
 conjunto convexo (convex set) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Subconjunto del espacio euclídeo en el que una línea dibujada entre dos puntos cualesquiera en el subconjunto permanece completamente dentro del subconjunto.  Por ejemplo, las dos formas que se muestran a continuación son conjuntos convexos:</p>
 <p>
-<img src=""/machine-learning/glossary/images/convex_set.png"" alt=""Un rectángulo y una semielipse son conjuntos convexos.""/>
+<img src=""https://developers.google.com/machine-learning/glossary/images/convex_set.png"" alt=""Un rectángulo y una semielipse son conjuntos convexos.""/>
 </p>
 
 <p>Por el contrario, las dos formas que se muestran a continuación no son conjuntos convexos:</p>
 <p>
-<img src=""/machine-learning/glossary/images/nonconvex_set.png"" alt=""Un gráfico circular con un sector faltante y un fuego artificial son conjuntos no convexos.""/>
+<img src=""https://developers.google.com/machine-learning/glossary/images/nonconvex_set.png"" alt=""Un gráfico circular con un sector faltante y un fuego artificial son conjuntos no convexos.""/>
 </p>
 
 "
@@ -196,13 +196,13 @@ Por ejemplo, en una matriz de entrada 28 x 28, el filtro podría ser cualquier m
 capa convolucional (convolutional layer) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Una capa de una red neuronal profunda en la que un <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_filter""><strong>filtro convolucional</strong></a> pasa a lo largo de una matriz de entrada.  Por ejemplo, considera el siguiente <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_filter""><strong>filtro convolucional</strong></a> de 3 x 3:</p>
 <p>
-<img src=""/machine-learning/glossary/images/ConvolutionalFilter33.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/ConvolutionalFilter33.svg"">
 </p>
 
 <p>En la siguiente animación, se muestra una capa convolucional que consta de 9 operaciones que involucran la matriz de entrada de 5 x 5. Como se puede observar, cada operación convolucional funciona en una porción diferente de 3 x 3 de la matriz de entrada.
 La matriz 3 x 3 resultante (a la derecha) contiene los resultados de las 9 operaciones convolucionales:</p>
 <p>
-<img src=""/machine-learning/glossary/images/AnimatedConvolution.gif""/>
+<img src=""https://developers.google.com/machine-learning/glossary/images/AnimatedConvolution.gif""/>
 </p>
 
 "
@@ -223,17 +223,17 @@ operación convolucional (convolutional operation) (Glosario sobre Aprendizaje A
 </ol>
 <p>Por ejemplo, consideremos la siguiente matriz de entrada de 5 x 5:</p>
 <p>
-<img src=""/machine-learning/glossary/images/ConvolutionalLayerInputMatrix.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/ConvolutionalLayerInputMatrix.svg"">
 </p>
 
 <p>Ahora imaginemos el siguiente filtro convolucional de 2 x 2:</p>
 <p>
-<img src=""/machine-learning/glossary/images/ConvolutionalLayerFilter.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/ConvolutionalLayerFilter.svg"">
 </p>
 
 <p>Cada operación convolucional implica una sola porción de 2 x 2 de la matriz de entrada. Por ejemplo, supongamos que usamos la porción de 2 x 2 en la parte superior izquierda de la matriz de entrada.  La operación de convolución en esta porción se verá de la siguiente manera:</p>
 <p>
-<img src=""/machine-learning/glossary/images/ConvolutionalLayerOperation.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/ConvolutionalLayerOperation.svg"">
 </p>
 
 <p>Una <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_layer""><strong>capa convolucional</strong></a> consiste en una serie de operaciones convolucionales que actúan en porciones diferentes de la matriz de entrada.</p>
@@ -436,7 +436,7 @@ Las <a href=""https://developers.google.com/machine-learning/glossary/#KSVMs""><
 <p>y, a su vez, <em>y</em> es la etiqueta verdadera, ya sea -1 o +1.</p>
 <p>Por consiguiente, el diseño de una pérdida de bisagra con (y * y') tiene el siguiente aspecto:</p>
 <p>
-<img src=""/machine-learning/glossary/images/hinge-loss.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/hinge-loss.svg"">
 </p>
 
 "
@@ -492,12 +492,12 @@ k-medios (k-means) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>El algoritmo k-medios selecciona las ubicaciones del centroide para minimizar el <em>cuadrado</em> acumulativo de las distancias desde cada ejemplo hasta su centroide más cercano.</p>
 <p>Por ejemplo, considera la siguiente representación de altura y ancho de perro:</p>
 <p>
-<img src=""/machine-learning/glossary/images/DogDimensions.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/DogDimensions.svg"">
 </p>
 
 <p>Si k=3, el algoritmo k-medios determinará tres centroides.  Cada ejemplo se asigna a su centroide más cercano, lo que produce tres grupos:</p>
 <p>
-<img src=""/machine-learning/glossary/images/DogDimensionsKMeans.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/DogDimensionsKMeans.svg"">
 </p>
 
 <p>Supongamos que un fabricante quiere determinar los tamaños ideales de suéteres pequeños, medianos y grandes para perros. Los tres centroides identifican la altura media y el ancho medio de cada perro en ese grupo. Por lo tanto, el fabricante debería basar los tamaños de suéter en esos tres centroides.  Ten en cuenta que el centroide de un clúster <em>no</em> suele ser un ejemplo del clúster.</p>
@@ -814,14 +814,14 @@ reducción (pooling) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Reducir una matriz (o matrices) creada por una <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_layer""><strong>capa convolucional</strong></a> anterior a una matriz más pequeña.
 Por lo general, la reducción implica tomar el valor máximo o promedio en el área a ser reducida. Por ejemplo, supongamos que tenemos la siguiente matriz de 3 x 3:</p>
 <p>
-<img src=""/machine-learning/glossary/images/PoolingStart.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/PoolingStart.svg"">
 </p>
 
 <p>Una operación de reducción, al igual que una convolucional, desliza esa matriz en porciones y luego divide esa operación convolucional en <a href=""https://developers.google.com/machine-learning/glossary/#stride""><strong>pasos de avance</strong></a>. Por ejemplo, supongamos que la operación de reducción desliza la matriz convolucional en porciones de 2 x 2 con un paso de avance de 1 x 1.
 Como se ilustra en el siguiente diagrama, se producen cuatro operaciones de reducción.
 Supongamos que cada operación de reducción elige el valor máximo de las cuatro en esa porción:</p>
 <p>
-<img src=""/machine-learning/glossary/images/PoolingConvolution.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/PoolingConvolution.svg"">
 </p>
 
 <p>La reducción permite aplicar la <a href=""https://developers.google.com/machine-learning/glossary/#translational_invariance""><strong>invariancia traslacional</strong></a> en la matriz de entrada.</p>
@@ -1129,7 +1129,7 @@ minimización del riesgo estructural (SRM, structural risk minimization) (Glosar
 segmento (stride) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>En una operación convolucional o de reducción, el delta en cada dimensión de la siguiente serie de porciones de entrada. Por ejemplo, la siguiente animación muestra un segmento (1,1) durante una operación convolucional. Por lo tanto, la siguiente porción de entrada comienza una posición a la derecha de la porción de entrada anterior. Cuando la operación alcanza el borde derecho, la siguiente porción se posiciona completamente a la izquierda, pero una posición hacia abajo.</p>
 <p>
-<img src=""/machine-learning/glossary/images/AnimatedConvolution.gif""/>
+<img src=""https://developers.google.com/machine-learning/glossary/images/AnimatedConvolution.gif""/>
 </p>
 
 <p>El ejemplo anterior muestra un segmento bidimensional.  Si la matriz de entrada es tridimensional, el segmento también tendría ese formato.</p>
