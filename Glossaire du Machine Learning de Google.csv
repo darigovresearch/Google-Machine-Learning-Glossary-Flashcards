@@ -93,13 +93,13 @@ clustering (Glossaire du Machine Learning de Google)|"
 <p>Groupement d'<a href=""https://developers.google.com/machine-learning/glossary/#example""><strong>exemples</strong></a> similaires, en particulier lors d'<a href=""https://developers.google.com/machine-learning/glossary/#unsupervised_machine_learning""><strong>un apprentissage non supervisé</strong></a>. Une fois tous les exemples groupés, une personne peut éventuellement attribuer un sens à chaque cluster.</p>
 <p>Il existe de nombreux algorithmes de clustering.  Par exemple, l'algorithme <a href=""https://developers.google.com/machine-learning/glossary/#k-means""><strong>k-moyennes</strong></a> groupe des exemples en fonction de leur proximité avec un <a href=""https://developers.google.com/machine-learning/glossary/#centroid""><strong>centroïde</strong></a>, comme dans le diagramme suivant :</p>
 <p>
-<img src=""/machine-learning/glossary/images/Cluster.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/Cluster.svg"">
 </p>
 
 <p>Un chercheur pourrait alors examiner les clusters et, par exemple, étiqueter le cluster 1 en tant qu'""arbres nains"" et le cluster 2 en tant qu'""arbres de taille normale"".</p>
 <p>Autre exemple, celui d'un algorithme de clustering basé sur la distance entre un exemple et un point central, illustré comme suit :</p>
 <p>
-<img src=""/machine-learning/glossary/images/RingCluster.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/RingCluster.svg"">
 </p>
 
 "
@@ -145,12 +145,12 @@ convergence (Glossaire du Machine Learning de Google)|"
 fonction convexe (convex function) (Glossaire du Machine Learning de Google)|"
 <p>Fonction dans laquelle la région au-dessus du graphique est un <a href=""https://developers.google.com/machine-learning/glossary/#convex_set""><strong>ensemble convexe</strong></a>.  Classiquement, une fonction convexe est en forme de <strong>U</strong>.  Par exemple, les fonctions suivantes sont toutes des fonctions convexes :</p>
 <p>
-<img src=""/machine-learning/glossary/images/convex_functions.png"" height=""300"" alt=""Une fonction convexe typique est en U.""/>
+<img src=""https://developers.google.com/machine-learning/glossary/images/convex_functions.png"" height=""300"" alt=""Une fonction convexe typique est en U.""/>
 </p>
 
 <p>À titre de comparaison, la fonction suivante n'est pas convexe.  Notez comment la région au-dessus du graphique diffère d'un ensemble convexe :</p>
 <p>
-<img src=""/machine-learning/glossary/images/nonconvex_function.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/nonconvex_function.svg"">
 </p>
 
 <p>Une <strong>fonction strictement convexe</strong> possède exactement un minimum local, qui est également le minimum global. Les fonctions classiques en U sont des fonctions strictement convexes.  Ce n'est pas le cas de certaines fonctions convexes, comme les droites.</p>
@@ -174,12 +174,12 @@ Dans le domaine du machine learning, de nombreuses études ont cherché à expri
 ensemble convexe (convex set) (Glossaire du Machine Learning de Google)|"
 <p>Sous-ensemble de l'espace euclidien caractérisé par le fait qu'une ligne tracée entre deux points quelconques du sous-ensemble est entièrement incluse dans le sous-ensemble.  Par exemple, les deux formes suivantes sont des ensembles convexes :</p>
 <p>
-<img src=""/machine-learning/glossary/images/convex_set.png"" alt=""Un rectangle et une demi-ellipse sont tous deux des ensembles convexes.""/>
+<img src=""https://developers.google.com/machine-learning/glossary/images/convex_set.png"" alt=""Un rectangle et une demi-ellipse sont tous deux des ensembles convexes.""/>
 </p>
 
 <p>À titre de comparaison, les deux formes suivantes ne sont pas des ensembles convexes :</p>
 <p>
-<img src=""/machine-learning/glossary/images/nonconvex_set.png"" alt=""Un graphique à secteurs dont il manque un secteur et un feu d&#39;artifice sont tous deux des ensembles non convexes.""/>
+<img src=""https://developers.google.com/machine-learning/glossary/images/nonconvex_set.png"" alt=""Un graphique à secteurs dont il manque un secteur et un feu d&#39;artifice sont tous deux des ensembles non convexes.""/>
 </p>
 
 "
@@ -196,13 +196,13 @@ Par exemple, dans le cas d'une matrice d'entrée de 28 x 28, le filtre pourrait 
 couche convolutive (convolutional layer) (Glossaire du Machine Learning de Google)|"
 <p>Couche d'un réseau de neurones profond dans laquelle un <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_filter""><strong>filtre convolutif</strong></a> transfert une matrice d'entrée.  Par exemple, le <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_filter""><strong>filtre convolutif</strong></a> 3 x 3 suivant :</p>
 <p>
-<img src=""/machine-learning/glossary/images/ConvolutionalFilter33.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/ConvolutionalFilter33.svg"">
 </p>
 
 <p>L'animation suivante montre une couche convolutive composée de 9 opérations convolutives impliquant la matrice d'entrée 5 x 5. Notez que chaque opération convolutive fonctionne sur une différente tranche 3 x 3 de la matrice d'entrée.
 La matrice 3 x 3 résultante (à droite) est constituée des résultats des 9 opérations convolutives :</p>
 <p>
-<img src=""/machine-learning/glossary/images/AnimatedConvolution.gif""/>
+<img src=""https://developers.google.com/machine-learning/glossary/images/AnimatedConvolution.gif""/>
 </p>
 
 "
@@ -223,17 +223,17 @@ opération convolutive (convolutional operation) (Glossaire du Machine Learning 
 </ol>
 <p>Soit, par exemple, la matrice d'entrée 5 x 5 suivante :</p>
 <p>
-<img src=""/machine-learning/glossary/images/ConvolutionalLayerInputMatrix.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/ConvolutionalLayerInputMatrix.svg"">
 </p>
 
 <p>Soit, à présent, le filtre convolutif 2 x 2 suivant :</p>
 <p>
-<img src=""/machine-learning/glossary/images/ConvolutionalLayerFilter.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/ConvolutionalLayerFilter.svg"">
 </p>
 
 <p>Chaque opération convolutive implique une seule tranche 2 x 2 de la matrice d'entrée. Supposons que nous utilisions la tranche 2 x 2 en haut à gauche de la matrice d'entrée.  L'opération convolutive sur cette tranche est alors :</p>
 <p>
-<img src=""/machine-learning/glossary/images/ConvolutionalLayerOperation.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/ConvolutionalLayerOperation.svg"">
 </p>
 
 <p>Une <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_layer""><strong>couche convolutive</strong></a> consiste en une série d'opérations convolutives, chacune agissant sur une tranche différente de la matrice d'entrée.</p>
@@ -265,7 +265,7 @@ API Dataset (tf.data) (Dataset API (tf.data)) (Glossaire du Machine Learning de 
 frontière de décision (decision boundary) (Glossaire du Machine Learning de Google)|"
 <p>Séparateur entre les classes apprises par un modèle dans une <a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>classe binaire</strong></a> ou dans les <a href=""https://developers.google.com/machine-learning/glossary/#multi-class""><strong>problèmes de classification à classes multiples</strong></a>. Par exemple, dans l'image suivante représentant un problème de classification binaire, la frontière de décision est la limite entre la classe orange et la classe bleue :</p>
 <p>
-<img src=""/machine-learning/glossary/images/decision_boundary.png"" alt=""Limite bien définie entre deux classes.""/>
+<img src=""https://developers.google.com/machine-learning/glossary/images/decision_boundary.png"" alt=""Limite bien définie entre deux classes.""/>
 </p>
 
 "
@@ -436,7 +436,7 @@ Les <a href=""https://developers.google.com/machine-learning/glossary/#KSVMs""><
 <p>et <em>y</em> est l'étiquette réelle, soit -1, soit +1.</p>
 <p>Par conséquent, le graphique de la marge maximale en fonction de (y * y') est de la forme suivante :</p>
 <p>
-<img src=""/machine-learning/glossary/images/hinge-loss.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/hinge-loss.svg"">
 </p>
 
 "
@@ -492,12 +492,12 @@ k-moyennes (k-means) (Glossaire du Machine Learning de Google)|"
 <p>L'algorithme k-moyennes choisit l'emplacement des centroïdes de manière à minimiser le <em>carré</em> cumulatif des distances entre chaque exemple et son centroïde le plus proche.</p>
 <p>Supposons le graphe suivant représentant la taille de chiens en fonction de leur largeur :</p>
 <p>
-<img src=""/machine-learning/glossary/images/DogDimensions.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/DogDimensions.svg"">
 </p>
 
 <p>Si k = 3, l'algorithme k-moyennes détermine trois centroïdes.  Chaque exemple est assigné à son centroïde le plus proche, ce qui donne trois groupes :</p>
 <p>
-<img src=""/machine-learning/glossary/images/DogDimensionsKMeans.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/DogDimensionsKMeans.svg"">
 </p>
 
 <p>Imaginez qu'un fabricant souhaite déterminer les tailles idéales de pulls pour chien petits, moyens et grands. Les trois centroïdes identifient la hauteur et la largeur moyennes de chaque chien du cluster correspondant. Ainsi, le fabricant devrait probablement baser les tailles de pull sur ces trois centroïdes.  Notez que le centroïde d'un cluster n'est généralement <em>pas</em> un exemple du cluster.</p>
@@ -822,14 +822,14 @@ pooling (Glossaire du Machine Learning de Google)|"
 <p>Réduction d'une matrice (ou de matrices) créée par une <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_layer""><strong>couche convolutive</strong></a> antérieure à une matrice plus petite.
 Le pooling implique généralement de prendre la valeur maximale ou la valeur moyenne de l'ensemble de la zone regroupée. Soit, par exemple, la matrice 3 x 3 suivante :</p>
 <p>
-<img src=""/machine-learning/glossary/images/PoolingStart.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/PoolingStart.svg"">
 </p>
 
 <p>Une opération de pooling, tout comme une opération convolutive, divise cette matrice en tranches, puis déplace cette opération convolutive selon un certain <a href=""https://developers.google.com/machine-learning/glossary/#stride""><strong>pas</strong></a>. Supposons que l'opération de pooling divise la matrice convolutive en tranches de taille 2 x 2 avec un pas de 1 x 1.
 Comme l'illustre le diagramme suivant, quatre opérations de pooling ont lieu.
 Imaginons que chaque opération de pooling sélectionne la valeur maximale des quatre valeurs de cette tranche :</p>
 <p>
-<img src=""/machine-learning/glossary/images/PoolingConvolution.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/PoolingConvolution.svg"">
 </p>
 
 <p>Le pooling permet d'appliquer l'<a href=""https://developers.google.com/machine-learning/glossary/#translational_invariance""><strong>invariance de translation</strong></a> dans la matrice d'entrée.</p>
@@ -1126,7 +1126,7 @@ descente de gradient stochastique (SGD) (stochastic gradient descent (SGD)) (Glo
 pas (stride) (Glossaire du Machine Learning de Google)|"
 <p>Dans une opération de convolution ou de pooling, delta dans chaque dimension entre deux tranches d'entrée consécutives. Par exemple, l'animation suivante montre un pas de (1,1) lors d'une opération de convolution. La tranche d'entrée suivante commence ainsi une position à droite de la tranche d'entrée précédente. Lorsque l'opération atteint le bord droit, la tranche suivante se trouve complètement à gauche, mais une position vers le bas.</p>
 <p>
-<img src=""/machine-learning/glossary/images/AnimatedConvolution.gif""/>
+<img src=""https://developers.google.com/machine-learning/glossary/images/AnimatedConvolution.gif""/>
 </p>
 
 <p>L'exemple précédent illustre le cas d'un pas bidimensionnel.  Si la matrice d'entrée est tridimensionnelle, le pas est également tridimensionnel.</p>
