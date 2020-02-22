@@ -26,7 +26,6 @@ $$\text{Exactitud} = \frac{\text{Verdaderos positivos} + \text{Verdaderos negati
 </p><h2 class="hide-from-toc"> AUC (área bajo la curva ROC)</h2><p></p>
 <p>Métrica de evaluación que considera todos los <a href="#classification_threshold"><strong>umbrales de clasificación</strong></a> posibles.</p>
 <p>El área bajo la <a href="#ROC">curva ROC</a> es la probabilidad de que un clasificador tenga más seguridad de que un ejemplo positivo elegido al azar sea realmente positivo con respecto a que un ejemplo negativo elegido al azar sea positivo.</p>
-<h2 class="glossary">B</h2>
 
 <p><a name="backpropagation"></a>
 </p><h2 class="hide-from-toc"> propagación inversa (backpropagation)</h2><p></p>
@@ -59,7 +58,6 @@ $$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 </p><p><a name="bucketing"></a>
 </p><h2 class="hide-from-toc"> agrupamiento (bucketing)</h2><p></p>
 <p>Conversión de un atributo (generalmente <a href="#continuous_feature"><strong>continuo</strong></a>) en varios atributos binarios denominados agrupamientos o discretizaciones, que en general se basan en un rango de valores. Por ejemplo, en lugar de representar la temperatura como una función continua de punto flotante, podrías dividir los rangos de temperatura en discretizaciones. Para datos de temperatura con una variación de un décimo de un grado, todas las temperaturas entre 0.0 y 15.0 grados podrían colocarse en un primer grupo, las de 15.1 a 30.0 grados podrían constituir un segundo grupo y las de 30.1 a 50.0 grados podrían ser un tercer grupo.</p>
-<h2 class="glossary">C</h2>
 
 <p><a name="calibration_layer"></a>
 </p><h2 class="hide-from-toc"> capa de calibración (calibration layer)</h2><p></p>
@@ -250,7 +248,6 @@ La matriz 3 x 3 resultante (a la derecha) contiene los resultados de las 9 opera
 </p><h2 class="hide-from-toc"> Estimador personalizado (custom Estimator)</h2><p></p>
 <p><a href="#Estimators"><strong>Estimador</strong></a> que escribes tú mismo siguiendo <a href="https://www.tensorflow.org/extend/estimators">estas instrucciones</a>.</p>
 <p>Compara esto con <a href="#pre-made_Estimator"><strong>estimadores prediseñados</strong></a>.</p>
-<h2 class="glossary">D</h2>
 
 <p><a name="data_analysis"></a>
 </p><h2 class="hide-from-toc"> análisis de datos (data analysis)</h2><p></p>
@@ -294,7 +291,6 @@ La matriz 3 x 3 resultante (a la derecha) contiene los resultados de las 9 opera
 <p><a name="dynamic_model"></a>
 </p><h2 class="hide-from-toc"> modelo dinámico (dynamic model)</h2><p></p>
 <p><a href="#model"><strong>Modelo</strong></a> que se entrena en línea con actualizaciones continuas.  Esto significa que constantemente ingresan datos al modelo.</p>
-<h2 class="glossary">E</h2>
 
 <p><a name="early_stopping"></a>
 </p><h2 class="hide-from-toc"> interrupción anticipada (early stopping)</h2><p></p>
@@ -331,7 +327,6 @@ Por lo general, las incorporaciones son una traslación de un vector de dimensio
 <p><a name="example"></a>
 </p><h2 class="hide-from-toc"> ejemplo (example)</h2><p></p>
 <p>Fila de un conjunto de datos. Un ejemplo contiene uno o más <a href="#feature"><strong>atributos</strong></a> y, posiblemente, una <a href="#label"><strong>etiqueta</strong></a>. Consulta también <a href="#labeled_example"><strong>ejemplo etiquetado</strong></a> y <a href="#unlabeled_example"><strong>ejemplo sin etiqueta</strong></a>.</p>
-<h2 class="glossary">F</h2>
 
 <p><a name="FN"></a>
 </p><h2 class="hide-from-toc"> falso negativo (FN, false negative)</h2><p></p>
@@ -387,7 +382,6 @@ Por ejemplo, código postal, tamaño de la propiedad y estado de la propiedad pu
 </p><h2 class="hide-from-toc"> capa completamente conectada (fully connected layer)</h2><p></p>
 <p><a href="#hidden_layer"><strong>Capa oculta</strong></a> en la que cada <a href="#node"><strong>nodo</strong></a> está conectado a <em>cada uno</em> de los nodos de la capa oculta subsiguiente.</p>
 <p>Una capa completamente conectada también se conoce como una <a href="#dense_layer"><strong>capa densa</strong></a>.</p>
-<h2 class="glossary">G</h2>
 
 </p><p><a name="generalization"></a>
 </p><h2 class="hide-from-toc"> generalización (generalization)</h2><p></p>
@@ -420,7 +414,6 @@ Informalmente, el descenso de gradientes ajusta los parámetros de manera iterat
 <p><a name="graph"></a>
 </p><h2 class="hide-from-toc"> gráfico (graph)</h2><p></p>
 <p>En TensorFlow, especificación de cálculo. Los nodos del gráfico representan operaciones. Las conexiones están orientadas y representan el paso del resultado de una operación (un <a href="https://www.tensorflow.org/api_docs/python/tf/Tensor">Tensor</a>) como un operando para otra operación. Para visualizar un gráfico, usa <a href="#TensorBoard"><strong>TensorBoard</strong></a>.</p>
-<h2 class="glossary">H</h2>
 
 <p><a name="heuristic"></a>
 </p><h2 class="hide-from-toc"> heurística (heuristic)</h2><p></p>
@@ -460,7 +453,6 @@ ajustan durante ejecuciones sucesivas de entrenamiento de un modelo. Por ejemplo
 </p><h2 class="hide-from-toc"> hiperplano (hyperplane)</h2><p></p>
 <p>Límite que separa un espacio en dos subespacios.  Por ejemplo, una línea es un hiperplano en dos dimensiones y un plano es un hiperplano en tres dimensiones.
 En el aprendizaje automático, un hiperplano generalmente es el límite que separa un espacio de dimensiones altas.  Las <a href="#KSVMs"><strong>máquinas de vectores soporte de Kernel</strong></a> usan hiperplanos para separar las clases positivas de las negativas, frecuentemente en un espacio de dimensiones muy altas.</p>
-<h2 class="glossary">I</h2>
 
 <p><a name="iid"></a>
 </p><h2 class="hide-from-toc">independiente e idénticamente distribuido (i.i.d, independently and identically distributed)</h2><p></p>
@@ -490,7 +482,6 @@ En algunas ocasiones, también se denomina <strong>acuerdo entre anotadores</str
 <p><a name="iteration"></a>
 </p><h2 class="hide-from-toc"> iteración (iteration)</h2><p></p>
 <p>Una sola actualización de los pesos de un modelo durante el entrenamiento.  Una iteración consiste en el cómputo de los gradientes de los parámetros con respecto a la pérdida en un solo <a href="#batch"><strong>lote</strong></a> de datos.</p>
-<h2 class="glossary">K</h2>
 
 <p><a name="k-means"></a>
 </p><h2 class="hide-from-toc"> k-medios (k-means)</h2><p></p>
@@ -544,7 +535,6 @@ $$
 <p><a name="KSVMs"></a>
 </p><h2 class="hide-from-toc">máquinas de vectores soporte de Kernel (KSVM, Kernel Support Vector Machines)</h2><p></p>
 <p>Algoritmo de clasificación que busca maximizar el margen entre las clases <a href="#positive_class"><strong>positiva</strong></a> y <a href="#negative_class"><strong>negativa</strong></a> mediante la proyección de vectores de datos de entrada a un espacio de dimensiones más altas.  Por ejemplo, considera un problema de clasificación en el que el conjunto de datos de entrada consta de cien atributos. Para maximizar el margen entre las clases positiva y negativa, las KSVM pueden asignar internamente esos atributos a un espacio de un millón de dimensiones.  Las KSVM usan un atributo de pérdida denominado <a href="#hinge-loss">pérdida de bisagra</a>.</p>
-<h2 class="glossary">L</h2>
 
 <p><a name="L1_loss"></a>
 </p><h2 class="hide-from-toc"> Pérdida L<sub>1</sub> (L1 loss)</h2><p></p>
@@ -634,7 +624,6 @@ $$
 <p><a name="loss"></a>
 </p><h2 class="hide-from-toc"> pérdida (loss)</h2><p></p>
 <p>Medición de la distancia entre las <a href="#prediction"><strong>predicciones</strong></a> de un modelo y su <a href="#label"><strong>etiqueta</strong></a>. Para describirla de manera más pesimista, se trata de una medición de qué tan malo es el modelo. Para determinar este valor, un modelo debe definir un atributo de pérdida. Por ejemplo, los modelos de regresión lineal generalmente usan el <a href="#MSE"><strong>error cuadrático medio</strong></a> para un atributo de pérdida, mientras que los de regresión logística usan la <a href="#Log_Loss"><strong>pérdida logística</strong></a>.</p>
-<h2 class="glossary">M</h2>
 
 <p><a name="machine_learning"></a>
 </p><h2 class="hide-from-toc"> aprendizaje automático (machine learning)</h2><p></p>
@@ -683,7 +672,6 @@ Cuando se utilizan <a href="#pre-made_Estimator"><strong>Estimadores prediseñad
 <p><a name="multinomial_classification"></a>
 </p><h2 class="hide-from-toc"> clasificación multinomial (multinomial classification)</h2><p></p>
 <p>Sinónimo de <a href="#multi-class"><strong>clasificación de clases múltiples</strong></a>.</p>
-<h2 class="glossary">N</h2>
 
 <p><a name="NaN_trap"></a>
 </p><h2 class="hide-from-toc"> trampa de N/A (NaN trap)</h2><p></p>
@@ -724,7 +712,6 @@ Por lo tanto, los códigos postales deben representarse como <a href="#categoric
 <p><a name="numpy"></a>
 </p><h2 class="hide-from-toc"> Numpy</h2><p></p>
 <p><a href="http://www.numpy.org/">Biblioteca matemática de código abierto</a> que proporciona operaciones entre matrices eficaces en Python. <a href="#pandas"><strong>Pandas</strong></a> se basa en Numpy.</p>
-<h2 class="glossary">O</h2>
 
 <p><a name="objective"></a>
 </p><h2 class="hide-from-toc"> objetivo (objective)</h2><p></p>
@@ -784,7 +771,6 @@ Es posible que diferentes optimizadores aprovechen uno o más de los siguientes 
 <p><a name="overfitting"></a>
 </p><h2 class="hide-from-toc"> sobreajuste (overfitting)</h2><p></p>
 <p>Creación de un modelo que coincide de tal manera con los <a href="#training_set"><strong>datos de entrenamiento</strong></a> que no puede realizar predicciones correctas con datos nuevos.</p>
-<h2 class="glossary">P</h2>
 
 <p><a name="pandas"></a>
 </p><h2 class="hide-from-toc"> Pandas</h2><p></p>
@@ -872,12 +858,10 @@ TensorFlow proporciona varios Estimadores prediseñados, incluidos <code>DNNClas
 <p><a name="prior_belief"></a>
 </p><h2 class="hide-from-toc"> conocimiento previo (prior belief)</h2><p></p>
 <p>Tu conocimiento acerca de los datos antes de que empieces a entrenarlos. Por ejemplo, la <a href="#L2_regularization"><strong>regularización L<sub>2</sub></strong></a> se basa en una idea anterior de que los <a href="#weight"><strong>pesos</strong></a> deben ser pequeños y, normalmente, estar distribuidos alrededor de cero.</p>
-<h2 class="glossary">Q</h2>
 
 <p><a name="queue"></a>
 </p><h2 class="hide-from-toc"> cola (queue)</h2><p></p>
 <p><a href="#Operation"><strong>Operación</strong></a> de TensorFlow que implementa una estructura de datos en cola. Por lo general se usa en Entrada/Salida.</p>
-<h2 class="glossary">R</h2>
 
 <p><a name="rank"></a>
 </p><h2 class="hide-from-toc"> rango (rank)</h2><p></p>
@@ -940,7 +924,6 @@ $$\text{minimizar(atributo de pérdida + }\lambda\text{(atributo de regularizaci
 </p><h2 class="hide-from-toc"> invariancia rotacional (rotational invariance)</h2><p></p>
 <p>En un problema de clasificación de imágenes, es la capacidad de un algoritmo para clasificar correctamente imágenes, incluso cuando cambia la orientación de la imagen. Por ejemplo, el algoritmo puede identificar una raqueta de tenis aun si apunta hacia arriba, hacia los lados o hacia abajo. Tenga en cuenta que la invariancia rotacional no siempre es deseable; por ejemplo, un 9 al revés no debe clasificarse como un 9.</p>
 <p>Consulta también <a href="#translational_invariance"><strong>invariancia traslacional</strong></a> o <a href="#size_invariance"><strong>invariancia de tamaño</strong></a>.</p>
-<h2 class="glossary">S</h2>
 
 <p><a name="SavedModel"></a>
 </p><h2 class="hide-from-toc"> SavedModel</h2><p></p>
@@ -1169,7 +1152,6 @@ Es decir, la pérdida al cuadrado reacciona de manera más severa a los valores 
 <li>Creación de una <a href="#feature_cross"><strong>combinación de funciones</strong></a></li>
 </ul>
 <p>Los atributos que se crean mediante la <a href="#normalization"><strong>normalización</strong></a> o el <a href="#scaling"><strong>ajuste</strong></a> solos no se consideran atributos sintéticos.</p>
-<h2 class="glossary">T</h2>
 
 <p><a name="target"></a>
 </p><h2 class="hide-from-toc"> target</h2><p></p>
@@ -1248,7 +1230,6 @@ $$\text{Tasa de verdaderos positivos} = \frac{\text{Verdaderos positivos}} {\tex
 </div>
 
 <p>La tasa de verdaderos positivos es el eje y en una <a href="#ROC"><strong>curva ROC</strong></a>.</p>
-<h2 class="glossary">U</h2>
 
 <p><a name="unlabeled_example"></a>
 </p><h2 class="hide-from-toc"> ejemplo sin etiqueta (unlabeled example)</h2><p></p>
@@ -1263,13 +1244,12 @@ Por ejemplo, en dominios como la protección contra el abuso y el fraude, los cl
 <p>Otro caso de aprendizaje automático no supervisado es el <a href="https://en.wikipedia.org/wiki/Principal_component_analysis"><strong>análisis de componentes principales (ACP)</strong></a>.
 Por ejemplo, la aplicación de ACP en un conjunto de datos acerca del contenido de millones de carritos de compras podría revelar que los carritos de compras que contienen limones con frecuencia también contienen antiácidos.</p>
 <p>Compara esto con el <a href="#supervised_machine_learning"><strong>aprendizaje automático supervisado</strong></a>.</p>
-<h2 class="glossary">V</h2>
 
 <p><a name="validation_set"></a>
 </p><h2 class="hide-from-toc"> conjunto de validación (validation set)</h2><p></p>
 <p>Subconjunto del conjunto de datos, separado del conjunto de entrenamiento, que se usa para ajustar <a href="#hyperparameter"><strong>hiperparámetros</strong></a>.</p>
 <p>Compara esto con el <a href="#training_set"><strong>conjunto de entrenamiento</strong></a> y el <a href="#test_set"><strong>conjunto de prueba</strong></a>.</p>
-</p><h2 class="glossary">W</h2>
+</p>
 
 <p><a name="weight"></a>
 </p><h2 class="hide-from-toc"> Peso (weight)</h2><p></p>
