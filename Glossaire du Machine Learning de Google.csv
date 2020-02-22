@@ -2,44 +2,44 @@ test A/B (A/B testing) (Glossaire du Machine Learning de Google)|"
 <p>Méthode statistique de comparaison d'au moins deux techniques, généralement une technique en place et une nouvelle technique concurrente. Le test A/B vise non seulement à déterminer la technique la plus performante, mais aussi si la différence est statistiquement significative. Généralement, le test A/B compare deux techniques sur la base d'une seule mesure. Il peut cependant être appliqué à n'importe quel nombre fini de techniques et de mesures.</p>
 "
 justesse (accuracy) (Glossaire du Machine Learning de Google)|"
-<p>Proportion de prédictions correctes d'un <a href=""#classification_model""><strong>modèle de classification</strong></a>. Dans la <a href=""#multi-class""><strong>classification à classes multiples</strong></a>, la justesse est définie comme suit :</p>
+<p>Proportion de prédictions correctes d'un <a href=""https://developers.google.com/machine-learning/glossary/#classification_model""><strong>modèle de classification</strong></a>. Dans la <a href=""https://developers.google.com/machine-learning/glossary/#multi-class""><strong>classification à classes multiples</strong></a>, la justesse est définie comme suit :</p>
 <div>
 $$\text{Justesse} =
 \frac{\text{Prédictions correctes}} {\text{Nombre total d'exemples}}$$
 </div>
 
-<p>Dans la <a href=""#binary_classification""><strong>classification binaire</strong></a>, la justesse est définie ainsi :</p>
+<p>Dans la <a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>classification binaire</strong></a>, la justesse est définie ainsi :</p>
 <div>
 $$\text{Justesse} = \frac{\text{Vrais positifs} + \text{Vrais négatifs}}
                          {\text{Nombre total d'exemples}}$$
 </div>
 
-<p>Voir <a href=""#TP""><strong>vrai positif</strong></a> et <a href=""#TN""><strong>vrai négatif</strong></a>.</p>
+<p>Voir <a href=""https://developers.google.com/machine-learning/glossary/#TP""><strong>vrai positif</strong></a> et <a href=""https://developers.google.com/machine-learning/glossary/#TN""><strong>vrai négatif</strong></a>.</p>
 "
 fonction d'activation (activation function) (Glossaire du Machine Learning de Google)|"
-<p>Fonction (par exemple <a href=""#ReLU""><strong>ReLU</strong></a> ou <a href=""#sigmoid_function""><strong>sigmoïde</strong></a>) qui utilise la somme pondérée de toutes les entrées de la couche précédente pour générer une valeur de sortie (généralement non linéaire) et la transmettre à la couche suivante.</p>
+<p>Fonction (par exemple <a href=""https://developers.google.com/machine-learning/glossary/#ReLU""><strong>ReLU</strong></a> ou <a href=""https://developers.google.com/machine-learning/glossary/#sigmoid_function""><strong>sigmoïde</strong></a>) qui utilise la somme pondérée de toutes les entrées de la couche précédente pour générer une valeur de sortie (généralement non linéaire) et la transmettre à la couche suivante.</p>
 "
 AdaGrad (Glossaire du Machine Learning de Google)|"
-<p>Algorithme complexe de descente de gradient qui redimensionne les gradients de chaque paramètre en attribuant à chacun des paramètres un <a href=""#learning_rate""><strong>taux d'apprentissage</strong></a> indépendant. Pour une explication complète, consultez <a href=""http://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf"">cet article</a>.</p>
+<p>Algorithme complexe de descente de gradient qui redimensionne les gradients de chaque paramètre en attribuant à chacun des paramètres un <a href=""https://developers.google.com/machine-learning/glossary/#learning_rate""><strong>taux d'apprentissage</strong></a> indépendant. Pour une explication complète, consultez <a href=""http://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf"">cet article</a>.</p>
 "
 AUC (aire sous la courbe ROC) (AUC (Area under the ROC Curve)) (Glossaire du Machine Learning de Google)|"
-<p>Statistique d'évaluation qui envisage tous les <a href=""#classification_threshold""><strong>seuils de classification</strong></a> possibles.</p>
-<p>L'aire sous la <a href=""#ROC"">courbe ROC</a> correspond à la probabilité que le niveau de confiance d'un classificateur quant au fait qu'un exemple positif choisi aléatoirement soit effectivement positif soit supérieur au niveau de confiance quant au fait qu'un exemple négatif choisi aléatoirement soit positif.</p>
+<p>Statistique d'évaluation qui envisage tous les <a href=""https://developers.google.com/machine-learning/glossary/#classification_threshold""><strong>seuils de classification</strong></a> possibles.</p>
+<p>L'aire sous la <a href=""https://developers.google.com/machine-learning/glossary/#ROC"">courbe ROC</a> correspond à la probabilité que le niveau de confiance d'un classificateur quant au fait qu'un exemple positif choisi aléatoirement soit effectivement positif soit supérieur au niveau de confiance quant au fait qu'un exemple négatif choisi aléatoirement soit positif.</p>
 
 "
 rétropropagation (backpropagation) (Glossaire du Machine Learning de Google)|"
-<p>Algorithme principal utilisé pour exécuter la <a href=""#gradient_descent""><strong>descente de gradient</strong></a> sur des <a href=""#neural_network""><strong>réseaux de neurones</strong></a>. Les valeurs de sortie de chaque nœud sont d'abord calculées (et mises en cache) dans une propagation avant,
+<p>Algorithme principal utilisé pour exécuter la <a href=""https://developers.google.com/machine-learning/glossary/#gradient_descent""><strong>descente de gradient</strong></a> sur des <a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>réseaux de neurones</strong></a>. Les valeurs de sortie de chaque nœud sont d'abord calculées (et mises en cache) dans une propagation avant,
 puis la <a href=""https://en.wikipedia.org/wiki/Partial_derivative"">dérivée partielle</a> de l'erreur pour chaque paramètre est calculée dans une rétropropagation via le graphe.</p>
 "
 référence (baseline) (Glossaire du Machine Learning de Google)|"
-<p><a href=""#model""><strong>Modèle</strong></a> simple ou heuristique utilisé comme point de référence pour comparer les performances d'un modèle. Une référence aide les développeurs de modèles à quantifier les performances minimales attendues pour un problème particulier.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>Modèle</strong></a> simple ou heuristique utilisé comme point de référence pour comparer les performances d'un modèle. Une référence aide les développeurs de modèles à quantifier les performances minimales attendues pour un problème particulier.</p>
 "
 lot (batch) (Glossaire du Machine Learning de Google)|"
-<p>Ensemble d'exemples utilisés dans une <a href=""#iteration""><strong>itération</strong></a> (c'est-à-dire, une mise à jour du <a href=""#gradient""><strong>gradient</strong></a>) de l'<a href=""#model_training""><strong>entraînement du modèle</strong></a>.</p>
-<p>Voir aussi <a href=""#batch_size""><strong>taille de lot</strong></a>.</p>
+<p>Ensemble d'exemples utilisés dans une <a href=""https://developers.google.com/machine-learning/glossary/#iteration""><strong>itération</strong></a> (c'est-à-dire, une mise à jour du <a href=""https://developers.google.com/machine-learning/glossary/#gradient""><strong>gradient</strong></a>) de l'<a href=""https://developers.google.com/machine-learning/glossary/#model_training""><strong>entraînement du modèle</strong></a>.</p>
+<p>Voir aussi <a href=""https://developers.google.com/machine-learning/glossary/#batch_size""><strong>taille de lot</strong></a>.</p>
 "
 taille de lot (batch size) (Glossaire du Machine Learning de Google)|"
-<p>Nombre d'exemples d'un <a href=""#batch""><strong>lot</strong></a>. Par exemple, la taille de lot de <a href=""#SGD""><strong>SGD</strong></a> est 1, tandis que la taille de lot d'un <a href=""#mini-batch""><strong>mini-lot</strong></a> est généralement comprise entre 10 et 1 000. La taille de lot est habituellement fixée pendant les processus d'apprentissage et d'inférence. Toutefois, TensorFlow accepte les tailles de lot dynamiques.</p>
+<p>Nombre d'exemples d'un <a href=""https://developers.google.com/machine-learning/glossary/#batch""><strong>lot</strong></a>. Par exemple, la taille de lot de <a href=""https://developers.google.com/machine-learning/glossary/#SGD""><strong>SGD</strong></a> est 1, tandis que la taille de lot d'un <a href=""https://developers.google.com/machine-learning/glossary/#mini-batch""><strong>mini-lot</strong></a> est généralement comprise entre 10 et 1 000. La taille de lot est habituellement fixée pendant les processus d'apprentissage et d'inférence. Toutefois, TensorFlow accepte les tailles de lot dynamiques.</p>
 "
 biais (bias) (Glossaire du Machine Learning de Google)|"
 <p>Ordonnée à l'origine ou décalage par rapport à une origine. Le <strong>biais</strong> est noté <em>b</em> ou <i>w<sub>0</sub></i> dans les modèles de machine learning.  Par exemple, <em>b</em> représente le biais dans la formule suivante :</p>
@@ -47,51 +47,51 @@ biais (bias) (Glossaire du Machine Learning de Google)|"
 $$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 </div>
 
-<p>À ne pas confondre avec le <a href=""#prediction_bias""><strong>biais de prédiction</strong></a>.</p>
+<p>À ne pas confondre avec le <a href=""https://developers.google.com/machine-learning/glossary/#prediction_bias""><strong>biais de prédiction</strong></a>.</p>
 "
 classification binaire (binary classification) (Glossaire du Machine Learning de Google)|"
 <p>Type de tâche de classification qui prédit l'une des deux classes mutuellement exclusives. Par exemple, un modèle de machine learning qui classe les e-mails en tant que ""spam"" ou ""non-spam"" est un classificateur binaire.</p>
 "
 binning (Glossaire du Machine Learning de Google)|"
-<p>Voir <a href=""#bucketing""><strong>binning (bucketing)</strong></a>.</p>
+<p>Voir <a href=""https://developers.google.com/machine-learning/glossary/#bucketing""><strong>binning (bucketing)</strong></a>.</p>
 "
 binning (bucketing) (Glossaire du Machine Learning de Google)|"
-<p>Conversion d'une caractéristique (généralement <a href=""#continuous_feature""><strong>continue</strong></a>) en plusieurs caractéristiques binaires appelées ""ensembles"" ou ""classes"", habituellement en fonction d'une plage de valeurs. Par exemple, plutôt que de représenter une température comme une seule caractéristique continue à virgule flottante, vous pouvez scinder des plages de températures en classes distinctes. Si la sensibilité des données de température est d'un dixième de degré, toutes les températures comprises entre 0,0 et 15,0 peuvent être placées dans une même classe, celles comprises entre 15,1 et 30,0 dans une deuxième, et celles entre 30,1 et 50,0 dans une troisième.</p>
+<p>Conversion d'une caractéristique (généralement <a href=""https://developers.google.com/machine-learning/glossary/#continuous_feature""><strong>continue</strong></a>) en plusieurs caractéristiques binaires appelées ""ensembles"" ou ""classes"", habituellement en fonction d'une plage de valeurs. Par exemple, plutôt que de représenter une température comme une seule caractéristique continue à virgule flottante, vous pouvez scinder des plages de températures en classes distinctes. Si la sensibilité des données de température est d'un dixième de degré, toutes les températures comprises entre 0,0 et 15,0 peuvent être placées dans une même classe, celles comprises entre 15,1 et 30,0 dans une deuxième, et celles entre 30,1 et 50,0 dans une troisième.</p>
 
 "
 niveau de calibration (calibration layer) (Glossaire du Machine Learning de Google)|"
-<p>Ajustement réalisé après la prédiction, généralement pour prendre en compte le <a href=""#prediction_bias""><strong>biais de prédiction</strong></a>. Les prédictions et les probabilités ajustées doivent correspondre à la distribution d'un ensemble observé d'étiquettes.</p>
+<p>Ajustement réalisé après la prédiction, généralement pour prendre en compte le <a href=""https://developers.google.com/machine-learning/glossary/#prediction_bias""><strong>biais de prédiction</strong></a>. Les prédictions et les probabilités ajustées doivent correspondre à la distribution d'un ensemble observé d'étiquettes.</p>
 "
 échantillonnage de candidats (candidate sampling) (Glossaire du Machine Learning de Google)|"
-<p>Optimisation réalisée lors de l'apprentissage, dans laquelle une probabilité est calculée pour toutes les étiquettes positives, en utilisant par exemple softmax, mais seulement pour un échantillon aléatoire d'étiquettes négatives. Si un exemple est étiqueté <em>beagle</em> et <em>chien</em>, l'échantillonnage de candidats calcule les probabilités prédites et les termes de pertes correspondants pour les sorties de classe <em>beagle</em> et <em>chien</em>, en plus d'un sous-ensemble aléatoire des classes restantes (<em>chat</em>, <em>sucette</em>, <em>clôture</em>). Le but est que les <a href=""#negative_class""><strong>classes négatives</strong></a> puissent apprendre à partir d'un renforcement négatif moins fréquent tant que les <a href=""#positive_class""><strong>classes positives</strong></a> sont correctement renforcées positivement, ce qui est effectivement observé empiriquement. L'intérêt de l'échantillonnage des candidats est d'améliorer l'efficacité du calcul en ne calculant pas les prédictions pour tous les négatifs.</p>
+<p>Optimisation réalisée lors de l'apprentissage, dans laquelle une probabilité est calculée pour toutes les étiquettes positives, en utilisant par exemple softmax, mais seulement pour un échantillon aléatoire d'étiquettes négatives. Si un exemple est étiqueté <em>beagle</em> et <em>chien</em>, l'échantillonnage de candidats calcule les probabilités prédites et les termes de pertes correspondants pour les sorties de classe <em>beagle</em> et <em>chien</em>, en plus d'un sous-ensemble aléatoire des classes restantes (<em>chat</em>, <em>sucette</em>, <em>clôture</em>). Le but est que les <a href=""https://developers.google.com/machine-learning/glossary/#negative_class""><strong>classes négatives</strong></a> puissent apprendre à partir d'un renforcement négatif moins fréquent tant que les <a href=""https://developers.google.com/machine-learning/glossary/#positive_class""><strong>classes positives</strong></a> sont correctement renforcées positivement, ce qui est effectivement observé empiriquement. L'intérêt de l'échantillonnage des candidats est d'améliorer l'efficacité du calcul en ne calculant pas les prédictions pour tous les négatifs.</p>
 "
 données catégorielles (categorical data) (Glossaire du Machine Learning de Google)|"
-<p><a href=""#feature""><strong>Caractéristiques</strong></a> avec un ensemble discret de valeurs possibles. Par exemple, une caractéristique catégorique nommée <code>house style</code>, avec l'ensemble discret de trois valeurs possibles suivant : <code>Tudor, ranch, colonial</code>. En représentant <code>house style</code> comme une donnée catégorielle, le modèle peut apprendre l'impact de chaque valeur <code>Tudor</code>, <code>ranch</code> et <code>colonial</code> sur la valeur immobilière.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>Caractéristiques</strong></a> avec un ensemble discret de valeurs possibles. Par exemple, une caractéristique catégorique nommée <code>house style</code>, avec l'ensemble discret de trois valeurs possibles suivant : <code>Tudor, ranch, colonial</code>. En représentant <code>house style</code> comme une donnée catégorielle, le modèle peut apprendre l'impact de chaque valeur <code>Tudor</code>, <code>ranch</code> et <code>colonial</code> sur la valeur immobilière.</p>
 <p>Parfois, les valeurs de l'ensemble discret s'excluent mutuellement, et une seule valeur peut être appliquée à un exemple donné. Par exemple, la caractéristique catégorique <code>car maker</code> n'autoriserait probablement qu'une seule valeur (<code>Toyota</code>) pour chaque exemple.  Dans d'autres cas, plusieurs valeurs peuvent s'appliquer. Une voiture peut être peinte de différentes couleurs. Ainsi, la caractéristique catégorique <code>car color</code> autoriserait probablement plusieurs valeurs (par exemple, <code>red</code> et <code>white</code>) pour un exemple.</p>
-<p>Les caractéristiques catégoriques sont parfois appelées <a href=""#discrete_feature""><strong>caractéristiques discrètes</strong></a>.</p>
-<p>À comparer aux <a href=""#numerical_data""><strong>données numériques</strong></a>.</p>
+<p>Les caractéristiques catégoriques sont parfois appelées <a href=""https://developers.google.com/machine-learning/glossary/#discrete_feature""><strong>caractéristiques discrètes</strong></a>.</p>
+<p>À comparer aux <a href=""https://developers.google.com/machine-learning/glossary/#numerical_data""><strong>données numériques</strong></a>.</p>
 "
 centroïde (centroid) (Glossaire du Machine Learning de Google)|"
-<p>Centre d'un cluster déterminé par un algorithme <a href=""#k-means""><strong>k-moyennes</strong></a> ou <a href=""#k-median""><strong>k-médiane</strong></a>. Par exemple, si k est égal à 3, alors l'algorithme k-moyennes ou k-médiane trouve 3 centroïdes.</p>
+<p>Centre d'un cluster déterminé par un algorithme <a href=""https://developers.google.com/machine-learning/glossary/#k-means""><strong>k-moyennes</strong></a> ou <a href=""https://developers.google.com/machine-learning/glossary/#k-median""><strong>k-médiane</strong></a>. Par exemple, si k est égal à 3, alors l'algorithme k-moyennes ou k-médiane trouve 3 centroïdes.</p>
 "
 point de contrôle (checkpoint) (Glossaire du Machine Learning de Google)|"
-<p>Données qui capturent l'état des variables d'un modèle à un instant donné. Les points de contrôle permettent d'exporter les <a href=""#weight""><strong>pondérations</strong></a> du modèle et de réaliser des apprentissages sur plusieurs sessions. Ils permettent aussi à l'apprentissage de se poursuivre en cas d'erreur (par exemple, préemption de tâche). Notez que le <a href=""#graph""><strong>graphe</strong></a> lui-même n'est pas inclus dans un point de contrôle.</p>
+<p>Données qui capturent l'état des variables d'un modèle à un instant donné. Les points de contrôle permettent d'exporter les <a href=""https://developers.google.com/machine-learning/glossary/#weight""><strong>pondérations</strong></a> du modèle et de réaliser des apprentissages sur plusieurs sessions. Ils permettent aussi à l'apprentissage de se poursuivre en cas d'erreur (par exemple, préemption de tâche). Notez que le <a href=""https://developers.google.com/machine-learning/glossary/#graph""><strong>graphe</strong></a> lui-même n'est pas inclus dans un point de contrôle.</p>
 "
 classe (class) (Glossaire du Machine Learning de Google)|"
-<p>Un des ensembles de valeurs cibles énumérées pour une étiquette. Par exemple, dans un modèle de <a href=""#binary_classification""><strong>classification binaire</strong></a> de détection du spam, les deux classes sont <em>spam</em> et <em>non-spam</em>.  Dans un modèle de <a href=""#multi_class_classification""><strong>classification à classes multiples</strong></a> qui identifie les races de chiens, les classes peuvent être <em>caniche</em>, <em>beagle</em>, <em>carlin</em>, etc.</p>
+<p>Un des ensembles de valeurs cibles énumérées pour une étiquette. Par exemple, dans un modèle de <a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>classification binaire</strong></a> de détection du spam, les deux classes sont <em>spam</em> et <em>non-spam</em>.  Dans un modèle de <a href=""https://developers.google.com/machine-learning/glossary/#multi_class_classification""><strong>classification à classes multiples</strong></a> qui identifie les races de chiens, les classes peuvent être <em>caniche</em>, <em>beagle</em>, <em>carlin</em>, etc.</p>
 "
 ensemble de données avec déséquilibre des classes (class-imbalanced data set) (Glossaire du Machine Learning de Google)|"
-<p>Problème de <a href=""#binary_classification""><strong>classification binaire</strong></a> dans lequel les fréquences des <a href=""#label""><strong>étiquettes</strong></a> des deux classes sont significativement différentes.  Par exemple, un ensemble de données de maladie dans lequel 0,0001 des exemples ont des étiquettes positives et 0,9999 ont des étiquettes négatives est un problème de déséquilibre des classes. Par contre, une prédiction de match de football dans laquelle 0,51 des exemples étiquettent une équipe comme gagnante et 0,49 étiquettent l'autre équipe comme gagnante <em>n'est pas</em> un problème avec un déséquilibre des classes.</p>
+<p>Problème de <a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>classification binaire</strong></a> dans lequel les fréquences des <a href=""https://developers.google.com/machine-learning/glossary/#label""><strong>étiquettes</strong></a> des deux classes sont significativement différentes.  Par exemple, un ensemble de données de maladie dans lequel 0,0001 des exemples ont des étiquettes positives et 0,9999 ont des étiquettes négatives est un problème de déséquilibre des classes. Par contre, une prédiction de match de football dans laquelle 0,51 des exemples étiquettent une équipe comme gagnante et 0,49 étiquettent l'autre équipe comme gagnante <em>n'est pas</em> un problème avec un déséquilibre des classes.</p>
 "
 modèle de classification (classification model) (Glossaire du Machine Learning de Google)|"
-<p>Type de modèle de machine learning permettant de différencier deux classes discrètes ou plus. Par exemple, un modèle de classification par traitement du langage naturel pourrait déterminer si une phrase en entrée est en français, en espagnol ou en italien. À comparer au <a href=""#regression_model""><strong>modèle de régression</strong></a>.</p>
+<p>Type de modèle de machine learning permettant de différencier deux classes discrètes ou plus. Par exemple, un modèle de classification par traitement du langage naturel pourrait déterminer si une phrase en entrée est en français, en espagnol ou en italien. À comparer au <a href=""https://developers.google.com/machine-learning/glossary/#regression_model""><strong>modèle de régression</strong></a>.</p>
 "
 seuil de classification (classification threshold) (Glossaire du Machine Learning de Google)|"
-<p>Critère de valeur scalaire appliqué au score d'un modèle dans le but de séparer la <a href=""#positive_class""><strong>classe positive</strong></a> de la <a href=""#negative_class""><strong>classe négative</strong></a>.  Utilisé pour mettre en correspondance les résultats de la <a href=""#logistic_regression""><strong>régression logistique</strong></a> et la <a href=""#binary_classification""><strong>classification binaire</strong></a>. Supposons un modèle de régression logistique qui détermine la probabilité qu'un message donné soit du spam. Si le seuil de classification est de 0,9, les valeurs de la régression logistique supérieures à 0,9 sont classées comme <em>spam</em>, et celles inférieures comme <em>non spam</em>.</p>
+<p>Critère de valeur scalaire appliqué au score d'un modèle dans le but de séparer la <a href=""https://developers.google.com/machine-learning/glossary/#positive_class""><strong>classe positive</strong></a> de la <a href=""https://developers.google.com/machine-learning/glossary/#negative_class""><strong>classe négative</strong></a>.  Utilisé pour mettre en correspondance les résultats de la <a href=""https://developers.google.com/machine-learning/glossary/#logistic_regression""><strong>régression logistique</strong></a> et la <a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>classification binaire</strong></a>. Supposons un modèle de régression logistique qui détermine la probabilité qu'un message donné soit du spam. Si le seuil de classification est de 0,9, les valeurs de la régression logistique supérieures à 0,9 sont classées comme <em>spam</em>, et celles inférieures comme <em>non spam</em>.</p>
 "
 clustering (Glossaire du Machine Learning de Google)|"
-<p>Groupement d'<a href=""#example""><strong>exemples</strong></a> similaires, en particulier lors d'<a href=""#unsupervised_machine_learning""><strong>un apprentissage non supervisé</strong></a>. Une fois tous les exemples groupés, une personne peut éventuellement attribuer un sens à chaque cluster.</p>
-<p>Il existe de nombreux algorithmes de clustering.  Par exemple, l'algorithme <a href=""#k-means""><strong>k-moyennes</strong></a> groupe des exemples en fonction de leur proximité avec un <a href=""#centroid""><strong>centroïde</strong></a>, comme dans le diagramme suivant :</p>
+<p>Groupement d'<a href=""https://developers.google.com/machine-learning/glossary/#example""><strong>exemples</strong></a> similaires, en particulier lors d'<a href=""https://developers.google.com/machine-learning/glossary/#unsupervised_machine_learning""><strong>un apprentissage non supervisé</strong></a>. Une fois tous les exemples groupés, une personne peut éventuellement attribuer un sens à chaque cluster.</p>
+<p>Il existe de nombreux algorithmes de clustering.  Par exemple, l'algorithme <a href=""https://developers.google.com/machine-learning/glossary/#k-means""><strong>k-moyennes</strong></a> groupe des exemples en fonction de leur proximité avec un <a href=""https://developers.google.com/machine-learning/glossary/#centroid""><strong>centroïde</strong></a>, comme dans le diagramme suivant :</p>
 <p>
 <img src=""/machine-learning/glossary/images/Cluster.svg"">
 </p>
@@ -107,7 +107,7 @@ filtrage collaboratif (collaborative filtering) (Glossaire du Machine Learning d
 <p>Réalisation de prédictions sur les centres d'intérêt d'un utilisateur reposant sur les centres d'intérêt de nombreux autres utilisateurs.  Le filtrage collaboratif est souvent utilisé dans les systèmes de recommandation.</p>
 "
 matrice de confusion (confusion matrix) (Glossaire du Machine Learning de Google)|"
-<p>Table NxN qui résume la réussite des prédictions d'un <a href=""#classification_model""><strong>modèle de classification</strong></a>, c'est-à-dire la corrélation entre les étiquettes et les classifications du modèle. L'un des axes d'une matrice de confusion est l'étiquette prédite par le modèle, et l'autre l'étiquette réelle. N correspond au nombre de classes. Dans un problème de <a href=""#binary_classification""><strong>classification binaire</strong></a>, N=2. Voici un exemple de matrice de confusion pour un problème de classification binaire :</p>
+<p>Table NxN qui résume la réussite des prédictions d'un <a href=""https://developers.google.com/machine-learning/glossary/#classification_model""><strong>modèle de classification</strong></a>, c'est-à-dire la corrélation entre les étiquettes et les classifications du modèle. L'un des axes d'une matrice de confusion est l'étiquette prédite par le modèle, et l'autre l'étiquette réelle. N correspond au nombre de classes. Dans un problème de <a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>classification binaire</strong></a>, N=2. Voici un exemple de matrice de confusion pour un problème de classification binaire :</p>
 <table>
 <thead>
 <tr>
@@ -131,19 +131,19 @@ matrice de confusion (confusion matrix) (Glossaire du Machine Learning de Google
 </table>
 <p>La matrice de confusion ci-dessus montre que pour les 19 échantillons qui étaient réellement des tumeurs, le modèle a correctement classé 18 d'entre eux comme tumeurs (18 vrais positifs) et incorrectement classé 1 comme n'ayant pas de tumeur (1 faux négatif). De même, parmi les 458 échantillons sans tumeur, 452 ont été correctement classés (452 vrais négatifs) et 6 ont été incorrectement classés (6 faux positifs).</p>
 <p>La matrice de confusion relative à un problème de classification à classes multiples peut vous aider à déterminer les schémas d'erreur. Par exemple, une matrice de confusion peut révéler qu'un modèle entraîné à reconnaître les chiffres écrits à la main tend à prédire de façon erronée 9 à la place de 4, ou 1 au lieu de 7.</p>
-<p>Les matrices de confusion contiennent suffisamment d'informations pour calculer diverses statistiques de performance, notamment la <a href=""#precision""><strong>précision</strong></a> et le <a href=""#recall""><strong>rappel</strong></a>.</p>
+<p>Les matrices de confusion contiennent suffisamment d'informations pour calculer diverses statistiques de performance, notamment la <a href=""https://developers.google.com/machine-learning/glossary/#precision""><strong>précision</strong></a> et le <a href=""https://developers.google.com/machine-learning/glossary/#recall""><strong>rappel</strong></a>.</p>
 "
 caractéristique continue (continuous feature) (Glossaire du Machine Learning de Google)|"
 <p>Caractéristique à virgule flottante avec une plage infinie de valeurs possibles.
-À comparer à la <a href=""#discrete_feature""><strong>caractéristique discrète</strong></a>.</p>
+À comparer à la <a href=""https://developers.google.com/machine-learning/glossary/#discrete_feature""><strong>caractéristique discrète</strong></a>.</p>
 "
 convergence (Glossaire du Machine Learning de Google)|"
-<p>Désigne familièrement un état atteint pendant l'apprentissage, dans lequel la <a href=""#loss""><strong>perte</strong></a> d'apprentissage et la perte de validation varient peu ou pas du tout entre chaque itération, passé un certain nombre d'itérations. Autrement dit, un modèle atteint la convergence lorsque la poursuite de l'apprentissage sur les données actuelles n'améliore pas le modèle. Dans le deep learning, les valeurs de perte restent parfois constantes ou presque pendant de nombreuses itérations avant de finalement diminuer, faisant croire à tort, temporairement, que la convergence a été atteinte.</p>
-<p>Voir aussi <a href=""#early_stopping""><strong>arrêt prématuré</strong></a>.</p>
+<p>Désigne familièrement un état atteint pendant l'apprentissage, dans lequel la <a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>perte</strong></a> d'apprentissage et la perte de validation varient peu ou pas du tout entre chaque itération, passé un certain nombre d'itérations. Autrement dit, un modèle atteint la convergence lorsque la poursuite de l'apprentissage sur les données actuelles n'améliore pas le modèle. Dans le deep learning, les valeurs de perte restent parfois constantes ou presque pendant de nombreuses itérations avant de finalement diminuer, faisant croire à tort, temporairement, que la convergence a été atteinte.</p>
+<p>Voir aussi <a href=""https://developers.google.com/machine-learning/glossary/#early_stopping""><strong>arrêt prématuré</strong></a>.</p>
 <p>Voir aussi le livre de Stephen Boyd et Lieven Vandenberghe, <a href=""https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf"">Convex Optimization</a> (en anglais).</p>
 "
 fonction convexe (convex function) (Glossaire du Machine Learning de Google)|"
-<p>Fonction dans laquelle la région au-dessus du graphique est un <a href=""#convex_set""><strong>ensemble convexe</strong></a>.  Classiquement, une fonction convexe est en forme de <strong>U</strong>.  Par exemple, les fonctions suivantes sont toutes des fonctions convexes :</p>
+<p>Fonction dans laquelle la région au-dessus du graphique est un <a href=""https://developers.google.com/machine-learning/glossary/#convex_set""><strong>ensemble convexe</strong></a>.  Classiquement, une fonction convexe est en forme de <strong>U</strong>.  Par exemple, les fonctions suivantes sont toutes des fonctions convexes :</p>
 <p>
 <img src=""/machine-learning/glossary/images/convex_functions.png"" height=""300"" alt=""Une fonction convexe typique est en U.""/>
 </p>
@@ -154,20 +154,20 @@ fonction convexe (convex function) (Glossaire du Machine Learning de Google)|"
 </p>
 
 <p>Une <strong>fonction strictement convexe</strong> possède exactement un minimum local, qui est également le minimum global. Les fonctions classiques en U sont des fonctions strictement convexes.  Ce n'est pas le cas de certaines fonctions convexes, comme les droites.</p>
-<p>De nombreuses <a href=""#loss_functions""><strong>fonctions de perte</strong></a> courantes, telles que les fonctions suivantes, sont convexes :</p>
+<p>De nombreuses <a href=""https://developers.google.com/machine-learning/glossary/#loss_functions""><strong>fonctions de perte</strong></a> courantes, telles que les fonctions suivantes, sont convexes :</p>
 <ul>
-<li><a href=""#L2_loss""><strong>Perte L<sub>2</sub></strong></a></li>
-<li><a href=""#Log_Loss""><strong>Perte logistique</strong></a></li>
-<li><a href=""#L1_regularization""><strong>Régularisation L<sub>1</sub></strong></a></li>
-<li><a href=""#L2_regularization""><strong>Régularisation L<sub>2</sub></strong></a></li>
+<li><a href=""https://developers.google.com/machine-learning/glossary/#L2_loss""><strong>Perte L<sub>2</sub></strong></a></li>
+<li><a href=""https://developers.google.com/machine-learning/glossary/#Log_Loss""><strong>Perte logistique</strong></a></li>
+<li><a href=""https://developers.google.com/machine-learning/glossary/#L1_regularization""><strong>Régularisation L<sub>1</sub></strong></a></li>
+<li><a href=""https://developers.google.com/machine-learning/glossary/#L2_regularization""><strong>Régularisation L<sub>2</sub></strong></a></li>
 </ul>
-<p>Dans de nombreux cas de <a href=""#gradient_descent""><strong>descente de gradient</strong></a>, on peut être certain de trouver un point proche du minimum d'une fonction strictement convexe.  De même, dans de nombreux cas de <a href=""#SGD""><strong>descente de gradient stochastique</strong></a>, la probabilité est forte de trouver un point proche du minimum d'une fonction strictement convexe, bien que cela ne soit pas garanti pour autant.</p>
+<p>Dans de nombreux cas de <a href=""https://developers.google.com/machine-learning/glossary/#gradient_descent""><strong>descente de gradient</strong></a>, on peut être certain de trouver un point proche du minimum d'une fonction strictement convexe.  De même, dans de nombreux cas de <a href=""https://developers.google.com/machine-learning/glossary/#SGD""><strong>descente de gradient stochastique</strong></a>, la probabilité est forte de trouver un point proche du minimum d'une fonction strictement convexe, bien que cela ne soit pas garanti pour autant.</p>
 <p>La somme de deux fonctions convexes (par exemple, perte L<sub>2</sub> + régularisation L<sub>1</sub>) est une fonction convexe.</p>
-<p>Les <a href=""#deep_model""><strong>modèles profonds</strong></a> ne sont jamais des fonctions convexes.
-Il est à noter que les algorithmes conçus pour l'<a href=""#convex_optimization""><strong>optimisation convexe</strong></a> tendent de toute façon à trouver des solutions raisonnablement satisfaisantes pour les réseaux profonds, même s'il n'est pas certain que ces solutions soient des minimums globaux.</p>
+<p>Les <a href=""https://developers.google.com/machine-learning/glossary/#deep_model""><strong>modèles profonds</strong></a> ne sont jamais des fonctions convexes.
+Il est à noter que les algorithmes conçus pour l'<a href=""https://developers.google.com/machine-learning/glossary/#convex_optimization""><strong>optimisation convexe</strong></a> tendent de toute façon à trouver des solutions raisonnablement satisfaisantes pour les réseaux profonds, même s'il n'est pas certain que ces solutions soient des minimums globaux.</p>
 "
 optimisation convexe (convex optimization) (Glossaire du Machine Learning de Google)|"
-<p>Processus consistant à utiliser des techniques mathématiques telles que la <a href=""#gradient_descent""><strong>descente de gradient</strong></a> pour déterminer le minimum d'une <a href=""#convex_function""><strong>fonction convexe</strong></a>.
+<p>Processus consistant à utiliser des techniques mathématiques telles que la <a href=""https://developers.google.com/machine-learning/glossary/#gradient_descent""><strong>descente de gradient</strong></a> pour déterminer le minimum d'une <a href=""https://developers.google.com/machine-learning/glossary/#convex_function""><strong>fonction convexe</strong></a>.
 Dans le domaine du machine learning, de nombreuses études ont cherché à exprimer divers problèmes sous la forme de problèmes d'optimisation convexe pour les résoudre plus efficacement.</p>
 <p>Pour des informations détaillées, voir le livre de Stephen Boyd et Lieven Vandenberghe, <a href=""https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf"">Convex Optimization</a> (en anglais).</p>
 "
@@ -185,16 +185,16 @@ ensemble convexe (convex set) (Glossaire du Machine Learning de Google)|"
 "
 convolution (Glossaire du Machine Learning de Google)|"
 <p>En mathématiques, désigne dans le langage courant un mélange de deux fonctions. Dans le machine learning, une convolution mélange le filtre convolutif et la matrice d'entrée pour entraîner les pondérations.</p>
-<p>Dans le machine learning, le terme de ""convolution"" est fréquemment un raccourci langagier pour désigner l'<a href=""#convolutional_operation""><strong>opération convolutive</strong></a> ou la <a href=""#convolutional_layer""><strong>couche convolutive</strong></a>.</p>
-<p>Sans convolution, un algorithme de machine learning devrait apprendre une pondération différente pour chaque cellule d'un grand Tensor.  Par exemple, un algorithme de machine learning dont l'apprentissage s'effectue sur des images de 2K x 2K serait forcé de trouver 4 millions de pondérations. Grâce aux convolutions, un algorithme de machine learning ne doit trouver des pondérations que pour chaque cellule du <a href=""#convolutional_filter""><strong>filtre convolutif</strong></a>, ce qui réduit considérablement la mémoire nécessaire à l'entraînement du modèle.  Lorsque le filtre convolutif est appliqué, il est simplement répliqué entre les cellules de telle sorte que chacune d'entre elles est multipliée par le filtre.</p>
+<p>Dans le machine learning, le terme de ""convolution"" est fréquemment un raccourci langagier pour désigner l'<a href=""https://developers.google.com/machine-learning/glossary/#convolutional_operation""><strong>opération convolutive</strong></a> ou la <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_layer""><strong>couche convolutive</strong></a>.</p>
+<p>Sans convolution, un algorithme de machine learning devrait apprendre une pondération différente pour chaque cellule d'un grand Tensor.  Par exemple, un algorithme de machine learning dont l'apprentissage s'effectue sur des images de 2K x 2K serait forcé de trouver 4 millions de pondérations. Grâce aux convolutions, un algorithme de machine learning ne doit trouver des pondérations que pour chaque cellule du <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_filter""><strong>filtre convolutif</strong></a>, ce qui réduit considérablement la mémoire nécessaire à l'entraînement du modèle.  Lorsque le filtre convolutif est appliqué, il est simplement répliqué entre les cellules de telle sorte que chacune d'entre elles est multipliée par le filtre.</p>
 "
 filtre convolutif (convolutional filter) (Glossaire du Machine Learning de Google)|"
-<p>L'un des deux acteurs d'une <a href=""#convolutional_operation""><strong>opération convolutive</strong></a>. L'autre acteur est une fraction d'une matrice d'entrée. Un filtre convolutif est une matrice de même <a href=""#rank""><strong>rang</strong></a> que la matrice d'entrée, mais de forme plus petite.
+<p>L'un des deux acteurs d'une <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_operation""><strong>opération convolutive</strong></a>. L'autre acteur est une fraction d'une matrice d'entrée. Un filtre convolutif est une matrice de même <a href=""https://developers.google.com/machine-learning/glossary/#rank""><strong>rang</strong></a> que la matrice d'entrée, mais de forme plus petite.
 Par exemple, dans le cas d'une matrice d'entrée de 28 x 28, le filtre pourrait être n'importe quelle matrice 2D de taille inférieure à 28 x 28.</p>
 <p>Dans la retouche photographique, toutes les cellules d'un filtre convolutif sont généralement définies sur un motif constant de zéro et de un. Dans le machine learning, les filtres convolutifs sont généralement générés à partir de nombres aléatoires, puis le réseau entraîne les valeurs idéales.</p>
 "
 couche convolutive (convolutional layer) (Glossaire du Machine Learning de Google)|"
-<p>Couche d'un réseau de neurones profond dans laquelle un <a href=""#convolutional_filter""><strong>filtre convolutif</strong></a> transfert une matrice d'entrée.  Par exemple, le <a href=""#convolutional_filter""><strong>filtre convolutif</strong></a> 3 x 3 suivant :</p>
+<p>Couche d'un réseau de neurones profond dans laquelle un <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_filter""><strong>filtre convolutif</strong></a> transfert une matrice d'entrée.  Par exemple, le <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_filter""><strong>filtre convolutif</strong></a> 3 x 3 suivant :</p>
 <p>
 <img src=""/machine-learning/glossary/images/ConvolutionalFilter33.svg"">
 </p>
@@ -207,7 +207,7 @@ La matrice 3 x 3 résultante (à droite) est constituée des résultats des 9 op
 
 "
 réseau de neurones convolutif (convolutional neural network) (Glossaire du Machine Learning de Google)|"
-<p>Réseau de neurones dans lequel au moins une couche est une <a href=""#convolutional_layer""><strong>couche convolutive</strong></a>. Un réseau de neurones convolutif typique consiste en une combinaison des couches suivantes :</p>
+<p>Réseau de neurones dans lequel au moins une couche est une <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_layer""><strong>couche convolutive</strong></a>. Un réseau de neurones convolutif typique consiste en une combinaison des couches suivantes :</p>
 <ul>
 <li>Couches convolutives</li>
 <li>Couches de pooling</li>
@@ -218,7 +218,7 @@ réseau de neurones convolutif (convolutional neural network) (Glossaire du Mach
 opération convolutive (convolutional operation) (Glossaire du Machine Learning de Google)|"
 <p>L'opération mathématique en deux étapes suivante :</p>
 <ol>
-<li>Multiplication élément par élément du <a href=""#convolutional_filter""><strong>filtre convolutif</strong></a> et d'une tranche d'une matrice d'entrée. La tranche de la matrice d'entrée est de même rang et de même taille que le filtre convolutif.</li>
+<li>Multiplication élément par élément du <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_filter""><strong>filtre convolutif</strong></a> et d'une tranche d'une matrice d'entrée. La tranche de la matrice d'entrée est de même rang et de même taille que le filtre convolutif.</li>
 <li>Somme de toutes les valeurs de la matrice de produits résultante.</li>
 </ol>
 <p>Soit, par exemple, la matrice d'entrée 5 x 5 suivante :</p>
@@ -236,17 +236,17 @@ opération convolutive (convolutional operation) (Glossaire du Machine Learning 
 <img src=""/machine-learning/glossary/images/ConvolutionalLayerOperation.svg"">
 </p>
 
-<p>Une <a href=""#convolutional_layer""><strong>couche convolutive</strong></a> consiste en une série d'opérations convolutives, chacune agissant sur une tranche différente de la matrice d'entrée.</p>
+<p>Une <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_layer""><strong>couche convolutive</strong></a> consiste en une série d'opérations convolutives, chacune agissant sur une tranche différente de la matrice d'entrée.</p>
 "
 coût (cost) (Glossaire du Machine Learning de Google)|"
-<p>Synonyme de <a href=""#loss""><strong>perte</strong></a>.</p>
+<p>Synonyme de <a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>perte</strong></a>.</p>
 "
 entropie croisée (cross-entropy) (Glossaire du Machine Learning de Google)|"
-<p>Généralisation de la <a href=""#Log_Loss""><strong>perte logistique</strong></a> aux <a href=""#multi-class""><strong>problèmes de classification à classes multiples</strong></a>. L'entropie croisée quantifie la différence entre deux distributions de probabilité.  Voir aussi <a href=""#perplexity""><strong>perplexité</strong></a>.</p>
+<p>Généralisation de la <a href=""https://developers.google.com/machine-learning/glossary/#Log_Loss""><strong>perte logistique</strong></a> aux <a href=""https://developers.google.com/machine-learning/glossary/#multi-class""><strong>problèmes de classification à classes multiples</strong></a>. L'entropie croisée quantifie la différence entre deux distributions de probabilité.  Voir aussi <a href=""https://developers.google.com/machine-learning/glossary/#perplexity""><strong>perplexité</strong></a>.</p>
 "
 Estimator personnalisé (custom Estimator) (Glossaire du Machine Learning de Google)|"
-<p><a href=""#Estimators""><strong>Estimator</strong></a> que vous écrivez vous-même en suivant <a href=""https://www.tensorflow.org/extend/estimators"">cette procédure</a>.</p>
-<p>À comparer aux <a href=""#pre-made_Estimator""><strong>Estimators prédéfinis</strong></a>.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#Estimators""><strong>Estimator</strong></a> que vous écrivez vous-même en suivant <a href=""https://www.tensorflow.org/extend/estimators"">cette procédure</a>.</p>
+<p>À comparer aux <a href=""https://developers.google.com/machine-learning/glossary/#pre-made_Estimator""><strong>Estimators prédéfinis</strong></a>.</p>
 
 "
 analyse de données (data analysis) (Glossaire du Machine Learning de Google)|"
@@ -256,25 +256,25 @@ DataFrame (Glossaire du Machine Learning de Google)|"
 <p>Type de données populaire utilisé pour représenter des ensembles de données dans Pandas. Un DataFrame est analogue à un tableau. Chaque colonne du DataFrame porte un nom (un en-tête) et chaque ligne est identifiée par un nombre.</p>
 "
 ensemble de données (data set) (Glossaire du Machine Learning de Google)|"
-<p>Un ensemble d'<a href=""#example""><strong>exemples</strong></a>.</p>
+<p>Un ensemble d'<a href=""https://developers.google.com/machine-learning/glossary/#example""><strong>exemples</strong></a>.</p>
 "
 API Dataset (tf.data) (Dataset API (tf.data)) (Glossaire du Machine Learning de Google)|"
-<p>API TensorFlow de haut niveau pour la lecture des données et leur transformation en une forme requise par un algorithme de machine learning. Un objet <code>tf.data.Dataset</code> représente une séquence d'éléments dans laquelle chaque élément contient un ou plusieurs <a href=""#tensor""><strong>Tensors</strong></a>. Un objet <code>tf.data.Iterator</code> permet d'accéder aux éléments d'un <code>Dataset</code>.</p>
+<p>API TensorFlow de haut niveau pour la lecture des données et leur transformation en une forme requise par un algorithme de machine learning. Un objet <code>tf.data.Dataset</code> représente une séquence d'éléments dans laquelle chaque élément contient un ou plusieurs <a href=""https://developers.google.com/machine-learning/glossary/#tensor""><strong>Tensors</strong></a>. Un objet <code>tf.data.Iterator</code> permet d'accéder aux éléments d'un <code>Dataset</code>.</p>
 <p>Pour plus d'informations sur l'API Dataset, consultez la page <a href=""https://www.tensorflow.org/programmers_guide/datasets"">Importer des données</a> du guide du programmeur TensorFlow.</p>
 "
 frontière de décision (decision boundary) (Glossaire du Machine Learning de Google)|"
-<p>Séparateur entre les classes apprises par un modèle dans une <a href=""#binary_classification""><strong>classe binaire</strong></a> ou dans les <a href=""#multi-class""><strong>problèmes de classification à classes multiples</strong></a>. Par exemple, dans l'image suivante représentant un problème de classification binaire, la frontière de décision est la limite entre la classe orange et la classe bleue :</p>
+<p>Séparateur entre les classes apprises par un modèle dans une <a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>classe binaire</strong></a> ou dans les <a href=""https://developers.google.com/machine-learning/glossary/#multi-class""><strong>problèmes de classification à classes multiples</strong></a>. Par exemple, dans l'image suivante représentant un problème de classification binaire, la frontière de décision est la limite entre la classe orange et la classe bleue :</p>
 <p>
 <img src=""/machine-learning/glossary/images/decision_boundary.png"" alt=""Limite bien définie entre deux classes.""/>
 </p>
 
 "
 modèle profond (deep model) (Glossaire du Machine Learning de Google)|"
-<p>Type de <a href=""#neural_network""><strong>réseau de neurones</strong></a> contenant plusieurs <a href=""#hidden_layer""><strong>couches cachées</strong></a>. Les modèles profonds reposent sur des non-linéarités qui peuvent être apprises.</p>
-<p>À comparer au <a href=""#wide_model""><strong>modèle large</strong></a>.</p>
+<p>Type de <a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>réseau de neurones</strong></a> contenant plusieurs <a href=""https://developers.google.com/machine-learning/glossary/#hidden_layer""><strong>couches cachées</strong></a>. Les modèles profonds reposent sur des non-linéarités qui peuvent être apprises.</p>
+<p>À comparer au <a href=""https://developers.google.com/machine-learning/glossary/#wide_model""><strong>modèle large</strong></a>.</p>
 "
 caractéristique dense (dense feature) (Glossaire du Machine Learning de Google)|"
-<p><a href=""#feature""><strong>Caractéristique</strong></a> dont la plupart des valeurs sont différentes de zéro, généralement un <a href=""#tensor""><strong>Tensor</strong></a> de valeurs à virgules flottantes. À comparer à la <a href=""#sparse_features""><strong>caractéristique creuse</strong></a>.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>Caractéristique</strong></a> dont la plupart des valeurs sont différentes de zéro, généralement un <a href=""https://developers.google.com/machine-learning/glossary/#tensor""><strong>Tensor</strong></a> de valeurs à virgules flottantes. À comparer à la <a href=""https://developers.google.com/machine-learning/glossary/#sparse_features""><strong>caractéristique creuse</strong></a>.</p>
 <p><a name=""device""></a>
 "
 couche dense (dense layer) (Glossaire du Machine Learning de Google)|"
@@ -283,59 +283,59 @@ appareil (device) (Glossaire du Machine Learning de Google)|"
 <p>Catégorie de matériel pouvant exécuter une session TensorFlow, y compris les CPU, les GPU et les TPU.</p>
 "
 caractéristique discrète (discrete feature) (Glossaire du Machine Learning de Google)|"
-<p><a href=""#feature""><strong>Caractéristique</strong></a> avec un ensemble fini de valeurs possibles. Par exemple, une caractéristique dont les valeurs peuvent être uniquement <em>animal</em>, <em>végétal</em> ou <em>minéral</em> est une caractéristique discrète (ou catégorique). À comparer à la <a href=""#continuous_feature""><strong>caractéristique continue</strong></a>.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>Caractéristique</strong></a> avec un ensemble fini de valeurs possibles. Par exemple, une caractéristique dont les valeurs peuvent être uniquement <em>animal</em>, <em>végétal</em> ou <em>minéral</em> est une caractéristique discrète (ou catégorique). À comparer à la <a href=""https://developers.google.com/machine-learning/glossary/#continuous_feature""><strong>caractéristique continue</strong></a>.</p>
 "
 régularisation par abandon (dropout regularization) (Glossaire du Machine Learning de Google)|"
-<p>Forme de <a href=""#regularization""><strong>régularisation</strong></a> utile dans l'apprentissage des <a href=""#neural_network""><strong>réseaux de neurones</strong></a>. La régularisation par abandon consiste à supprimer de manière aléatoire un nombre fixe d'unités dans une couche du réseau pour un pas de gradient unique. Plus le nombre d'unités abandonnées est élevé, plus la régularisation est solide. Cette méthode est analogue à l'entraînement du modèle pour émuler un groupe exponentiellement large de réseaux plus petits. Pour plus d'informations, consultez l'article <a href=""http://jmlr.org/papers/volume15/srivastava14a.old/srivastava14a.pdf"">Dropout: A Simple Way to Prevent Neural Networks from Overfitting</a> (en anglais).</p>
+<p>Forme de <a href=""https://developers.google.com/machine-learning/glossary/#regularization""><strong>régularisation</strong></a> utile dans l'apprentissage des <a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>réseaux de neurones</strong></a>. La régularisation par abandon consiste à supprimer de manière aléatoire un nombre fixe d'unités dans une couche du réseau pour un pas de gradient unique. Plus le nombre d'unités abandonnées est élevé, plus la régularisation est solide. Cette méthode est analogue à l'entraînement du modèle pour émuler un groupe exponentiellement large de réseaux plus petits. Pour plus d'informations, consultez l'article <a href=""http://jmlr.org/papers/volume15/srivastava14a.old/srivastava14a.pdf"">Dropout: A Simple Way to Prevent Neural Networks from Overfitting</a> (en anglais).</p>
 "
 modèle dynamique (dynamic model) (Glossaire du Machine Learning de Google)|"
-<p><a href=""#model""><strong>Modèle</strong></a> entraîné en ligne et mis à jour en continu.  En d'autres termes, les données sont intégrées en continu dans le modèle.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>Modèle</strong></a> entraîné en ligne et mis à jour en continu.  En d'autres termes, les données sont intégrées en continu dans le modèle.</p>
 
 "
 arrêt prématuré (early stopping) (Glossaire du Machine Learning de Google)|"
-<p>Méthode de <a href=""#regularization""><strong>régularisation</strong></a> qui implique de terminer l'entraînement du modèle <em>avant</em> que la perte de l'apprentissage cesse de baisser. Dans l'arrêt prématuré, l'entraînement du modèle est arrêté lorsque la perte d'un <a href=""#validation_set""><strong>ensemble de données de validation</strong></a> commence à augmenter, c'est-à-dire lorsque les performances de <a href=""#generalization""><strong>généralisation</strong></a> se dégradent.</p>
+<p>Méthode de <a href=""https://developers.google.com/machine-learning/glossary/#regularization""><strong>régularisation</strong></a> qui implique de terminer l'entraînement du modèle <em>avant</em> que la perte de l'apprentissage cesse de baisser. Dans l'arrêt prématuré, l'entraînement du modèle est arrêté lorsque la perte d'un <a href=""https://developers.google.com/machine-learning/glossary/#validation_set""><strong>ensemble de données de validation</strong></a> commence à augmenter, c'est-à-dire lorsque les performances de <a href=""https://developers.google.com/machine-learning/glossary/#generalization""><strong>généralisation</strong></a> se dégradent.</p>
 "
 représentations vectorielles continues (embeddings) (Glossaire du Machine Learning de Google)|"
 <p>Caractéristique catégorique représentée sous la forme d'une caractéristique à valeur continue.
 Généralement, une représentation vectorielle continue est la traduction d'un vecteur de grande dimension dans un espace de faible dimension. Vous pouvez par exemple représenter les mots d'une phrase en français de l'une des deux façons suivantes :</p>
 <ul>
-<li>Sous forme de <a href=""#sparse_features""><strong>vecteur creux</strong></a> à un million d'éléments (grande dimension) dont tous les éléments sont des entiers.
+<li>Sous forme de <a href=""https://developers.google.com/machine-learning/glossary/#sparse_features""><strong>vecteur creux</strong></a> à un million d'éléments (grande dimension) dont tous les éléments sont des entiers.
     Chaque cellule du vecteur représente un mot français donné. La valeur d'une cellule représente le nombre de fois où ce mot apparaît dans une phrase.
     Étant donné qu'il est peu probable qu'une phrase française contienne plus de 50 mots, pratiquement toutes les cellules du vecteur contiennent la valeur 0. Les quelques cellules dont la valeur est différente de 0 contiennent un entier petit (généralement 1) qui représente le nombre d'occurrences de ce mot dans la phrase.</li>
-<li>Sous forme de <a href=""#dense_feature""><strong>vecteur dense</strong></a> à plusieurs centaines d'éléments (faible dimension), dans lequel chaque élément contient une valeur à virgule flottante comprise entre 0 et 1.  C'est une représentation vectorielle continue.</li>
+<li>Sous forme de <a href=""https://developers.google.com/machine-learning/glossary/#dense_feature""><strong>vecteur dense</strong></a> à plusieurs centaines d'éléments (faible dimension), dans lequel chaque élément contient une valeur à virgule flottante comprise entre 0 et 1.  C'est une représentation vectorielle continue.</li>
 </ul>
-<p>Dans TensorFlow, les représentations vectorielles continues sont entraînées par <a href=""#backpropagation""><strong>rétropropagation</strong></a> de la <a href=""#loss""><strong>perte</strong></a>, comme n'importe quel autre paramètre d'un <a href=""#neural_network""><strong>réseau de neurones</strong></a>.</p>
+<p>Dans TensorFlow, les représentations vectorielles continues sont entraînées par <a href=""https://developers.google.com/machine-learning/glossary/#backpropagation""><strong>rétropropagation</strong></a> de la <a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>perte</strong></a>, comme n'importe quel autre paramètre d'un <a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>réseau de neurones</strong></a>.</p>
 "
 minimisation du risque empirique (ERM) (empirical risk minimization (ERM)) (Glossaire du Machine Learning de Google)|"
-<p>Sélection de la fonction qui minimise la perte pour l'ensemble d'apprentissage. À comparer à la <a href=""#SRM""><strong>minimisation du risque structurel</strong></a>.</p>
+<p>Sélection de la fonction qui minimise la perte pour l'ensemble d'apprentissage. À comparer à la <a href=""https://developers.google.com/machine-learning/glossary/#SRM""><strong>minimisation du risque structurel</strong></a>.</p>
 "
 groupe (ensemble) (Glossaire du Machine Learning de Google)|"
-<p>Fusion des prédictions de plusieurs <a href=""#model""><strong>modèles</strong></a>. Vous pouvez créer un groupe de l'une des manières suivantes :</p>
+<p>Fusion des prédictions de plusieurs <a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>modèles</strong></a>. Vous pouvez créer un groupe de l'une des manières suivantes :</p>
 <ul>
 <li>À l'aide de différentes initialisations</li>
-<li>À l'aide de différents <a href=""#hyperparameter""><strong>hyperparamètres</strong></a></li>
+<li>À l'aide de différents <a href=""https://developers.google.com/machine-learning/glossary/#hyperparameter""><strong>hyperparamètres</strong></a></li>
 <li>À l'aide de différentes structures globales</li>
 </ul>
 <p>Les modèles <a href=""https://www.tensorflow.org/tutorials/wide_and_deep"">profonds et larges</a> sont des types de groupes.
 "
 itération (epoch) (Glossaire du Machine Learning de Google)|"
-<p>Cycle d'apprentissage complet sur l'intégralité de l'ensemble de données de manière à ce que chaque exemple ait été vu une fois.  Une itération représente ainsi <code>N</code>/<a href=""#batch_size""><strong>taille du lot</strong></a> <a href=""#iteration""><strong>itérations</strong></a> d'apprentissage, où <code>N</code> est le nombre total d'exemples.</p>
+<p>Cycle d'apprentissage complet sur l'intégralité de l'ensemble de données de manière à ce que chaque exemple ait été vu une fois.  Une itération représente ainsi <code>N</code>/<a href=""https://developers.google.com/machine-learning/glossary/#batch_size""><strong>taille du lot</strong></a> <a href=""https://developers.google.com/machine-learning/glossary/#iteration""><strong>itérations</strong></a> d'apprentissage, où <code>N</code> est le nombre total d'exemples.</p>
 "
 Estimator (Glossaire du Machine Learning de Google)|"
-<p>Instance de la classe <code>tf.Estimator</code>, qui encapsule la logique de création d'un graphique TensorFlow et exécute une session TensorFlow. Vous pouvez créer vos propres <a href=""#custom_estimator""><strong>Estimators personnalisés</strong></a> (<a href=""https://www.tensorflow.org/extend/estimators"">comme décrit ici</a>) ou instancier des <a href=""#pre-made_Estimator""><strong>Estimators prédéfinis</strong></a> créés par d'autres.</p>
+<p>Instance de la classe <code>tf.Estimator</code>, qui encapsule la logique de création d'un graphique TensorFlow et exécute une session TensorFlow. Vous pouvez créer vos propres <a href=""https://developers.google.com/machine-learning/glossary/#custom_estimator""><strong>Estimators personnalisés</strong></a> (<a href=""https://www.tensorflow.org/extend/estimators"">comme décrit ici</a>) ou instancier des <a href=""https://developers.google.com/machine-learning/glossary/#pre-made_Estimator""><strong>Estimators prédéfinis</strong></a> créés par d'autres.</p>
 "
 exemple (example) (Glossaire du Machine Learning de Google)|"
-<p>Ligne d'un ensemble de données. Un exemple contient une ou plusieurs <a href=""#feature""><strong>caractéristiques</strong></a>, et éventuellement une <a href=""#label""><strong>étiquette</strong></a>. Voir aussi <a href=""#labeled_example""><strong>Exemple étiqueté</strong></a> et <a href=""#unlabeled_example""><strong>Exemple sans étiquette</strong></a>.</p>
+<p>Ligne d'un ensemble de données. Un exemple contient une ou plusieurs <a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>caractéristiques</strong></a>, et éventuellement une <a href=""https://developers.google.com/machine-learning/glossary/#label""><strong>étiquette</strong></a>. Voir aussi <a href=""https://developers.google.com/machine-learning/glossary/#labeled_example""><strong>Exemple étiqueté</strong></a> et <a href=""https://developers.google.com/machine-learning/glossary/#unlabeled_example""><strong>Exemple sans étiquette</strong></a>.</p>
 
 "
 faux négatif (FN) (false negative (FN)) (Glossaire du Machine Learning de Google)|"
-<p>Exemple dans lequel le modèle a prédit à tort la <a href=""#negative_class""><strong>classe négative</strong></a>. Par exemple, le modèle a déduit qu'un e-mail particulier n'était pas du spam (classe négative), alors que c'était en réalité bien un courrier indésirable.</p>
+<p>Exemple dans lequel le modèle a prédit à tort la <a href=""https://developers.google.com/machine-learning/glossary/#negative_class""><strong>classe négative</strong></a>. Par exemple, le modèle a déduit qu'un e-mail particulier n'était pas du spam (classe négative), alors que c'était en réalité bien un courrier indésirable.</p>
 "
 faux positif (FP) (false positive (FP)) (Glossaire du Machine Learning de Google)|"
-<p>Exemple dans lequel le modèle a prédit à tort la <a href=""#positive_class""><strong>classe positive</strong></a>. Par exemple, le modèle a déduit qu'un e-mail particulier était du spam (classe positive), alors qu'en réalité ce n'était pas un courrier indésirable.</p>
+<p>Exemple dans lequel le modèle a prédit à tort la <a href=""https://developers.google.com/machine-learning/glossary/#positive_class""><strong>classe positive</strong></a>. Par exemple, le modèle a déduit qu'un e-mail particulier était du spam (classe positive), alors qu'en réalité ce n'était pas un courrier indésirable.</p>
 "
 taux de faux positifs (taux de FP) (false positive rate (FP rate)) (Glossaire du Machine Learning de Google)|"
-<p>L'abscisse d'une <a href=""#ROC""><strong>courbe ROC</strong></a>. Le taux de FP est défini ainsi :</p>
+<p>L'abscisse d'une <a href=""https://developers.google.com/machine-learning/glossary/#ROC""><strong>courbe ROC</strong></a>. Le taux de FP est défini ainsi :</p>
 <div>
 $$\text{Taux de faux positifs} =
 \frac{\text{Faux positifs}}{\text{Faux positifs} + \text{Vrais négatifs}}$$
@@ -343,53 +343,53 @@ $$\text{Taux de faux positifs} =
 
 "
 caractéristique (feature) (Glossaire du Machine Learning de Google)|"
-<p>Variable d'entrée utilisée pour effectuer des <a href=""#prediction""><strong>prédictions</strong></a>.</p>
+<p>Variable d'entrée utilisée pour effectuer des <a href=""https://developers.google.com/machine-learning/glossary/#prediction""><strong>prédictions</strong></a>.</p>
 "
 colonne de caractéristiques (feature column) (tf.feature_column) (Glossaire du Machine Learning de Google)|"
-<p>Fonction qui indique comment un modèle doit interpréter une caractéristique particulière. Une liste qui collecte la sortie renvoyée par les appels à de telles fonctions est obligatoire pour tous les constructeurs <a href=""#Estimators""><strong>Estimators</strong></a>.</p>
+<p>Fonction qui indique comment un modèle doit interpréter une caractéristique particulière. Une liste qui collecte la sortie renvoyée par les appels à de telles fonctions est obligatoire pour tous les constructeurs <a href=""https://developers.google.com/machine-learning/glossary/#Estimators""><strong>Estimators</strong></a>.</p>
 <p>Les fonctions <code>tf.feature_column</code> permettent aux modèles d'expérimenter facilement différentes représentations des caractéristiques d'entrée. Pour plus d'informations, reportez-vous au <a href=""https://www.tensorflow.org/get_started/feature_columns"">chapitre Colonnes de caractéristiques</a> du guide des programmeurs TensorFlow.</p>
 <p>L'expression ""colonne de caractéristiques"" est propre à Google.
 Elle est appelée ""espace de noms"" dans le système <a href=""https://en.wikipedia.org/wiki/Vowpal_Wabbit"">VW</a> (chez Yahoo/Microsoft), ou <a href=""https://www.csie.ntu.edu.tw/~cjlin/libffm/"">champ</a>.</p>
 "
 croisement de caractéristiques (feature cross) (Glossaire du Machine Learning de Google)|"
-<p><a href=""#synthetic_feature""><strong>Caractéristique synthétique</strong></a> formée en croisant différentes caractéristiques (en les multipliant ou en prenant leur produit cartésien). Le croisement de caractéristiques facilite la représentation des relations non linéaires.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#synthetic_feature""><strong>Caractéristique synthétique</strong></a> formée en croisant différentes caractéristiques (en les multipliant ou en prenant leur produit cartésien). Le croisement de caractéristiques facilite la représentation des relations non linéaires.</p>
 "
 extraction de caractéristiques (feature engineering) (Glossaire du Machine Learning de Google)|"
-<p>Processus consistant à déterminer les <a href=""#feature""><strong>caractéristiques</strong></a> susceptibles d'être utiles pour entraîner un modèle, et à convertir les données brutes des fichiers journaux et d'autres sources en ces caractéristiques. Dans TensorFlow, l'extraction de caractéristiques implique souvent de convertir les entrées des fichiers journaux bruts en Protocol Buffers <a href=""#tf.Example""><strong>tf.Example</strong></a>.  Voir aussi <a href=""https://github.com/tensorflow/transform"">tf.Transform</a>.</p>
+<p>Processus consistant à déterminer les <a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>caractéristiques</strong></a> susceptibles d'être utiles pour entraîner un modèle, et à convertir les données brutes des fichiers journaux et d'autres sources en ces caractéristiques. Dans TensorFlow, l'extraction de caractéristiques implique souvent de convertir les entrées des fichiers journaux bruts en Protocol Buffers <a href=""https://developers.google.com/machine-learning/glossary/#tf.Example""><strong>tf.Example</strong></a>.  Voir aussi <a href=""https://github.com/tensorflow/transform"">tf.Transform</a>.</p>
 <p>L'extraction de caractéristiques est parfois appelée <strong>découverte de caractéristiques</strong>.</p>
 "
 ensemble de caractéristiques (feature set) (Glossaire du Machine Learning de Google)|"
-<p>Groupe des <a href=""#feature""><strong>caractéristiques</strong></a> utilisées pour l'entraînement de votre modèle de machine learning.
+<p>Groupe des <a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>caractéristiques</strong></a> utilisées pour l'entraînement de votre modèle de machine learning.
 Par exemple, un ensemble de caractéristiques simple pour un modèle de prédiction de la valeur immobilière peut inclure le code postal, la taille du logement et l'état du logement.</p>
 "
 spécifications des caractéristiques (feature spec) (Glossaire du Machine Learning de Google)|"
-<p>Description des informations requises pour extraire les données des <a href=""#feature""><strong>caractéristiques</strong></a> contenues dans le Protocol Buffer <a href=""#tf.Example""><strong>tf.Example</strong></a>. Celui-ci étant un simple conteneur de données, vous devez spécifier les éléments suivants :</p>
+<p>Description des informations requises pour extraire les données des <a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>caractéristiques</strong></a> contenues dans le Protocol Buffer <a href=""https://developers.google.com/machine-learning/glossary/#tf.Example""><strong>tf.Example</strong></a>. Celui-ci étant un simple conteneur de données, vous devez spécifier les éléments suivants :</p>
 <ul>
 <li>Données à extraire (c'est-à-dire, les clés des caractéristiques)</li>
 <li>Type de données (par exemple, flottant ou entier)</li>
 <li>Longueur (fixe ou variable)</li>
 </ul>
-<p>L'<a href=""#Estimators""><strong>API Estimator</strong></a> permet de générer les spécifications des caractéristiques à partir d'une liste de <a href=""#feature_columns""><strong>FeatureColumns</strong></a>.</p>
+<p>L'<a href=""https://developers.google.com/machine-learning/glossary/#Estimators""><strong>API Estimator</strong></a> permet de générer les spécifications des caractéristiques à partir d'une liste de <a href=""https://developers.google.com/machine-learning/glossary/#feature_columns""><strong>FeatureColumns</strong></a>.</p>
 "
 apprentissage few-shot (few-shot learning) (Glossaire du Machine Learning de Google)|"
 <p>Approche du machine learning, souvent utilisée pour la classification d'objets, conçue pour apprendre des classificateurs efficaces à partir d'un petit nombre d'exemples d'apprentissage.</p>
-<p>Voir aussi <a href=""#one-shot_learning""><strong>apprentissage one-shot</strong></a>.</p>
+<p>Voir aussi <a href=""https://developers.google.com/machine-learning/glossary/#one-shot_learning""><strong>apprentissage one-shot</strong></a>.</p>
 "
 softmax complet (full softmax) (Glossaire du Machine Learning de Google)|"
-<p>Voir <a href=""#softmax""><strong>softmax</strong></a>. À comparer à l'<a href=""#candidate_sampling""><strong>échantillonnage de candidats</strong></a>.</p>
+<p>Voir <a href=""https://developers.google.com/machine-learning/glossary/#softmax""><strong>softmax</strong></a>. À comparer à l'<a href=""https://developers.google.com/machine-learning/glossary/#candidate_sampling""><strong>échantillonnage de candidats</strong></a>.</p>
 "
 couche entièrement connectée (fully connected layer) (Glossaire du Machine Learning de Google)|"
-<p><a href=""#hidden_layer""><strong>Couche cachée</strong></a> dans laquelle chaque <a href=""#node""><strong>nœud</strong></a> est connecté à <em>chaque</em> nœud de la couche cachée suivante.</p>
-<p>Les couches entièrement connectées sont également appelées <a href=""#dense_layer""><strong>couches denses</strong></a>.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#hidden_layer""><strong>Couche cachée</strong></a> dans laquelle chaque <a href=""https://developers.google.com/machine-learning/glossary/#node""><strong>nœud</strong></a> est connecté à <em>chaque</em> nœud de la couche cachée suivante.</p>
+<p>Les couches entièrement connectées sont également appelées <a href=""https://developers.google.com/machine-learning/glossary/#dense_layer""><strong>couches denses</strong></a>.</p>
 
 "
 généralisation (generalization) (Glossaire du Machine Learning de Google)|"
 <p>Fait référence à la capacité du modèle à effectuer des prédictions correctes pour des données nouvelles, qui n'ont encore jamais été vues, plutôt que pour les données utilisées pour l'entraînement du modèle.</p>
 "
 modèle linéaire généralisé (generalized linear model) (Glossaire du Machine Learning de Google)|"
-<p>Généralisation des modèles de <a href=""#least_squares_regression""><strong>régression des moindres carrés</strong></a>, qui sont basés sur le <a href=""https://en.wikipedia.org/wiki/Gaussian_noise"">bruit gaussien</a>, à d'autres types de modèles basés sur d'autres types de bruit, par exemple le <a href=""https://en.wikipedia.org/wiki/Shot_noise"">bruit de grenaille</a> ou le bruit catégorique. Exemples de modèles linéaires généralisés :</p>
+<p>Généralisation des modèles de <a href=""https://developers.google.com/machine-learning/glossary/#least_squares_regression""><strong>régression des moindres carrés</strong></a>, qui sont basés sur le <a href=""https://en.wikipedia.org/wiki/Gaussian_noise"">bruit gaussien</a>, à d'autres types de modèles basés sur d'autres types de bruit, par exemple le <a href=""https://en.wikipedia.org/wiki/Shot_noise"">bruit de grenaille</a> ou le bruit catégorique. Exemples de modèles linéaires généralisés :</p>
 <ul>
-<li><a href=""#logistic_regression""><strong>Régression logistique</strong></a></li>
+<li><a href=""https://developers.google.com/machine-learning/glossary/#logistic_regression""><strong>Régression logistique</strong></a></li>
 <li>Régression à classes multiples</li>
 <li>Régression des moindres carrés</li>
 </ul>
@@ -402,28 +402,28 @@ modèle linéaire généralisé (generalized linear model) (Glossaire du Machine
 <p>La puissance d'un modèle linéaire généralisé est limitée par les caractéristiques de celui-ci. Contrairement à un modèle profond, un modèle généralisé ne peut pas ""apprendre de nouvelles caractéristiques"".</p>
 "
 gradient (Glossaire du Machine Learning de Google)|"
-<p>Vecteur des <a href=""#partial_derivative""><strong>dérivées partielles</strong></a> calculées pour l'ensemble des variables indépendantes.  Dans le machine learning, le gradient correspond au vecteur des dérivées partielles de la fonction du modèle.  Le gradient indique toujours la direction de la croissance maximale.</p>
+<p>Vecteur des <a href=""https://developers.google.com/machine-learning/glossary/#partial_derivative""><strong>dérivées partielles</strong></a> calculées pour l'ensemble des variables indépendantes.  Dans le machine learning, le gradient correspond au vecteur des dérivées partielles de la fonction du modèle.  Le gradient indique toujours la direction de la croissance maximale.</p>
 "
 bornement de la norme du gradient (gradient clipping) (Glossaire du Machine Learning de Google)|"
-<p>Valeurs du bornement de la norme du <a href=""#gradient""><strong>gradient</strong></a> avant leur application. Le bornement de la norme du gradient aide à assurer la stabilité numérique et empêche l'<a href=""http://www.cs.toronto.edu/~rgrosse/courses/csc321_2017/readings/L15%20Exploding%20and%20Vanishing%20Gradients.pdf"">explosion des gradients</a>.</p>
+<p>Valeurs du bornement de la norme du <a href=""https://developers.google.com/machine-learning/glossary/#gradient""><strong>gradient</strong></a> avant leur application. Le bornement de la norme du gradient aide à assurer la stabilité numérique et empêche l'<a href=""http://www.cs.toronto.edu/~rgrosse/courses/csc321_2017/readings/L15%20Exploding%20and%20Vanishing%20Gradients.pdf"">explosion des gradients</a>.</p>
 "
 descente de gradient (gradient descent) (Glossaire du Machine Learning de Google)|"
-<p>Technique de minimisation de la <a href=""#loss""><strong>perte</strong></a> en calculant les gradients de la perte pour les paramètres du modèle, en fonction des données d'apprentissage.
-La descente de gradient ajuste de manière itérative les paramètres afin de trouver progressivement la meilleure combinaison de <a href=""#weight""><strong>pondérations</strong></a> et de biais pour minimiser la perte.</p>
+<p>Technique de minimisation de la <a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>perte</strong></a> en calculant les gradients de la perte pour les paramètres du modèle, en fonction des données d'apprentissage.
+La descente de gradient ajuste de manière itérative les paramètres afin de trouver progressivement la meilleure combinaison de <a href=""https://developers.google.com/machine-learning/glossary/#weight""><strong>pondérations</strong></a> et de biais pour minimiser la perte.</p>
 "
 graphe (graph) (Glossaire du Machine Learning de Google)|"
-<p>Dans TensorFlow, les spécifications du calcul. Les nœuds du graphe représentent des opérations. Les bords sont orientés et représentent le passage du résultat d'une opération (un <a href=""https://www.tensorflow.org/api_docs/python/tf/Tensor"">Tensor</a>) en tant qu'opérande vers une autre opération. Pour visualiser un graphe, utilisez <a href=""#TensorBoard""><strong>TensorBoard</strong></a>.</p>
+<p>Dans TensorFlow, les spécifications du calcul. Les nœuds du graphe représentent des opérations. Les bords sont orientés et représentent le passage du résultat d'une opération (un <a href=""https://www.tensorflow.org/api_docs/python/tf/Tensor"">Tensor</a>) en tant qu'opérande vers une autre opération. Pour visualiser un graphe, utilisez <a href=""https://developers.google.com/machine-learning/glossary/#TensorBoard""><strong>TensorBoard</strong></a>.</p>
 
 "
 heuristique (heuristic) (Glossaire du Machine Learning de Google)|"
 <p>Solution pratique et non optimale à un problème, mais qui est suffisante pour avancer ou pour tirer des leçons.</p>
 "
 couche cachée (hidden layer) (Glossaire du Machine Learning de Google)|"
-<p>Couche synthétique d'un <a href=""#neural_network""><strong>réseau de neurones</strong></a> entre la <a href=""#input_layer""><strong>couche d'entrée</strong></a> (c'est-à-dire, les caractéristiques) et la <a href=""#output_layer""><strong>couche de sortie</strong></a> (la prédiction). Un réseau de neurones se compose d'une ou plusieurs couches cachées.</p>
+<p>Couche synthétique d'un <a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>réseau de neurones</strong></a> entre la <a href=""https://developers.google.com/machine-learning/glossary/#input_layer""><strong>couche d'entrée</strong></a> (c'est-à-dire, les caractéristiques) et la <a href=""https://developers.google.com/machine-learning/glossary/#output_layer""><strong>couche de sortie</strong></a> (la prédiction). Un réseau de neurones se compose d'une ou plusieurs couches cachées.</p>
 "
 marge maximale (hinge loss) (Glossaire du Machine Learning de Google)|"
-<p>Famille de fonctions de <a href=""#loss""><strong>perte</strong></a> pour la <a href=""#classification_model""><strong>classification</strong></a>, conçue pour déterminer la <a href=""#decision_boundary""><strong>frontière de décision</strong></a> la plus éloignée possible de chaque exemple d'apprentissage, afin de maximiser la marge entre les exemples et la frontière.
-Les <a href=""#KSVMs""><strong>KSVM</strong></a> utilisent la marge maximale (ou une fonction associée, par exemple le carré de la marge maximale). Dans le cas de la classification binaire, la fonction de marge maximale est définie ainsi :</p>
+<p>Famille de fonctions de <a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>perte</strong></a> pour la <a href=""https://developers.google.com/machine-learning/glossary/#classification_model""><strong>classification</strong></a>, conçue pour déterminer la <a href=""https://developers.google.com/machine-learning/glossary/#decision_boundary""><strong>frontière de décision</strong></a> la plus éloignée possible de chaque exemple d'apprentissage, afin de maximiser la marge entre les exemples et la frontière.
+Les <a href=""https://developers.google.com/machine-learning/glossary/#KSVMs""><strong>KSVM</strong></a> utilisent la marge maximale (ou une fonction associée, par exemple le carré de la marge maximale). Dans le cas de la classification binaire, la fonction de marge maximale est définie ainsi :</p>
 <div>
 $$\text{perte} = \text{max.}(0, 1 - (y' * y))$$
 </div>
@@ -441,17 +441,17 @@ $$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 
 "
 données exclues (holdout data) (Glossaire du Machine Learning de Google)|"
-<p><a href=""#example""><strong>Exemples</strong></a> intentionnellement non utilisés (""exclus"") pendant l'apprentissage.
-L'<a href=""#validation_set""><strong>ensemble de données de validation</strong></a> et l'<a href=""#test_set""><strong>ensemble de données d'évaluation</strong></a> sont des exemples de données exclues. Les données exclues aident à évaluer la capacité de votre modèle à être généralisé à des données autres que celles utilisées pour l'apprentissage. La perte d'un ensemble de données non vues jusqu'à présent est estimée plus précisément par la perte de l'ensemble de données exclues que par celui de l'ensemble d'apprentissage.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#example""><strong>Exemples</strong></a> intentionnellement non utilisés (""exclus"") pendant l'apprentissage.
+L'<a href=""https://developers.google.com/machine-learning/glossary/#validation_set""><strong>ensemble de données de validation</strong></a> et l'<a href=""https://developers.google.com/machine-learning/glossary/#test_set""><strong>ensemble de données d'évaluation</strong></a> sont des exemples de données exclues. Les données exclues aident à évaluer la capacité de votre modèle à être généralisé à des données autres que celles utilisées pour l'apprentissage. La perte d'un ensemble de données non vues jusqu'à présent est estimée plus précisément par la perte de l'ensemble de données exclues que par celui de l'ensemble d'apprentissage.</p>
 "
 hyperparamètre (hyperparameter) (Glossaire du Machine Learning de Google)|"
 <p>Les paramètres que vous
-réglez pendant les exécutions successives de l'entraînement du modèle. Le <a href=""#learning_rate""><strong>taux d'apprentissage</strong></a>, par exemple, est un hyperparamètre.</p>
-<p>À comparer aux <a href=""#parameter""><strong>paramètres</strong></a>.</p>
+réglez pendant les exécutions successives de l'entraînement du modèle. Le <a href=""https://developers.google.com/machine-learning/glossary/#learning_rate""><strong>taux d'apprentissage</strong></a>, par exemple, est un hyperparamètre.</p>
+<p>À comparer aux <a href=""https://developers.google.com/machine-learning/glossary/#parameter""><strong>paramètres</strong></a>.</p>
 "
 hyperplan (hyperplane) (Glossaire du Machine Learning de Google)|"
 <p>Frontière qui sépare un espace en deux sous-espaces.  Par exemple, une ligne est un hyperplan en deux dimensions, et un plan est un hyperplan en trois dimensions.
-Plus généralement dans le machine learning, un hyperplan est la frontière qui sépare un espace de grande dimension.  Les <a href=""#KSVMs""><strong>machines à vecteurs de support à noyau</strong></a> utilisent les hyperplans pour séparer les classes positives et négatives, souvent dans un espace de très grande dimension.</p>
+Plus généralement dans le machine learning, un hyperplan est la frontière qui sépare un espace de grande dimension.  Les <a href=""https://developers.google.com/machine-learning/glossary/#KSVMs""><strong>machines à vecteurs de support à noyau</strong></a> utilisent les hyperplans pour séparer les classes positives et négatives, souvent dans un espace de très grande dimension.</p>
 
 "
 variables indépendantes et identiquement distribuées (variables iid) (independently and identically distributed (i.i.d)) (Glossaire du Machine Learning de Google)|"
@@ -459,20 +459,20 @@ variables indépendantes et identiquement distribuées (variables iid) (independ
 est le <a href=""https://en.wikipedia.org/wiki/Ideal_gas"">gaz parfait</a> du machine learning : c'est une construction mathématique utile qui ne se rencontre quasiment jamais à l'identique dans le monde réel. Par exemple, la distribution des visiteurs d'une page Web peut être une variable idd sur une courte période, c'est-à-dire que la distribution ne change pas pendant cette période et que la visite d'un internaute est généralement indépendante de la visite d'un autre. Toutefois, si vous allongez cette période, des différences saisonnières au niveau des visiteurs de la page Web peuvent apparaître.</p>
 "
 inférence (inference) (Glossaire du Machine Learning de Google)|"
-<p>Dans le machine learning, désigne généralement l'application du modèle entraîné à des <a href=""#unlabeled_example""><strong>exemples sans étiquette</strong></a> pour effectuer des prédictions.
+<p>Dans le machine learning, désigne généralement l'application du modèle entraîné à des <a href=""https://developers.google.com/machine-learning/glossary/#unlabeled_example""><strong>exemples sans étiquette</strong></a> pour effectuer des prédictions.
 En statistiques, l'inférence désigne le processus d'ajustement des paramètres d'une distribution conditionnée à certaines données observées. Voir l'<a href=""https://en.wikipedia.org/wiki/Statistical_inference"">article Wikipédia sur l'inférence statistique</a>.</p>
 "
 fonction d'entrée (input function) (Glossaire du Machine Learning de Google)|"
-<p>Dans TensorFlow, fonction qui renvoie des données d'entrée à la méthode d'apprentissage, d'évaluation ou de prédiction d'un <a href=""#Estimators""><strong>Estimator</strong></a>.  Par exemple, la fonction d'entrée d'apprentissage renvoie un <a href=""#batch""><strong>lot</strong></a> de caractéristiques et d'étiquettes depuis l'<a href=""#training_set""><strong>ensemble d'apprentissage</strong></a>.</p>
+<p>Dans TensorFlow, fonction qui renvoie des données d'entrée à la méthode d'apprentissage, d'évaluation ou de prédiction d'un <a href=""https://developers.google.com/machine-learning/glossary/#Estimators""><strong>Estimator</strong></a>.  Par exemple, la fonction d'entrée d'apprentissage renvoie un <a href=""https://developers.google.com/machine-learning/glossary/#batch""><strong>lot</strong></a> de caractéristiques et d'étiquettes depuis l'<a href=""https://developers.google.com/machine-learning/glossary/#training_set""><strong>ensemble d'apprentissage</strong></a>.</p>
 "
 couche d'entrée (input layer) (Glossaire du Machine Learning de Google)|"
-<p>Première couche (ou couche recevant les données d'entrée) d'un <a href=""#neural_network""><strong>réseau de neurones</strong></a>.</p>
+<p>Première couche (ou couche recevant les données d'entrée) d'un <a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>réseau de neurones</strong></a>.</p>
 "
 instance (Glossaire du Machine Learning de Google)|"
-<p>Synonyme d'<a href=""#example""><strong>exemple</strong></a>.</p>
+<p>Synonyme d'<a href=""https://developers.google.com/machine-learning/glossary/#example""><strong>exemple</strong></a>.</p>
 "
 interprétabilité (interpretability) (Glossaire du Machine Learning de Google)|"
-<p>Facilité à expliquer les prédictions du modèle. Les modèles profonds sont souvent non interprétables, c'est-à-dire que les différentes couches d'un modèle profond sont difficiles à déchiffrer. En revanche, les modèles de régression linéaire et les <a href=""#wide_model""><strong>modèles larges</strong></a> sont généralement bien plus interprétables.</p>
+<p>Facilité à expliquer les prédictions du modèle. Les modèles profonds sont souvent non interprétables, c'est-à-dire que les différentes couches d'un modèle profond sont difficiles à déchiffrer. En revanche, les modèles de régression linéaire et les <a href=""https://developers.google.com/machine-learning/glossary/#wide_model""><strong>modèles larges</strong></a> sont généralement bien plus interprétables.</p>
 "
 accord inter-évaluateurs (inter-rater agreement) (Glossaire du Machine Learning de Google)|"
 <p>Mesure de la fréquence à laquelle différents évaluateurs humains sont d'accord lors de l'exécution d'une tâche.
@@ -480,13 +480,13 @@ Si les évaluateurs sont en désaccord, une amélioration des instructions peut 
 Parfois également appelé <strong>accord inter-annotateurs</strong> ou <strong>fiabilité inter-évaluateurs</strong>.  Voir aussi le <a href=""https://en.wikipedia.org/wiki/Cohen%27s_kappa"">kappa de Cohen</a>, l'une des mesures de l'accord inter-évaluateurs les plus populaires.</p>
 "
 itération (iteration) (Glossaire du Machine Learning de Google)|"
-<p>Mise à jour unique des pondérations d'un modèle pendant l'apprentissage.  Une itération consiste à calculer les gradients des paramètres en termes de perte sur un seul <a href=""#batch""><strong>lot</strong></a> de données.</p>
+<p>Mise à jour unique des pondérations d'un modèle pendant l'apprentissage.  Une itération consiste à calculer les gradients des paramètres en termes de perte sur un seul <a href=""https://developers.google.com/machine-learning/glossary/#batch""><strong>lot</strong></a> de données.</p>
 
 "
 k-moyennes (k-means) (Glossaire du Machine Learning de Google)|"
-<p>Un algorithme de <a href=""#clustering""><strong>clustering</strong></a> populaire qui regroupe des exemples dans l'apprentissage non supervisé. L'algorithme k-moyennes effectue les opérations suivantes :</p>
+<p>Un algorithme de <a href=""https://developers.google.com/machine-learning/glossary/#clustering""><strong>clustering</strong></a> populaire qui regroupe des exemples dans l'apprentissage non supervisé. L'algorithme k-moyennes effectue les opérations suivantes :</p>
 <ul>
-<li>Détermination de manière itérative des meilleurs k points centraux (appelés <a href=""#centroid""><strong>centroïdes</strong></a>).</li>
+<li>Détermination de manière itérative des meilleurs k points centraux (appelés <a href=""https://developers.google.com/machine-learning/glossary/#centroid""><strong>centroïdes</strong></a>).</li>
 <li>Assignation de chaque exemple au centroïde le plus proche.  Les exemples les plus proches du même centroïde font partie du même groupe.</li>
 </ul>
 <p>L'algorithme k-moyennes choisit l'emplacement des centroïdes de manière à minimiser le <em>carré</em> cumulatif des distances entre chaque exemple et son centroïde le plus proche.</p>
@@ -504,7 +504,7 @@ k-moyennes (k-means) (Glossaire du Machine Learning de Google)|"
 <p>Les illustrations précédentes montrent les k-moyennes pour des exemples avec seulement deux caractéristiques (hauteur et largeur). Notez que les k-moyennes peuvent regrouper des exemples pour de nombreuses caractéristiques.</p>
 "
 k-médiane (k-median) (Glossaire du Machine Learning de Google)|"
-<p>Algorithme de clustering étroitement lié à <a href=""#k-means""><strong>k-moyennes</strong></a>. La différence pratique entre les deux est la suivante :</p>
+<p>Algorithme de clustering étroitement lié à <a href=""https://developers.google.com/machine-learning/glossary/#k-means""><strong>k-moyennes</strong></a>. La différence pratique entre les deux est la suivante :</p>
 <ul>
 <li>Dans l'algorithme k-moyennes, les centroïdes sont déterminés en minimisant la somme des <em>carrés</em> de la distance entre un centroïde potentiel et chacun de ses exemples.</li>
 <li>Dans l'algorithme k-médiane, les centroïdes sont déterminés en minimisant la somme de la distance entre un centroïde potentiel et chacun de ses exemples.</li>
@@ -533,71 +533,71 @@ Keras (Glossaire du Machine Learning de Google)|"
 <p>API de machine learning Python populaire. <a href=""https://keras.io"">Keras</a> s'exécute sur plusieurs cadres de deep learning, y compris TensorFlow, où il est disponible via <a href=""https://www.tensorflow.org/api_docs/python/tf/keras""><strong>tf.keras</strong></a>.</p>
 "
 machines à vecteurs de support à noyau (KSVM) (Kernel Support Vector Machines (KSVMs)) (Glossaire du Machine Learning de Google)|"
-<p>Algorithme de classification qui cherche à maximiser la marge entre les <a href=""#positive_class""><strong>classes positives</strong></a> et les <a href=""#negative_class""><strong>classes négatives</strong></a> en associant à chaque vecteur d'entrée un vecteur dans un espace de plus grande dimension.  Considérons par exemple un problème de classification dans lequel l'ensemble de données d'entrée se compose de cent caractéristiques. Afin de maximiser la marge entre les classes positives et négatives, un KVSM pourrait associer, en interne, chaque vecteur de caractéristiques à un vecteur dans un espace à un million de dimensions.  Les KSVM utilisent une fonction de perte appelée <a href=""#hinge-loss"">marge maximale</a>.</p>
+<p>Algorithme de classification qui cherche à maximiser la marge entre les <a href=""https://developers.google.com/machine-learning/glossary/#positive_class""><strong>classes positives</strong></a> et les <a href=""https://developers.google.com/machine-learning/glossary/#negative_class""><strong>classes négatives</strong></a> en associant à chaque vecteur d'entrée un vecteur dans un espace de plus grande dimension.  Considérons par exemple un problème de classification dans lequel l'ensemble de données d'entrée se compose de cent caractéristiques. Afin de maximiser la marge entre les classes positives et négatives, un KVSM pourrait associer, en interne, chaque vecteur de caractéristiques à un vecteur dans un espace à un million de dimensions.  Les KSVM utilisent une fonction de perte appelée <a href=""https://developers.google.com/machine-learning/glossary/#hinge-loss"">marge maximale</a>.</p>
 
 "
 perte L<sub>1</sub> (L1 loss) (Glossaire du Machine Learning de Google)|"
-<p>Fonction de <a href=""#loss""><strong>perte</strong></a> basée sur la valeur absolue de la différence entre les valeurs prédites par un modèle et les valeurs réelles des <a href=""#label""><strong>étiquettes</strong></a>. La perte L<sub>1</sub> est moins sensible aux anomalies que la <a href=""#squared_loss""><strong>perte L<sub>2</sub></strong></a>.</p>
+<p>Fonction de <a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>perte</strong></a> basée sur la valeur absolue de la différence entre les valeurs prédites par un modèle et les valeurs réelles des <a href=""https://developers.google.com/machine-learning/glossary/#label""><strong>étiquettes</strong></a>. La perte L<sub>1</sub> est moins sensible aux anomalies que la <a href=""https://developers.google.com/machine-learning/glossary/#squared_loss""><strong>perte L<sub>2</sub></strong></a>.</p>
 "
 régularisation L<sub>1</sub> (L1 regularization) (Glossaire du Machine Learning de Google)|"
-<p>Type de <a href=""#regularization""><strong>régularisation</strong></a> qui pénalise les pondérations proportionnellement à la somme de leurs valeurs absolues. Dans les modèles reposant sur des <a href=""#sparse_features""><strong>caractéristiques creuses</strong></a>, la régularisation L<sub>1</sub> aide à mettre à zéro les pondérations des caractéristiques peu ou pas pertinentes, ce qui a pour effet de supprimer celles-ci du modèle.
-À comparer à la <a href=""#L2_regularization""><strong>régularisation L<sub>2</sub></strong></a>.</p>
+<p>Type de <a href=""https://developers.google.com/machine-learning/glossary/#regularization""><strong>régularisation</strong></a> qui pénalise les pondérations proportionnellement à la somme de leurs valeurs absolues. Dans les modèles reposant sur des <a href=""https://developers.google.com/machine-learning/glossary/#sparse_features""><strong>caractéristiques creuses</strong></a>, la régularisation L<sub>1</sub> aide à mettre à zéro les pondérations des caractéristiques peu ou pas pertinentes, ce qui a pour effet de supprimer celles-ci du modèle.
+À comparer à la <a href=""https://developers.google.com/machine-learning/glossary/#L2_regularization""><strong>régularisation L<sub>2</sub></strong></a>.</p>
 "
 perte L<sub>2</sub> (L2 loss) (Glossaire du Machine Learning de Google)|"
-<p>Voir <a href=""#squared_loss""><strong>perte quadratique</strong></a>.</p>
+<p>Voir <a href=""https://developers.google.com/machine-learning/glossary/#squared_loss""><strong>perte quadratique</strong></a>.</p>
 "
 régularisation L<sub>2</sub> (L2 regularization) (Glossaire du Machine Learning de Google)|"
-<p>Type de <a href=""#regularization""><strong>régularisation</strong></a> qui pénalise les pondérations proportionnellement à la somme de leurs <em>carrés</em>.
+<p>Type de <a href=""https://developers.google.com/machine-learning/glossary/#regularization""><strong>régularisation</strong></a> qui pénalise les pondérations proportionnellement à la somme de leurs <em>carrés</em>.
 La régularisation L<sub>2</sub> aide à rapprocher de zéro la pondération des anomalies (celles dont la valeur est très positive ou très négative), sans pour autant atteindre zéro.
-(À comparer à la <a href=""#L1_regularization""><strong>régularisation L1</strong></a>.)
+(À comparer à la <a href=""https://developers.google.com/machine-learning/glossary/#L1_regularization""><strong>régularisation L1</strong></a>.)
 La régularisation L<sub>2</sub> améliore toujours la généralisation des modèles linéaires.</p>
 "
 étiquette (label) (Glossaire du Machine Learning de Google)|"
-<p>Dans l'apprentissage supervisé, ""réponse"" ou ""résultat"" d'un <a href=""#example""><strong>exemple</strong></a>. Chaque exemple d'un ensemble de données étiqueté se compose d'au moins une caractéristique et d'une étiquette. Par exemple, les caractéristiques d'un ensemble de données sur des logements pourraient inclure le nombre de chambres, le nombre de salles de bain et l'âge du logement, et l'étiquette pourrait être le prix du logement.
+<p>Dans l'apprentissage supervisé, ""réponse"" ou ""résultat"" d'un <a href=""https://developers.google.com/machine-learning/glossary/#example""><strong>exemple</strong></a>. Chaque exemple d'un ensemble de données étiqueté se compose d'au moins une caractéristique et d'une étiquette. Par exemple, les caractéristiques d'un ensemble de données sur des logements pourraient inclure le nombre de chambres, le nombre de salles de bain et l'âge du logement, et l'étiquette pourrait être le prix du logement.
 Dans un ensemble de données de détection de spam, les caractéristiques pourraient être l'objet, l'expéditeur et le message lui-même, et l'étiquette serait probablement ""spam"" ou ""non spam.""</p>
 "
 exemple étiqueté (labeled example) (Glossaire du Machine Learning de Google)|"
-<p>Exemple contenant des <a href=""#feature""><strong>caractéristiques</strong></a> et une <a href=""#label""><strong>étiquette</strong></a>. Dans l'apprentissage supervisé, les modèles sont entraînés avec des exemples étiquetés.</p>
+<p>Exemple contenant des <a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>caractéristiques</strong></a> et une <a href=""https://developers.google.com/machine-learning/glossary/#label""><strong>étiquette</strong></a>. Dans l'apprentissage supervisé, les modèles sont entraînés avec des exemples étiquetés.</p>
 "
 lambda (Glossaire du Machine Learning de Google)|"
-<p>Synonyme de <a href=""#regularization_rate""><strong>taux de régularisation</strong></a>.</p>
-<p>Ce terme recouvre de nombreux concepts. Ici, nous nous référons à sa définition dans le cadre de la <a href=""#regularization""><strong>régularisation</strong></a>.</p>
+<p>Synonyme de <a href=""https://developers.google.com/machine-learning/glossary/#regularization_rate""><strong>taux de régularisation</strong></a>.</p>
+<p>Ce terme recouvre de nombreux concepts. Ici, nous nous référons à sa définition dans le cadre de la <a href=""https://developers.google.com/machine-learning/glossary/#regularization""><strong>régularisation</strong></a>.</p>
 "
 couche (layer) (Glossaire du Machine Learning de Google)|"
-<p>Ensemble des <a href=""#neuron""><strong>neurones</strong></a> d'un <a href=""#neural_network""><strong>réseau de neurones</strong></a> qui traite un ensemble de caractéristiques d'entrée, ou le résultat de ces neurones.</p>
-<p>Également une abstraction dans TensorFlow. Les couches sont des fonctions Python qui prennent des options de <a href=""#tensor""><strong>Tensors</strong></a> et de configuration en entrée pour générer d'autres Tensors en sortie. Une fois les Tensors nécessaires créés, l'utilisateur peut convertir le résultat en un <a href=""#Estimators""><strong>Estimator</strong></a> via une <a href=""#model_function""><strong>fonction de modèle</strong></a>.</p>
+<p>Ensemble des <a href=""https://developers.google.com/machine-learning/glossary/#neuron""><strong>neurones</strong></a> d'un <a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>réseau de neurones</strong></a> qui traite un ensemble de caractéristiques d'entrée, ou le résultat de ces neurones.</p>
+<p>Également une abstraction dans TensorFlow. Les couches sont des fonctions Python qui prennent des options de <a href=""https://developers.google.com/machine-learning/glossary/#tensor""><strong>Tensors</strong></a> et de configuration en entrée pour générer d'autres Tensors en sortie. Une fois les Tensors nécessaires créés, l'utilisateur peut convertir le résultat en un <a href=""https://developers.google.com/machine-learning/glossary/#Estimators""><strong>Estimator</strong></a> via une <a href=""https://developers.google.com/machine-learning/glossary/#model_function""><strong>fonction de modèle</strong></a>.</p>
 "
 API Layers (tf.layers) (Layers API (tf.layers)) (Glossaire du Machine Learning de Google)|"
-<p>API TensorFlow pour la construction d'un réseau de neurones <a href=""#deep_model""><strong>profond</strong></a> à partir de plusieurs couches. L'API Layers permet notamment de créer les types de <a href=""#layer""><strong>couches</strong></a> suivants :</p>
+<p>API TensorFlow pour la construction d'un réseau de neurones <a href=""https://developers.google.com/machine-learning/glossary/#deep_model""><strong>profond</strong></a> à partir de plusieurs couches. L'API Layers permet notamment de créer les types de <a href=""https://developers.google.com/machine-learning/glossary/#layer""><strong>couches</strong></a> suivants :</p>
 <ul>
-<li><code>tf.layers.Dense</code> pour une <a href=""#fully_connected_layer""><strong>couche entièrement connectée</strong></a></li>
+<li><code>tf.layers.Dense</code> pour une <a href=""https://developers.google.com/machine-learning/glossary/#fully_connected_layer""><strong>couche entièrement connectée</strong></a></li>
 <li><code>tf.layers.Conv2D</code> pour une couche convolutive</li>
 </ul>
-<p>Lorsque vous écrivez un <a href=""#custom_estimator""><strong>Estimator personnalisé</strong></a>, vous créez des objets Layers pour définir les caractéristiques de toutes les <a href=""#hidden_layers""><strong>couches cachées</strong></a>.</p>
-<p>L'API Layers respecte les conventions de l'API <a href=""#Keras""><strong>Keras</strong></a> concernant les couches.
+<p>Lorsque vous écrivez un <a href=""https://developers.google.com/machine-learning/glossary/#custom_estimator""><strong>Estimator personnalisé</strong></a>, vous créez des objets Layers pour définir les caractéristiques de toutes les <a href=""https://developers.google.com/machine-learning/glossary/#hidden_layers""><strong>couches cachées</strong></a>.</p>
+<p>L'API Layers respecte les conventions de l'API <a href=""https://developers.google.com/machine-learning/glossary/#Keras""><strong>Keras</strong></a> concernant les couches.
 De ce fait, à part un préfixe différent, toutes les fonctions de l'API Layers ont des noms et des signatures identiques à ceux de leurs homologues dans l'API Keras pour les couches.</p>
 "
 taux d'apprentissage (learning rate) (Glossaire du Machine Learning de Google)|"
-<p>Grandeur scalaire utilisée pour entraîner le modèle via la descente de gradient. À chaque itération, l'algorithme de <a href=""#gradient_descent""><strong>descente de gradient</strong></a> multiplie le taux d'apprentissage par le gradient.  Le produit ainsi généré est appelé <strong>pas de gradient</strong>.</p>
-<p>Le taux d'apprentissage est un <a href=""#hyperparameter""><strong>hyperparamètre</strong></a> clé.</p>
+<p>Grandeur scalaire utilisée pour entraîner le modèle via la descente de gradient. À chaque itération, l'algorithme de <a href=""https://developers.google.com/machine-learning/glossary/#gradient_descent""><strong>descente de gradient</strong></a> multiplie le taux d'apprentissage par le gradient.  Le produit ainsi généré est appelé <strong>pas de gradient</strong>.</p>
+<p>Le taux d'apprentissage est un <a href=""https://developers.google.com/machine-learning/glossary/#hyperparameter""><strong>hyperparamètre</strong></a> clé.</p>
 "
 régression des moindres carrés (least squares regression) (Glossaire du Machine Learning de Google)|"
-<p>Modèle de régression linéaire entraîné en minimisant la <a href=""#L2_loss""><strong>perte L<sub>2</sub></strong></a>.</p>
+<p>Modèle de régression linéaire entraîné en minimisant la <a href=""https://developers.google.com/machine-learning/glossary/#L2_loss""><strong>perte L<sub>2</sub></strong></a>.</p>
 "
 régression linéaire (linear regression) (Glossaire du Machine Learning de Google)|"
-<p>Type de <a href=""#regression_model""><strong>modèle de régression</strong></a> qui génère une valeur continue à partir d'une combinaison linéaire de caractéristiques d'entrée.</p>
+<p>Type de <a href=""https://developers.google.com/machine-learning/glossary/#regression_model""><strong>modèle de régression</strong></a> qui génère une valeur continue à partir d'une combinaison linéaire de caractéristiques d'entrée.</p>
 "
 régression logistique (logistic regression) (Glossaire du Machine Learning de Google)|"
-<p>Modèle qui génère une probabilité pour chaque valeur d'étiquette discrète possible dans les problèmes de classification en appliquant une <a href=""#sigmoid_function""><strong>fonction sigmoïde</strong></a> à une prédiction linéaire. Bien que la régression logistique soit fréquemment utilisée dans les problèmes de <a href=""#binary_classification""><strong>classification binaire</strong></a>, elle peut également être utilisée dans les problèmes de classification à <a href=""#multi-class""><strong>classes multiples</strong></a> (auquel cas elle est appelée <strong>régression logistique à classes multiples</strong> ou <strong>régression multinomiale</strong>).</p>
+<p>Modèle qui génère une probabilité pour chaque valeur d'étiquette discrète possible dans les problèmes de classification en appliquant une <a href=""https://developers.google.com/machine-learning/glossary/#sigmoid_function""><strong>fonction sigmoïde</strong></a> à une prédiction linéaire. Bien que la régression logistique soit fréquemment utilisée dans les problèmes de <a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>classification binaire</strong></a>, elle peut également être utilisée dans les problèmes de classification à <a href=""https://developers.google.com/machine-learning/glossary/#multi-class""><strong>classes multiples</strong></a> (auquel cas elle est appelée <strong>régression logistique à classes multiples</strong> ou <strong>régression multinomiale</strong>).</p>
 "
 fonctions logit (logits) (Glossaire du Machine Learning de Google)|"
 <p>Vecteur de prédictions brutes (non normalisées) généré par un modèle de classification, et qui est habituellement transmis à une fonction de normalisation.
 Si le modèle résout un problème de classification à classes multiples, les fonctions logit sont généralement utilisées comme entrée de la <a href=""https://www.tensorflow.org/api_docs/python/tf/nn/softmax_cross_entropy_with_logits_v2"">fonction softmax</a>.
 Celle-ci génère alors un vecteur de probabilités (normalisées) avec une valeur pour chaque classe possible.</p>
-<p>De plus, les fonctions logit renvoient parfois à l'inverse par élément de la <a href=""#sigmoid_function""><strong>fonction sigmoïde</strong></a>. Pour en savoir plus, consultez la page <a href=""https://www.tensorflow.org/api_docs/python/tf/nn/sigmoid_cross_entropy_with_logits"">tf.nn.sigmoid_cross_entropy_with_logits</a>.</p>
+<p>De plus, les fonctions logit renvoient parfois à l'inverse par élément de la <a href=""https://developers.google.com/machine-learning/glossary/#sigmoid_function""><strong>fonction sigmoïde</strong></a>. Pour en savoir plus, consultez la page <a href=""https://www.tensorflow.org/api_docs/python/tf/nn/sigmoid_cross_entropy_with_logits"">tf.nn.sigmoid_cross_entropy_with_logits</a>.</p>
 "
 perte logistique (Log Loss) (Glossaire du Machine Learning de Google)|"
-<p>Fonction de <a href=""#loss""><strong>perte</strong></a> utilisée dans la <a href=""#logistic_regression""><strong>régression logistique</strong></a> binaire.</p>
+<p>Fonction de <a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>perte</strong></a> utilisée dans la <a href=""https://developers.google.com/machine-learning/glossary/#logistic_regression""><strong>régression logistique</strong></a> binaire.</p>
 "
 logarithme de cote (log-odds) (Glossaire du Machine Learning de Google)|"
 <p>Logarithme des cotes d'un événement donné.</p>
@@ -619,10 +619,10 @@ ln(9) ~= 2.2
 $$
 </div>
 
-<p>Le logarithme des cotes est l'inverse de la <a href=""#sigmoid_function""><strong>fonction sigmoïde</strong></a>.</p>
+<p>Le logarithme des cotes est l'inverse de la <a href=""https://developers.google.com/machine-learning/glossary/#sigmoid_function""><strong>fonction sigmoïde</strong></a>.</p>
 "
 perte (loss) (Glossaire du Machine Learning de Google)|"
-<p>Mesure de l'écart entre les <a href=""#prediction""><strong>prédictions</strong></a> d'un modèle et son <a href=""#label""><strong>étiquette</strong></a>. Ou, de façon plus pessimiste, mesure de la médiocrité du modèle. Pour déterminer cette valeur, un modèle doit définir une fonction de perte. Par exemple, les modèles de régression linéaire utilisent généralement l'<a href=""#MSE""><strong>erreur quadratique moyenne</strong></a> comme fonction de perte, tandis que les modèles de régression logistiques utilisent la <a href=""#Log_Loss""><strong>perte logistique</strong></a>.</p>
+<p>Mesure de l'écart entre les <a href=""https://developers.google.com/machine-learning/glossary/#prediction""><strong>prédictions</strong></a> d'un modèle et son <a href=""https://developers.google.com/machine-learning/glossary/#label""><strong>étiquette</strong></a>. Ou, de façon plus pessimiste, mesure de la médiocrité du modèle. Pour déterminer cette valeur, un modèle doit définir une fonction de perte. Par exemple, les modèles de régression linéaire utilisent généralement l'<a href=""https://developers.google.com/machine-learning/glossary/#MSE""><strong>erreur quadratique moyenne</strong></a> comme fonction de perte, tandis que les modèles de régression logistiques utilisent la <a href=""https://developers.google.com/machine-learning/glossary/#Log_Loss""><strong>perte logistique</strong></a>.</p>
 
 "
 machine learning (Glossaire du Machine Learning de Google)|"
@@ -630,47 +630,47 @@ machine learning (Glossaire du Machine Learning de Google)|"
 Le système utilise le modèle entraîné pour effectuer des prédictions utiles à partir de nouvelles données (jamais vues auparavant) issues de la même distribution que celle utilisée pour entraîner le modèle. Le machine learning (ou apprentissage automatique) désigne également la discipline qui traite de ces programmes ou systèmes.</p>
 "
 erreur quadratique moyenne (MSE) (Mean Squared Error (MSE)) (Glossaire du Machine Learning de Google)|"
-<p>Perte quadratique moyenne pour chaque exemple. La MSE est calculée en divisant la <a href=""#squared_loss""><strong>perte quadratique</strong></a> par le nombre d'<a href=""#example""><strong>exemples</strong></a>. Les valeurs que <a href=""#TensorFlow_Playground""><strong>TensorFlow Playground</strong></a> affiche pour ""Perte d'apprentissage"" et ""Perte de test"" sont des MSE.</p>
+<p>Perte quadratique moyenne pour chaque exemple. La MSE est calculée en divisant la <a href=""https://developers.google.com/machine-learning/glossary/#squared_loss""><strong>perte quadratique</strong></a> par le nombre d'<a href=""https://developers.google.com/machine-learning/glossary/#example""><strong>exemples</strong></a>. Les valeurs que <a href=""https://developers.google.com/machine-learning/glossary/#TensorFlow_Playground""><strong>TensorFlow Playground</strong></a> affiche pour ""Perte d'apprentissage"" et ""Perte de test"" sont des MSE.</p>
 "
 statistique (metric) (Glossaire du Machine Learning de Google)|"
-<p>Nombre qui vous intéresse. Peut ou non être optimisé directement dans un système de machine learning. Une statistique que votre système tente d'optimiser est appelée <a href=""#objective""><strong>objectif</strong></a>.</p>
+<p>Nombre qui vous intéresse. Peut ou non être optimisé directement dans un système de machine learning. Une statistique que votre système tente d'optimiser est appelée <a href=""https://developers.google.com/machine-learning/glossary/#objective""><strong>objectif</strong></a>.</p>
 "
 API Metrics (tf.metrics) (Metrics API (tf.metrics)) (Glossaire du Machine Learning de Google)|"
-<p>API TensorFlow pour évaluer les modèles. Par exemple, <code>tf.metrics.accuracy</code> détermine la proportion d'exemples pour lesquels les prédictions du modèle coïncident avec les étiquettes. Lorsque vous écrivez un <a href=""#custom_estimator""><strong>Estimator personnalisé</strong></a>, vous invoquez les fonctions de l'API Metrics pour spécifier la méthode d'évaluation de votre modèle.</p>
+<p>API TensorFlow pour évaluer les modèles. Par exemple, <code>tf.metrics.accuracy</code> détermine la proportion d'exemples pour lesquels les prédictions du modèle coïncident avec les étiquettes. Lorsque vous écrivez un <a href=""https://developers.google.com/machine-learning/glossary/#custom_estimator""><strong>Estimator personnalisé</strong></a>, vous invoquez les fonctions de l'API Metrics pour spécifier la méthode d'évaluation de votre modèle.</p>
 "
 mini-lot (mini-batch) (Glossaire du Machine Learning de Google)|"
-<p>Petit sous-ensemble, sélectionné aléatoirement, du lot complet d'<a href=""#example""><strong>exemples</strong></a> exécutés simultanément dans une même itération d'apprentissage ou d'inférence. La <a href=""#batch_size""><strong>taille de lot</strong></a> d'un mini-lot est généralement comprise entre 10 et 1 000. Il est bien plus efficace de calculer la perte pour un mini-lot que pour l'ensemble entier des données d'apprentissage.</p>
+<p>Petit sous-ensemble, sélectionné aléatoirement, du lot complet d'<a href=""https://developers.google.com/machine-learning/glossary/#example""><strong>exemples</strong></a> exécutés simultanément dans une même itération d'apprentissage ou d'inférence. La <a href=""https://developers.google.com/machine-learning/glossary/#batch_size""><strong>taille de lot</strong></a> d'un mini-lot est généralement comprise entre 10 et 1 000. Il est bien plus efficace de calculer la perte pour un mini-lot que pour l'ensemble entier des données d'apprentissage.</p>
 "
 descente de gradient stochastique par mini-lots (SGD) (mini-batch stochastic gradient descent (SGD)) (Glossaire du Machine Learning de Google)|"
-<p>Algorithme de <a href=""#gradient_descent""><strong>descente de gradient</strong></a> qui utilise des <a href=""#mini-batch""><strong>mini-lots</strong></a>. En d'autres termes, la SGD par mini-lots estime le gradient à partir d'un petit sous-ensemble des données d'apprentissage. <a href=""#SGD""><strong>Vanilla SGD</strong></a> utilise un mini-lot de taille 1.</p>
+<p>Algorithme de <a href=""https://developers.google.com/machine-learning/glossary/#gradient_descent""><strong>descente de gradient</strong></a> qui utilise des <a href=""https://developers.google.com/machine-learning/glossary/#mini-batch""><strong>mini-lots</strong></a>. En d'autres termes, la SGD par mini-lots estime le gradient à partir d'un petit sous-ensemble des données d'apprentissage. <a href=""https://developers.google.com/machine-learning/glossary/#SGD""><strong>Vanilla SGD</strong></a> utilise un mini-lot de taille 1.</p>
 "
 ML (Glossaire du Machine Learning de Google)|"
-<p>Abréviation de <a href=""#machine_learning""><strong>machine learning</strong></a> (apprentissage automatique).</p>
+<p>Abréviation de <a href=""https://developers.google.com/machine-learning/glossary/#machine_learning""><strong>machine learning</strong></a> (apprentissage automatique).</p>
 "
 modèle (model) (Glossaire du Machine Learning de Google)|"
 <p>Représentation de ce qu'un système ML a appris à partir des données d'apprentissage.
 Ce terme complexe peut avoir l'un des deux sens associés suivants :</p>
 <ul>
-<li>Graphe <a href=""#TensorFlow""><strong>TensorFlow</strong></a> qui exprime la structure du calcul d'une prédiction</li>
-<li>Pondérations et biais particuliers de ce graphe TensorFlow déterminés par <a href=""#model_training""><strong>apprentissage</strong></a></li>
+<li>Graphe <a href=""https://developers.google.com/machine-learning/glossary/#TensorFlow""><strong>TensorFlow</strong></a> qui exprime la structure du calcul d'une prédiction</li>
+<li>Pondérations et biais particuliers de ce graphe TensorFlow déterminés par <a href=""https://developers.google.com/machine-learning/glossary/#model_training""><strong>apprentissage</strong></a></li>
 </ul>
 "
 fonction de modèle (model function) (Glossaire du Machine Learning de Google)|"
-<p>Fonction dans un <a href=""#Estimators""><strong>Estimator</strong></a> qui implémente l'entraînement, l'évaluation et l'inférence ML. Par exemple, la partie entraînement d'une fonction de modèle peut gérer des tâches telles que la définition de la topologie d'un réseau de neurones profond et l'identification de sa fonction d'<a href=""#optimizer""><strong>optimiseur</strong></a>.
-Lorsque vous utilisez des <a href=""#pre-made_Estimator""><strong>Estimators prédéfinis</strong></a>, quelqu'un a déjà écrit la fonction de modèle pour vous.  Lorsque vous utilisez des <a href=""#custom_estimator""><strong>Estimators personnalisés</strong></a>, vous devez écrire la fonction de modèle vous-même.</p>
+<p>Fonction dans un <a href=""https://developers.google.com/machine-learning/glossary/#Estimators""><strong>Estimator</strong></a> qui implémente l'entraînement, l'évaluation et l'inférence ML. Par exemple, la partie entraînement d'une fonction de modèle peut gérer des tâches telles que la définition de la topologie d'un réseau de neurones profond et l'identification de sa fonction d'<a href=""https://developers.google.com/machine-learning/glossary/#optimizer""><strong>optimiseur</strong></a>.
+Lorsque vous utilisez des <a href=""https://developers.google.com/machine-learning/glossary/#pre-made_Estimator""><strong>Estimators prédéfinis</strong></a>, quelqu'un a déjà écrit la fonction de modèle pour vous.  Lorsque vous utilisez des <a href=""https://developers.google.com/machine-learning/glossary/#custom_estimator""><strong>Estimators personnalisés</strong></a>, vous devez écrire la fonction de modèle vous-même.</p>
 <p>Pour en savoir plus sur l'écriture d'une fonction de modèle, consultez la page <a href=""https://www.tensorflow.org/get_started/custom_estimators"">Création d'Estimators personnalisés</a>.</p>
 "
 entraînement de modèle (model training) (Glossaire du Machine Learning de Google)|"
-<p>Processus visant à déterminer le meilleur <a href=""#model""><strong>modèle</strong></a>.</p>
+<p>Processus visant à déterminer le meilleur <a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>modèle</strong></a>.</p>
 "
 Momentum (Glossaire du Machine Learning de Google)|"
 <p>Algorithme sophistiqué de descente de gradient dans lequel une étape d'apprentissage dépend non seulement de la dérivée de l'étape actuelle, mais aussi des dérivées des étapes qui l'ont immédiatement précédée. Momentum calcule une moyenne glissante pondérée exponentiellement des gradients au fil du temps, à l'instar du calcul du moment en physique.  Momentum permet parfois d'éviter à l'apprentissage de se retrouver bloqué à un minimum local.</p>
 "
 classification à classes multiples (multi-class classification) (Glossaire du Machine Learning de Google)|"
-<p>Problèmes de classification qui distingue plus de deux classes. Il existe par exemple environ 128 espèces d'érable. Un modèle les classant serait donc à classes multiples. À l'inverse, un modèle qui répartit les e-mails en seulement deux catégories, <em>spam</em> et <em>non-spam</em>, serait un <a href=""#binary_classification""><strong>modèle de classification binaire</strong></a>.</p>
+<p>Problèmes de classification qui distingue plus de deux classes. Il existe par exemple environ 128 espèces d'érable. Un modèle les classant serait donc à classes multiples. À l'inverse, un modèle qui répartit les e-mails en seulement deux catégories, <em>spam</em> et <em>non-spam</em>, serait un <a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>modèle de classification binaire</strong></a>.</p>
 "
 classification multinomiale (multinomial classification) (Glossaire du Machine Learning de Google)|"
-<p>Synonyme de <a href=""#multi-class""><strong>classification à classes multiples</strong></a>.</p>
+<p>Synonyme de <a href=""https://developers.google.com/machine-learning/glossary/#multi-class""><strong>classification à classes multiples</strong></a>.</p>
 
 "
 piège NaN (NaN trap) (Glossaire du Machine Learning de Google)|"
@@ -678,46 +678,46 @@ piège NaN (NaN trap) (Glossaire du Machine Learning de Google)|"
 <p>NaN est l'abréviation de ""Not a Number"" (Ce n'est pas un nombre).</p>
 "
 classe négative (negative class) (Glossaire du Machine Learning de Google)|"
-<p>Dans la <a href=""#binary_classification""><strong>classification binaire</strong></a>, une classe est dite positive et l'autre négative. La classe positive est le résultat recherché et la classe négative l'autre possibilité.
+<p>Dans la <a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>classification binaire</strong></a>, une classe est dite positive et l'autre négative. La classe positive est le résultat recherché et la classe négative l'autre possibilité.
 Par exemple, la classe négative d'un test médical pourrait être ""Pas de tumeur"".
 La classe négative d'un classificateur d'e-mail pourrait être ""non-spam"".
-Voir aussi <a href=""#positive_class""><strong>classe positive</strong></a>.</p>
+Voir aussi <a href=""https://developers.google.com/machine-learning/glossary/#positive_class""><strong>classe positive</strong></a>.</p>
 "
 réseau de neurones (neural network) (Glossaire du Machine Learning de Google)|"
-<p>Modèle inspiré du fonctionnement cérébral, et qui se compose de couches, dont au moins une est <a href=""#hidden_layer""><strong>cachée</strong></a>, contenant des unités connectées simples, ou <a href=""#neuron""><strong>neurones</strong></a>, suivies de non-linéarités.</p>
+<p>Modèle inspiré du fonctionnement cérébral, et qui se compose de couches, dont au moins une est <a href=""https://developers.google.com/machine-learning/glossary/#hidden_layer""><strong>cachée</strong></a>, contenant des unités connectées simples, ou <a href=""https://developers.google.com/machine-learning/glossary/#neuron""><strong>neurones</strong></a>, suivies de non-linéarités.</p>
 "
 neurone (neuron) (Glossaire du Machine Learning de Google)|"
-<p>Nœud d'un <a href=""#neural_network""><strong>réseau de neurones</strong></a>, recevant plusieurs valeurs d'entrée et générant une valeur de sortie. Le neurone calcule la valeur de sortie en appliquant une <a href=""#activation_function""><strong>fonction d'activation</strong></a> (transformation non linéaire) à une somme pondérée des valeurs d'entrée.</p>
+<p>Nœud d'un <a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>réseau de neurones</strong></a>, recevant plusieurs valeurs d'entrée et générant une valeur de sortie. Le neurone calcule la valeur de sortie en appliquant une <a href=""https://developers.google.com/machine-learning/glossary/#activation_function""><strong>fonction d'activation</strong></a> (transformation non linéaire) à une somme pondérée des valeurs d'entrée.</p>
 "
 nœud (node) (Glossaire du Machine Learning de Google)|"
 <p>Ce terme complexe désigne l'un des deux concepts suivants, selon les cas :</p>
 <ul>
-<li>Un neurone dans une <a href=""#hidden_layer""><strong>couche cachée</strong></a></li>
-<li>Une opération dans un <a href=""#graph""><strong>graphe</strong></a> TensorFlow</li>
+<li>Un neurone dans une <a href=""https://developers.google.com/machine-learning/glossary/#hidden_layer""><strong>couche cachée</strong></a></li>
+<li>Une opération dans un <a href=""https://developers.google.com/machine-learning/glossary/#graph""><strong>graphe</strong></a> TensorFlow</li>
 </ul>
 "
 normalisation (normalization) (Glossaire du Machine Learning de Google)|"
 <p>Conversion d'une plage réelle de valeurs en une plage standard de valeurs, généralement de -1 à +1 ou de 0 à 1. Supposons que la plage naturelle d'une certaine caractéristique s'étende de 800 à 6 000. En effectuant diverses soustractions et divisions, vous pouvez normaliser ces valeurs à une plage s'étendant de -1 à +1.</p>
-<p>Voir aussi <a href=""#scaling""><strong>mise à l'échelle</strong></a>.</p>
+<p>Voir aussi <a href=""https://developers.google.com/machine-learning/glossary/#scaling""><strong>mise à l'échelle</strong></a>.</p>
 "
 données numériques (numerical data) (Glossaire du Machine Learning de Google)|"
-<p><a href=""#feature""><strong>Caractéristiques</strong></a> représentées par des nombres entiers ou réels.
+<p><a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>Caractéristiques</strong></a> représentées par des nombres entiers ou réels.
 Par exemple, dans un modèle immobilier, vous pourriez probablement représenter la superficie d'un logement (en mètres carrés) sous forme de données numériques.  La représentation d'une caractéristique sous forme de données numériques indique que les valeurs de la caractéristique sont <em>mathématiquement</em> liées entre elles, et éventuellement avec l'étiquette.
 Par exemple, le fait de représenter la superficie d'un logement sous forme de données numériques indique qu'une maison de 200 mètres carrés est deux fois plus spacieuse qu'une maison de 100 mètres carrés.
 De plus, le nombre de mètres carrés d'une maison est probablement mathématiquement lié d'une manière ou d'une autre au prix de cette maison.</p>
 <p>Les données entières ne doivent pas toutes être représentées sous forme de données numériques. Par exemple, les codes postaux dans certains pays sont des entiers, et ne doivent pas être représentés sous forme de données numériques dans les modèles. La raison à cela est que le code postal <code>20000</code> n'est pas deux fois plus (ou moins) puissant que le code postal 10000. Par ailleurs, bien que différents codes postaux <em>soient</em> corrélés à des prix de logement différents, il n'est pas possible de supposer que le prix des logements dont le code postal est 20000 est le double du prix des logements dont le code postal est 10000.
-Les codes postaux doivent être représentés par des <a href=""#categorical_data""><strong>données catégorielles</strong></a>.</p>
-<p>Les caractéristiques numériques sont parfois appelées <a href=""#continuous_feature""><strong>caractéristiques continues</strong></a>.</p>
+Les codes postaux doivent être représentés par des <a href=""https://developers.google.com/machine-learning/glossary/#categorical_data""><strong>données catégorielles</strong></a>.</p>
+<p>Les caractéristiques numériques sont parfois appelées <a href=""https://developers.google.com/machine-learning/glossary/#continuous_feature""><strong>caractéristiques continues</strong></a>.</p>
 "
 Numpy (Glossaire du Machine Learning de Google)|"
-<p><a href=""http://www.numpy.org/"">Bibliothèque mathématique Open Source</a> qui fournit différentes opérations de tableau efficaces pour Python. <a href=""#pandas""><strong>Pandas</strong></a> est construit sur Numpy.</p>
+<p><a href=""http://www.numpy.org/"">Bibliothèque mathématique Open Source</a> qui fournit différentes opérations de tableau efficaces pour Python. <a href=""https://developers.google.com/machine-learning/glossary/#pandas""><strong>Pandas</strong></a> est construit sur Numpy.</p>
 
 "
 objectif (objective) (Glossaire du Machine Learning de Google)|"
 <p>Statistique que votre algorithme essaie d'optimiser.</p>
 "
 inférence hors ligne (offline inference) (Glossaire du Machine Learning de Google)|"
-<p>Création d'un groupe de <a href=""#prediction""><strong>prédictions</strong></a>, stockage de ces prédictions, puis récupération de celles-ci à la demande. À comparer à l'<a href=""#online_inference""><strong>inférence en ligne</strong></a>.</p>
+<p>Création d'un groupe de <a href=""https://developers.google.com/machine-learning/glossary/#prediction""><strong>prédictions</strong></a>, stockage de ces prédictions, puis récupération de celles-ci à la demande. À comparer à l'<a href=""https://developers.google.com/machine-learning/glossary/#online_inference""><strong>inférence en ligne</strong></a>.</p>
 "
 encodage one-hot (one-hot encoding) (Glossaire du Machine Learning de Google)|"
 <p>Vecteur creux caractérisé ainsi :</p>
@@ -729,10 +729,10 @@ encodage one-hot (one-hot encoding) (Glossaire du Machine Learning de Google)|"
 "
 apprentissage one-shot (one-shot learning) (Glossaire du Machine Learning de Google)|"
 <p>Approche du machine learning, souvent utilisée pour la classification d'objets, conçue pour apprendre des classificateurs efficaces à partir d'un seul exemple d'apprentissage.</p>
-<p>Voir aussi <a href=""#few-shot_learning""><strong>apprentissage few-shot</strong></a>.</p>
+<p>Voir aussi <a href=""https://developers.google.com/machine-learning/glossary/#few-shot_learning""><strong>apprentissage few-shot</strong></a>.</p>
 "
 un contre tous (one-vs.-all) (Glossaire du Machine Learning de Google)|"
-<p>Face à un problème de classification avec N solutions possibles, une solution un contre tous consiste en N <a href=""#binary_classification""><strong>classificateurs binaires</strong></a> distincts : un classificateur binaire pour chaque résultat possible. Soit, par exemple, un modèle qui classe les exemples en animal, végétal ou minéral. Une solution un contre tous fournirait les trois classificateurs binaires distincts suivants :</p>
+<p>Face à un problème de classification avec N solutions possibles, une solution un contre tous consiste en N <a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>classificateurs binaires</strong></a> distincts : un classificateur binaire pour chaque résultat possible. Soit, par exemple, un modèle qui classe les exemples en animal, végétal ou minéral. Une solution un contre tous fournirait les trois classificateurs binaires distincts suivants :</p>
 <ul>
 <li>Animal contre non animal</li>
 <li>Végétal contre non végétal</li>
@@ -740,14 +740,14 @@ un contre tous (one-vs.-all) (Glossaire du Machine Learning de Google)|"
 </ul>
 "
 inférence en ligne (online inference) (Glossaire du Machine Learning de Google)|"
-<p>Création de <a href=""#prediction""><strong>prédictions</strong></a> à la demande. À comparer à l'<a href=""#offline_inference""><strong>inférence hors ligne</strong></a>.</p>
+<p>Création de <a href=""https://developers.google.com/machine-learning/glossary/#prediction""><strong>prédictions</strong></a> à la demande. À comparer à l'<a href=""https://developers.google.com/machine-learning/glossary/#offline_inference""><strong>inférence hors ligne</strong></a>.</p>
 "
 opération (Operation (op)) (Glossaire du Machine Learning de Google)|"
-<p>Nœud du graphe TensorFlow. Dans TensorFlow, toute procédure qui crée, manipule ou détruit un <a href=""#tensor""><strong>Tensor</strong></a> est une opération. Par exemple, une multiplication matricielle est une opération qui prend deux Tensors en entrée et crée un Tensor en sortie.</p>
+<p>Nœud du graphe TensorFlow. Dans TensorFlow, toute procédure qui crée, manipule ou détruit un <a href=""https://developers.google.com/machine-learning/glossary/#tensor""><strong>Tensor</strong></a> est une opération. Par exemple, une multiplication matricielle est une opération qui prend deux Tensors en entrée et crée un Tensor en sortie.</p>
 "
 optimiseur (optimizer) (Glossaire du Machine Learning de Google)|"
-<p>Implémentation particulière de l'algorithme de <a href=""#gradient_descent""><strong>descente de gradient</strong></a>. La classe de base de TensorFlow pour les optimiseurs est <a href=""https://www.tensorflow.org/api_docs/python/tf/train/Optimizer"">tf.train.Optimizer</a>.
-Différents optimiseurs peuvent utiliser un ou plusieurs des concepts suivants pour améliorer l'efficacité de la descente de gradient sur un <a href=""#training_set""><strong>ensemble d'apprentissage</strong></a> donné :</p>
+<p>Implémentation particulière de l'algorithme de <a href=""https://developers.google.com/machine-learning/glossary/#gradient_descent""><strong>descente de gradient</strong></a>. La classe de base de TensorFlow pour les optimiseurs est <a href=""https://www.tensorflow.org/api_docs/python/tf/train/Optimizer"">tf.train.Optimizer</a>.
+Différents optimiseurs peuvent utiliser un ou plusieurs des concepts suivants pour améliorer l'efficacité de la descente de gradient sur un <a href=""https://developers.google.com/machine-learning/glossary/#training_set""><strong>ensemble d'apprentissage</strong></a> donné :</p>
 <ul>
 <li>le <a href=""https://www.tensorflow.org/api_docs/python/tf/train/MomentumOptimizer"">moment</a>
     (Momentum) ;</li>
@@ -767,7 +767,7 @@ Différents optimiseurs peuvent utiliser un ou plusieurs des concepts suivants p
 anomalies (outliers) (Glossaire du Machine Learning de Google)|"
 <p>Valeurs éloignées de la plupart des autres valeurs. Dans le machine learning, toutes les valeurs suivantes sont des anomalies :</p>
 <ul>
-<li><a href=""#weight""><strong>Pondérations</strong></a> dont la valeur absolue est élevée</li>
+<li><a href=""https://developers.google.com/machine-learning/glossary/#weight""><strong>Pondérations</strong></a> dont la valeur absolue est élevée</li>
 <li>Valeurs prédites relativement éloignées des valeurs réelles</li>
 <li>Données d'entrée dont les valeurs sont éloignées de plus de trois écarts types environ de la moyenne</li>
 </ul>
@@ -777,39 +777,39 @@ couche de sortie (output layer) (Glossaire du Machine Learning de Google)|"
 <p>Couche ""finale"" d'un réseau de neurones, et qui contient les réponses.</p>
 "
 surapprentissage (overfitting) (Glossaire du Machine Learning de Google)|"
-<p>Création d'un modèle correspondant si étroitement aux <a href=""#training_set""><strong>données d'apprentissage</strong></a> qu'il ne parvient pas à effectuer des prédictions correctes avec de nouvelles données.</p>
+<p>Création d'un modèle correspondant si étroitement aux <a href=""https://developers.google.com/machine-learning/glossary/#training_set""><strong>données d'apprentissage</strong></a> qu'il ne parvient pas à effectuer des prédictions correctes avec de nouvelles données.</p>
 
 "
 Pandas (Glossaire du Machine Learning de Google)|"
 <p>API d'analyse de données par colonne. De nombreux cadres de machine learning, y compris TensorFlow, acceptent les structures de données Pandas comme entrées. Voir la <a href=""http://pandas.pydata.org/"">documentation de Pandas</a>.</p>
 "
 paramètre (parameter) (Glossaire du Machine Learning de Google)|"
-<p>Variable d'un modèle que le système de machine learning entraîne tout seul. Par exemple, les <a href=""#weight""><strong>pondérations</strong></a> sont des paramètres dont le système de machine learning apprend progressivement les valeurs via des itérations d'apprentissage successives. À comparer aux <a href=""#hyperparameter""><strong>hyperparamètres</strong></a>.</p>
+<p>Variable d'un modèle que le système de machine learning entraîne tout seul. Par exemple, les <a href=""https://developers.google.com/machine-learning/glossary/#weight""><strong>pondérations</strong></a> sont des paramètres dont le système de machine learning apprend progressivement les valeurs via des itérations d'apprentissage successives. À comparer aux <a href=""https://developers.google.com/machine-learning/glossary/#hyperparameter""><strong>hyperparamètres</strong></a>.</p>
 "
 serveur de paramètres (Parameter Server (PS)) (Glossaire du Machine Learning de Google)|"
-<p>Tâche qui effectue le suivi des <a href=""#parameter""><strong>paramètres</strong></a> d'un modèle dans une configuration distribuée.</p>
+<p>Tâche qui effectue le suivi des <a href=""https://developers.google.com/machine-learning/glossary/#parameter""><strong>paramètres</strong></a> d'un modèle dans une configuration distribuée.</p>
 "
 mise à jour des paramètres (parameter update) (Glossaire du Machine Learning de Google)|"
-<p>Opération qui consiste à ajuster les <a href=""#parameter""><strong>paramètres</strong></a> d'un modèle au cours de l'apprentissage, généralement au cours d'une seule itération de la <a href=""#gradient_descent""><strong>descente de gradient</strong></a>.</p>
+<p>Opération qui consiste à ajuster les <a href=""https://developers.google.com/machine-learning/glossary/#parameter""><strong>paramètres</strong></a> d'un modèle au cours de l'apprentissage, généralement au cours d'une seule itération de la <a href=""https://developers.google.com/machine-learning/glossary/#gradient_descent""><strong>descente de gradient</strong></a>.</p>
 "
 dérivée partielle (partial derivative) (Glossaire du Machine Learning de Google)|"
 <p>Dérivée dans laquelle toutes les variables sauf une sont considérées comme constantes.
 Par exemple, la dérivée partielle de <em>f(x, y)</em> par rapport à <em>x</em> est la dérivée de <em>f</em> considérée exclusivement comme une fonction de <em>x</em> (c'est-à-dire en gardant <em>y</em> constante). La dérivée partielle de <em>f</em> par rapport à <em>x</em> se concentre uniquement sur l'évolution de <em>x</em> et ignore toutes les autres variables de l'équation.</p>
 "
 stratégie de partitionnement (partitioning strategy) (Glossaire du Machine Learning de Google)|"
-<p>Algorithme qui répartit les variables entre les <a href=""#Parameter_Server""><strong>serveurs de paramètres</strong></a>.</p>
+<p>Algorithme qui répartit les variables entre les <a href=""https://developers.google.com/machine-learning/glossary/#Parameter_Server""><strong>serveurs de paramètres</strong></a>.</p>
 "
 performances (performance) (Glossaire du Machine Learning de Google)|"
 <p>Terme complexe ayant plusieurs significations :</p>
 <ul>
 <li>Sens traditionnel dans le génie logiciel, à savoir : à quelle vitesse, ou avec quelle efficacité, ce logiciel s'exécute-t-il ?</li>
-<li>Sens dans le domaine du machine learning, à savoir : quel est le degré d'exactitude de ce <a href=""#model""><strong>modèle</strong></a> ? Autrement dit, les prédictions du modèle sont-elles bonnes ?</li>
+<li>Sens dans le domaine du machine learning, à savoir : quel est le degré d'exactitude de ce <a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>modèle</strong></a> ? Autrement dit, les prédictions du modèle sont-elles bonnes ?</li>
 </ul>
 "
 perplexité (perplexity) (Glossaire du Machine Learning de Google)|"
-<p>Mesure de l'efficacité d'un <a href=""#model""><strong>modèle</strong></a> à exécuter une tâche.
+<p>Mesure de l'efficacité d'un <a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>modèle</strong></a> à exécuter une tâche.
 Supposons que vous deviez lire les premières lettres qu'un utilisateur saisit avec le clavier de son smartphone pour lui proposer une liste de mots possibles. Pour cette tâche, la perplexité, notée P, est environ égale au nombre de mots que vous devez proposer pour que votre liste contienne le mot que l'utilisateur souhaite effectivement saisir.</p>
-<p>La perplexité est liée à l'<a href=""#cross-entropy""><strong>entropie croisée</strong></a> par la formule suivante :</p>
+<p>La perplexité est liée à l'<a href=""https://developers.google.com/machine-learning/glossary/#cross-entropy""><strong>entropie croisée</strong></a> par la formule suivante :</p>
 <div>
 $$P= 2^{-\text{entropie croisée}}$$
 </div>
@@ -819,30 +819,30 @@ pipeline (Glossaire du Machine Learning de Google)|"
 <p>Infrastructure sur laquelle repose l'algorithme de machine learning. Le pipeline inclut la collecte des données, l'intégration de celles-ci dans des fichiers de données d'apprentissage, l'entraînement d'un ou plusieurs modèles, et l'exportation des modèles en production.</p>
 "
 pooling (Glossaire du Machine Learning de Google)|"
-<p>Réduction d'une matrice (ou de matrices) créée par une <a href=""#convolutional_layer""><strong>couche convolutive</strong></a> antérieure à une matrice plus petite.
+<p>Réduction d'une matrice (ou de matrices) créée par une <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_layer""><strong>couche convolutive</strong></a> antérieure à une matrice plus petite.
 Le pooling implique généralement de prendre la valeur maximale ou la valeur moyenne de l'ensemble de la zone regroupée. Soit, par exemple, la matrice 3 x 3 suivante :</p>
 <p>
 <img src=""/machine-learning/glossary/images/PoolingStart.svg"">
 </p>
 
-<p>Une opération de pooling, tout comme une opération convolutive, divise cette matrice en tranches, puis déplace cette opération convolutive selon un certain <a href=""#stride""><strong>pas</strong></a>. Supposons que l'opération de pooling divise la matrice convolutive en tranches de taille 2 x 2 avec un pas de 1 x 1.
+<p>Une opération de pooling, tout comme une opération convolutive, divise cette matrice en tranches, puis déplace cette opération convolutive selon un certain <a href=""https://developers.google.com/machine-learning/glossary/#stride""><strong>pas</strong></a>. Supposons que l'opération de pooling divise la matrice convolutive en tranches de taille 2 x 2 avec un pas de 1 x 1.
 Comme l'illustre le diagramme suivant, quatre opérations de pooling ont lieu.
 Imaginons que chaque opération de pooling sélectionne la valeur maximale des quatre valeurs de cette tranche :</p>
 <p>
 <img src=""/machine-learning/glossary/images/PoolingConvolution.svg"">
 </p>
 
-<p>Le pooling permet d'appliquer l'<a href=""#translational_invariance""><strong>invariance de translation</strong></a> dans la matrice d'entrée.</p>
+<p>Le pooling permet d'appliquer l'<a href=""https://developers.google.com/machine-learning/glossary/#translational_invariance""><strong>invariance de translation</strong></a> dans la matrice d'entrée.</p>
 <p>Dans les applications de vision, le pooling est officiellement appelé <strong>pooling spatial</strong>.
 Dans les applications de séries temporelles, le pooling est généralement appelé <strong>pooling temporel</strong>.
 Plus couramment, le pooling est fréquemment désigné par les termes de <strong>sous-échantillonnage</strong> ou <strong>réduction d'échantillonnage</strong>.</p>
 "
 classe positive (positive class) (Glossaire du Machine Learning de Google)|"
-<p>Dans la <a href=""#binary_classification""><strong>classification binaire</strong></a>, les deux classes possibles sont étiquetées ""positive"" et ""négative"". Le résultat positif correspond à ce qui est testé. (Certes, les deux résultats sont testés simultanément, mais mettons cette considération de côté.) Par exemple, la classe positive d'un test médical pourrait être ""tumeur"". La classe positive d'un classificateur d'e-mail pourrait être ""spam"".</p>
-<p>À comparer à la <a href=""#negative_class""><strong>classe négative</strong></a>.</p>
+<p>Dans la <a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>classification binaire</strong></a>, les deux classes possibles sont étiquetées ""positive"" et ""négative"". Le résultat positif correspond à ce qui est testé. (Certes, les deux résultats sont testés simultanément, mais mettons cette considération de côté.) Par exemple, la classe positive d'un test médical pourrait être ""tumeur"". La classe positive d'un classificateur d'e-mail pourrait être ""spam"".</p>
+<p>À comparer à la <a href=""https://developers.google.com/machine-learning/glossary/#negative_class""><strong>classe négative</strong></a>.</p>
 "
 précision (precision) (Glossaire du Machine Learning de Google)|"
-<p>Statistique des <a href=""#classification_model""><strong>modèles de classification</strong></a>. La précision correspond à la fréquence à laquelle le modèle prédit correctement la <a href=""#positive_class""><strong>classe positive</strong></a>. Par exemple :</p>
+<p>Statistique des <a href=""https://developers.google.com/machine-learning/glossary/#classification_model""><strong>modèles de classification</strong></a>. La précision correspond à la fréquence à laquelle le modèle prédit correctement la <a href=""https://developers.google.com/machine-learning/glossary/#positive_class""><strong>classe positive</strong></a>. Par exemple :</p>
 <div>
 $$\text{Précision} =
 \frac{\text{Vrais positifs}} {\text{Vrais positifs} + \text{Faux positifs}}$$
@@ -850,45 +850,45 @@ $$\text{Précision} =
 
 "
 prédiction (prediction) (Glossaire du Machine Learning de Google)|"
-<p>Résultat d'un modèle auquel un <a href=""#example""><strong>exemple</strong></a> est fourni en entrée.</p>
+<p>Résultat d'un modèle auquel un <a href=""https://developers.google.com/machine-learning/glossary/#example""><strong>exemple</strong></a> est fourni en entrée.</p>
 "
 biais de prédiction (prediction bias) (Glossaire du Machine Learning de Google)|"
-<p>Valeur indiquant la distance entre la moyenne des <a href=""#prediction""><strong>prédictions</strong></a> et la moyenne des <a href=""#label""><strong>étiquettes</strong></a> dans un ensemble de données.</p>
+<p>Valeur indiquant la distance entre la moyenne des <a href=""https://developers.google.com/machine-learning/glossary/#prediction""><strong>prédictions</strong></a> et la moyenne des <a href=""https://developers.google.com/machine-learning/glossary/#label""><strong>étiquettes</strong></a> dans un ensemble de données.</p>
 "
 Estimator prédéfini (pre-made Estimator) (Glossaire du Machine Learning de Google)|"
-<p><a href=""#Estimator""><strong>Estimator</strong></a> déjà créé.
+<p><a href=""https://developers.google.com/machine-learning/glossary/#Estimator""><strong>Estimator</strong></a> déjà créé.
 TensorFlow propose plusieurs Estimators prédéfinis, notamment <code>DNNClassifier</code>, <code>DNNRegressor</code> et <code>LinearClassifier</code>.  Pour créer vos propres Estimators prédéfinis, <a href=""https://www.tensorflow.org/extend/estimators"">suivez cette procédure</a>.</p>
 "
 modèle pré-entraîné (pre-trained model) (Glossaire du Machine Learning de Google)|"
-<p>Modèles ou composants de modèle (par exemple, <a href=""#embeddings""><strong>représentations vectorielles continues</strong></a>) qui ont déjà été entraînés. Dans certains cas, vous alimentez un <a href=""#neural_network""><strong>réseau de neurones</strong></a> avec des représentations vectorielles continues pré-entraînées. Dans d'autres cas, votre modèle entraîne lui-même les représentations vectorielles continues plutôt que d'utiliser des représentations vectorielles pré-entraînées.</p>
+<p>Modèles ou composants de modèle (par exemple, <a href=""https://developers.google.com/machine-learning/glossary/#embeddings""><strong>représentations vectorielles continues</strong></a>) qui ont déjà été entraînés. Dans certains cas, vous alimentez un <a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>réseau de neurones</strong></a> avec des représentations vectorielles continues pré-entraînées. Dans d'autres cas, votre modèle entraîne lui-même les représentations vectorielles continues plutôt que d'utiliser des représentations vectorielles pré-entraînées.</p>
 "
 croyance antérieure (prior belief) (Glossaire du Machine Learning de Google)|"
-<p>Ce que vous croyez à propos des données avant de commencer l'apprentissage avec celles-ci. Par exemple, la <a href=""#L2_regularization""><strong>régularisation L<sub>2</sub></strong></a> repose sur une croyance antérieure que les <a href=""#weight""><strong>pondérations</strong></a> devraient être faibles et normalement distribuées autour de zéro.</p>
+<p>Ce que vous croyez à propos des données avant de commencer l'apprentissage avec celles-ci. Par exemple, la <a href=""https://developers.google.com/machine-learning/glossary/#L2_regularization""><strong>régularisation L<sub>2</sub></strong></a> repose sur une croyance antérieure que les <a href=""https://developers.google.com/machine-learning/glossary/#weight""><strong>pondérations</strong></a> devraient être faibles et normalement distribuées autour de zéro.</p>
 
 "
 file d'attente (queue) (Glossaire du Machine Learning de Google)|"
-<p><a href=""#Operation""><strong>Opération</strong></a> TensorFlow qui implémente une structure de données de file d'attente. Généralement utilisée dans les E/S.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#Operation""><strong>Opération</strong></a> TensorFlow qui implémente une structure de données de file d'attente. Généralement utilisée dans les E/S.</p>
 
 "
 rang (rank) (Glossaire du Machine Learning de Google)|"
 <p>Terme aux significations multiples dans le machine learning :</p>
 <ul>
-<li>Nombre de dimensions d'un <a href=""#tensor""><strong>Tensor</strong></a>. Par exemple, une grandeur scalaire a un rang de 0, un vecteur un rang de 1 et une matrice un rang de 2.</li>
+<li>Nombre de dimensions d'un <a href=""https://developers.google.com/machine-learning/glossary/#tensor""><strong>Tensor</strong></a>. Par exemple, une grandeur scalaire a un rang de 0, un vecteur un rang de 1 et une matrice un rang de 2.</li>
 <li>Position ordinale d'une classe dans un problème de machine learning qui hiérarchise des classes par ordre décroissant. Par exemple, un système de classement de comportement pourrait classer les récompenses pour un chien de la récompense la plus élevée (un steak) à la récompense la plus faible (du chou frisé flétri).</li>
 </ul>
 "
 évaluateur (rater) (Glossaire du Machine Learning de Google)|"
-<p>Personne qui fournit les <a href=""#label""><strong>étiquettes</strong></a> dans les <a href=""#example""><strong>exemples</strong></a>.
+<p>Personne qui fournit les <a href=""https://developers.google.com/machine-learning/glossary/#label""><strong>étiquettes</strong></a> dans les <a href=""https://developers.google.com/machine-learning/glossary/#example""><strong>exemples</strong></a>.
 Parfois appelé ""annotateur"".</p>
 "
 rappel (recall) (Glossaire du Machine Learning de Google)|"
-<p>Statistique des <a href=""#classification_model""><strong>modèles de classification</strong></a> qui répond à la question suivante : parmi toutes les étiquettes positives possibles, combien d'entre elles le modèle a-t-il correctement identifiées ? En d'autres termes :</p>
+<p>Statistique des <a href=""https://developers.google.com/machine-learning/glossary/#classification_model""><strong>modèles de classification</strong></a> qui répond à la question suivante : parmi toutes les étiquettes positives possibles, combien d'entre elles le modèle a-t-il correctement identifiées ? En d'autres termes :</p>
 <p>$$\text{Rappel} =
 \frac{\text{Vrais positifs}} {\text{Vrais positifs} + \text{Faux négatifs}}
 $$</p>
 "
 unité de rectification linéaire (ReLU) (Rectified Linear Unit (ReLU)) (Glossaire du Machine Learning de Google)|"
-<p><a href=""#activation_function""><strong>Fonction d'activation</strong></a> dont les règles sont les suivantes :</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#activation_function""><strong>Fonction d'activation</strong></a> dont les règles sont les suivantes :</p>
 <ul>
 <li>Si l'entrée est négative ou égale à zéro, la sortie est zéro.</li>
 <li>Si l'entrée est positive, la sortie est égale à l'entrée.</li>
@@ -896,40 +896,40 @@ unité de rectification linéaire (ReLU) (Rectified Linear Unit (ReLU)) (Glossai
 "
 modèle de régression (regression model) (Glossaire du Machine Learning de Google)|"
 <p>Type de modèle qui génère des valeurs continues (à virgule flottante, généralement).
-À comparer aux <a href=""#classification_model""><strong>modèles de classification</strong></a>, qui génèrent des valeurs discrètes, comme ""hémérocalle"" ou ""lis tigré"".</p>
+À comparer aux <a href=""https://developers.google.com/machine-learning/glossary/#classification_model""><strong>modèles de classification</strong></a>, qui génèrent des valeurs discrètes, comme ""hémérocalle"" ou ""lis tigré"".</p>
 "
 régularisation (regularization) (Glossaire du Machine Learning de Google)|"
-<p>Pénalité pour la complexité d'un modèle. La régularisation aide à éviter le <a href=""#overfitting""><strong>surapprentissage</strong></a>. Les différents types de régularisation sont notamment :</p>
+<p>Pénalité pour la complexité d'un modèle. La régularisation aide à éviter le <a href=""https://developers.google.com/machine-learning/glossary/#overfitting""><strong>surapprentissage</strong></a>. Les différents types de régularisation sont notamment :</p>
 <ul>
-<li><a href=""#L1_regularization""><strong>Régularisation L<sub>1</sub></strong></a></li>
-<li><a href=""#L2_regularization""><strong>Régularisation L<sub>2</sub></strong></a></li>
-<li><a href=""#dropout_regularization""><strong>Régularisation par abandon</strong></a></li>
-<li><a href=""#early_stopping""><strong>Arrêt prématuré</strong></a> (Il ne s'agit pas vraiment d'une méthode de régularisation, mais l'arrêt prématuré peut limiter efficacement le surapprentissage.)</li>
+<li><a href=""https://developers.google.com/machine-learning/glossary/#L1_regularization""><strong>Régularisation L<sub>1</sub></strong></a></li>
+<li><a href=""https://developers.google.com/machine-learning/glossary/#L2_regularization""><strong>Régularisation L<sub>2</sub></strong></a></li>
+<li><a href=""https://developers.google.com/machine-learning/glossary/#dropout_regularization""><strong>Régularisation par abandon</strong></a></li>
+<li><a href=""https://developers.google.com/machine-learning/glossary/#early_stopping""><strong>Arrêt prématuré</strong></a> (Il ne s'agit pas vraiment d'une méthode de régularisation, mais l'arrêt prématuré peut limiter efficacement le surapprentissage.)</li>
 </ul>
 "
 taux de régularisation (regularization rate) (Glossaire du Machine Learning de Google)|"
-<p>Grandeur scalaire, notée lambda, qui indique l'importance relative de la fonction de régularisation. L'équation de <a href=""#loss""><strong>perte</strong></a> simplifiée suivante montre l'influence du taux de régularisation :</p>
+<p>Grandeur scalaire, notée lambda, qui indique l'importance relative de la fonction de régularisation. L'équation de <a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>perte</strong></a> simplifiée suivante montre l'influence du taux de régularisation :</p>
 <div>
 $$\text{minimiser(fonction de perte + }\lambda\text{(fonction de régularisation))}$$
 </div>
 
-<p>L'augmentation du taux de régularisation réduit non seulement le <a href=""#overfitting""><strong>surapprentissage</strong></a>, mais aussi la <a href=""#accuracy""><strong>justesse</strong></a> du modèle.</p>
+<p>L'augmentation du taux de régularisation réduit non seulement le <a href=""https://developers.google.com/machine-learning/glossary/#overfitting""><strong>surapprentissage</strong></a>, mais aussi la <a href=""https://developers.google.com/machine-learning/glossary/#accuracy""><strong>justesse</strong></a> du modèle.</p>
 "
 représentation (representation) (Glossaire du Machine Learning de Google)|"
-<p>Processus de mise en correspondance des données et des <a href=""#feature""><strong>caractéristiques</strong></a> utiles.</p>
+<p>Processus de mise en correspondance des données et des <a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>caractéristiques</strong></a> utiles.</p>
 "
 courbe ROC (receiver operating characteristic) (ROC (receiver operating characteristic) Curve) (Glossaire du Machine Learning de Google)|"
-<p>Courbe représentant le <a href=""#TP_rate""><strong>taux de vrais positifs</strong></a> et le <a href=""#FP_rate""><strong>taux de faux positifs</strong></a> pour différents <a href=""#classification_threshold""><strong>seuils de classification</strong></a>. Voir aussi <a href=""#AUC""><strong>AUC</strong></a>.</p>
+<p>Courbe représentant le <a href=""https://developers.google.com/machine-learning/glossary/#TP_rate""><strong>taux de vrais positifs</strong></a> et le <a href=""https://developers.google.com/machine-learning/glossary/#FP_rate""><strong>taux de faux positifs</strong></a> pour différents <a href=""https://developers.google.com/machine-learning/glossary/#classification_threshold""><strong>seuils de classification</strong></a>. Voir aussi <a href=""https://developers.google.com/machine-learning/glossary/#AUC""><strong>AUC</strong></a>.</p>
 "
 répertoire racine (root directory) (Glossaire du Machine Learning de Google)|"
 <p>Répertoire que vous spécifiez pour l'enregistrement des sous-répertoires du point de contrôle TensorFlow et des fichiers d'événements de plusieurs modèles.</p>
 "
 racine carrée de l'erreur quadratique moyenne (RMSE) (Root Mean Squared Error (RMSE)) (Glossaire du Machine Learning de Google)|"
-<p>Racine carrée de l'<a href=""#MSE""><strong>erreur quadratique moyenne</strong></a>.</p>
+<p>Racine carrée de l'<a href=""https://developers.google.com/machine-learning/glossary/#MSE""><strong>erreur quadratique moyenne</strong></a>.</p>
 "
 invariance rotationnelle (rotational invariance) (Glossaire du Machine Learning de Google)|"
 <p>Dans un problème de classification d'images, capacité d'un algorithme à classer correctement des images même lorsque l'orientation de l'image change. Par exemple, l'algorithme peut identifier une raquette de tennis comme telle, qu'elle soit pointée vers le haut, vers le bas, vers la gauche ou vers la droite. Notez que l'invariance rotationnelle n'est pas toujours souhaitable. Par exemple, un 9 à l'envers ne devrait pas être classé comme étant un 9.</p>
-<p>Voir aussi <a href=""#translational_invariance""><strong>invariance de translation</strong></a> et <a href=""#size_invariance""><strong>invariance de taille</strong></a>.</p>
+<p>Voir aussi <a href=""https://developers.google.com/machine-learning/glossary/#translational_invariance""><strong>invariance de translation</strong></a> et <a href=""https://developers.google.com/machine-learning/glossary/#size_invariance""><strong>invariance de taille</strong></a>.</p>
 
 "
 SavedModel (Glossaire du Machine Learning de Google)|"
@@ -940,8 +940,8 @@ Saver (Glossaire du Machine Learning de Google)|"
 <p><a href=""https://www.tensorflow.org/api_docs/python/tf/train/Saver"">Objet TensorFlow</a> responsable de l'enregistrement des points de contrôle du modèle.</p>
 "
 mise à l'échelle (scaling) (Glossaire du Machine Learning de Google)|"
-<p>Pratique couramment utilisée dans l'<a href=""#feature_engineering""><strong>extraction de caractéristiques</strong></a> pour faire correspondre la plage de valeurs d'une caractéristique à celle d'autres caractéristiques de l'ensemble de données. Supposons que vous souhaitiez que la plage de toutes les caractéristiques à virgule flottante de l'ensemble de données s'étende de 0 à 1. Si la plage d'une caractéristique particulière s'étend de 0 à 500, vous pouvez mettre à l'échelle cette valeur en divisant chaque valeur par 500.</p>
-<p>Voir aussi <a href=""#normalization""><strong>normalisation</strong></a>.</p>
+<p>Pratique couramment utilisée dans l'<a href=""https://developers.google.com/machine-learning/glossary/#feature_engineering""><strong>extraction de caractéristiques</strong></a> pour faire correspondre la plage de valeurs d'une caractéristique à celle d'autres caractéristiques de l'ensemble de données. Supposons que vous souhaitiez que la plage de toutes les caractéristiques à virgule flottante de l'ensemble de données s'étende de 0 à 1. Si la plage d'une caractéristique particulière s'étend de 0 à 500, vous pouvez mettre à l'échelle cette valeur en divisant chaque valeur par 500.</p>
+<p>Voir aussi <a href=""https://developers.google.com/machine-learning/glossary/#normalization""><strong>normalisation</strong></a>.</p>
 "
 scikit-learn (Glossaire du Machine Learning de Google)|"
 <p>Plate-forme de machine learning Open Source populaire. Pour plus d'informations, rendez-vous sur le site <a href=""http://www.scikit-learn.org/"">www.scikit-learn.org</a>.</p>
@@ -953,7 +953,7 @@ modèle de séquence (sequence model) (Glossaire du Machine Learning de Google)|
 <p>Modèle dont les entrées présentent une dépendance séquentielle. Par exemple, prévision de la prochaine vidéo visionnée à partir d'une séquence de vidéos précédemment regardées.</p>
 "
 session (tf.session) (Glossaire du Machine Learning de Google)|"
-<p>Objet qui encapsule l'état de l'exécution de TensorFlow, et exécute tout ou partie d'un <a href=""#graph""><strong>graphe</strong></a>. Lorsque vous utilisez les API TensorFlow de bas niveau, vous instanciez et gérez directement un ou plusieurs objets <code>tf.session</code>. Lorsque vous utilisez l'API Estimators, les Estimators instancient des objets session pour vous.</p>
+<p>Objet qui encapsule l'état de l'exécution de TensorFlow, et exécute tout ou partie d'un <a href=""https://developers.google.com/machine-learning/glossary/#graph""><strong>graphe</strong></a>. Lorsque vous utilisez les API TensorFlow de bas niveau, vous instanciez et gérez directement un ou plusieurs objets <code>tf.session</code>. Lorsque vous utilisez l'API Estimators, les Estimators instancient des objets session pour vous.</p>
 "
 fonction sigmoïde (sigmoid function) (Glossaire du Machine Learning de Google)|"
 <p>Fonction qui met en correspondance le résultat d'une régression logistique ou multinomiale (logarithme de probabilité) avec des probabilités, et renvoie une valeur comprise entre 0 et 1.  L'équation de la fonction sigmoïde est la suivante :</p>
@@ -961,31 +961,31 @@ fonction sigmoïde (sigmoid function) (Glossaire du Machine Learning de Google)|
 $$y = \frac{1}{1 + e^{-\sigma}}$$
 </div>
 
-<p>où \(\sigma\), dans les problèmes de <a href=""#logistic_regression""><strong>régression logistique</strong></a>, est simplement :</p>
+<p>où \(\sigma\), dans les problèmes de <a href=""https://developers.google.com/machine-learning/glossary/#logistic_regression""><strong>régression logistique</strong></a>, est simplement :</p>
 <div>
 $$\sigma = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 </div>
 
 <p>En d'autres termes, la fonction sigmoïde convertit \(\sigma\) en une probabilité comprise entre 0 et 1.</p>
-<p>Dans certains <a href=""#neural_network""><strong>réseaux de neurones</strong></a>, la fonction sigmoïde est utilisée comme <a href=""#activation_function""><strong>fonction d'activation</strong></a>.</p>
+<p>Dans certains <a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>réseaux de neurones</strong></a>, la fonction sigmoïde est utilisée comme <a href=""https://developers.google.com/machine-learning/glossary/#activation_function""><strong>fonction d'activation</strong></a>.</p>
 "
 invariance de taille (size invariance) (Glossaire du Machine Learning de Google)|"
 <p>Dans un problème de classification d'images, capacité d'un algorithme à classer correctement des images même lorsque la taille de l'image change. Par exemple, l'algorithme peut identifier un chat comme tel, que la taille de l'image soit de 2 millions de pixels ou de 200 000 pixels. Notez que même les meilleurs algorithmes de classification d'images présentent encore des limites pratiques au niveau de l'invariance de taille.
 Par exemple, il est peu probable qu'un algorithme (ou une personne) puisse classer correctement une image de chat de seulement 20 pixels.</p>
-<p>Voir aussi <a href=""#translational_invariance""><strong>invariance de translation</strong></a> et <a href=""#rotational_invariance""><strong>invariance rotationnelle</strong></a>.</p>
+<p>Voir aussi <a href=""https://developers.google.com/machine-learning/glossary/#translational_invariance""><strong>invariance de translation</strong></a> et <a href=""https://developers.google.com/machine-learning/glossary/#rotational_invariance""><strong>invariance rotationnelle</strong></a>.</p>
 "
 softmax (Glossaire du Machine Learning de Google)|"
-<p>Fonction qui fournit les probabilités pour chaque classe possible dans un <a href=""#multi-class""><strong>modèle de classification à classes multiples</strong></a>. La somme des probabilités est de 1. Par exemple, softmax peut déterminer que la probabilité qu'une image particulière soit celle d'un chien est de 0,9, d'un chat de 0,08 et d'un cheval de 0,02.
+<p>Fonction qui fournit les probabilités pour chaque classe possible dans un <a href=""https://developers.google.com/machine-learning/glossary/#multi-class""><strong>modèle de classification à classes multiples</strong></a>. La somme des probabilités est de 1. Par exemple, softmax peut déterminer que la probabilité qu'une image particulière soit celle d'un chien est de 0,9, d'un chat de 0,08 et d'un cheval de 0,02.
 Également appelé <strong>softmax complet</strong>.</p>
-<p>À comparer à l'<a href=""#candidate_sampling""><strong>échantillonnage de candidats</strong></a>.</p>
+<p>À comparer à l'<a href=""https://developers.google.com/machine-learning/glossary/#candidate_sampling""><strong>échantillonnage de candidats</strong></a>.</p>
 "
 caractéristique creuse (sparse feature) (Glossaire du Machine Learning de Google)|"
-<p>Vecteur de <a href=""#feature""><strong>caractéristique</strong></a> dont les valeurs sont pour la plupart nulles ou vides.
+<p>Vecteur de <a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>caractéristique</strong></a> dont les valeurs sont pour la plupart nulles ou vides.
 Par exemple, un vecteur contenant une seule valeur 1 et un million de valeurs 0 est dit creux. Autre exemple : les mots d'une requête de recherche peuvent aussi être une caractéristique creuse. En effet, il existe de très nombreux mots possibles dans une langue donnée, mais seuls quelques-uns d'entre eux peuvent apparaître dans une requête.</p>
-<p>À comparer à la <a href=""#dense_feature""><strong>caractéristique dense</strong></a>.</p>
+<p>À comparer à la <a href=""https://developers.google.com/machine-learning/glossary/#dense_feature""><strong>caractéristique dense</strong></a>.</p>
 "
 représentation creuse (sparse representation) (Glossaire du Machine Learning de Google)|"
-<p><a href=""#representation""><strong>Représentation</strong></a> d'un Tensor qui ne stocke que des éléments différents de zéro.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#representation""><strong>Représentation</strong></a> d'un Tensor qui ne stocke que des éléments différents de zéro.</p>
 <p>Par exemple, la langue anglaise comprend environ un million de mots.
 Considérons deux façons de représenter un nombre de mots utilisés dans une phrase en anglais :</p>
 <ul>
@@ -1098,15 +1098,15 @@ $$
 <p>La <strong>parcimonie des caractéristiques</strong> désigne la parcimonie d'un vecteur de caractéristiques. La <strong>parcimonie du modèle</strong> désigne la parcimonie des pondérations du modèle.</p>
 "
 pooling spatial (spatial pooling) (Glossaire du Machine Learning de Google)|"
-<p>Voir <a href=""#pooling""><strong>pooling</strong></a>.</p>
+<p>Voir <a href=""https://developers.google.com/machine-learning/glossary/#pooling""><strong>pooling</strong></a>.</p>
 "
 marge maximale quadratique (squared hinge loss) (Glossaire du Machine Learning de Google)|"
-<p>Carré de la <a href=""#hinge-loss""><strong>marge maximale</strong></a>.  La marge maximale quadratique pénalise les anomalies plus sévèrement que la marge maximale classique.</p>
+<p>Carré de la <a href=""https://developers.google.com/machine-learning/glossary/#hinge-loss""><strong>marge maximale</strong></a>.  La marge maximale quadratique pénalise les anomalies plus sévèrement que la marge maximale classique.</p>
 "
 perte quadratique (squared loss) (Glossaire du Machine Learning de Google)|"
-<p>Fonction de <a href=""#loss""><strong>perte</strong></a> utilisée dans la <a href=""#linear_regression""><strong>régression linéaire</strong></a>,  également appelée <strong>perte L<sub>2</sub></strong>. Cette fonction calcule les carrés de la différence entre la valeur prédite d'un modèle pour un <a href=""#example""><strong>exemple</strong></a> étiqueté et la valeur réelle de l'<a href=""#label""><strong>étiquette</strong></a>.
+<p>Fonction de <a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>perte</strong></a> utilisée dans la <a href=""https://developers.google.com/machine-learning/glossary/#linear_regression""><strong>régression linéaire</strong></a>,  également appelée <strong>perte L<sub>2</sub></strong>. Cette fonction calcule les carrés de la différence entre la valeur prédite d'un modèle pour un <a href=""https://developers.google.com/machine-learning/glossary/#example""><strong>exemple</strong></a> étiqueté et la valeur réelle de l'<a href=""https://developers.google.com/machine-learning/glossary/#label""><strong>étiquette</strong></a>.
 En raison de la mise au carré, cette fonction de perte amplifie l'influence des mauvaises prédictions.
-En d'autres termes, la perte quadratique réagit plus fortement aux anomalies que la <a href=""#L1_loss""><strong>perte L<sub>1</sub></strong></a>.</p>
+En d'autres termes, la perte quadratique réagit plus fortement aux anomalies que la <a href=""https://developers.google.com/machine-learning/glossary/#L1_loss""><strong>perte L<sub>1</sub></strong></a>.</p>
 "
 modèle statique (static model) (Glossaire du Machine Learning de Google)|"
 <p>Modèle entraîné hors ligne.</p>
@@ -1115,13 +1115,13 @@ stationnarité (stationarity) (Glossaire du Machine Learning de Google)|"
 <p>Propriété des données d'un ensemble, caractérisée par le fait que la distribution des données reste constante entre une ou plusieurs dimensions. Le plus souvent, cette dimension est le temps. Cela signifie alors que les données stationnaires n'évoluent pas au fil du temps. Par exemple, les données stationnaires n'évoluent pas entre septembre et décembre.</p>
 "
 pas (step) (Glossaire du Machine Learning de Google)|"
-<p>Évaluation avant et arrière d'un <a href=""#batch""><strong>lot</strong></a>.</p>
+<p>Évaluation avant et arrière d'un <a href=""https://developers.google.com/machine-learning/glossary/#batch""><strong>lot</strong></a>.</p>
 "
 pas d'apprentissage (step size) (Glossaire du Machine Learning de Google)|"
-<p>Synonyme de <a href=""#learning_rate""><strong>taux d'apprentissage</strong></a>.</p>
+<p>Synonyme de <a href=""https://developers.google.com/machine-learning/glossary/#learning_rate""><strong>taux d'apprentissage</strong></a>.</p>
 "
 descente de gradient stochastique (SGD) (stochastic gradient descent (SGD)) (Glossaire du Machine Learning de Google)|"
-<p>Algorithme de <a href=""#gradient_descent""><strong>descente de gradient</strong></a> dans lequel la taille de lot est égale à un. Autrement dit, la descente de gradient stochastique repose sur un seul exemple prélevé uniformément, de manière aléatoire, dans un ensemble de données afin de calculer une estimation du gradient à chaque pas.</p>
+<p>Algorithme de <a href=""https://developers.google.com/machine-learning/glossary/#gradient_descent""><strong>descente de gradient</strong></a> dans lequel la taille de lot est égale à un. Autrement dit, la descente de gradient stochastique repose sur un seul exemple prélevé uniformément, de manière aléatoire, dans un ensemble de données afin de calculer une estimation du gradient à chaque pas.</p>
 "
 pas (stride) (Glossaire du Machine Learning de Google)|"
 <p>Dans une opération de convolution ou de pooling, delta dans chaque dimension entre deux tranches d'entrée consécutives. Par exemple, l'animation suivante montre un pas de (1,1) lors d'une opération de convolution. La tranche d'entrée suivante commence ainsi une position à droite de la tranche d'entrée précédente. Lorsque l'opération atteint le bord droit, la tranche suivante se trouve complètement à gauche, mais une position vers le bas.</p>
@@ -1139,29 +1139,29 @@ minimisation du risque structurel (SRM) (structural risk minimization (SRM)) (Gl
 </ul>
 <p>Par exemple, une fonction qui minimise la perte et effectue la régularisation sur l'ensemble d'apprentissage est un algorithme de minimisation du risque structurel.</p>
 <p>Pour plus d'informations, consultez la page <a href=""http://www.svms.org/srm/"">http://www.svms.org/srm/</a>.</p>
-<p>À comparer avec la <a href=""#ERM""><strong>minimisation du risque empirique</strong></a>.</p>
+<p>À comparer avec la <a href=""https://developers.google.com/machine-learning/glossary/#ERM""><strong>minimisation du risque empirique</strong></a>.</p>
 "
 sous-échantillonnage (subsampling) (Glossaire du Machine Learning de Google)|"
-<p>Voir <a href=""#pooling""><strong>pooling</strong></a>.</p>
+<p>Voir <a href=""https://developers.google.com/machine-learning/glossary/#pooling""><strong>pooling</strong></a>.</p>
 "
 résumé (summary) (Glossaire du Machine Learning de Google)|"
-<p>Dans TensorFlow, valeur ou ensemble de valeurs calculées à un <a href=""#step""><strong>pas</strong></a> donné, généralement utilisé pour effectuer le suivi des statistiques du modèle pendant l'apprentissage.</p>
+<p>Dans TensorFlow, valeur ou ensemble de valeurs calculées à un <a href=""https://developers.google.com/machine-learning/glossary/#step""><strong>pas</strong></a> donné, généralement utilisé pour effectuer le suivi des statistiques du modèle pendant l'apprentissage.</p>
 "
 machine learning supervisé (supervised machine learning) (Glossaire du Machine Learning de Google)|"
-<p>Entraînement d'un <a href=""#model""><strong>modèle</strong></a> à partir de données d'entrée et des <a href=""#label""><strong>étiquettes</strong></a> correspondantes. Le machine learning supervisé est comparable à l'apprentissage par un élève d'un sujet en étudiant une série de questions et les réponses correspondantes.  Une fois la correspondance entre les questions et les réponses maîtrisée, l'élève peut fournir les réponses à des questions nouvelles (jamais vues auparavant) sur le même sujet.  À comparer au <a href=""#unsupervised_machine_learning""><strong>machine learning non supervisé</strong></a>.</p>
+<p>Entraînement d'un <a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>modèle</strong></a> à partir de données d'entrée et des <a href=""https://developers.google.com/machine-learning/glossary/#label""><strong>étiquettes</strong></a> correspondantes. Le machine learning supervisé est comparable à l'apprentissage par un élève d'un sujet en étudiant une série de questions et les réponses correspondantes.  Une fois la correspondance entre les questions et les réponses maîtrisée, l'élève peut fournir les réponses à des questions nouvelles (jamais vues auparavant) sur le même sujet.  À comparer au <a href=""https://developers.google.com/machine-learning/glossary/#unsupervised_machine_learning""><strong>machine learning non supervisé</strong></a>.</p>
 "
 caractéristique synthétique (synthetic feature) (Glossaire du Machine Learning de Google)|"
-<p><a href=""#feature""><strong>Caractéristique</strong></a> absente des caractéristiques d'entrée, mais créée à partir d'une ou plusieurs d'entre elles. Exemples de types de caractéristiques synthétiques :</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>Caractéristique</strong></a> absente des caractéristiques d'entrée, mais créée à partir d'une ou plusieurs d'entre elles. Exemples de types de caractéristiques synthétiques :</p>
 <ul>
-<li><a href=""#bucketing""><strong>Binning</strong></a> d'une caractéristique continue dans des paquets de plage</li>
+<li><a href=""https://developers.google.com/machine-learning/glossary/#bucketing""><strong>Binning</strong></a> d'une caractéristique continue dans des paquets de plage</li>
 <li>Multiplication (ou division) d'une caractéristique par d'autres caractéristiques ou par elle-même </li>
-<li>Création d'une <a href=""#feature_cross""><strong>croisement de caractéristiques</strong></a></li>
+<li>Création d'une <a href=""https://developers.google.com/machine-learning/glossary/#feature_cross""><strong>croisement de caractéristiques</strong></a></li>
 </ul>
-<p>Les caractéristiques créées uniquement par <a href=""#normalization""><strong>normalisation</strong></a> ou <a href=""#scaling""><strong>mise à l'échelle</strong></a> ne sont pas considérées comme des caractéristiques synthétiques.</p>
+<p>Les caractéristiques créées uniquement par <a href=""https://developers.google.com/machine-learning/glossary/#normalization""><strong>normalisation</strong></a> ou <a href=""https://developers.google.com/machine-learning/glossary/#scaling""><strong>mise à l'échelle</strong></a> ne sont pas considérées comme des caractéristiques synthétiques.</p>
 
 "
 cible (target) (Glossaire du Machine Learning de Google)|"
-<p>Synonyme d'<a href=""#label""><strong>étiquette</strong></a>.</p>
+<p>Synonyme d'<a href=""https://developers.google.com/machine-learning/glossary/#label""><strong>étiquette</strong></a>.</p>
 "
 données temporelles (temporal data) (Glossaire du Machine Learning de Google)|"
 <p>Données enregistrées à différents moments. Par exemple, les ventes de manteaux d'hiver enregistrées pour chaque jour de l'année sont des données temporelles.</p>
@@ -1173,14 +1173,14 @@ Tensor Processing Unit (TPU) (Glossaire du Machine Learning de Google)|"
 <p>ASIC (circuit intégré propre à une application) qui optimise les performances des programmes TensorFlow.</p>
 "
 rang de Tensor (Tensor rank) (Glossaire du Machine Learning de Google)|"
-<p>Voir <a href=""#rank""><strong>rang</strong></a>.</p>
+<p>Voir <a href=""https://developers.google.com/machine-learning/glossary/#rank""><strong>rang</strong></a>.</p>
 "
 forme du Tensor (Tensor shape) (Glossaire du Machine Learning de Google)|"
-<p>Nombre d'éléments d'un <a href=""#tensor""><strong>Tensor</strong></a> dans différentes dimensions.
+<p>Nombre d'éléments d'un <a href=""https://developers.google.com/machine-learning/glossary/#tensor""><strong>Tensor</strong></a> dans différentes dimensions.
 Par exemple, un Tensor [5, 10] a une forme de 5 dans une dimension et de 10 dans une autre.</p>
 "
 taille de Tensor (Tensor size) (Glossaire du Machine Learning de Google)|"
-<p>Nombre total de grandeurs scalaires d'un <a href=""#tensor""><strong>Tensor</strong></a>. Par exemple, la taille d'un Tensor [5, 10] est de 50.</p>
+<p>Nombre total de grandeurs scalaires d'un <a href=""https://developers.google.com/machine-learning/glossary/#tensor""><strong>Tensor</strong></a>. Par exemple, la taille d'un Tensor [5, 10] est de 50.</p>
 "
 TensorBoard (Glossaire du Machine Learning de Google)|"
 <p>Tableau de bord qui affiche les résumés enregistrés lors de l'exécution d'un ou de plusieurs programmes TensorFlow.</p>
@@ -1190,78 +1190,78 @@ TensorFlow (Glossaire du Machine Learning de Google)|"
 <p>Bien que TensorFlow soit principalement utilisé pour le machine learning, il peut aussi être utilisé pour des tâches autres nécessitant un calcul numérique à l'aide de graphes Dataflow.</p>
 "
 TensorFlow Playground (Glossaire du Machine Learning de Google)|"
-<p>Programme qui visualise l'influence de différents <a href=""#hyperparameters""><strong>hyperparamètres</strong></a> sur l'entraînement d'un modèle (principalement un réseau de neurones).
+<p>Programme qui visualise l'influence de différents <a href=""https://developers.google.com/machine-learning/glossary/#hyperparameters""><strong>hyperparamètres</strong></a> sur l'entraînement d'un modèle (principalement un réseau de neurones).
 Pour découvrir TensorFlow Playground, rendez-vous sur le site <a href=""http://playground.tensorflow.org"">http://playground.tensorflow.org</a>.</p>
 "
 TensorFlow Serving (Glossaire du Machine Learning de Google)|"
 <p>Plate-forme permettant de déployer des modèles entraînés en production.</p>
 "
 ensemble d'évaluation (test set) (Glossaire du Machine Learning de Google)|"
-<p>Sous-ensemble de l'ensemble de données utilisé pour tester votre <a href=""#model""><strong>modèle</strong></a> après approbation initiale de celui-ci par l'ensemble de validation.
-</p><p>À comparer avec l'<a href=""#training_set""><strong>ensemble d'apprentissage</strong></a> et l'<a href=""#validation_set""><strong>ensemble de validation</strong></a>.</p>
+<p>Sous-ensemble de l'ensemble de données utilisé pour tester votre <a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>modèle</strong></a> après approbation initiale de celui-ci par l'ensemble de validation.
+</p><p>À comparer avec l'<a href=""https://developers.google.com/machine-learning/glossary/#training_set""><strong>ensemble d'apprentissage</strong></a> et l'<a href=""https://developers.google.com/machine-learning/glossary/#validation_set""><strong>ensemble de validation</strong></a>.</p>
 "
 tf.Example (Glossaire du Machine Learning de Google)|"
 <p><a href=""https://developers.google.com/protocol-buffers/"">Protocol Buffer</a> standard pour la description des données d'entrée, pour l'inférence ou l'entraînement d'un modèle de machine learning.</p>
 "
 analyse de séries temporelles (time series analysis) (Glossaire du Machine Learning de Google)|"
-<p>Sous-domaine du machine learning et de la statistique qui analyse les <a href=""#temporal_data""><strong>données temporelles</strong></a>.  De nombreux types de problèmes de machine learning nécessitent une analyse de séries temporelles, notamment la classification, le clustering, la prévision et la détection d'anomalies. Vous pouvez par exemple utiliser l'analyse de séries temporelles pour prédire les ventes mensuelles de manteaux d'hiver à partir des données de vente historiques.</p>
+<p>Sous-domaine du machine learning et de la statistique qui analyse les <a href=""https://developers.google.com/machine-learning/glossary/#temporal_data""><strong>données temporelles</strong></a>.  De nombreux types de problèmes de machine learning nécessitent une analyse de séries temporelles, notamment la classification, le clustering, la prévision et la détection d'anomalies. Vous pouvez par exemple utiliser l'analyse de séries temporelles pour prédire les ventes mensuelles de manteaux d'hiver à partir des données de vente historiques.</p>
 "
 apprentissage (training) (Glossaire du Machine Learning de Google)|"
-<p>Processus consistant à déterminer les <a href=""#parameter""><strong>paramètres</strong></a> idéaux d'un modèle.</p>
+<p>Processus consistant à déterminer les <a href=""https://developers.google.com/machine-learning/glossary/#parameter""><strong>paramètres</strong></a> idéaux d'un modèle.</p>
 "
 ensemble d'apprentissage (training set) (Glossaire du Machine Learning de Google)|"
 <p>Sous-ensemble de l'ensemble de données utilisé pour entraîner un modèle.</p>
-<p>À comparer à l'<a href=""#validation_set""><strong>ensemble de validation</strong></a> et à l'<a href=""#test_set""><strong>ensemble d'évaluation</strong></a>.</p>
+<p>À comparer à l'<a href=""https://developers.google.com/machine-learning/glossary/#validation_set""><strong>ensemble de validation</strong></a> et à l'<a href=""https://developers.google.com/machine-learning/glossary/#test_set""><strong>ensemble d'évaluation</strong></a>.</p>
 "
 apprentissage par transfert (transfer learning) (Glossaire du Machine Learning de Google)|"
 <p>Transfert d'informations d'une tâche de machine learning à une autre.
-Par exemple, dans un apprentissage multitâche, un seul modèle résout plusieurs tâches. C'est le cas des <a href=""#deep_model""><strong>modèles profonds</strong></a>, qui ont différents nœuds de sortie pour différentes tâches.  L'apprentissage par transfert peut impliquer le transfert de connaissances issues de la solution d'une tâche plus simple vers une tâche plus complexe, ou le transfert de connaissances tirées d'une tâche contenant de nombreuses données vers une tâche en contenant moins.</p>
+Par exemple, dans un apprentissage multitâche, un seul modèle résout plusieurs tâches. C'est le cas des <a href=""https://developers.google.com/machine-learning/glossary/#deep_model""><strong>modèles profonds</strong></a>, qui ont différents nœuds de sortie pour différentes tâches.  L'apprentissage par transfert peut impliquer le transfert de connaissances issues de la solution d'une tâche plus simple vers une tâche plus complexe, ou le transfert de connaissances tirées d'une tâche contenant de nombreuses données vers une tâche en contenant moins.</p>
 <p>La plupart des systèmes de machine learning résolvent <em>une seule</em> tâche. L'apprentissage par transfert est un petit pas vers l'intelligence artificielle, en ce qu'un seul programme peut résoudre <em>plusieurs</em> tâches.</p>
 "
 invariance de translation (translational invariance) (Glossaire du Machine Learning de Google)|"
 <p>Dans un problème de classification d'images, capacité d'un algorithme à classer correctement des images même lorsque la position des objets dans l'image change.
 Par exemple, l'algorithme peut identifier un chien comme tel, qu'il se trouve au centre ou à gauche de l'image.</p>
-<p>Voir aussi <a href=""#size_invariance""><strong>invariance de taille</strong></a> et <a href=""#rotational_invariance""><strong>invariance rotationnelle</strong></a>.</p>
+<p>Voir aussi <a href=""https://developers.google.com/machine-learning/glossary/#size_invariance""><strong>invariance de taille</strong></a> et <a href=""https://developers.google.com/machine-learning/glossary/#rotational_invariance""><strong>invariance rotationnelle</strong></a>.</p>
 "
 vrai négatif (VN) (true negative (TN)) (Glossaire du Machine Learning de Google)|"
-<p>Exemple dans lequel le modèle a prédit <em>correctement</em> la <a href=""#negative_class""><strong>classe négative</strong></a>. Par exemple, le modèle a déduit qu'un e-mail particulier n'était pas du spam, ce qui était bien le cas.</p>
+<p>Exemple dans lequel le modèle a prédit <em>correctement</em> la <a href=""https://developers.google.com/machine-learning/glossary/#negative_class""><strong>classe négative</strong></a>. Par exemple, le modèle a déduit qu'un e-mail particulier n'était pas du spam, ce qui était bien le cas.</p>
 "
 vrai positif (VP) (true positive (TP)) (Glossaire du Machine Learning de Google)|"
-<p>Exemple dans lequel le modèle a prédit <em>correctement</em> la <a href=""#positive_class""><strong>classe positive</strong></a>. Par exemple, le modèle a déduit qu'un e-mail particulier était du spam, ce qui était bien le cas.</p>
+<p>Exemple dans lequel le modèle a prédit <em>correctement</em> la <a href=""https://developers.google.com/machine-learning/glossary/#positive_class""><strong>classe positive</strong></a>. Par exemple, le modèle a déduit qu'un e-mail particulier était du spam, ce qui était bien le cas.</p>
 "
 taux de vrais positifs (taux de VP) (true positive rate (TP rate)) (Glossaire du Machine Learning de Google)|"
-<p>Synonyme de <a href=""#recall""><strong>rappel</strong></a>. C'est-à-dire :</p>
+<p>Synonyme de <a href=""https://developers.google.com/machine-learning/glossary/#recall""><strong>rappel</strong></a>. C'est-à-dire :</p>
 <div>
 $$\text{Taux de vrais positifs} = \frac{\text{Vrais positifs}} {\text{Vrais positifs} + \text{Faux négatifs}}$$
 </div>
 
-<p>Le taux de vrais positifs correspond à l'axe des ordonnées d'une <a href=""#ROC""><strong>courbe ROC</strong></a>.</p>
+<p>Le taux de vrais positifs correspond à l'axe des ordonnées d'une <a href=""https://developers.google.com/machine-learning/glossary/#ROC""><strong>courbe ROC</strong></a>.</p>
 
 "
 exemple sans étiquette (unlabeled example) (Glossaire du Machine Learning de Google)|"
-<p>Exemple qui contient des <a href=""#feature""><strong>caractéristiques</strong></a>, mais pas d'<a href=""#label""><strong>étiquettes</strong></a>.
-Les exemples sans étiquette sont les entrées des <a href=""#inference""><strong>inférences</strong></a>. Dans l'apprentissage <a href=""#semi-supervised_learning""><strong>partiellement supervisé</strong></a> ou <a href=""#unsupervised_machine_learning""><strong>non supervisé</strong></a>, les exemples sans étiquette sont utilisés pendant l'apprentissage.</p>
+<p>Exemple qui contient des <a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>caractéristiques</strong></a>, mais pas d'<a href=""https://developers.google.com/machine-learning/glossary/#label""><strong>étiquettes</strong></a>.
+Les exemples sans étiquette sont les entrées des <a href=""https://developers.google.com/machine-learning/glossary/#inference""><strong>inférences</strong></a>. Dans l'apprentissage <a href=""https://developers.google.com/machine-learning/glossary/#semi-supervised_learning""><strong>partiellement supervisé</strong></a> ou <a href=""https://developers.google.com/machine-learning/glossary/#unsupervised_machine_learning""><strong>non supervisé</strong></a>, les exemples sans étiquette sont utilisés pendant l'apprentissage.</p>
 "
 machine learning non supervisé (unsupervised machine learning) (Glossaire du Machine Learning de Google)|"
-<p>Entraînement d'un <a href=""#model""><strong>modèle</strong></a> pour détecter des schémas dans un ensemble de données, généralement sans étiquette.</p>
+<p>Entraînement d'un <a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>modèle</strong></a> pour détecter des schémas dans un ensemble de données, généralement sans étiquette.</p>
 <p>Le machine learning non supervisé est surtout utilisé pour regrouper les données dans des clusters d'exemples similaires. Par exemple, un algorithme de machine learning non supervisé peut regrouper des titres selon leurs diverses caractéristiques. Les clusters qui en résultent peuvent être utilisés comme entrées d'autres algorithmes de machine learning (par exemple, un service de recommandation de musique).
 Le clustering peut être utile dans les domaines où les vraies étiquettes sont difficiles à obtenir.
 Par exemple, dans les domaines tels que la lutte contre les abus et la fraude, les clusters peuvent aider à mieux comprendre les données.</p>
 <p>Un autre exemple de machine learning non supervisé est l'<a href=""https://en.wikipedia.org/wiki/Principal_component_analysis""><strong>analyse en composantes principales (PCA)</strong></a>.
 Par exemple, l'application de la PCA sur un ensemble de données contenant des millions de paniers d'achat peut révéler que ceux contenant des citrons contiennent également fréquemment des antiacides.</p>
-<p>À comparer avec le <a href=""#supervised_machine_learning""><strong>machine learning supervisé</strong></a>.</p>
+<p>À comparer avec le <a href=""https://developers.google.com/machine-learning/glossary/#supervised_machine_learning""><strong>machine learning supervisé</strong></a>.</p>
 
 "
 ensemble de validation (validation set) (Glossaire du Machine Learning de Google)|"
-<p>Sous-ensemble de l'ensemble de données, distinct de l'ensemble d'apprentissage, utilisé pour ajuster les <a href=""#hyperparameter""><strong>hyperparamètres</strong></a>.</p>
-<p>À comparer avec l'<a href=""#training_set""><strong>ensemble d'apprentissage</strong></a> et l'<a href=""#test_set""><strong>ensemble d'évaluation</strong></a>.</p>
+<p>Sous-ensemble de l'ensemble de données, distinct de l'ensemble d'apprentissage, utilisé pour ajuster les <a href=""https://developers.google.com/machine-learning/glossary/#hyperparameter""><strong>hyperparamètres</strong></a>.</p>
+<p>À comparer avec l'<a href=""https://developers.google.com/machine-learning/glossary/#training_set""><strong>ensemble d'apprentissage</strong></a> et l'<a href=""https://developers.google.com/machine-learning/glossary/#test_set""><strong>ensemble d'évaluation</strong></a>.</p>
 </p>
 
 "
 pondération (weight) (Glossaire du Machine Learning de Google)|"
-<p>Coefficient d'une <a href=""#feature""><strong>caractéristique</strong></a> d'un modèle linéaire, ou frontière d'un réseau profond. L'entraînement d'un modèle linéaire vise à déterminer la pondération idéale de chaque caractéristique. Si la pondération est égale à 0, la caractéristique correspondante ne contribue pas au modèle.</p>
+<p>Coefficient d'une <a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>caractéristique</strong></a> d'un modèle linéaire, ou frontière d'un réseau profond. L'entraînement d'un modèle linéaire vise à déterminer la pondération idéale de chaque caractéristique. Si la pondération est égale à 0, la caractéristique correspondante ne contribue pas au modèle.</p>
 "
 modèle large (wide model) (Glossaire du Machine Learning de Google)|"
-<p>Modèle linéaire qui contient généralement un grand nombre de <a href=""#sparse_features""><strong>caractéristiques d'entrée creuses</strong></a>. Ce modèle est dit ""large"", car il s'agit d'un type particulier de <a href=""#neural_network""><strong>réseau de neurones</strong></a> comportant un grand nombre d'entrées connectées directement au nœud de sortie. Les modèles larges sont souvent plus faciles à déboguer et à inspecter que les modèles profonds. Bien qu'ils ne puissent pas exprimer les non-linéarités par le biais de <a href=""#hidden_layer""><strong>couches cachées</strong></a>, les modèles larges peuvent utiliser des transformations comme le <a href=""#feature_cross""><strong>croisement de caractéristiques</strong></a> et le <a href=""#bucketing""><strong>binning</strong></a> pour modéliser les non-linéarités de différentes manières.</p>
-<p>À comparer avec le <a href=""#deep_model""><strong>modèle profond</strong></a>.</p>
+<p>Modèle linéaire qui contient généralement un grand nombre de <a href=""https://developers.google.com/machine-learning/glossary/#sparse_features""><strong>caractéristiques d'entrée creuses</strong></a>. Ce modèle est dit ""large"", car il s'agit d'un type particulier de <a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>réseau de neurones</strong></a> comportant un grand nombre d'entrées connectées directement au nœud de sortie. Les modèles larges sont souvent plus faciles à déboguer et à inspecter que les modèles profonds. Bien qu'ils ne puissent pas exprimer les non-linéarités par le biais de <a href=""https://developers.google.com/machine-learning/glossary/#hidden_layer""><strong>couches cachées</strong></a>, les modèles larges peuvent utiliser des transformations comme le <a href=""https://developers.google.com/machine-learning/glossary/#feature_cross""><strong>croisement de caractéristiques</strong></a> et le <a href=""https://developers.google.com/machine-learning/glossary/#bucketing""><strong>binning</strong></a> pour modéliser les non-linéarités de différentes manières.</p>
+<p>À comparer avec le <a href=""https://developers.google.com/machine-learning/glossary/#deep_model""><strong>modèle profond</strong></a>.</p>
 "
