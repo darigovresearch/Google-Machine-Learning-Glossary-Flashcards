@@ -26,7 +26,6 @@ $$\text{Justesse} = \frac{\text{Vrais positifs} + \text{Vrais négatifs}}
 </p><h2 class="hide-from-toc"> AUC (aire sous la courbe ROC) (AUC (Area under the ROC Curve))</h2><p></p>
 <p>Statistique d'évaluation qui envisage tous les <a href="#classification_threshold"><strong>seuils de classification</strong></a> possibles.</p>
 <p>L'aire sous la <a href="#ROC">courbe ROC</a> correspond à la probabilité que le niveau de confiance d'un classificateur quant au fait qu'un exemple positif choisi aléatoirement soit effectivement positif soit supérieur au niveau de confiance quant au fait qu'un exemple négatif choisi aléatoirement soit positif.</p>
-<h2 class="glossary">B</h2>
 
 <p><a name="backpropagation"></a>
 </p><h2 class="hide-from-toc"> rétropropagation (backpropagation)</h2><p></p>
@@ -59,7 +58,6 @@ $$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 </p><p><a name="bucketing"></a>
 </p><h2 class="hide-from-toc"> binning (bucketing)</h2><p></p>
 <p>Conversion d'une caractéristique (généralement <a href="#continuous_feature"><strong>continue</strong></a>) en plusieurs caractéristiques binaires appelées "ensembles" ou "classes", habituellement en fonction d'une plage de valeurs. Par exemple, plutôt que de représenter une température comme une seule caractéristique continue à virgule flottante, vous pouvez scinder des plages de températures en classes distinctes. Si la sensibilité des données de température est d'un dixième de degré, toutes les températures comprises entre 0,0 et 15,0 peuvent être placées dans une même classe, celles comprises entre 15,1 et 30,0 dans une deuxième, et celles entre 30,1 et 50,0 dans une troisième.</p>
-<h2 class="glossary">C</h2>
 
 <p><a name="calibration_layer"></a>
 </p><h2 class="hide-from-toc"> niveau de calibration (calibration layer)</h2><p></p>
@@ -250,7 +248,6 @@ La matrice 3 x 3 résultante (à droite) est constituée des résultats des 9 op
 </p><h2 class="hide-from-toc"> Estimator personnalisé (custom Estimator)</h2><p></p>
 <p><a href="#Estimators"><strong>Estimator</strong></a> que vous écrivez vous-même en suivant <a href="https://www.tensorflow.org/extend/estimators">cette procédure</a>.</p>
 <p>À comparer aux <a href="#pre-made_Estimator"><strong>Estimators prédéfinis</strong></a>.</p>
-<h2 class="glossary">D</h2>
 
 <p><a name="data_analysis"></a>
 </p><h2 class="hide-from-toc"> analyse de données (data analysis)</h2><p></p>
@@ -294,7 +291,6 @@ La matrice 3 x 3 résultante (à droite) est constituée des résultats des 9 op
 <p><a name="dynamic_model"></a>
 </p><h2 class="hide-from-toc"> modèle dynamique (dynamic model)</h2><p></p>
 <p><a href="#model"><strong>Modèle</strong></a> entraîné en ligne et mis à jour en continu.  En d'autres termes, les données sont intégrées en continu dans le modèle.</p>
-<h2 class="glossary">E</h2>
 
 <p><a name="early_stopping"></a>
 </p><h2 class="hide-from-toc"> arrêt prématuré (early stopping)</h2><p></p>
@@ -331,7 +327,6 @@ Généralement, une représentation vectorielle continue est la traduction d'un 
 <p><a name="example"></a>
 </p><h2 class="hide-from-toc"> exemple (example)</h2><p></p>
 <p>Ligne d'un ensemble de données. Un exemple contient une ou plusieurs <a href="#feature"><strong>caractéristiques</strong></a>, et éventuellement une <a href="#label"><strong>étiquette</strong></a>. Voir aussi <a href="#labeled_example"><strong>Exemple étiqueté</strong></a> et <a href="#unlabeled_example"><strong>Exemple sans étiquette</strong></a>.</p>
-<h2 class="glossary">F</h2>
 
 <p><a name="FN"></a>
 </p><h2 class="hide-from-toc"> faux négatif (FN) (false negative (FN))</h2><p></p>
@@ -387,7 +382,6 @@ Par exemple, un ensemble de caractéristiques simple pour un modèle de prédict
 </p><h2 class="hide-from-toc"> couche entièrement connectée (fully connected layer)</h2><p></p>
 <p><a href="#hidden_layer"><strong>Couche cachée</strong></a> dans laquelle chaque <a href="#node"><strong>nœud</strong></a> est connecté à <em>chaque</em> nœud de la couche cachée suivante.</p>
 <p>Les couches entièrement connectées sont également appelées <a href="#dense_layer"><strong>couches denses</strong></a>.</p>
-<h2 class="glossary">G</h2>
 
 </p><p><a name="generalization"></a>
 </p><h2 class="hide-from-toc"> généralisation (generalization)</h2><p></p>
@@ -420,7 +414,6 @@ La descente de gradient ajuste de manière itérative les paramètres afin de tr
 <p><a name="graph"></a>
 </p><h2 class="hide-from-toc"> graphe (graph)</h2><p></p>
 <p>Dans TensorFlow, les spécifications du calcul. Les nœuds du graphe représentent des opérations. Les bords sont orientés et représentent le passage du résultat d'une opération (un <a href="https://www.tensorflow.org/api_docs/python/tf/Tensor">Tensor</a>) en tant qu'opérande vers une autre opération. Pour visualiser un graphe, utilisez <a href="#TensorBoard"><strong>TensorBoard</strong></a>.</p>
-<h2 class="glossary">H</h2>
 
 <p><a name="heuristic"></a>
 </p><h2 class="hide-from-toc"> heuristique (heuristic)</h2><p></p>
@@ -460,7 +453,6 @@ réglez pendant les exécutions successives de l'entraînement du modèle. Le <a
 </p><h2 class="hide-from-toc"> hyperplan (hyperplane)</h2><p></p>
 <p>Frontière qui sépare un espace en deux sous-espaces.  Par exemple, une ligne est un hyperplan en deux dimensions, et un plan est un hyperplan en trois dimensions.
 Plus généralement dans le machine learning, un hyperplan est la frontière qui sépare un espace de grande dimension.  Les <a href="#KSVMs"><strong>machines à vecteurs de support à noyau</strong></a> utilisent les hyperplans pour séparer les classes positives et négatives, souvent dans un espace de très grande dimension.</p>
-<h2 class="glossary">I</h2>
 
 <p><a name="iid"></a>
 </p><h2 class="hide-from-toc">variables indépendantes et identiquement distribuées (variables iid) (independently and identically distributed (i.i.d))</h2><p></p>
@@ -490,7 +482,6 @@ Parfois également appelé <strong>accord inter-annotateurs</strong> ou <strong>
 <p><a name="iteration"></a>
 </p><h2 class="hide-from-toc"> itération (iteration)</h2><p></p>
 <p>Mise à jour unique des pondérations d'un modèle pendant l'apprentissage.  Une itération consiste à calculer les gradients des paramètres en termes de perte sur un seul <a href="#batch"><strong>lot</strong></a> de données.</p>
-<h2 class="glossary">K</h2>
 
 <p><a name="k-means"></a>
 </p><h2 class="hide-from-toc"> k-moyennes (k-means)</h2><p></p>
@@ -544,7 +535,6 @@ $$
 <p><a name="KSVMs"></a>
 </p><h2 class="hide-from-toc">machines à vecteurs de support à noyau (KSVM) (Kernel Support Vector Machines (KSVMs))</h2><p></p>
 <p>Algorithme de classification qui cherche à maximiser la marge entre les <a href="#positive_class"><strong>classes positives</strong></a> et les <a href="#negative_class"><strong>classes négatives</strong></a> en associant à chaque vecteur d'entrée un vecteur dans un espace de plus grande dimension.  Considérons par exemple un problème de classification dans lequel l'ensemble de données d'entrée se compose de cent caractéristiques. Afin de maximiser la marge entre les classes positives et négatives, un KVSM pourrait associer, en interne, chaque vecteur de caractéristiques à un vecteur dans un espace à un million de dimensions.  Les KSVM utilisent une fonction de perte appelée <a href="#hinge-loss">marge maximale</a>.</p>
-<h2 class="glossary">L</h2>
 
 <p><a name="L1_loss"></a>
 </p><h2 class="hide-from-toc"> perte L<sub>1</sub> (L1 loss)</h2><p></p>
@@ -634,7 +624,6 @@ $$
 <p><a name="loss"></a>
 </p><h2 class="hide-from-toc"> perte (loss)</h2><p></p>
 <p>Mesure de l'écart entre les <a href="#prediction"><strong>prédictions</strong></a> d'un modèle et son <a href="#label"><strong>étiquette</strong></a>. Ou, de façon plus pessimiste, mesure de la médiocrité du modèle. Pour déterminer cette valeur, un modèle doit définir une fonction de perte. Par exemple, les modèles de régression linéaire utilisent généralement l'<a href="#MSE"><strong>erreur quadratique moyenne</strong></a> comme fonction de perte, tandis que les modèles de régression logistiques utilisent la <a href="#Log_Loss"><strong>perte logistique</strong></a>.</p>
-<h2 class="glossary">M</h2>
 
 <p><a name="machine_learning"></a>
 </p><h2 class="hide-from-toc"> machine learning</h2><p></p>
@@ -683,7 +672,6 @@ Lorsque vous utilisez des <a href="#pre-made_Estimator"><strong>Estimators préd
 <p><a name="multinomial_classification"></a>
 </p><h2 class="hide-from-toc"> classification multinomiale (multinomial classification)</h2><p></p>
 <p>Synonyme de <a href="#multi-class"><strong>classification à classes multiples</strong></a>.</p>
-<h2 class="glossary">N</h2>
 
 <p><a name="NaN_trap"></a>
 </p><h2 class="hide-from-toc"> piège NaN (NaN trap)</h2><p></p>
@@ -724,7 +712,6 @@ Les codes postaux doivent être représentés par des <a href="#categorical_data
 <p><a name="numpy"></a>
 </p><h2 class="hide-from-toc"> Numpy</h2><p></p>
 <p><a href="http://www.numpy.org/">Bibliothèque mathématique Open Source</a> qui fournit différentes opérations de tableau efficaces pour Python. <a href="#pandas"><strong>Pandas</strong></a> est construit sur Numpy.</p>
-<h2 class="glossary">O</h2>
 
 <p><a name="objective"></a>
 </p><h2 class="hide-from-toc"> objectif (objective)</h2><p></p>
@@ -792,7 +779,6 @@ Différents optimiseurs peuvent utiliser un ou plusieurs des concepts suivants p
 <p><a name="overfitting"></a>
 </p><h2 class="hide-from-toc"> surapprentissage (overfitting)</h2><p></p>
 <p>Création d'un modèle correspondant si étroitement aux <a href="#training_set"><strong>données d'apprentissage</strong></a> qu'il ne parvient pas à effectuer des prédictions correctes avec de nouvelles données.</p>
-<h2 class="glossary">P</h2>
 
 <p><a name="pandas"></a>
 </p><h2 class="hide-from-toc"> Pandas</h2><p></p>
@@ -879,12 +865,10 @@ TensorFlow propose plusieurs Estimators prédéfinis, notamment <code>DNNClassif
 <p><a name="prior_belief"></a>
 </p><h2 class="hide-from-toc"> croyance antérieure (prior belief)</h2><p></p>
 <p>Ce que vous croyez à propos des données avant de commencer l'apprentissage avec celles-ci. Par exemple, la <a href="#L2_regularization"><strong>régularisation L<sub>2</sub></strong></a> repose sur une croyance antérieure que les <a href="#weight"><strong>pondérations</strong></a> devraient être faibles et normalement distribuées autour de zéro.</p>
-<h2 class="glossary">Q</h2>
 
 <p><a name="queue"></a>
 </p><h2 class="hide-from-toc"> file d'attente (queue)</h2><p></p>
 <p><a href="#Operation"><strong>Opération</strong></a> TensorFlow qui implémente une structure de données de file d'attente. Généralement utilisée dans les E/S.</p>
-<h2 class="glossary">R</h2>
 
 <p><a name="rank"></a>
 </p><h2 class="hide-from-toc"> rang (rank)</h2><p></p>
@@ -947,7 +931,6 @@ $$\text{minimiser(fonction de perte + }\lambda\text{(fonction de régularisation
 </p><h2 class="hide-from-toc"> invariance rotationnelle (rotational invariance)</h2><p></p>
 <p>Dans un problème de classification d'images, capacité d'un algorithme à classer correctement des images même lorsque l'orientation de l'image change. Par exemple, l'algorithme peut identifier une raquette de tennis comme telle, qu'elle soit pointée vers le haut, vers le bas, vers la gauche ou vers la droite. Notez que l'invariance rotationnelle n'est pas toujours souhaitable. Par exemple, un 9 à l'envers ne devrait pas être classé comme étant un 9.</p>
 <p>Voir aussi <a href="#translational_invariance"><strong>invariance de translation</strong></a> et <a href="#size_invariance"><strong>invariance de taille</strong></a>.</p>
-<h2 class="glossary">S</h2>
 
 <p><a name="SavedModel"></a>
 </p><h2 class="hide-from-toc"> SavedModel</h2><p></p>
@@ -1176,7 +1159,6 @@ En d'autres termes, la perte quadratique réagit plus fortement aux anomalies qu
 <li>Création d'une <a href="#feature_cross"><strong>croisement de caractéristiques</strong></a></li>
 </ul>
 <p>Les caractéristiques créées uniquement par <a href="#normalization"><strong>normalisation</strong></a> ou <a href="#scaling"><strong>mise à l'échelle</strong></a> ne sont pas considérées comme des caractéristiques synthétiques.</p>
-<h2 class="glossary">T</h2>
 
 <p><a name="target"></a>
 </p><h2 class="hide-from-toc"> cible (target)</h2><p></p>
@@ -1255,7 +1237,6 @@ $$\text{Taux de vrais positifs} = \frac{\text{Vrais positifs}} {\text{Vrais posi
 </div>
 
 <p>Le taux de vrais positifs correspond à l'axe des ordonnées d'une <a href="#ROC"><strong>courbe ROC</strong></a>.</p>
-<h2 class="glossary">U</h2>
 
 <p><a name="unlabeled_example"></a>
 </p><h2 class="hide-from-toc"> exemple sans étiquette (unlabeled example)</h2><p></p>
@@ -1270,13 +1251,12 @@ Par exemple, dans les domaines tels que la lutte contre les abus et la fraude, l
 <p>Un autre exemple de machine learning non supervisé est l'<a href="https://en.wikipedia.org/wiki/Principal_component_analysis"><strong>analyse en composantes principales (PCA)</strong></a>.
 Par exemple, l'application de la PCA sur un ensemble de données contenant des millions de paniers d'achat peut révéler que ceux contenant des citrons contiennent également fréquemment des antiacides.</p>
 <p>À comparer avec le <a href="#supervised_machine_learning"><strong>machine learning supervisé</strong></a>.</p>
-<h2 class="glossary">V</h2>
 
 <p><a name="validation_set"></a>
 </p><h2 class="hide-from-toc"> ensemble de validation (validation set)</h2><p></p>
 <p>Sous-ensemble de l'ensemble de données, distinct de l'ensemble d'apprentissage, utilisé pour ajuster les <a href="#hyperparameter"><strong>hyperparamètres</strong></a>.</p>
 <p>À comparer avec l'<a href="#training_set"><strong>ensemble d'apprentissage</strong></a> et l'<a href="#test_set"><strong>ensemble d'évaluation</strong></a>.</p>
-</p><h2 class="glossary">W</h2>
+</p>
 
 <p><a name="weight"></a>
 </p><h2 class="hide-from-toc"> pondération (weight)</h2><p></p>
