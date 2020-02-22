@@ -4,14 +4,14 @@ prueba A/B (A/B testing) (Glosario sobre Aprendizaje Automático de Google)|"
 exactitud (accuracy) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Fracción de predicciones que se realizaron correctamente en un <a href=""https://developers.google.com/machine-learning/glossary/#classification_model""><strong>modelo de clasificación</strong></a>. En la <a href=""https://developers.google.com/machine-learning/glossary/#multi-class""><strong>clasificación de clases múltiples</strong></a>, la exactitud se define de la siguiente manera:</p>
 <div>
-$$\text{Exactitud} =
-\frac{\text{Predicciones correctas}} {\text{Número total de ejemplos}}$$
+[$$]\text{Exactitud} =
+\frac{\text{Predicciones correctas}} {\text{Número total de ejemplos}}[/$$]
 </div>
 
 <p>En la <a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>clasificación binaria</strong></a>, la exactitud tiene la siguiente definición:</p>
 <div>
-$$\text{Exactitud} = \frac{\text{Verdaderos positivos} + \text{Verdaderos negativos}}
-                         {\text{Número total de ejemplos}}$$
+[$$]\text{Exactitud} = \frac{\text{Verdaderos positivos} + \text{Verdaderos negativos}}
+                         {\text{Número total de ejemplos}}[/$$]
 </div>
 
 <p>Consulta <a href=""https://developers.google.com/machine-learning/glossary/#TP""><strong>verdadero positivo</strong></a> y <a href=""https://developers.google.com/machine-learning/glossary/#TN""><strong>verdadero negativo</strong></a>.</p>
@@ -44,7 +44,7 @@ tamaño del lote (batch size) (Glosario sobre Aprendizaje Automático de Google)
 ordenada al origen (bias) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Una intersección o un desplazamiento del origen. En los modelos de aprendizaje automático, se hace referencia a la ordenada al origen (también conocida como el <strong>término de la ordenada al origen</strong>) como <em>b</em> o <i>w<sub>0</sub></i>.  Por ejemplo, la ordenada al origen es la <em>b</em> en la siguiente fórmula:</p>
 <div>
-$$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
+[$$]y' = b + w_1x_1 + w_2x_2 + … w_nx_n[/$$]
 </div>
 
 <p>No se debe confundir con el <a href=""https://developers.google.com/machine-learning/glossary/#prediction_bias""><strong>sesgo de predicción</strong></a>.</p>
@@ -337,8 +337,8 @@ falso positivo (FP, false positive) (Glosario sobre Aprendizaje Automático de G
 tasa de falsos positivos (tasa de FP) (false positive rate (FP rate)) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Eje x en una <a href=""https://developers.google.com/machine-learning/glossary/#ROC""><strong>curva ROC</strong></a>. La tasa de FP se define de la siguiente manera:</p>
 <div>
-$$\text{Tasa de falsos positivos} =
-\frac{\text{Falsos positivos}}{\text{Falsos positivos} + \text{Verdaderos negativos}}$$
+[$$]\text{Tasa de falsos positivos} =
+\frac{\text{Falsos positivos}}{\text{Falsos positivos} + \text{Verdaderos negativos}}[/$$]
 </div>
 
 "
@@ -425,12 +425,12 @@ pérdida de bisagra (hinge loss) (Glosario sobre Aprendizaje Automático de Goog
 <p>Una familia de funciones de <a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>pérdida</strong></a> para la <a href=""https://developers.google.com/machine-learning/glossary/#classification_model""><strong>clasificación</strong></a> diseñadas a fin de encontrar el <a href=""https://developers.google.com/machine-learning/glossary/#decision_boundary""><strong>límite de decisión</strong></a> lo más distante posible de cada ejemplo de entrenamiento, para así maximizar el margen entre los ejemplos y el límite.
 Las <a href=""https://developers.google.com/machine-learning/glossary/#KSVMs""><strong>máquinas de vectores soporte de Kernel</strong></a> (KSVM) usan la pérdida de bisagra (o un atributo relacionado, como la pérdida de bisagra al cuadrado). Para la clasificación binaria, el atributo de pérdida de bisagra se define de la siguiente manera:</p>
 <div>
-$$\text{pérdida} = \text{máx.}(0, 1 - (y' * y))$$
+[$$]\text{pérdida} = \text{máx.}(0, 1 - (y' * y))[/$$]
 </div>
 
 <p>donde <em>y'</em> es el resultado sin procesar del modelo de clasificación:</p>
 <div>
-$$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
+[$$]y' = b + w_1x_1 + w_2x_2 + … w_nx_n[/$$]
 </div>
 
 <p>y, a su vez, <em>y</em> es la etiqueta verdadera, ya sea -1 o +1.</p>
@@ -514,18 +514,18 @@ k-mediana (k-median) (Glosario sobre Aprendizaje Automático de Google)|"
 <li>k-medios se basa en la <a href=""https://en.wikipedia.org/wiki/Euclidean_distance"">distancia euclidiana</a> del centroide a un ejemplo.  (En dos dimensiones, la distancia euclidiana significa usar el teorema de Pitágoras para calcular la hipotenusa).  Por ejemplo, la distancia de k-medios entre (2,2) y (5,-2) sería:</li>
 </ul>
 <div>
-$$
+[$$]
 {\text{distancia euclidiana}} = {\sqrt {(2-5)^2 + (2--2)^2}} = 5
-$$
+[/$$]
 </div>
 
 <ul>
 <li>k-mediana se basa en la <a href=""https://en.wikipedia.org/wiki/Taxicab_geometry"">distancia Manhattan</a> del centroide a un ejemplo.  Esta distancia es la suma de los deltas absolutos en cada dimensión.  Por ejemplo, la distancia k-mediana entre (2,2) y (5, -2) sería:</li>
 </ul>
 <div>
-$$
+[$$]
 {\text{distancia Manhattan}} = \lvert 2-5 \rvert + \lvert 2--2 \rvert = 7
-$$
+[/$$]
 </div>
 
 "
@@ -603,20 +603,20 @@ logaritmo de probabilidad (log-odds) (Glosario sobre Aprendizaje Automático de 
 <p>Logaritmo de las probabilidades de que ocurra algún evento.</p>
 <p>Si el evento se refiere a una probabilidad binaria, entonces las <strong>probabilidades</strong> se refieren a la relación entre la probabilidad de éxito (p) y la de fracaso (1-p).  Por ejemplo, supongamos que un evento dado tiene un 90% de probabilidad de éxito y un 10% de fracaso. En este caso, las probabilidades se calculan de la siguiente manera:</p>
 <div>
-$$
+[$$]
 {\text{probabilidades}} =
 \frac{\text{p}} {\text{(1-p)}} =
 \frac{.9} {.1} =
 {\text{9}}
-$$
+[/$$]
 </div>
 
 <p>El logaritmo de probabilidad es, simplemente, el logaritmo de las probabilidades. Por convención, ""logaritmo"" se refiere al logaritmo natural, pero en realidad podría ser cualquier base superior a 1.  De acuerdo con la convención, el logaritmo de probabilidad de nuestro ejemplo es:</p>
 <div>
-$$
+[$$]
 {\text{logaritmo de probabilidad}} =
 ln(9) ~= 2.2
-$$
+[/$$]
 </div>
 
 <p>Los logaritmos de probabilidad son el inverso de la <a href=""https://developers.google.com/machine-learning/glossary/#sigmoid_function""><strong>función sigmoide</strong></a>.</p>
@@ -803,7 +803,7 @@ perplejidad (perplexity) (Glosario sobre Aprendizaje Automático de Google)|"
 Por ejemplo, imagina que tu tarea es leer las primeras letras que un usuario está escribiendo en el teclado de un smartphone y ofrecer una lista de posibles palabras para completarlas. La perplejidad, P, para esta tarea es aproximadamente el número de hipótesis que debes ofrecer para que tu lista contenga la palabra real que el usuario intenta escribir.</p>
 <p>La perplejidad está relacionada con la <a href=""https://developers.google.com/machine-learning/glossary/#cross-entropy""><strong>entropía cruzada</strong></a> de la siguiente manera:</p>
 <div>
-$$P= 2^{-\text{entropía cruzada}}$$
+[$$]P= 2^{-\text{entropía cruzada}}[/$$]
 </div>
 
 "
@@ -836,8 +836,8 @@ clase positiva (positive class) (Glosario sobre Aprendizaje Automático de Googl
 precisión (precision) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Métrica para los <a href=""https://developers.google.com/machine-learning/glossary/#classification_model""><strong>modelos de clasificación</strong></a>. La precisión identifica la frecuencia con la que un modelo predijo correctamente la <a href=""https://developers.google.com/machine-learning/glossary/#positive_class""><strong>clase positiva</strong></a>. Esto significa lo siguiente:</p>
 <div>
-$$\text{Precisión} =
-\frac{\text{Verdaderos positivos}} {\text{Verdaderos positivos} + \text{Falsos positivos}}$$
+[$$]\text{Precisión} =
+\frac{\text{Verdaderos positivos}} {\text{Verdaderos positivos} + \text{Falsos positivos}}[/$$]
 </div>
 
 "
@@ -876,9 +876,9 @@ También se lo denomina ""anotador"".</p>
 "
 recuperación (recall) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Métrica para los <a href=""https://developers.google.com/machine-learning/glossary/#classification_model""><strong>modelos de clasificación</strong></a> que responde a la siguiente pregunta: de todas las etiquetas positivas posibles, ¿cuántas identificó correctamente el modelo? Esto significa lo siguiente:</p>
-<p>$$\text{Recuperación} =
+<p>[$$]\text{Recuperación} =
 \frac{\text{Verdaderos positivos}} {\text{Verdaderos positivos} + \text{Falsos negativos}}
-$$</p>
+[/$$]</p>
 "
 unidad lineal rectificada (ReLU, Rectified Linear Unit) (Glosario sobre Aprendizaje Automático de Google)|"
 <p><a href=""https://developers.google.com/machine-learning/glossary/#activation_function""><strong>Atributo de activación</strong></a> con las siguientes reglas:</p>
@@ -903,7 +903,7 @@ regularización (regularization) (Glosario sobre Aprendizaje Automático de Goog
 tasa de regularización (regularization rate) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Valor escalar, representado por lambda, que especifica la importancia relativa del atributo de regularización. La siguiente ecuación de <a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>pérdida</strong></a> simplificada muestra la influencia de la tasa de regularización:</p>
 <div>
-$$\text{minimizar(atributo de pérdida + }\lambda\text{(atributo de regularización))}$$
+[$$]\text{minimizar(atributo de pérdida + }\lambda\text{(atributo de regularización))}[/$$]
 </div>
 
 <p>Al aumentar la tasa de regularización, se reduce el <a href=""https://developers.google.com/machine-learning/glossary/#overfitting""><strong>sobreajuste</strong></a>, pero es posible que el modelo sea menos <a href=""https://developers.google.com/machine-learning/glossary/#accuracy""><strong>exacto</strong></a>.</p>
@@ -951,12 +951,12 @@ sesión (session-tf.session) (Glosario sobre Aprendizaje Automático de Google)|
 atributo sigmoide (sigmoid function) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Atributo que asigna resultados de regresión multinomial o logística (probabilidades logísticas) a probabilidades, y devuelve un valor entre 0 y 1.  El atributo sigmoide tiene la siguiente fórmula:</p>
 <div>
-$$y = \frac{1}{1 + e^{-\sigma}}$$
+[$$]y = \frac{1}{1 + e^{-\sigma}}[/$$]
 </div>
 
 <p>donde \(\sigma\) en los problemas de <a href=""https://developers.google.com/machine-learning/glossary/#logistic_regression""><strong>regresión logística</strong></a> es simplemente:</p>
 <div>
-$$\sigma = b + w_1x_1 + w_2x_2 + … w_nx_n$$
+[$$]\sigma = b + w_1x_1 + w_2x_2 + … w_nx_n[/$$]
 </div>
 
 <p>En otras palabras, el atributo sigmoide convierte \(\sigma\) en una probabilidad entre 0 y 1.</p>
@@ -1081,11 +1081,11 @@ Como muestran las siguientes tablas, la representación densa consume alrededor 
 dispersión (sparsity) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Cantidad de elementos establecidos en cero (o nulo) en un vector o matriz dividido por el número total de entradas en ese elemento. Por ejemplo, considera una matriz de 10 x 10 en la que 98 celdas contienen cero. El cálculo de dispersión es el siguiente:</p>
 <div>
-$$
+[$$]
 {\text{dispersión}} =
 \frac{\text{98}} {\text{100}} =
 {\text{0.98}}
-$$
+[/$$]
 </div>
 
 <p>La <strong>dispersión de atributos</strong> hace referencia a la dispersión de un vector de atributos, mientras que la <strong>dispersión de modelos</strong> se refiere a la dispersión de los pesos del modelo.</p>
@@ -1225,7 +1225,7 @@ verdadero positivo (VP) (TP, true positive) (Glosario sobre Aprendizaje Automát
 tasa de verdaderos positivos (tasa de VP) (true positive rate, TP rate) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Sinónimo de <a href=""https://developers.google.com/machine-learning/glossary/#recall""><strong>recuperación</strong></a>. Esto significa lo siguiente:</p>
 <div>
-$$\text{Tasa de verdaderos positivos} = \frac{\text{Verdaderos positivos}} {\text{Verdaderos positivos} + \text{Falsos negativos}}$$
+[$$]\text{Tasa de verdaderos positivos} = \frac{\text{Verdaderos positivos}} {\text{Verdaderos positivos} + \text{Falsos negativos}}[/$$]
 </div>
 
 <p>La tasa de verdaderos positivos es el eje y en una <a href=""https://developers.google.com/machine-learning/glossary/#ROC""><strong>curva ROC</strong></a>.</p>
