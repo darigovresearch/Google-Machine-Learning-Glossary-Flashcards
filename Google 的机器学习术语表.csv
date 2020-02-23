@@ -151,7 +151,7 @@ ROC 曲线下面积 (AUC, Area under the ROC Curve) (Google 的机器学习术�
 
 <p><strong>严格凸函数</strong>只有一个局部最低点，该点也是全局最低点。经典的 U 形函数都是严格凸函数。不过，有些凸函数（例如直线）则不是这样。</p>
 <p>很多常见的<a href=""https://developers.google.com/machine-learning/glossary/#loss_functions""><strong>损失函数</strong></a>（包括下列函数）都是凸函数：</p>
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#L2_loss""><strong>L<sub>2</sub> 损失函数</strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#Log_Loss""><strong>对数损失函数</strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#L1_regularization""><strong>L<sub>1</sub> 正则化</strong></a></li>
@@ -200,7 +200,7 @@ ROC 曲线下面积 (AUC, Area under the ROC Curve) (Google 的机器学习术�
 "
 卷积神经网络 (convolutional neural network) (Google 的机器学习术语表)|"
 <p>一种神经网络，其中至少有一层为<a href=""https://developers.google.com/machine-learning/glossary/#convolutional_layer""><strong>卷积层</strong></a>。典型的卷积神经网络包含以下几层的组合：</p>
-<ul>
+<ul align=""left"">
 <li>卷积层</li>
 <li>池化层</li>
 <li>密集层</li>
@@ -209,7 +209,7 @@ ROC 曲线下面积 (AUC, Area under the ROC Curve) (Google 的机器学习术�
 "
 卷积运算 (convolutional operation) (Google 的机器学习术语表)|"
 <p>如下所示的两步数学运算：</p>
-<ol>
+<ol align=""left"">
 <li>对<a href=""https://developers.google.com/machine-learning/glossary/#convolutional_filter""><strong>卷积过滤器</strong></a>和输入矩阵切片执行元素级乘法。（输入矩阵切片与卷积过滤器具有相同的等级和大小。）</li>
 <li>对生成的积矩阵中的所有值求和。</li>
 </ol>
@@ -289,7 +289,7 @@ Dataset API (tf.data) (Google 的机器学习术语表)|"
 "
 嵌套 (embeddings) (Google 的机器学习术语表)|"
 <p>一种分类特征，以连续值特征表示。通常，嵌套是指将高维度向量映射到低维度的空间。例如，您可以采用以下两种方式之一来表示英文句子中的单词：</p>
-<ul>
+<ul align=""left"">
 <li>表示成包含百万个元素（高维度）的<a href=""https://developers.google.com/machine-learning/glossary/#sparse_features""><strong>稀疏向量</strong></a>，其中所有元素都是整数。向量中的每个单元格都表示一个单独的英文单词，单元格中的值表示相应单词在句子中出现的次数。由于单个英文句子包含的单词不太可能超过 50 个，因此向量中几乎每个单元格都包含 0。少数非 0 的单元格中将包含一个非常小的整数（通常为 1），该整数表示相应单词在句子中出现的次数。</li>
 <li>表示成包含数百个元素（低维度）的<a href=""https://developers.google.com/machine-learning/glossary/#dense_feature""><strong>密集向量</strong></a>，其中每个元素都存储一个介于 0 到 1 之间的浮点值。这就是一种嵌套。</li>
 </ul>
@@ -300,7 +300,7 @@ Dataset API (tf.data) (Google 的机器学习术语表)|"
 "
 集成学习 (ensemble) (Google 的机器学习术语表)|"
 <p>多个<a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>模型</strong></a>的预测结果的并集。您可以通过以下一项或多项来创建集成学习：</p>
-<ul>
+<ul align=""left"">
 <li>不同的初始化</li>
 <li>不同的<a href=""https://developers.google.com/machine-learning/glossary/#hyperparameter""><strong>超参数</strong></a></li>
 <li>不同的整体结构</li>
@@ -350,7 +350,7 @@ Estimator (Google 的机器学习术语表)|"
 "
 特征规范 (feature spec) (Google 的机器学习术语表)|"
 <p>用于描述如何从 <a href=""https://developers.google.com/machine-learning/glossary/#tf.Example""><strong>tf.Example</strong></a> 协议缓冲区提取<a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>特征</strong></a>数据。由于 tf.Example 协议缓冲区只是一个数据容器，因此您必须指定以下内容：</p>
-<ul>
+<ul align=""left"">
 <li>要提取的数据（即特征的键）</li>
 <li>数据类型（例如 float 或 int）</li>
 <li>长度（固定或可变）</li>
@@ -374,14 +374,14 @@ Estimator (Google 的机器学习术语表)|"
 "
 广义线性模型 (generalized linear model) (Google 的机器学习术语表)|"
 <p><a href=""https://developers.google.com/machine-learning/glossary/#least_squares_regression""><strong>最小二乘回归</strong></a>模型（基于<a href=""https://en.wikipedia.org/wiki/Gaussian_noise"">高斯噪声</a>）向其他类型的模型（基于其他类型的噪声，例如<a href=""https://en.wikipedia.org/wiki/Shot_noise"">泊松噪声</a>或分类噪声）进行的一种泛化。广义线性模型的示例包括：</p>
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#logistic_regression""><strong>逻辑回归</strong></a></li>
 <li>多类别回归</li>
 <li>最小二乘回归</li>
 </ul>
 <p>可以通过<a href=""https://en.wikipedia.org/wiki/Convex_optimization"">凸优化</a>找到广义线性模型的参数。</p>
 <p>广义线性模型具有以下特性：</p>
-<ul>
+<ul align=""left"">
 <li>最优的最小二乘回归模型的平均预测结果等于训练数据的平均标签。</li>
 <li>最优的逻辑回归模型预测的平均概率等于训练数据的平均标签。</li>
 </ul>
@@ -463,7 +463,7 @@ Estimator (Google 的机器学习术语表)|"
 "
 k-means (Google 的机器学习术语表)|"
 <p>一种热门的<a href=""https://developers.google.com/machine-learning/glossary/#clustering""><strong>聚类</strong></a>算法，用于对非监督式学习中的样本进行分组。k-means 算法基本上会执行以下操作：</p>
-<ul>
+<ul align=""left"">
 <li>以迭代方式确定最佳的 k 中心点（称为<a href=""https://developers.google.com/machine-learning/glossary/#centroid""><strong>形心</strong></a>）。</li>
 <li>将每个样本分配到最近的形心。与同一个形心距离最近的样本属于同一个组。</li>
 </ul>
@@ -483,19 +483,19 @@ k-means (Google 的机器学习术语表)|"
 "
 k-median (Google 的机器学习术语表)|"
 <p>与 <a href=""https://developers.google.com/machine-learning/glossary/#k-means""><strong>k-means</strong></a> 紧密相关的聚类算法。两者的实际区别如下：</p>
-<ul>
+<ul align=""left"">
 <li>对于 k-means，确定形心的方法是，最大限度地减小候选形心与它的每个样本之间的距离平方和。<em></em></li>
 <li>对于 k-median，确定形心的方法是，最大限度地减小候选形心与它的每个样本之间的距离总和。</li>
 </ul>
 <p>请注意，距离的定义也有所不同：</p>
-<ul>
+<ul align=""left"">
 <li>k-means 采用从形心到样本的<a href=""https://en.wikipedia.org/wiki/Euclidean_distance"">欧几里得距离</a>。（在二维空间中，欧几里得距离即使用勾股定理来计算斜边。）例如，(2,2) 与 (5,-2) 之间的 k-means 距离为：</li>
 </ul>
 <div>
 [$$]{\text{欧几里德距离}} = {\sqrt {(2-5)^2 + (2--2)^2}} = 5[/$$]
 </div>
 
-<ul>
+<ul align=""left"">
 <li>k-median 采用从形心到样本的<a href=""https://en.wikipedia.org/wiki/Taxicab_geometry"">曼哈顿距离</a>。这个距离是每个维度中绝对差异值的总和。例如，(2,2) 与 (5,-2) 之间的 k-median 距离为：</li>
 </ul>
 <div>
@@ -538,7 +538,7 @@ lambda (Google 的机器学习术语表)|"
 "
 Layers API (tf.layers) (Google 的机器学习术语表)|"
 <p>一种 TensorFlow API，用于以层组合的方式构建<a href=""https://developers.google.com/machine-learning/glossary/#deep_model""><strong>深度</strong></a>神经网络。通过 Layers API，您可以构建不同类型的<a href=""https://developers.google.com/machine-learning/glossary/#layer""><strong>层</strong></a>，例如：</p>
-<ul>
+<ul align=""left"">
 <li>通过 <code>tf.layers.Dense</code> 构建<a href=""https://developers.google.com/machine-learning/glossary/#fully_connected_layer""><strong>全连接层</strong></a>。</li>
 <li>通过 <code>tf.layers.Conv2D</code> 构建卷积层。</li>
 </ul>
@@ -606,7 +606,7 @@ ML (Google 的机器学习术语表)|"
 "
 模型 (model) (Google 的机器学习术语表)|"
 <p>机器学习系统从训练数据学到的内容的表示形式。多含义术语，可以理解为下列两种相关含义之一：</p>
-<ul>
+<ul align=""left"">
 <li>一种 <a href=""https://developers.google.com/machine-learning/glossary/#TensorFlow""><strong>TensorFlow</strong></a> 图，用于表示预测的计算结构。</li>
 <li>该 TensorFlow 图的特定权重和偏差，通过<a href=""https://developers.google.com/machine-learning/glossary/#model_training""><strong>训练</strong></a>决定。</li>
 </ul>
@@ -643,7 +643,7 @@ NaN 陷阱 (NaN trap) (Google 的机器学习术语表)|"
 "
 节点 (node) (Google 的机器学习术语表)|"
 <p>多含义术语，可以理解为下列两种含义之一：</p>
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#hidden_layer""><strong>隐藏层</strong></a>中的神经元。</li>
 <li>TensorFlow <a href=""https://developers.google.com/machine-learning/glossary/#graph""><strong>图</strong></a>中的操作。</li>
 </ul>
@@ -669,7 +669,7 @@ Numpy (Google 的机器学习术语表)|"
 "
 独热编码 (one-hot encoding) (Google 的机器学习术语表)|"
 <p>一种稀疏向量，其中：</p>
-<ul>
+<ul align=""left"">
 <li>一个元素设为 1。</li>
 <li>所有其他元素均设为 0。</li>
 </ul>
@@ -681,7 +681,7 @@ Numpy (Google 的机器学习术语表)|"
 "
 一对多 (one-vs.-all) (Google 的机器学习术语表)|"
 <p>假设某个分类问题有 N 种可能的解决方案，一对多解决方案将包含 N 个单独的<a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>二元分类器</strong></a> - 一个二元分类器对应一种可能的结果。例如，假设某个模型用于区分样本属于动物、蔬菜还是矿物，一对多解决方案将提供下列三个单独的二元分类器：</p>
-<ul>
+<ul align=""left"">
 <li>动物和非动物</li>
 <li>蔬菜和非蔬菜</li>
 <li>矿物和非矿物</li>
@@ -695,7 +695,7 @@ Numpy (Google 的机器学习术语表)|"
 "
 优化器 (optimizer) (Google 的机器学习术语表)|"
 <p><a href=""https://developers.google.com/machine-learning/glossary/#gradient_descent""><strong>梯度下降法</strong></a>的一种具体实现。TensorFlow 的优化器基类是 <a href=""https://www.tensorflow.org/api_docs/python/tf/train/Optimizer"">tf.train.Optimizer</a>。不同的优化器可能会利用以下一个或多个概念来增强梯度下降法在指定<a href=""https://developers.google.com/machine-learning/glossary/#training_set""><strong>训练集</strong></a>中的效果：</p>
-<ul>
+<ul align=""left"">
 <li><a href=""https://www.tensorflow.org/api_docs/python/tf/train/MomentumOptimizer"">动量</a> (Momentum)</li>
 <li>更新频率（<a href=""https://www.tensorflow.org/api_docs/python/tf/train/AdagradOptimizer"">AdaGrad</a> = ADAptive GRADient descent；<a href=""https://www.tensorflow.org/api_docs/python/tf/train/AdamOptimizer"">Adam</a> = ADAptive with Momentum；RMSProp）</li>
 <li>稀疏性/正则化 (<a href=""https://www.tensorflow.org/api_docs/python/tf/train/FtrlOptimizer"">Ftrl</a>)</li>
@@ -705,7 +705,7 @@ Numpy (Google 的机器学习术语表)|"
 "
 离群值 (outlier) (Google 的机器学习术语表)|"
 <p>与大多数其他值差别很大的值。在机器学习中，下列所有值都是离群值。</p>
-<ul>
+<ul align=""left"">
 <li>绝对值很高的<a href=""https://developers.google.com/machine-learning/glossary/#weight""><strong>权重</strong></a>。</li>
 <li>与实际值相差很大的预测值。</li>
 <li>值比平均值高大约 3 个标准偏差的输入数据。</li>
@@ -739,7 +739,7 @@ Pandas (Google 的机器学习术语表)|"
 "
 性能 (performance) (Google 的机器学习术语表)|"
 <p>多含义术语，具有以下含义：</p>
-<ul>
+<ul align=""left"">
 <li>在软件工程中的传统含义。即：相应软件的运行速度有多快（或有多高效）？</li>
 <li>在机器学习中的含义。在机器学习领域，性能旨在回答以下问题：相应<a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>模型</strong></a>的准确度有多高？即模型在预测方面的表现有多好？</li>
 </ul>
@@ -802,7 +802,7 @@ Pandas (Google 的机器学习术语表)|"
 "
 等级 (rank) (Google 的机器学习术语表)|"
 <p>机器学习中的一个多含义术语，可以理解为下列含义之一：</p>
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#tensor""><strong>张量</strong></a>中的维数。例如，标量等级为 0，向量等级为 1，矩阵等级为 2。</li>
 <li>在将类别从最高到最低进行排序的机器学习问题中，类别的顺序位置。例如，行为排序系统可以将狗狗的奖励从最高（牛排）到最低（枯萎的羽衣甘蓝）进行排序。</li>
 </ul>
@@ -816,7 +816,7 @@ Pandas (Google 的机器学习术语表)|"
 "
 修正线性单元 (ReLU, Rectified Linear Unit) (Google 的机器学习术语表)|"
 <p>一种<a href=""https://developers.google.com/machine-learning/glossary/#activation_function""><strong>激活函数</strong></a>，其规则如下：</p>
-<ul>
+<ul align=""left"">
 <li>如果输入为负数或 0，则输出 0。</li>
 <li>如果输入为正数，则输出等于输入。</li>
 </ul>
@@ -826,7 +826,7 @@ Pandas (Google 的机器学习术语表)|"
 "
 正则化 (regularization) (Google 的机器学习术语表)|"
 <p>对模型复杂度的惩罚。正则化有助于防止出现<a href=""https://developers.google.com/machine-learning/glossary/#overfitting""><strong>过拟合</strong></a>，包含以下类型：</p>
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#L1_regularization""><strong>L<sub>1</sub> 正则化</strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#L2_regularization""><strong>L<sub>2</sub> 正则化</strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#dropout_regularization""><strong>丢弃正则化</strong></a></li>
@@ -910,7 +910,7 @@ softmax (Google 的机器学习术语表)|"
 稀疏表示法 (sparse representation) (Google 的机器学习术语表)|"
 <p>一种张量<a href=""https://developers.google.com/machine-learning/glossary/#representation""><strong>表示法</strong></a>，仅存储非零元素。</p>
 <p>例如，英语中包含约一百万个单词。表示一个英语句子中所用单词的数量，考虑以下两种方式：</p>
-<ul>
+<ul align=""left"">
 <li>要采用<strong>密集表示法</strong>来表示此句子，则必须为所有一百万个单元格设置一个整数，然后在大部分单元格中放入 0，在少数单元格中放入一个非常小的整数。</li>
 <li>要采用稀疏表示法来表示此句子，则仅存储象征句子中实际存在的单词的单元格。因此，如果句子只包含 20 个独一无二的单词，那么该句子的稀疏表示法将仅在 20 个单元格中存储一个整数。</li>
 </ul>
@@ -1040,7 +1040,7 @@ softmax (Google 的机器学习术语表)|"
 "
 结构风险最小化 (SRM, structural risk minimization) (Google 的机器学习术语表)|"
 <p>一种算法，用于平衡以下两个目标：</p>
-<ul>
+<ul align=""left"">
 <li>期望构建最具预测性的模型（例如损失最低）。</li>
 <li>期望使模型尽可能简单（例如强大的正则化）。</li>
 </ul>
@@ -1067,7 +1067,7 @@ softmax (Google 的机器学习术语表)|"
 "
 合成特征 (synthetic feature) (Google 的机器学习术语表)|"
 <p>一种<a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>特征</strong></a>，不在输入特征之列，而是从一个或多个输入特征衍生而来。合成特征包括以下类型：</p>
-<ul>
+<ul align=""left"">
 <li>对连续特征进行<a href=""https://developers.google.com/machine-learning/glossary/#bucketing""><strong>分桶</strong></a>，以分为多个区间分箱。</li>
 <li>将一个特征值与其他特征值或其本身相乘（或相除）。</li>
 <li>创建一个<a href=""https://developers.google.com/machine-learning/glossary/#feature_cross""><strong>特征组合</strong></a>。</li>
