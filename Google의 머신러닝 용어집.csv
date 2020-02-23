@@ -279,7 +279,7 @@ NxN 표입니다. 혼동행렬의
 순볼록 함수가 아닙니다.</p>
 <p>일반적인 <a href=""https://developers.google.com/machine-learning/glossary/#loss_functions""><strong>손실 함수</strong></a> 중 다음을 비롯한 다수는
 볼록 함수입니다.</p>
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#L2_loss""><strong>L<sub>2</sub> 손실(L2 loss)</strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#Log_Loss""><strong>로그 손실(Log Loss)</strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#L1_regularization""><strong>L<sub>1</sub> 정규화(L1 regularization)</strong></a></li>
@@ -375,7 +375,7 @@ L<sub>2</sub> 손실 + L<sub>1</sub> 정규화)은 볼록 함수입니다.</p>
 <p>적어도 하나의 레이어가 <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_layer""><strong>컨볼루셔널 레이어</strong></a>인
 신경망입니다. 일반적으로 컨볼루셔널 신경망은
 다음과 같은 레이어의 조합으로 구성됩니다.</p>
-<ul>
+<ul align=""left"">
 <li>컨볼루셔널 레이어</li>
 <li>풀링 레이어</li>
 <li>밀집 레이어</li>
@@ -385,7 +385,7 @@ L<sub>2</sub> 손실 + L<sub>1</sub> 정규화)은 볼록 함수입니다.</p>
 "
 컨볼루셔널 연산(convolutional operation) (Google의 머신러닝 용어집)|"
 <p>컨볼루셔널 연산은 다음과 같은 2단계 수학 연산입니다.</p>
-<ol>
+<ol align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#convolutional_filter""><strong>컨볼루셔널 필터</strong></a> 및 입력 행렬의
     슬라이스 등
     요소별 곱셈 (입력 행렬의 슬라이스는 컨벌루셔널 필터와 순위 및 크기가
@@ -508,7 +508,7 @@ Dataset API(tf.data) (Google의 머신러닝 용어집)|"
 일반적으로 임베딩(embeddings)은 고차원 벡터를 저차원 공간으로
 변환한 결과입니다. 예를 들어 영어 문장의 단어를
 다음 두 가지 방법 중 하나로 표현할 수 있습니다.</p>
-<ul>
+<ul align=""left"">
 <li>백만 개의 요소를 갖는(고차원)
     <a href=""https://developers.google.com/machine-learning/glossary/#sparse_features""><strong>희소 벡터</strong></a>로 표현합니다. 모든 요소는 정수입니다.
     벡터의 각 셀은 서로 다른 영어 단어를 나타내며, 셀 값은
@@ -532,7 +532,7 @@ Dataset API(tf.data) (Google의 머신러닝 용어집)|"
 앙상블(ensemble) (Google의 머신러닝 용어집)|"
 <p>여러 <a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>모델</strong></a>의 예측을 병합한 결과입니다. 다음 중
 하나 이상을 통해 앙상블을 만들 수 있습니다.</p>
-<ul>
+<ul align=""left"">
 <li>서로 다른 초기화</li>
 <li>서로 다른 <a href=""https://developers.google.com/machine-learning/glossary/#hyperparameter""><strong>초매개변수</strong></a></li>
 <li>서로 다른 전체 구조</li>
@@ -621,7 +621,7 @@ Yahoo/Microsoft의 <a href=""https://en.wikipedia.org/wiki/Vowpal_Wabbit"">VW</a
 필요한 정보를 기술합니다. tf.Example
 프로토콜 버퍼는 데이터의 컨테이너에 불과하므로 다음 정보를
 지정해야 합니다.</p>
-<ul>
+<ul align=""left"">
 <li>추출할 데이터(특성의 키)</li>
 <li>데이터 유형(예: float 또는 int)</li>
 <li>길이(고정 또는 가변)</li>
@@ -657,7 +657,7 @@ Yahoo/Microsoft의 <a href=""https://en.wikipedia.org/wiki/Vowpal_Wabbit"">VW</a
 범주형 잡음 등의 여타 잡음 유형에 기초한
 다른 모델 유형으로
 일반화한 결과물입니다. 일반화 선형 모델의 예는 다음과 같습니다.</p>
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#logistic_regression""><strong>로지스틱 회귀</strong></a></li>
 <li>다중 클래스 회귀</li>
 <li>최소 제곱 회귀</li>
@@ -665,7 +665,7 @@ Yahoo/Microsoft의 <a href=""https://en.wikipedia.org/wiki/Vowpal_Wabbit"">VW</a
 <p><a href=""https://en.wikipedia.org/wiki/Convex_optimization"">볼록 최적화</a>를 통해 일반화 선형 모형의
 매개변수를 구할 수 있습니다.</p>
 <p>일반화 선형 모델에는 다음과 같은 속성이 있습니다.</p>
-<ul>
+<ul align=""left"">
 <li>최적화된 최소 제곱 회귀 모델의 평균적인 예측은
     학습 데이터의 평균 라벨과 동일합니다.</li>
 <li>최적화된 로지스틱 회귀 모델이 예측하는 평균적인 확률은
@@ -813,7 +813,7 @@ i.i.d.일 수 있습니다. 즉, 짧은 기간에는 분포가 변하지 않으�
 k-평균(k-means) (Google의 머신러닝 용어집)|"
 <p>비지도 학습의 한 방법으로 데이터를 그룹화하는 데 널리 사용되는
 <a href=""https://developers.google.com/machine-learning/glossary/#clustering""><strong>클러스터링</strong></a> 알고리즘입니다. k-평균 알고리즘은 기본적으로 다음과 같은 일을 합니다.</p>
-<ul>
+<ul align=""left"">
 <li>최고의 중심점(<a href=""https://developers.google.com/machine-learning/glossary/#centroid""><strong>중심</strong></a>이라고 함)들을 반복적으로
     결정합니다.</li>
 <li>각 예를 가장 가까운 중심에 배정합니다.  같은 중심에 가장 가까운 예는
@@ -844,7 +844,7 @@ k-평균을 보여줍니다. k-평균을 사용하면 여러 가지 특성을 �
 k-중앙값(k-median) (Google의 머신러닝 용어집)|"
 <p><a href=""https://developers.google.com/machine-learning/glossary/#k-means""><strong>k-평균</strong></a>과 밀접한 관련이 있는 클러스터링 알고리즘입니다. 이 두
 알고리즘의 실질적인 차이는 다음과 같습니다.</p>
-<ul>
+<ul align=""left"">
 <li>k-평균 알고리즘에서는 중심이 될 수 있는 위치와 각 예의 위치 사이 거리를
     <em>제곱</em>한 값의 합계를 최소화하는 방식으로 중심을
     결정합니다.</li>
@@ -852,7 +852,7 @@ k-중앙값(k-median) (Google의 머신러닝 용어집)|"
     값의 합계를 최소화하는 방식으로 중심을 결정합니다.</li>
 </ul>
 <p>거리의 정의도 다릅니다.</p>
-<ul>
+<ul align=""left"">
 <li>k-평균 알고리즘에서는 중심에서 예까지의
     <a href=""https://en.wikipedia.org/wiki/Euclidean_distance"">유클리드 거리</a>를
     사용합니다.  2차원에서 유클리드 거리는
@@ -866,7 +866,7 @@ k-중앙값(k-median) (Google의 머신러닝 용어집)|"
 [/$$]
 </div>
 
-<ul>
+<ul align=""left"">
 <li>k-중앙값 알고리즘에서는 중심에서 예까지의
     <a href=""https://en.wikipedia.org/wiki/Taxicab_geometry"">맨해튼 거리</a>를
     사용합니다.  이 거리는 각 차원 값 차의 절대값의
@@ -957,7 +957,7 @@ Layers API(tf.layers) (Google의 머신러닝 용어집)|"
 <p>여러 레이어를 조합하여 <a href=""https://developers.google.com/machine-learning/glossary/#deep_model""><strong>심층</strong></a>신경망을 구축하는
 텐서플로우 API입니다. Layers API를 통해 다음과 같은 다양한 유형의
 <a href=""https://developers.google.com/machine-learning/glossary/#layer""><strong>레이어</strong></a>를 만들 수 있습니다.</p>
-<ul>
+<ul align=""left"">
 <li><code>tf.layers.Dense</code> - <a href=""https://developers.google.com/machine-learning/glossary/#fully_connected_layer""><strong>완전 연결 레이어</strong></a></li>
 <li><code>tf.layers.Conv2D</code> - 컨볼루셔널 레이어</li>
 </ul>
@@ -1092,7 +1092,7 @@ ML (Google의 머신러닝 용어집)|"
 <p>ML 시스템이 학습 데이터로부터 학습한 내용을 표현합니다.
 중복으로 정의된 용어로서, 다음과 같은 서로 관련된 두 가지 의미 중 하나를
 나타낼 수 있습니다.</p>
-<ul>
+<ul align=""left"">
 <li>예측이 계산되는 방식의 구조를 표현하는
     <a href=""https://developers.google.com/machine-learning/glossary/#TensorFlow""><strong>텐서플로우</strong></a> 그래프</li>
 <li>해당 텐서플로우 그래프에서 <a href=""https://developers.google.com/machine-learning/glossary/#model_training""><strong>학습</strong></a>에 의해 결정되는
@@ -1161,7 +1161,7 @@ NaN 트랩(NaN trap) (Google의 머신러닝 용어집)|"
 "
 노드(node) (Google의 머신러닝 용어집)|"
 <p>중복으로 정의된 용어로서 다음 중 하나를 의미합니다.</p>
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#hidden_layer""><strong>히든 레이어</strong></a>의 뉴런</li>
 <li>텐서플로우 <a href=""https://developers.google.com/machine-learning/glossary/#graph""><strong>그래프</strong></a>의 연산</li>
 </ul>
@@ -1210,7 +1210,7 @@ Numpy (Google의 머신러닝 용어집)|"
 "
 원-핫 인코딩(one-hot encoding) (Google의 머신러닝 용어집)|"
 <p>다음과 같은 특징을 갖는 희소 벡터입니다.</p>
-<ul>
+<ul align=""left"">
 <li>요소 중 하나가 1로 설정됩니다.</li>
 <li>다른 요소는 모두 0으로 설정됩니다.</li>
 </ul>
@@ -1233,7 +1233,7 @@ Numpy (Google의 머신러닝 용어집)|"
 구성됩니다. 가령, 예를 동물, 식물, 광물 중 하나로 분류하는
 모델에서는 일대다 솔루션이 다음과 같은 3가지 이진 분류자를
 제공할 수 있습니다.</p>
-<ul>
+<ul align=""left"">
 <li>동물 또는 동물 아님</li>
 <li>식물 또는 식물 아님</li>
 <li>광물 또는 광물 아님</li>
@@ -1256,7 +1256,7 @@ Numpy (Google의 머신러닝 용어집)|"
 다른 옵티마이저는 다음 중 하나 이상의
 개념을 활용하여 주어진 <a href=""https://developers.google.com/machine-learning/glossary/#training_set""><strong>학습 세트</strong></a>에서 경사하강법의 효과를
 강화할 수 있습니다.</p>
-<ul>
+<ul align=""left"">
 <li><a href=""https://www.tensorflow.org/api_docs/python/tf/train/MomentumOptimizer"">momentum</a>
     (모멘텀)</li>
 <li>업데이트 빈도
@@ -1276,7 +1276,7 @@ Numpy (Google의 머신러닝 용어집)|"
 이상점(outliers) (Google의 머신러닝 용어집)|"
 <p>다른 대부분의 값과 동떨어진 값입니다. 머신러닝에서는
 다음과 같은 경우가 이상점에 해당합니다.</p>
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#weight""><strong>가중치</strong></a>의 절대값이 높은 경우</li>
 <li>예측된 값이 실제 값과 비교적 멀리 떨어진 경우</li>
 <li>입력 데이터의 값이 평균에서 대략적으로 표준편차 3만큼
@@ -1325,7 +1325,7 @@ ML 시스템에서 학습이 반복됨에 따라 <a href=""https://developers.go
 "
 성능(performance) (Google의 머신러닝 용어집)|"
 <p>다음과 같은 의미로 중복으로 정의된 용어입니다.</p>
-<ul>
+<ul align=""left"">
 <li>소프트웨어 공학에서 보편적으로 사용되는 의미입니다. 즉, 특정 소프트웨어가
     얼마나 빠르게 또는 효율적으로 실행되는지를 의미합니다.</li>
 <li>ML의 맥락에서는 특정 <a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>모델</strong></a>이 얼마나 정확한지를
@@ -1430,7 +1430,7 @@ I/O에 사용됩니다.</p>
 "
 순위(rank) (Google의 머신러닝 용어집)|"
 <p>ML에서 중복으로 정의된 용어로서 다음 중 하나를 의미할 수 있습니다.</p>
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#tensor""><strong>텐서</strong></a>의 차원 수입니다. 예를 들어
     스칼라의 순위는 0이고, 벡터의 순위는 1이고, 행렬의 순위는 2입니다.</li>
 <li>클래스를 오름차순으로 분류하는 ML 문제에서 클래스의
@@ -1453,7 +1453,7 @@ I/O에 사용됩니다.</p>
 "
 정류 선형 유닛(ReLU, Rectified Linear Unit) (Google의 머신러닝 용어집)|"
 <p>다음 규칙을 따르는 <a href=""https://developers.google.com/machine-learning/glossary/#activation_function""><strong>활성화 함수</strong></a>입니다.</p>
-<ul>
+<ul align=""left"">
 <li>입력이 음수 또는 0이면 출력은 0입니다.</li>
 <li>입력이 양수이면 출력은 입력과 같습니다.</li>
 </ul>
@@ -1465,7 +1465,7 @@ I/O에 사용됩니다.</p>
 정규화(regularization) (Google의 머신러닝 용어집)|"
 <p>모델의 복잡도에 페널티를 부여합니다. 정규화는 <a href=""https://developers.google.com/machine-learning/glossary/#overfitting""><strong>과적합</strong></a>을 방지하는 데
 도움이 됩니다. 정규화의 여러 가지 종류는 다음과 같습니다.</p>
-<ul>
+<ul align=""left"">
 <li><a href=""https://developers.google.com/machine-learning/glossary/#L1_regularization""><strong>L<sub>1</sub> 정규화</strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#L2_regularization""><strong>L<sub>2</sub> 정규화</strong></a></li>
 <li><a href=""https://developers.google.com/machine-learning/glossary/#dropout_regularization""><strong>드롭아웃 정규화</strong></a></li>
@@ -1604,7 +1604,7 @@ TensorFlow API를 사용하면 하나 이상의
 <a href=""https://developers.google.com/machine-learning/glossary/#representation""><strong>표현</strong></a>입니다.</p>
 <p>예를 들어 영어 어휘에는 약 백만 개의 단어들이 있습니다.
 하나의 영어 문장에서 어떤 단어가 몇 번 사용되었는지 나타내주는 다음의 두 가지 방법을 생각해 봅시다.</p>
-<ul>
+<ul align=""left"">
 <li>이 문장을 <strong>밀집 표현</strong> 방식으로 나타내면
     백만 개의 셀들로 구성된 정수 백터를 정의한 다음 벡터의 셀 대부분에는 0을 할당하고,
     극히 일부 셀에는 작은 정수값을 할당해야 합니다.</li>
@@ -1761,7 +1761,7 @@ TensorFlow API를 사용하면 하나 이상의
 "
 구조적 위험 최소화(SRM, structural risk minimization) (Google의 머신러닝 용어집)|"
 <p>다음 두 목표 사이에서 균형을 찾는 알고리즘입니다.</p>
-<ul>
+<ul align=""left"">
 <li>예측이 가장 정확한 모델을 만듭니다. 예를 들어 손실을 최소화합니다.</li>
 <li>모델을 최대한 단순하게 유지합니다. 예를 들어 강력한 정규화를
     적용합니다.</li>
@@ -1805,7 +1805,7 @@ TensorFlow API를 사용하면 하나 이상의
 <p>입력 특성 중에는 없지만 하나 이상의 입력 특성으로부터
 생성되는 <a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>특성</strong></a>입니다. 합성 특성에는 다음과 같은 종류가
 있습니다.</p>
-<ul>
+<ul align=""left"">
 <li>연속 특성을 범위 빈으로 <a href=""https://developers.google.com/machine-learning/glossary/#bucketing""><strong>버케팅</strong></a>합니다.</li>
 <li>하나의 특성 값에 다른 특성 값이나
     해당 특성 값을 곱하거나 나눕니다. </li>
