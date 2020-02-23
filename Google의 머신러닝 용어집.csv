@@ -7,8 +7,8 @@ A/B 테스트(A/B testing) (Google의 머신러닝 용어집)|"
 제한이 없습니다.</p>
 "
 정확성(accuracy) (Google의 머신러닝 용어집)|"
-<p><a href=""#classification_model""><strong>분류 모델</strong></a>의 예측이 얼마나
-정확한지를 의미합니다. <a href=""#multi-class""><strong>다중
+<p><a href=""https://developers.google.com/machine-learning/glossary/#classification_model""><strong>분류 모델</strong></a>의 예측이 얼마나
+정확한지를 의미합니다. <a href=""https://developers.google.com/machine-learning/glossary/#multi-class""><strong>다중
 클래스 분류</strong></a>에서 정확성의
 정의는 다음과 같습니다.</p>
 <div>
@@ -16,39 +16,39 @@ $$\text{정확성} =
 \frac{\text{정확한 예측}} {\text{총 예시 수}}$$
 </div>
 
-<p><a href=""#binary_classification""><strong>이진 분류</strong></a>에서 정확성의
+<p><a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>이진 분류</strong></a>에서 정확성의
 정의는 다음과 같습니다.</p>
 <div>
 $$\text{정확성} = \frac{\text{참양성} + \text{참음성}}
                          {\text{총 예시 수}}$$
 </div>
 
-<p><a href=""#TP""><strong>참양성</strong></a> 및
-<a href=""#TN""><strong>참음성</strong></a>을 참조하세요.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#TP""><strong>참양성</strong></a> 및
+<a href=""https://developers.google.com/machine-learning/glossary/#TN""><strong>참음성</strong></a>을 참조하세요.</p>
 "
 활성화 함수(activation function) (Google의 머신러닝 용어집)|"
 <p>이전 레이어의 모든 입력에 대한
 가중 합을 취하고 출력 값(일반적으로 비선형)을 생성하여
-다음 레이어로 전달하는 <a href=""#ReLU""><strong>ReLU</strong></a>, <a href=""#sigmoid_function""><strong>시그모이드</strong></a> 등의
+다음 레이어로 전달하는 <a href=""https://developers.google.com/machine-learning/glossary/#ReLU""><strong>ReLU</strong></a>, <a href=""https://developers.google.com/machine-learning/glossary/#sigmoid_function""><strong>시그모이드</strong></a> 등의
 함수입니다.</p>
 "
 AdaGrad (Google의 머신러닝 용어집)|"
 <p>각 매개변수의 경사를 재조정하여 사실상 각 매개변수에
-독립적인 <a href=""#learning_rate""><strong>학습률</strong></a>을 부여하는 정교한 경사하강법
+독립적인 <a href=""https://developers.google.com/machine-learning/glossary/#learning_rate""><strong>학습률</strong></a>을 부여하는 정교한 경사하강법
 알고리즘입니다. 자세한 설명은
 <a href=""http://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf"">이 논문</a>을 참조하세요.</p>
 "
 AUC(ROC 곡선 아래 영역) (Google의 머신러닝 용어집)|"
-<p>가능한 모든 <a href=""#classification_threshold""><strong>분류 임계값</strong></a>을 고려하는
+<p>가능한 모든 <a href=""https://developers.google.com/machine-learning/glossary/#classification_threshold""><strong>분류 임계값</strong></a>을 고려하는
 평가 측정항목입니다.</p>
-<p>AUC(<a href=""#ROC"">ROC 곡선</a> 아래 영역)는 무작위로 선택한 긍정 예가
+<p>AUC(<a href=""https://developers.google.com/machine-learning/glossary/#ROC"">ROC 곡선</a> 아래 영역)는 무작위로 선택한 긍정 예가
 실제로 긍정일 가능성이 무작위로 선택한 부정 예가 긍정일
 가능성보다 높다고 분류자가 신뢰할 확률입니다.</p>
 
 "
 역전파(backpropagation) (Google의 머신러닝 용어집)|"
-<p><a href=""#neural_network""><strong>신경망</strong></a>에서
-<a href=""#gradient_descent""><strong>경사하강법</strong></a>을 수행하는
+<p><a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>신경망</strong></a>에서
+<a href=""https://developers.google.com/machine-learning/glossary/#gradient_descent""><strong>경사하강법</strong></a>을 수행하는
 기본 알고리즘입니다. 우선, 정방향 단계에서
 각 노드의 출력 값을 계산하고 캐시합니다.
 그런 다음
@@ -58,18 +58,18 @@ AUC(ROC 곡선 아래 영역) (Google의 머신러닝 용어집)|"
 "
 기준(baseline) (Google의 머신러닝 용어집)|"
 <p>모델의 성능을 비교하는 참조 지점으로 사용되는 단순한
-<a href=""#model""><strong>모델</strong></a> 또는 휴리스틱입니다. 기준은 모델 개발자가 특정 문제에 예상되는
+<a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>모델</strong></a> 또는 휴리스틱입니다. 기준은 모델 개발자가 특정 문제에 예상되는
 최소 성능을 산정하는 데 도움을 줍니다.</p>
 "
 배치(batch) (Google의 머신러닝 용어집)|"
-<p><a href=""#model_training""><strong>모델 학습</strong></a>의 <a href=""#iteration""><strong>반복</strong></a> 1회, 즉
-<a href=""#gradient""><strong>경사</strong></a> 업데이트 1회에 사용되는
+<p><a href=""https://developers.google.com/machine-learning/glossary/#model_training""><strong>모델 학습</strong></a>의 <a href=""https://developers.google.com/machine-learning/glossary/#iteration""><strong>반복</strong></a> 1회, 즉
+<a href=""https://developers.google.com/machine-learning/glossary/#gradient""><strong>경사</strong></a> 업데이트 1회에 사용되는
 예의 집합입니다.</p>
-<p><a href=""#batch_size""><strong>배치 크기</strong></a>를 참조하세요.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#batch_size""><strong>배치 크기</strong></a>를 참조하세요.</p>
 "
 배치 크기(batch size) (Google의 머신러닝 용어집)|"
-<p><a href=""#batch""><strong>배치</strong></a> 하나에 포함되는 예의 개수입니다. 예를 들어 <a href=""#SGD""><strong>SGD</strong></a>의
-배치 크기는 1이고, <a href=""#mini-batch""><strong>미니 배치</strong></a>의
+<p><a href=""https://developers.google.com/machine-learning/glossary/#batch""><strong>배치</strong></a> 하나에 포함되는 예의 개수입니다. 예를 들어 <a href=""https://developers.google.com/machine-learning/glossary/#SGD""><strong>SGD</strong></a>의
+배치 크기는 1이고, <a href=""https://developers.google.com/machine-learning/glossary/#mini-batch""><strong>미니 배치</strong></a>의
 배치 크기는 일반적으로 10~1,000입니다. 학습 및 추론 중에
 배치 크기는 일반적으로 고정되지만, 텐서플로우는 동적 배치 크기를
 허용합니다.</p>
@@ -83,7 +83,7 @@ AUC(ROC 곡선 아래 영역) (Google의 머신러닝 용어집)|"
 $$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 </div>
 
-<p><a href=""#prediction_bias""><strong>예측 편향</strong></a>과 혼동하지 마시기 바랍니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#prediction_bias""><strong>예측 편향</strong></a>과 혼동하지 마시기 바랍니다.</p>
 "
 이진 분류(binary classification) (Google의 머신러닝 용어집)|"
 <p>상호 배타적인 두 클래스 중 하나를 출력하는 분류 작업
@@ -91,10 +91,10 @@ $$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 '스팸 아님'을 출력하는 머신러닝 모델은 이진 분류자입니다.</p>
 "
 비닝(binning) (Google의 머신러닝 용어집)|"
-<p><a href=""#bucketing""><strong>버케팅</strong></a>을 참조하세요.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#bucketing""><strong>버케팅</strong></a>을 참조하세요.</p>
 "
 버케팅(bucketing) (Google의 머신러닝 용어집)|"
-<p>하나의 특성(일반적으로 <a href=""#continuous_feature""><strong>연속</strong></a>)을 버킷(bucket) 또는
+<p>하나의 특성(일반적으로 <a href=""https://developers.google.com/machine-learning/glossary/#continuous_feature""><strong>연속</strong></a>)을 버킷(bucket) 또는
 빈(bin)이라고 하는 여러 이진 특성으로 변환하는 작업으로서, 일반적으로 값 범위를
 기준으로 합니다. 예를 들어 온도를 하나의 부동 소수점 연속 특성으로
 표현하는 대신 온도 범위를 불연속 빈으로 나눌 수
@@ -105,7 +105,7 @@ $$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 
 "
 캘리브레이션 레이어(calibration layer) (Google의 머신러닝 용어집)|"
-<p>일반적으로 <a href=""#prediction_bias""><strong>예측 편향</strong></a>을 보정하기 위한
+<p>일반적으로 <a href=""https://developers.google.com/machine-learning/glossary/#prediction_bias""><strong>예측 편향</strong></a>을 보정하기 위한
 예측 후 조정입니다. 조정된 예측 및 확률은
 관찰된 라벨 집합의 분포와 일치해야 합니다.</p>
 "
@@ -115,15 +115,15 @@ $$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 예측되는 확률과 해당 손실 항을 계산하고 나머지
 클래스(<em>cat</em>, <em>lollipop</em>, <em>fence</em>)의 무작위 부분집합에
 대해서도 계산합니다. 이 방식이 성립하는 이유는
-<a href=""#positive_class""><strong>포지티브 클래스</strong></a>가 항상 적절한 긍정 강화를 받는 한
-<a href=""#negative_class""><strong>네거티브 클래스</strong></a>는 빈도가 적은 부정 강화로부터
+<a href=""https://developers.google.com/machine-learning/glossary/#positive_class""><strong>포지티브 클래스</strong></a>가 항상 적절한 긍정 강화를 받는 한
+<a href=""https://developers.google.com/machine-learning/glossary/#negative_class""><strong>네거티브 클래스</strong></a>는 빈도가 적은 부정 강화로부터
 학습할 수 있기 때문이며, 이는 실제로
 경험적으로 관찰되는 사실입니다. 후보 샘플링의 장점은
 모든 부정에 대한 예측을 일일이 계산하지 않으므로
 연산 효율이 높다는 것입니다.</p>
 "
 범주형 데이터(categorical data) (Google의 머신러닝 용어집)|"
-<p>가능한 값의 불연속 집합을 갖는 <a href=""#feature""><strong>특성</strong></a>입니다. 예를 들어
+<p>가능한 값의 불연속 집합을 갖는 <a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>특성</strong></a>입니다. 예를 들어
 <code>Tudor, ranch, colonial</code>이라는 3가지 가능한 값으로 이루어진 불연속 집합을 갖는
 <code>house style</code>이라는 범주형 특성이 있다고 가정해 보겠습니다. <code>house style</code>을
 범주형 데이터로 표현하면 <code>Tudor</code>, <code>ranch</code>, <code>colonial</code>이 주택 가격에 주는 영향을
@@ -133,31 +133,31 @@ $$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 높습니다.  둘 이상의 값을 적용할 수 있는 경우도 있습니다. 자동차 하나를
 여러 색으로 도색할 수도 있으므로 <code>car color</code> 범주형 특성은
 하나의 예가 여러 값(예: <code>red</code>와 <code>white</code>)을 갖도록 허용할 수 있습니다.</p>
-<p>범주형 특성을 <a href=""#discrete_feature""><strong>불연속 특성</strong></a>이라고도
+<p>범주형 특성을 <a href=""https://developers.google.com/machine-learning/glossary/#discrete_feature""><strong>불연속 특성</strong></a>이라고도
 합니다.</p>
-<p><a href=""#numerical_data""><strong>수치 데이터</strong></a>와 대비되는 개념입니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#numerical_data""><strong>수치 데이터</strong></a>와 대비되는 개념입니다.</p>
 "
 중심(centroid) (Google의 머신러닝 용어집)|"
-<p><a href=""#k-means""><strong>k-평균</strong></a> 또는 <a href=""#k-median""><strong>k-중앙값</strong></a> 알고리즘에 의해 결정되는
+<p><a href=""https://developers.google.com/machine-learning/glossary/#k-means""><strong>k-평균</strong></a> 또는 <a href=""https://developers.google.com/machine-learning/glossary/#k-median""><strong>k-중앙값</strong></a> 알고리즘에 의해 결정되는
 클러스터의 중심입니다. 예를 들어 k가 3인 경우
 k-평균 또는 k-중앙값 알고리즘에서는 3개의 중심을 찾아냅니다.</p>
 "
 체크포인트(checkpoint) (Google의 머신러닝 용어집)|"
 <p>특정 시점에 모델 변수의 상태를 포착한
-데이터입니다. 체크포인트를 통해 모델 <a href=""#weight""><strong>가중치</strong></a>를 내보내고
+데이터입니다. 체크포인트를 통해 모델 <a href=""https://developers.google.com/machine-learning/glossary/#weight""><strong>가중치</strong></a>를 내보내고
 여러 세션(session)을 넘나들며 학습을 수행할 수 있습니다. 또한 체크포인트로부터 과거의 오류(예: 작업 선점)를 이어받아 학습을 할 수 있습니다. 단,
-<a href=""#graph""><strong>그래프</strong></a> 자체는 체크포인트에 포함되지 않습니다.</p>
+<a href=""https://developers.google.com/machine-learning/glossary/#graph""><strong>그래프</strong></a> 자체는 체크포인트에 포함되지 않습니다.</p>
 "
 클래스(class) (Google의 머신러닝 용어집)|"
 <p>열거형 목표값 집합 중 하나로서 라벨로 쓰입니다. 예를 들어
-스팸을 감지하는 <a href=""#binary_classification""><strong>이진 분류</strong></a> 모델의
+스팸을 감지하는 <a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>이진 분류</strong></a> 모델의
 두 클래스는 <em>스팸</em> 및 <em>스팸 아님</em>입니다.  개의 품종을 식별하는
-<a href=""#multi_class_classification""><strong>다중 클래스 분류</strong></a> 모델의
+<a href=""https://developers.google.com/machine-learning/glossary/#multi_class_classification""><strong>다중 클래스 분류</strong></a> 모델의
 클래스는 <em>푸들</em>, <em>비글</em>, <em>퍼그</em> 등입니다.</p>
 "
 클래스 불균형 데이터 세트(class-imbalanced data set) (Google의 머신러닝 용어집)|"
-<p>두 클래스의 <a href=""#label""><strong>라벨</strong></a>이
-서로 크게 다른 빈도를 보이는 <a href=""#binary_classification""><strong>이진 분류</strong></a>
+<p>두 클래스의 <a href=""https://developers.google.com/machine-learning/glossary/#label""><strong>라벨</strong></a>이
+서로 크게 다른 빈도를 보이는 <a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>이진 분류</strong></a>
 문제입니다.  예를 들어 질병 데이터 세트에서 0.0001의 예가 긍정 라벨을 가지고 0.9999의 예가 부정 라벨을 가진다면 클래스 불균형 문제에
 해당하지만, 축구 시합 예측에서 예 중 0.51은 한 팀이 이길 것으로,
 0.49는 다른 팀이 이길 것으로 라벨이 지정되었다면 클래스 불균형
@@ -167,13 +167,13 @@ k-평균 또는 k-중앙값 알고리즘에서는 3개의 중심을 찾아냅니
 <p>둘 이상의 불연속 클래스를 구분 짓는 데 사용되는 머신러닝 모델
 유형입니다. 예를 들어 자연어 처리 분류 모델은 입력 문장이
 프랑스어인지, 스페인어인지, 이탈리아어인지 구분할 수
-있습니다. <a href=""#regression_model""><strong>회귀 모형</strong></a>과 비교되는 개념입니다.</p>
+있습니다. <a href=""https://developers.google.com/machine-learning/glossary/#regression_model""><strong>회귀 모형</strong></a>과 비교되는 개념입니다.</p>
 "
 분류 임계값(classification threshold) (Google의 머신러닝 용어집)|"
-<p><a href=""#positive_class""><strong>포지티브 클래스</strong></a>와 <a href=""#negative_class""><strong>네거티브 클래스</strong></a>를 구분 짓기 위한
+<p><a href=""https://developers.google.com/machine-learning/glossary/#positive_class""><strong>포지티브 클래스</strong></a>와 <a href=""https://developers.google.com/machine-learning/glossary/#negative_class""><strong>네거티브 클래스</strong></a>를 구분 짓기 위한
 모델의 예측 점수에 적용되는 스칼라값
-기준입니다.  <a href=""#logistic_regression""><strong>로지스틱 회귀</strong></a> 결과를
-<a href=""#binary_classification""><strong>이진 분류</strong></a>에 매핑하는 데
+기준입니다.  <a href=""https://developers.google.com/machine-learning/glossary/#logistic_regression""><strong>로지스틱 회귀</strong></a> 결과를
+<a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>이진 분류</strong></a>에 매핑하는 데
 사용됩니다. 예를 들어
 특정 이메일 메시지가 스팸일 확률을 판단하는 로지스틱 회귀 모형이
 있다고 가정해 보겠습니다. 분류 임계값이 0.9인 경우 로지스틱
@@ -181,11 +181,11 @@ k-평균 또는 k-중앙값 알고리즘에서는 3개의 중심을 찾아냅니
 <em>스팸 아님</em>으로 분류됩니다.</p>
 "
 클러스터링(clustering) (Google의 머신러닝 용어집)|"
-<p><a href=""#example""><strong>예</strong></a>와 관련된 그룹화이며 특히
-<a href=""#unsupervised_machine_learning""><strong>비지도 학습</strong></a>에서 사용됩니다. 모든 예가 그룹으로
+<p><a href=""https://developers.google.com/machine-learning/glossary/#example""><strong>예</strong></a>와 관련된 그룹화이며 특히
+<a href=""https://developers.google.com/machine-learning/glossary/#unsupervised_machine_learning""><strong>비지도 학습</strong></a>에서 사용됩니다. 모든 예가 그룹으로
 묶이고 나면 사람이 선택적으로 각 클러스터에 의미를 부여할 수 있습니다.</p>
 <p>클러스터링에는 여러 가지 알고리즘이 사용됩니다.  예를 들어
-<a href=""#k-means""><strong>k-평균</strong></a> 알고리즘에서는 다음 다이어그램과 같이 각 예의 <a href=""#centroid""><strong>중심</strong></a> 근접도를
+<a href=""https://developers.google.com/machine-learning/glossary/#k-means""><strong>k-평균</strong></a> 알고리즘에서는 다음 다이어그램과 같이 각 예의 <a href=""https://developers.google.com/machine-learning/glossary/#centroid""><strong>중심</strong></a> 근접도를
 기준으로 클러스터링합니다.</p>
 <p>
 <img src=""/machine-learning/glossary/images/Cluster.svg"">
@@ -206,11 +206,11 @@ k-평균 또는 k-중앙값 알고리즘에서는 3개의 중심을 찾아냅니
 자주 사용됩니다.</p>
 "
 혼동행렬(confusion matrix) (Google의 머신러닝 용어집)|"
-<p><a href=""#classification_model""><strong>분류 모델</strong></a>의 예측 성공률, 즉 라벨과
+<p><a href=""https://developers.google.com/machine-learning/glossary/#classification_model""><strong>분류 모델</strong></a>의 예측 성공률, 즉 라벨과
 모델의 분류 사이의 상관관계를 요약한
 NxN 표입니다. 혼동행렬의
 축 중 하나는 모델이 예측한 라벨이고, 다른 축은 실제
-라벨입니다. N은 클래스 수를 나타냅니다. <a href=""#binary_classification""><strong>이진
+라벨입니다. N은 클래스 수를 나타냅니다. <a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>이진
 분류</strong></a> 문제에서는 N=2입니다. 예를 들어 다음은
 이진 분류 문제에 대한 샘플 혼동행렬입니다.</p>
 <table>
@@ -243,23 +243,23 @@ NxN 표입니다. 혼동행렬의
 파악할 수 있습니다. 예를 들어 혼동행렬은 필기 숫자를 인식하도록
 학습된 모델이 4를 9로, 아니면 7을 1로 잘못 예측하는 경향이 있음을
 드러낼 수 있습니다.</p>
-<p>혼동행렬은 <a href=""#precision""><strong>정밀도</strong></a>, <a href=""#recall""><strong>재현율</strong></a> 등의 다양한 성능 측정항목을
+<p>혼동행렬은 <a href=""https://developers.google.com/machine-learning/glossary/#precision""><strong>정밀도</strong></a>, <a href=""https://developers.google.com/machine-learning/glossary/#recall""><strong>재현율</strong></a> 등의 다양한 성능 측정항목을
 계산하는 데 충분한 정보를 포함합니다.</p>
 "
 연속 특성(continuous feature) (Google의 머신러닝 용어집)|"
 <p>가능한 값이 무한한 범위를 갖는 부동 소수점 특성입니다.
-<a href=""#discrete_feature""><strong>불연속 특성</strong></a>과 대비되는 개념입니다.</p>
+<a href=""https://developers.google.com/machine-learning/glossary/#discrete_feature""><strong>불연속 특성</strong></a>과 대비되는 개념입니다.</p>
 "
 수렴(convergence) (Google의 머신러닝 용어집)|"
-<p>학습 중에 어느 정도 이상의 반복 후 학습 <a href=""#loss""><strong>손실</strong></a> 및 검증 손실이 거의 또는 전혀 변화하지 않는 상태를 비공식적으로 일컫는 용어입니다. 즉, 현재 데이터로 더 학습해도 모델이
+<p>학습 중에 어느 정도 이상의 반복 후 학습 <a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>손실</strong></a> 및 검증 손실이 거의 또는 전혀 변화하지 않는 상태를 비공식적으로 일컫는 용어입니다. 즉, 현재 데이터로 더 학습해도 모델이
 개선되지 못할 때 모델이 수렴되었다고
 말합니다. 딥 러닝의 경우 손실 값이 거의 일정하게 유지하며 수많은 반복을 하여 일시적으로 모델이 수렴한다고 착각을 할 수 있으나 결국 하강을 하는 경우도 있습니다.</p>
-<p><a href=""#early_stopping""><strong>조기 중단</strong></a>을 참조하세요.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#early_stopping""><strong>조기 중단</strong></a>을 참조하세요.</p>
 <p>Boyd와 Vandenberghe의
 <a href=""https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf"">볼록 최적화</a>를 참조하세요.</p>
 "
 볼록 함수(convex function) (Google의 머신러닝 용어집)|"
-<p>함수 그래프의 위쪽 영역이 <a href=""#convex_set""><strong>볼록 집합</strong></a>인
+<p>함수 그래프의 위쪽 영역이 <a href=""https://developers.google.com/machine-learning/glossary/#convex_set""><strong>볼록 집합</strong></a>인
 함수입니다.  볼록 함수의 전형적인 예는
 <strong>U</strong>자 모양의 함수입니다.  예를 들어 다음은 모두
 볼록 함수입니다.</p>
@@ -277,31 +277,31 @@ NxN 표입니다. 혼동행렬의
 이 점은 전역 최저점과 일치합니다. 고전적인 U자형 함수는
 순볼록 함수입니다.  그러나 직선과 같은 볼록 함수는
 순볼록 함수가 아닙니다.</p>
-<p>일반적인 <a href=""#loss_functions""><strong>손실 함수</strong></a> 중 다음을 비롯한 다수는
+<p>일반적인 <a href=""https://developers.google.com/machine-learning/glossary/#loss_functions""><strong>손실 함수</strong></a> 중 다음을 비롯한 다수는
 볼록 함수입니다.</p>
 <ul>
-<li><a href=""#L2_loss""><strong>L<sub>2</sub> 손실(L2 loss)</strong></a></li>
-<li><a href=""#Log_Loss""><strong>로그 손실(Log Loss)</strong></a></li>
-<li><a href=""#L1_regularization""><strong>L<sub>1</sub> 정규화(L1 regularization)</strong></a></li>
-<li><a href=""#L2_regularization""><strong>L<sub>2</sub> 정규화(L2 regularization)</strong></a></li>
+<li><a href=""https://developers.google.com/machine-learning/glossary/#L2_loss""><strong>L<sub>2</sub> 손실(L2 loss)</strong></a></li>
+<li><a href=""https://developers.google.com/machine-learning/glossary/#Log_Loss""><strong>로그 손실(Log Loss)</strong></a></li>
+<li><a href=""https://developers.google.com/machine-learning/glossary/#L1_regularization""><strong>L<sub>1</sub> 정규화(L1 regularization)</strong></a></li>
+<li><a href=""https://developers.google.com/machine-learning/glossary/#L2_regularization""><strong>L<sub>2</sub> 정규화(L2 regularization)</strong></a></li>
 </ul>
-<p><a href=""#gradient_descent""><strong>경사하강법</strong></a>의 여러 가지 변형은
+<p><a href=""https://developers.google.com/machine-learning/glossary/#gradient_descent""><strong>경사하강법</strong></a>의 여러 가지 변형은
 순볼록 함수의 최저점에 가까운 점을 찾도록
 보장합니다.  마찬가지로,
-<a href=""#SGD""><strong>확률적 경사하강법</strong></a>의 여러 변형은
+<a href=""https://developers.google.com/machine-learning/glossary/#SGD""><strong>확률적 경사하강법</strong></a>의 여러 변형은
 순볼록 함수의 최저점에 가까운 점을 찾을 가능성이 높지만
 항상 보장되지는 않습니다.</p>
 <p>두 볼록 함수의 합(예:
 L<sub>2</sub> 손실 + L<sub>1</sub> 정규화)은 볼록 함수입니다.</p>
-<p><a href=""#deep_model""><strong>심층 모델</strong></a>은 어떠한 경우에도 볼록 함수가 아닙니다.
+<p><a href=""https://developers.google.com/machine-learning/glossary/#deep_model""><strong>심층 모델</strong></a>은 어떠한 경우에도 볼록 함수가 아닙니다.
 그럼에도 불구하고
-<a href=""#convex_optimization""><strong>볼록 최적화</strong></a>를 위해 설계된 알고리즘은
+<a href=""https://developers.google.com/machine-learning/glossary/#convex_optimization""><strong>볼록 최적화</strong></a>를 위해 설계된 알고리즘은
 심층 네트워크에서 비교적 양호한 해를 구할 가능성이 높지만,
 이러한 해가 전역 최저점이라는 보장은 없습니다.</p>
 "
 볼록 최적화(convex optimization) (Google의 머신러닝 용어집)|"
-<p><a href=""#gradient_descent""><strong>경사하강법</strong></a> 등의 수학적 기법을 사용하여
-<a href=""#convex_function""><strong>볼록 함수</strong></a>의
+<p><a href=""https://developers.google.com/machine-learning/glossary/#gradient_descent""><strong>경사하강법</strong></a> 등의 수학적 기법을 사용하여
+<a href=""https://developers.google.com/machine-learning/glossary/#convex_function""><strong>볼록 함수</strong></a>의
 최저점을 찾는 과정입니다.
 머신러닝에 대한 연구 중 상당한 비중이 볼록 최적화와 같은
 다양한 문제를 고안하고 효과적인 해법을 찾는 데
@@ -327,23 +327,23 @@ L<sub>2</sub> 손실 + L<sub>1</sub> 정규화)은 볼록 함수입니다.</p>
 <p>수학적으로 간단히 말하면 두 가지 함수가 섞인 것입니다. 머신러닝에서
 컨볼루션은 가중치를 학습시키기 위해 컨볼루셔널 필터와 입력 행렬을
 혼합합니다.</p>
-<p>머신러닝에서 '컨볼루션'이라는 용어는 종종 <a href=""#convolutional_operation""><strong>컨볼루셔널 연산</strong></a>
-또는 <a href=""#convolutional_layer""><strong>컨볼루셔널 레이어</strong></a>를
+<p>머신러닝에서 '컨볼루션'이라는 용어는 종종 <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_operation""><strong>컨볼루셔널 연산</strong></a>
+또는 <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_layer""><strong>컨볼루셔널 레이어</strong></a>를
 짧게 지칭할 때 사용됩니다.</p>
 <p>컨볼루션이 없으면 머신러닝 알고리즘이 큰 텐서의 모든 셀에 있어서
 별도의 가중치를 학습해야 합니다.  예를 들어
 2,000x2,000 크기의 이미지를 학습하는 머신러닝 알고리즘은
 4백만 개의 개별적인 가중치를 찾아야 됩니다. 컨볼루션이 있기 때문에 머신러닝
-알고리즘은 <a href=""#convolutional_filter""><strong>컨볼루셔널 필터</strong></a>에 있는 모든 셀의 가중치만
+알고리즘은 <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_filter""><strong>컨볼루셔널 필터</strong></a>에 있는 모든 셀의 가중치만
 찾아도 되고, 이로 인해 모델 학습에 필요한
 메모리가 크게 줄어듭니다.  컨볼루셔널 필터가 적용되는 경우
 모든 셀에 같은 필터가 적용되며, 각 셀에 필터가
 곱해집니다.</p>
 "
 컨볼루셔널 필터(convolutional filter) (Google의 머신러닝 용어집)|"
-<p><a href=""#convolutional_operation""><strong>컨볼루셔널 연산</strong></a>에서 사용되는
+<p><a href=""https://developers.google.com/machine-learning/glossary/#convolutional_operation""><strong>컨볼루셔널 연산</strong></a>에서 사용되는
 두 가지 중 하나입니다. 다른 하나는
-입력 행렬의 슬라이스입니다. 컨볼루셔널 필터는 입력 행렬과 <a href=""#rank""><strong>순위(차원 수)</strong></a>는 동일하지만
+입력 행렬의 슬라이스입니다. 컨볼루셔널 필터는 입력 행렬과 <a href=""https://developers.google.com/machine-learning/glossary/#rank""><strong>순위(차원 수)</strong></a>는 동일하지만
 모양은 더 작은 행렬입니다.
 예를 들어 입력 행렬이 28x28인 경우 컨볼루셔널 필터는 이보다 작은
 2차원 행렬이 됩니다.</p>
@@ -354,9 +354,9 @@ L<sub>2</sub> 손실 + L<sub>1</sub> 정규화)은 볼록 함수입니다.</p>
 "
 컨볼루셔널 레이어(convolutional layer) (Google의 머신러닝 용어집)|"
 <p>심층신경망의 한 레이어로, 입력 행렬에
-<a href=""#convolutional_filter""><strong>컨볼루셔널 필터</strong></a>를
+<a href=""https://developers.google.com/machine-learning/glossary/#convolutional_filter""><strong>컨볼루셔널 필터</strong></a>를
 적용합니다.  예를 들어 다음과 같은 3x3
-<a href=""#convolutional_filter""><strong>컨볼루셔널 필터</strong></a>가 있다고 생각해 보세요.</p>
+<a href=""https://developers.google.com/machine-learning/glossary/#convolutional_filter""><strong>컨볼루셔널 필터</strong></a>가 있다고 생각해 보세요.</p>
 <p>
 <img src=""/machine-learning/glossary/images/ConvolutionalFilter33.svg"">
 </p>
@@ -372,7 +372,7 @@ L<sub>2</sub> 손실 + L<sub>1</sub> 정규화)은 볼록 함수입니다.</p>
 
 "
 컨볼루셔널 신경망(convolutional neural network) (Google의 머신러닝 용어집)|"
-<p>적어도 하나의 레이어가 <a href=""#convolutional_layer""><strong>컨볼루셔널 레이어</strong></a>인
+<p>적어도 하나의 레이어가 <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_layer""><strong>컨볼루셔널 레이어</strong></a>인
 신경망입니다. 일반적으로 컨볼루셔널 신경망은
 다음과 같은 레이어의 조합으로 구성됩니다.</p>
 <ul>
@@ -386,7 +386,7 @@ L<sub>2</sub> 손실 + L<sub>1</sub> 정규화)은 볼록 함수입니다.</p>
 컨볼루셔널 연산(convolutional operation) (Google의 머신러닝 용어집)|"
 <p>컨볼루셔널 연산은 다음과 같은 2단계 수학 연산입니다.</p>
 <ol>
-<li><a href=""#convolutional_filter""><strong>컨볼루셔널 필터</strong></a> 및 입력 행렬의
+<li><a href=""https://developers.google.com/machine-learning/glossary/#convolutional_filter""><strong>컨볼루셔널 필터</strong></a> 및 입력 행렬의
     슬라이스 등
     요소별 곱셈 (입력 행렬의 슬라이스는 컨벌루셔널 필터와 순위 및 크기가
     동일함)</li>
@@ -409,23 +409,23 @@ L<sub>2</sub> 손실 + L<sub>1</sub> 정규화)은 볼록 함수입니다.</p>
 <img src=""/machine-learning/glossary/images/ConvolutionalLayerOperation.svg"">
 </p>
 
-<p><a href=""#convolutional_layer""><strong>컨볼루셔널 레이어</strong></a>는 일련의 컨볼루셔널
+<p><a href=""https://developers.google.com/machine-learning/glossary/#convolutional_layer""><strong>컨볼루셔널 레이어</strong></a>는 일련의 컨볼루셔널
 연산으로 이루어지며, 각 연산은 입력 행렬의
 서로 다른 슬라이스에 적용됩니다.</p>
 "
 비용(cost) (Google의 머신러닝 용어집)|"
-<p><a href=""#loss""><strong>손실</strong></a>의 동의어입니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>손실</strong></a>의 동의어입니다.</p>
 "
 교차 엔트로피(cross-entropy) (Google의 머신러닝 용어집)|"
-<p><a href=""#multi-class""><strong>다중 클래스 분류 문제</strong></a>로 일반화한
-<a href=""#Log_Loss""><strong>로그 손실</strong></a>입니다. 교차 엔트로피는
-두 확률 분포 간의 차이를 계량합니다.  <a href=""#perplexity""><strong>퍼플렉시티</strong></a>를
+<p><a href=""https://developers.google.com/machine-learning/glossary/#multi-class""><strong>다중 클래스 분류 문제</strong></a>로 일반화한
+<a href=""https://developers.google.com/machine-learning/glossary/#Log_Loss""><strong>로그 손실</strong></a>입니다. 교차 엔트로피는
+두 확률 분포 간의 차이를 계량합니다.  <a href=""https://developers.google.com/machine-learning/glossary/#perplexity""><strong>퍼플렉시티</strong></a>를
 참조하세요.</p>
 "
 맞춤 에스티메이터(custom Estimator) (Google의 머신러닝 용어집)|"
 <p><a href=""https://www.tensorflow.org/extend/estimators"">이러한 방향</a>을 따라 직접 작성하는
-<a href=""#Estimators""><strong>에스티메이터</strong></a>입니다.</p>
-<p><a href=""#pre-made_Estimator""><strong>사전 제작된 에스티메이터</strong></a>와 대비되는 개념입니다.</p>
+<a href=""https://developers.google.com/machine-learning/glossary/#Estimators""><strong>에스티메이터</strong></a>입니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#pre-made_Estimator""><strong>사전 제작된 에스티메이터</strong></a>와 대비되는 개념입니다.</p>
 
 "
 데이터 분석(data analysis) (Google의 머신러닝 용어집)|"
@@ -441,12 +441,12 @@ DataFrame (Google의 머신러닝 용어집)|"
 각 행은 숫자로 식별됩니다.</p>
 "
 데이터 세트(data set) (Google의 머신러닝 용어집)|"
-<p><a href=""#example""><strong>예시</strong></a>를 모아 놓은 집합입니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#example""><strong>예시</strong></a>를 모아 놓은 집합입니다.</p>
 "
 Dataset API(tf.data) (Google의 머신러닝 용어집)|"
 <p>데이터를 읽고 머신러닝 알고리즘이 요구하는 형태로 변환하는
 상위레벨의 TensorFlow API입니다. <code>tf.data.Dataset</code> 개체는
-일련의 요소를 나타내며, 각 요소는 하나 이상의 <a href=""#tensor""><strong>텐서</strong></a>를
+일련의 요소를 나타내며, 각 요소는 하나 이상의 <a href=""https://developers.google.com/machine-learning/glossary/#tensor""><strong>텐서</strong></a>를
 포함합니다. <code>tf.data.Iterator</code> 개체는 <code>Dataset</code>의 요소에 대한
 액세스를 제공합니다.</p>
 <p>Dataset API에 관한 자세한 내용은 텐서플로우
@@ -454,8 +454,8 @@ Dataset API(tf.data) (Google의 머신러닝 용어집)|"
 <a href=""https://www.tensorflow.org/programmers_guide/datasets"">데이터 가져오기</a>를 참조하세요.</p>
 "
 결정 경계(decision boundary) (Google의 머신러닝 용어집)|"
-<p><a href=""#binary_classification""><strong>이진 클래스</strong></a> 또는
-<a href=""#multi-class""><strong>다중 클래스 분류 문제</strong></a>에서
+<p><a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>이진 클래스</strong></a> 또는
+<a href=""https://developers.google.com/machine-learning/glossary/#multi-class""><strong>다중 클래스 분류 문제</strong></a>에서
 모델이 학습한 클래스 사이의 구분선입니다. 예를 들어 아래 그림과 같은 이진 분류 문제의 경우 결정 경계는 주황색 클래스와 파란색 클래스 사이의 경계선입니다.</p>
 <p>
 <img src=""/machine-learning/glossary/images/decision_boundary.png"" alt=""클래스 간에 잘 정의된 경계입니다.""/>
@@ -463,17 +463,17 @@ Dataset API(tf.data) (Google의 머신러닝 용어집)|"
 
 "
 밀집 레이어(dense layer) (Google의 머신러닝 용어집)|"
-<p><a href=""#fully_connected_layer""><strong>완전 연결 레이어</strong></a>의 동의어입니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#fully_connected_layer""><strong>완전 연결 레이어</strong></a>의 동의어입니다.</p>
 "
 심층 모델(deep model) (Google의 머신러닝 용어집)|"
-<p>여러 <a href=""#hidden_layer""><strong>히든 레이어</strong></a>를 포함하는 <a href=""#neural_network""><strong>신경망</strong></a>
+<p>여러 <a href=""https://developers.google.com/machine-learning/glossary/#hidden_layer""><strong>히든 레이어</strong></a>를 포함하는 <a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>신경망</strong></a>
 유형입니다. 심층 모델은 학습 가능한 비선형성에
 의존합니다.</p>
-<p><a href=""#wide_model""><strong>와이드 모델</strong></a>과 대비되는 개념입니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#wide_model""><strong>와이드 모델</strong></a>과 대비되는 개념입니다.</p>
 "
 밀집 특성(dense feature) (Google의 머신러닝 용어집)|"
 <p>대부분의 값이 0이 아니고 일반적으로 부동 소수점 값의
-<a href=""#tensor""><strong>텐서</strong></a>로 이루어진 <a href=""#feature""><strong>특성</strong></a>입니다. <a href=""#sparse_features""><strong>희소 특성</strong></a>과 대비되는
+<a href=""https://developers.google.com/machine-learning/glossary/#tensor""><strong>텐서</strong></a>로 이루어진 <a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>특성</strong></a>입니다. <a href=""https://developers.google.com/machine-learning/glossary/#sparse_features""><strong>희소 특성</strong></a>과 대비되는
 개념입니다.</p>
 "
 기기(device) (Google의 머신러닝 용어집)|"
@@ -481,27 +481,27 @@ Dataset API(tf.data) (Google의 머신러닝 용어집)|"
 카테고리입니다.</p>
 "
 불연속 특성(discrete feature) (Google의 머신러닝 용어집)|"
-<p>가능한 값의 유한 집합을 갖는 <a href=""#feature""><strong>특성</strong></a>입니다. 예를 들어
+<p>가능한 값의 유한 집합을 갖는 <a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>특성</strong></a>입니다. 예를 들어
 값이 <em>동물</em>, <em>식물</em>, <em>광물</em> 중 하나여야 하는 특성은
-불연속 또는 범주형 특성입니다. <a href=""#continuous_feature""><strong>연속 특성</strong></a>과 대비되는
+불연속 또는 범주형 특성입니다. <a href=""https://developers.google.com/machine-learning/glossary/#continuous_feature""><strong>연속 특성</strong></a>과 대비되는
 개념입니다.</p>
 "
 드롭아웃 정규화(dropout regularization) (Google의 머신러닝 용어집)|"
-<p><a href=""#neural_network""><strong>신경망</strong></a>을 학습시키는 데 유용한 <a href=""#regularization""><strong>정규화</strong></a>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>신경망</strong></a>을 학습시키는 데 유용한 <a href=""https://developers.google.com/machine-learning/glossary/#regularization""><strong>정규화</strong></a>
 형태입니다. 드롭아웃 정규화를 사용하면 단일 경사 스텝이 일어날 때마다 특정 네트워크 레이어의 유닛을 고정된 개수만큼 무작위로 선택하여 삭제합니다. 드롭아웃하는 유닛이 많을수록 정규화가
 강력해집니다. 이 방식은 네트워크를 학습시켜 더 작은 네트워크로 이루어진 대규모 앙상블을 모방하도록 하는 방식과 비슷합니다. 자세한 내용은
 <a href=""http://jmlr.org/papers/volume15/srivastava14a.old/srivastava14a.pdf"">드롭아웃: 신경망의 과적합을 방지하는 간단한 방법</a>을 참조하세요.</p>
 "
 동적 모델(dynamic model) (Google의 머신러닝 용어집)|"
 <p>온라인으로 학습되며 지속적으로 업데이트되는
-<a href=""#model""><strong>모델</strong></a>입니다.  즉, 데이터가 끊임없이 모델에 유입됩니다.</p>
+<a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>모델</strong></a>입니다.  즉, 데이터가 끊임없이 모델에 유입됩니다.</p>
 
 "
 조기 중단(early stopping) (Google의 머신러닝 용어집)|"
-<p>학습 손실이 완전히 감소되기 <a href=""#regularization""><strong>전에</strong></a> 모델 학습이
+<p>학습 손실이 완전히 감소되기 <a href=""https://developers.google.com/machine-learning/glossary/#regularization""><strong>전에</strong></a> 모델 학습이
 종료되는 <em>정규화</em> 방식입니다. 조기
-중단에서는 <a href=""#validation_set""><strong>검증 데이터 세트</strong></a>의 손실이 증가하기 시작할 때,
-즉 <a href=""#generalization""><strong>일반화</strong></a> 성능이 악화될 때 모델 학습을 종료합니다.</p>
+중단에서는 <a href=""https://developers.google.com/machine-learning/glossary/#validation_set""><strong>검증 데이터 세트</strong></a>의 손실이 증가하기 시작할 때,
+즉 <a href=""https://developers.google.com/machine-learning/glossary/#generalization""><strong>일반화</strong></a> 성능이 악화될 때 모델 학습을 종료합니다.</p>
 "
 임베딩(embeddings) (Google의 머신러닝 용어집)|"
 <p>연속 값 특성으로 표현된 범주형 특성입니다.
@@ -510,7 +510,7 @@ Dataset API(tf.data) (Google의 머신러닝 용어집)|"
 다음 두 가지 방법 중 하나로 표현할 수 있습니다.</p>
 <ul>
 <li>백만 개의 요소를 갖는(고차원)
-    <a href=""#sparse_features""><strong>희소 벡터</strong></a>로 표현합니다. 모든 요소는 정수입니다.
+    <a href=""https://developers.google.com/machine-learning/glossary/#sparse_features""><strong>희소 벡터</strong></a>로 표현합니다. 모든 요소는 정수입니다.
     벡터의 각 셀은 서로 다른 영어 단어를 나타내며, 셀 값은
     해당 단어가 문장에서 나오는 횟수를 나타냅니다.
     영어 문장 하나에 포함되는 단어 수는 대개 50개 이하이므로
@@ -518,23 +518,23 @@ Dataset API(tf.data) (Google의 머신러닝 용어집)|"
     해당 단어가 문장에서 나오는 횟수를 나타내는 낮은 정수(일반적으로 1)를
     포함합니다.</li>
 <li>수백 개의 요소를 갖는(저차원)
-    <a href=""#dense_feature""><strong>밀집 벡터</strong></a>로 표현합니다. 각 요소는 0~1 범위의
+    <a href=""https://developers.google.com/machine-learning/glossary/#dense_feature""><strong>밀집 벡터</strong></a>로 표현합니다. 각 요소는 0~1 범위의
     부동 소수점 값을 갖습니다.  이는 임베딩의 예입니다.</li>
 </ul>
-<p>텐서플로우에서는 <a href=""#neural_network""><strong>신경망</strong></a>의 다른 매개변수와 마찬가지로
-<a href=""#backpropagation""><strong>역전파</strong></a>
-<a href=""#loss""><strong>손실</strong></a>을 통해 임베딩을 학습합니다.</p>
+<p>텐서플로우에서는 <a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>신경망</strong></a>의 다른 매개변수와 마찬가지로
+<a href=""https://developers.google.com/machine-learning/glossary/#backpropagation""><strong>역전파</strong></a>
+<a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>손실</strong></a>을 통해 임베딩을 학습합니다.</p>
 "
 경험적 위험 최소화(ERM, empirical risk minimization) (Google의 머신러닝 용어집)|"
-<p>학습 세트에서 손실을 최소화하는 함수를 선택함을 의미합니다. <a href=""#SRM""><strong>구조적 위험 최소화</strong></a>와
+<p>학습 세트에서 손실을 최소화하는 함수를 선택함을 의미합니다. <a href=""https://developers.google.com/machine-learning/glossary/#SRM""><strong>구조적 위험 최소화</strong></a>와
 대비되는 개념입니다.</p>
 "
 앙상블(ensemble) (Google의 머신러닝 용어집)|"
-<p>여러 <a href=""#model""><strong>모델</strong></a>의 예측을 병합한 결과입니다. 다음 중
+<p>여러 <a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>모델</strong></a>의 예측을 병합한 결과입니다. 다음 중
 하나 이상을 통해 앙상블을 만들 수 있습니다.</p>
 <ul>
 <li>서로 다른 초기화</li>
-<li>서로 다른 <a href=""#hyperparameter""><strong>초매개변수</strong></a></li>
+<li>서로 다른 <a href=""https://developers.google.com/machine-learning/glossary/#hyperparameter""><strong>초매개변수</strong></a></li>
 <li>서로 다른 전체 구조</li>
 </ul>
 <p><a href=""https://www.tensorflow.org/tutorials/wide_and_deep"">심층 모델 및 와이드 모델</a>도
@@ -542,38 +542,38 @@ Dataset API(tf.data) (Google의 머신러닝 용어집)|"
 "
 세대(epoch) (Google의 머신러닝 용어집)|"
 <p>전체 데이터 세트의 각 예를 한 번씩 확인한 전체 학습
-단계입니다.  따라서 한 세대(이폭)는 <code>N</code>/<a href=""#batch_size""><strong>배치 크기</strong></a> 학습
-<a href=""#iteration""><strong>반복</strong></a>을 나타내며, 여기에서 <code>N</code>은 총 예시 수입니다.</p>
+단계입니다.  따라서 한 세대(이폭)는 <code>N</code>/<a href=""https://developers.google.com/machine-learning/glossary/#batch_size""><strong>배치 크기</strong></a> 학습
+<a href=""https://developers.google.com/machine-learning/glossary/#iteration""><strong>반복</strong></a>을 나타내며, 여기에서 <code>N</code>은 총 예시 수입니다.</p>
 "
 에스티메이터(Estimator) (Google의 머신러닝 용어집)|"
 <p><code>tf.Estimator</code> 클래스의 인스턴스로서, 텐서플로우 그래프를
 작성하고 텐서플로우 세션(session)을 실행하는 로직을 캡슐화합니다. <a href=""https://www.tensorflow.org/extend/estimators"">여기</a>에서
-설명한 것과 같이 나만의 <a href=""#custom_estimator""><strong>맞춤 에스티메이터</strong></a>를
+설명한 것과 같이 나만의 <a href=""https://developers.google.com/machine-learning/glossary/#custom_estimator""><strong>맞춤 에스티메이터</strong></a>를
 만들거나
-다른 사용자가 작성한 <a href=""#pre-made_Estimator""><strong>사전 제작된 에스티메이터</strong></a>를
+다른 사용자가 작성한 <a href=""https://developers.google.com/machine-learning/glossary/#pre-made_Estimator""><strong>사전 제작된 에스티메이터</strong></a>를
 인스턴스화할 수 있습니다.</p>
 "
 예(example) (Google의 머신러닝 용어집)|"
-<p>데이터 세트의 한 행입니다. 예는 하나 이상의 <a href=""#feature""><strong>특성</strong></a>을 포함하며,
-<a href=""#label""><strong>라벨</strong></a>을 포함할 수도 있습니다. <a href=""#labeled_example""><strong>라벨이 있는 예</strong></a> 및
-<a href=""#unlabeled_example""><strong>라벨이 없는 예</strong></a>를
+<p>데이터 세트의 한 행입니다. 예는 하나 이상의 <a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>특성</strong></a>을 포함하며,
+<a href=""https://developers.google.com/machine-learning/glossary/#label""><strong>라벨</strong></a>을 포함할 수도 있습니다. <a href=""https://developers.google.com/machine-learning/glossary/#labeled_example""><strong>라벨이 있는 예</strong></a> 및
+<a href=""https://developers.google.com/machine-learning/glossary/#unlabeled_example""><strong>라벨이 없는 예</strong></a>를
 참조하세요.</p>
 
 "
 거짓부정(FN, false negative) (Google의 머신러닝 용어집)|"
-<p>모델에서 <a href=""#negative_class""><strong>네거티브 클래스</strong></a>로 잘못 예측한
+<p>모델에서 <a href=""https://developers.google.com/machine-learning/glossary/#negative_class""><strong>네거티브 클래스</strong></a>로 잘못 예측한
 예입니다. 예를 들어 모델에서
 특정 이메일 메시지가 스팸이 아닌 것으로(네거티브 클래스)
 추론했지만 실제로는 스팸인 경우가 여기에 해당합니다.</p>
 "
 거짓긍정(FP, false positive) (Google의 머신러닝 용어집)|"
-<p>모델에서 <a href=""#positive_class""><strong>포지티브 클래스</strong></a>로 잘못 예측한
+<p>모델에서 <a href=""https://developers.google.com/machine-learning/glossary/#positive_class""><strong>포지티브 클래스</strong></a>로 잘못 예측한
 예입니다. 예를 들어 모델에서
 특정 이메일 메시지가 스팸인 것으로(포지티브 클래스)
 추론했지만 실제로는 스팸이 아닌 경우가 여기에 해당합니다.</p>
 "
 거짓긍정률(FP rate, false positive rate) (Google의 머신러닝 용어집)|"
-<p><a href=""#ROC""><strong>ROC 곡선</strong></a>의 x축입니다. FP 비율은 다음과 같이 정의됩니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#ROC""><strong>ROC 곡선</strong></a>의 x축입니다. FP 비율은 다음과 같이 정의됩니다.</p>
 <div>
 $$\text{거짓긍정률} =
 \frac{\text{거짓긍정}}{\text{거짓긍정} + \text{참부정}}$$
@@ -581,11 +581,11 @@ $$\text{거짓긍정률} =
 
 "
 특성(feature) (Google의 머신러닝 용어집)|"
-<p><a href=""#prediction""><strong>예측</strong></a>을 수행하는 데 사용되는 입력 변수입니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#prediction""><strong>예측</strong></a>을 수행하는 데 사용되는 입력 변수입니다.</p>
 "
 특성 열(Feature column, tf.feature_column) (Google의 머신러닝 용어집)|"
 <p>모델에서 특정한 특성을 어떻게 해석해야 하는지 지정하는 함수입니다. 특성 함수
-호출에 반환된 출력을 수집하는 목록은 모든 <a href=""#Estimators""><strong>에스티메이터</strong></a> 생성자에게
+호출에 반환된 출력을 수집하는 목록은 모든 <a href=""https://developers.google.com/machine-learning/glossary/#Estimators""><strong>에스티메이터</strong></a> 생성자에게
 필수 매개변수입니다.</p>
 <p>모델에서 <code>tf.feature_column</code> 함수를 사용하면 입력 특성의 여러 가지 표현을
 간편하게 실험할 수 있습니다. 자세한 내용은
@@ -599,25 +599,25 @@ Yahoo/Microsoft의 <a href=""https://en.wikipedia.org/wiki/Vowpal_Wabbit"">VW</a
 "
 특성 교차(feature cross) (Google의 머신러닝 용어집)|"
 <p>범주형 데이터나 버케팅을 통한 연속 특성으로 부터 얻어진 개별 이진 특성들을
-(데카르트 곱을 취해) 교차해 얻은 <a href=""#synthetic_feature""><strong>합성 특성</strong></a>입니다. 특성 교차는 비선형 관계를
+(데카르트 곱을 취해) 교차해 얻은 <a href=""https://developers.google.com/machine-learning/glossary/#synthetic_feature""><strong>합성 특성</strong></a>입니다. 특성 교차는 비선형 관계를
 표현하는 데 도움이 됩니다.</p>
 "
 특성 추출(feature engineering) (Google의 머신러닝 용어집)|"
-<p>모델을 학습시키는 데 유용할 <a href=""#feature""><strong>특성</strong></a>이 무엇인지 판단하고
+<p>모델을 학습시키는 데 유용할 <a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>특성</strong></a>이 무엇인지 판단하고
 로그 파일 및 기타 소스의 원시 데이터를 해당 특성으로
 변환하는 과정입니다. 텐서플로우에서 특성 추출은 일반적으로
-원시 로그 파일 항목을 <a href=""#tf.Example""><strong>tf.Example</strong></a>
+원시 로그 파일 항목을 <a href=""https://developers.google.com/machine-learning/glossary/#tf.Example""><strong>tf.Example</strong></a>
 프로토콜 버퍼로 변환하는 작업을 의미합니다.  <a href=""https://github.com/tensorflow/transform"">tf.Transform</a>도
 참조하세요.</p>
 <p>특성 추출을 <strong>특성 뽑아내기(extraction)</strong>라고도 합니다.</p>
 "
 특성 세트(feature set) (Google의 머신러닝 용어집)|"
-<p>머신러닝 모델에서 학습에 사용하는 <a href=""#feature""><strong>특성</strong></a> 그룹입니다.
+<p>머신러닝 모델에서 학습에 사용하는 <a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>특성</strong></a> 그룹입니다.
 예를 들어 우편번호, 택지 규모, 입지 조건으로 단일 특성 세트를
 구성하여 주택 가격을 예측하는 모델에 사용할 수 있습니다.</p>
 "
 특성 사양(feature spec) (Google의 머신러닝 용어집)|"
-<p><a href=""#feature""><strong>특성</strong></a> 데이터를 <a href=""#tf.Example""><strong>tf.Example</strong></a> 프로토콜 버퍼에서 추출하는 데
+<p><a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>특성</strong></a> 데이터를 <a href=""https://developers.google.com/machine-learning/glossary/#tf.Example""><strong>tf.Example</strong></a> 프로토콜 버퍼에서 추출하는 데
 필요한 정보를 기술합니다. tf.Example
 프로토콜 버퍼는 데이터의 컨테이너에 불과하므로 다음 정보를
 지정해야 합니다.</p>
@@ -626,7 +626,7 @@ Yahoo/Microsoft의 <a href=""https://en.wikipedia.org/wiki/Vowpal_Wabbit"">VW</a
 <li>데이터 유형(예: float 또는 int)</li>
 <li>길이(고정 또는 가변)</li>
 </ul>
-<p><a href=""#Estimators""><strong>Estimator API</strong></a>는 <a href=""#feature_columns""><strong>FeatureColumns</strong></a> 목록으로부터
+<p><a href=""https://developers.google.com/machine-learning/glossary/#Estimators""><strong>Estimator API</strong></a>는 <a href=""https://developers.google.com/machine-learning/glossary/#feature_columns""><strong>FeatureColumns</strong></a> 목록으로부터
 특성 사양을 생성하는
 기능을 제공합니다.</p>
 "
@@ -634,16 +634,16 @@ Yahoo/Microsoft의 <a href=""https://en.wikipedia.org/wiki/Vowpal_Wabbit"">VW</a
 <p>객체 분류에 자주 사용되는 머신러닝 접근방식으로서
 학습 예제 데이터가 적은 경우에서도 분류기를 효과적으로
 학습하는 것을 목적으로 합니다.</p>
-<p><a href=""#one-shot_learning""><strong>원샷 학습</strong></a>을 참조하세요.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#one-shot_learning""><strong>원샷 학습</strong></a>을 참조하세요.</p>
 "
 전체 소프트맥스(full softmax) (Google의 머신러닝 용어집)|"
-<p><a href=""#softmax""><strong>소프트맥스</strong></a>를 참조하세요. <a href=""#candidate_sampling""><strong>후보 샘플링</strong></a>과
+<p><a href=""https://developers.google.com/machine-learning/glossary/#softmax""><strong>소프트맥스</strong></a>를 참조하세요. <a href=""https://developers.google.com/machine-learning/glossary/#candidate_sampling""><strong>후보 샘플링</strong></a>과
 대비되는 개념입니다.</p>
 "
 완전 연결 레이어(fully connected layer) (Google의 머신러닝 용어집)|"
-<p>각 <a href=""#node""><strong>노드</strong></a>가 후속 히든 레이어의
-<em>모든</em> 노드에 연결된 <a href=""#hidden_layer""><strong>히든 레이어</strong></a>입니다.</p>
-<p>완전 연결 레이어를 <a href=""#dense_layer""><strong>밀집 레이어</strong></a>라고도 합니다.</p>
+<p>각 <a href=""https://developers.google.com/machine-learning/glossary/#node""><strong>노드</strong></a>가 후속 히든 레이어의
+<em>모든</em> 노드에 연결된 <a href=""https://developers.google.com/machine-learning/glossary/#hidden_layer""><strong>히든 레이어</strong></a>입니다.</p>
+<p>완전 연결 레이어를 <a href=""https://developers.google.com/machine-learning/glossary/#dense_layer""><strong>밀집 레이어</strong></a>라고도 합니다.</p>
 
 "
 일반화(generalization) (Google의 머신러닝 용어집)|"
@@ -652,13 +652,13 @@ Yahoo/Microsoft의 <a href=""https://en.wikipedia.org/wiki/Vowpal_Wabbit"">VW</a
 "
 일반화 선형 모형(generalized linear model) (Google의 머신러닝 용어집)|"
 <p><a href=""https://en.wikipedia.org/wiki/Gaussian_noise"">가우스 잡음</a>에 기초한
-<a href=""#least_squares_regression""><strong>최소 제곱 회귀</strong></a>모델을
+<a href=""https://developers.google.com/machine-learning/glossary/#least_squares_regression""><strong>최소 제곱 회귀</strong></a>모델을
 <a href=""https://en.wikipedia.org/wiki/Shot_noise"">푸아송 잡음</a>,
 범주형 잡음 등의 여타 잡음 유형에 기초한
 다른 모델 유형으로
 일반화한 결과물입니다. 일반화 선형 모델의 예는 다음과 같습니다.</p>
 <ul>
-<li><a href=""#logistic_regression""><strong>로지스틱 회귀</strong></a></li>
+<li><a href=""https://developers.google.com/machine-learning/glossary/#logistic_regression""><strong>로지스틱 회귀</strong></a></li>
 <li>다중 클래스 회귀</li>
 <li>최소 제곱 회귀</li>
 </ul>
@@ -676,20 +676,20 @@ Yahoo/Microsoft의 <a href=""https://en.wikipedia.org/wiki/Vowpal_Wabbit"">VW</a
 "
 경사(gradient) (Google의 머신러닝 용어집)|"
 <p>모든 독립 변수를 기준으로 한
-<a href=""#partial_derivative""><strong>편미분</strong></a>의 벡터입니다.  머신러닝에서 경사는
+<a href=""https://developers.google.com/machine-learning/glossary/#partial_derivative""><strong>편미분</strong></a>의 벡터입니다.  머신러닝에서 경사는
 모델 함수의 편미분의 벡터입니다.  경사는 가장 급격한
 상승 방향을 가리킵니다.</p>
 "
 경사 제한(gradient clipping) (Google의 머신러닝 용어집)|"
-<p><a href=""#gradient""><strong>경사</strong></a> 값을 적용하기 전에 제한을 둡니다. 경사 제한은
+<p><a href=""https://developers.google.com/machine-learning/glossary/#gradient""><strong>경사</strong></a> 값을 적용하기 전에 제한을 둡니다. 경사 제한은
 수치적 안정성을 보장하고 <a href=""http://www.cs.toronto.edu/~rgrosse/courses/csc321_2017/readings/L15%20Exploding%20and%20Vanishing%20Gradients.pdf"">경사 발산</a>을 예방하는 데
 도움이 됩니다.</p>
 "
 경사하강법(gradient descent) (Google의 머신러닝 용어집)|"
 <p>학습 데이터의 조건에 따라 모델의 매개변수를 기준으로
-손실의 경사를 계산하여 <a href=""#loss""><strong>손실</strong></a>을 최소화하는 기법입니다.
+손실의 경사를 계산하여 <a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>손실</strong></a>을 최소화하는 기법입니다.
 쉽게 설명하면, 경사하강법은 매개변수를 반복적으로 조정하면서
-손실을 최소화하는 <a href=""#weight""><strong>가중치</strong></a>와 편향의 가장 적절한 조합을 점진적으로
+손실을 최소화하는 <a href=""https://developers.google.com/machine-learning/glossary/#weight""><strong>가중치</strong></a>와 편향의 가장 적절한 조합을 점진적으로
 찾는 방식입니다.</p>
 "
 그래프(graph) (Google의 머신러닝 용어집)|"
@@ -697,7 +697,7 @@ Yahoo/Microsoft의 <a href=""https://en.wikipedia.org/wiki/Vowpal_Wabbit"">VW</a
 연산을 의미합니다. 엣지는 방향성을 가지며, 연산의 결과(<a href=""https://www.tensorflow.org/api_docs/python/tf/Tensor"">텐서</a>)를
 다른 연산의
 피연산자로 전달함을
-의미합니다. <a href=""#TensorBoard""><strong>텐서보드</strong></a>를
+의미합니다. <a href=""https://developers.google.com/machine-learning/glossary/#TensorBoard""><strong>텐서보드</strong></a>를
 사용하여 그래프를 시각화할 수 있습니다.</p>
 
 "
@@ -706,17 +706,17 @@ Yahoo/Microsoft의 <a href=""https://en.wikipedia.org/wiki/Vowpal_Wabbit"">VW</a
 실용적인 해법입니다.</p>
 "
 히든 레이어(hidden layer) (Google의 머신러닝 용어집)|"
-<p><a href=""#neural_network""><strong>신경망</strong></a>에서 <a href=""#input_layer""><strong>입력 레이어</strong></a>(특성)와
-<a href=""#output_layer""><strong>출력 레이어</strong></a>(예측) 사이에 위치하는
+<p><a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>신경망</strong></a>에서 <a href=""https://developers.google.com/machine-learning/glossary/#input_layer""><strong>입력 레이어</strong></a>(특성)와
+<a href=""https://developers.google.com/machine-learning/glossary/#output_layer""><strong>출력 레이어</strong></a>(예측) 사이에 위치하는
 합성 레이어입니다. 신경망에 하나 이상의
 히든 레이어가 포함될 수 있습니다.</p>
 "
 힌지 손실(hinge loss) (Google의 머신러닝 용어집)|"
 <p>각 학습 예에서 최대한 멀리 떨어진
-<a href=""#loss""><strong>결정 경계</strong></a>를 구하여 예와 경계 사이의
+<a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>결정 경계</strong></a>를 구하여 예와 경계 사이의
 간격을 최대화하도록 고안된
-<a href=""#classification_model""><strong>분류</strong></a>의 <a href=""#decision_boundary""><strong>손실</strong></a> 함수군입니다.
-<a href=""#KSVMs""><strong>KSVM</strong></a>은 힌지 손실을 사용하거나 제곱 힌지 손실 등의
+<a href=""https://developers.google.com/machine-learning/glossary/#classification_model""><strong>분류</strong></a>의 <a href=""https://developers.google.com/machine-learning/glossary/#decision_boundary""><strong>손실</strong></a> 함수군입니다.
+<a href=""https://developers.google.com/machine-learning/glossary/#KSVMs""><strong>KSVM</strong></a>은 힌지 손실을 사용하거나 제곱 힌지 손실 등의
 관련 함수를 사용합니다. 이진 분류에서는 힌지 손실 함수가 다음과 같이
 정의됩니다.</p>
 <div>
@@ -736,9 +736,9 @@ $$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 
 "
 홀드아웃 데이터(holdout data) (Google의 머신러닝 용어집)|"
-<p>학습 중에 의도적으로 사용하지 않은('홀드아웃된') <a href=""#example""><strong>예</strong></a>입니다.
-<a href=""#validation_set""><strong>검증 데이터 세트</strong></a>와
-<a href=""#test_set""><strong>테스트 데이터 세트</strong></a>는 홀드아웃 데이터의 예입니다. 홀드아웃 데이터는
+<p>학습 중에 의도적으로 사용하지 않은('홀드아웃된') <a href=""https://developers.google.com/machine-learning/glossary/#example""><strong>예</strong></a>입니다.
+<a href=""https://developers.google.com/machine-learning/glossary/#validation_set""><strong>검증 데이터 세트</strong></a>와
+<a href=""https://developers.google.com/machine-learning/glossary/#test_set""><strong>테스트 데이터 세트</strong></a>는 홀드아웃 데이터의 예입니다. 홀드아웃 데이터는
 학습에 사용하지 않은 데이터에 대한 모델의 일반화 능력을 평가하는 데
 도움이 됩니다. 홀드아웃 세트의 손실은 학습 데이터의 손실보다
 이전에 접하지 못한 데이터의 손실을 더 우수하게
@@ -748,14 +748,14 @@ $$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 <p>모델 학습을 연속적으로 실행하는 중에 사용자 본인
 에 의해
 조작되는 '손잡이'입니다. 예를 들어
-<a href=""#learning_rate""><strong>학습률</strong></a>은 초매개변수 중 하나입니다.</p>
-<p><a href=""#parameter""><strong>매개변수</strong></a>와 대비되는 개념입니다.</p>
+<a href=""https://developers.google.com/machine-learning/glossary/#learning_rate""><strong>학습률</strong></a>은 초매개변수 중 하나입니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#parameter""><strong>매개변수</strong></a>와 대비되는 개념입니다.</p>
 "
 초평면(hyperplane) (Google의 머신러닝 용어집)|"
 <p>한 공간을 두 부분공간으로 나누는 경계입니다.  예를 들어 직선은
 2차원의 초평면이고 평면은 3차원의 초평면입니다.
 머신러닝에서 통용되는 초평면의 의미는 고차원 공간을
-나누는 경계입니다.  <a href=""#KSVMs""><strong>커널 서포트 벡터 머신</strong></a>은
+나누는 경계입니다.  <a href=""https://developers.google.com/machine-learning/glossary/#KSVMs""><strong>커널 서포트 벡터 머신</strong></a>은
 일반적으로 초고차원 공간에서 초평면을 사용하여 포지티브 클래스와
 네거티브 클래스를 구분합니다.</p>
 
@@ -771,29 +771,29 @@ i.i.d.일 수 있습니다. 즉, 짧은 기간에는 분포가 변하지 않으�
 방문자 수에 계절적인 편차가 나타날 수 있습니다.</p>
 "
 추론(inference) (Google의 머신러닝 용어집)|"
-<p>머신러닝에서는 학습된 모델을 <a href=""#unlabeled_example""><strong>라벨이 없는 예</strong></a>에 적용하여
+<p>머신러닝에서는 학습된 모델을 <a href=""https://developers.google.com/machine-learning/glossary/#unlabeled_example""><strong>라벨이 없는 예</strong></a>에 적용하여
 예측을 수행하는 과정을 의미할 때가 많습니다.
 통계학에서는 특정한 관찰 데이터에 맞게 분포의 매개변수를
 조정하는 과정을 의미합니다. <a href=""https://en.wikipedia.org/wiki/Statistical_inference"">통계적
 추론에 대한 위키백과 문서</a>를 참조하세요.</p>
 "
 입력 함수(input function) (Google의 머신러닝 용어집)|"
-<p>텐서플로우에서 입력 데이터를 <a href=""#Estimators""><strong>에스티메이터</strong></a>의 학습, 평가 또는
+<p>텐서플로우에서 입력 데이터를 <a href=""https://developers.google.com/machine-learning/glossary/#Estimators""><strong>에스티메이터</strong></a>의 학습, 평가 또는
 예측 방법으로 반환하는 함수입니다.  예를 들어
-학습 입력 함수는 <a href=""#batch""><strong>학습 세트</strong></a>의 특성 및 라벨로 이루어진
-<a href=""#training_set""><strong>배치</strong></a>를 반환합니다.</p>
+학습 입력 함수는 <a href=""https://developers.google.com/machine-learning/glossary/#batch""><strong>학습 세트</strong></a>의 특성 및 라벨로 이루어진
+<a href=""https://developers.google.com/machine-learning/glossary/#training_set""><strong>배치</strong></a>를 반환합니다.</p>
 "
 입력 레이어(input layer) (Google의 머신러닝 용어집)|"
-<p><a href=""#neural_network""><strong>신경망</strong></a>의 첫 번째 레이어로서 입력 데이터를
+<p><a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>신경망</strong></a>의 첫 번째 레이어로서 입력 데이터를
 수신합니다.</p>
 "
 인스턴스(instance) (Google의 머신러닝 용어집)|"
-<p><a href=""#example""><strong>예</strong></a>의 동의어입니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#example""><strong>예</strong></a>의 동의어입니다.</p>
 "
 해석 가능성(interpretability) (Google의 머신러닝 용어집)|"
 <p>모델의 예측을 사람이 어느 정도까지 설명할 수 있는지를 나타냅니다. 심층 모델은
 해석할 수 없는 경우가 많습니다. 즉, 심층 모델의 여러 레이어를 사람이 알아보기는
-어려울 수 있습니다. 반면, 선형 회귀 모형 및 <a href=""#wide_model""><strong>와이드
+어려울 수 있습니다. 반면, 선형 회귀 모형 및 <a href=""https://developers.google.com/machine-learning/glossary/#wide_model""><strong>와이드
 모델</strong></a>은 일반적으로 해석 가능성이 훨씬 더 높습니다.</p>
 "
 평가자 간 동의(inter-rater agreement) (Google의 머신러닝 용어집)|"
@@ -806,15 +806,15 @@ i.i.d.일 수 있습니다. 즉, 짧은 기간에는 분포가 변하지 않으�
 "
 반복(iteration) (Google의 머신러닝 용어집)|"
 <p>학습 중에 모델의 가중치를 한 번 업데이트하는 작업입니다.  반복은
-데이터 <a href=""#batch""><strong>배치</strong></a> 하나의 손실을 기준으로 매개변수의 경사를 계산하는 작업으로
+데이터 <a href=""https://developers.google.com/machine-learning/glossary/#batch""><strong>배치</strong></a> 하나의 손실을 기준으로 매개변수의 경사를 계산하는 작업으로
 이루어집니다.</p>
 
 "
 k-평균(k-means) (Google의 머신러닝 용어집)|"
 <p>비지도 학습의 한 방법으로 데이터를 그룹화하는 데 널리 사용되는
-<a href=""#clustering""><strong>클러스터링</strong></a> 알고리즘입니다. k-평균 알고리즘은 기본적으로 다음과 같은 일을 합니다.</p>
+<a href=""https://developers.google.com/machine-learning/glossary/#clustering""><strong>클러스터링</strong></a> 알고리즘입니다. k-평균 알고리즘은 기본적으로 다음과 같은 일을 합니다.</p>
 <ul>
-<li>최고의 중심점(<a href=""#centroid""><strong>중심</strong></a>이라고 함)들을 반복적으로
+<li>최고의 중심점(<a href=""https://developers.google.com/machine-learning/glossary/#centroid""><strong>중심</strong></a>이라고 함)들을 반복적으로
     결정합니다.</li>
 <li>각 예를 가장 가까운 중심에 배정합니다.  같은 중심에 가장 가까운 예는
     같은 그룹에 속합니다.</li>
@@ -842,7 +842,7 @@ k-평균을 보여줍니다. k-평균을 사용하면 여러 가지 특성을 �
 예를 그룹화할 수 있습니다.</p>
 "
 k-중앙값(k-median) (Google의 머신러닝 용어집)|"
-<p><a href=""#k-means""><strong>k-평균</strong></a>과 밀접한 관련이 있는 클러스터링 알고리즘입니다. 이 두
+<p><a href=""https://developers.google.com/machine-learning/glossary/#k-means""><strong>k-평균</strong></a>과 밀접한 관련이 있는 클러스터링 알고리즘입니다. 이 두
 알고리즘의 실질적인 차이는 다음과 같습니다.</p>
 <ul>
 <li>k-평균 알고리즘에서는 중심이 될 수 있는 위치와 각 예의 위치 사이 거리를
@@ -888,43 +888,43 @@ Keras (Google의 머신러닝 용어집)|"
 "
 커널 서포트 벡터 머신(KSVM, Kernel Support Vector Machine) (Google의 머신러닝 용어집)|"
 <p>입력 데이터 벡터를 상위 차원 공간에 매핑하여
-<a href=""#positive_class""><strong>포지티브 클래스</strong></a>와
-<a href=""#negative_class""><strong>네거티브 클래스</strong></a> 사이의 간격을 최대화하는 것을
+<a href=""https://developers.google.com/machine-learning/glossary/#positive_class""><strong>포지티브 클래스</strong></a>와
+<a href=""https://developers.google.com/machine-learning/glossary/#negative_class""><strong>네거티브 클래스</strong></a> 사이의 간격을 최대화하는 것을
 목표로 하는 분류 알고리즘입니다.  예를 들어 입력 데이터 세트가
 특성 100개로 이루어진 분류 문제를
 생각해 보겠습니다. KSVM은 포지티브 클래스와
 네거티브 클래스 사이의 간격을 최대화하기 위해 내부적으로 이러한 특성을
-백만차원 공간에 매핑할 수 있습니다.  KSVM은 <a href=""#hinge-loss"">힌지 손실</a>이라는 손실 함수를
+백만차원 공간에 매핑할 수 있습니다.  KSVM은 <a href=""https://developers.google.com/machine-learning/glossary/#hinge-loss"">힌지 손실</a>이라는 손실 함수를
 사용합니다.</p>
 
 "
 L<sub>1</sub> 손실(L1 loss) (Google의 머신러닝 용어집)|"
-<p>모델이 예측하는 값과 <a href=""#loss""><strong>라벨</strong></a>의
-실제 값 차이의 절대값에 기초한 <a href=""#label""><strong>손실</strong></a>
-함수입니다. L<sub>1</sub> 손실은 <a href=""#squared_loss""><strong>L<sub>2</sub> 손실</strong></a>보다 이상점에
+<p>모델이 예측하는 값과 <a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>라벨</strong></a>의
+실제 값 차이의 절대값에 기초한 <a href=""https://developers.google.com/machine-learning/glossary/#label""><strong>손실</strong></a>
+함수입니다. L<sub>1</sub> 손실은 <a href=""https://developers.google.com/machine-learning/glossary/#squared_loss""><strong>L<sub>2</sub> 손실</strong></a>보다 이상점에
 둔감합니다.</p>
 "
 L<sub>1</sub> 정규화(L1 regularization) (Google의 머신러닝 용어집)|"
 <p>가중치의 절대값 합에 비례하여
-가중치에 페널티를 주는 <a href=""#regularization""><strong>정규화</strong></a> 유형입니다. <a href=""#sparse_features""><strong>희소 특성</strong></a>에
+가중치에 페널티를 주는 <a href=""https://developers.google.com/machine-learning/glossary/#regularization""><strong>정규화</strong></a> 유형입니다. <a href=""https://developers.google.com/machine-learning/glossary/#sparse_features""><strong>희소 특성</strong></a>에
 의존하는 모델에서 L<sub>1</sub>
 정규화는 관련성이 없거나 매우 낮은 특성의 가중치를 정확히 0으로
 유도하여 모델에서 해당 특성을 배제하는 데 도움이 됩니다.
-<a href=""#L2_regularization""><strong>L<sub>2</sub> 정규화</strong></a>와 대비되는 개념입니다.</p>
+<a href=""https://developers.google.com/machine-learning/glossary/#L2_regularization""><strong>L<sub>2</sub> 정규화</strong></a>와 대비되는 개념입니다.</p>
 "
 L<sub>2</sub> 손실(L2 loss) (Google의 머신러닝 용어집)|"
-<p><a href=""#squared_loss""><strong>제곱 손실</strong></a>을 참조하세요.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#squared_loss""><strong>제곱 손실</strong></a>을 참조하세요.</p>
 "
 L<sub>2</sub> 정규화(L2 regularization) (Google의 머신러닝 용어집)|"
-<p>가중치 <a href=""#regularization""><strong>제곱</strong></a>의 합에 비례하여
+<p>가중치 <a href=""https://developers.google.com/machine-learning/glossary/#regularization""><strong>제곱</strong></a>의 합에 비례하여
 가중치에 페널티를 주는 <em>정규화</em> 유형입니다.
 L<sub>2</sub> 정규화는 높은 긍정 값 또는 낮은 부정 값을 갖는
 이상점 가중치를 0은 아니지만 0에 가깝게 유도하는 데 도움이 됩니다.
-<a href=""#L1_regularization""><strong>L1 정규화</strong></a>와 대비되는 개념입니다.
+<a href=""https://developers.google.com/machine-learning/glossary/#L1_regularization""><strong>L1 정규화</strong></a>와 대비되는 개념입니다.
 L<sub>2</sub> 정규화는 선형 모델의 일반화를 항상 개선합니다.</p>
 "
 라벨(label) (Google의 머신러닝 용어집)|"
-<p>지도 학습에서 <a href=""#example""><strong>예</strong></a>의 '답' 또는 '결과' 부분을
+<p>지도 학습에서 <a href=""https://developers.google.com/machine-learning/glossary/#example""><strong>예</strong></a>의 '답' 또는 '결과' 부분을
 의미합니다. 라벨이 있는 데이터 세트의 각 예는 하나 이상의 특성과
 하나의 라벨로 구성됩니다. 예를 들어 주택 데이터 세트의 경우
 특성은 침실 수, 화장실 수, 주택의 연령일 수 있고
@@ -934,62 +934,62 @@ L<sub>2</sub> 정규화는 선형 모델의 일반화를 항상 개선합니다.
 가능성이 높습니다.</p>
 "
 라벨이 있는 예(labeled example) (Google의 머신러닝 용어집)|"
-<p><a href=""#feature""><strong>특성</strong></a>과 <a href=""#label""><strong>라벨</strong></a>을 포함하는
+<p><a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>특성</strong></a>과 <a href=""https://developers.google.com/machine-learning/glossary/#label""><strong>라벨</strong></a>을 포함하는
 예입니다. 지도 학습에서 모델은 라벨이 있는 예를
 학습합니다.</p>
 "
 람다(lambda) (Google의 머신러닝 용어집)|"
-<p><a href=""#regularization_rate""><strong>정규화율</strong></a>의 동의어입니다.</p>
-<p>중복으로 정의된 용어입니다. 여기에서는 <a href=""#regularization""><strong>정규화</strong></a> 맥락의
+<p><a href=""https://developers.google.com/machine-learning/glossary/#regularization_rate""><strong>정규화율</strong></a>의 동의어입니다.</p>
+<p>중복으로 정의된 용어입니다. 여기에서는 <a href=""https://developers.google.com/machine-learning/glossary/#regularization""><strong>정규화</strong></a> 맥락의
 용어 정의에 집중합니다.</p>
 "
 레이어(layer) (Google의 머신러닝 용어집)|"
-<p><a href=""#neural_network""><strong>신경망</strong></a>에서 입력 특성의
-집합 또는 뉴런의 출력을 처리하는 <a href=""#neuron""><strong>뉴런</strong></a>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>신경망</strong></a>에서 입력 특성의
+집합 또는 뉴런의 출력을 처리하는 <a href=""https://developers.google.com/machine-learning/glossary/#neuron""><strong>뉴런</strong></a>
 집합입니다.</p>
 <p>텐서플로우에서는 추상적인 의미로 사용되기도 합니다. 레이어는
-<a href=""#tensor""><strong>텐서</strong></a> 및 구성 옵션을 입력으로 취하고
+<a href=""https://developers.google.com/machine-learning/glossary/#tensor""><strong>텐서</strong></a> 및 구성 옵션을 입력으로 취하고
 다른 텐서를 출력하는 Python 함수입니다. 필요한 텐서가 작성되면
-사용자는 <a href=""#model_function""><strong>모델 함수</strong></a>를 통해 결과를
-<a href=""#Estimators""><strong>에스티메이터</strong></a>로 변환할 수 있습니다.</p>
+사용자는 <a href=""https://developers.google.com/machine-learning/glossary/#model_function""><strong>모델 함수</strong></a>를 통해 결과를
+<a href=""https://developers.google.com/machine-learning/glossary/#Estimators""><strong>에스티메이터</strong></a>로 변환할 수 있습니다.</p>
 "
 Layers API(tf.layers) (Google의 머신러닝 용어집)|"
-<p>여러 레이어를 조합하여 <a href=""#deep_model""><strong>심층</strong></a>신경망을 구축하는
+<p>여러 레이어를 조합하여 <a href=""https://developers.google.com/machine-learning/glossary/#deep_model""><strong>심층</strong></a>신경망을 구축하는
 텐서플로우 API입니다. Layers API를 통해 다음과 같은 다양한 유형의
-<a href=""#layer""><strong>레이어</strong></a>를 만들 수 있습니다.</p>
+<a href=""https://developers.google.com/machine-learning/glossary/#layer""><strong>레이어</strong></a>를 만들 수 있습니다.</p>
 <ul>
-<li><code>tf.layers.Dense</code> - <a href=""#fully_connected_layer""><strong>완전 연결 레이어</strong></a></li>
+<li><code>tf.layers.Dense</code> - <a href=""https://developers.google.com/machine-learning/glossary/#fully_connected_layer""><strong>완전 연결 레이어</strong></a></li>
 <li><code>tf.layers.Conv2D</code> - 컨볼루셔널 레이어</li>
 </ul>
-<p><a href=""#custom_estimator""><strong>맞춤 에스티메이터</strong></a>를 만들 때는 레이어 개체를
-작성하여 모든 <a href=""#hidden_layers""><strong>히든 레이어</strong></a>의 특징을
+<p><a href=""https://developers.google.com/machine-learning/glossary/#custom_estimator""><strong>맞춤 에스티메이터</strong></a>를 만들 때는 레이어 개체를
+작성하여 모든 <a href=""https://developers.google.com/machine-learning/glossary/#hidden_layers""><strong>히든 레이어</strong></a>의 특징을
 정의합니다.</p>
-<p>Layers API는 <a href=""#Keras""><strong>Keras</strong></a> 레이어 API 규약을 따릅니다.
+<p>Layers API는 <a href=""https://developers.google.com/machine-learning/glossary/#Keras""><strong>Keras</strong></a> 레이어 API 규약을 따릅니다.
 즉, Layers API의 모든 함수는 Keras layers API의
 해당 함수와 접두사는 다를 수 있으나 이름 및 서명이
 동일합니다.</p>
 "
 학습률(learning rate) (Google의 머신러닝 용어집)|"
 <p>경사하강법을 통해 모델을 학습시키는 데 사용되는 스칼라값입니다. 각 반복에서
-<a href=""#gradient_descent""><strong>경사하강법</strong></a> 알고리즘은
+<a href=""https://developers.google.com/machine-learning/glossary/#gradient_descent""><strong>경사하강법</strong></a> 알고리즘은
 학습률을 경사에 곱합니다.  이 곱셈의 결과를
 <strong>경사 스텝</strong>이라고 합니다.</p>
-<p>학습률은 핵심적인 <a href=""#hyperparameter""><strong>초매개변수</strong></a>입니다.</p>
+<p>학습률은 핵심적인 <a href=""https://developers.google.com/machine-learning/glossary/#hyperparameter""><strong>초매개변수</strong></a>입니다.</p>
 "
 최소 제곱 회귀(least squares regression) (Google의 머신러닝 용어집)|"
-<p><a href=""#L2_loss""><strong>L<sub>2</sub> 손실</strong></a>을 최소화하면서 학습시킨 선형 회귀
+<p><a href=""https://developers.google.com/machine-learning/glossary/#L2_loss""><strong>L<sub>2</sub> 손실</strong></a>을 최소화하면서 학습시킨 선형 회귀
 모형입니다.</p>
 "
 선형 회귀(linear regression) (Google의 머신러닝 용어집)|"
-<p><a href=""#regression_model""><strong>회귀 모형</strong></a>의 한 유형으로서, 입력 특성의 선형 조합으로부터
+<p><a href=""https://developers.google.com/machine-learning/glossary/#regression_model""><strong>회귀 모형</strong></a>의 한 유형으로서, 입력 특성의 선형 조합으로부터
 연속 값을 출력합니다.</p>
 "
 로지스틱 회귀(logistic regression) (Google의 머신러닝 용어집)|"
-<p>분류 문제에서 선형 예측에 <a href=""#sigmoid_function""><strong>시그모이드 함수</strong></a>를 적용하여
+<p>분류 문제에서 선형 예측에 <a href=""https://developers.google.com/machine-learning/glossary/#sigmoid_function""><strong>시그모이드 함수</strong></a>를 적용하여
 가능한 각 불연속 라벨값에 대한 확률을 생성하는
 모델입니다. 로지스틱 회귀는
-<a href=""#binary_classification""><strong>이진 분류</strong></a> 문제에 흔히 사용되지만
-<a href=""#multi-class""><strong>다중 클래스</strong></a> 분류 문제에도 사용될 수 있습니다. 이러한 경우를
+<a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>이진 분류</strong></a> 문제에 흔히 사용되지만
+<a href=""https://developers.google.com/machine-learning/glossary/#multi-class""><strong>다중 클래스</strong></a> 분류 문제에도 사용될 수 있습니다. 이러한 경우를
 <strong>다중 클래스 로지스틱 회귀</strong>
 또는 <strong>다항 회귀</strong>라고 합니다.</p>
 "
@@ -1001,13 +1001,13 @@ Layers API(tf.layers) (Google의 머신러닝 용어집)|"
 일반적입니다.
 그런 다음 소프트맥스 함수에서 가능한 클래스별로 하나의 값을 갖는
 (정규화된) 확률 벡터를 생성합니다.</p>
-<p>또한 로지트는 <a href=""#sigmoid_function""><strong>시그모이드 함수</strong></a>의 요소별 역을
+<p>또한 로지트는 <a href=""https://developers.google.com/machine-learning/glossary/#sigmoid_function""><strong>시그모이드 함수</strong></a>의 요소별 역을
 지칭할 때도 있습니다. 자세한 내용은
 <a href=""https://www.tensorflow.org/api_docs/python/tf/nn/sigmoid_cross_entropy_with_logits"">tf.nn.sigmoid_cross_entropy_with_logits</a>를 참조하세요.</p>
 "
 로그 손실(Log Loss) (Google의 머신러닝 용어집)|"
-<p>이진 <a href=""#logistic_regression""><strong>로지스틱 회귀</strong></a>에 사용되는
-<a href=""#loss""><strong>손실</strong></a> 함수입니다.</p>
+<p>이진 <a href=""https://developers.google.com/machine-learning/glossary/#logistic_regression""><strong>로지스틱 회귀</strong></a>에 사용되는
+<a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>손실</strong></a> 함수입니다.</p>
 "
 로그 오즈(log-odds) (Google의 머신러닝 용어집)|"
 <p>어떤 이벤트가 일어날 가능성의 로그입니다.</p>
@@ -1036,15 +1036,15 @@ ln(9) ~= 2.2
 $$
 </div>
 
-<p>로그 오즈는 <a href=""#sigmoid_function""><strong>시그모이드 함수</strong></a>의 역함수입니다.</p>
+<p>로그 오즈는 <a href=""https://developers.google.com/machine-learning/glossary/#sigmoid_function""><strong>시그모이드 함수</strong></a>의 역함수입니다.</p>
 "
 손실(loss) (Google의 머신러닝 용어집)|"
-<p>모델의 <a href=""#prediction""><strong>예측</strong></a>이 <a href=""#label""><strong>라벨</strong></a>과 얼마나 차이가 나는지를
+<p>모델의 <a href=""https://developers.google.com/machine-learning/glossary/#prediction""><strong>예측</strong></a>이 <a href=""https://developers.google.com/machine-learning/glossary/#label""><strong>라벨</strong></a>과 얼마나 차이가 나는지를
 측정합니다. 다르게 표현하면, 모델이 얼마나 부정확한지를
 나타냅니다. 이 값을 판단하려면 모델에서 손실 함수를 정의해야
 합니다. 예를 들어 선형 회귀 모형은 일반적으로
-<a href=""#MSE""><strong>평균 제곱 오차</strong></a>를, 로지스틱 회귀 모형은
-<a href=""#Log_Loss""><strong>로그 손실</strong></a>을 손실 함수로 사용합니다.</p>
+<a href=""https://developers.google.com/machine-learning/glossary/#MSE""><strong>평균 제곱 오차</strong></a>를, 로지스틱 회귀 모형은
+<a href=""https://developers.google.com/machine-learning/glossary/#Log_Loss""><strong>로그 손실</strong></a>을 손실 함수로 사용합니다.</p>
 
 "
 머신러닝(machine learning) (Google의 머신러닝 용어집)|"
@@ -1055,38 +1055,38 @@ $$
 학문 분야를 가리키는 용어이기도 합니다.</p>
 "
 평균 제곱 오차(MSE, Mean Squared Error) (Google의 머신러닝 용어집)|"
-<p>예시당 평균 제곱 손실입니다. MSE는 <a href=""#squared_loss""><strong>제곱 손실</strong></a>을
-<a href=""#example""><strong>예시</strong></a>의 개수로 나누어
-계산합니다. <a href=""#TensorFlow_Playground""><strong>텐서플로우 플레이그라운드</strong></a>에서
+<p>예시당 평균 제곱 손실입니다. MSE는 <a href=""https://developers.google.com/machine-learning/glossary/#squared_loss""><strong>제곱 손실</strong></a>을
+<a href=""https://developers.google.com/machine-learning/glossary/#example""><strong>예시</strong></a>의 개수로 나누어
+계산합니다. <a href=""https://developers.google.com/machine-learning/glossary/#TensorFlow_Playground""><strong>텐서플로우 플레이그라운드</strong></a>에서
 '학습 손실' 및 '테스트 손실'로
 표시하는 값이 MSE입니다.</p>
 "
 측정항목(metric) (Google의 머신러닝 용어집)|"
 <p>중요한 의미가 있는 수치입니다. 머신러닝 시스템에서 직접 최적화될 수도 있고,
 그렇지 않을 수도 있습니다. 시스템에서 최적화를 시도하는 측정항목을
-<a href=""#objective""><strong>목표</strong></a>라고 합니다.</p>
+<a href=""https://developers.google.com/machine-learning/glossary/#objective""><strong>목표</strong></a>라고 합니다.</p>
 "
 Metrics API(tf.metrics) (Google의 머신러닝 용어집)|"
 <p>모델을 평가하는 텐서플로우 API입니다. 예를 들어 <code>tf.metrics.accuracy</code>는
-모델의 예측이 라벨과 일치하는 빈도를 판단합니다. <a href=""#custom_estimator""><strong>맞춤 에스티메이터</strong></a>를
+모델의 예측이 라벨과 일치하는 빈도를 판단합니다. <a href=""https://developers.google.com/machine-learning/glossary/#custom_estimator""><strong>맞춤 에스티메이터</strong></a>를
 작성할 때는 Metrics API 함수를 호출하여
 모델 평가 방법을 지정합니다.</p>
 "
 미니 배치(mini-batch) (Google의 머신러닝 용어집)|"
-<p>학습 또는 추론의 단일 반복에서 함께 실행되는 <a href=""#example""><strong>예</strong></a>의
+<p>학습 또는 추론의 단일 반복에서 함께 실행되는 <a href=""https://developers.google.com/machine-learning/glossary/#example""><strong>예</strong></a>의
 전체 배치 중에서 무작위로 선택한 소규모
-부분집합입니다. 미니 배치의 <a href=""#batch_size""><strong>배치 크기</strong></a>는 일반적으로
+부분집합입니다. 미니 배치의 <a href=""https://developers.google.com/machine-learning/glossary/#batch_size""><strong>배치 크기</strong></a>는 일반적으로
 10~1,000입니다. 전체 학습 데이터가 아닌 미니 배치의 손실을
 계산하면 효율성이 크게 향상됩니다.</p>
 """
 미니 배치확률적 경사하강법(SGD, mini-batch stochastic gradient descent) (Google의 머신러닝 용어집)|"
-<p><a href=""#mini-batch""><strong>미니 배치</strong></a>를 사용하는 <a href=""#gradient_descent""><strong>경사하강법</strong></a>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#mini-batch""><strong>미니 배치</strong></a>를 사용하는 <a href=""https://developers.google.com/machine-learning/glossary/#gradient_descent""><strong>경사하강법</strong></a>
 알고리즘입니다. 즉, 미니 배치 SGD는 학습 데이터 중
-작은 부분집합을 기반으로 경사를 예측합니다. <a href=""#SGD""><strong>기본적인 SGD</strong></a>에서는
+작은 부분집합을 기반으로 경사를 예측합니다. <a href=""https://developers.google.com/machine-learning/glossary/#SGD""><strong>기본적인 SGD</strong></a>에서는
 크기가 1인 미니 배치를 사용합니다.</p>
 "
 ML (Google의 머신러닝 용어집)|"
-<p><a href=""#machine_learning""><strong>머신러닝</strong></a>의 약어입니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#machine_learning""><strong>머신러닝</strong></a>의 약어입니다.</p>
 "
 모델(model) (Google의 머신러닝 용어집)|"
 <p>ML 시스템이 학습 데이터로부터 학습한 내용을 표현합니다.
@@ -1094,25 +1094,25 @@ ML (Google의 머신러닝 용어집)|"
 나타낼 수 있습니다.</p>
 <ul>
 <li>예측이 계산되는 방식의 구조를 표현하는
-    <a href=""#TensorFlow""><strong>텐서플로우</strong></a> 그래프</li>
-<li>해당 텐서플로우 그래프에서 <a href=""#model_training""><strong>학습</strong></a>에 의해 결정되는
+    <a href=""https://developers.google.com/machine-learning/glossary/#TensorFlow""><strong>텐서플로우</strong></a> 그래프</li>
+<li>해당 텐서플로우 그래프에서 <a href=""https://developers.google.com/machine-learning/glossary/#model_training""><strong>학습</strong></a>에 의해 결정되는
     특정 가중치 및 편향</li>
 </ul>
 "
 모델 함수(model function) (Google의 머신러닝 용어집)|"
-<p>머신러닝 학습, 평가, 추론을 구현하는 <a href=""#Estimators""><strong>에스티메이터</strong></a> 내의
+<p>머신러닝 학습, 평가, 추론을 구현하는 <a href=""https://developers.google.com/machine-learning/glossary/#Estimators""><strong>에스티메이터</strong></a> 내의
 함수입니다. 예를 들어 모델 함수 안에서 학습을 구현한 부분에서는
-심층신경망의 토폴로지를 정의하고 <a href=""#optimizer""><strong>옵티마이저</strong></a> 함수를
+심층신경망의 토폴로지를 정의하고 <a href=""https://developers.google.com/machine-learning/glossary/#optimizer""><strong>옵티마이저</strong></a> 함수를
 정하는 등의 작업을 처리할 수 있습니다.
-<a href=""#pre-made_Estimator""><strong>사전 제작된 에스티메이터</strong></a>를 사용하면 다른 누군가가
-작성한 모델 함수를 쓸 수 있습니다.  <a href=""#custom_estimator""><strong>맞춤
+<a href=""https://developers.google.com/machine-learning/glossary/#pre-made_Estimator""><strong>사전 제작된 에스티메이터</strong></a>를 사용하면 다른 누군가가
+작성한 모델 함수를 쓸 수 있습니다.  <a href=""https://developers.google.com/machine-learning/glossary/#custom_estimator""><strong>맞춤
 에스티메이터</strong></a>를 사용하면 모델 함수를
 직접 만들어야 합니다.</p>
 <p>모델 함수 작성에 관한 자세한 내용은
 <a href=""https://www.tensorflow.org/get_started/custom_estimators"">맞춤 에스티메이터 작성</a>을 참조하세요.</p>
 "
 모델 학습(model training) (Google의 머신러닝 용어집)|"
-<p>최상의 <a href=""#model""><strong>모델</strong></a>을 결정하는 과정입니다.</p>
+<p>최상의 <a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>모델</strong></a>을 결정하는 과정입니다.</p>
 "
 모멘텀(Momentum) (Google의 머신러닝 용어집)|"
 <p>학습 단계가 현재 단계의 도함수뿐 아니라 바로 앞 단계의
@@ -1127,10 +1127,10 @@ ML (Google의 머신러닝 용어집)|"
 들어 단풍나무에는 약 128개 종이 있으므로 단풍나무 종을 분류하는
 모델은 다중 클래스입니다. 반대로,
 이메일을 두 가지 범주(<em>스팸</em>, <em>스팸 아님</em>)로만 구분하는 모델은
-<a href=""#binary_classification""><strong>이진 분류 모델</strong></a>입니다.</p>
+<a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>이진 분류 모델</strong></a>입니다.</p>
 "
 다항 분류(multinomial classification) (Google의 머신러닝 용어집)|"
-<p><a href=""#multi-class""><strong>다중 클래스 분류</strong></a>의 동의어입니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#multi-class""><strong>다중 클래스 분류</strong></a>의 동의어입니다.</p>
 
 "
 NaN 트랩(NaN trap) (Google의 머신러닝 용어집)|"
@@ -1140,40 +1140,40 @@ NaN 트랩(NaN trap) (Google의 머신러닝 용어집)|"
 <p>NaN은 'Not a Number(숫자 아님)'의 약어입니다.</p>
 "
 네거티브 클래스(negative class) (Google의 머신러닝 용어집)|"
-<p><a href=""#binary_classification""><strong>이진 분류</strong></a>에서는 클래스 중 하나는
+<p><a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>이진 분류</strong></a>에서는 클래스 중 하나는
 포지티브로, 다른 하나는 네거티브로 규정됩니다. 포지티브 클래스는
 모델에서 찾으려는 대상이고, 네거티브 클래스는 그와 다른 가능성입니다.
 예를 들어 의료 검사의 네거티브 클래스는 '종양 아님'일 수 있습니다.
 이메일 분류기의 네거티브 클래스는 '스팸 아님'일 수 있습니다.
-<a href=""#positive_class""><strong>포지티브 클래스</strong></a>를 참조하세요.</p>
+<a href=""https://developers.google.com/machine-learning/glossary/#positive_class""><strong>포지티브 클래스</strong></a>를 참조하세요.</p>
 "
 신경망(neural network) (Google의 머신러닝 용어집)|"
-<p>사람의 두뇌를 본뜬 모델로서, 단순 연결 유닛 또는 <a href=""#neuron""><strong>뉴런</strong></a>으로 이루어지며
+<p>사람의 두뇌를 본뜬 모델로서, 단순 연결 유닛 또는 <a href=""https://developers.google.com/machine-learning/glossary/#neuron""><strong>뉴런</strong></a>으로 이루어지며
 비선형성을 갖는 여러 레이어로 구성됩니다.
-하나 이상의 레이어는 <a href=""#hidden_layer""><strong>히든 레이어</strong></a>입니다.</p>
+하나 이상의 레이어는 <a href=""https://developers.google.com/machine-learning/glossary/#hidden_layer""><strong>히든 레이어</strong></a>입니다.</p>
 "
 뉴런(neuron) (Google의 머신러닝 용어집)|"
-<p><a href=""#neural_network""><strong>신경망</strong></a>의 노드로서, 일반적으로
+<p><a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>신경망</strong></a>의 노드로서, 일반적으로
 여러 입력 값을 취하여 하나의 출력 값을 생성합니다. 뉴런은 입력 값의 가중 합에
-<a href=""#activation_function""><strong>활성화 함수</strong></a>(비선형 변환)를
+<a href=""https://developers.google.com/machine-learning/glossary/#activation_function""><strong>활성화 함수</strong></a>(비선형 변환)를
 적용하여 출력 값을
 계산합니다.</p>
 "
 노드(node) (Google의 머신러닝 용어집)|"
 <p>중복으로 정의된 용어로서 다음 중 하나를 의미합니다.</p>
 <ul>
-<li><a href=""#hidden_layer""><strong>히든 레이어</strong></a>의 뉴런</li>
-<li>텐서플로우 <a href=""#graph""><strong>그래프</strong></a>의 연산</li>
+<li><a href=""https://developers.google.com/machine-learning/glossary/#hidden_layer""><strong>히든 레이어</strong></a>의 뉴런</li>
+<li>텐서플로우 <a href=""https://developers.google.com/machine-learning/glossary/#graph""><strong>그래프</strong></a>의 연산</li>
 </ul>
 "
 정규화(normalization) (Google의 머신러닝 용어집)|"
 <p>실제 값 범위를 표준 값 범위(일반적으로 -1~+1 또는 0~1)로
 변환하는 과정입니다. 예를 들어 어떤 특성의 원래 범위가 800~6,000인 경우, 뺄셈과 나눗셈을 거쳐
 값 범위를 -1~+1로 정규화할 수 있습니다.</p>
-<p><a href=""#scaling""><strong>조정</strong></a>을 참조하세요.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#scaling""><strong>조정</strong></a>을 참조하세요.</p>
 "
 수치 데이터(numerical data) (Google의 머신러닝 용어집)|"
-<p>정수 또는 실수로 나타낸 <a href=""#feature""><strong>특성</strong></a>입니다.
+<p>정수 또는 실수로 나타낸 <a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>특성</strong></a>입니다.
 예를 들어 부동산 모델에서는 주택의 규모(제곱피트 또는 제곱미터)를
 수치 데이터로 표현할 수 있습니다.  특성을 수치 데이터로
 표현한다는 것은 특성 값 사이에 또는 특성 값과 라벨 간에
@@ -1189,14 +1189,14 @@ NaN 트랩(NaN trap) (Google의 머신러닝 용어집)|"
 갖지는 않기 때문입니다. 또한, 우편번호는 부동산의 가치와 상관관계가 <em>있긴 하지만</em>
 우편번호가 20000인 부동산 가치가 우편번호가 10000인 부동산 가치의
 두 배라고 가정할 수는 없습니다.
-따라서 우편번호는 <a href=""#categorical_data""><strong>범주형 데이터</strong></a>로 표현되어야
+따라서 우편번호는 <a href=""https://developers.google.com/machine-learning/glossary/#categorical_data""><strong>범주형 데이터</strong></a>로 표현되어야
 합니다.</p>
-<p>수치 특성을 <a href=""#continuous_feature""><strong>연속 특성</strong></a>이라고도
+<p>수치 특성을 <a href=""https://developers.google.com/machine-learning/glossary/#continuous_feature""><strong>연속 특성</strong></a>이라고도
 합니다.</p>
 "
 Numpy (Google의 머신러닝 용어집)|"
 <p>Python에서 효율적인 배열 작업을 제공하는
-<a href=""http://www.numpy.org/"">오픈소스 수학 라이브러리</a>입니다. <a href=""#pandas""><strong>Pandas</strong></a>는 Numpy를
+<a href=""http://www.numpy.org/"">오픈소스 수학 라이브러리</a>입니다. <a href=""https://developers.google.com/machine-learning/glossary/#pandas""><strong>Pandas</strong></a>는 Numpy를
 기반으로 합니다.</p>
 
 "
@@ -1204,8 +1204,8 @@ Numpy (Google의 머신러닝 용어집)|"
 <p>알고리즘에서 최적화하려는 측정항목입니다.</p>
 "
 오프라인 추론(offline inference) (Google의 머신러닝 용어집)|"
-<p><a href=""#prediction""><strong>예측</strong></a> 그룹을 생성하여 저장해 두고
-요청에 따라 예측을 검색합니다. <a href=""#online_inference""><strong>온라인 추론</strong></a>과
+<p><a href=""https://developers.google.com/machine-learning/glossary/#prediction""><strong>예측</strong></a> 그룹을 생성하여 저장해 두고
+요청에 따라 예측을 검색합니다. <a href=""https://developers.google.com/machine-learning/glossary/#online_inference""><strong>온라인 추론</strong></a>과
 대비되는 개념입니다.</p>
 "
 원-핫 인코딩(one-hot encoding) (Google의 머신러닝 용어집)|"
@@ -1224,12 +1224,12 @@ Numpy (Google의 머신러닝 용어집)|"
 원샷 학습(one-shot learning) (Google의 머신러닝 용어집)|"
 <p>객체 분류에 자주 사용되는 머신러닝 접근방식으로서
 하나의 학습 예에서 효과적인 분류자를 학습하는 것을 목적으로 합니다.</p>
-<p><a href=""#few-shot_learning""><strong>극소수 학습</strong></a>을 참조하세요.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#few-shot_learning""><strong>극소수 학습</strong></a>을 참조하세요.</p>
 "
 일대다(one-vs.-all) (Google의 머신러닝 용어집)|"
 <p>가능한 해가 N개인 분류 문제에서, 일대다 솔루션은
 가능한 각 결과에 하나씩 서로 다른 N개의
-<a href=""#binary_classification""><strong>이진 분류자</strong></a>로
+<a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>이진 분류자</strong></a>로
 구성됩니다. 가령, 예를 동물, 식물, 광물 중 하나로 분류하는
 모델에서는 일대다 솔루션이 다음과 같은 3가지 이진 분류자를
 제공할 수 있습니다.</p>
@@ -1240,21 +1240,21 @@ Numpy (Google의 머신러닝 용어집)|"
 </ul>
 "
 온라인 추론(online inference) (Google의 머신러닝 용어집)|"
-<p>요청에 따라 <a href=""#prediction""><strong>예측</strong></a>을 생성합니다. <a href=""#offline_inference""><strong>오프라인 추론</strong></a>과
+<p>요청에 따라 <a href=""https://developers.google.com/machine-learning/glossary/#prediction""><strong>예측</strong></a>을 생성합니다. <a href=""https://developers.google.com/machine-learning/glossary/#offline_inference""><strong>오프라인 추론</strong></a>과
 대비되는 개념입니다.</p>
 "
 작업(Operation, op) (Google의 머신러닝 용어집)|"
-<p>텐서플로우 그래프의 노드입니다. 텐서플로우에서는 <a href=""#tensor""><strong>텐서</strong></a>를 만들거나
+<p>텐서플로우 그래프의 노드입니다. 텐서플로우에서는 <a href=""https://developers.google.com/machine-learning/glossary/#tensor""><strong>텐서</strong></a>를 만들거나
 조작하거나 삭제하는 모든 절차를 작업으로 간주합니다. 예를
 들어 행렬 곱셈은 텐서 2개를 입력으로 취하고 텐서 하나를
 출력으로 생성하는 작업입니다.</p>
 "
 옵티마이저(optimizer) (Google의 머신러닝 용어집)|"
-<p><a href=""#gradient_descent""><strong>경사하강법</strong></a> 알고리즘의 구체적인
+<p><a href=""https://developers.google.com/machine-learning/glossary/#gradient_descent""><strong>경사하강법</strong></a> 알고리즘의 구체적인
 구현입니다. 옵티마이저에 대한 텐서플로우의 기본 클래스는
 <a href=""https://www.tensorflow.org/api_docs/python/tf/train/Optimizer"">tf.train.Optimizer</a>입니다.
 다른 옵티마이저는 다음 중 하나 이상의
-개념을 활용하여 주어진 <a href=""#training_set""><strong>학습 세트</strong></a>에서 경사하강법의 효과를
+개념을 활용하여 주어진 <a href=""https://developers.google.com/machine-learning/glossary/#training_set""><strong>학습 세트</strong></a>에서 경사하강법의 효과를
 강화할 수 있습니다.</p>
 <ul>
 <li><a href=""https://www.tensorflow.org/api_docs/python/tf/train/MomentumOptimizer"">momentum</a>
@@ -1277,7 +1277,7 @@ Numpy (Google의 머신러닝 용어집)|"
 <p>다른 대부분의 값과 동떨어진 값입니다. 머신러닝에서는
 다음과 같은 경우가 이상점에 해당합니다.</p>
 <ul>
-<li><a href=""#weight""><strong>가중치</strong></a>의 절대값이 높은 경우</li>
+<li><a href=""https://developers.google.com/machine-learning/glossary/#weight""><strong>가중치</strong></a>의 절대값이 높은 경우</li>
 <li>예측된 값이 실제 값과 비교적 멀리 떨어진 경우</li>
 <li>입력 데이터의 값이 평균에서 대략적으로 표준편차 3만큼
     떨어진 경우</li>
@@ -1288,7 +1288,7 @@ Numpy (Google의 머신러닝 용어집)|"
 <p>신경망의 '최종' 레이어입니다. 이 레이어에 답이 포함됩니다.</p>
 "
 과적합(overfitting) (Google의 머신러닝 용어집)|"
-<p>생성된 모델이 <a href=""#training_set""><strong>학습 데이터</strong></a>와 지나치게 일치하여
+<p>생성된 모델이 <a href=""https://developers.google.com/machine-learning/glossary/#training_set""><strong>학습 데이터</strong></a>와 지나치게 일치하여
 새 데이터를 올바르게 예측하지 못하는 경우입니다.</p>
 
 "
@@ -1299,17 +1299,17 @@ ML 프레임워크에서 pandas 데이터 구조 입력을 지원합니다. <a h
 "
 매개변수(parameter) (Google의 머신러닝 용어집)|"
 <p>ML 시스템에서 스스로 학습하는 모델의 변수입니다. 예를 들어
-ML 시스템에서 학습이 반복됨에 따라 <a href=""#weight""><strong>가중치</strong></a> 매개변수의 값이
-서서히 학습됩니다. <a href=""#hyperparameter""><strong>초매개변수</strong></a>와
+ML 시스템에서 학습이 반복됨에 따라 <a href=""https://developers.google.com/machine-learning/glossary/#weight""><strong>가중치</strong></a> 매개변수의 값이
+서서히 학습됩니다. <a href=""https://developers.google.com/machine-learning/glossary/#hyperparameter""><strong>초매개변수</strong></a>와
 대비되는 개념입니다.</p>
 "
 매개변수 서버(PS, Parameter Server) (Google의 머신러닝 용어집)|"
-<p>모델의 <a href=""#parameter""><strong>매개변수</strong></a>를 분산형 환경에서 추적하는
+<p>모델의 <a href=""https://developers.google.com/machine-learning/glossary/#parameter""><strong>매개변수</strong></a>를 분산형 환경에서 추적하는
 작업입니다.</p>
 "
 매개변수 업데이트(parameter update) (Google의 머신러닝 용어집)|"
-<p>학습 중에 모델의 <a href=""#parameter""><strong>매개변수</strong></a>를 조정하는 작업으로서,
-일반적으로 <a href=""#gradient_descent""><strong>경사하강법</strong></a>의 단일 반복 내에서
+<p>학습 중에 모델의 <a href=""https://developers.google.com/machine-learning/glossary/#parameter""><strong>매개변수</strong></a>를 조정하는 작업으로서,
+일반적으로 <a href=""https://developers.google.com/machine-learning/glossary/#gradient_descent""><strong>경사하강법</strong></a>의 단일 반복 내에서
 이루어집니다.</p>
 "
 편미분(partial derivative) (Google의 머신러닝 용어집)|"
@@ -1320,7 +1320,7 @@ ML 시스템에서 학습이 반복됨에 따라 <a href=""#weight""><strong>가
 모두 무시하고 <em>x</em>의 변화에만 집중합니다.</p>
 "
 분할 전략(partitioning strategy) (Google의 머신러닝 용어집)|"
-<p><a href=""#Parameter_Server""><strong>매개변수 서버</strong></a> 전반에서 여러 변수를 분할하는
+<p><a href=""https://developers.google.com/machine-learning/glossary/#Parameter_Server""><strong>매개변수 서버</strong></a> 전반에서 여러 변수를 분할하는
 알고리즘입니다.</p>
 "
 성능(performance) (Google의 머신러닝 용어집)|"
@@ -1328,19 +1328,19 @@ ML 시스템에서 학습이 반복됨에 따라 <a href=""#weight""><strong>가
 <ul>
 <li>소프트웨어 공학에서 보편적으로 사용되는 의미입니다. 즉, 특정 소프트웨어가
     얼마나 빠르게 또는 효율적으로 실행되는지를 의미합니다.</li>
-<li>ML의 맥락에서는 특정 <a href=""#model""><strong>모델</strong></a>이 얼마나 정확한지를
+<li>ML의 맥락에서는 특정 <a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>모델</strong></a>이 얼마나 정확한지를
     성능으로 정의합니다. 즉, 모델의 예측이 얼마나
     효과적인지입니다.</li>
 </ul>
 "
 퍼플렉시티(perplexity) (Google의 머신러닝 용어집)|"
-<p><a href=""#model""><strong>모델</strong></a>의 작업 수행 능력을 나타내는 척도입니다.
+<p><a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>모델</strong></a>의 작업 수행 능력을 나타내는 척도입니다.
 예를 들어 사용자가 스마트폰 키보드에 입력하는 단어의
 처음 몇 글자를 읽고 가능한 완성 단어의 목록을 제안하는 작업을 수행한다고
 가정해 보겠습니다. 이 작업의 대략적인 퍼플렉시티 P는 사용자가
 실제로 입력하려는 단어가 목록에 포함될 때까지 제안해야 하는
 추측 단어 수입니다.</p>
-<p>퍼플렉시티와 <a href=""#cross-entropy""><strong>교차 엔트로피</strong></a>의 관계는 다음과 같습니다.</p>
+<p>퍼플렉시티와 <a href=""https://developers.google.com/machine-learning/glossary/#cross-entropy""><strong>교차 엔트로피</strong></a>의 관계는 다음과 같습니다.</p>
 <div>
 $$P= 2^{-\text{교차 엔트로피}}$$
 </div>
@@ -1352,7 +1352,7 @@ $$P= 2^{-\text{교차 엔트로피}}$$
 프로덕션 환경으로 모델 내보내기 등이 포함됩니다.</p>
 "
 풀링(pooling) (Google의 머신러닝 용어집)|"
-<p>이전의 <a href=""#convolutional_layer""><strong>컨볼루셔널 레이어</strong></a>에서 생성된 행렬을 작은 행렬로
+<p>이전의 <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_layer""><strong>컨볼루셔널 레이어</strong></a>에서 생성된 행렬을 작은 행렬로
 줄이는 과정입니다.
 풀링을 하면 보통 풀링된 영역에서 최대값 또는 평균값을
 취하게 됩니다. 예를 들어 다음과 같은
@@ -1362,7 +1362,7 @@ $$P= 2^{-\text{교차 엔트로피}}$$
 </p>
 
 <p>풀링 연산에서는 컨볼루셔널 연산에서와 마찬가지로
-행렬을 슬라이스로 나눈 다음 <a href=""#stride""><strong>스트라이드</strong></a> 보폭으로 슬라이드하면서
+행렬을 슬라이스로 나눈 다음 <a href=""https://developers.google.com/machine-learning/glossary/#stride""><strong>스트라이드</strong></a> 보폭으로 슬라이드하면서
 컨볼루셔널 연산을 수행합니다. 예를 들어 풀링 연산에서
 컨볼루셔널 행렬을 1x1 스트라이드로 2x2 슬라이스가 되게 나눈다고 가정해 보겠습니다.
 다음 다이어그램에서 확인할 수 있듯이 풀링 연산이 네 번 수행됩니다.
@@ -1372,22 +1372,22 @@ $$P= 2^{-\text{교차 엔트로피}}$$
 </p>
 
 <p>풀링을 사용하면 입력 행렬에서
-<a href=""#translational_invariance""><strong>병진 불변</strong></a>을 사용할 수 있습니다.</p>
+<a href=""https://developers.google.com/machine-learning/glossary/#translational_invariance""><strong>병진 불변</strong></a>을 사용할 수 있습니다.</p>
 <p>시각적으로 활용되는 풀링은 공식적으로 <strong>공간 풀링</strong>으로 더 잘 알려져 있습니다.
 시계열에서 활용되는 풀링은 <strong>일시적 풀링</strong>이라고 합니다.
 비공식적으로 풀링을 <strong>서브샘플링</strong> 또는 <strong>다운샘플링</strong>이라고 부르는 경우도 있습니다.</p>
 "
 포지티브 클래스(positive class) (Google의 머신러닝 용어집)|"
-<p><a href=""#binary_classification""><strong>이진 분류</strong></a>에서 가능한 두 가지 클래스에
+<p><a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>이진 분류</strong></a>에서 가능한 두 가지 클래스에
 포지티브 및 네거티브 라벨이 지정됩니다. 모델을 테스트하는 목적은 포지티브한
 결과를 찾는 것입니다. 사실은 두 가지 결과를 동시에 테스트하는 셈이지만
 우선은 이렇게 이해해도 무방합니다. 예를 들어 의료 검사의 포지티브 클래스는
 '종양'일 수 있습니다. 이메일 분류기의 포지티브 클래스는
 '스팸'일 수 있습니다.</p>
-<p><a href=""#negative_class""><strong>네거티브 클래스</strong></a>와 대비되는 개념입니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#negative_class""><strong>네거티브 클래스</strong></a>와 대비되는 개념입니다.</p>
 "
 정밀도(precision) (Google의 머신러닝 용어집)|"
-<p><a href=""#classification_model""><strong>분류 모델</strong></a>의 측정항목입니다. 정밀도는 모델이 <a href=""#positive_class""><strong>포지티브 클래스</strong></a>를 정확히 예측한 빈도를 나타냅니다. 즉 다음과 같습니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#classification_model""><strong>분류 모델</strong></a>의 측정항목입니다. 정밀도는 모델이 <a href=""https://developers.google.com/machine-learning/glossary/#positive_class""><strong>포지티브 클래스</strong></a>를 정확히 예측한 빈도를 나타냅니다. 즉 다음과 같습니다.</p>
 <div>
 $$\text{정밀도} =
 \frac{\text{참긍정}} {\text{참긍정} + \text{거짓긍정}}$$
@@ -1395,15 +1395,15 @@ $$\text{정밀도} =
 
 "
 예측(prediction) (Google의 머신러닝 용어집)|"
-<p>모델에 입력 <a href=""#example""><strong>예</strong></a>를 제공하여 생성된 출력입니다.</p>
+<p>모델에 입력 <a href=""https://developers.google.com/machine-learning/glossary/#example""><strong>예</strong></a>를 제공하여 생성된 출력입니다.</p>
 "
 예측 편향(prediction bias) (Google의 머신러닝 용어집)|"
-<p><a href=""#prediction""><strong>예측</strong></a>의 평균이 데이터 세트의 <a href=""#label""><strong>라벨</strong></a> 평균과
+<p><a href=""https://developers.google.com/machine-learning/glossary/#prediction""><strong>예측</strong></a>의 평균이 데이터 세트의 <a href=""https://developers.google.com/machine-learning/glossary/#label""><strong>라벨</strong></a> 평균과
 얼마나 차이가 나는지 나타내는
 값입니다.</p>
 "
 사전 제작된 에스티메이터(pre-made Estimator) (Google의 머신러닝 용어집)|"
-<p>다른 사람이 제작한 <a href=""#Estimator""><strong>에스티메이터</strong></a>입니다.
+<p>다른 사람이 제작한 <a href=""https://developers.google.com/machine-learning/glossary/#Estimator""><strong>에스티메이터</strong></a>입니다.
 텐서플로우는 <code>DNNClassifier</code>, <code>DNNRegressor</code>, <code>LinearClassifier</code> 등의 몇 가지 사전 제작된
 에스티메이터를 제공합니다.  <a href=""https://www.tensorflow.org/extend/estimators"">여기의 안내</a>에 따라
 사전 제작된 에스티메이터를
@@ -1411,27 +1411,27 @@ $$\text{정밀도} =
 "
 선행 학습된 모델(pre-trained model) (Google의 머신러닝 용어집)|"
 <p>이미 학습이 끝난 모델 또는 모델
-구성요소(예: <a href=""#embeddings""><strong>임베딩</strong></a>)입니다. 선행 학습된 임베딩을 <a href=""#neural_network""><strong>신경망</strong></a>에
+구성요소(예: <a href=""https://developers.google.com/machine-learning/glossary/#embeddings""><strong>임베딩</strong></a>)입니다. 선행 학습된 임베딩을 <a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>신경망</strong></a>에
 입력하는 경우도 있습니다. 모델에서 선행 학습된 임베딩(embeddings)에
 의존하지 않고 임베딩(embeddings) 자체를 학습하는 경우도 있습니다.</p>
 "
 사전 믿음(prior belief) (Google의 머신러닝 용어집)|"
 <p>학습을 시작하기 전에 데이터에 대해 갖는 견해입니다. 예를
-들어 <a href=""#L2_regularization""><strong>L<sub>2</sub> 정규화</strong></a>는
-<a href=""#weight""><strong>가중치</strong></a>가 작으며 보통 0 근처에 분포한다는
+들어 <a href=""https://developers.google.com/machine-learning/glossary/#L2_regularization""><strong>L<sub>2</sub> 정규화</strong></a>는
+<a href=""https://developers.google.com/machine-learning/glossary/#weight""><strong>가중치</strong></a>가 작으며 보통 0 근처에 분포한다는
 사전 믿음에 의존합니다.</p>
 
 "
 대기열(queue) (Google의 머신러닝 용어집)|"
 <p>대기열 데이터 구조를 구현하는 텐서플로우
-<a href=""#Operation""><strong>작업</strong></a>입니다. 일반적으로
+<a href=""https://developers.google.com/machine-learning/glossary/#Operation""><strong>작업</strong></a>입니다. 일반적으로
 I/O에 사용됩니다.</p>
 
 "
 순위(rank) (Google의 머신러닝 용어집)|"
 <p>ML에서 중복으로 정의된 용어로서 다음 중 하나를 의미할 수 있습니다.</p>
 <ul>
-<li><a href=""#tensor""><strong>텐서</strong></a>의 차원 수입니다. 예를 들어
+<li><a href=""https://developers.google.com/machine-learning/glossary/#tensor""><strong>텐서</strong></a>의 차원 수입니다. 예를 들어
     스칼라의 순위는 0이고, 벡터의 순위는 1이고, 행렬의 순위는 2입니다.</li>
 <li>클래스를 오름차순으로 분류하는 ML 문제에서 클래스의
     서수 위치입니다. 예를 들어 행동 순위 시스템은 강아지의 보상에
@@ -1440,11 +1440,11 @@ I/O에 사용됩니다.</p>
 </ul>
 "
 평가자(rater) (Google의 머신러닝 용어집)|"
-<p><a href=""#example""><strong>예</strong></a>에 <a href=""#label""><strong>라벨</strong></a>을 제공하는 사람입니다.
+<p><a href=""https://developers.google.com/machine-learning/glossary/#example""><strong>예</strong></a>에 <a href=""https://developers.google.com/machine-learning/glossary/#label""><strong>라벨</strong></a>을 제공하는 사람입니다.
 '평정자'라고도 합니다.</p>
 "
 재현율(recall) (Google의 머신러닝 용어집)|"
-<p><a href=""#classification_model""><strong>분류 모델</strong></a>에 대해 다음과 같은 의문에 답하는
+<p><a href=""https://developers.google.com/machine-learning/glossary/#classification_model""><strong>분류 모델</strong></a>에 대해 다음과 같은 의문에 답하는
 측정항목입니다. 가능한 모든 긍정 라벨 중에서 모델이 올바르게
 식별한 것은 몇 개일까요? 즉 다음과 같습니다.</p>
 <p>$$\text{재현율} =
@@ -1452,7 +1452,7 @@ I/O에 사용됩니다.</p>
 $$</p>
 "
 정류 선형 유닛(ReLU, Rectified Linear Unit) (Google의 머신러닝 용어집)|"
-<p>다음 규칙을 따르는 <a href=""#activation_function""><strong>활성화 함수</strong></a>입니다.</p>
+<p>다음 규칙을 따르는 <a href=""https://developers.google.com/machine-learning/glossary/#activation_function""><strong>활성화 함수</strong></a>입니다.</p>
 <ul>
 <li>입력이 음수 또는 0이면 출력은 0입니다.</li>
 <li>입력이 양수이면 출력은 입력과 같습니다.</li>
@@ -1460,37 +1460,37 @@ $$</p>
 "
 회귀 모형(regression model) (Google의 머신러닝 용어집)|"
 <p>연속(일반적으로 부동 소수점) 값을 출력하는 모델 유형입니다.
-개나리', '진달래' 같은 불연속 값을 출력하는 <a href=""#classification_model""><strong>분류 모델</strong></a>과 비교되는 개념입니다.</p>
+개나리', '진달래' 같은 불연속 값을 출력하는 <a href=""https://developers.google.com/machine-learning/glossary/#classification_model""><strong>분류 모델</strong></a>과 비교되는 개념입니다.</p>
 "
 정규화(regularization) (Google의 머신러닝 용어집)|"
-<p>모델의 복잡도에 페널티를 부여합니다. 정규화는 <a href=""#overfitting""><strong>과적합</strong></a>을 방지하는 데
+<p>모델의 복잡도에 페널티를 부여합니다. 정규화는 <a href=""https://developers.google.com/machine-learning/glossary/#overfitting""><strong>과적합</strong></a>을 방지하는 데
 도움이 됩니다. 정규화의 여러 가지 종류는 다음과 같습니다.</p>
 <ul>
-<li><a href=""#L1_regularization""><strong>L<sub>1</sub> 정규화</strong></a></li>
-<li><a href=""#L2_regularization""><strong>L<sub>2</sub> 정규화</strong></a></li>
-<li><a href=""#dropout_regularization""><strong>드롭아웃 정규화</strong></a></li>
-<li><a href=""#early_stopping""><strong>조기 중단</strong></a>(정식으로 인정되는 정규화 방식은
+<li><a href=""https://developers.google.com/machine-learning/glossary/#L1_regularization""><strong>L<sub>1</sub> 정규화</strong></a></li>
+<li><a href=""https://developers.google.com/machine-learning/glossary/#L2_regularization""><strong>L<sub>2</sub> 정규화</strong></a></li>
+<li><a href=""https://developers.google.com/machine-learning/glossary/#dropout_regularization""><strong>드롭아웃 정규화</strong></a></li>
+<li><a href=""https://developers.google.com/machine-learning/glossary/#early_stopping""><strong>조기 중단</strong></a>(정식으로 인정되는 정규화 방식은
     아니지만 과적합을 효과적으로 제한할 수 있음)</li>
 </ul>
 "
 정규화율(regularization rate) (Google의 머신러닝 용어집)|"
 <p>람다로 표현되는 스칼라값으로서, 정규화 함수의 상대적
 중요도를 지정합니다. 다음은 정규화율의 영향을
-보여주는 단순화된 <a href=""#loss""><strong>손실</strong></a> 방정식입니다.</p>
+보여주는 단순화된 <a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>손실</strong></a> 방정식입니다.</p>
 <div>
 $$\text{최소화(손실 함수 + }\lambda\text{(정규화 함수))}$$
 </div>
 
-<p>정규화율을 높이면 <a href=""#overfitting""><strong>과적합</strong></a>이 감소하지만
-모델의 <a href=""#accuracy""><strong>정확성</strong></a>이 떨어질 수 있습니다.</p>
+<p>정규화율을 높이면 <a href=""https://developers.google.com/machine-learning/glossary/#overfitting""><strong>과적합</strong></a>이 감소하지만
+모델의 <a href=""https://developers.google.com/machine-learning/glossary/#accuracy""><strong>정확성</strong></a>이 떨어질 수 있습니다.</p>
 "
 표현(representation) (Google의 머신러닝 용어집)|"
-<p>데이터를 유용한 <a href=""#feature""><strong>특성</strong></a>에 매핑하는 과정입니다.</p>
+<p>데이터를 유용한 <a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>특성</strong></a>에 매핑하는 과정입니다.</p>
 """
 수신자 조작 특성 곡선(RC curve, Receiver Operating Characteristic curve) (Google의 머신러닝 용어집)|"
-<p>다양한 <a href=""#classification_threshold""><strong>분류 임계값</strong></a>에서
-<a href=""#TP_rate""><strong>참양성률</strong></a>과 <a href=""#FP_rate""><strong>거짓양성률</strong></a>이
-이루는 곡선입니다. <a href=""#AUC""><strong>AUC</strong></a>를
+<p>다양한 <a href=""https://developers.google.com/machine-learning/glossary/#classification_threshold""><strong>분류 임계값</strong></a>에서
+<a href=""https://developers.google.com/machine-learning/glossary/#TP_rate""><strong>참양성률</strong></a>과 <a href=""https://developers.google.com/machine-learning/glossary/#FP_rate""><strong>거짓양성률</strong></a>이
+이루는 곡선입니다. <a href=""https://developers.google.com/machine-learning/glossary/#AUC""><strong>AUC</strong></a>를
 참조하세요.</p>
 "
 루트 디렉토리(root directory) (Google의 머신러닝 용어집)|"
@@ -1498,7 +1498,7 @@ $$\text{최소화(손실 함수 + }\lambda\text{(정규화 함수))}$$
 호스팅하도록 지정된 디렉토리입니다.</p>
 "
 평균 제곱근 오차(RMSE, Root Mean Squared Error) (Google의 머신러닝 용어집)|"
-<p><a href=""#MSE""><strong>평균 제곱 오차</strong></a>의 제곱근입니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#MSE""><strong>평균 제곱 오차</strong></a>의 제곱근입니다.</p>
 "
 회전 불변(rotational invariance) (Google의 머신러닝 용어집)|"
 <p>이미지 분류 문제에서 알고리즘이 이미지의 방향이 바뀌더라도
@@ -1506,7 +1506,7 @@ $$\text{최소화(손실 함수 + }\lambda\text{(정규화 함수))}$$
 이러한 능력을 갖춘 알고리즘은 위쪽, 옆쪽, 아래쪽 등
 어느 방향을 향하고 있건 테니스 라켓을 식별해 낼 수 있습니다. 회전 불변이 항상 바람직한 것은 아닙니다. 예를 들어
 거꾸로 된 9는 9로 분류되어서는 안 됩니다.</p>
-<p><a href=""#translational_invariance""><strong>병진 불변</strong></a> 및 <a href=""#size_invariance""><strong>크기 불변</strong></a>을 참조하세요.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#translational_invariance""><strong>병진 불변</strong></a> 및 <a href=""https://developers.google.com/machine-learning/glossary/#size_invariance""><strong>크기 불변</strong></a>을 참조하세요.</p>
 
 "
 SavedModel (Google의 머신러닝 용어집)|"
@@ -1523,13 +1523,13 @@ Saver (Google의 머신러닝 용어집)|"
 담당하는 <a href=""https://www.tensorflow.org/api_docs/python/tf/train/Saver"">텐서플로우 개체</a>입니다.</p>
 "
 조정(scaling) (Google의 머신러닝 용어집)|"
-<p><a href=""#feature_engineering""><strong>특성 추출</strong></a>에서 널리 사용되는 방식으로서
+<p><a href=""https://developers.google.com/machine-learning/glossary/#feature_engineering""><strong>특성 추출</strong></a>에서 널리 사용되는 방식으로서
 특성 값 범위를 데이터 세트의 다른 특성 범위와 일치하도록
 맞춥니다. 예를 들어 데이터 세트의 모든 부동 소수점 특성을
 0~1 범위로 맞출 수 있습니다. 어떤 특성의 범위가
 0~500이라면 각 값을 500으로 나누어 특성을 조정할 수
 있습니다.</p>
-<p><a href=""#normalization""><strong>정규화</strong></a>를 참조하세요.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#normalization""><strong>정규화</strong></a>를 참조하세요.</p>
 "
 scikit-learn (Google의 머신러닝 용어집)|"
 <p>널리 사용되는 오픈소스 ML 플랫폼입니다. <a href=""http://www.scikit-learn.org/"">www.scikit-learn.org</a>를
@@ -1547,7 +1547,7 @@ scikit-learn (Google의 머신러닝 용어집)|"
 동영상의 순서를 바탕으로 다음에 시청할 동영상을 예측하는 경우입니다.</p>
 "
 세션(session, tf.session) (Google의 머신러닝 용어집)|"
-<p>텐서플로우 런타임 상태를 캡슐화하고 <a href=""#graph""><strong>그래프</strong></a>의
+<p>텐서플로우 런타임 상태를 캡슐화하고 <a href=""https://developers.google.com/machine-learning/glossary/#graph""><strong>그래프</strong></a>의
 전부 또는 일부를 실행하는 개체입니다. 낮은 수준의
 TensorFlow API를 사용하면 하나 이상의
 <code>tf.session</code> 개체를 직접 인스턴스화하고 관리합니다. Estimators API를 사용하면
@@ -1561,7 +1561,7 @@ TensorFlow API를 사용하면 하나 이상의
 $$y = \frac{1}{1 + e^{-\sigma}}$$
 </div>
 
-<p>여기에서 <a href=""#logistic_regression""><strong>로지스틱 회귀</strong></a> 문제의 \(\sigma\)는
+<p>여기에서 <a href=""https://developers.google.com/machine-learning/glossary/#logistic_regression""><strong>로지스틱 회귀</strong></a> 문제의 \(\sigma\)는
 다음과 같습니다.</p>
 <div>
 $$\sigma = b + w_1x_1 + w_2x_2 + … w_nx_n$$
@@ -1569,8 +1569,8 @@ $$\sigma = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 
 <p>즉, 시그모이드 함수는 \(\sigma\)를 0~1 사이의 확률로
 변환합니다.</p>
-<p>일부 <a href=""#neural_network""><strong>신경망</strong></a>에서는 시그모이드 함수가
-<a href=""#activation_function""><strong>활성화 함수</strong></a> 역할을 합니다.</p>
+<p>일부 <a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>신경망</strong></a>에서는 시그모이드 함수가
+<a href=""https://developers.google.com/machine-learning/glossary/#activation_function""><strong>활성화 함수</strong></a> 역할을 합니다.</p>
 "
 크기 불변(size invariance) (Google의 머신러닝 용어집)|"
 <p>이미지 분류 문제에서 알고리즘이 이미지의 크기가 바뀌더라도
@@ -1580,28 +1580,28 @@ $$\sigma = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 크기 불변에 있어서 실질적인 제약이 있습니다.
 예를 들어 고작 20픽셀만 사용하는 고양이 이미지를 알고리즘 또는 인간이
 올바르게 분류해 낼 가능성은 낮습니다.</p>
-<p><a href=""#translational_invariance""><strong>병진 불변</strong></a> 및
-<a href=""#rotational_invariance""><strong>회전 불변</strong></a>을 참조하세요.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#translational_invariance""><strong>병진 불변</strong></a> 및
+<a href=""https://developers.google.com/machine-learning/glossary/#rotational_invariance""><strong>회전 불변</strong></a>을 참조하세요.</p>
 "
 소프트맥스(softmax) (Google의 머신러닝 용어집)|"
-<p><a href=""#multi-class""><strong>다중 클래스 분류 모델</strong></a>에서 가능한 각 클래스의 확률을
+<p><a href=""https://developers.google.com/machine-learning/glossary/#multi-class""><strong>다중 클래스 분류 모델</strong></a>에서 가능한 각 클래스의 확률을
 구하는 함수입니다. 확률의 합은 정확히
 1.0입니다. 예를 들어 소프트맥스는 특정 이미지가 강아지일 확률을 0.9로,
 고양이일 확률을 0.08로, 말일 확률을 0.02로 판단할 수 있습니다.
 <strong>전체 소프트맥스</strong>라고도 합니다.</p>
-<p><a href=""#candidate_sampling""><strong>후보 샘플링</strong></a>과 대비되는 개념입니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#candidate_sampling""><strong>후보 샘플링</strong></a>과 대비되는 개념입니다.</p>
 "
 희소 특성(sparse feature) (Google의 머신러닝 용어집)|"
-<p>대부분의 값이 0이거나 비어 있는 <a href=""#feature""><strong>특성</strong></a> 벡터입니다.
+<p>대부분의 값이 0이거나 비어 있는 <a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>특성</strong></a> 벡터입니다.
 예를 들어 1 값 하나와 0 값 백만 개를 포함하는 벡터는 희소
 벡터입니다. 또 다른 예로서, 검색어의 단어는 희소 특성일 수
 있습니다. 특정 언어에서 가능한 단어는 무수히 많지만 특정 검색어에는 몇 개의
 단어만 나오기 때문입니다.</p>
-<p><a href=""#dense_feature""><strong>밀집 특성</strong></a>과 대비되는 개념입니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#dense_feature""><strong>밀집 특성</strong></a>과 대비되는 개념입니다.</p>
 "
 희소 표현(sparse representation) (Google의 머신러닝 용어집)|"
 <p>값이 0이 아닌 요소만 저장하는 텐서의
-<a href=""#representation""><strong>표현</strong></a>입니다.</p>
+<a href=""https://developers.google.com/machine-learning/glossary/#representation""><strong>표현</strong></a>입니다.</p>
 <p>예를 들어 영어 어휘에는 약 백만 개의 단어들이 있습니다.
 하나의 영어 문장에서 어떤 단어가 몇 번 사용되었는지 나타내주는 다음의 두 가지 방법을 생각해 봅시다.</p>
 <ul>
@@ -1724,19 +1724,19 @@ $$
 <strong>모델 희소성</strong>은 모델 가중치의 희소성을 의미합니다.</p>
 "
 공간 풀링(spatial pooling) (Google의 머신러닝 용어집)|"
-<p><a href=""#pooling""><strong>풀링</strong></a>을 참조하세요.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#pooling""><strong>풀링</strong></a>을 참조하세요.</p>
 "
 제곱 힌지 손실(squared hinge loss) (Google의 머신러닝 용어집)|"
-<p><a href=""#hinge-loss""><strong>힌지 손실</strong></a>의 제곱입니다.  제곱 힌지 손실은 일반 힌지 손실보다
+<p><a href=""https://developers.google.com/machine-learning/glossary/#hinge-loss""><strong>힌지 손실</strong></a>의 제곱입니다.  제곱 힌지 손실은 일반 힌지 손실보다
 이상점에 더 많은 페널티를 가합니다.</p>
 "
 제곱 손실(squared loss) (Google의 머신러닝 용어집)|"
-<p><a href=""#linear_regression""><strong>선형 회귀</strong></a>에 사용되는
-<a href=""#loss""><strong>손실</strong></a> 함수입니다.  <strong>L<sub>2</sub> 손실</strong>이라고도
-합니다. 이 함수는 라벨이 있는 <a href=""#example""><strong>예</strong></a>에
-대한 모델의 예측 값과 <a href=""#label""><strong>라벨</strong></a>의 실제 값 차이의 제곱을 계산합니다.
+<p><a href=""https://developers.google.com/machine-learning/glossary/#linear_regression""><strong>선형 회귀</strong></a>에 사용되는
+<a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>손실</strong></a> 함수입니다.  <strong>L<sub>2</sub> 손실</strong>이라고도
+합니다. 이 함수는 라벨이 있는 <a href=""https://developers.google.com/machine-learning/glossary/#example""><strong>예</strong></a>에
+대한 모델의 예측 값과 <a href=""https://developers.google.com/machine-learning/glossary/#label""><strong>라벨</strong></a>의 실제 값 차이의 제곱을 계산합니다.
 이 손실 함수는 제곱을 구하므로 부정확한 예측에 더 큰 영향을 줍니다.
-즉, 제곱 손실은 <a href=""#L1_loss""><strong>L<sub>1</sub> 손실</strong></a>보다 이상점에
+즉, 제곱 손실은 <a href=""https://developers.google.com/machine-learning/glossary/#L1_loss""><strong>L<sub>1</sub> 손실</strong></a>보다 이상점에
 민감하게 반응합니다.</p>
 "
 정적 모델(static model) (Google의 머신러닝 용어집)|"
@@ -1749,13 +1749,13 @@ $$
 변화가 없는 데이터는 정상성을 갖습니다.</p>
 "
 단계(step) (Google의 머신러닝 용어집)|"
-<p><a href=""#batch""><strong>배치</strong></a> 하나에 대한 정방향 및 역방향 평가입니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#batch""><strong>배치</strong></a> 하나에 대한 정방향 및 역방향 평가입니다.</p>
 "
 보폭(step size) (Google의 머신러닝 용어집)|"
-<p><a href=""#learning_rate""><strong>학습률</strong></a>의 동의어입니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#learning_rate""><strong>학습률</strong></a>의 동의어입니다.</p>
 "
 확률적 경사하강법(SGD, stochastic gradient descent) (Google의 머신러닝 용어집)|"
-<p>배치 크기가 1인 <a href=""#gradient_descent""><strong>경사하강법</strong></a> 알고리즘입니다. 즉,
+<p>배치 크기가 1인 <a href=""https://developers.google.com/machine-learning/glossary/#gradient_descent""><strong>경사하강법</strong></a> 알고리즘입니다. 즉,
 확률적 경사하강법은 데이터 세트에서 무작위로 균일하게 선택한 하나의 예에
 의존하여 각 단계의 예측 경사를 계산합니다.</p>
 "
@@ -1769,7 +1769,7 @@ $$
 <p>예를 들어 손실을 최소화하면서 학습 세트에 정규화를 적용하는
 함수는 구조적 위험 최소화 알고리즘입니다.</p>
 <p>자세한 내용은 <a href=""http://www.svms.org/srm/"">http://www.svms.org/srm/</a>을 참조하세요.</p>
-<p><a href=""#ERM""><strong>경험적 위험 최소화</strong></a>와 대비되는 개념입니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#ERM""><strong>경험적 위험 최소화</strong></a>와 대비되는 개념입니다.</p>
 "
 스트라이드(stride) (Google의 머신러닝 용어집)|"
 <p>스트라이드란 컨볼루셔널 연산이나 풀링에서 다음번에 오는 일련의
@@ -1786,37 +1786,37 @@ $$
 3차원인 경우 스트라이드도 3차원이 됩니다.</p>
 "
 서브 샘플링(subsampling) (Google의 머신러닝 용어집)|"
-<p><a href=""#pooling""><strong>풀링</strong></a>을 참조하세요.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#pooling""><strong>풀링</strong></a>을 참조하세요.</p>
 "
 요약(summary) (Google의 머신러닝 용어집)|"
-<p>텐서플로우에서는 특정 <a href=""#step""><strong>단계</strong></a>에 계산된 값 또는 값 집합을 의미하며,
+<p>텐서플로우에서는 특정 <a href=""https://developers.google.com/machine-learning/glossary/#step""><strong>단계</strong></a>에 계산된 값 또는 값 집합을 의미하며,
 일반적으로 학습 중에 모델 측정항목을 추적하는 데 사용됩니다.</p>
 "
 지도 머신러닝(supervised machine learning) (Google의 머신러닝 용어집)|"
-<p>입력 데이터 및 해당 <a href=""#label""><strong>라벨</strong></a>을 사용하여 <a href=""#model""><strong>모델</strong></a>을
+<p>입력 데이터 및 해당 <a href=""https://developers.google.com/machine-learning/glossary/#label""><strong>라벨</strong></a>을 사용하여 <a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>모델</strong></a>을
 학습시킵니다. 지도 머신러닝은 학생이 특정 과목을
 배우기 위해 일련의 문제와 정답을 공부하는 것과
 같습니다.  기존 문제의 정답을 맞힐 수 있게 된 학생은
 같은 과목에서 처음 보는 새로운 문제를 풀 수
-있습니다.  <a href=""#unsupervised_machine_learning""><strong>비지도 머신러닝</strong></a>과
+있습니다.  <a href=""https://developers.google.com/machine-learning/glossary/#unsupervised_machine_learning""><strong>비지도 머신러닝</strong></a>과
 비교되는 개념입니다.</p>
 "
 합성 특성(synthetic feature) (Google의 머신러닝 용어집)|"
 <p>입력 특성 중에는 없지만 하나 이상의 입력 특성으로부터
-생성되는 <a href=""#feature""><strong>특성</strong></a>입니다. 합성 특성에는 다음과 같은 종류가
+생성되는 <a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>특성</strong></a>입니다. 합성 특성에는 다음과 같은 종류가
 있습니다.</p>
 <ul>
-<li>연속 특성을 범위 빈으로 <a href=""#bucketing""><strong>버케팅</strong></a>합니다.</li>
+<li>연속 특성을 범위 빈으로 <a href=""https://developers.google.com/machine-learning/glossary/#bucketing""><strong>버케팅</strong></a>합니다.</li>
 <li>하나의 특성 값에 다른 특성 값이나
     해당 특성 값을 곱하거나 나눕니다. </li>
-<li><a href=""#feature_cross""><strong>특성 교차</strong></a>를 생성합니다.</li>
+<li><a href=""https://developers.google.com/machine-learning/glossary/#feature_cross""><strong>특성 교차</strong></a>를 생성합니다.</li>
 </ul>
-<p><a href=""#normalization""><strong>정규화</strong></a> 또는 <a href=""#scaling""><strong>조정</strong></a>만으로 생성한 특성은
+<p><a href=""https://developers.google.com/machine-learning/glossary/#normalization""><strong>정규화</strong></a> 또는 <a href=""https://developers.google.com/machine-learning/glossary/#scaling""><strong>조정</strong></a>만으로 생성한 특성은
 합성 특성에 해당하지 않습니다.</p>
 
 "
 타겟(target) (Google의 머신러닝 용어집)|"
-<p><a href=""#label""><strong>라벨</strong></a>의 동의어입니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#label""><strong>라벨</strong></a>의 동의어입니다.</p>
 "
 시계열 데이터(temporal data) (Google의 머신러닝 용어집)|"
 <p>서로 다른 여러 시점에 기록된 데이터입니다. 예를 들어 겨울 코트 매출액을
@@ -1833,15 +1833,15 @@ $$
 Circuit)입니다.</p>
 "
 텐서 차수(Tensor rank) (Google의 머신러닝 용어집)|"
-<p><a href=""#rank""><strong>순위</strong></a>를 참조하세요.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#rank""><strong>순위</strong></a>를 참조하세요.</p>
 "
 텐서 형태(Tensor shape) (Google의 머신러닝 용어집)|"
-<p><a href=""#tensor""><strong>텐서</strong></a>가 여러 차원에 포함하는 요소 수입니다.
+<p><a href=""https://developers.google.com/machine-learning/glossary/#tensor""><strong>텐서</strong></a>가 여러 차원에 포함하는 요소 수입니다.
 예를 들어 [5, 10] 텐서의 형태는 1차원에서 5, 2차원에서
 10입니다.</p>
 "
 텐서 크기(Tensor size) (Google의 머신러닝 용어집)|"
-<p><a href=""#tensor""><strong>텐서</strong></a>가 포함하는 스칼라의 총 개수입니다. 예를 들어
+<p><a href=""https://developers.google.com/machine-learning/glossary/#tensor""><strong>텐서</strong></a>가 포함하는 스칼라의 총 개수입니다. 예를 들어
 [5, 10] 텐서의 크기는 50입니다.</p>
 "
 텐서보드(TensorBoard) (Google의 머신러닝 용어집)|"
@@ -1857,7 +1857,7 @@ Circuit)입니다.</p>
 수 있습니다.</p>
 "
 텐서플로우 플레이그라운드(TensorFlow Playground) (Google의 머신러닝 용어집)|"
-<p>다양한 <a href=""#hyperparameters""><strong>초매개변수</strong></a>가 모델(주로 신경망)
+<p>다양한 <a href=""https://developers.google.com/machine-learning/glossary/#hyperparameters""><strong>초매개변수</strong></a>가 모델(주로 신경망)
 학습에 주는 영향을 시각적으로 보여 주는
 프로그램입니다.
 텐서플로우 플레이그라운드로 실험해 보려면
@@ -1868,8 +1868,8 @@ Circuit)입니다.</p>
 "
 테스트 세트(test set) (Google의 머신러닝 용어집)|"
 <p>데이터 세트 중에서 검증세트를 통한 초기 검증이 완료된
-<a href=""#model""><strong>모델</strong></a>을 테스트하는 데 사용되는 부분집합입니다.
-</p><p><a href=""#training_set""><strong>학습 세트</strong></a> 및 <a href=""#validation_set""><strong>검증세트</strong></a>와 대비되는
+<a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>모델</strong></a>을 테스트하는 데 사용되는 부분집합입니다.
+</p><p><a href=""https://developers.google.com/machine-learning/glossary/#training_set""><strong>학습 세트</strong></a> 및 <a href=""https://developers.google.com/machine-learning/glossary/#validation_set""><strong>검증세트</strong></a>와 대비되는
 개념입니다.</p>
 "
 tf.Example (Google의 머신러닝 용어집)|"
@@ -1877,7 +1877,7 @@ tf.Example (Google의 머신러닝 용어집)|"
 추론을 위한 입력 데이터를 기술하는 표준 <a href=""https://developers.google.com/protocol-buffers/"">프로토콜 버퍼</a>입니다.</p>
 "
 시계열 분석(time series analysis) (Google의 머신러닝 용어집)|"
-<p>머신러닝 및 통계학에서 <a href=""#temporal_data""><strong>시계열 데이터</strong></a>를 분석하는
+<p>머신러닝 및 통계학에서 <a href=""https://developers.google.com/machine-learning/glossary/#temporal_data""><strong>시계열 데이터</strong></a>를 분석하는
 하위 분야입니다.  분류, 클러스터링, 예측, 이상 감지 등
 다양한 유형의 머신러닝 문제에 시계열 분석이
 요구됩니다. 예를 들어 시계열 분석을 사용하여
@@ -1885,18 +1885,18 @@ tf.Example (Google의 머신러닝 용어집)|"
 예측할 수 있습니다.</p>
 "
 학습(training) (Google의 머신러닝 용어집)|"
-<p>모델을 구성하는 이상적인 <a href=""#parameter""><strong>매개변수</strong></a>를 결정하는
+<p>모델을 구성하는 이상적인 <a href=""https://developers.google.com/machine-learning/glossary/#parameter""><strong>매개변수</strong></a>를 결정하는
 과정입니다.</p>
 "
 학습 세트(training set) (Google의 머신러닝 용어집)|"
 <p>데이터 세트 중에서 모델 학습에 사용되는 부분집합입니다.</p>
-<p><a href=""#validation_set""><strong>검증세트</strong></a> 및 <a href=""#test_set""><strong>테스트 세트</strong></a>와 대비되는
+<p><a href=""https://developers.google.com/machine-learning/glossary/#validation_set""><strong>검증세트</strong></a> 및 <a href=""https://developers.google.com/machine-learning/glossary/#test_set""><strong>테스트 세트</strong></a>와 대비되는
 개념입니다.</p>
 "
 전이 학습(transfer learning) (Google의 머신러닝 용어집)|"
 <p>머신러닝 작업 간에 정보를 전송합니다.
 예를 들어 다중 작업 학습에서는 단일 모델이 여러 작업을 해결합니다.
-예를 들어 <a href=""#deep_model""><strong>심층 모델</strong></a>은 다양한 작업에 대해 서로 다른 출력 노드를
+예를 들어 <a href=""https://developers.google.com/machine-learning/glossary/#deep_model""><strong>심층 모델</strong></a>은 다양한 작업에 대해 서로 다른 출력 노드를
 가질 수 있습니다.  전이 학습에서는 더 단순한 작업의 솔루션 지식을
 보다 복잡한 작업으로 전송하거나, 데이터가 더 많은 작업의 지식을
 데이터가 더 적은 작업으로 전송합니다.</p>
@@ -1909,37 +1909,37 @@ tf.Example (Google의 머신러닝 용어집)|"
 이미지를 분류해 낼 수 있는 능력을 의미합니다.
 예를 들어 이러한 능력을 갖춘 알고리즘은 강아지가 프레임의 중앙에 있든
 왼쪽 끝에 있든 간에 강아지를 식별해 낼 수 있습니다.</p>
-<p><a href=""#size_invariance""><strong>크기 불변</strong></a> 및
-<a href=""#rotational_invariance""><strong>회전 불변</strong></a>을 참조하세요.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#size_invariance""><strong>크기 불변</strong></a> 및
+<a href=""https://developers.google.com/machine-learning/glossary/#rotational_invariance""><strong>회전 불변</strong></a>을 참조하세요.</p>
 "
 참음성(TN, true negative) (Google의 머신러닝 용어집)|"
-<p>모델에서 <em>네거티브 클래스</em>로 <a href=""#negative_class""><strong>올바르게</strong></a> 예측한
+<p>모델에서 <em>네거티브 클래스</em>로 <a href=""https://developers.google.com/machine-learning/glossary/#negative_class""><strong>올바르게</strong></a> 예측한
 예입니다. 예를 들어 모델에서 특정 이메일 메시지가
 스팸이 아닌 것으로 추론했으며 실제로도 스팸이 아니었던 경우가 여기에
 해당합니다.</p>
 "
 참긍정(TP, true positive) (Google의 머신러닝 용어집)|"
-<p>모델에서 <em>포지티브 클래스</em>로 <a href=""#positive_class""><strong>올바르게</strong></a> 예측한
+<p>모델에서 <em>포지티브 클래스</em>로 <a href=""https://developers.google.com/machine-learning/glossary/#positive_class""><strong>올바르게</strong></a> 예측한
 예입니다. 예를 들어 모델에서 특정 이메일 메시지가
 스팸인 것으로 추론했으며 실제로도 스팸이었던 경우가 여기에 해당합니다.</p>
 "
 참긍정률(TP rate, true positive rate) (Google의 머신러닝 용어집)|"
-<p><a href=""#recall""><strong>재현율</strong></a>의 동의어입니다. 즉 다음과 같습니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#recall""><strong>재현율</strong></a>의 동의어입니다. 즉 다음과 같습니다.</p>
 <div>
 $$\text{참긍정률} = \frac{\text{참긍정}} {\text{참긍정} + \text{거짓부정}}$$
 </div>
 
-<p>참양성률은 <a href=""#ROC""><strong>ROC 곡선</strong></a>의 y축입니다.</p>
+<p>참양성률은 <a href=""https://developers.google.com/machine-learning/glossary/#ROC""><strong>ROC 곡선</strong></a>의 y축입니다.</p>
 
 "
 라벨이 없는 예(unlabeled example) (Google의 머신러닝 용어집)|"
-<p><a href=""#feature""><strong>특성</strong></a>은 있지만 <a href=""#label""><strong>라벨</strong></a>이 없는 예입니다.
-라벨이 없는 예는 <a href=""#inference""><strong>추론</strong></a>에 대한 입력입니다. <a href=""#semi-supervised_learning""><strong>준지도</strong></a>
-및 <a href=""#unsupervised_machine_learning""><strong>비지도</strong></a> 학습에서는
+<p><a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>특성</strong></a>은 있지만 <a href=""https://developers.google.com/machine-learning/glossary/#label""><strong>라벨</strong></a>이 없는 예입니다.
+라벨이 없는 예는 <a href=""https://developers.google.com/machine-learning/glossary/#inference""><strong>추론</strong></a>에 대한 입력입니다. <a href=""https://developers.google.com/machine-learning/glossary/#semi-supervised_learning""><strong>준지도</strong></a>
+및 <a href=""https://developers.google.com/machine-learning/glossary/#unsupervised_machine_learning""><strong>비지도</strong></a> 학습에서는
 학습 중에 라벨이 없는 예가 사용됩니다.</p>
 "
 비지도 머신러닝(unsupervised machine learning) (Google의 머신러닝 용어집)|"
-<p>일반적으로 라벨이 없는 데이터 세트에서 패턴을 찾도록 <a href=""#model""><strong>모델</strong></a>을
+<p>일반적으로 라벨이 없는 데이터 세트에서 패턴을 찾도록 <a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>모델</strong></a>을
 학습시킵니다.</p>
 <p>비지도 머신러닝의 가장 일반적인 용도는 데이터를 서로 비슷한 예의 그룹으로
 클러스터링하는 것입니다. 예를 들어 비지도 머신러닝 알고리즘은
@@ -1954,32 +1954,32 @@ $$\text{참긍정률} = \frac{\text{참긍정}} {\text{참긍정} + \text{거짓
 예를 들어 장바구니 수백만 개의
 내용을 포함하는 데이터 세트에 PCA를 적용하면 레몬이 들어있는 장바구니에
 제산제가 같이 들어있는 경우가 많다는 사실이 드러날 수 있습니다.</p>
-<p><a href=""#supervised_machine_learning""><strong>지도 머신러닝</strong></a>과 비교되는 개념입니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#supervised_machine_learning""><strong>지도 머신러닝</strong></a>과 비교되는 개념입니다.</p>
 
 "
 검증세트(validation set) (Google의 머신러닝 용어집)|"
-<p>데이터 세트 중에서 학습 세트와 별도로 <a href=""#hyperparameter""><strong>초매개변수</strong></a>를 조정하는 데
+<p>데이터 세트 중에서 학습 세트와 별도로 <a href=""https://developers.google.com/machine-learning/glossary/#hyperparameter""><strong>초매개변수</strong></a>를 조정하는 데
 사용하는 부분집합입니다.</p>
-<p><a href=""#training_set""><strong>학습 세트</strong></a> 및 <a href=""#test_set""><strong>테스트 세트</strong></a>와 대비되는
+<p><a href=""https://developers.google.com/machine-learning/glossary/#training_set""><strong>학습 세트</strong></a> 및 <a href=""https://developers.google.com/machine-learning/glossary/#test_set""><strong>테스트 세트</strong></a>와 대비되는
 개념입니다.</p>
 </p>
 
 "
 가중치(weight) (Google의 머신러닝 용어집)|"
-<p>선형 모델에서 <a href=""#feature""><strong>특성</strong></a>의 계수 또는 심층 네트워크의
+<p>선형 모델에서 <a href=""https://developers.google.com/machine-learning/glossary/#feature""><strong>특성</strong></a>의 계수 또는 심층 네트워크의
 엣지입니다. 선형 모델 학습의 목표는 각 특성의 이상적인
 가중치를 결정하는 것입니다. 가중치가 0인 특성은
 모델에 영향을 주지 못합니다.</p>
 "
 와이드 모델(wide model) (Google의 머신러닝 용어집)|"
-<p>일반적으로 많은 <a href=""#sparse_features""><strong>희소 입력 특성</strong></a>을 갖는
+<p>일반적으로 많은 <a href=""https://developers.google.com/machine-learning/glossary/#sparse_features""><strong>희소 입력 특성</strong></a>을 갖는
 선형 모델입니다. 이러한 모델은 출력 노드에
 직접 연결되는 많은 수의 입력을 갖는 특수한
-유형의 <a href=""#neural_network""><strong>신경망</strong></a>이므로 '와이드'로 지칭됩니다. 와이드 모델은
+유형의 <a href=""https://developers.google.com/machine-learning/glossary/#neural_network""><strong>신경망</strong></a>이므로 '와이드'로 지칭됩니다. 와이드 모델은
 심층 모델보다 디버그 및 조사가 더 쉬운 경우가 많습니다. 와이드 모델은
-<a href=""#hidden_layer""><strong>히든 레이어</strong></a>를 통한 비선형성 표현이 불가능하지만
-<a href=""#feature_cross""><strong>특성 교차</strong></a>, <a href=""#bucketing""><strong>버킷화</strong></a> 등의
+<a href=""https://developers.google.com/machine-learning/glossary/#hidden_layer""><strong>히든 레이어</strong></a>를 통한 비선형성 표현이 불가능하지만
+<a href=""https://developers.google.com/machine-learning/glossary/#feature_cross""><strong>특성 교차</strong></a>, <a href=""https://developers.google.com/machine-learning/glossary/#bucketing""><strong>버킷화</strong></a> 등의
 변환을 사용하여 다른 방식으로
 비선형성을 모델링할 수 있습니다.</p>
-<p><a href=""#deep_model""><strong>심층 모델</strong></a>과 대비되는 개념입니다.</p>
+<p><a href=""https://developers.google.com/machine-learning/glossary/#deep_model""><strong>심층 모델</strong></a>과 대비되는 개념입니다.</p>
 "
