@@ -188,7 +188,7 @@ k-평균 또는 k-중앙값 알고리즘에서는 3개의 중심을 찾아냅니
 <a href=""https://developers.google.com/machine-learning/glossary/#k-means""><strong>k-평균</strong></a> 알고리즘에서는 다음 다이어그램과 같이 각 예의 <a href=""https://developers.google.com/machine-learning/glossary/#centroid""><strong>중심</strong></a> 근접도를
 기준으로 클러스터링합니다.</p>
 <p>
-<img src=""/machine-learning/glossary/images/Cluster.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/Cluster.svg"">
 </p>
 
 <p>그런 다음 연구원이 클러스터를 검토하고 클러스터 1에는
@@ -196,7 +196,7 @@ k-평균 또는 k-중앙값 알고리즘에서는 3개의 중심을 찾아냅니
 <p>다음에서 확인할 수 있는 것처럼 중심점에서 예가 얼마나
 떨어져 있는지를 바탕으로 한 클러스터링 알고리즘도 있을 수 있습니다.</p>
 <p>
-<img src=""/machine-learning/glossary/images/RingCluster.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/RingCluster.svg"">
 </p>
 
 "
@@ -264,13 +264,13 @@ NxN 표입니다. 혼동행렬의
 <strong>U</strong>자 모양의 함수입니다.  예를 들어 다음은 모두
 볼록 함수입니다.</p>
 <p>
-<img src=""/machine-learning/glossary/images/convex_functions.png"" height=""300"" alt=""볼록 함수는 일반적으로 &#39;U&#39; 글자 형태입니다.""/>
+<img src=""https://developers.google.com/machine-learning/glossary/images/convex_functions.png"" height=""300"" alt=""볼록 함수는 일반적으로 &#39;U&#39; 글자 형태입니다.""/>
 </p>
 
 <p>그러나 다음 함수는 볼록 함수가 아닙니다.  그래프의 위쪽 영역이
 볼록 집합이 아닌 것을 볼 수 있습니다.</p>
 <p>
-<img src=""/machine-learning/glossary/images/nonconvex_function.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/nonconvex_function.svg"">
 </p>
 
 <p><strong>순볼록(strictly convex) 함수</strong>는 국소 최저점이 정확히 하나이며,
@@ -314,12 +314,12 @@ L<sub>2</sub> 손실 + L<sub>1</sub> 정규화)은 볼록 함수입니다.</p>
 완전히 포함되는 성질을 갖는 부분집합입니다.  예를 들어 다음 두 도형은
 볼록 집합입니다.</p>
 <p>
-<img src=""/machine-learning/glossary/images/convex_set.png"" alt=""직사각형과 반타원은 볼록 집합입니다.""/>
+<img src=""https://developers.google.com/machine-learning/glossary/images/convex_set.png"" alt=""직사각형과 반타원은 볼록 집합입니다.""/>
 </p>
 
 <p>그러나 다음 두 도형은 볼록 집합이 아닙니다.</p>
 <p>
-<img src=""/machine-learning/glossary/images/nonconvex_set.png"" alt=""슬라이스가 하나 빠진 원형 차트와 불꽃 모양은 비 볼록 집합입니다.""/>
+<img src=""https://developers.google.com/machine-learning/glossary/images/nonconvex_set.png"" alt=""슬라이스가 하나 빠진 원형 차트와 불꽃 모양은 비 볼록 집합입니다.""/>
 </p>
 
 "
@@ -358,7 +358,7 @@ L<sub>2</sub> 손실 + L<sub>1</sub> 정규화)은 볼록 함수입니다.</p>
 적용합니다.  예를 들어 다음과 같은 3x3
 <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_filter""><strong>컨볼루셔널 필터</strong></a>가 있다고 생각해 보세요.</p>
 <p>
-<img src=""/machine-learning/glossary/images/ConvolutionalFilter33.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/ConvolutionalFilter33.svg"">
 </p>
 
 <p>다음의 애니메이션은 5x5 입력 행렬을 가지고 있고
@@ -367,7 +367,7 @@ L<sub>2</sub> 손실 + L<sub>1</sub> 정규화)은 볼록 함수입니다.</p>
 그 결과 생성되는 3x3 행렬(오른쪽)은 9개의 컨볼루셔널 연산의 결과로
 구성됩니다.</p>
 <p>
-<img src=""/machine-learning/glossary/images/AnimatedConvolution.gif""/>
+<img src=""https://developers.google.com/machine-learning/glossary/images/AnimatedConvolution.gif""/>
 </p>
 
 "
@@ -394,19 +394,19 @@ L<sub>2</sub> 손실 + L<sub>1</sub> 정규화)은 볼록 함수입니다.</p>
 </ol>
 <p>다음과 같은 5x5 입력 행렬을 예로 들어보겠습니다.</p>
 <p>
-<img src=""/machine-learning/glossary/images/ConvolutionalLayerInputMatrix.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/ConvolutionalLayerInputMatrix.svg"">
 </p>
 
 <p>이제 다음과 같은 2x2 컨볼루셔널 필터가 있다고 생각해 보세요.</p>
 <p>
-<img src=""/machine-learning/glossary/images/ConvolutionalLayerFilter.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/ConvolutionalLayerFilter.svg"">
 </p>
 
 <p>각 컨볼루셔널 연산은 입력 행렬의 단일 2x2 슬라이스와
 연관됩니다. 예를 들어 입력 행렬의 왼쪽 상단에 있는 2x2 슬라이스를
 사용해 보겠습니다.  이 슬라이스의 컨볼루션 연산은 다음과 같습니다.</p>
 <p>
-<img src=""/machine-learning/glossary/images/ConvolutionalLayerOperation.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/ConvolutionalLayerOperation.svg"">
 </p>
 
 <p><a href=""https://developers.google.com/machine-learning/glossary/#convolutional_layer""><strong>컨볼루셔널 레이어</strong></a>는 일련의 컨볼루셔널
@@ -458,7 +458,7 @@ Dataset API(tf.data) (Google의 머신러닝 용어집)|"
 <a href=""https://developers.google.com/machine-learning/glossary/#multi-class""><strong>다중 클래스 분류 문제</strong></a>에서
 모델이 학습한 클래스 사이의 구분선입니다. 예를 들어 아래 그림과 같은 이진 분류 문제의 경우 결정 경계는 주황색 클래스와 파란색 클래스 사이의 경계선입니다.</p>
 <p>
-<img src=""/machine-learning/glossary/images/decision_boundary.png"" alt=""클래스 간에 잘 정의된 경계입니다.""/>
+<img src=""https://developers.google.com/machine-learning/glossary/images/decision_boundary.png"" alt=""클래스 간에 잘 정의된 경계입니다.""/>
 </p>
 
 "
@@ -731,7 +731,7 @@ Yahoo/Microsoft의 <a href=""https://en.wikipedia.org/wiki/Vowpal_Wabbit"">VW</a
 <p>또한 <em>y</em>는 참 라벨(-1 또는 +1)입니다.</p>
 <p>따라서 힌지 손실과 (y * y')로 그래프를 그리면 다음과 같습니다.</p>
 <p>
-<img src=""/machine-learning/glossary/images/hinge-loss.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/hinge-loss.svg"">
 </p>
 
 "
@@ -823,13 +823,13 @@ k-평균(k-means) (Google의 머신러닝 용어집)|"
 <em>제곱</em>을 최소화할 수 있는 중심의 위치를 선택합니다.</p>
 <p>개의 키와 몸길이를 나타낸 다음 그래프를 예로 들어보겠습니다.</p>
 <p>
-<img src=""/machine-learning/glossary/images/DogDimensions.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/DogDimensions.svg"">
 </p>
 
 <p>k=3인 경우 k-평균 알고리즘에서는 3개의 중심을 결정합니다.  각 예는
 가장 가까운 중심에 배정되며, 그 결과 세 개의 그룹이 만들어집니다.</p>
 <p>
-<img src=""/machine-learning/glossary/images/DogDimensionsKMeans.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/DogDimensionsKMeans.svg"">
 </p>
 
 <p>한 제조업체에서 애견용 스웨터의 S, M, L 사이즈의 이상적인 크기를
@@ -1358,7 +1358,7 @@ ML 시스템에서 학습이 반복됨에 따라 <a href=""https://developers.go
 취하게 됩니다. 예를 들어 다음과 같은
 3x3 행렬이 있다고 가정해 보겠습니다.</p>
 <p>
-<img src=""/machine-learning/glossary/images/PoolingStart.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/PoolingStart.svg"">
 </p>
 
 <p>풀링 연산에서는 컨볼루셔널 연산에서와 마찬가지로
@@ -1368,7 +1368,7 @@ ML 시스템에서 학습이 반복됨에 따라 <a href=""https://developers.go
 다음 다이어그램에서 확인할 수 있듯이 풀링 연산이 네 번 수행됩니다.
 각 풀링 연산에서 슬라이스에서 얻은 네 개의 값 중 최대값을 취한다고 생각해 보세요.</p>
 <p>
-<img src=""/machine-learning/glossary/images/PoolingConvolution.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/PoolingConvolution.svg"">
 </p>
 
 <p>풀링을 사용하면 입력 행렬에서
@@ -1779,7 +1779,7 @@ TensorFlow API를 사용하면 하나 이상의
 시작합니다. 연산이 오른쪽 가장자리에 다다르면 다음 슬라이스는 한 줄 아래 왼쪽
 가장자리에서 시작합니다.</p>
 <p>
-<img src=""/machine-learning/glossary/images/AnimatedConvolution.gif""/>
+<img src=""https://developers.google.com/machine-learning/glossary/images/AnimatedConvolution.gif""/>
 </p>
 
 <p>앞의 예는 2차원 스트라이드를 보여줍니다.  입력 행렬이
