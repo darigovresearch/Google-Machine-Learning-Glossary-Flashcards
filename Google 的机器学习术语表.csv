@@ -4,12 +4,12 @@ A/B 测试 (A/B testing) (Google 的机器学习术语表)|"
 准确率 (accuracy) (Google 的机器学习术语表)|"
 <p><a href=""https://developers.google.com/machine-learning/glossary/#classification_model""><strong>分类模型</strong></a>的正确预测所占的比例。在<a href=""https://developers.google.com/machine-learning/glossary/#multi-class""><strong>多类别分类</strong></a>中，准确率的定义如下：</p>
 <div>
-$$\text{准确率} = \frac{\text{正确的预测数}} {\text{样本总数}}$$
+[$$]\text{准确率} = \frac{\text{正确的预测数}} {\text{样本总数}}[/$$]
 </div>
 
 <p>在<a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>二元分类</strong></a>中，准确率的定义如下：</p>
 <div>
-$$\text{准确率} = \frac{\text{正例数} + \text{负例数}} {\text{样本总数}}$$
+[$$]\text{准确率} = \frac{\text{正例数} + \text{负例数}} {\text{样本总数}}[/$$]
 </div>
 
 <p>请参阅<a href=""https://developers.google.com/machine-learning/glossary/#TP""><strong>正例</strong></a>和<a href=""https://developers.google.com/machine-learning/glossary/#TN""><strong>负例</strong></a>。</p>
@@ -41,7 +41,7 @@ ROC 曲线下面积 (AUC, Area under the ROC Curve) (Google 的机器学习术�
 偏差 (bias) (Google 的机器学习术语表)|"
 <p>距离原点的截距或偏移。偏差（也称为<strong>偏差项</strong>）在机器学习模型中用 b 或 w<sub>0</sub> 表示。<em></em><i></i>例如，在下面的公式中，偏差为 b：<em></em></p>
 <div>
-$$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
+[$$]y' = b + w_1x_1 + w_2x_2 + … w_nx_n[/$$]
 </div>
 
 <p>请勿与<a href=""https://developers.google.com/machine-learning/glossary/#prediction_bias""><strong>预测偏差</strong></a>混淆。</p>
@@ -326,7 +326,7 @@ Estimator (Google 的机器学习术语表)|"
 假正例率（false positive rate, 简称 FP 率） (Google 的机器学习术语表)|"
 <p><a href=""https://developers.google.com/machine-learning/glossary/#ROC""><strong>ROC 曲线</strong></a>中的 x 轴。FP 率的定义如下：</p>
 <div>
-$$\text{假正例率} = \frac{\text{假正例数}}{\text{假正例数} + \text{负例数}}$$
+[$$]\text{假正例率} = \frac{\text{假正例数}}{\text{假正例数} + \text{负例数}}[/$$]
 </div>
 
 "
@@ -410,12 +410,12 @@ $$\text{假正例率} = \frac{\text{假正例数}}{\text{假正例数} + \text{�
 <p>一系列用于<a href=""https://developers.google.com/machine-learning/glossary/#classification_model""><strong>分类</strong></a>的<a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>损失</strong></a>函数，旨在找到距离每个训练样本都尽可能远的<a href=""https://developers.google.com/machine-learning/glossary/#decision_boundary""><strong>决策边界</strong></a>，从而使样本和边界之间的裕度最大化。
 <a href=""https://developers.google.com/machine-learning/glossary/#KSVMs""><strong>KSVM</strong></a> 使用合页损失函数（或相关函数，例如平方合页损失函数）。对于二元分类，合页损失函数的定义如下：</p>
 <div>
-$$\text{loss} = \text{max}(0, 1 - (y' * y))$$
+[$$]\text{loss} = \text{max}(0, 1 - (y' * y))[/$$]
 </div>
 
 <p>其中“y'”表示分类器模型的原始输出：<em></em></p>
 <div>
-$$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
+[$$]y' = b + w_1x_1 + w_2x_2 + … w_nx_n[/$$]
 </div>
 
 <p>“y”表示真标签，值为 -1 或 +1。<em></em></p>
@@ -492,14 +492,14 @@ k-median (Google 的机器学习术语表)|"
 <li>k-means 采用从形心到样本的<a href=""https://en.wikipedia.org/wiki/Euclidean_distance"">欧几里得距离</a>。（在二维空间中，欧几里得距离即使用勾股定理来计算斜边。）例如，(2,2) 与 (5,-2) 之间的 k-means 距离为：</li>
 </ul>
 <div>
-$${\text{欧几里德距离}} = {\sqrt {(2-5)^2 + (2--2)^2}} = 5$$
+[$$]{\text{欧几里德距离}} = {\sqrt {(2-5)^2 + (2--2)^2}} = 5[/$$]
 </div>
 
 <ul>
 <li>k-median 采用从形心到样本的<a href=""https://en.wikipedia.org/wiki/Taxicab_geometry"">曼哈顿距离</a>。这个距离是每个维度中绝对差异值的总和。例如，(2,2) 与 (5,-2) 之间的 k-median 距离为：</li>
 </ul>
 <div>
-$${\text{曼哈顿距离}} = \lvert 2-5 \rvert + \lvert 2--2 \rvert = 7$$
+[$$]{\text{曼哈顿距离}} = \lvert 2-5 \rvert + \lvert 2--2 \rvert = 7[/$$]
 </div>
 
 "
@@ -569,12 +569,12 @@ Layers API (tf.layers) (Google 的机器学习术语表)|"
 <p>某个事件几率的对数。</p>
 <p>如果事件涉及二元概率，则<strong>几率</strong>指的是成功概率 (p) 与失败概率 (1-p) 之比。例如，假设某个给定事件的成功概率为 90％，失败概率为 10％。在这种情况下，几率的计算公式如下：</p>
 <div>
-$${\text{几率}} = \frac{\text{p}} {\text{(1-p)}} = \frac{.9} {.1} = {\text{9}}$$
+[$$]{\text{几率}} = \frac{\text{p}} {\text{(1-p)}} = \frac{.9} {.1} = {\text{9}}[/$$]
 </div>
 
 <p>简单来说，对数几率即几率的对数。按照惯例，“对数”指自然对数，但对数的基数其实可以是任何大于 1 的数。若遵循惯例，上述示例的对数几率应为：</p>
 <div>
-$${\text{对数几率}} = ln(9) ~= 2.2$$
+[$$]{\text{对数几率}} = ln(9) ~= 2.2[/$$]
 </div>
 
 <p>对数几率是 <a href=""https://developers.google.com/machine-learning/glossary/#sigmoid_function""><strong>S 型函数</strong></a>的反函数。</p>
@@ -748,7 +748,7 @@ Pandas (Google 的机器学习术语表)|"
 <p>一种衡量指标，用于衡量<a href=""https://developers.google.com/machine-learning/glossary/#model""><strong>模型</strong></a>能够多好地完成任务。例如，假设任务是读取用户使用智能手机键盘输入字词时输入的前几个字母，然后列出一组可能的完整字词。此任务的困惑度 (P) 是：为了使列出的字词中包含用户尝试输入的实际字词，您需要提供的猜测项的个数。</p>
 <p>困惑度与<a href=""https://developers.google.com/machine-learning/glossary/#cross-entropy""><strong>交叉熵</strong></a>的关系如下：</p>
 <div>
-$$P= 2^{-\text{cross entropy}}$$
+[$$]P= 2^{-\text{cross entropy}}[/$$]
 </div>
 
 "
@@ -776,7 +776,7 @@ $$P= 2^{-\text{cross entropy}}$$
 精确率 (precision) (Google 的机器学习术语表)|"
 <p>一种<a href=""https://developers.google.com/machine-learning/glossary/#classification_model""><strong>分类模型</strong></a>指标。精确率指模型正确预测<a href=""https://developers.google.com/machine-learning/glossary/#positive_class""><strong>正类别</strong></a>的频率，即：</p>
 <div>
-$$\text{精确率} = \frac{\text{正例数}} {\text{正例数} + \text{假正例数}}$$
+[$$]\text{精确率} = \frac{\text{正例数}} {\text{正例数} + \text{假正例数}}[/$$]
 </div>
 
 "
@@ -812,7 +812,7 @@ $$\text{精确率} = \frac{\text{正例数}} {\text{正例数} + \text{假正例
 "
 召回率 (recall) (Google 的机器学习术语表)|"
 <p>一种<a href=""https://developers.google.com/machine-learning/glossary/#classification_model""><strong>分类模型</strong></a>指标，用于回答以下问题：在所有可能的正类别标签中，模型正确地识别出了多少个？即：</p>
-<p>$$\text{召回率} = \frac{\text{正例数}} {\text{正例数} + \text{假负例数}}$$</p>
+<p>[$$]\text{召回率} = \frac{\text{正例数}} {\text{正例数} + \text{假负例数}}[/$$]</p>
 "
 修正线性单元 (ReLU, Rectified Linear Unit) (Google 的机器学习术语表)|"
 <p>一种<a href=""https://developers.google.com/machine-learning/glossary/#activation_function""><strong>激活函数</strong></a>，其规则如下：</p>
@@ -836,7 +836,7 @@ $$\text{精确率} = \frac{\text{正例数}} {\text{正例数} + \text{假正例
 正则化率 (regularization rate) (Google 的机器学习术语表)|"
 <p>一种标量值，以 lambda 表示，用于指定正则化函数的相对重要性。从下面简化的<a href=""https://developers.google.com/machine-learning/glossary/#loss""><strong>损失</strong></a>公式中可以看出正则化率的影响：</p>
 <div>
-$$\text{最小化(损失方程 + }\lambda\text{(正则化方程))}$$
+[$$]\text{最小化(损失方程 + }\lambda\text{(正则化方程))}[/$$]
 </div>
 
 <p>提高正则化率可以减少<a href=""https://developers.google.com/machine-learning/glossary/#overfitting""><strong>过拟合</strong></a>，但可能会使模型的<a href=""https://developers.google.com/machine-learning/glossary/#accuracy""><strong>准确率</strong></a>降低。</p>
@@ -884,12 +884,12 @@ scikit-learn (Google 的机器学习术语表)|"
 S 型函数 (sigmoid function) (Google 的机器学习术语表)|"
 <p>一种函数，可将逻辑回归输出或多项回归输出（对数几率）映射到概率，以返回介于 0 到 1 之间的值。S 型函数的公式如下：</p>
 <div>
-$$y = \frac{1}{1 + e^{-\sigma}}$$
+[$$]y = \frac{1}{1 + e^{-\sigma}}[/$$]
 </div>
 
 <p>在<a href=""https://developers.google.com/machine-learning/glossary/#logistic_regression""><strong>逻辑回归</strong></a>问题中，\(\sigma\) 非常简单：</p>
 <div>
-$$\sigma = b + w_1x_1 + w_2x_2 + … w_nx_n$$
+[$$]\sigma = b + w_1x_1 + w_2x_2 + … w_nx_n[/$$]
 </div>
 
 <p>换句话说，S 型函数可将 \(\sigma\) 转换为介于 0 到 1 之间的概率。</p>
@@ -1009,7 +1009,7 @@ softmax (Google 的机器学习术语表)|"
 稀疏性 (sparsity) (Google 的机器学习术语表)|"
 <p>向量或矩阵中设置为 0（或空）的元素数除以该向量或矩阵中的条目总数。以一个 10x10 矩阵（其中 98 个单元格都包含 0）为例。稀疏性的计算方法如下：</p>
 <div>
-$${\text{稀疏性}} = \frac{\text{98}} {\text{100}} = {\text{0.98}}$$
+[$$]{\text{稀疏性}} = \frac{\text{98}} {\text{100}} = {\text{0.98}}[/$$]
 </div>
 
 <p><strong>特征稀疏性</strong>是指特征向量的稀疏性；<strong>模型稀疏性</strong>是指模型权重的稀疏性。</p>
@@ -1143,7 +1143,7 @@ tf.Example (Google 的机器学习术语表)|"
 正例率（true positive rate, 简称 TP 率） (Google 的机器学习术语表)|"
 <p>与<a href=""https://developers.google.com/machine-learning/glossary/#recall""><strong>召回率</strong></a>的含义相同，即：</p>
 <div>
-$$\text{正例率} = \frac{\text{正例数}} {\text{正例数} + \text{假负例数}}$$
+[$$]\text{正例率} = \frac{\text{正例数}} {\text{正例数} + \text{假负例数}}[/$$]
 </div>
 
 <p>正例率是 <a href=""https://developers.google.com/machine-learning/glossary/#ROC""><strong>ROC 曲线</strong></a>的 y 轴。</p>
