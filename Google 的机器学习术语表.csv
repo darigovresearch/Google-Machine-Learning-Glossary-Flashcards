@@ -24,7 +24,6 @@ $$\text{准确率} = \frac{\text{正例数} + \text{负例数}} {\text{样本总
 </p><h2 class="hide-from-toc">ROC 曲线下面积 (AUC, Area under the ROC Curve)</h2><p></p>
 <p>一种会考虑所有可能<a href="#classification_threshold"><strong>分类阈值</strong></a>的评估指标。</p>
 <p><a href="#ROC">ROC 曲线</a>下面积是，对于随机选择的正类别样本确实为正类别，以及随机选择的负类别样本为正类别，分类器更确信前者的概率。</p>
-<h2 class="glossary">B</h2>
 
 <p><a name="backpropagation"></a>
 </p><h2 class="hide-from-toc">反向传播算法 (backpropagation)</h2><p></p>
@@ -56,7 +55,6 @@ $$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 </p><p><a name="bucketing"></a>
 </p><h2 class="hide-from-toc">分桶 (bucketing)</h2><p></p>
 <p>将一个特征（通常是<a href="#continuous_feature"><strong>连续</strong></a>特征）转换成多个二元特征（称为桶或箱），通常根据值区间进行转换。例如，您可以将温度区间分割为离散分箱，而不是将温度表示成单个连续的浮点特征。假设温度数据可精确到小数点后一位，则可以将介于 0.0 到 15.0 度之间的所有温度都归入一个分箱，将介于 15.1 到 30.0 度之间的所有温度归入第二个分箱，并将介于 30.1 到 50.0 度之间的所有温度归入第三个分箱。</p>
-<h2 class="glossary">C</h2>
 
 <p><a name="calibration_layer"></a>
 </p><h2 class="hide-from-toc">校准层 (calibration layer)</h2><p></p>
@@ -242,7 +240,6 @@ $$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 </p><h2 class="hide-from-toc">自定义 Estimator (custom Estimator)</h2><p></p>
 <p>您按照<a href="https://www.tensorflow.org/extend/estimators">这些说明</a>自行编写的 <a href="#Estimators"><strong>Estimator</strong></a>。</p>
 <p>与<a href="#pre-made_Estimator"><strong>预创建的 Estimator</strong></a> 相对。</p>
-<h2 class="glossary">D</h2>
 
 <p><a name="data_analysis"></a>
 </p><h2 class="hide-from-toc">数据分析 (data analysis)</h2><p></p>
@@ -286,7 +283,6 @@ $$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 <p><a name="dynamic_model"></a>
 </p><h2 class="hide-from-toc">动态模型 (dynamic model)</h2><p></p>
 <p>一种<a href="#model"><strong>模型</strong></a>，以持续更新的方式在线接受训练。也就是说，数据会源源不断地进入这种模型。</p>
-<h2 class="glossary">E</h2>
 
 <p><a name="early_stopping"></a>
 </p><h2 class="hide-from-toc">早停法 (early stopping)</h2><p></p>
@@ -320,7 +316,6 @@ $$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 <p><a name="example"></a>
 </p><h2 class="hide-from-toc">样本 (example)</h2><p></p>
 <p>数据集的一行。一个样本包含一个或多个<a href="#feature"><strong>特征</strong></a>，此外还可能包含一个<a href="#label"><strong>标签</strong></a>。另请参阅<a href="#labeled_example"><strong>有标签样本</strong></a>和<a href="#unlabeled_example"><strong>无标签样本</strong></a>。</p>
-<h2 class="glossary">F</h2>
 
 <p><a name="FN"></a>
 </p><h2 class="hide-from-toc">假负例 (FN, false negative)</h2><p></p>
@@ -373,7 +368,6 @@ $$\text{假正例率} = \frac{\text{假正例数}}{\text{假正例数} + \text{�
 </p><h2 class="hide-from-toc">全连接层 (fully connected layer)</h2><p></p>
 <p>一种<a href="#hidden_layer"><strong>隐藏层</strong></a>，其中的每个<a href="#node"><strong>节点</strong></a>均与下一个隐藏层中的每个节点相连。<em></em></p>
 <p>全连接层又称为<a href="#dense_layer"><strong>密集层</strong></a>。</p>
-<h2 class="glossary">G</h2>
 
 </p><p><a name="generalization"></a>
 </p><h2 class="hide-from-toc">泛化 (generalization)</h2><p></p>
@@ -405,7 +399,6 @@ $$\text{假正例率} = \frac{\text{假正例数}}{\text{假正例数} + \text{�
 <p><a name="graph"></a>
 </p><h2 class="hide-from-toc">图 (graph)</h2><p></p>
 <p>TensorFlow 中的一种计算规范。图中的节点表示操作。边缘具有方向，表示将某项操作的结果（一个<a href="https://www.tensorflow.org/api_docs/python/tf/Tensor">张量</a>）作为一个操作数传递给另一项操作。可以使用 <a href="#TensorBoard"><strong>TensorBoard</strong></a> 直观呈现图。</p>
-<h2 class="glossary">H</h2>
 
 <p><a name="heuristic"></a>
 </p><h2 class="hide-from-toc">启发法 (heuristic)</h2><p></p>
@@ -442,7 +435,6 @@ $$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 <p><a name="hyperplane"></a>
 </p><h2 class="hide-from-toc">超平面 (hyperplane)</h2><p></p>
 <p>将一个空间划分为两个子空间的边界。例如，在二维空间中，直线就是一个超平面，在三维空间中，平面则是一个超平面。在机器学习中更典型的是：超平面是分隔高维度空间的边界。<a href="#KSVMs"><strong>核支持向量机</strong></a>利用超平面将正类别和负类别区分开来（通常是在极高维度空间中）。</p>
-<h2 class="glossary">I</h2>
 
 <p><a name="iid"></a>
 </p><h2 class="hide-from-toc">独立同等分布 (i.i.d, independently and identically distributed)</h2><p></p>
@@ -468,7 +460,6 @@ $$y' = b + w_1x_1 + w_2x_2 + … w_nx_n$$
 <p><a name="iteration"></a>
 </p><h2 class="hide-from-toc">迭代 (iteration)</h2><p></p>
 <p>模型的权重在训练期间的一次更新。迭代包含计算参数在单<a href="#batch"><strong>批次</strong></a>数据上的梯度损失。</p>
-<h2 class="glossary">K</h2>
 
 <p><a name="k-means"></a>
 </p><h2 class="hide-from-toc">k-means</h2><p></p>
@@ -518,7 +509,6 @@ $${\text{曼哈顿距离}} = \lvert 2-5 \rvert + \lvert 2--2 \rvert = 7$$
 <p><a name="KSVMs"></a>
 </p><h2 class="hide-from-toc">核支持向量机 (KSVM, Kernel Support Vector Machines)</h2><p></p>
 <p>一种分类算法，旨在通过将输入数据向量映射到更高维度的空间，来最大化<a href="#positive_class"><strong>正类别</strong></a>和<a href="#negative_class"><strong>负类别</strong></a>之间的裕度。以某个输入数据集包含一百个特征的分类问题为例。为了最大化正类别和负类别之间的裕度，KSVM 可以在内部将这些特征映射到百万维度的空间。KSVM 使用<a href="#hinge-loss">合页损失函数</a>。</p>
-<h2 class="glossary">L</h2>
 
 <p><a name="L1_loss"></a>
 </p><h2 class="hide-from-toc">L<sub>1</sub> 损失函数 (L₁ loss)</h2><p></p>
@@ -592,7 +582,6 @@ $${\text{对数几率}} = ln(9) ~= 2.2$$
 <p><a name="loss"></a>
 </p><h2 class="hide-from-toc">损失 (Loss)</h2><p></p>
 <p>一种衡量指标，用于衡量模型的<a href="#prediction"><strong>预测</strong></a>偏离其<a href="#label"><strong>标签</strong></a>的程度。或者更悲观地说是衡量模型有多差。要确定此值，模型必须定义损失函数。例如，线性回归模型通常将<a href="#MSE"><strong>均方误差</strong></a>用作损失函数，而逻辑回归模型则使用<a href="#Log_Loss"><strong>对数损失函数</strong></a>。</p>
-<h2 class="glossary">M</h2>
 
 <p><a name="machine_learning"></a>
 </p><h2 class="hide-from-toc">机器学习 (machine learning)</h2><p></p>
@@ -638,7 +627,6 @@ $${\text{对数几率}} = ln(9) ~= 2.2$$
 <p><a name="multinomial_classification"></a>
 </p><h2 class="hide-from-toc">多项分类 (multinomial classification)</h2><p></p>
 <p>与<a href="#multi-class"><strong>多类别分类</strong></a>的含义相同。</p>
-<h2 class="glossary">N</h2>
 
 <p><a name="NaN_trap"></a>
 </p><h2 class="hide-from-toc">NaN 陷阱 (NaN trap)</h2><p></p>
@@ -672,7 +660,6 @@ $${\text{对数几率}} = ln(9) ~= 2.2$$
 <p><a name="numpy"></a>
 </p><h2 class="hide-from-toc">Numpy</h2><p></p>
 <p>一个<a href="http://www.numpy.org/">开放源代码数学库</a>，在 Python 中提供高效的数组操作。<a href="#pandas"><strong>Pandas</strong></a> 建立在 Numpy 之上。</p>
-<h2 class="glossary">O</h2>
 
 <p><a name="objective"></a>
 </p><h2 class="hide-from-toc">目标 (objective)</h2><p></p>
@@ -731,7 +718,6 @@ $${\text{对数几率}} = ln(9) ~= 2.2$$
 <p><a name="overfitting"></a>
 </p><h2 class="hide-from-toc">过拟合 (overfitting)</h2><p></p>
 <p>创建的模型与<a href="#training_set"><strong>训练数据</strong></a>过于匹配，以致于模型无法根据新数据做出正确的预测。</p>
-<h2 class="glossary">P</h2>
 
 <p><a name="pandas"></a>
 </p><h2 class="hide-from-toc">Pandas</h2><p></p>
@@ -809,12 +795,10 @@ $$\text{精确率} = \frac{\text{正例数}} {\text{正例数} + \text{假正例
 <p><a name="prior_belief"></a>
 </p><h2 class="hide-from-toc">先验信念 (prior belief)</h2><p></p>
 <p>在开始采用相应数据进行训练之前，您对这些数据抱有的信念。例如，<a href="#L2_regularization"><strong>L<sub>2</sub> 正则化</strong></a>依赖的先验信念是<a href="#weight"><strong>权重</strong></a>应该很小且应以 0 为中心呈正态分布。</p>
-<h2 class="glossary">Q</h2>
 
 <p><a name="queue"></a>
 </p><h2 class="hide-from-toc">队列 (queue)</h2><p></p>
 <p>一种 TensorFlow <a href="#Operation"><strong>操作</strong></a>，用于实现队列数据结构。通常用于 I/O 中。</p>
-<h2 class="glossary">R</h2>
 
 <p><a name="rank"></a>
 </p><h2 class="hide-from-toc">等级 (rank)</h2><p></p>
@@ -873,7 +857,6 @@ $$\text{最小化(损失方程 + }\lambda\text{(正则化方程))}$$
 </p><h2 class="hide-from-toc">旋转不变性 (rotational invariance)</h2><p></p>
 <p>在图像分类问题中，即使图像的方向发生变化，算法也能成功地对图像进行分类。例如，无论网球拍朝上、侧向还是朝下放置，该算法仍然可以识别它。请注意，并非总是希望旋转不变；例如，倒置的“9”不应分类为“9”。</p>
 <p>另请参阅<a href="#translational_invariance"><strong>平移不变性</strong></a>和<a href="#size_invariance"><strong>大小不变性</strong></a>。</p>
-<h2 class="glossary">S</h2>
 
 <p><a name="SavedModel"></a>
 </p><h2 class="hide-from-toc">SavedModel</h2><p></p>
@@ -1091,7 +1074,6 @@ $${\text{稀疏性}} = \frac{\text{98}} {\text{100}} = {\text{0.98}}$$
 <li>创建一个<a href="#feature_cross"><strong>特征组合</strong></a>。</li>
 </ul>
 <p>仅通过<a href="#normalization"><strong>标准化</strong></a>或<a href="#scaling"><strong>缩放</strong></a>创建的特征不属于合成特征。</p>
-<h2 class="glossary">T</h2>
 
 <p><a name="target"></a>
 </p><h2 class="hide-from-toc">目标 (target)</h2><p></p>
@@ -1166,7 +1148,6 @@ $$\text{正例率} = \frac{\text{正例数}} {\text{正例数} + \text{假负例
 </div>
 
 <p>正例率是 <a href="#ROC"><strong>ROC 曲线</strong></a>的 y 轴。</p>
-<h2 class="glossary">U</h2>
 
 <p><a name="unlabeled_example"></a>
 </p><h2 class="hide-from-toc">无标签样本 (unlabeled example)</h2><p></p>
@@ -1177,13 +1158,12 @@ $$\text{正例率} = \frac{\text{正例数}} {\text{正例数} + \text{假负例
 <p>非监督式机器学习最常见的用途是将数据分为不同的聚类，使相似的样本位于同一组中。例如，非监督式机器学习算法可以根据音乐的各种属性将歌曲分为不同的聚类。所得聚类可以作为其他机器学习算法（例如音乐推荐服务）的输入。在很难获取真标签的领域，聚类可能会非常有用。例如，在反滥用和反欺诈等领域，聚类有助于人们更好地了解相关数据。</p>
 <p>非监督式机器学习的另一个例子是<a href="https://en.wikipedia.org/wiki/Principal_component_analysis"><strong>主成分分析 (PCA)</strong></a>。例如，通过对包含数百万购物车中物品的数据集进行主成分分析，可能会发现有柠檬的购物车中往往也有抗酸药。</p>
 <p>请与<a href="#supervised_machine_learning"><strong>监督式机器学习</strong></a>进行比较。</p>
-<h2 class="glossary">V</h2>
 
 <p><a name="validation_set"></a>
 </p><h2 class="hide-from-toc">验证集 (validation set)</h2><p></p>
 <p>数据集的一个子集，从训练集分离而来，用于调整<a href="#hyperparameter"><strong>超参数</strong></a>。</p>
 <p>与<a href="#training_set"><strong>训练集</strong></a>和<a href="#test_set"><strong>测试集</strong></a>相对。</p>
-</p><h2 class="glossary">W</h2>
+</p>
 
 <p><a name="weight"></a>
 </p><h2 class="hide-from-toc">权重 (weight)</h2><p></p>
