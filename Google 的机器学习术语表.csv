@@ -90,13 +90,13 @@ ROC 曲线下面积 (AUC, Area under the ROC Curve) (Google 的机器学习术�
 <p>将关联的<a href=""https://developers.google.com/machine-learning/glossary/#example""><strong>样本</strong></a>分成一组，一般用于<a href=""https://developers.google.com/machine-learning/glossary/#unsupervised_machine_learning""><strong>非监督式学习</strong></a>。在所有样本均分组完毕后，相关人员便可选择性地为每个聚类赋予含义。</p>
 <p>聚类算法有很多。例如，<a href=""https://developers.google.com/machine-learning/glossary/#k-means""><strong>k-means</strong></a> 算法会基于样本与<a href=""https://developers.google.com/machine-learning/glossary/#centroid""><strong>形心</strong></a>的接近程度聚类样本，如下图所示：</p>
 <p>
-<img src=""/machine-learning/glossary/images/Cluster.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/Cluster.svg"">
 </p>
 
 <p>之后，研究人员便可查看这些聚类并进行其他操作，例如，将聚类 1 标记为“矮型树”，将聚类 2 标记为“全尺寸树”。</p>
 <p>再举一个例子，例如基于样本与中心点距离的聚类算法，如下所示：</p>
 <p>
-<img src=""/machine-learning/glossary/images/RingCluster.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/RingCluster.svg"">
 </p>
 
 "
@@ -141,12 +141,12 @@ ROC 曲线下面积 (AUC, Area under the ROC Curve) (Google 的机器学习术�
 凸函数 (convex function) (Google 的机器学习术语表)|"
 <p>一种函数，函数图像以上的区域为<a href=""https://developers.google.com/machine-learning/glossary/#convex_set""><strong>凸集</strong></a>。典型凸函数的形状类似于字母 <strong>U</strong>。例如，以下都是凸函数：</p>
 <p>
-<img src=""/machine-learning/glossary/images/convex_functions.png"" height=""300"" alt=""典型凸函数的形状类似于字母 U。""/>
+<img src=""https://developers.google.com/machine-learning/glossary/images/convex_functions.png"" height=""300"" alt=""典型凸函数的形状类似于字母 U。""/>
 </p>
 
 <p>相反，以下函数则不是凸函数。请注意图像上方的区域如何不是凸集：</p>
 <p>
-<img src=""/machine-learning/glossary/images/nonconvex_function.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/nonconvex_function.svg"">
 </p>
 
 <p><strong>严格凸函数</strong>只有一个局部最低点，该点也是全局最低点。经典的 U 形函数都是严格凸函数。不过，有些凸函数（例如直线）则不是这样。</p>
@@ -168,12 +168,12 @@ ROC 曲线下面积 (AUC, Area under the ROC Curve) (Google 的机器学习术�
 凸集 (convex set) (Google 的机器学习术语表)|"
 <p>欧几里得空间的一个子集，其中任意两点之间的连线仍完全落在该子集内。例如，下面的两个图形都是凸集：</p>
 <p>
-<img src=""/machine-learning/glossary/images/convex_set.png"" alt=""矩形和半椭圆形都是凸集。""/>
+<img src=""https://developers.google.com/machine-learning/glossary/images/convex_set.png"" alt=""矩形和半椭圆形都是凸集。""/>
 </p>
 
 <p>相反，下面的两个图形都不是凸集：</p>
 <p>
-<img src=""/machine-learning/glossary/images/nonconvex_set.png"" alt=""缺少一块的饼图以及烟花图都是非凸集。""/>
+<img src=""https://developers.google.com/machine-learning/glossary/images/nonconvex_set.png"" alt=""缺少一块的饼图以及烟花图都是非凸集。""/>
 </p>
 
 "
@@ -189,12 +189,12 @@ ROC 曲线下面积 (AUC, Area under the ROC Curve) (Google 的机器学习术�
 卷积层 (convolutional layer) (Google 的机器学习术语表)|"
 <p>深度神经网络的一个层，<a href=""https://developers.google.com/machine-learning/glossary/#convolutional_filter""><strong>卷积过滤器</strong></a>会在其中传递输入矩阵。以下面的 3x3 <a href=""https://developers.google.com/machine-learning/glossary/#convolutional_filter""><strong>卷积过滤器</strong></a>为例：</p>
 <p>
-<img src=""/machine-learning/glossary/images/ConvolutionalFilter33.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/ConvolutionalFilter33.svg"">
 </p>
 
 <p>下面的动画显示了一个由 9 个卷积运算（涉及 5x5 输入矩阵）组成的卷积层。请注意，每个卷积运算都涉及一个不同的 3x3 输入矩阵切片。由此产生的 3×3 矩阵（右侧）就包含 9 个卷积运算的结果：</p>
 <p>
-<img src=""/machine-learning/glossary/images/AnimatedConvolution.gif""/>
+<img src=""https://developers.google.com/machine-learning/glossary/images/AnimatedConvolution.gif""/>
 </p>
 
 "
@@ -215,17 +215,17 @@ ROC 曲线下面积 (AUC, Area under the ROC Curve) (Google 的机器学习术�
 </ol>
 <p>以下面的 5x5 输入矩阵为例：</p>
 <p>
-<img src=""/machine-learning/glossary/images/ConvolutionalLayerInputMatrix.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/ConvolutionalLayerInputMatrix.svg"">
 </p>
 
 <p>现在，以下面这个 2x2 卷积过滤器为例：</p>
 <p>
-<img src=""/machine-learning/glossary/images/ConvolutionalLayerFilter.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/ConvolutionalLayerFilter.svg"">
 </p>
 
 <p>每个卷积运算都涉及一个 2x2 输入矩阵切片。例如，假设我们使用输入矩阵左上角的 2x2 切片。这样一来，对此切片进行卷积运算将如下所示：</p>
 <p>
-<img src=""/machine-learning/glossary/images/ConvolutionalLayerOperation.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/ConvolutionalLayerOperation.svg"">
 </p>
 
 <p><a href=""https://developers.google.com/machine-learning/glossary/#convolutional_layer""><strong>卷积层</strong></a>由一系列卷积运算组成，每个卷积运算都针对不同的输入矩阵切片。</p>
@@ -257,7 +257,7 @@ Dataset API (tf.data) (Google 的机器学习术语表)|"
 决策边界 (decision boundary) (Google 的机器学习术语表)|"
 <p>在<a href=""https://developers.google.com/machine-learning/glossary/#binary_classification""><strong>二元分类</strong></a>或<a href=""https://developers.google.com/machine-learning/glossary/#multi-class""><strong>多类别分类问题</strong></a>中，模型学到的类别之间的分界线。例如，在以下表示某个二元分类问题的图片中，决策边界是橙色类别和蓝色类别之间的分界线：</p>
 <p>
-<img src=""/machine-learning/glossary/images/decision_boundary.png"" alt=""两种类别之间明确定义的边界。""/>
+<img src=""https://developers.google.com/machine-learning/glossary/images/decision_boundary.png"" alt=""两种类别之间明确定义的边界。""/>
 </p>
 
 "
@@ -421,7 +421,7 @@ Estimator (Google 的机器学习术语表)|"
 <p>“y”表示真标签，值为 -1 或 +1。<em></em></p>
 <p>因此，合页损失与 (y * y') 的关系图如下所示：</p>
 <p>
-<img src=""/machine-learning/glossary/images/hinge-loss.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/hinge-loss.svg"">
 </p>
 
 "
@@ -470,12 +470,12 @@ k-means (Google 的机器学习术语表)|"
 <p>k-means 算法会挑选形心位置，以最大限度地减小每个样本与其最接近形心之间的距离的累积平方。<em></em></p>
 <p>以下面的小狗高度与小狗宽度的关系图为例：</p>
 <p>
-<img src=""/machine-learning/glossary/images/DogDimensions.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/DogDimensions.svg"">
 </p>
 
 <p>如果 k=3，则 k-means 算法会确定三个形心。每个样本都被分配到与其最接近的形心，最终产生三个组：</p>
 <p>
-<img src=""/machine-learning/glossary/images/DogDimensionsKMeans.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/DogDimensionsKMeans.svg"">
 </p>
 
 <p>假设制造商想要确定小、中和大号狗毛衣的理想尺寸。在该聚类中，三个形心用于标识每只狗的平均高度和平均宽度。因此，制造商可能应该根据这三个形心确定毛衣尺寸。请注意，聚类的形心通常不是聚类中的样本。<em></em></p>
@@ -758,12 +758,12 @@ Pandas (Google 的机器学习术语表)|"
 池化 (pooling) (Google 的机器学习术语表)|"
 <p>将一个或多个由前趋的<a href=""https://developers.google.com/machine-learning/glossary/#convolutional_layer""><strong>卷积层</strong></a>创建的矩阵压缩为较小的矩阵。池化通常是取整个池化区域的最大值或平均值。以下面的 3x3 矩阵为例：</p>
 <p>
-<img src=""/machine-learning/glossary/images/PoolingStart.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/PoolingStart.svg"">
 </p>
 
 <p>池化运算与卷积运算类似：将矩阵分割为多个切片，然后按<a href=""https://developers.google.com/machine-learning/glossary/#stride""><strong>步长</strong></a>逐个运行卷积运算。例如，假设池化运算按 1x1 步长将卷积矩阵分割为 2x2 个切片。如下图所示，进行了四个池化运算。假设每个池化运算都选择该切片中四个值的最大值：</p>
 <p>
-<img src=""/machine-learning/glossary/images/PoolingConvolution.svg"">
+<img src=""https://developers.google.com/machine-learning/glossary/images/PoolingConvolution.svg"">
 </p>
 
 <p>池化有助于在输入矩阵中实现<a href=""https://developers.google.com/machine-learning/glossary/#translational_invariance""><strong>平移不变性</strong></a>。</p>
@@ -1051,7 +1051,7 @@ softmax (Google 的机器学习术语表)|"
 步长 (stride) (Google 的机器学习术语表)|"
 <p>在卷积运算或池化中，下一个系列的输入切片的每个维度中的增量。例如，下面的动画演示了卷积运算过程中的一个 (1,1) 步长。因此，下一个输入切片是从上一个输入切片向右移动一个步长的位置开始。当运算到达右侧边缘时，下一个切片将回到最左边，但是下移一个位置。</p>
 <p>
-<img src=""/machine-learning/glossary/images/AnimatedConvolution.gif""/>
+<img src=""https://developers.google.com/machine-learning/glossary/images/AnimatedConvolution.gif""/>
 </p>
 
 <p>前面的示例演示了一个二维步长。如果输入矩阵为三维，那么步长也将是三维。</p>
