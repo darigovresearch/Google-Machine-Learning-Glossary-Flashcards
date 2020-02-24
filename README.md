@@ -15,7 +15,7 @@ Please note the modifications which have been made & where you can find updates.
 Feel free to share the deck and give the repository a star so more people can get the most out of it.
 
 ## Usage
-If you want to just learn the words, download <a href="https://apps.ankiweb.net/">Anki</a> on your device of choice and open the .apkg file to add it into your collection. If you wish to build the deck from scratch you will need to import the .csv file via the desktop with HTML enabled and the separator to be "|". You will also need to have a LaTeX distribution installed for certain formulae in certain definitions to be rendered correctly.
+If you want to just learn the words, download <a href="https://apps.ankiweb.net/">Anki</a> on your device of choice and open the .apkg file to add it into your collection. If you wish to build the deck from scratch you will need to import the .csv file via the desktop with HTML enabled and the separator to be `|`. You will also need to have a LaTeX distribution installed for certain formulae in certain definitions to be rendered correctly.
 
 ## Potential improvements yet to be made
 1. To find a way to systematically pull the definitions from so that any corrections or additions are automatically updated.

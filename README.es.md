@@ -15,7 +15,7 @@ Tenga en cuenta las modificaciones que han sido realizadas y donde puede encontr
 Siéntete libre de compartir el mazo y darle una estrella al repositorio, así más gente pueda aprovecharlo al máximo.
 
 ## Modo de uso
-Si solo quieres aprender las palabras, descarga <a href="https://apps.ankiweb.net/">Anki</a> en tu dispositivo preferido y abre el archivo con extensión .apkg para agregarlo a tu colección. Si deseas crear el mazo desde cero, tienes que importar el archivos .csv desde el escritorio con la opción HTML habilitado, y utilizar el separador "|". También podrías necesitar tener una distribución LaTeX para que algunas fórmulas sean mostradas correctamente.
+Si solo quieres aprender las palabras, descarga <a href="https://apps.ankiweb.net/">Anki</a> en tu dispositivo preferido y abre el archivo con extensión .apkg para agregarlo a tu colección. Si deseas crear el mazo desde cero, tienes que importar el archivos .csv desde el escritorio con la opción HTML habilitado, y utilizar el separador `|`. También podrías necesitar tener una distribución LaTeX para que algunas fórmulas sean mostradas correctamente.
 
 ## Mejoras a realizar
 1. Buscar una forma de obtener las definiciones sistemáticamente, para que las correcciones o modificación sean actualizadas automáticamente.
