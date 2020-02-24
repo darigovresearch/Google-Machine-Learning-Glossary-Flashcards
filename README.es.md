@@ -1,4 +1,4 @@
-Este README también está disponible en [en](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/blob/master/README.md) [fr](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/blob/master/README.fr.md) [ko](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/blob/master/README.ko.md) [zh](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/blob/master/README.zh.md)
+Este README también está disponible en [Inglés `[en]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/blob/master/README.md) [Francés `[fr]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/blob/master/README.fr.md) [Koreano `[ko]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/blob/master/README.ko.md) [Chino `[zh]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/blob/master/README.zh.md)
 # Google-Machine-Learning-Glossary-Flashcards
 Este repositorio contiene Flashcards para Anki y el código fuente para repasar los términos de Machine Learning.
 
