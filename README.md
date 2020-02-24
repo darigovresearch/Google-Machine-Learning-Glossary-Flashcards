@@ -1,3 +1,4 @@
+This readme is also avaiable in :es:(https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/blob/master/README.es.md) :fr:() :kr:() :zh:() 
 # Google-Machine-Learning-Glossary-Flashcards
 Repository containing Anki Flashcards &amp; source code to revise Machine Learning terms
 
