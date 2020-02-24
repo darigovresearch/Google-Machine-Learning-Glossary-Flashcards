@@ -3,30 +3,30 @@ Este README también está disponible en [en](https://github.com/darigovresearch
 Este repositorio contiene Flashcards para Anki y el código fuente para repasar los términos de Machine Learning.
 
 ## Introduction
-Este repositorio ha tomado las definiciones resumidas en [Glosario sobre Aprendizaje Automático de Google](https://developers.google.com/machine-learning/glossary/) y han sido redactadas facilmente para poder ser aprendidas/repasadas usando <a href="https://apps.ankiweb.net/">Anki</a> una aplicación multiplataforma.
+Este repositorio ha tomado las definiciones resumidas en [Glosario sobre Aprendizaje Automático de Google](https://developers.google.com/machine-learning/glossary/) y han sido redactadas facilmente para poder ser aprendidas/repasadas usando <a href="https://apps.ankiweb.net/">Anki</a> multiplataforma.
 
-##Notas
+## Notas
 Tenga en cuenta las modificaciones que han sido realizadas y donde puede encontrar actualizaciones.
-1. Cada tarjeta tiene agregado al final el "(Glosario sobre Aprendizaje Automático de Google)", ya que si tienes alguna otra palabra en tu colección las definiciones de Google se añadirán cuando lo importes.
-2. Las URL's relativas originales han sido cambiadas a URL's absolutas para que cuando clickes en ellas funcionen en Anki.
+1. Cada tarjeta tiene agregado al final el "(Glosario sobre Aprendizaje Automático de Google)", ya que si tienes alguna otra palabra de Machine Learning en tu colección, las definiciones de Google se añadirán cuando lo importes.
+2. Las URL's relativas originales han sido cambiadas a URL's absolutas, para que cuando clickes en ellas funcionen en Anki.
 3. Todas las fórmulas LaTeX han sido envueltas con texto para asegurar que funcionen con Anki.
-4. Cualquier actualizacion, traducción o corrección al maso estarán disponibles en <a href="https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards">https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards</a>, así que vuelve y revisa periodicamente su tienes la última versión.
+4. Cualquier actualizacion, traducción o corrección al mazo estarán disponibles en <a href="https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards">https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards</a>, así que regresa periodicamente y revisa si tienes la última versión.
 
-Siéntete libre de compartir el mazo y darle una estrella al repositorio para que más gente pueda aprovecharlo al máximo.
+Siéntete libre de compartir el mazo y darle una estrella al repositorio, así más gente pueda aprovecharlo al máximo.
 
-##Modo de uso
-Si solo quieres aprender las palabras, descarla <a href="https://apps.ankiweb.net/">Anki</a> en tu dispositivo preferido y abre el archivo con extensión .apkg para agregarlo a tu colección. Si deseas crear el mazo desde cero, tienes que importar el archivos .csv desde el escritorio con la opción HTML habilitado, y utilizar el separador "|". También podrías necesitar tener una distribución LaTeX para que algunas fórmulas sean mostradas correctamente.
+## Modo de uso
+Si solo quieres aprender las palabras, descarga <a href="https://apps.ankiweb.net/">Anki</a> en tu dispositivo preferido y abre el archivo con extensión .apkg para agregarlo a tu colección. Si deseas crear el mazo desde cero, tienes que importar el archivos .csv desde el escritorio con la opción HTML habilitado, y utilizar el separador "|". También podrías necesitar tener una distribución LaTeX para que algunas fórmulas sean mostradas correctamente.
 
-##Mejoras que aún podrían hacerse
+## Mejoras a realizar
 1. Buscar una forma de obtener las definiciones sistemáticamente, para que las correcciones o modificación sean actualizadas automáticamente.
 2. Buscar una manera de guardar las imágenes localmente, ya que actualmente si no tienes conexión a internet puedas ver cualquier imagen del mazo.
 3. Traducir el mazo en más lenguajes actualmente no disponible, para que más gente alrededor del mundo pueda aprender del tema. Todas las traducciones se encontrarán en los links de arriba y estaremos más que felices de agregar todas las traducciones que sean enviadas.
 
-##Contribuciones
+## Contribuciones
 Pull request, correcciones y mejoras son bienvenidas. Cualquier contribución deberá ser enviada debajo la misma licencia que el trabajo original (ver debajo). Echa un vistazo a cualquier issue abierta o envía nuevas si hay algo que tiene que ser corregido o agregado.
 
 ### Traducciones para otros lenguajes
-Traducciones en todos los lenguajes son bienvenidos. Envía un Pull request o abre un issue en cualquier momento.
+Traducciones de todos los lenguajes son bienvenidos. Envía un Pull request o abre un issue en cualquier momento.
 
 **Por Favor agregar al inicio la etiqueta `[lang-code]` a tu issues y pull requests.** Por ejemplo, [fr] para francés. Esto ayudará a identificar correctamente lo que cada persona necesita.
 
