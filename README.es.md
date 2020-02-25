@@ -1,13 +1,13 @@
-Este README también está disponible en [English `[en]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/blob/master/README.md) [Français `[fr]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/blob/master/README.fr.md) [한국인 `[ko]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/blob/master/README.ko.md) [中文 `[zh]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/blob/master/README.zh.md)
 # Google-Machine-Learning-Glossary-Flashcards
-Este repositorio contiene Flashcards para Anki y el código fuente para repasar los términos de Machine Learning.
+Este repositorio contiene Flashcards para Anki y el código fuente para repasar los términos de Aprendizaje Automático.
 
 ## Introduction
 Este repositorio ha tomado las definiciones resumidas en [Glosario sobre Aprendizaje Automático de Google](https://developers.google.com/machine-learning/glossary/) y han sido redactadas facilmente para poder ser aprendidas/repasadas usando <a href="https://apps.ankiweb.net/">Anki</a> multiplataforma.
+Este README también está disponible en [English `[en]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/blob/master/README.md) [Français `[fr]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/issues/1) [한국인 `[ko]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/issues/8) [中文 `[zh]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/issues/5)
 
 ## Notas
 Tenga en cuenta las modificaciones que han sido realizadas y donde puede encontrar actualizaciones.
-1. Cada tarjeta tiene agregado al final el "(Glosario sobre Aprendizaje Automático de Google)", ya que si tienes alguna otra palabra de Machine Learning en tu colección, las definiciones de Google se añadirán cuando lo importes.
+1. Cada tarjeta tiene agregado al final el "(Glosario sobre Aprendizaje Automático de Google)", ya que si tienes alguna otra palabra de Aprendizaje Automático en tu colección, las definiciones de Google se añadirán cuando lo importes.
 2. Las URL's relativas originales han sido cambiadas a URL's absolutas, para que cuando clickes en ellas funcionen en Anki.
 3. Todas las fórmulas LaTeX han sido envueltas con texto para asegurar que funcionen con Anki.
 4. Cualquier actualizacion, traducción o corrección al mazo estarán disponibles en <a href="https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards">https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards</a>, así que regresa periodicamente y revisa si tienes la última versión.
