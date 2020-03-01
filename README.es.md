@@ -2,7 +2,8 @@
 Este repositorio contiene Flashcards para Anki y el código fuente para repasar los términos de Aprendizaje Automático.
 
 ## Introduction
-Este repositorio ha tomado las definiciones resumidas en [Glosario sobre Aprendizaje Automático de Google](https://developers.google.com/machine-learning/glossary/) y han sido redactadas facilmente para poder ser aprendidas/repasadas usando <a href="https://apps.ankiweb.net/">Anki</a> multiplataforma.<br>
+Este repositorio ha tomado las definiciones resumidas en [Glosario sobre Aprendizaje Automático de Google](https://developers.google.com/machine-learning/glossary/) y han sido redactadas facilmente para poder ser aprendidas/repasadas usando <a href="https://apps.ankiweb.net/">Anki</a> multiplataforma.
+
 Este README también está disponible en [English `[en]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/blob/master/README.md) [Français `[fr]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/issues/1) [한국인 `[ko]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/issues/8) [中文 `[zh]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/issues/5)
 
 ## Notas
