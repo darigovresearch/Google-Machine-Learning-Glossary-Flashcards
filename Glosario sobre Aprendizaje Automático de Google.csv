@@ -1,3 +1,20 @@
+Introduction (Glosario sobre Aprendizaje Automático de Google)|"
+
+<p>Este mazo ha tomado las definiciones resumidas en <a href=""https://developers.google.com/machine-learning/glossary/"">Glosario sobre Aprendizaje Automático de Google</a> y han sido ponerlos en una forma para poder ser aprendidas/repasadas fácilmente usando <a href=""https://apps.ankiweb.net/"">Anki</a> una aplicación multiplataforma.</p>
+<h2>Notas</h2>
+<p>Tenga en cuenta las modificaciones que han sido realizadas y donde puede encontrar actualizaciones.</p>
+<ol align=""left"">
+<li>Cada tarjeta tiene agregado al final el ""(Glosario sobre Aprendizaje Automático de Google)"", ya que si tienes alguna otra palabra de Aprendizaje Automático en tu colección, las definiciones de Google se añadirán cuando lo importes.</li>
+<li>Las URL's relativas originales han sido cambiadas a URL's absolutas, para que cuando clickes en ellas funcionen en Anki.</li>
+<li>Todas las fórmulas LaTeX han sido envueltas con texto para asegurar que funcionen con Anki.</li>
+<li>Cualquier actualizacion, traducción o corrección al mazo estarán disponibles en <a href=""https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards""></a><a href=""https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards"">https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards</a>, así que regresa periodicamente y revisa si tienes la última versión.</li>
+</ol>
+<p>Siéntete libre de compartir el mazo y dar una estrella al repositorio, así más gente pueda aprovecharlo al máximo.</p>
+<h2>Licencia</h2>
+<p>Salvo que se indique lo contrario, el contenido de este mazo está autorizado bajo la licencia <a href=""https://creativecommons.org/licenses/by/4.0/"">Creative Commons Attribution 4.0 License</a>, y códigos de ejemplo están autorizados bajo <a href=""https://www.apache.org/licenses/LICENSE-2.0"">Apache 2.0 License</a>. Por más detalles, ver <a href=""https://developers.google.com/site-policies"">Google Developers Site Policies</a>. Java es una marca registrada de Oracle y/o sus asociados.</p>
+<p>Para ver el trabajo completo dirigete a <a href=""https://developers.google.com/machine-learning/glossary/"">https://developers.google.com/machine-learning/glossary/</a></p>
+
+"
 prueba A/B (A/B testing) (Glosario sobre Aprendizaje Automático de Google)|"
 <p>Forma estadística de comparar dos (o más) técnicas, generalmente con una variante nueva contra una de control. La prueba A/B tiene como objetivo determinar no solo qué técnica se desempeña mejor, sino también comprender si la diferencia tiene importancia estadística. Por lo general, la prueba A/B considera solo dos técnicas con una medición, pero se puede aplicar a un número finito de técnicas y mediciones.</p>
 "
