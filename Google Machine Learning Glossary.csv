@@ -2953,7 +2953,7 @@ User Matrix                 Item Matrix
 
 1.1   2.3           0.9   0.2   1.4    2.0   1.2
 0.6   2.0           1.7   1.2   1.2   -0.1   2.1
-2.5   0.5
+2.5   0.5                                       
 </pre>
 
 <p>The dot product of the user matrix and item matrix yields a recommendation
@@ -2984,8 +2984,8 @@ Mean Absolute Error (MAE) (Google Machine Learning Glossary)|"
 <p>An error metric calculated by taking an average of absolute errors.
 In the context of evaluating a model’s accuracy, MAE is the average
 absolute difference between the expected and predicted values across
-all training examples. Specifically, for $n$ examples, for each value
-$y$ and its prediction $\hat{y}$, MAE is defined as follows:</p>
+all training examples. Specifically, for \(n\) examples, for each value
+\(y\) and its prediction \(\hat{y}\), MAE is defined as follows:</p>
 
 <p>\[\text{MAE} = \frac{1}{n}\sum_{i=0}^n | y_i - \hat{y}_i |\]</p>
 
@@ -3753,7 +3753,7 @@ a prior belief that <a href=""https://developers.google.com/machine-learning/glo
 distributed around zero.</p>
 
 "
-proxy ( (Google Machine Learning Glossary)|"
+proxy (sensitive attributes) (Google Machine Learning Glossary)|"
 An attribute used as a stand-in for a
 <a href=""https://developers.google.com/machine-learning/glossary/#sensitive_attribute""><strong>sensitive attribute</strong></a>. For example, an
 individual&#39;s postal code might be used as a proxy for their income,
