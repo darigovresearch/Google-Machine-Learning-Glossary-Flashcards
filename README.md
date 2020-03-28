@@ -24,7 +24,7 @@ If you want to just learn the words, download <a href="https://apps.ankiweb.net/
 3. To translate the deck into different languages so people around the world can learn about the topic. All translations will be found in the link above & we are happy to incorporate any translations that have been submitted.
 
 ## Contributing
-Pull requests, corrections & fixes are welcome. Any contributions must be submitted under the same license that the original piece of work  (see below). Take a look at any open issues or submit new ones if there is something that needs to be fixed or added. 
+Pull requests, corrections & fixes are welcome. Any contributions must be submitted under the same license that the original piece of work  (see below). Take a look at any open issues or submit new ones if there is something that needs to be fixed or added.
 
 ### Translating for other languages
 Translations in all languages are welcome. Send a pull request or open an issue any time of day or night.
@@ -32,6 +32,8 @@ Translations in all languages are welcome. Send a pull request or open an issue 
 **Please prepend the tag `[lang-code]` to your issues and pull requests.** For example, `[fr]` for French. This will help everyone pick out things they care about.
 
 We're happy for any contribution in any form, but if you're making more than one major change (i.e. translations for two different languages) it would be super cool of you to make a separate pull request for each one so that someone can review them more effectively and/or individually.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for more guidance and details for making a contribution.
 
 ## License
 <p>Except as otherwise noted, the content of this repository is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 License</a>, and code samples are licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>. For details, see the <a href="https://developers.google.com/site-policies">Google Developers Site Policies</a>. Java is a registered trademark of Oracle and/or its affiliates.</p>
