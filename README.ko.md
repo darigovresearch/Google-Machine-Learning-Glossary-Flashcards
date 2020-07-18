@@ -37,10 +37,7 @@
 컨트리뷰션에 대한 더 자세한 정보와 가이드는 [CONTRIBUTING.md](CONTRIBUTING.md)를 참고하시길 바랍니다.
 
 ## 라이센스
-<p>별도의 경우를 제외하고, 이 repository의 컨텐츠는 
+<p>별도의 경우를 제외하고, 이 repository의 컨텐츠는
  <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 License</a>에 따라 라이센스가 부여되며, 코드 샘플은 <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>에 따라 라이센스가 부여됩니다. 자세한 내용은 <a href="https://developers.google.com/site-policies">Google Developers Site Policies</a>을 참조하십시오. Java는 Oracle 또는 그 계열사의 등록 상표입니다.</p>
 
 현재 진행중인 모든 작업은 https://developers.google.com/machine-learning/glossary/ 에서 확인하실 수 있습니다.
-
-
-
