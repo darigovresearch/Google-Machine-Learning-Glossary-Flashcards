@@ -4,7 +4,7 @@
 ## 소개
 본 저장소는 구글의 머신러닝 용어집 [Google's Machine Learning Glossary](https://developers.google.com/machine-learning/glossary/) 에 서술된 용어들의 정의를 사용하여 해당 용어들을 크로스 플랫폼 앱인 <a href="https://apps.ankiweb.net/">Anki</a>를 이용해 쉽게 배우거나 수정할 수 있는 형태로 만들었습니다.
 
-이 문서는 [스페인어(Español) `[es]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/blob/master/README.es.md)  [프랑스어(Français) `[fr]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/issues/1) [한국어 `[ko]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/blob/master/README.ko.md) [중국어(中文) `[zh]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/issues/5)로도 이용 가능합니다.
+이 문서는 [Español `[es]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/blob/master/README.es.md) [Français `[fr]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/issues/1) [한국어 `[ko]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/blob/master/README.ko.md) [中文 `[zh]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/issues/5)로도 이용 가능합니다.
 
 ## 유의점
 이미 만들어져 있거나 고쳐야 할 부분을 수정하는데 있어 주의를 부탁드립니다.
