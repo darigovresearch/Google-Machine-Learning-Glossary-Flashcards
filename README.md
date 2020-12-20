@@ -26,6 +26,8 @@ If you want to just learn the words, download <a href="https://apps.ankiweb.net/
 ## Contributing
 Pull requests, corrections & fixes are welcome. Any contributions must be submitted under the same license that the original piece of work  (see below). Take a look at any open issues or submit new ones if there is something that needs to be fixed or added.
 
+Watch our video on how to contribute to open source for a complete overview -> [https://www.youtube.com/watch?v=UWA4wyacY2A](https://www.youtube.com/watch?v=UWA4wyacY2A)
+
 ### Translating for other languages
 Translations in all languages are welcome. Send a pull request or open an issue any time of day or night.
 
