@@ -4,7 +4,7 @@ Repository containing Anki Flashcards &amp; source code to revise Machine Learni
 ## Introduction
 This repository has taken definitions outlined in [Google's Machine Learning Glossary](https://developers.google.com/machine-learning/glossary/) and put them into a form which can be easily learnt/revised using <a href="https://apps.ankiweb.net/">Anki</a> a cross platform app.
 
-This README is also avaiable in [Español `[es]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/blob/master/README.es.md)  [Français `[fr]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/issues/1) [한국인 `[ko]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/blob/master/README.ko.md) [中文 `[zh]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/issues/5)
+This README is also avaiable in [Español `[es]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/blob/master/README.es.md)  [Français `[fr]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/blob/master/README.fr.md) [한국인 `[ko]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/blob/master/README.ko.md) [中文 `[zh]`](https://github.com/darigovresearch/Google-Machine-Learning-Glossary-Flashcards/issues/5)
 
 ## Notes
 Please note the modifications which have been made & where you can find updates.
